@@ -224,15 +224,14 @@ def fetch_rising_stars(days=7, min_stars=100):
 
 def generate_rss(repos, title, description):
     """生成 RSS XML"""
-    now = datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S GMT')
+    bj_now = (datetime.utcnow() + timedelta(hours=8)).strftime('%Y-%m-%d %H:%M ')
     
     rss = ET.Element('rss', version='2.0')
-    rss.set('xmlns:media', 'http://search.yahoo.com/mrss/')
     
     channel = ET.SubElement(rss, 'channel')
     ET.SubElement(channel, 'title').text = title
     ET.SubElement(channel, 'description').text = description
-    ET.SubElement(channel, 'pubDate').text = now
+    ET.SubElement(channel, 'pubDate').text = bj_now
     ET.SubElement(channel, 'link').text = 'https://github.com/trending'
     
     for repo in repos:
