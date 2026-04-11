@@ -1,1 +1,1 @@
-# Gihub-trending-rss
+# Github-trending-rss
