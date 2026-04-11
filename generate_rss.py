@@ -200,28 +200,6 @@ def fetch_org_repos(org_name, count=10):
     return repos
 
 
-# ==================== 5. 新星项目 ====================
-
-def fetch_rising_stars(days=7, min_stars=100):
-    since_date = (datetime.utcnow() - timedelta(days=days)).strftime('%Y-%m-%d')
-    url = f'https://api.github.com/search/repositories?q=created:>{since_date}+stars:>{min_stars}&sort=stars&order=desc&per_page=25'
-    resp = requests.get(url, headers=github_api_headers(), timeout=30)
-    resp.raise_for_status()
-    data = resp.json()
-    repos = []
-    for item in data.get('items', [])[:25]:
-        repos.append({
-            'name': item['full_name'],
-            'description': item.get('description', '') or '',
-            'language': item.get('language', '') or '',
-            'stars_num': item.get('stargazers_count', 0),
-            'total_stars': str(item.get('stargazers_count', 0)),
-            'url': item['html_url'],
-            'source': 'rising',
-            'created_at': to_beijing_time(item.get('created_at', '')),
-        })
-    return repos
-
 
 # ==================== 连续上榜（日/周/月出现>=2次） ====================
 
@@ -326,7 +304,6 @@ def generate_summary(all_data, output_dir):
         'topics': all_data.get('topics', {}),
         'releases': all_data.get('releases', []),
         'orgs': all_data.get('orgs', []),
-        'rising': all_data.get('rising', []),
     }
 
     write_file(json.dumps(summary, ensure_ascii=False, indent=2), os.path.join(output_dir, 'summary.json'))
@@ -402,18 +379,7 @@ def main():
         if all_org_repos:
             write_file(generate_json(all_org_repos, 'Orgs'), os.path.join(output_dir, 'orgs', 'all.json'))
 
-    # ===== 5. 新星项目 =====
-    if GITHUB_TOKEN:
-        print('\n🌟 Rising Stars...')
-        try:
-            repos = fetch_rising_stars(days=7, min_stars=100)
-            all_data['rising'] = repos
-            write_file(generate_json(repos, 'Rising Stars'), os.path.join(output_dir, 'rising', 'weekly.json'))
-            print(f'  ✅ {len(repos)} rising stars')
-        except Exception as e:
-            print(f'  ❌ {e}')
-
-    # ===== 6. 汇总 =====
+    # ===== 5. 汇总 =====
     print('\n📋 Summary...')
     generate_summary(all_data, output_dir)
 
