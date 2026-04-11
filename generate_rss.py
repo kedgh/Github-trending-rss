@@ -13,14 +13,9 @@ HEADERS = {
 
 # ========== 配置区域 ==========
 
-# 要抓取的编程语言
+# 只抓取全部语言
 LANGUAGES = {
     'all': '',
-    'python': 'python',
-    'javascript': 'javascript',
-    'typescript': 'typescript',
-    'rust': 'rust',
-    'go': 'go',
 }
 
 # 要抓取的 Topics
@@ -55,7 +50,6 @@ GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '')
 
 # ========== 配置结束 ==========
 
-
 def github_api_headers():
     """GitHub API 请求头"""
     h = {
@@ -66,6 +60,16 @@ def github_api_headers():
         h['Authorization'] = f'Bearer {GITHUB_TOKEN}'
     return h
 
+def to_beijing_time(utc_str):
+    """UTC 时间字符串转北京时间，输出 YYYY-MM-DD HH:MM"""
+    if not utc_str:
+        return ''
+    try:
+        utc_time = datetime.strptime(utc_str, "%Y-%m-%dT%H:%M:%SZ")
+        bj_time = utc_time + timedelta(hours=8)
+        return bj_time.strftime("%Y-%m-%d %H:%M")
+    except:
+        return utc_str
 
 # ==================== 1. Trending 抓取 ====================
 
@@ -75,7 +79,6 @@ def fetch_trending(period='daily', language=''):
     resp = requests.get(url, headers=HEADERS, timeout=30)
     resp.raise_for_status()
     return resp.text
-
 
 def parse_trending(html, period='daily'):
     """解析 Trending HTML 提取仓库信息"""
@@ -123,7 +126,6 @@ def parse_trending(html, period='daily'):
     
     return repos
 
-
 # ==================== 2. Topics 抓取 ====================
 
 def fetch_topics(topic):
@@ -143,12 +145,11 @@ def fetch_topics(topic):
             'total_stars': str(item.get('stargazers_count', 0)),
             'url': item['html_url'],
             'source': f'topic:{topic}',
-            'created_at': item.get('created_at', ''),
-            'updated_at': item.get('updated_at', ''),
+            'created_at': to_beijing_time(item.get('created_at', '')),
+            'updated_at': to_beijing_time(item.get('updated_at', '')),
         })
     
     return repos
-
 
 # ==================== 3. Release 监控 ====================
 
@@ -164,13 +165,12 @@ def fetch_releases(repo_name, count=5):
             'name': f"{repo_name} {r.get('tag_name', '')}",
             'description': (r.get('body', '') or '')[:500],
             'url': r.get('html_url', ''),
-            'published_at': r.get('published_at', ''),
+            'published_at': to_beijing_time(r.get('published_at', '')),
             'tag': r.get('tag_name', ''),
             'source': 'release',
         })
     
     return releases
-
 
 # ==================== 4. 组织动态 ====================
 
@@ -190,11 +190,10 @@ def fetch_org_repos(org_name, count=10):
             'total_stars': str(item.get('stargazers_count', 0)),
             'url': item['html_url'],
             'source': f'org:{org_name}',
-            'updated_at': item.get('updated_at', ''),
+            'updated_at': to_beijing_time(item.get('updated_at', '')),
         })
     
     return repos
-
 
 # ==================== 5. 新星项目（最近创建+Star飙升） ====================
 
@@ -216,11 +215,10 @@ def fetch_rising_stars(days=7, min_stars=100):
             'total_stars': str(item.get('stargazers_count', 0)),
             'url': item['html_url'],
             'source': 'rising',
-            'created_at': item.get('created_at', ''),
+            'created_at': to_beijing_time(item.get('created_at', '')),
         })
     
     return repos
-
 
 # ==================== RSS 生成 ====================
 
@@ -269,23 +267,20 @@ def generate_rss(repos, title, description):
     except:
         return xml_str
 
-
 def generate_json(repos, title):
     """生成 JSON 格式（方便 n8n 直接读取）"""
     return json.dumps({
         'title': title,
-        'updated': datetime.utcnow().isoformat() + 'Z',
+        'updated': to_beijing_time(datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')),
         'count': len(repos),
         'items': repos,
     }, ensure_ascii=False, indent=2)
-
 
 def write_file(content, file_path):
     """写入文件"""
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write(content)
-
 
 # ==================== 历史数据归档 ====================
 
@@ -303,7 +298,6 @@ def archive_daily(repos, output_dir):
     with open(file_path, 'w', encoding='utf-8') as f:
         json.dump(data, ensure_ascii=False, indent=2, fp=f)
     print(f'  📦 Archived -> {file_path}')
-
 
 # ==================== 连续上榜检测 ====================
 
@@ -328,7 +322,6 @@ def detect_consecutive(repos, output_dir):
             consecutive.append(r['name'])
     
     return consecutive
-
 
 # ==================== 主函数 ====================
 
@@ -363,9 +356,9 @@ def main():
                 if period == 'daily' and lang_name == 'all':
                     all_daily_repos = repos
                 
-                print(f'    ✅ {len(repos)} repos')
+                print(f'  ✅ {len(repos)} repos')
             except Exception as e:
-                print(f'    ❌ Error: {e}')
+                print(f'  ❌ Error: {e}')
     
     # ===== 2. Topics 热门 =====
     if GITHUB_TOKEN:
@@ -385,9 +378,9 @@ def main():
                 json_content = generate_json(repos, title)
                 write_file(json_content, os.path.join(output_dir, 'topics', f'{topic}.json'))
                 
-                print(f'    ✅ {len(repos)} repos')
+                print(f'  ✅ {len(repos)} repos')
             except Exception as e:
-                print(f'    ❌ Error: {e}')
+                print(f'  ❌ Error: {e}')
     
     # ===== 3. Release 监控 =====
     if GITHUB_TOKEN:
@@ -401,9 +394,9 @@ def main():
             try:
                 releases = fetch_releases(repo_name, count=3)
                 all_releases.extend(releases)
-                print(f'    ✅ {len(releases)} releases')
+                print(f'  ✅ {len(releases)} releases')
             except Exception as e:
-                print(f'    ❌ Error: {e}')
+                print(f'  ❌ Error: {e}')
         
         if all_releases:
             rss = generate_rss(all_releases, 'Watched Repos Releases', 'Latest releases from watched repositories')
@@ -423,9 +416,9 @@ def main():
             try:
                 repos = fetch_org_repos(org, count=5)
                 all_org_repos.extend(repos)
-                print(f'    ✅ {len(repos)} repos')
+                print(f'  ✅ {len(repos)} repos')
             except Exception as e:
-                print(f'    ❌ Error: {e}')
+                print(f'  ❌ Error: {e}')
         
         if all_org_repos:
             rss = generate_rss(all_org_repos, 'Watched Orgs Updates', 'Latest updates from watched organizations')
@@ -458,7 +451,6 @@ def main():
         consecutive = detect_consecutive(all_daily_repos, output_dir)
         if consecutive:
             print(f'  🔥 连续上榜: {", ".join(consecutive)}')
-            # 保存连续上榜数据
             write_file(
                 json.dumps({'date': datetime.utcnow().strftime('%Y-%m-%d'), 'consecutive': consecutive}, ensure_ascii=False, indent=2),
                 os.path.join(output_dir, 'consecutive.json')
@@ -467,7 +459,6 @@ def main():
         archive_daily(all_daily_repos, output_dir)
     
     print('\n✅ All done!')
-
 
 if __name__ == '__main__':
     main()
