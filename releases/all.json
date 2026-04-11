@@ -1,0 +1,127 @@
+{
+  "title": "Watched Repos Releases",
+  "updated": "2026-04-11 18:09",
+  "count": 15,
+  "items": [
+    {
+      "name": "langchain-ai/langchain langchain-core==1.3.0a1",
+      "description": "Initial release\n\nrelease(core): 1.3.0a1 (#36656)\nchore(core): reduce streaming metadata / perf (#36588)\nrelease(core): release 1.2.28 (#36614)\nfix(core): add more sanitization to templates (#36612)\nrelease(core): 1.2.27 (#36586)\nfix(core): handle symlinks in deprecated prompt save path (#36585)\nchore: add comment explaining `pygments>=2.20.0` (#36570)\nrelease(core): 1.2.26 (#36511)\nfix(core): add init validator and serialization mappings for Bedrock models (#34510)\nfeat(core): add `ChatBaseten` ",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.3.0a1",
+      "published_at": "2026-04-11 00:01",
+      "tag": "langchain-core==1.3.0a1",
+      "source": "release"
+    },
+    {
+      "name": "langchain-ai/langchain langchain-tests==1.1.6",
+      "description": "Changes since langchain-tests==1.1.5\n\nrelease(standard-tests): 1.1.6 (#36610)\nfix(standard-tests): update standard tests for sandbox backends (#36036)\nchore: pygments>=2.20.0 across all packages (CVE-2026-4539) (#36385)\nchore: bump requests from 2.32.5 to 2.33.0 in /libs/standard-tests (#36239)\nci: suppress pytest streaming output in CI (#36092)\nci: avoid unnecessary dep installs in lint targets (#36046)\nchore: bump locks, lint (#35985)\nchore: bump orjson from 3.11.5 to 3.11.6 in /libs/standard-",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-tests%3D%3D1.1.6",
+      "published_at": "2026-04-08 23:18",
+      "tag": "langchain-tests==1.1.6",
+      "source": "release"
+    },
+    {
+      "name": "langchain-ai/langchain langchain-core==1.2.28",
+      "description": "Changes since langchain-core==1.2.27\n\nrelease(core): release 1.2.28 (#36614)\nfix(core): add more sanitization to templates (#36612)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.28",
+      "published_at": "2026-04-09 02:19",
+      "tag": "langchain-core==1.2.28",
+      "source": "release"
+    },
+    {
+      "name": "langgenius/dify 1.13.3",
+      "description": "## 🚀 What's New in v1.13.3?\r\nOur latest patch release, v1.13.3, focuses on stability and correctness across workflow execution, streaming, and knowledge retrieval. Here's a quick look at the most important updates:\r\n\r\n### 🎬 New Features\r\n- **Workflow Configuration**: Added variable-reference support for model parameters in LLM, Question Classifier, and Variable Extractor nodes by @scdeng in #33082.\r\n\r\n### 🛠️ Bug Fixes\r\n- **Streaming Reliability**: Fixed `StreamsBroadcastChannel` replay and concu",
+      "url": "https://github.com/langgenius/dify/releases/tag/1.13.3",
+      "published_at": "2026-03-27 16:46",
+      "tag": "1.13.3",
+      "source": "release"
+    },
+    {
+      "name": "langgenius/dify 1.13.2",
+      "description": "This patch release fixes several critical regressions and stability issues introduced in v1.13.1, including:\r\n\r\n- a severe regression in prompt message transformation that caused multiple LLM-plugin invocation failures across\r\n   LLM-related nodes, including LLM and Question Classifier.\r\n- Knowledge Retrieval node execution failures caused by incompatible enum values\r\n- improper Weaviate client cleanup\r\n\r\n---\r\n\r\n## Upgrade Guide\r\n\r\n> [!IMPORTANT]\r\n> If you use custom `CELERY_QUEUES`, make sure `",
+      "url": "https://github.com/langgenius/dify/releases/tag/1.13.2",
+      "published_at": "2026-03-18 22:20",
+      "tag": "1.13.2",
+      "source": "release"
+    },
+    {
+      "name": "langgenius/dify 1.13.1",
+      "description": "## 🚀 Major Functional Changes\r\n\r\n### Data platform and dataset operations\r\n\r\n- Added **Hologres** as a supported backend option for both vector retrieval and full-text search.\r\n- Added Service API endpoints for dataset document downloads:\r\n  - Batch ZIP download for selected documents.\r\n  - Signed URL download for single-document original files.\r\n\r\n### Workflow and chat experience improvements\r\n\r\n- **Breaking change:** HITL email content now uses markdown rendering before delivery. \r\n  Existing ",
+      "url": "https://github.com/langgenius/dify/releases/tag/1.13.1",
+      "published_at": "2026-03-17 18:43",
+      "tag": "1.13.1",
+      "source": "release"
+    },
+    {
+      "name": "ollama/ollama v0.20.6-rc0",
+      "description": "## What's Changed\r\n* docs: add hermes agent integration guide by @BruceMacD in https://github.com/ollama/ollama/pull/15488\r\n* app/ui: re-validate image attachments when selected model changes by @matteocelani in https://github.com/ollama/ollama/pull/15272\r\n* model/parsers: fix missing parallel tool call indices by @drifkin in https://github.com/ollama/ollama/pull/15467\r\n* gemma4: update renderer to match new jinja template by @drifkin in https://github.com/ollama/ollama/pull/15490\r\n\r\n\r\n**Full Ch",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.6-rc0",
+      "published_at": "2026-04-11 07:50",
+      "tag": "v0.20.6-rc0",
+      "source": "release"
+    },
+    {
+      "name": "ollama/ollama v0.20.5",
+      "description": "## OpenClaw channel setup with Ollama Launch\r\n<img width=\"2292\" height=\"1694\" alt=\"CleanShot 2026-04-09 at 15 45 10@2x\" src=\"https://github.com/user-attachments/assets/3a6882c4-5c6e-4724-8f6e-56ff2df39f6f\" />\r\n\r\n## What's Changed\r\n  - OpenClaw channel setup: connect WhatsApp, Telegram, Discord, and other messaging channels through `ollama launch openclaw`\r\n  - Enable flash attention for Gemma 4 on compatible GPUs\r\n  - ollama launch openclaw now detects curl-based OpenCode installs at ~/.opencode",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.5",
+      "published_at": "2026-04-10 02:11",
+      "tag": "v0.20.5",
+      "source": "release"
+    },
+    {
+      "name": "ollama/ollama v0.20.4",
+      "description": "## What's Changed\r\n* mlx: Improve M5 performance with NAX\r\n* gemma4: enable flash attention \r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.3...v0.20.4",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.4",
+      "published_at": "2026-04-08 01:57",
+      "tag": "v0.20.4",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n stable",
+      "description": "## [2.15.1](https://github.com/n8n-io/n8n/compare/n8n@2.15.0...n8n@2.15.1) (2026-04-10)\n\n\n### Bug Fixes\n\n* **Google Drive Node:** Fix infinite pagination loop in v1 API request ([#28268](https://github.com/n8n-io/n8n/issues/28268)) ([4d91dff](https://github.com/n8n-io/n8n/commit/4d91dffbaaefe8cf11448f3b4baade5704f2ef2c))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-04-10 17:30",
+      "tag": "stable",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n n8n@2.15.1",
+      "description": "## [2.15.1](https://github.com/n8n-io/n8n/compare/n8n@2.15.0...n8n@2.15.1) (2026-04-10)\n\n\n### Bug Fixes\n\n* **Google Drive Node:** Fix infinite pagination loop in v1 API request ([#28268](https://github.com/n8n-io/n8n/issues/28268)) ([4d91dff](https://github.com/n8n-io/n8n/commit/4d91dffbaaefe8cf11448f3b4baade5704f2ef2c))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.15.1",
+      "published_at": "2026-04-10 17:30",
+      "tag": "n8n@2.15.1",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n n8n@1.123.30",
+      "description": "## [1.123.30](https://github.com/n8n-io/n8n/compare/n8n@1.123.29...n8n@1.123.30) (2026-04-09)\n\n\n### Features\n\n* Environment var to disable forms pages sandboxing ([#28158](https://github.com/n8n-io/n8n/issues/28158)) ([506cd58](https://github.com/n8n-io/n8n/commit/506cd5858e35ba2c9fb4e5bbf2c76d490563c884))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.30",
+      "published_at": "2026-04-09 17:22",
+      "tag": "n8n@1.123.30",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.2.1-canary.32",
+      "description": "### Core Changes\n\n- Node.js streams: Add forkpoint for CacheComponents: #92444\n- Resolve `compilerOptions.paths` in tsconfigs without `compilerOptions.baseUrl`: #92277\n- Add codemod command to middleware deprecation warning: #92532\n- [partial fallbacks]: enable by default: #92627\n- refactor: write pages router export files directly to server/pages/: #90018\n\n### Misc Changes\n\n- Fix NextFontIssue IssueStage: CodeGen → Resolve: #92588\n- test: reduce writeToDisk memory test iterations to fix CI time",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.32",
+      "published_at": "2026-04-11 07:34",
+      "tag": "v16.2.1-canary.32",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.2.1-canary.31",
+      "description": "### Core Changes\n\n- Don't swallow strings thrown in Server Components: #92592\n\n### Credits \n\nHuge thanks to @eps1lon for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.31",
+      "published_at": "2026-04-10 16:52",
+      "tag": "v16.2.1-canary.31",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.2.1-canary.30",
+      "description": "### Core Changes\n\n- Add next internal upload-trace: #92191\n- Perf: Add fast path to isAbsoluteUrl: #91389\n- Perf: Don't require watchpack in production: #91387\n- Request logging: Fix generate-params time being included in next.js time: #91386\n- Perf: Use charCodeAt in removeTrailingSlash: #91384\n- Perf: Cache regex in shouldServeStreamingMetadata: #91388\n- fix: scope \"Pages Router only\" comment to default export in next/error: #92566\n- Turbopack Build: Remove dev fouc from production bundle: #80",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.30",
+      "published_at": "2026-04-10 07:35",
+      "tag": "v16.2.1-canary.30",
+      "source": "release"
+    }
+  ]
+}
