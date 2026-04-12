@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-04-12 02:33",
+  "updated": "2026-04-12 09:51",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.20.6-rc0",
+      "name": "ollama/ollama v0.20.6-rc1",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* docs: add hermes agent integration guide by @BruceMacD in https://github.com/ollama/ollama/pull/15488\r\n* app/ui: re-validate image attachments when selected model changes by @matteocelani in https://github.com/ollama/ollama/pull/15272\r\n* model/parsers: fix missing parallel tool call indices by @drifkin in https://github.com/ollama/ollama/pull/15467\r\n* gemma4: update renderer to match new jinja template by @drifkin in https://github.com/ollama/ollama/pull/15490\r\n\r\n\r\n**Full Ch",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.6-rc0",
+      "description": "## What's Changed\r\n* docs: add hermes agent integration guide by @BruceMacD in https://github.com/ollama/ollama/pull/15488\r\n* app/ui: re-validate image attachments when selected model changes by @matteocelani in https://github.com/ollama/ollama/pull/15272\r\n* model/parsers: fix missing parallel tool call indices by @drifkin in https://github.com/ollama/ollama/pull/15467\r\n* gemma4: update renderer to match new jinja template by @drifkin in https://github.com/ollama/ollama/pull/15490\r\n* gemma4: be ",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.6-rc1",
       "published_at": "2026-04-11 07:50",
-      "tag": "v0.20.6-rc0",
+      "tag": "v0.20.6-rc1",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.2.1-canary.33",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- feat(turbopack): add LocalPathOrProjectPath PostCSS config resolution: #91338\n- Fix segment explorer file pill accessibility: #92608\n- Perf: Only instrument clientComponentLoadTimes when used: #91385\n\n### Misc Changes\n\n- Remove a ton of turbo task functions from Issue trait items: #92623\n- feat(turbopack): change DiskFileSystem root to Vc<RcStr> for portable cache: #92603\n- Turbopack: remove unused ChunkableModules struct: #92606\n- Disable sccache temporarily: #92657\n\n### Cre",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.33",
+      "published_at": "2026-04-12 07:44",
+      "tag": "v16.2.1-canary.33",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.2.1-canary.32",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Node.js streams: Add forkpoint for CacheComponents: #92444\n- Resolve `compilerOptions.paths` in tsconfigs without `compilerOptions.baseUrl`: #92277\n- Add codemod command to middleware deprecation warning: #92532\n- [partial fallbacks]: enable by default: #92627\n- refactor: write pages router export files directly to server/pages/: #90018\n\n### Misc Changes\n\n- Fix NextFontIssue IssueStage: CodeGen → Resolve: #92588\n- test: reduce writeToDisk memory test iterations to fix CI time",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.31",
       "published_at": "2026-04-10 16:52",
       "tag": "v16.2.1-canary.31",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.2.1-canary.30",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Add next internal upload-trace: #92191\n- Perf: Add fast path to isAbsoluteUrl: #91389\n- Perf: Don't require watchpack in production: #91387\n- Request logging: Fix generate-params time being included in next.js time: #91386\n- Perf: Use charCodeAt in removeTrailingSlash: #91384\n- Perf: Cache regex in shouldServeStreamingMetadata: #91388\n- fix: scope \"Pages Router only\" comment to default export in next/error: #92566\n- Turbopack Build: Remove dev fouc from production bundle: #80",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.30",
-      "published_at": "2026-04-10 07:35",
-      "tag": "v16.2.1-canary.30",
       "source": "release"
     }
   ]
