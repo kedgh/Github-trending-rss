@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-04-13 21:06",
+  "updated": "2026-04-14 03:04",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-core==1.3.0a2",
+      "repo": "langchain-ai/langchain",
+      "description": "Initial release\n\nrelease(core): 1.3.0.a2 (#36698)\nfix(core): Use reference counting for storing inherited run trees to support garbage collection (#36660)\ndocs(core): nit (#36685)\nrelease(core): 1.3.0a1 (#36656)\nchore(core): reduce streaming metadata / perf (#36588)\nrelease(core): release 1.2.28 (#36614)\nfix(core): add more sanitization to templates (#36612)\nrelease(core): 1.2.27 (#36586)\nfix(core): handle symlinks in deprecated prompt save path (#36585)\nchore: add comment explaining `pygments>=",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.3.0a2",
+      "published_at": "2026-04-13 22:38",
+      "tag": "langchain-core==1.3.0a2",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-core==1.3.0a1",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-tests%3D%3D1.1.6",
       "published_at": "2026-04-08 23:18",
       "tag": "langchain-tests==1.1.6",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.2.28",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.2.27\n\nrelease(core): release 1.2.28 (#36614)\nfix(core): add more sanitization to templates (#36612)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.28",
-      "published_at": "2026-04-09 02:19",
-      "tag": "langchain-core==1.2.28",
       "source": "release"
     },
     {
@@ -85,12 +85,21 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n stable",
+      "name": "n8n-io/n8n n8n@2.17.0",
       "repo": "n8n-io/n8n",
-      "description": "## [2.15.1](https://github.com/n8n-io/n8n/compare/n8n@2.15.0...n8n@2.15.1) (2026-04-10)\n\n\n### Bug Fixes\n\n* **Google Drive Node:** Fix infinite pagination loop in v1 API request ([#28268](https://github.com/n8n-io/n8n/issues/28268)) ([4d91dff](https://github.com/n8n-io/n8n/commit/4d91dffbaaefe8cf11448f3b4baade5704f2ef2c))",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-04-10 17:30",
-      "tag": "stable",
+      "description": "# [2.17.0](https://github.com/n8n-io/n8n/compare/n8n@2.16.0...n8n@2.17.0) (2026-04-13)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* Add credential auth and test for PostHog, NASA, Peekalink, Clearbit, Uptime Robot ([#27957](https://github.com/n8n-io/n8n/issues/27957)) ([c1b5c96](https://github.com/n8n-io/n8n/commit/c1b5c96f62ffd4e61d9dc5a46a231f20f4fdc5c7))\r\n* **ai-builder:** Expose credential account context to prevent prompt/credential mismatch ([#28100](https://github.com/n8n-io/n8n/issues/28100)) ([c2fbf9d](http",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.17.0",
+      "published_at": "2026-04-13 23:10",
+      "tag": "n8n@2.17.0",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n beta",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.17.0](https://github.com/n8n-io/n8n/compare/n8n@2.16.0...n8n@2.17.0) (2026-04-13)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* Add credential auth and test for PostHog, NASA, Peekalink, Clearbit, Uptime Robot ([#27957](https://github.com/n8n-io/n8n/issues/27957)) ([c1b5c96](https://github.com/n8n-io/n8n/commit/c1b5c96f62ffd4e61d9dc5a46a231f20f4fdc5c7))\r\n* **ai-builder:** Expose credential account context to prevent prompt/credential mismatch ([#28100](https://github.com/n8n-io/n8n/issues/28100)) ([c2fbf9d](http",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-04-13 23:10",
+      "tag": "beta",
       "source": "release"
     },
     {
@@ -100,15 +109,6 @@
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.15.1",
       "published_at": "2026-04-10 17:30",
       "tag": "n8n@2.15.1",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@1.123.30",
-      "repo": "n8n-io/n8n",
-      "description": "## [1.123.30](https://github.com/n8n-io/n8n/compare/n8n@1.123.29...n8n@1.123.30) (2026-04-09)\n\n\n### Features\n\n* Environment var to disable forms pages sandboxing ([#28158](https://github.com/n8n-io/n8n/issues/28158)) ([506cd58](https://github.com/n8n-io/n8n/commit/506cd5858e35ba2c9fb4e5bbf2c76d490563c884))",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.30",
-      "published_at": "2026-04-09 17:22",
-      "tag": "n8n@1.123.30",
       "source": "release"
     },
     {
