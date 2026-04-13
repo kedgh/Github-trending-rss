@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-04-13 09:56",
+  "updated": "2026-04-13 15:50",
   "count": 15,
   "items": [
     {
@@ -60,7 +60,7 @@
     {
       "name": "ollama/ollama v0.20.6",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* Gemma 4 Tool Calling Improvements\r\n* App bug fixes and improvements\r\n* Parallel tool calling improvements\r\n* Docs for Hermes Agent\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.5...v0.20.6",
+      "description": "## What's Changed\r\n* Gemma 4 tool calling ability is improved and updated to use Google's latest post-launch fixes\r\n* Parallel tool calling improved for streaming responses \r\n* [Hermes agent](https://docs.ollama.com/integrations/hermes) Ollama integration guide is now available\r\n* Ollama app is updated to fix image attachment errors \r\n\r\n## New Contributors\r\n\r\n@matteocelani made their first contribution in [#15272](https://github.com/ollama/ollama/pull/15272)\r\n\r\n**Full Changelog**: https://github",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.20.6",
       "published_at": "2026-04-13 06:59",
       "tag": "v0.20.6",
