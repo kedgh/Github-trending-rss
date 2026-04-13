@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-04-13 15:50",
+  "updated": "2026-04-13 21:06",
   "count": 15,
   "items": [
     {
@@ -69,7 +69,7 @@
     {
       "name": "ollama/ollama v0.20.5",
       "repo": "ollama/ollama",
-      "description": "## OpenClaw channel setup with Ollama Launch\r\n<img width=\"2292\" height=\"1694\" alt=\"CleanShot 2026-04-09 at 15 45 10@2x\" src=\"https://github.com/user-attachments/assets/3a6882c4-5c6e-4724-8f6e-56ff2df39f6f\" />\r\n\r\n## What's Changed\r\n  - OpenClaw channel setup: connect WhatsApp, Telegram, Discord, and other messaging channels through `ollama launch openclaw`\r\n  - Enable flash attention for Gemma 4 on compatible GPUs\r\n  - `ollama launch openclaw` now detects curl-based OpenCode installs at `~/.openc",
+      "description": "## OpenClaw channel setup with `ollama launch`\r\n<img width=\"2292\" height=\"1694\" alt=\"CleanShot 2026-04-09 at 15 45 10@2x\" src=\"https://github.com/user-attachments/assets/3a6882c4-5c6e-4724-8f6e-56ff2df39f6f\" />\r\n\r\n## What's Changed\r\n  - OpenClaw channel setup: connect WhatsApp, Telegram, Discord, and other messaging channels through `ollama launch openclaw`\r\n  - Enable flash attention for Gemma 4 on compatible GPUs\r\n  - `ollama launch opencode` now detects curl-based OpenCode installs at `~/.ope",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.20.5",
       "published_at": "2026-04-10 02:11",
       "tag": "v0.20.5",
