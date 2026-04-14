@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-04-14 03:04",
+  "updated": "2026-04-14 09:51",
   "count": 15,
   "items": [
     {
@@ -58,30 +58,30 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.20.8-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* ROCm: Update to ROCm 7.2.1 on Linux by @saman-amd in https://github.com/ollama/ollama/pull/15483\r\n* gemma4: fix nothink case renderer by @drifkin in https://github.com/ollama/ollama/pull/15553\r\n* gemma4: fix compiler error on metal by @dhiltgen in https://github.com/ollama/ollama/pull/15550\r\n* gemma4: add nothink renderer tests by @drifkin in https://github.com/ollama/ollama/pull/15554\r\n* mlx: mixed-precision quant and capability detection improvements by @dhiltgen in https:",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.8-rc0",
+      "published_at": "2026-04-14 08:35",
+      "tag": "v0.20.8-rc0",
+      "source": "release"
+    },
+    {
+      "name": "ollama/ollama v0.20.7",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* Fix quality of gemma:e2b and gemma:e4b when thinking is disabled \r\n* ROCm: Update to ROCm 7.2.1 on Linux by @saman-amd in https://github.com/ollama/ollama/pull/15483\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.6...v0.20.7",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.7",
+      "published_at": "2026-04-14 07:33",
+      "tag": "v0.20.7",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.20.6",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* Gemma 4 tool calling ability is improved and updated to use Google's latest post-launch fixes\r\n* Parallel tool calling improved for streaming responses \r\n* [Hermes agent](https://docs.ollama.com/integrations/hermes) Ollama integration guide is now available\r\n* Ollama app is updated to fix image attachment errors \r\n\r\n## New Contributors\r\n\r\n@matteocelani made their first contribution in [#15272](https://github.com/ollama/ollama/pull/15272)\r\n\r\n**Full Changelog**: https://github",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.20.6",
       "published_at": "2026-04-13 06:59",
       "tag": "v0.20.6",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.20.5",
-      "repo": "ollama/ollama",
-      "description": "## OpenClaw channel setup with `ollama launch`\r\n<img width=\"2292\" height=\"1694\" alt=\"CleanShot 2026-04-09 at 15 45 10@2x\" src=\"https://github.com/user-attachments/assets/3a6882c4-5c6e-4724-8f6e-56ff2df39f6f\" />\r\n\r\n## What's Changed\r\n  - OpenClaw channel setup: connect WhatsApp, Telegram, Discord, and other messaging channels through `ollama launch openclaw`\r\n  - Enable flash attention for Gemma 4 on compatible GPUs\r\n  - `ollama launch opencode` now detects curl-based OpenCode installs at `~/.ope",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.5",
-      "published_at": "2026-04-10 02:11",
-      "tag": "v0.20.5",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.20.4",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* mlx: Improve M5 performance with NAX\r\n* gemma4: enable flash attention \r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.3...v0.20.4",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.4",
-      "published_at": "2026-04-08 01:57",
-      "tag": "v0.20.4",
       "source": "release"
     },
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.2.1-canary.34",
+      "name": "vercel/next.js v16.2.1-canary.38",
       "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Node.js streams: Add forkpoint for error recovery: #92457\n\n### Misc Changes\n\n- Delete some dead turbo task functions: #92596\n- docs(cli): clarify that `--debug-build-paths` requires route group folders in paths: #92618\n- turbo-tasks: Drop output_dependent on immutable task completion: #92683\n\n### Credits \n\nHuge thanks to @lukesandberg, @timneutkens, and @icyJoseph for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.34",
-      "published_at": "2026-04-13 07:43",
-      "tag": "v16.2.1-canary.34",
+      "description": "### Core Changes\n\n- Ensure x-nextjs-data header is only set during resolve: #92752\n\n### Credits \n\nHuge thanks to @ijjk for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.38",
+      "published_at": "2026-04-14 07:43",
+      "tag": "v16.2.1-canary.38",
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.2.1-canary.33",
+      "name": "vercel/next.js v16.2.1-canary.37",
       "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- feat(turbopack): add LocalPathOrProjectPath PostCSS config resolution: #91338\n- Fix segment explorer file pill accessibility: #92608\n- Perf: Only instrument clientComponentLoadTimes when used: #91385\n\n### Misc Changes\n\n- Remove a ton of turbo task functions from Issue trait items: #92623\n- feat(turbopack): change DiskFileSystem root to Vc<RcStr> for portable cache: #92603\n- Turbopack: remove unused ChunkableModules struct: #92606\n- Disable sccache temporarily: #92657\n\n### Cre",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.33",
-      "published_at": "2026-04-12 07:44",
-      "tag": "v16.2.1-canary.33",
+      "description": "### Core Changes\n\n- Exclude trace files from directory deletion in builds: #92486\n- Switch segment prefetch cache miss response from 204 to 404: #92751\n\n### Misc Changes\n\n- Re-enable sccache: #92746\n\n### Credits \n\nHuge thanks to @lukesandberg, @mmastrac, and @acdlite for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.37",
+      "published_at": "2026-04-14 07:25",
+      "tag": "v16.2.1-canary.37",
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.2.1-canary.32",
+      "name": "vercel/next.js v16.2.1-canary.36",
       "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Node.js streams: Add forkpoint for CacheComponents: #92444\n- Resolve `compilerOptions.paths` in tsconfigs without `compilerOptions.baseUrl`: #92277\n- Add codemod command to middleware deprecation warning: #92532\n- [partial fallbacks]: enable by default: #92627\n- refactor: write pages router export files directly to server/pages/: #90018\n\n### Misc Changes\n\n- Fix NextFontIssue IssueStage: CodeGen → Resolve: #92588\n- test: reduce writeToDisk memory test iterations to fix CI time",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.32",
-      "published_at": "2026-04-11 07:34",
-      "tag": "v16.2.1-canary.32",
+      "description": "### Core Changes\n\n- Fix prefetch hints not being loaded during revalidation: #92625\n\n### Credits \n\nHuge thanks to @acdlite for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.36",
+      "published_at": "2026-04-14 03:55",
+      "tag": "v16.2.1-canary.36",
       "source": "release"
     }
   ]
