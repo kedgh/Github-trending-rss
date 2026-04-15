@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-04-15 21:06",
+  "updated": "2026-04-16 03:03",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.2.1-canary.43",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- webpack: fix swcPlugins with relative paths: #92770\n- Node.js streams: Add forkpoint for logMessagesAndSendErrorsToBrowser: #92510\n- Node.js streams: Add forkpoint for createCombinedPayloadStream: #92511\n- Node.js streams: Add forkpoint for renderWithRestartOnCacheMissInValidation: #92512\n- Node.js streams: Add forkpoint for prerenderToStream: #92513\n- Perf: Fast path for trace() when opentelemetry is not enabled: #92678\n\n### Misc Changes\n\n- turbopack: gate ValueDebugFormat a",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.43",
+      "published_at": "2026-04-15 22:10",
+      "tag": "v16.2.1-canary.43",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.2.1-canary.42",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Scope Safari ?ts= cache-buster to CSS/font assets only (Pages Router): #92580\n- Enable wasm plugins on windows arm: #92544\n- prefetchInlining: fix build crash on notFound() pages: #92806\n\n### Credits \n\nHuge thanks to @lukesandberg and @acdlite for helping!\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.41",
       "published_at": "2026-04-15 07:47",
       "tag": "v16.2.1-canary.41",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.2.1-canary.40",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Fix turbo cache flag: use --force: #92796\n\n### Credits \n\nHuge thanks to @mmastrac for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.40",
-      "published_at": "2026-04-15 03:59",
-      "tag": "v16.2.1-canary.40",
       "source": "release"
     }
   ]
