@@ -1,8 +1,26 @@
 {
   "title": "Releases",
-  "updated": "2026-04-15 03:01",
+  "updated": "2026-04-15 09:48",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-openai==1.1.13",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-openai==1.1.12\n\nrelease(openai): 1.1.13 (#36729)\nfix(openai): handle content blocks without type key in responses api conversion (#36725)\nchore(model-profiles): refresh model profile data (#36539)\nchore(openai): fix broken vcr cassette playback and add ci guard (#36502)\nfix(openai,groq,openrouter): use is-not-None checks in usage metadata token extraction (#36500)\nfix(core): fixed typos in the documentation (#36459)\nchore(model-profiles): refresh model profile data (#3645",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.1.13",
+      "published_at": "2026-04-15 09:37",
+      "tag": "langchain-openai==1.1.13",
+      "source": "release"
+    },
+    {
+      "name": "langchain-ai/langchain langchain-core==1.2.29",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-core==1.2.28\n\nrelease(core): 1.2.29 and also port #36725 (#36727)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.29",
+      "published_at": "2026-04-15 04:45",
+      "tag": "langchain-core==1.2.29",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-core==1.3.0a2",
       "repo": "langchain-ai/langchain",
@@ -10,24 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.3.0a2",
       "published_at": "2026-04-13 22:38",
       "tag": "langchain-core==1.3.0a2",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.3.0a1",
-      "repo": "langchain-ai/langchain",
-      "description": "Initial release\n\nrelease(core): 1.3.0a1 (#36656)\nchore(core): reduce streaming metadata / perf (#36588)\nrelease(core): release 1.2.28 (#36614)\nfix(core): add more sanitization to templates (#36612)\nrelease(core): 1.2.27 (#36586)\nfix(core): handle symlinks in deprecated prompt save path (#36585)\nchore: add comment explaining `pygments>=2.20.0` (#36570)\nrelease(core): 1.2.26 (#36511)\nfix(core): add init validator and serialization mappings for Bedrock models (#34510)\nfeat(core): add `ChatBaseten` ",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.3.0a1",
-      "published_at": "2026-04-11 00:01",
-      "tag": "langchain-core==1.3.0a1",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-tests==1.1.6",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-tests==1.1.5\n\nrelease(standard-tests): 1.1.6 (#36610)\nfix(standard-tests): update standard tests for sandbox backends (#36036)\nchore: pygments>=2.20.0 across all packages (CVE-2026-4539) (#36385)\nchore: bump requests from 2.32.5 to 2.33.0 in /libs/standard-tests (#36239)\nci: suppress pytest streaming output in CI (#36092)\nci: avoid unnecessary dep installs in lint targets (#36046)\nchore: bump locks, lint (#35985)\nchore: bump orjson from 3.11.5 to 3.11.6 in /libs/standard-",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-tests%3D%3D1.1.6",
-      "published_at": "2026-04-08 23:18",
-      "tag": "langchain-tests==1.1.6",
       "source": "release"
     },
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.2.1-canary.38",
+      "name": "vercel/next.js v16.2.1-canary.42",
       "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Ensure x-nextjs-data header is only set during resolve: #92752\n\n### Credits \n\nHuge thanks to @ijjk for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.38",
-      "published_at": "2026-04-14 07:43",
-      "tag": "v16.2.1-canary.38",
+      "description": "### Core Changes\n\n- Scope Safari ?ts= cache-buster to CSS/font assets only (Pages Router): #92580\n- Enable wasm plugins on windows arm: #92544\n- prefetchInlining: fix build crash on notFound() pages: #92806\n\n### Credits \n\nHuge thanks to @lukesandberg and @acdlite for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.42",
+      "published_at": "2026-04-15 09:28",
+      "tag": "v16.2.1-canary.42",
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.2.1-canary.37",
+      "name": "vercel/next.js v16.2.1-canary.41",
       "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Exclude trace files from directory deletion in builds: #92486\n- Switch segment prefetch cache miss response from 204 to 404: #92751\n\n### Misc Changes\n\n- Re-enable sccache: #92746\n\n### Credits \n\nHuge thanks to @lukesandberg, @mmastrac, and @acdlite for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.37",
-      "published_at": "2026-04-14 07:25",
-      "tag": "v16.2.1-canary.37",
+      "description": "### Misc Changes\n\n- Fix devlow-bench: tsconfig rootDir mismatch with package.json bin: #92800\n\n### Credits \n\nHuge thanks to @mmastrac for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.41",
+      "published_at": "2026-04-15 07:47",
+      "tag": "v16.2.1-canary.41",
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.2.1-canary.36",
+      "name": "vercel/next.js v16.2.1-canary.40",
       "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Fix prefetch hints not being loaded during revalidation: #92625\n\n### Credits \n\nHuge thanks to @acdlite for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.36",
-      "published_at": "2026-04-14 03:55",
-      "tag": "v16.2.1-canary.36",
+      "description": "### Misc Changes\n\n- Fix turbo cache flag: use --force: #92796\n\n### Credits \n\nHuge thanks to @mmastrac for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.40",
+      "published_at": "2026-04-15 03:59",
+      "tag": "v16.2.1-canary.40",
       "source": "release"
     }
   ]
