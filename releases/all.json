@@ -1,33 +1,33 @@
 {
   "title": "Releases",
-  "updated": "2026-04-16 21:13",
+  "updated": "2026-04-17 03:02",
   "count": 15,
   "items": [
     {
-      "name": "langchain-ai/langchain langchain-core==1.2.30",
+      "name": "langchain-ai/langchain langchain-text-splitters==1.1.2",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.2.29\n\nrelease(core): 1.2.30 (#36770)\nchore(core): harden private SSRF utilities (port 36768) (#36769)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.30",
-      "published_at": "2026-04-16 04:37",
-      "tag": "langchain-core==1.2.30",
+      "description": "Changes since langchain-text-splitters==1.1.1\n\nrelease(text-splitters): 1.1.2 (#36822)\nfix(text-splitters): deprecate and use SSRF-safe transport in split_text_from_url (#36821)\nchore: bump langsmith from 0.6.3 to 0.7.31 in /libs/text-splitters (#36797)\nchore(deps): bump pytest to `9.0.3` (#36801)\nchore: bump pytest from 9.0.2 to 9.0.3 in /libs/text-splitters (#36714)\nchore: add comment explaining `pygments>=2.20.0` (#36570)\nrelease(core): 1.2.26 (#36511)\nchore: pygments>=2.20.0 across all packa",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-text-splitters%3D%3D1.1.2",
+      "published_at": "2026-04-16 22:20",
+      "tag": "langchain-text-splitters==1.1.2",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-openai==1.1.13",
+      "name": "langchain-ai/langchain langchain-openai==1.1.14",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.1.12\n\nrelease(openai): 1.1.13 (#36729)\nfix(openai): handle content blocks without type key in responses api conversion (#36725)\nchore(model-profiles): refresh model profile data (#36539)\nchore(openai): fix broken vcr cassette playback and add ci guard (#36502)\nfix(openai,groq,openrouter): use is-not-None checks in usage metadata token extraction (#36500)\nfix(core): fixed typos in the documentation (#36459)\nchore(model-profiles): refresh model profile data (#3645",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.1.13",
-      "published_at": "2026-04-15 09:37",
-      "tag": "langchain-openai==1.1.13",
+      "description": "Changes since langchain-openai==1.1.13\n\nrelease(openai): 1.1.14 (#36820)\nfix(openai): use SSRF-safe transport for image token counting (#36819)\nchore(deps): bump pytest to `9.0.3` (#36801)\nchore: bump langsmith from 0.6.3 to 0.7.31 in /libs/partners/openai (#36795)\nchore: bump pillow from 12.1.1 to 12.2.0 in /libs/partners/openai (#36777)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.1.14",
+      "published_at": "2026-04-16 22:55",
+      "tag": "langchain-openai==1.1.14",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-core==1.2.29",
+      "name": "langchain-ai/langchain langchain-core==1.2.31",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.2.28\n\nrelease(core): 1.2.29 and also port #36725 (#36727)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.29",
-      "published_at": "2026-04-15 04:45",
-      "tag": "langchain-core==1.2.29",
+      "description": "Changes since langchain-core==1.2.30\n\nrelease(core): port 36816 to v1.2 and release 1.2.31 (#36817)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.31",
+      "published_at": "2026-04-16 21:26",
+      "tag": "langchain-core==1.2.31",
       "source": "release"
     },
     {
