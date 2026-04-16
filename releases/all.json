@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-04-16 03:03",
+  "updated": "2026-04-16 09:56",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-core==1.2.30",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-core==1.2.29\n\nrelease(core): 1.2.30 (#36770)\nchore(core): harden private SSRF utilities (port 36768) (#36769)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.30",
+      "published_at": "2026-04-16 04:37",
+      "tag": "langchain-core==1.2.30",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-openai==1.1.13",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.29",
       "published_at": "2026-04-15 04:45",
       "tag": "langchain-core==1.2.29",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.3.0a2",
-      "repo": "langchain-ai/langchain",
-      "description": "Initial release\n\nrelease(core): 1.3.0.a2 (#36698)\nfix(core): Use reference counting for storing inherited run trees to support garbage collection (#36660)\ndocs(core): nit (#36685)\nrelease(core): 1.3.0a1 (#36656)\nchore(core): reduce streaming metadata / perf (#36588)\nrelease(core): release 1.2.28 (#36614)\nfix(core): add more sanitization to templates (#36612)\nrelease(core): 1.2.27 (#36586)\nfix(core): handle symlinks in deprecated prompt save path (#36585)\nchore: add comment explaining `pygments>=",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.3.0a2",
-      "published_at": "2026-04-13 22:38",
-      "tag": "langchain-core==1.3.0a2",
       "source": "release"
     },
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.2.4",
+      "repo": "vercel/next.js",
+      "description": "> [!NOTE]\r\n> This release is backporting bug fixes. It does **not** include all pending features/changes on canary.\r\n\r\n### Core Changes\r\n\r\n- chore: Bump reqwest to 0.13.2 (Fixes Google Fonts with Turbopack for Windows on ARM64) (#92713)\r\n- Turbopack: fix filesystem watcher config not applying follow_symlinks(false) (#92631)\r\n- Scope Safari ?ts= cache-buster to CSS/font assets only (Pages Router) (#92580)\r\n- Compiler: Support boolean and number primtives in next.config defines (#92731)\r\n- turbo-t",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.4",
+      "published_at": "2026-04-16 06:35",
+      "tag": "v16.2.4",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.2.1-canary.44",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- fix(trace-server): default MCP port to --port + 1 to avoid conflicts: #92831\n- Revert \"Node.js streams: Add forkpoint for prerenderToStream\": #92845\n- Warn for non-deterministic `\"use cache\"` args during final prerender: #92820\n\n### Misc Changes\n\n- Share native binaries via GitHub artifacts: #92758\n- Turbopack: shorter error message for ModuleBatchesGraph::get_entry_index: #92828\n- Turbopack: refactor export analysis: #92781\n- [ci] Skip sccache on Windows runners: #92847\n- Tu",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.44",
+      "published_at": "2026-04-16 07:47",
+      "tag": "v16.2.1-canary.44",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.2.1-canary.43",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- webpack: fix swcPlugins with relative paths: #92770\n- Node.js streams: Add forkpoint for logMessagesAndSendErrorsToBrowser: #92510\n- Node.js streams: Add forkpoint for createCombinedPayloadStream: #92511\n- Node.js streams: Add forkpoint for renderWithRestartOnCacheMissInValidation: #92512\n- Node.js streams: Add forkpoint for prerenderToStream: #92513\n- Perf: Fast path for trace() when opentelemetry is not enabled: #92678\n\n### Misc Changes\n\n- turbopack: gate ValueDebugFormat a",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.43",
       "published_at": "2026-04-15 22:10",
       "tag": "v16.2.1-canary.43",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.2.1-canary.42",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Scope Safari ?ts= cache-buster to CSS/font assets only (Pages Router): #92580\n- Enable wasm plugins on windows arm: #92544\n- prefetchInlining: fix build crash on notFound() pages: #92806\n\n### Credits \n\nHuge thanks to @lukesandberg and @acdlite for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.42",
-      "published_at": "2026-04-15 09:28",
-      "tag": "v16.2.1-canary.42",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.2.1-canary.41",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Fix devlow-bench: tsconfig rootDir mismatch with package.json bin: #92800\n\n### Credits \n\nHuge thanks to @mmastrac for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.41",
-      "published_at": "2026-04-15 07:47",
-      "tag": "v16.2.1-canary.41",
       "source": "release"
     }
   ]
