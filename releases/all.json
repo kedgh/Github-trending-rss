@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-04-16 15:21",
+  "updated": "2026-04-16 21:13",
   "count": 15,
   "items": [
     {
@@ -85,6 +85,24 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n n8n@2.17.2",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.17.2](https://github.com/n8n-io/n8n/compare/n8n@2.17.1...n8n@2.17.2) (2026-04-16)\n\n\n### Bug Fixes\n\n* **editor:** Center sub-node icons and refresh triggers panel icons ([#28521](https://github.com/n8n-io/n8n/issues/28521)) ([2d50843](https://github.com/n8n-io/n8n/commit/2d50843216fbbb2a9e86a4464b0747181262ca3d))\n\n\n### Features\n\n* AI Gateway credentials endpoint instance url ([#28527](https://github.com/n8n-io/n8n/issues/28527)) ([2ec4332](https://github.com/n8n-io/n8n/commit/2ec433263b1854",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.17.2",
+      "published_at": "2026-04-16 17:37",
+      "tag": "n8n@2.17.2",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n beta",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.17.2](https://github.com/n8n-io/n8n/compare/n8n@2.17.1...n8n@2.17.2) (2026-04-16)\n\n\n### Bug Fixes\n\n* **editor:** Center sub-node icons and refresh triggers panel icons ([#28521](https://github.com/n8n-io/n8n/issues/28521)) ([2d50843](https://github.com/n8n-io/n8n/commit/2d50843216fbbb2a9e86a4464b0747181262ca3d))\n\n\n### Features\n\n* AI Gateway credentials endpoint instance url ([#28527](https://github.com/n8n-io/n8n/issues/28527)) ([2ec4332](https://github.com/n8n-io/n8n/commit/2ec433263b1854",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-04-16 17:37",
+      "tag": "beta",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
       "description": "## [2.16.1](https://github.com/n8n-io/n8n/compare/n8n@2.16.0...n8n@2.16.1) (2026-04-15)",
@@ -94,21 +112,12 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.16.1",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.16.1](https://github.com/n8n-io/n8n/compare/n8n@2.16.0...n8n@2.16.1) (2026-04-15)",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.16.1",
-      "published_at": "2026-04-15 16:00",
-      "tag": "n8n@2.16.1",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@1.123.31",
-      "repo": "n8n-io/n8n",
-      "description": "## [1.123.31](https://github.com/n8n-io/n8n/compare/n8n@1.123.30...n8n@1.123.31) (2026-04-15)",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.31",
-      "published_at": "2026-04-15 15:53",
-      "tag": "n8n@1.123.31",
+      "name": "vercel/next.js v16.2.1-canary.45",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Allow overriding outputHashSalt in modifyConfig: #92856\n\n### Misc Changes\n\n- Turbopack: Use lld again on ARM64 glibc Linux: #92860\n- [ci]: add workflow to bump canary after backport: #92801\n- turbopack: cache TransformPlugin in narrow-scoped turbo-tasks functions: #92842\n\n### Credits \n\nHuge thanks to @bgw, @ztanner, @sokra, and @mischnic for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.45",
+      "published_at": "2026-04-16 20:06",
+      "tag": "v16.2.1-canary.45",
       "source": "release"
     },
     {
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.44",
       "published_at": "2026-04-16 07:47",
       "tag": "v16.2.1-canary.44",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.2.1-canary.43",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- webpack: fix swcPlugins with relative paths: #92770\n- Node.js streams: Add forkpoint for logMessagesAndSendErrorsToBrowser: #92510\n- Node.js streams: Add forkpoint for createCombinedPayloadStream: #92511\n- Node.js streams: Add forkpoint for renderWithRestartOnCacheMissInValidation: #92512\n- Node.js streams: Add forkpoint for prerenderToStream: #92513\n- Perf: Fast path for trace() when opentelemetry is not enabled: #92678\n\n### Misc Changes\n\n- turbopack: gate ValueDebugFormat a",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.43",
-      "published_at": "2026-04-15 22:10",
-      "tag": "v16.2.1-canary.43",
       "source": "release"
     }
   ]
