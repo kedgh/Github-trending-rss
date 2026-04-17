@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-04-17 03:02",
+  "updated": "2026-04-17 09:51",
   "count": 15,
   "items": [
     {
@@ -22,12 +22,12 @@
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-core==1.2.31",
+      "name": "langchain-ai/langchain langchain-huggingface==1.2.2",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.2.30\n\nrelease(core): port 36816 to v1.2 and release 1.2.31 (#36817)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.31",
-      "published_at": "2026-04-16 21:26",
-      "tag": "langchain-core==1.2.31",
+      "description": "Changes since langchain-huggingface==1.2.1\n\nrelease(huggingface): 1.2.2 (#36832)\nfix(huggingface): harden hostname validation and reject URLs in repo_id (#36831)\nchore: bump langsmith from 0.6.3 to 0.7.31 in /libs/partners/huggingface (#36802)\nchore(deps): bump pytest to `9.0.3` (#36801)\nchore: bump langsmith from 0.6.3 to 0.7.31 in /libs/partners/huggingface (#36794)\nchore(model-profiles): refresh model profile data (#36720)\nchore(model-profiles): refresh model profile data (#36596)\nchore: add ",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-huggingface%3D%3D1.2.2",
+      "published_at": "2026-04-17 03:57",
+      "tag": "langchain-huggingface==1.2.2",
       "source": "release"
     },
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.21.0-rc1",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* launch: skip unchanged integration rewrite configration by @hoyyeva in https://github.com/ollama/ollama/pull/15491\r\n* launch/openclaw: fix --yes flag behaviour to skip channels configuration by @hoyyeva in https://github.com/ollama/ollama/pull/15589\r\n* launch: OpenCode inline config by @hoyyeva in https://github.com/ollama/ollama/pull/15586\r\n* launch: add hermes by @ParthSareen in https://github.com/ollama/ollama/pull/15569\r\n* launch: always list cloud recommendations first ",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.21.0-rc1",
+      "published_at": "2026-04-17 06:00",
+      "tag": "v0.21.0-rc1",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.20.8-rc0",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* ROCm: Update to ROCm 7.2.1 on Linux by @saman-amd in https://github.com/ollama/ollama/pull/15483\r\n* gemma4: fix nothink case renderer by @drifkin in https://github.com/ollama/ollama/pull/15553\r\n* gemma4: fix compiler error on metal by @dhiltgen in https://github.com/ollama/ollama/pull/15550\r\n* gemma4: add nothink renderer tests by @drifkin in https://github.com/ollama/ollama/pull/15554\r\n* mlx: mixed-precision quant and capability detection improvements by @dhiltgen in https:",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.20.7",
       "published_at": "2026-04-14 07:33",
       "tag": "v0.20.7",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.20.6",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* Gemma 4 tool calling ability is improved and updated to use Google's latest post-launch fixes\r\n* Parallel tool calling improved for streaming responses \r\n* [Hermes agent](https://docs.ollama.com/integrations/hermes) Ollama integration guide is now available\r\n* Ollama app is updated to fix image attachment errors \r\n\r\n## New Contributors\r\n\r\n@matteocelani made their first contribution in [#15272](https://github.com/ollama/ollama/pull/15272)\r\n\r\n**Full Changelog**: https://github",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.6",
-      "published_at": "2026-04-13 06:59",
-      "tag": "v0.20.6",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.2.1-canary.46",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Support type cast expressions in page static info extractor: #92837\n- Fix dev mode hydration failure when page is served from HTTP cache: #92892\n- [devtools] Preserve full code frames in browser overlay: #92621\n- Enable prefetchInlining by default: #92863\n- Replace deprecated `moduleResolution: \"node\"`: #92654\n\n### Misc Changes\n\n- turbo-tasks: add info_span for blocking waits during task restore: #92878\n- Turbopack: Use an async lock in the filesystem watcher: #92906\n- [ci] S",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.46",
+      "published_at": "2026-04-17 07:46",
+      "tag": "v16.2.1-canary.46",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.2.1-canary.45",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Allow overriding outputHashSalt in modifyConfig: #92856\n\n### Misc Changes\n\n- Turbopack: Use lld again on ARM64 glibc Linux: #92860\n- [ci]: add workflow to bump canary after backport: #92801\n- turbopack: cache TransformPlugin in narrow-scoped turbo-tasks functions: #92842\n\n### Credits \n\nHuge thanks to @bgw, @ztanner, @sokra, and @mischnic for helping!\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.2.4",
       "published_at": "2026-04-16 06:35",
       "tag": "v16.2.4",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.2.1-canary.44",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- fix(trace-server): default MCP port to --port + 1 to avoid conflicts: #92831\n- Revert \"Node.js streams: Add forkpoint for prerenderToStream\": #92845\n- Warn for non-deterministic `\"use cache\"` args during final prerender: #92820\n\n### Misc Changes\n\n- Share native binaries via GitHub artifacts: #92758\n- Turbopack: shorter error message for ModuleBatchesGraph::get_entry_index: #92828\n- Turbopack: refactor export analysis: #92781\n- [ci] Skip sccache on Windows runners: #92847\n- Tu",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.44",
-      "published_at": "2026-04-16 07:47",
-      "tag": "v16.2.1-canary.44",
       "source": "release"
     }
   ]
