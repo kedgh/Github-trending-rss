@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-04-17 09:51",
+  "updated": "2026-04-17 15:22",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.21.0-rc1",
+      "name": "ollama/ollama v0.21.0",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* launch: skip unchanged integration rewrite configration by @hoyyeva in https://github.com/ollama/ollama/pull/15491\r\n* launch/openclaw: fix --yes flag behaviour to skip channels configuration by @hoyyeva in https://github.com/ollama/ollama/pull/15589\r\n* launch: OpenCode inline config by @hoyyeva in https://github.com/ollama/ollama/pull/15586\r\n* launch: add hermes by @ParthSareen in https://github.com/ollama/ollama/pull/15569\r\n* launch: always list cloud recommendations first ",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.21.0-rc1",
+      "description": "## Hermes Agent with Ollama\r\n\r\n```\r\nollama launch hermes\r\n```\r\n\r\nHermes learns with you, automatically creating skills to better serve your workflows. Great for research and engineering tasks.\r\n\r\nUse Nous Research's self-improving AI agent with Ollama.\r\n<img width=\"1329\" height=\"946\" alt=\"image\" src=\"https://github.com/user-attachments/assets/771d3383-95ed-4652-81e5-cf89514d25cc\" />\r\n\r\n## What's Changed\r\n* launch: skip unchanged integration rewrite configration by @hoyyeva in https://github.com/",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.21.0",
       "published_at": "2026-04-17 06:00",
-      "tag": "v0.21.0-rc1",
+      "tag": "v0.21.0",
       "source": "release"
     },
     {
