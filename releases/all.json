@@ -1,8 +1,26 @@
 {
   "title": "Releases",
-  "updated": "2026-04-17 21:00",
+  "updated": "2026-04-18 02:47",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-core==1.3.0",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-core==1.2.31\n\nrelease(core): release 1.3.0 (#36851)\nrelease(core): 1.3.0a3 (#36829)\nchore(core): keep checkpoint_ns behavior in streaming metadata for backwards compat (#36828)\nfeat(core): Add chat model and LLM invocation params to traceable metadata (#36771)\nfix(core): restore cloud metadata IPs and link-local range in SSRF policy (#36816)\nchore(deps): bump pytest to `9.0.3` (#36801)\nchore(core): harden private SSRF utilities (#36768)\nfix(openai): handle content blocks ",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.3.0",
+      "published_at": "2026-04-17 22:51",
+      "tag": "langchain-core==1.3.0",
+      "source": "release"
+    },
+    {
+      "name": "langchain-ai/langchain langchain-anthropic==1.4.1",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-anthropic==1.4.0\n\nfix(anthropic): strip null encrypted_content from compaction blocks (#36850)\nrelease(anthropic): 1.4.1 (#36848)\nfeat(anthropic): support opus 4.7 features (#36847)\nchore: bump langsmith from 0.6.3 to 0.7.31 in /libs/partners/anthropic (#36803)\nchore(deps): bump pytest to `9.0.3` (#36801)\nchore: bump langsmith from 0.6.3 to 0.7.31 in /libs/partners/anthropic (#36789)\nchore(model-profiles): refresh model profile data (#36482)\nfix(core): fixed typos in the ",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.1",
+      "published_at": "2026-04-17 22:26",
+      "tag": "langchain-anthropic==1.4.1",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-text-splitters==1.1.2",
       "repo": "langchain-ai/langchain",
@@ -10,24 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-text-splitters%3D%3D1.1.2",
       "published_at": "2026-04-16 22:20",
       "tag": "langchain-text-splitters==1.1.2",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-openai==1.1.14",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.1.13\n\nrelease(openai): 1.1.14 (#36820)\nfix(openai): use SSRF-safe transport for image token counting (#36819)\nchore(deps): bump pytest to `9.0.3` (#36801)\nchore: bump langsmith from 0.6.3 to 0.7.31 in /libs/partners/openai (#36795)\nchore: bump pillow from 12.1.1 to 12.2.0 in /libs/partners/openai (#36777)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.1.14",
-      "published_at": "2026-04-16 22:55",
-      "tag": "langchain-openai==1.1.14",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-huggingface==1.2.2",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-huggingface==1.2.1\n\nrelease(huggingface): 1.2.2 (#36832)\nfix(huggingface): harden hostname validation and reject URLs in repo_id (#36831)\nchore: bump langsmith from 0.6.3 to 0.7.31 in /libs/partners/huggingface (#36802)\nchore(deps): bump pytest to `9.0.3` (#36801)\nchore: bump langsmith from 0.6.3 to 0.7.31 in /libs/partners/huggingface (#36794)\nchore(model-profiles): refresh model profile data (#36720)\nchore(model-profiles): refresh model profile data (#36596)\nchore: add ",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-huggingface%3D%3D1.2.2",
-      "published_at": "2026-04-17 03:57",
-      "tag": "langchain-huggingface==1.2.2",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.0",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- fix(next/image): ensure `images.maximumResponseBody` applies to local images too: #92920\n- Refactor trace server sort to SortMode enum (execution order / value / name): #92873\n- Perf: Simplify static metadata handling: #92630\n- remove flag guarding `unstable_io`: #92923\n\n### Misc Changes\n\n- [ci] Cache passing test results so CI retries skip them: #92832\n- fix accidental test duplication: #92922\n- rename MagicAny: #92918\n- turbopack: reduce EffectStateStorage memory by storing",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.0",
+      "published_at": "2026-04-18 00:09",
+      "tag": "v16.3.0-canary.0",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.2.1-canary.46",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Support type cast expressions in page static info extractor: #92837\n- Fix dev mode hydration failure when page is served from HTTP cache: #92892\n- [devtools] Preserve full code frames in browser overlay: #92621\n- Enable prefetchInlining by default: #92863\n- Replace deprecated `moduleResolution: \"node\"`: #92654\n\n### Misc Changes\n\n- turbo-tasks: add info_span for blocking waits during task restore: #92878\n- Turbopack: Use an async lock in the filesystem watcher: #92906\n- [ci] S",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.2.1-canary.45",
       "published_at": "2026-04-16 20:06",
       "tag": "v16.2.1-canary.45",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.2.4",
-      "repo": "vercel/next.js",
-      "description": "> [!NOTE]\r\n> This release is backporting bug fixes. It does **not** include all pending features/changes on canary.\r\n\r\n### Core Changes\r\n\r\n- chore: Bump reqwest to 0.13.2 (Fixes Google Fonts with Turbopack for Windows on ARM64) (#92713)\r\n- Turbopack: fix filesystem watcher config not applying follow_symlinks(false) (#92631)\r\n- Scope Safari ?ts= cache-buster to CSS/font assets only (Pages Router) (#92580)\r\n- Compiler: Support boolean and number primtives in next.config defines (#92731)\r\n- turbo-t",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.4",
-      "published_at": "2026-04-16 06:35",
-      "tag": "v16.2.4",
       "source": "release"
     }
   ]
