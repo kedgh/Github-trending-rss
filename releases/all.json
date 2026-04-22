@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-04-22 15:22",
+  "updated": "2026-04-22 21:08",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.32",
+      "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.32](https://github.com/n8n-io/n8n/compare/n8n@1.123.31...n8n@1.123.32) (2026-04-22)\n\n\n### Bug Fixes\n\n* **core:** Preserve NODE_PATH for globally installed npm packages in Docker ([#28781](https://github.com/n8n-io/n8n/issues/28781)) ([a6b3e81](https://github.com/n8n-io/n8n/commit/a6b3e819bb7036e0ef8df36e1ea9461e5738c905))",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.32",
-      "published_at": "2026-04-22 14:42",
-      "tag": "n8n@1.123.32",
+      "description": "## [2.17.5](https://github.com/n8n-io/n8n/compare/n8n@2.17.4...n8n@2.17.5) (2026-04-22)\n\n\n### Bug Fixes\n\n* **core:** Enforce credential access checks in dynamic node parameter requests ([#28861](https://github.com/n8n-io/n8n/issues/28861)) ([9aadc28](https://github.com/n8n-io/n8n/commit/9aadc287efe5841ea2ccb541b22697d2bfc32cb2))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-04-22 18:23",
+      "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.18.0",
+      "name": "n8n-io/n8n n8n@2.17.5",
       "repo": "n8n-io/n8n",
-      "description": "# [2.18.0](https://github.com/n8n-io/n8n/compare/n8n@2.17.0...n8n@2.18.0) (2026-04-21)\n\n\n### Bug Fixes\n\n* **ai-builder:** Increase orchestrator max steps from default 5 to 60 ([#28429](https://github.com/n8n-io/n8n/issues/28429)) ([3c850f2](https://github.com/n8n-io/n8n/commit/3c850f2711d53ded62a3540c67b9ec02143cbb3f))\n* **ai-builder:** Scope artifacts panel to resources produced in-thread ([#28678](https://github.com/n8n-io/n8n/issues/28678)) ([7b3696f](https://github.com/n8n-io/n8n/commit/7b36",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.18.0",
-      "published_at": "2026-04-21 17:26",
-      "tag": "n8n@2.18.0",
+      "description": "## [2.17.5](https://github.com/n8n-io/n8n/compare/n8n@2.17.4...n8n@2.17.5) (2026-04-22)\n\n\n### Bug Fixes\n\n* **core:** Enforce credential access checks in dynamic node parameter requests ([#28861](https://github.com/n8n-io/n8n/issues/28861)) ([9aadc28](https://github.com/n8n-io/n8n/commit/9aadc287efe5841ea2ccb541b22697d2bfc32cb2))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.17.5",
+      "published_at": "2026-04-22 18:23",
+      "tag": "n8n@2.17.5",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n beta",
+      "name": "n8n-io/n8n n8n@2.17.4",
       "repo": "n8n-io/n8n",
-      "description": "# [2.18.0](https://github.com/n8n-io/n8n/compare/n8n@2.17.0...n8n@2.18.0) (2026-04-21)\n\n\n### Bug Fixes\n\n* **ai-builder:** Increase orchestrator max steps from default 5 to 60 ([#28429](https://github.com/n8n-io/n8n/issues/28429)) ([3c850f2](https://github.com/n8n-io/n8n/commit/3c850f2711d53ded62a3540c67b9ec02143cbb3f))\n* **ai-builder:** Scope artifacts panel to resources produced in-thread ([#28678](https://github.com/n8n-io/n8n/issues/28678)) ([7b3696f](https://github.com/n8n-io/n8n/commit/7b36",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-04-21 17:26",
-      "tag": "beta",
+      "description": "## [2.17.4](https://github.com/n8n-io/n8n/compare/n8n@2.17.3...n8n@2.17.4) (2026-04-22)\n\n\n### Bug Fixes\n\n* **Alibaba Cloud Chat Model Node:** Add credential-level url field for AI gateway compatibility ([#28746](https://github.com/n8n-io/n8n/issues/28746)) ([60b61ef](https://github.com/n8n-io/n8n/commit/60b61efedff85e5270b202f47a91a4f99224f478))\n\n\n### Reverts\n\n* Make Wait node fully durable by removing in-memory execution path ([#28574](https://github.com/n8n-io/n8n/issues/28574)) ([a4bdc80](htt",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.17.4",
+      "published_at": "2026-04-22 16:01",
+      "tag": "n8n@2.17.4",
       "source": "release"
     },
     {
