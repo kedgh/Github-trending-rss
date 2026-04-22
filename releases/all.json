@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-04-22 09:51",
+  "updated": "2026-04-22 15:22",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.21.1-rc1",
+      "name": "ollama/ollama v0.21.1",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* docs: update hermes by @ParthSareen in https://github.com/ollama/ollama/pull/15655\r\n* mlx: apply repeat penalties in sampler by @dhiltgen in https://github.com/ollama/ollama/pull/15631\r\n* mlx: fuse sigmoid router head in glm4_moe_lite by @jessegross in https://github.com/ollama/ollama/pull/15659\r\n* launch: add kimi cli integration with installer flow by @ParthSareen in https://github.com/ollama/ollama/pull/15723\r\n* server: apply format when think=false with thinking-capable ",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.21.1-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.21.1",
       "published_at": "2026-04-22 08:18",
-      "tag": "v0.21.1-rc1",
+      "tag": "v0.21.1",
       "source": "release"
     },
     {
@@ -85,6 +85,15 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n n8n@1.123.32",
+      "repo": "n8n-io/n8n",
+      "description": "## [1.123.32](https://github.com/n8n-io/n8n/compare/n8n@1.123.31...n8n@1.123.32) (2026-04-22)\n\n\n### Bug Fixes\n\n* **core:** Preserve NODE_PATH for globally installed npm packages in Docker ([#28781](https://github.com/n8n-io/n8n/issues/28781)) ([a6b3e81](https://github.com/n8n-io/n8n/commit/a6b3e819bb7036e0ef8df36e1ea9461e5738c905))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.32",
+      "published_at": "2026-04-22 14:42",
+      "tag": "n8n@1.123.32",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n n8n@2.18.0",
       "repo": "n8n-io/n8n",
       "description": "# [2.18.0](https://github.com/n8n-io/n8n/compare/n8n@2.17.0...n8n@2.18.0) (2026-04-21)\n\n\n### Bug Fixes\n\n* **ai-builder:** Increase orchestrator max steps from default 5 to 60 ([#28429](https://github.com/n8n-io/n8n/issues/28429)) ([3c850f2](https://github.com/n8n-io/n8n/commit/3c850f2711d53ded62a3540c67b9ec02143cbb3f))\n* **ai-builder:** Scope artifacts panel to resources produced in-thread ([#28678](https://github.com/n8n-io/n8n/issues/28678)) ([7b3696f](https://github.com/n8n-io/n8n/commit/7b36",
@@ -100,15 +109,6 @@
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
       "published_at": "2026-04-21 17:26",
       "tag": "beta",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n stable",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.17.3](https://github.com/n8n-io/n8n/compare/n8n@2.17.2...n8n@2.17.3) (2026-04-20)\n\n\n### Bug Fixes\n\n* **core:** Guard against undefined config properties in credential overwrites ([#28629](https://github.com/n8n-io/n8n/issues/28629)) ([5d32052](https://github.com/n8n-io/n8n/commit/5d320521fbac7fe2502d10ff21568598dc9d84f6))\n* **editor:** Restore WASM file paths for cURL import in HTTP Request node ([#28619](https://github.com/n8n-io/n8n/issues/28619)) ([c15d6d0](https://github.com/n8n-io/n8n",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-04-21 17:28",
-      "tag": "stable",
       "source": "release"
     },
     {
