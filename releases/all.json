@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-04-22 21:08",
+  "updated": "2026-04-23 03:02",
   "count": 15,
   "items": [
     {
@@ -60,7 +60,7 @@
     {
       "name": "ollama/ollama v0.21.1",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* docs: update hermes by @ParthSareen in https://github.com/ollama/ollama/pull/15655\r\n* mlx: apply repeat penalties in sampler by @dhiltgen in https://github.com/ollama/ollama/pull/15631\r\n* mlx: fuse sigmoid router head in glm4_moe_lite by @jessegross in https://github.com/ollama/ollama/pull/15659\r\n* launch: add kimi cli integration with installer flow by @ParthSareen in https://github.com/ollama/ollama/pull/15723\r\n* server: apply format when think=false with thinking-capable ",
+      "description": "## What's Changed\r\n### Kimi CLI\r\nYou can now install and run the Kimi CLI through Ollama.\r\n\r\n```\r\nollama launch kimi --model kimi-k2.6:cloud\r\n```\r\nKimi CLI with Kimi K2.6 excels at long horizon agentic execution tasks through a multi-agent system.\r\n\r\n  * **MLX runner adds logprobs support** for compatible models\r\n  * **Faster MLX sampling** with fused top-P and top-K in a single sort pass, plus repeat penalties applied in the sampler\r\n  * **Improved MLX prompt tokenization** by moving tokenizati",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.21.1",
       "published_at": "2026-04-22 08:18",
       "tag": "v0.21.1",
