@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-04-22 03:01",
+  "updated": "2026-04-22 09:51",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-openai==1.1.16",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-openai==1.1.15\n\nrelease(openai): 1.1.16 (#36927)\nfix(openai): tolerate `prompt_cache_retention` drift in streaming (#36925)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.1.16",
+      "published_at": "2026-04-22 03:26",
+      "tag": "langchain-openai==1.1.16",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-openai==1.1.15",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.3.0",
       "published_at": "2026-04-17 22:51",
       "tag": "langchain-core==1.3.0",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-anthropic==1.4.1",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-anthropic==1.4.0\n\nfix(anthropic): strip null encrypted_content from compaction blocks (#36850)\nrelease(anthropic): 1.4.1 (#36848)\nfeat(anthropic): support opus 4.7 features (#36847)\nchore: bump langsmith from 0.6.3 to 0.7.31 in /libs/partners/anthropic (#36803)\nchore(deps): bump pytest to `9.0.3` (#36801)\nchore: bump langsmith from 0.6.3 to 0.7.31 in /libs/partners/anthropic (#36789)\nchore(model-profiles): refresh model profile data (#36482)\nfix(core): fixed typos in the ",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.1",
-      "published_at": "2026-04-17 22:26",
-      "tag": "langchain-anthropic==1.4.1",
       "source": "release"
     },
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.21.1-rc1",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* docs: update hermes by @ParthSareen in https://github.com/ollama/ollama/pull/15655\r\n* mlx: apply repeat penalties in sampler by @dhiltgen in https://github.com/ollama/ollama/pull/15631\r\n* mlx: fuse sigmoid router head in glm4_moe_lite by @jessegross in https://github.com/ollama/ollama/pull/15659\r\n* launch: add kimi cli integration with installer flow by @ParthSareen in https://github.com/ollama/ollama/pull/15723\r\n* server: apply format when think=false with thinking-capable ",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.21.1-rc1",
+      "published_at": "2026-04-22 08:18",
+      "tag": "v0.21.1-rc1",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.21.0",
       "repo": "ollama/ollama",
       "description": "## Hermes Agent\r\n\r\n```\r\nollama launch hermes\r\n```\r\n\r\nHermes learns with you, automatically creating skills to better serve your workflows. Great for research and engineering tasks.\r\n\r\n<img width=\"1329\" height=\"946\" alt=\"image\" src=\"https://github.com/user-attachments/assets/771d3383-95ed-4652-81e5-cf89514d25cc\" />\r\n\r\n## What's Changed\r\n\r\n- **Gemma 4 on MLX.** Added support for running Gemma 4 via MLX on Apple Silicon, including a text-only MLX runtime for the model. The MLX backend also picked u",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.20.7",
       "published_at": "2026-04-14 07:33",
       "tag": "v0.20.7",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.20.6",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* Gemma 4 tool calling ability is improved and updated to use Google's latest post-launch fixes\r\n* Parallel tool calling improved for streaming responses \r\n* [Hermes agent](https://docs.ollama.com/integrations/hermes) Ollama integration guide is now available\r\n* Ollama app is updated to fix image attachment errors \r\n\r\n## New Contributors\r\n\r\n@matteocelani made their first contribution in [#15272](https://github.com/ollama/ollama/pull/15272)\r\n\r\n**Full Changelog**: https://github",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.6",
-      "published_at": "2026-04-13 06:59",
-      "tag": "v0.20.6",
       "source": "release"
     },
     {
