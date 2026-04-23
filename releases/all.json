@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-04-23 09:55",
+  "updated": "2026-04-23 15:24",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.21.2-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* docs: Structured outputs and ollama cloud by @madflow in https://github.com/ollama/ollama/pull/15733\r\n* launch: use bundled OpenClaw ollama web search by @ParthSareen in https://github.com/ollama/ollama/pull/15757\r\n\r\n## New Contributors\r\n* @madflow made their first contribution in https://github.com/ollama/ollama/pull/15733\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.21.1...v0.21.2-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.21.2-rc0",
+      "published_at": "2026-04-23 10:29",
+      "tag": "v0.21.2-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.21.1",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n### Kimi CLI\r\nYou can now install and run the Kimi CLI through Ollama.\r\n\r\n```\r\nollama launch kimi --model kimi-k2.6:cloud\r\n```\r\nKimi CLI with Kimi K2.6 excels at long horizon agentic execution tasks through a multi-agent system.\r\n\r\n  * **MLX runner adds logprobs support** for compatible models\r\n  * **Faster MLX sampling** with fused top-P and top-K in a single sort pass, plus repeat penalties applied in the sampler\r\n  * **Improved MLX prompt tokenization** by moving tokenizati",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.21.0",
       "published_at": "2026-04-17 06:00",
       "tag": "v0.21.0",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.20.7",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* Fix quality of gemma:e2b and gemma:e4b when thinking is disabled \r\n* ROCm: Update to ROCm 7.2.1 on Linux by @saman-amd in https://github.com/ollama/ollama/pull/15483\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.6...v0.20.7",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.7",
-      "published_at": "2026-04-14 07:33",
-      "tag": "v0.20.7",
       "source": "release"
     },
     {
