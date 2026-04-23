@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-04-23 03:02",
+  "updated": "2026-04-23 09:55",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-openai==1.2.0",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-openai==1.1.16\n\nrelease(openai): 1.2.0 (#36961)\nfeat(openai): prevent silent streaming hangs in `ChatOpenAI` (#36949)\nhotfix(ci): remove nobenchmark flag (#36959)\nchore(partners): standardize integration test invocation (#36958)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.2.0",
+      "published_at": "2026-04-23 08:43",
+      "tag": "langchain-openai==1.2.0",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-openai==1.1.16",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.1.15",
       "published_at": "2026-04-21 03:57",
       "tag": "langchain-openai==1.1.15",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.3.0",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.2.31\n\nrelease(core): release 1.3.0 (#36851)\nrelease(core): 1.3.0a3 (#36829)\nchore(core): keep checkpoint_ns behavior in streaming metadata for backwards compat (#36828)\nfeat(core): Add chat model and LLM invocation params to traceable metadata (#36771)\nfix(core): restore cloud metadata IPs and link-local range in SSRF policy (#36816)\nchore(deps): bump pytest to `9.0.3` (#36801)\nchore(core): harden private SSRF utilities (#36768)\nfix(openai): handle content blocks ",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.3.0",
-      "published_at": "2026-04-17 22:51",
-      "tag": "langchain-core==1.3.0",
       "source": "release"
     },
     {
