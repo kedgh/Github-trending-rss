@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-04-23 21:07",
+  "updated": "2026-04-24 02:58",
   "count": 15,
   "items": [
     {
@@ -13,21 +13,21 @@
       "source": "release"
     },
     {
+      "name": "langchain-ai/langchain langchain-core==1.3.1",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-core==1.3.0\n\nrelease(core): 1.3.1 (#36972)\nfeat(core): allow _format_output to pass through list of ToolOutputMixin instances (#36963)\nchore: bump nbconvert from 7.17.0 to 7.17.1 in /libs/core (#36923)\nfeat(core): Update inheritance behavior for tracer metadata for special keys (#36900)\nchore: bump langsmith from 0.7.13 to 0.7.31 in /libs/core (#36813)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.3.1",
+      "published_at": "2026-04-24 02:54",
+      "tag": "langchain-core==1.3.1",
+      "source": "release"
+    },
+    {
       "name": "langchain-ai/langchain langchain-openai==1.1.16",
       "repo": "langchain-ai/langchain",
       "description": "Changes since langchain-openai==1.1.15\n\nrelease(openai): 1.1.16 (#36927)\nfix(openai): tolerate `prompt_cache_retention` drift in streaming (#36925)",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.1.16",
       "published_at": "2026-04-22 03:26",
       "tag": "langchain-openai==1.1.16",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-openai==1.1.15",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.1.14\n\nrelease(openai): 1.1.15 (#36901)\nfix(openai): accommodate dict `response` items in streaming (#36899)\nfix(openai): infer azure chat profiles from model name (#36858)\nchore(model-profiles): refresh model profile data (#36864)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.1.15",
-      "published_at": "2026-04-21 03:57",
-      "tag": "langchain-openai==1.1.15",
       "source": "release"
     },
     {
