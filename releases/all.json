@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-04-24 09:56",
+  "updated": "2026-04-24 15:50",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.21.2-rc1",
+      "name": "ollama/ollama v0.21.2",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* docs: Structured outputs and ollama cloud by @madflow in https://github.com/ollama/ollama/pull/15733\r\n* launch: use bundled OpenClaw ollama web search by @ParthSareen in https://github.com/ollama/ollama/pull/15757\r\n\r\n## New Contributors\r\n* @madflow made their first contribution in https://github.com/ollama/ollama/pull/15733\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.21.1...v0.21.2-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.21.2-rc1",
+      "description": "## What's Changed\r\n  * Improved reliability of the OpenClaw onboarding flow in `ollama launch`\r\n  * Recommended models in `ollama launch` now appear in a fixed, canonical order\r\n  * OpenClaw integration now bundles Ollama's web search plugin in OpenClaw\r\n\r\n## New Contributors\r\n* @madflow made their first contribution in https://github.com/ollama/ollama/pull/15733\r\n\r\n**Full Changelog:** https://github.com/ollama/ollama/compare/v0.21.1...v0.21.2\r\n",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.21.2",
       "published_at": "2026-04-23 10:29",
-      "tag": "v0.21.2-rc1",
+      "tag": "v0.21.2",
       "source": "release"
     },
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n stable",
+      "name": "n8n-io/n8n n8n@1.123.35",
       "repo": "n8n-io/n8n",
-      "description": "## [2.17.6](https://github.com/n8n-io/n8n/compare/n8n@2.17.5...n8n@2.17.6) (2026-04-23)\n\n\n### Bug Fixes\n\n* **core:**  Fixes user search functionality in ProjectSettings for pr… ([#28949](https://github.com/n8n-io/n8n/issues/28949)) ([d388990](https://github.com/n8n-io/n8n/commit/d388990ae23df2d07e0b45e1b55de4d17e28e389))",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-04-23 17:19",
-      "tag": "stable",
+      "description": "## [1.123.35](https://github.com/n8n-io/n8n/compare/n8n@1.123.34...n8n@1.123.35) (2026-04-24)\n\n\n### Bug Fixes\n\n* Fix critical dependency vulnerabilities and build errors on 1.x ([#29026](https://github.com/n8n-io/n8n/issues/29026)) ([5ce4b5d](https://github.com/n8n-io/n8n/commit/5ce4b5d46c788c2f63f7e130f10cc70324060f0e))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.35",
+      "published_at": "2026-04-24 15:19",
+      "tag": "n8n@1.123.35",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.17.6",
+      "name": "n8n-io/n8n n8n@2.18.3",
       "repo": "n8n-io/n8n",
-      "description": "## [2.17.6](https://github.com/n8n-io/n8n/compare/n8n@2.17.5...n8n@2.17.6) (2026-04-23)\n\n\n### Bug Fixes\n\n* **core:**  Fixes user search functionality in ProjectSettings for pr… ([#28949](https://github.com/n8n-io/n8n/issues/28949)) ([d388990](https://github.com/n8n-io/n8n/commit/d388990ae23df2d07e0b45e1b55de4d17e28e389))",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.17.6",
-      "published_at": "2026-04-23 17:19",
-      "tag": "n8n@2.17.6",
+      "description": "## [2.18.3](https://github.com/n8n-io/n8n/compare/n8n@2.18.2...n8n@2.18.3) (2026-04-24)\n\n\n### Features\n\n* **Google Gemini Node:** Gemini default models update ([#28938](https://github.com/n8n-io/n8n/issues/28938)) ([548f90d](https://github.com/n8n-io/n8n/commit/548f90d22258e5aff22b4fd08d7b8eb14ce57147))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.18.3",
+      "published_at": "2026-04-24 15:09",
+      "tag": "n8n@2.18.3",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.34",
+      "name": "n8n-io/n8n beta",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.34](https://github.com/n8n-io/n8n/compare/n8n@1.123.33...n8n@1.123.34) (2026-04-23)\n\n\n### Bug Fixes\n\n* Fix 50 critical issues in handlebars, lodash, @microsoft/api-extractor and 20 more ([#28927](https://github.com/n8n-io/n8n/issues/28927)) ([caa65d8](https://github.com/n8n-io/n8n/commit/caa65d8e9b7dd87f20f766d7e53f0f6cc6c63769))",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.34",
-      "published_at": "2026-04-23 17:24",
-      "tag": "n8n@1.123.34",
+      "description": "## [2.18.3](https://github.com/n8n-io/n8n/compare/n8n@2.18.2...n8n@2.18.3) (2026-04-24)\n\n\n### Features\n\n* **Google Gemini Node:** Gemini default models update ([#28938](https://github.com/n8n-io/n8n/issues/28938)) ([548f90d](https://github.com/n8n-io/n8n/commit/548f90d22258e5aff22b4fd08d7b8eb14ce57147))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-04-24 15:09",
+      "tag": "beta",
       "source": "release"
     },
     {
