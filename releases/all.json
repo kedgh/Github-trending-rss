@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-04-24 21:04",
+  "updated": "2026-04-25 02:39",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-core==1.3.2",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-core==1.3.1\n\nrelease(core): 1.3.2 (#36990)\nfeat(core): add content-block-centric streaming (v2) (#36834)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.3.2",
+      "published_at": "2026-04-24 23:49",
+      "tag": "langchain-core==1.3.2",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-openai==1.2.0",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.2.0",
       "published_at": "2026-04-24 04:54",
       "tag": "langchain-fireworks==1.2.0",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.3.1",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.3.0\n\nrelease(core): 1.3.1 (#36972)\nfeat(core): allow _format_output to pass through list of ToolOutputMixin instances (#36963)\nchore: bump nbconvert from 7.17.0 to 7.17.1 in /libs/core (#36923)\nfeat(core): Update inheritance behavior for tracer metadata for special keys (#36900)\nchore: bump langsmith from 0.7.13 to 0.7.31 in /libs/core (#36813)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.3.1",
-      "published_at": "2026-04-24 02:54",
-      "tag": "langchain-core==1.3.1",
       "source": "release"
     },
     {
@@ -103,12 +103,12 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.36",
+      "name": "n8n-io/n8n n8n@1.123.37",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.36](https://github.com/n8n-io/n8n/compare/n8n@1.123.35...n8n@1.123.36) (2026-04-24)\n\n\n### Bug Fixes\n\n* **core:** Workflow import cli doesn't deregister crons for deactivated workflows (multi-main only) ([#29079](https://github.com/n8n-io/n8n/issues/29079)) ([1d67911](https://github.com/n8n-io/n8n/commit/1d6791179f2b2436268871d6563ac4c34db89f02))",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.36",
-      "published_at": "2026-04-24 20:04",
-      "tag": "n8n@1.123.36",
+      "description": "## [1.123.37](https://github.com/n8n-io/n8n/compare/n8n@1.123.36...n8n@1.123.37) (2026-04-24)\n\n\n### Bug Fixes\n\n* **core:** Fix InstanceSettings.isMultiMain still returning false for multi-main cli command ([#29101](https://github.com/n8n-io/n8n/issues/29101)) ([31f5508](https://github.com/n8n-io/n8n/commit/31f55085e258ae44fba42cd110fb11f9c57fffd6))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.37",
+      "published_at": "2026-04-24 23:46",
+      "tag": "n8n@1.123.37",
       "source": "release"
     },
     {
