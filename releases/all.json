@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-04-24 15:50",
+  "updated": "2026-04-24 21:04",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.21.3-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* api: accept \"max\" as a think value by @ParthSareen in https://github.com/ollama/ollama/pull/15787\r\n* openai: map responses reasoning effort to think by @ParthSareen in https://github.com/ollama/ollama/pull/15789\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.21.2...v0.21.3-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.21.3-rc0",
+      "published_at": "2026-04-24 20:15",
+      "tag": "v0.21.3-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.21.2",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n  * Improved reliability of the OpenClaw onboarding flow in `ollama launch`\r\n  * Recommended models in `ollama launch` now appear in a fixed, canonical order\r\n  * OpenClaw integration now bundles Ollama's web search plugin in OpenClaw\r\n\r\n## New Contributors\r\n* @madflow made their first contribution in https://github.com/ollama/ollama/pull/15733\r\n\r\n**Full Changelog:** https://github.com/ollama/ollama/compare/v0.21.1...v0.21.2\r\n",
@@ -76,39 +85,30 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.21.0",
-      "repo": "ollama/ollama",
-      "description": "## Hermes Agent\r\n\r\n```\r\nollama launch hermes\r\n```\r\n\r\nHermes learns with you, automatically creating skills to better serve your workflows. Great for research and engineering tasks.\r\n\r\n<img width=\"1329\" height=\"946\" alt=\"image\" src=\"https://github.com/user-attachments/assets/771d3383-95ed-4652-81e5-cf89514d25cc\" />\r\n\r\n## What's Changed\r\n\r\n- **Gemma 4 on MLX.** Added support for running Gemma 4 via MLX on Apple Silicon, including a text-only MLX runtime for the model. The MLX backend also picked u",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.21.0",
-      "published_at": "2026-04-17 06:00",
-      "tag": "v0.21.0",
+      "name": "n8n-io/n8n stable",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.17.7](https://github.com/n8n-io/n8n/compare/n8n@2.17.6...n8n@2.17.7) (2026-04-24)\n\n\n### Features\n\n* **Google Gemini Node:** Gemini default models update ([#28939](https://github.com/n8n-io/n8n/issues/28939)) ([0c856bf](https://github.com/n8n-io/n8n/commit/0c856bf8800120a46d36b05c767039d9ce937f9d))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-04-24 15:57",
+      "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.35",
+      "name": "n8n-io/n8n n8n@2.17.7",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.35](https://github.com/n8n-io/n8n/compare/n8n@1.123.34...n8n@1.123.35) (2026-04-24)\n\n\n### Bug Fixes\n\n* Fix critical dependency vulnerabilities and build errors on 1.x ([#29026](https://github.com/n8n-io/n8n/issues/29026)) ([5ce4b5d](https://github.com/n8n-io/n8n/commit/5ce4b5d46c788c2f63f7e130f10cc70324060f0e))",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.35",
-      "published_at": "2026-04-24 15:19",
-      "tag": "n8n@1.123.35",
+      "description": "## [2.17.7](https://github.com/n8n-io/n8n/compare/n8n@2.17.6...n8n@2.17.7) (2026-04-24)\n\n\n### Features\n\n* **Google Gemini Node:** Gemini default models update ([#28939](https://github.com/n8n-io/n8n/issues/28939)) ([0c856bf](https://github.com/n8n-io/n8n/commit/0c856bf8800120a46d36b05c767039d9ce937f9d))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.17.7",
+      "published_at": "2026-04-24 15:57",
+      "tag": "n8n@2.17.7",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.18.3",
+      "name": "n8n-io/n8n n8n@1.123.36",
       "repo": "n8n-io/n8n",
-      "description": "## [2.18.3](https://github.com/n8n-io/n8n/compare/n8n@2.18.2...n8n@2.18.3) (2026-04-24)\n\n\n### Features\n\n* **Google Gemini Node:** Gemini default models update ([#28938](https://github.com/n8n-io/n8n/issues/28938)) ([548f90d](https://github.com/n8n-io/n8n/commit/548f90d22258e5aff22b4fd08d7b8eb14ce57147))",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.18.3",
-      "published_at": "2026-04-24 15:09",
-      "tag": "n8n@2.18.3",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n beta",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.18.3](https://github.com/n8n-io/n8n/compare/n8n@2.18.2...n8n@2.18.3) (2026-04-24)\n\n\n### Features\n\n* **Google Gemini Node:** Gemini default models update ([#28938](https://github.com/n8n-io/n8n/issues/28938)) ([548f90d](https://github.com/n8n-io/n8n/commit/548f90d22258e5aff22b4fd08d7b8eb14ce57147))",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-04-24 15:09",
-      "tag": "beta",
+      "description": "## [1.123.36](https://github.com/n8n-io/n8n/compare/n8n@1.123.35...n8n@1.123.36) (2026-04-24)\n\n\n### Bug Fixes\n\n* **core:** Workflow import cli doesn't deregister crons for deactivated workflows (multi-main only) ([#29079](https://github.com/n8n-io/n8n/issues/29079)) ([1d67911](https://github.com/n8n-io/n8n/commit/1d6791179f2b2436268871d6563ac4c34db89f02))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.36",
+      "published_at": "2026-04-24 20:04",
+      "tag": "n8n@1.123.36",
       "source": "release"
     },
     {
