@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-04-24 02:58",
+  "updated": "2026-04-24 09:56",
   "count": 15,
   "items": [
     {
@@ -13,21 +13,21 @@
       "source": "release"
     },
     {
+      "name": "langchain-ai/langchain langchain-fireworks==1.2.0",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-fireworks==1.1.0\n\nrelease(fireworks): 1.2.0 (#36978)\nfix(fireworks): honor `max_retries` (#36973)\nfeat(fireworks): populate `usage_metadata` on streaming (#36977)\nfix(fireworks): swap undeployed Kimi K2 slug in integration tests (#36975)\nhotfix(ci): remove nobenchmark flag (#36959)\nchore(partners): standardize integration test invocation (#36958)\nchore(model-profiles): refresh model profile data (#36941)\nchore(deps): bump pytest to `9.0.3` (#36801)\nchore: bump langsmith f",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.2.0",
+      "published_at": "2026-04-24 04:54",
+      "tag": "langchain-fireworks==1.2.0",
+      "source": "release"
+    },
+    {
       "name": "langchain-ai/langchain langchain-core==1.3.1",
       "repo": "langchain-ai/langchain",
       "description": "Changes since langchain-core==1.3.0\n\nrelease(core): 1.3.1 (#36972)\nfeat(core): allow _format_output to pass through list of ToolOutputMixin instances (#36963)\nchore: bump nbconvert from 7.17.0 to 7.17.1 in /libs/core (#36923)\nfeat(core): Update inheritance behavior for tracer metadata for special keys (#36900)\nchore: bump langsmith from 0.7.13 to 0.7.31 in /libs/core (#36813)",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.3.1",
       "published_at": "2026-04-24 02:54",
       "tag": "langchain-core==1.3.1",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-openai==1.1.16",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.1.15\n\nrelease(openai): 1.1.16 (#36927)\nfix(openai): tolerate `prompt_cache_retention` drift in streaming (#36925)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.1.16",
-      "published_at": "2026-04-22 03:26",
-      "tag": "langchain-openai==1.1.16",
       "source": "release"
     },
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.21.2-rc0",
+      "name": "ollama/ollama v0.21.2-rc1",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* docs: Structured outputs and ollama cloud by @madflow in https://github.com/ollama/ollama/pull/15733\r\n* launch: use bundled OpenClaw ollama web search by @ParthSareen in https://github.com/ollama/ollama/pull/15757\r\n\r\n## New Contributors\r\n* @madflow made their first contribution in https://github.com/ollama/ollama/pull/15733\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.21.1...v0.21.2-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.21.2-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.21.2-rc1",
       "published_at": "2026-04-23 10:29",
-      "tag": "v0.21.2-rc0",
+      "tag": "v0.21.2-rc1",
       "source": "release"
     },
     {
