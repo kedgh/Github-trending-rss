@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-04-25 02:39",
+  "updated": "2026-04-25 09:46",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-openai==1.2.1",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-openai==1.2.0\n\nhotfix: bump min core versions (#36996)\nrelease(openai): 1.2.1 (#36995)\nfix(openai): add gpt-5.5 pro to Responses API check (#36994)\nfeat(core): add content-block-centric streaming (v2) (#36834)\nchore(model-profiles): refresh model profile data (#36982)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.2.1",
+      "published_at": "2026-04-25 03:46",
+      "tag": "langchain-openai==1.2.1",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-core==1.3.2",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.2.0",
       "published_at": "2026-04-23 08:43",
       "tag": "langchain-openai==1.2.0",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-fireworks==1.2.0",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-fireworks==1.1.0\n\nrelease(fireworks): 1.2.0 (#36978)\nfix(fireworks): honor `max_retries` (#36973)\nfeat(fireworks): populate `usage_metadata` on streaming (#36977)\nfix(fireworks): swap undeployed Kimi K2 slug in integration tests (#36975)\nhotfix(ci): remove nobenchmark flag (#36959)\nchore(partners): standardize integration test invocation (#36958)\nchore(model-profiles): refresh model profile data (#36941)\nchore(deps): bump pytest to `9.0.3` (#36801)\nchore: bump langsmith f",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.2.0",
-      "published_at": "2026-04-24 04:54",
-      "tag": "langchain-fireworks==1.2.0",
       "source": "release"
     },
     {
