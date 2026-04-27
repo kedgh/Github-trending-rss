@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-04-27 16:08",
+  "updated": "2026-04-27 21:21",
   "count": 15,
   "items": [
     {
@@ -87,28 +87,28 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.17.7](https://github.com/n8n-io/n8n/compare/n8n@2.17.6...n8n@2.17.7) (2026-04-24)\n\n\n### Features\n\n* **Google Gemini Node:** Gemini default models update ([#28939](https://github.com/n8n-io/n8n/issues/28939)) ([0c856bf](https://github.com/n8n-io/n8n/commit/0c856bf8800120a46d36b05c767039d9ce937f9d))",
+      "description": "## [2.17.8](https://github.com/n8n-io/n8n/compare/n8n@2.17.7...n8n@2.17.8) (2026-04-27)\n\n\n### Bug Fixes\n\n* Disable \"Get 100 free OpenAI API credits\"  if aiGateway enabled in the license ([#29058](https://github.com/n8n-io/n8n/issues/29058)) ([11c5ad9](https://github.com/n8n-io/n8n/commit/11c5ad9e7100c5fa0f8462800bee7d5e43317058))\n* **editor:** Refresh wallet balance when usage refresh is clicked ([#29081](https://github.com/n8n-io/n8n/issues/29081)) ([5e95d38](https://github.com/n8n-io/n8n/commi",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-04-24 15:57",
+      "published_at": "2026-04-27 17:55",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.17.7",
+      "name": "n8n-io/n8n n8n@2.17.8",
       "repo": "n8n-io/n8n",
-      "description": "## [2.17.7](https://github.com/n8n-io/n8n/compare/n8n@2.17.6...n8n@2.17.7) (2026-04-24)\n\n\n### Features\n\n* **Google Gemini Node:** Gemini default models update ([#28939](https://github.com/n8n-io/n8n/issues/28939)) ([0c856bf](https://github.com/n8n-io/n8n/commit/0c856bf8800120a46d36b05c767039d9ce937f9d))",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.17.7",
-      "published_at": "2026-04-24 15:57",
-      "tag": "n8n@2.17.7",
+      "description": "## [2.17.8](https://github.com/n8n-io/n8n/compare/n8n@2.17.7...n8n@2.17.8) (2026-04-27)\n\n\n### Bug Fixes\n\n* Disable \"Get 100 free OpenAI API credits\"  if aiGateway enabled in the license ([#29058](https://github.com/n8n-io/n8n/issues/29058)) ([11c5ad9](https://github.com/n8n-io/n8n/commit/11c5ad9e7100c5fa0f8462800bee7d5e43317058))\n* **editor:** Refresh wallet balance when usage refresh is clicked ([#29081](https://github.com/n8n-io/n8n/issues/29081)) ([5e95d38](https://github.com/n8n-io/n8n/commi",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.17.8",
+      "published_at": "2026-04-27 17:55",
+      "tag": "n8n@2.17.8",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.37",
+      "name": "n8n-io/n8n n8n@2.18.4",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.37](https://github.com/n8n-io/n8n/compare/n8n@1.123.36...n8n@1.123.37) (2026-04-24)\n\n\n### Bug Fixes\n\n* **core:** Fix InstanceSettings.isMultiMain still returning false for multi-main cli command ([#29101](https://github.com/n8n-io/n8n/issues/29101)) ([31f5508](https://github.com/n8n-io/n8n/commit/31f55085e258ae44fba42cd110fb11f9c57fffd6))",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.37",
-      "published_at": "2026-04-24 23:46",
-      "tag": "n8n@1.123.37",
+      "description": "## [2.18.4](https://github.com/n8n-io/n8n/compare/n8n@2.18.3...n8n@2.18.4) (2026-04-27)\n\n\n### Bug Fixes\n\n* Disable \"Get 100 free OpenAI API credits\"  if aiGateway enabled in the license ([#29057](https://github.com/n8n-io/n8n/issues/29057)) ([436274e](https://github.com/n8n-io/n8n/commit/436274eabaceadf2f8b70d0bc739dc8c55aa5a8c))\n* **editor:** Refresh wallet balance when usage refresh is clicked ([#29080](https://github.com/n8n-io/n8n/issues/29080)) ([88c531a](https://github.com/n8n-io/n8n/commi",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.18.4",
+      "published_at": "2026-04-27 17:43",
+      "tag": "n8n@2.18.4",
       "source": "release"
     },
     {
