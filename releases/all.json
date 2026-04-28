@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-04-28 16:11",
+  "updated": "2026-04-29 03:23",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.22.0",
+      "repo": "ollama/ollama",
+      "description": "## New models \r\n* NVIDIA's [Nemotron 3 Omni](https://ollama.com/library/nemotron3)\r\n* Poolside's first open-weight coding model - [Laguna XS.2](https://ollama.com/library/laguna-xs.2)\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.21.2...v0.22.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.22.0",
+      "published_at": "2026-04-28 23:00",
+      "tag": "v0.22.0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.21.3-rc0",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* api: accept \"max\" as a think value by @ParthSareen in https://github.com/ollama/ollama/pull/15787\r\n* openai: map responses reasoning effort to think by @ParthSareen in https://github.com/ollama/ollama/pull/15789\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.21.2...v0.21.3-rc0",
@@ -76,39 +85,48 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.21.1",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n### Kimi CLI\r\nYou can now install and run the Kimi CLI through Ollama.\r\n\r\n```\r\nollama launch kimi --model kimi-k2.6:cloud\r\n```\r\nKimi CLI with Kimi K2.6 excels at long horizon agentic execution tasks through a multi-agent system.\r\n\r\n  * **MLX runner adds logprobs support** for compatible models\r\n  * **Faster MLX sampling** with fused top-P and top-K in a single sort pass, plus repeat penalties applied in the sampler\r\n  * **Improved MLX prompt tokenization** by moving tokenizati",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.21.1",
-      "published_at": "2026-04-22 08:18",
-      "tag": "v0.21.1",
+      "name": "n8n-io/n8n n8n@2.19.0",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.19.0](https://github.com/n8n-io/n8n/compare/n8n@2.18.0...n8n@2.19.0) (2026-04-28)\n\n\n### Bug Fixes\n\n* Add credential auth and test for Twilio, Pipedrive, Asana, Freshdesk, Workable ([#28265](https://github.com/n8n-io/n8n/issues/28265)) ([a2aa69d](https://github.com/n8n-io/n8n/commit/a2aa69dbd7c931a869417d28c26297fe5beb86e9))\n* Additional keys in routing nodes ([#28758](https://github.com/n8n-io/n8n/issues/28758)) ([8e49800](https://github.com/n8n-io/n8n/commit/8e49800421e6611084c1d092cd2aad8",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.19.0",
+      "published_at": "2026-04-28 18:25",
+      "tag": "n8n@2.19.0",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n beta",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.19.0](https://github.com/n8n-io/n8n/compare/n8n@2.18.0...n8n@2.19.0) (2026-04-28)\n\n\n### Bug Fixes\n\n* Add credential auth and test for Twilio, Pipedrive, Asana, Freshdesk, Workable ([#28265](https://github.com/n8n-io/n8n/issues/28265)) ([a2aa69d](https://github.com/n8n-io/n8n/commit/a2aa69dbd7c931a869417d28c26297fe5beb86e9))\n* Additional keys in routing nodes ([#28758](https://github.com/n8n-io/n8n/issues/28758)) ([8e49800](https://github.com/n8n-io/n8n/commit/8e49800421e6611084c1d092cd2aad8",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-04-28 18:25",
+      "tag": "beta",
       "source": "release"
     },
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.17.8](https://github.com/n8n-io/n8n/compare/n8n@2.17.7...n8n@2.17.8) (2026-04-27)\n\n\n### Bug Fixes\n\n* Disable \"Get 100 free OpenAI API credits\"  if aiGateway enabled in the license ([#29058](https://github.com/n8n-io/n8n/issues/29058)) ([11c5ad9](https://github.com/n8n-io/n8n/commit/11c5ad9e7100c5fa0f8462800bee7d5e43317058))\n* **editor:** Refresh wallet balance when usage refresh is clicked ([#29081](https://github.com/n8n-io/n8n/issues/29081)) ([5e95d38](https://github.com/n8n-io/n8n/commi",
+      "description": "## [2.18.4](https://github.com/n8n-io/n8n/compare/n8n@2.18.3...n8n@2.18.4) (2026-04-27)\n\n\n### Bug Fixes\n\n* Disable \"Get 100 free OpenAI API credits\"  if aiGateway enabled in the license ([#29057](https://github.com/n8n-io/n8n/issues/29057)) ([436274e](https://github.com/n8n-io/n8n/commit/436274eabaceadf2f8b70d0bc739dc8c55aa5a8c))\n* **editor:** Refresh wallet balance when usage refresh is clicked ([#29080](https://github.com/n8n-io/n8n/issues/29080)) ([88c531a](https://github.com/n8n-io/n8n/commi",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-04-27 17:55",
+      "published_at": "2026-04-28 18:27",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.17.8",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.17.8](https://github.com/n8n-io/n8n/compare/n8n@2.17.7...n8n@2.17.8) (2026-04-27)\n\n\n### Bug Fixes\n\n* Disable \"Get 100 free OpenAI API credits\"  if aiGateway enabled in the license ([#29058](https://github.com/n8n-io/n8n/issues/29058)) ([11c5ad9](https://github.com/n8n-io/n8n/commit/11c5ad9e7100c5fa0f8462800bee7d5e43317058))\n* **editor:** Refresh wallet balance when usage refresh is clicked ([#29081](https://github.com/n8n-io/n8n/issues/29081)) ([5e95d38](https://github.com/n8n-io/n8n/commi",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.17.8",
-      "published_at": "2026-04-27 17:55",
-      "tag": "n8n@2.17.8",
+      "name": "vercel/next.js v16.3.0-canary.4",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Preserve `__NEXT_ERROR_CODE` across the `/_error` page handoff: #93183\n\n### Misc Changes\n\n- Reduce allocations in the next_debug_instant_stack transform: #93222\n\n### Credits \n\nHuge thanks to @unstubbable and @lukesandberg for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.4",
+      "published_at": "2026-04-29 02:05",
+      "tag": "v16.3.0-canary.4",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.18.4",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.18.4](https://github.com/n8n-io/n8n/compare/n8n@2.18.3...n8n@2.18.4) (2026-04-27)\n\n\n### Bug Fixes\n\n* Disable \"Get 100 free OpenAI API credits\"  if aiGateway enabled in the license ([#29057](https://github.com/n8n-io/n8n/issues/29057)) ([436274e](https://github.com/n8n-io/n8n/commit/436274eabaceadf2f8b70d0bc739dc8c55aa5a8c))\n* **editor:** Refresh wallet balance when usage refresh is clicked ([#29080](https://github.com/n8n-io/n8n/issues/29080)) ([88c531a](https://github.com/n8n-io/n8n/commi",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.18.4",
-      "published_at": "2026-04-27 17:43",
-      "tag": "n8n@2.18.4",
+      "name": "vercel/next.js v16.3.0-canary.3",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- New ESLint rule: `no-location-assign-relative-destination`: #92900\n- Upgrade React from `fef12a01-20260413` to `da9325b5-20260417`: #92945\n- Auto-generate AGENTS.md / CLAUDE.md in next dev: #92910\n- Strengthen _rsc cache-busting param: #92755\n- rage-restart followup: #92591\n- fix(use-cache): remove awaiting revalidation: #92636\n- Revert \"Adopt pnpm catalogs for devDependencies\": #93226\n- instant(): Block out-of-band client fetches: #93099\n- [next/image] Stop using deprecated ",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.3",
+      "published_at": "2026-04-29 01:13",
+      "tag": "v16.3.0-canary.3",
       "source": "release"
     },
     {
@@ -118,24 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.2",
       "published_at": "2026-04-19 07:44",
       "tag": "v16.3.0-canary.2",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.1",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Support more prefetch configuration options: #92859\n- Improve deduping of concurrent `'use cache'` invocations: #91830\n- [partial fallbacks]: include prefetch requests in shell upgrade handling: #92894\n- Redesign blocking route dev overlay and build errors: #92638\n- Switch to cargo-binstall and pre-built sccache binaries: #92911\n- Remove prefetch from instant config: #92761\n\n### Misc Changes\n\n- Fix flake in rewrites-manual-href-as test: #92948\n- docs: amends to preserving-ui-",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.1",
-      "published_at": "2026-04-18 07:45",
-      "tag": "v16.3.0-canary.1",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.0",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- fix(next/image): ensure `images.maximumResponseBody` applies to local images too: #92920\n- Refactor trace server sort to SortMode enum (execution order / value / name): #92873\n- Perf: Simplify static metadata handling: #92630\n- remove flag guarding `unstable_io`: #92923\n\n### Misc Changes\n\n- [ci] Cache passing test results so CI retries skip them: #92832\n- fix accidental test duplication: #92922\n- rename MagicAny: #92918\n- turbopack: reduce EffectStateStorage memory by storing",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.0",
-      "published_at": "2026-04-18 00:09",
-      "tag": "v16.3.0-canary.0",
       "source": "release"
     }
   ]
