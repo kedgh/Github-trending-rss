@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-04-29 10:09",
+  "updated": "2026-04-29 16:03",
   "count": 15,
   "items": [
     {
@@ -31,6 +31,15 @@
       "source": "release"
     },
     {
+      "name": "langgenius/dify 1.14.0",
+      "repo": "langgenius/dify",
+      "description": "## 🚀 What's New in v1.14.0?\r\n\r\n### Collaboration\r\n<img width=\"2632\" height=\"1190\" alt=\"img_v3_02117_67a67218-1ae5-4d68-a45b-3ada592f87fg\" src=\"https://github.com/user-attachments/assets/1d4a3660-8a6a-4b29-9766-4d5b5fd9a51b\" />\r\n\r\nCollaboration allows workspace members to edit the same workflow together, with synced graph updates, online presence, and shared visibility into who is working where.\r\n\r\nOn self-hosted deployments, collaboration is turned off by default. Enable it by setting:\r\n\r\n```\r\nE",
+      "url": "https://github.com/langgenius/dify/releases/tag/1.14.0",
+      "published_at": "2026-04-29 12:06",
+      "tag": "1.14.0",
+      "source": "release"
+    },
+    {
       "name": "langgenius/dify 1.13.3",
       "repo": "langgenius/dify",
       "description": "## 🚀 What's New in v1.13.3?\r\nOur latest patch release, v1.13.3, focuses on stability and correctness across workflow execution, streaming, and knowledge retrieval. Here's a quick look at the most important updates:\r\n\r\n### 🎬 New Features\r\n- **Workflow Configuration**: Added variable-reference support for model parameters in LLM, Question Classifier, and Variable Extractor nodes by @scdeng in #33082.\r\n\r\n### 🛠️ Bug Fixes\r\n- **Streaming Reliability**: Fixed `StreamsBroadcastChannel` replay and concu",
@@ -46,15 +55,6 @@
       "url": "https://github.com/langgenius/dify/releases/tag/1.13.2",
       "published_at": "2026-03-18 22:20",
       "tag": "1.13.2",
-      "source": "release"
-    },
-    {
-      "name": "langgenius/dify 1.13.1",
-      "repo": "langgenius/dify",
-      "description": "## 🚀 Major Functional Changes\r\n\r\n### Data platform and dataset operations\r\n\r\n- Added **Hologres** as a supported backend option for both vector retrieval and full-text search.\r\n- Added Service API endpoints for dataset document downloads:\r\n  - Batch ZIP download for selected documents.\r\n  - Signed URL download for single-document original files.\r\n\r\n### Workflow and chat experience improvements\r\n\r\n- **Breaking change:** HITL email content now uses markdown rendering before delivery. \r\n  Existing ",
-      "url": "https://github.com/langgenius/dify/releases/tag/1.13.1",
-      "published_at": "2026-03-17 18:43",
-      "tag": "1.13.1",
       "source": "release"
     },
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n stable",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.18.5](https://github.com/n8n-io/n8n/compare/n8n@2.18.4...n8n@2.18.5) (2026-04-28)\n\n\n### Bug Fixes\n\n* **ai-builder:** Hide and reap intermediate AI-created workflows ([#29344](https://github.com/n8n-io/n8n/issues/29344)) ([1031603](https://github.com/n8n-io/n8n/commit/1031603b0b53a250eea0cf13910b800f534b0a97))\n* **editor:** Constrain InstanceAiView stacking context below sidebar ([#29335](https://github.com/n8n-io/n8n/issues/29335)) ([6508bce](https://github.com/n8n-io/n8n/commit/6508bce89b",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-04-29 13:15",
+      "tag": "stable",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n n8n@2.18.5",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.18.5](https://github.com/n8n-io/n8n/compare/n8n@2.18.4...n8n@2.18.5) (2026-04-28)\n\n\n### Bug Fixes\n\n* **ai-builder:** Hide and reap intermediate AI-created workflows ([#29344](https://github.com/n8n-io/n8n/issues/29344)) ([1031603](https://github.com/n8n-io/n8n/commit/1031603b0b53a250eea0cf13910b800f534b0a97))\n* **editor:** Constrain InstanceAiView stacking context below sidebar ([#29335](https://github.com/n8n-io/n8n/issues/29335)) ([6508bce](https://github.com/n8n-io/n8n/commit/6508bce89b",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.18.5",
+      "published_at": "2026-04-29 13:15",
+      "tag": "n8n@2.18.5",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n n8n@2.19.0",
       "repo": "n8n-io/n8n",
       "description": "# [2.19.0](https://github.com/n8n-io/n8n/compare/n8n@2.18.0...n8n@2.19.0) (2026-04-28)\n\n\n### Bug Fixes\n\n* Add credential auth and test for Twilio, Pipedrive, Asana, Freshdesk, Workable ([#28265](https://github.com/n8n-io/n8n/issues/28265)) ([a2aa69d](https://github.com/n8n-io/n8n/commit/a2aa69dbd7c931a869417d28c26297fe5beb86e9))\n* Additional keys in routing nodes ([#28758](https://github.com/n8n-io/n8n/issues/28758)) ([8e49800](https://github.com/n8n-io/n8n/commit/8e49800421e6611084c1d092cd2aad8",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.19.0",
       "published_at": "2026-04-28 18:25",
       "tag": "n8n@2.19.0",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n beta",
-      "repo": "n8n-io/n8n",
-      "description": "# [2.19.0](https://github.com/n8n-io/n8n/compare/n8n@2.18.0...n8n@2.19.0) (2026-04-28)\n\n\n### Bug Fixes\n\n* Add credential auth and test for Twilio, Pipedrive, Asana, Freshdesk, Workable ([#28265](https://github.com/n8n-io/n8n/issues/28265)) ([a2aa69d](https://github.com/n8n-io/n8n/commit/a2aa69dbd7c931a869417d28c26297fe5beb86e9))\n* Additional keys in routing nodes ([#28758](https://github.com/n8n-io/n8n/issues/28758)) ([8e49800](https://github.com/n8n-io/n8n/commit/8e49800421e6611084c1d092cd2aad8",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-04-28 18:25",
-      "tag": "beta",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n stable",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.18.4](https://github.com/n8n-io/n8n/compare/n8n@2.18.3...n8n@2.18.4) (2026-04-27)\n\n\n### Bug Fixes\n\n* Disable \"Get 100 free OpenAI API credits\"  if aiGateway enabled in the license ([#29057](https://github.com/n8n-io/n8n/issues/29057)) ([436274e](https://github.com/n8n-io/n8n/commit/436274eabaceadf2f8b70d0bc739dc8c55aa5a8c))\n* **editor:** Refresh wallet balance when usage refresh is clicked ([#29080](https://github.com/n8n-io/n8n/issues/29080)) ([88c531a](https://github.com/n8n-io/n8n/commi",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-04-28 18:27",
-      "tag": "stable",
       "source": "release"
     },
     {
