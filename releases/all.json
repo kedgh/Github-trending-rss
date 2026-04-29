@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-04-29 21:27",
+  "updated": "2026-04-30 03:12",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n stable",
+      "name": "n8n-io/n8n n8n@1.123.38",
       "repo": "n8n-io/n8n",
-      "description": "## [2.18.5](https://github.com/n8n-io/n8n/compare/n8n@2.18.4...n8n@2.18.5) (2026-04-28)\n\n\n### Bug Fixes\n\n* **ai-builder:** Hide and reap intermediate AI-created workflows ([#29344](https://github.com/n8n-io/n8n/issues/29344)) ([1031603](https://github.com/n8n-io/n8n/commit/1031603b0b53a250eea0cf13910b800f534b0a97))\n* **editor:** Constrain InstanceAiView stacking context below sidebar ([#29335](https://github.com/n8n-io/n8n/issues/29335)) ([6508bce](https://github.com/n8n-io/n8n/commit/6508bce89b",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-04-29 13:15",
-      "tag": "stable",
+      "description": "## [1.123.38](https://github.com/n8n-io/n8n/compare/n8n@1.123.37...n8n@1.123.38) (2026-04-29)\n\n\n### Bug Fixes\n\n* **core:** Fix code node executions hanging when idle timer overlaps with task acceptance ([#29393](https://github.com/n8n-io/n8n/issues/29393)) ([4af49f1](https://github.com/n8n-io/n8n/commit/4af49f1d9eec95ba840fa40438f16b891db2bc98))\n* **core:** Fix task runner hanging when connection attempt fails ([#29441](https://github.com/n8n-io/n8n/issues/29441)) ([271af23](https://github.com/n",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.38",
+      "published_at": "2026-04-29 22:18",
+      "tag": "n8n@1.123.38",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.18.5",
+      "name": "n8n-io/n8n n8n@2.19.1",
       "repo": "n8n-io/n8n",
-      "description": "## [2.18.5](https://github.com/n8n-io/n8n/compare/n8n@2.18.4...n8n@2.18.5) (2026-04-28)\n\n\n### Bug Fixes\n\n* **ai-builder:** Hide and reap intermediate AI-created workflows ([#29344](https://github.com/n8n-io/n8n/issues/29344)) ([1031603](https://github.com/n8n-io/n8n/commit/1031603b0b53a250eea0cf13910b800f534b0a97))\n* **editor:** Constrain InstanceAiView stacking context below sidebar ([#29335](https://github.com/n8n-io/n8n/issues/29335)) ([6508bce](https://github.com/n8n-io/n8n/commit/6508bce89b",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.18.5",
-      "published_at": "2026-04-29 13:15",
-      "tag": "n8n@2.18.5",
+      "description": "## [2.19.1](https://github.com/n8n-io/n8n/compare/n8n@2.19.0...n8n@2.19.1) (2026-04-29)\n\n\n### Bug Fixes\n\n* **editor:** Keep publish actions menu enabled for published workflows ([#29411](https://github.com/n8n-io/n8n/issues/29411)) ([41ade46](https://github.com/n8n-io/n8n/commit/41ade461ac78c6304e91e4a90666248727bb5e2f))\n\n\n### Features\n\n* **core:** Warn and skip on duplicate scheduled executions ([#29503](https://github.com/n8n-io/n8n/issues/29503)) ([8333c03](https://github.com/n8n-io/n8n/commi",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.19.1",
+      "published_at": "2026-04-30 00:14",
+      "tag": "n8n@2.19.1",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.19.0",
+      "name": "n8n-io/n8n beta",
       "repo": "n8n-io/n8n",
-      "description": "# [2.19.0](https://github.com/n8n-io/n8n/compare/n8n@2.18.0...n8n@2.19.0) (2026-04-28)\n\n\n### Bug Fixes\n\n* Add credential auth and test for Twilio, Pipedrive, Asana, Freshdesk, Workable ([#28265](https://github.com/n8n-io/n8n/issues/28265)) ([a2aa69d](https://github.com/n8n-io/n8n/commit/a2aa69dbd7c931a869417d28c26297fe5beb86e9))\n* Additional keys in routing nodes ([#28758](https://github.com/n8n-io/n8n/issues/28758)) ([8e49800](https://github.com/n8n-io/n8n/commit/8e49800421e6611084c1d092cd2aad8",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.19.0",
-      "published_at": "2026-04-28 18:25",
-      "tag": "n8n@2.19.0",
+      "description": "## [2.19.1](https://github.com/n8n-io/n8n/compare/n8n@2.19.0...n8n@2.19.1) (2026-04-29)\n\n\n### Bug Fixes\n\n* **editor:** Keep publish actions menu enabled for published workflows ([#29411](https://github.com/n8n-io/n8n/issues/29411)) ([41ade46](https://github.com/n8n-io/n8n/commit/41ade461ac78c6304e91e4a90666248727bb5e2f))\n\n\n### Features\n\n* **core:** Warn and skip on duplicate scheduled executions ([#29503](https://github.com/n8n-io/n8n/issues/29503)) ([8333c03](https://github.com/n8n-io/n8n/commi",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-04-30 00:14",
+      "tag": "beta",
       "source": "release"
     },
     {
