@@ -1,8 +1,26 @@
 {
   "title": "Releases",
-  "updated": "2026-04-29 03:23",
+  "updated": "2026-04-29 10:09",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-tests==1.1.7",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-tests==1.1.6\n\nrelease(standard-tests): 1.1.7 (#37067)\nhotfix: bump min core versions (#36996)\nfeat(core): add content-block-centric streaming (v2) (#36834)\nchore: bump langsmith from 0.6.3 to 0.7.31 in /libs/standard-tests (#36799)\nchore(deps): bump pytest to `9.0.3` (#36801)\nchore: bump pytest from 9.0.2 to 9.0.3 in /libs/standard-tests (#36715)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-tests%3D%3D1.1.7",
+      "published_at": "2026-04-29 09:10",
+      "tag": "langchain-tests==1.1.7",
+      "source": "release"
+    },
+    {
+      "name": "langchain-ai/langchain langchain-anthropic==1.4.2",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-anthropic==1.4.1\n\nrelease(anthropic): 1.4.2 (#37061)\nfix(anthropic): restore `cache_control` on non-direct subclasses (#37057)\nhotfix: bump min core versions (#36996)\nfeat(core): add content-block-centric streaming (v2) (#36834)\nhotfix(ci): remove nobenchmark flag (#36959)\nchore(partners): standardize integration test invocation (#36958)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.2",
+      "published_at": "2026-04-29 04:50",
+      "tag": "langchain-anthropic==1.4.2",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-openai==1.2.1",
       "repo": "langchain-ai/langchain",
@@ -10,24 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.2.1",
       "published_at": "2026-04-25 03:46",
       "tag": "langchain-openai==1.2.1",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.3.2",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.3.1\n\nrelease(core): 1.3.2 (#36990)\nfeat(core): add content-block-centric streaming (v2) (#36834)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.3.2",
-      "published_at": "2026-04-24 23:49",
-      "tag": "langchain-core==1.3.2",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-openai==1.2.0",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.1.16\n\nrelease(openai): 1.2.0 (#36961)\nfeat(openai): prevent silent streaming hangs in `ChatOpenAI` (#36949)\nhotfix(ci): remove nobenchmark flag (#36959)\nchore(partners): standardize integration test invocation (#36958)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.2.0",
-      "published_at": "2026-04-23 08:43",
-      "tag": "langchain-openai==1.2.0",
       "source": "release"
     },
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.22.1-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* mlxrunner: batch the sampler across multiple sequences by @jessegross in https://github.com/ollama/ollama/pull/15736\r\n* tokenizer: fix multi-regex BPE offset handling by @dhiltgen in https://github.com/ollama/ollama/pull/15844\r\n* mlx: Support NVIDIA TensorRT Model Optimizer import by @dhiltgen in https://github.com/ollama/ollama/pull/15566\r\n* app/server: fix desktop app startup killing active `ollama launch` sessions by @hoyyeva in https://github.com/ollama/ollama/pull/15657",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.22.1-rc0",
+      "published_at": "2026-04-29 04:30",
+      "tag": "v0.22.1-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.22.0",
       "repo": "ollama/ollama",
       "description": "## New models \r\n* NVIDIA's [Nemotron 3 Omni](https://ollama.com/library/nemotron3)\r\n* Poolside's first open-weight coding model - [Laguna XS.2](https://ollama.com/library/laguna-xs.2)\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.21.2...v0.22.0",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.21.3-rc0",
       "published_at": "2026-04-24 20:15",
       "tag": "v0.21.3-rc0",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.21.2",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n  * Improved reliability of the OpenClaw onboarding flow in `ollama launch`\r\n  * Recommended models in `ollama launch` now appear in a fixed, canonical order\r\n  * OpenClaw integration now bundles Ollama's web search plugin in OpenClaw\r\n\r\n## New Contributors\r\n* @madflow made their first contribution in https://github.com/ollama/ollama/pull/15733\r\n\r\n**Full Changelog:** https://github.com/ollama/ollama/compare/v0.21.1...v0.21.2\r\n",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.21.2",
-      "published_at": "2026-04-23 10:29",
-      "tag": "v0.21.2",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.5",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Apply sourcemaps by default during prerender in `next build`: #93280\n- Fix route handler SWR blocking on Node runtime: #93189\n- [ci]: fix release script to not strip newlines: #93302\n- Forward invalid dynamic usage errors on client-side navigations: #93184\n- HMR: debounce status indicator transitions to prevent flicker during bursts of changes: #93229\n- ci: Fix caching of test-cargo-unit: #93327\n- Turbopack: pull in updated vercel/nft tests: #93321\n\n### Misc Changes\n\n- Turbop",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.5",
+      "published_at": "2026-04-29 08:30",
+      "tag": "v16.3.0-canary.5",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.4",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Preserve `__NEXT_ERROR_CODE` across the `/_error` page handoff: #93183\n\n### Misc Changes\n\n- Reduce allocations in the next_debug_instant_stack transform: #93222\n\n### Credits \n\nHuge thanks to @unstubbable and @lukesandberg for helping!\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.3",
       "published_at": "2026-04-29 01:13",
       "tag": "v16.3.0-canary.3",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.2",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Improve \"make root node\" trace attributes: #92941\n- CI: Track SWC native binary size in PR stats comment: #92938\n\n### Credits \n\nHuge thanks to @sokra for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.2",
-      "published_at": "2026-04-19 07:44",
-      "tag": "v16.3.0-canary.2",
       "source": "release"
     }
   ]
