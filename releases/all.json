@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-04-30 03:12",
+  "updated": "2026-04-30 10:09",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain==1.2.16",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain==1.2.15\n\nrelease(langchain): 1.2.16 (#37085)\nchore(docs): update x handle references (#37081)\nrelease(anthropic): 1.4.2 (#37061)\nperf(langchain): stop inlining agent state into tool-dispatch `Send`s (#36960)\ndocs(langchain): correct import paths in agent middleware docstrings (#36987)\nhotfix: bump min core versions (#36996)\nrelease(openai): 1.2.1 (#36995)\nfeat(core): add content-block-centric streaming (v2) (#36834)\nfix(fireworks): honor `max_retries` (#36973)\nrelease(ope",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.16",
+      "published_at": "2026-04-30 05:03",
+      "tag": "langchain==1.2.16",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-tests==1.1.7",
       "repo": "langchain-ai/langchain",
@@ -13,21 +22,12 @@
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-anthropic==1.4.2",
+      "name": "langchain-ai/langchain langchain-perplexity==1.2.0",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-anthropic==1.4.1\n\nrelease(anthropic): 1.4.2 (#37061)\nfix(anthropic): restore `cache_control` on non-direct subclasses (#37057)\nhotfix: bump min core versions (#36996)\nfeat(core): add content-block-centric streaming (v2) (#36834)\nhotfix(ci): remove nobenchmark flag (#36959)\nchore(partners): standardize integration test invocation (#36958)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.2",
-      "published_at": "2026-04-29 04:50",
-      "tag": "langchain-anthropic==1.4.2",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-openai==1.2.1",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.2.0\n\nhotfix: bump min core versions (#36996)\nrelease(openai): 1.2.1 (#36995)\nfix(openai): add gpt-5.5 pro to Responses API check (#36994)\nfeat(core): add content-block-centric streaming (v2) (#36834)\nchore(model-profiles): refresh model profile data (#36982)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.2.1",
-      "published_at": "2026-04-25 03:46",
-      "tag": "langchain-openai==1.2.1",
+      "description": "Changes since langchain-perplexity==1.1.0\n\nrelease(perplexity): 1.2.0 (#37091)\nfeat(perplexity): add `PerplexityEmbeddings` (#37082)\nchore(docs): update x handle references (#37081)\nhotfix: bump min core versions (#36996)\nfeat(core): add content-block-centric streaming (v2) (#36834)\nhotfix(ci): remove nobenchmark flag (#36959)\nchore(partners): standardize integration test invocation (#36958)\nchore(deps): bump pytest to `9.0.3` (#36801)\nchore: bump langsmith from 0.6.3 to 0.7.31 in /libs/partners",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.2.0",
+      "published_at": "2026-04-30 05:58",
+      "tag": "langchain-perplexity==1.2.0",
       "source": "release"
     },
     {
