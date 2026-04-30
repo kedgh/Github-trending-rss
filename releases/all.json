@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-04-30 10:09",
+  "updated": "2026-04-30 16:07",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.22.1-rc0",
+      "name": "ollama/ollama v0.22.1-rc1",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* mlxrunner: batch the sampler across multiple sequences by @jessegross in https://github.com/ollama/ollama/pull/15736\r\n* tokenizer: fix multi-regex BPE offset handling by @dhiltgen in https://github.com/ollama/ollama/pull/15844\r\n* mlx: Support NVIDIA TensorRT Model Optimizer import by @dhiltgen in https://github.com/ollama/ollama/pull/15566\r\n* app/server: fix desktop app startup killing active `ollama launch` sessions by @hoyyeva in https://github.com/ollama/ollama/pull/15657",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.22.1-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.22.1-rc1",
       "published_at": "2026-04-29 04:30",
-      "tag": "v0.22.1-rc0",
+      "tag": "v0.22.1-rc1",
       "source": "release"
     },
     {
