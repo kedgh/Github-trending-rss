@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-04-30 21:25",
+  "updated": "2026-05-01 03:08",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.22.1-rc1",
+      "name": "ollama/ollama v0.22.1",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* mlxrunner: batch the sampler across multiple sequences by @jessegross in https://github.com/ollama/ollama/pull/15736\r\n* tokenizer: fix multi-regex BPE offset handling by @dhiltgen in https://github.com/ollama/ollama/pull/15844\r\n* mlx: Support NVIDIA TensorRT Model Optimizer import by @dhiltgen in https://github.com/ollama/ollama/pull/15566\r\n* app/server: fix desktop app startup killing active `ollama launch` sessions by @hoyyeva in https://github.com/ollama/ollama/pull/15657",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.22.1-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.22.1",
       "published_at": "2026-04-29 04:30",
-      "tag": "v0.22.1-rc1",
+      "tag": "v0.22.1",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.6",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Honor the route-level `expire` value with blocking revalidation: #93211\n- Turbopack: add `experimental.turbopackWorkerAssetPrefix` to keep Workers same-origin when `assetPrefix` is a CDN: #93271\n- chore: bump postcss to 8.5.10: #93288\n- Enable server HMR for metadata routes (manifest.ts, robots.ts, etc.): #93110\n- [next/image] Only fire `onError` once: #93209\n- fix: handling of falsey values in error boundaries: #93134\n- Update upload trace url: #93350\n- enable validateRSCReq",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.6",
+      "published_at": "2026-04-30 22:54",
+      "tag": "v16.3.0-canary.6",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.5",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Apply sourcemaps by default during prerender in `next build`: #93280\n- Fix route handler SWR blocking on Node runtime: #93189\n- [ci]: fix release script to not strip newlines: #93302\n- Forward invalid dynamic usage errors on client-side navigations: #93184\n- HMR: debounce status indicator transitions to prevent flicker during bursts of changes: #93229\n- ci: Fix caching of test-cargo-unit: #93327\n- Turbopack: pull in updated vercel/nft tests: #93321\n\n### Misc Changes\n\n- Turbop",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.4",
       "published_at": "2026-04-29 02:05",
       "tag": "v16.3.0-canary.4",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.3",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- New ESLint rule: `no-location-assign-relative-destination`: #92900\n- Upgrade React from `fef12a01-20260413` to `da9325b5-20260417`: #92945\n- Auto-generate AGENTS.md / CLAUDE.md in next dev: #92910\n- Strengthen _rsc cache-busting param: #92755\n- rage-restart followup: #92591\n- fix(use-cache): remove awaiting revalidation: #92636\n- Revert \"Adopt pnpm catalogs for devDependencies\": #93226\n- instant(): Block out-of-band client fetches: #93099\n- [next/image] Stop using deprecated ",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.3",
-      "published_at": "2026-04-29 01:13",
-      "tag": "v16.3.0-canary.3",
       "source": "release"
     }
   ]
