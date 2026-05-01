@@ -1,33 +1,33 @@
 {
   "title": "Releases",
-  "updated": "2026-05-01 21:00",
+  "updated": "2026-05-02 03:00",
   "count": 15,
   "items": [
     {
-      "name": "langchain-ai/langchain langchain==1.2.17",
+      "name": "langchain-ai/langchain langchain-openrouter==0.2.2",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==1.2.16\n\nrelease(langchain): 1.2.17 (#37110)\nfeat(langchain): add `respond` decision to HITL middleware (#37095)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.17",
-      "published_at": "2026-05-01 04:25",
-      "tag": "langchain==1.2.17",
+      "description": "Changes since langchain-openrouter==0.2.1\n\nrelease(openrouter): 0.2.2 (#37139)\nfeat(openrouter): `session_id` and `trace` fields (#37137)\nchore(docs): update x handle references (#37081)\nchore(model-profiles): refresh model profile data (#37074)\nchore(model-profiles): refresh model profile data (#37051)\nchore(model-profiles): refresh model profile data (#37015)\nchore(model-profiles): refresh model profile data (#37005)\nhotfix: bump min core versions (#36996)\nfeat(core): add content-block-centric",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.2",
+      "published_at": "2026-05-02 02:22",
+      "tag": "langchain-openrouter==0.2.2",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-fireworks==1.2.1",
+      "name": "langchain-ai/langchain langchain-core==1.4.0a2",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-fireworks==1.2.0\n\nrelease(fireworks): 1.2.1 (#37113)\nfix(fireworks): translate canonical multimodal content blocks for chat completions (#37090)\nchore: bump aiohttp from 3.13.4 to 3.13.5 in /libs/partners/fireworks (#37106)\nchore: bump requests from 2.33.0 to 2.33.1 in /libs/partners/fireworks (#37107)\nchore(docs): update x handle references (#37081)\nchore(model-profiles): refresh model profile data (#37074)\nhotfix: bump min core versions (#36996)\nfeat(core): add content-",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.2.1",
-      "published_at": "2026-05-01 05:52",
-      "tag": "langchain-fireworks==1.2.1",
+      "description": "Initial release\n\nrelease(core): 1.4.0a2 (#37134)\nrefactor(core): unwind _AsyncEventsResult hybrid for astream_events (#37133)\nrelease(core): 1.4.0a1 (#37132)\nMerge remote-tracking branch 'origin/master' into v1.4\nfeat(core): stream_events(version='v3') protocol (#37111)\nfix(core): preserve structured `inputs` on tool runs in tracers (#37108)\nrelease(perplexity): 1.2.0 (#37091)\nchore(docs): update x handle references (#37081)\nfix(core): make `removal` optional in `warn_deprecated` (#37056)\nfix(co",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.0a2",
+      "published_at": "2026-05-01 23:02",
+      "tag": "langchain-core==1.4.0a2",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain==1.2.16",
+      "name": "langchain-ai/langchain langchain-core==1.4.0a1",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==1.2.15\n\nrelease(langchain): 1.2.16 (#37085)\nchore(docs): update x handle references (#37081)\nrelease(anthropic): 1.4.2 (#37061)\nperf(langchain): stop inlining agent state into tool-dispatch `Send`s (#36960)\ndocs(langchain): correct import paths in agent middleware docstrings (#36987)\nhotfix: bump min core versions (#36996)\nrelease(openai): 1.2.1 (#36995)\nfeat(core): add content-block-centric streaming (v2) (#36834)\nfix(fireworks): honor `max_retries` (#36973)\nrelease(ope",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.16",
-      "published_at": "2026-04-30 05:03",
-      "tag": "langchain==1.2.16",
+      "description": "Initial release\n\nrelease(core): 1.4.0a1 (#37132)\nMerge remote-tracking branch 'origin/master' into v1.4\nfeat(core): stream_events(version='v3') protocol (#37111)\nfix(core): preserve structured `inputs` on tool runs in tracers (#37108)\nrelease(perplexity): 1.2.0 (#37091)\nchore(docs): update x handle references (#37081)\nfix(core): make `removal` optional in `warn_deprecated` (#37056)\nfix(core): validate batch_size in _batch and _abatch to prevent infinite loop (#36663)\nchore(core): mark stream_v2/",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.0a1",
+      "published_at": "2026-05-01 21:40",
+      "tag": "langchain-core==1.4.0a1",
       "source": "release"
     },
     {
