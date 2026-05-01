@@ -1,8 +1,26 @@
 {
   "title": "Releases",
-  "updated": "2026-05-01 03:08",
+  "updated": "2026-05-01 10:14",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain==1.2.17",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain==1.2.16\n\nrelease(langchain): 1.2.17 (#37110)\nfeat(langchain): add `respond` decision to HITL middleware (#37095)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.17",
+      "published_at": "2026-05-01 04:25",
+      "tag": "langchain==1.2.17",
+      "source": "release"
+    },
+    {
+      "name": "langchain-ai/langchain langchain-fireworks==1.2.1",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-fireworks==1.2.0\n\nrelease(fireworks): 1.2.1 (#37113)\nfix(fireworks): translate canonical multimodal content blocks for chat completions (#37090)\nchore: bump aiohttp from 3.13.4 to 3.13.5 in /libs/partners/fireworks (#37106)\nchore: bump requests from 2.33.0 to 2.33.1 in /libs/partners/fireworks (#37107)\nchore(docs): update x handle references (#37081)\nchore(model-profiles): refresh model profile data (#37074)\nhotfix: bump min core versions (#36996)\nfeat(core): add content-",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.2.1",
+      "published_at": "2026-05-01 05:52",
+      "tag": "langchain-fireworks==1.2.1",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain==1.2.16",
       "repo": "langchain-ai/langchain",
@@ -10,24 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.16",
       "published_at": "2026-04-30 05:03",
       "tag": "langchain==1.2.16",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-tests==1.1.7",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-tests==1.1.6\n\nrelease(standard-tests): 1.1.7 (#37067)\nhotfix: bump min core versions (#36996)\nfeat(core): add content-block-centric streaming (v2) (#36834)\nchore: bump langsmith from 0.6.3 to 0.7.31 in /libs/standard-tests (#36799)\nchore(deps): bump pytest to `9.0.3` (#36801)\nchore: bump pytest from 9.0.2 to 9.0.3 in /libs/standard-tests (#36715)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-tests%3D%3D1.1.7",
-      "published_at": "2026-04-29 09:10",
-      "tag": "langchain-tests==1.1.7",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-perplexity==1.2.0",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-perplexity==1.1.0\n\nrelease(perplexity): 1.2.0 (#37091)\nfeat(perplexity): add `PerplexityEmbeddings` (#37082)\nchore(docs): update x handle references (#37081)\nhotfix: bump min core versions (#36996)\nfeat(core): add content-block-centric streaming (v2) (#36834)\nhotfix(ci): remove nobenchmark flag (#36959)\nchore(partners): standardize integration test invocation (#36958)\nchore(deps): bump pytest to `9.0.3` (#36801)\nchore: bump langsmith from 0.6.3 to 0.7.31 in /libs/partners",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.2.0",
-      "published_at": "2026-04-30 05:58",
-      "tag": "langchain-perplexity==1.2.0",
       "source": "release"
     },
     {
@@ -60,7 +60,7 @@
     {
       "name": "ollama/ollama v0.22.1",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* mlxrunner: batch the sampler across multiple sequences by @jessegross in https://github.com/ollama/ollama/pull/15736\r\n* tokenizer: fix multi-regex BPE offset handling by @dhiltgen in https://github.com/ollama/ollama/pull/15844\r\n* mlx: Support NVIDIA TensorRT Model Optimizer import by @dhiltgen in https://github.com/ollama/ollama/pull/15566\r\n* app/server: fix desktop app startup killing active `ollama launch` sessions by @hoyyeva in https://github.com/ollama/ollama/pull/15657",
+      "description": "## What's Changed\r\n* Updated the **Gemma 4** renderer for thinking and tool calling improvements\r\n* Model recommendations are now updated without updating Ollama\r\n* Aligned the desktop app's launch page with `ollama launch` integrations\r\n* Fixed the Poolside integration title in `ollama launch`\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.22.0...v0.22.1",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.22.1",
       "published_at": "2026-04-29 04:30",
       "tag": "v0.22.1",
