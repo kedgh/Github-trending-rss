@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-01 16:03",
+  "updated": "2026-05-01 21:00",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n n8n@2.19.2",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.19.2](https://github.com/n8n-io/n8n/compare/n8n@2.19.1...n8n@2.19.2) (2026-05-01)\n\n\n### Bug Fixes\n\n* **core:** Persist execution context before writing to db ([#29529](https://github.com/n8n-io/n8n/issues/29529)) ([f443a58](https://github.com/n8n-io/n8n/commit/f443a58fdec51f02d61d747578dae5624771ee20))\n* **core:** Respect global admin scope when listing favorites ([#29517](https://github.com/n8n-io/n8n/issues/29517)) ([e8db911](https://github.com/n8n-io/n8n/commit/e8db9111ce34478576d894070",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.19.2",
+      "published_at": "2026-05-01 17:34",
+      "tag": "n8n@2.19.2",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n beta",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.19.2](https://github.com/n8n-io/n8n/compare/n8n@2.19.1...n8n@2.19.2) (2026-05-01)\n\n\n### Bug Fixes\n\n* **core:** Persist execution context before writing to db ([#29529](https://github.com/n8n-io/n8n/issues/29529)) ([f443a58](https://github.com/n8n-io/n8n/commit/f443a58fdec51f02d61d747578dae5624771ee20))\n* **core:** Respect global admin scope when listing favorites ([#29517](https://github.com/n8n-io/n8n/issues/29517)) ([e8db911](https://github.com/n8n-io/n8n/commit/e8db9111ce34478576d894070",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-05-01 17:34",
+      "tag": "beta",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n n8n@1.123.38",
       "repo": "n8n-io/n8n",
       "description": "## [1.123.38](https://github.com/n8n-io/n8n/compare/n8n@1.123.37...n8n@1.123.38) (2026-04-29)\n\n\n### Bug Fixes\n\n* **core:** Fix code node executions hanging when idle timer overlaps with task acceptance ([#29393](https://github.com/n8n-io/n8n/issues/29393)) ([4af49f1](https://github.com/n8n-io/n8n/commit/4af49f1d9eec95ba840fa40438f16b891db2bc98))\n* **core:** Fix task runner hanging when connection attempt fails ([#29441](https://github.com/n8n-io/n8n/issues/29441)) ([271af23](https://github.com/n",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.38",
       "published_at": "2026-04-29 22:18",
       "tag": "n8n@1.123.38",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.19.1",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.19.1](https://github.com/n8n-io/n8n/compare/n8n@2.19.0...n8n@2.19.1) (2026-04-29)\n\n\n### Bug Fixes\n\n* **editor:** Keep publish actions menu enabled for published workflows ([#29411](https://github.com/n8n-io/n8n/issues/29411)) ([41ade46](https://github.com/n8n-io/n8n/commit/41ade461ac78c6304e91e4a90666248727bb5e2f))\n\n\n### Features\n\n* **core:** Warn and skip on duplicate scheduled executions ([#29503](https://github.com/n8n-io/n8n/issues/29503)) ([8333c03](https://github.com/n8n-io/n8n/commi",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.19.1",
-      "published_at": "2026-04-30 00:14",
-      "tag": "n8n@2.19.1",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n beta",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.19.1](https://github.com/n8n-io/n8n/compare/n8n@2.19.0...n8n@2.19.1) (2026-04-29)\n\n\n### Bug Fixes\n\n* **editor:** Keep publish actions menu enabled for published workflows ([#29411](https://github.com/n8n-io/n8n/issues/29411)) ([41ade46](https://github.com/n8n-io/n8n/commit/41ade461ac78c6304e91e4a90666248727bb5e2f))\n\n\n### Features\n\n* **core:** Warn and skip on duplicate scheduled executions ([#29503](https://github.com/n8n-io/n8n/issues/29503)) ([8333c03](https://github.com/n8n-io/n8n/commi",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-04-30 00:14",
-      "tag": "beta",
       "source": "release"
     },
     {
