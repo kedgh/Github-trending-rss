@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-01 10:14",
+  "updated": "2026-05-01 16:03",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.7",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [test] Preserve Playwright traces on every failure: #93366\n- [ci] Add support for private preview builds: #93375\n- Fix deploy tests crashing under AI coding assistants: #93394\n- Remove leftover Turbopack manifests: #93398\n- [ci]: remove PR creation from deploy test workflow: #93400\n\n### Credits \n\nHuge thanks to @eps1lon, @unstubbable, @timneutkens, and @ztanner for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.7",
+      "published_at": "2026-05-01 14:56",
+      "tag": "v16.3.0-canary.7",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.6",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Honor the route-level `expire` value with blocking revalidation: #93211\n- Turbopack: add `experimental.turbopackWorkerAssetPrefix` to keep Workers same-origin when `assetPrefix` is a CDN: #93271\n- chore: bump postcss to 8.5.10: #93288\n- Enable server HMR for metadata routes (manifest.ts, robots.ts, etc.): #93110\n- [next/image] Only fire `onError` once: #93209\n- fix: handling of falsey values in error boundaries: #93134\n- Update upload trace url: #93350\n- enable validateRSCReq",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.5",
       "published_at": "2026-04-29 08:30",
       "tag": "v16.3.0-canary.5",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.4",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Preserve `__NEXT_ERROR_CODE` across the `/_error` page handoff: #93183\n\n### Misc Changes\n\n- Reduce allocations in the next_debug_instant_stack transform: #93222\n\n### Credits \n\nHuge thanks to @unstubbable and @lukesandberg for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.4",
-      "published_at": "2026-04-29 02:05",
-      "tag": "v16.3.0-canary.4",
       "source": "release"
     }
   ]
