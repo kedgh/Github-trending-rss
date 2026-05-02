@@ -1,8 +1,26 @@
 {
   "title": "Releases",
-  "updated": "2026-05-02 03:00",
+  "updated": "2026-05-02 10:00",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain==1.3.0a1",
+      "repo": "langchain-ai/langchain",
+      "description": "Initial release\n\nrelease(langchain): 1.3.0a1 (#37140)\nfeat(langchain): wire stream_events(version='v3') into create_agent (#37136)\nMerge remote-tracking branch 'origin/master' into v1.4\nfeat(core): stream_events(version='v3') protocol (#37111)\nrelease(fireworks): 1.2.1 (#37113)\nrelease(langchain): 1.2.17 (#37110)\nfeat(langchain): add `respond` decision to HITL middleware (#37095)\nrelease(langchain): 1.2.16 (#37085)\nchore(docs): update x handle references (#37081)\nrelease(anthropic): 1.4.2 (#3706",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.0a1",
+      "published_at": "2026-05-02 03:19",
+      "tag": "langchain==1.3.0a1",
+      "source": "release"
+    },
+    {
+      "name": "langchain-ai/langchain langchain-openrouter==0.2.3",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-openrouter==0.2.2\n\nrelease(openrouter): 0.2.3 (#37146)\nfix(openrouter): merge fragmented `reasoning_details` in streaming (#36401)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.3",
+      "published_at": "2026-05-02 05:59",
+      "tag": "langchain-openrouter==0.2.3",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-openrouter==0.2.2",
       "repo": "langchain-ai/langchain",
@@ -10,24 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.2",
       "published_at": "2026-05-02 02:22",
       "tag": "langchain-openrouter==0.2.2",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.4.0a2",
-      "repo": "langchain-ai/langchain",
-      "description": "Initial release\n\nrelease(core): 1.4.0a2 (#37134)\nrefactor(core): unwind _AsyncEventsResult hybrid for astream_events (#37133)\nrelease(core): 1.4.0a1 (#37132)\nMerge remote-tracking branch 'origin/master' into v1.4\nfeat(core): stream_events(version='v3') protocol (#37111)\nfix(core): preserve structured `inputs` on tool runs in tracers (#37108)\nrelease(perplexity): 1.2.0 (#37091)\nchore(docs): update x handle references (#37081)\nfix(core): make `removal` optional in `warn_deprecated` (#37056)\nfix(co",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.0a2",
-      "published_at": "2026-05-01 23:02",
-      "tag": "langchain-core==1.4.0a2",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.4.0a1",
-      "repo": "langchain-ai/langchain",
-      "description": "Initial release\n\nrelease(core): 1.4.0a1 (#37132)\nMerge remote-tracking branch 'origin/master' into v1.4\nfeat(core): stream_events(version='v3') protocol (#37111)\nfix(core): preserve structured `inputs` on tool runs in tracers (#37108)\nrelease(perplexity): 1.2.0 (#37091)\nchore(docs): update x handle references (#37081)\nfix(core): make `removal` optional in `warn_deprecated` (#37056)\nfix(core): validate batch_size in _batch and _abatch to prevent infinite loop (#36663)\nchore(core): mark stream_v2/",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.0a1",
-      "published_at": "2026-05-01 21:40",
-      "tag": "langchain-core==1.4.0a1",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.8",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Revert \"Revert \"Node.js streams: Add forkpoint for prerenderToStream\"\": #93376\n- Fix streaming in draft mode for cache components: #93417\n\n### Misc Changes\n\n- trace-server: shrink_to_fit LazySortedVec after sorting: #93361\n- feat(metadata): support non-standard directives in robots.ts via `other`: #93206\n- [turbo-trace-server] optimize loading even more: #93332\n\n### Credits \n\nHuge thanks to @sokra, @timneutkens, @lukesandberg, and @samselikoff for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.8",
+      "published_at": "2026-05-02 08:44",
+      "tag": "v16.3.0-canary.8",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.7",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- [test] Preserve Playwright traces on every failure: #93366\n- [ci] Add support for private preview builds: #93375\n- Fix deploy tests crashing under AI coding assistants: #93394\n- Remove leftover Turbopack manifests: #93398\n- [ci]: remove PR creation from deploy test workflow: #93400\n\n### Credits \n\nHuge thanks to @eps1lon, @unstubbable, @timneutkens, and @ztanner for helping!\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.6",
       "published_at": "2026-04-30 22:54",
       "tag": "v16.3.0-canary.6",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.5",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Apply sourcemaps by default during prerender in `next build`: #93280\n- Fix route handler SWR blocking on Node runtime: #93189\n- [ci]: fix release script to not strip newlines: #93302\n- Forward invalid dynamic usage errors on client-side navigations: #93184\n- HMR: debounce status indicator transitions to prevent flicker during bursts of changes: #93229\n- ci: Fix caching of test-cargo-unit: #93327\n- Turbopack: pull in updated vercel/nft tests: #93321\n\n### Misc Changes\n\n- Turbop",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.5",
-      "published_at": "2026-04-29 08:30",
-      "tag": "v16.3.0-canary.5",
       "source": "release"
     }
   ]
