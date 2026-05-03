@@ -1,8 +1,26 @@
 {
   "title": "Releases",
-  "updated": "2026-05-03 20:52",
+  "updated": "2026-05-04 02:46",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-classic==1.0.5",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-classic==1.0.4\n\nrelease(langchain-classic): 1.0.5 (#37165)\nrefactor(langchain-classic): retarget deprecations to `create_agent`, other chores (#37164)\nchore(langchain,langchain-classic): uncomment optional deps (#37163)\nchore: bump types-pyyaml from 6.0.12.20250915 to 6.0.12.20260408 in /libs/langchain (#37130)\nchore: bump types-pytz from 2026.1.1.20260304 to 2026.1.1.20260408 in /libs/langchain (#37131)\nchore: bump notebook from 7.4.5 to 7.5.6 in /libs/langchain (#37104)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-classic%3D%3D1.0.5",
+      "published_at": "2026-05-04 01:32",
+      "tag": "langchain-classic==1.0.5",
+      "source": "release"
+    },
+    {
+      "name": "langchain-ai/langchain langchain-anthropic==1.4.3",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-anthropic==1.4.2\n\nrelease(anthropic): 1.4.3 (#37166)\nrefactor(langchain-classic): retarget deprecations to `create_agent`, other chores (#37164)\nchore(docs): update x handle references (#37081)\nfix(anthropic): guard httpx finalizers (#37064)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.3",
+      "published_at": "2026-05-04 01:33",
+      "tag": "langchain-anthropic==1.4.3",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain==1.3.0a1",
       "repo": "langchain-ai/langchain",
@@ -10,24 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.0a1",
       "published_at": "2026-05-02 03:19",
       "tag": "langchain==1.3.0a1",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-openrouter==0.2.3",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openrouter==0.2.2\n\nrelease(openrouter): 0.2.3 (#37146)\nfix(openrouter): merge fragmented `reasoning_details` in streaming (#36401)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.3",
-      "published_at": "2026-05-02 05:59",
-      "tag": "langchain-openrouter==0.2.3",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-openrouter==0.2.2",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openrouter==0.2.1\n\nrelease(openrouter): 0.2.2 (#37139)\nfeat(openrouter): `session_id` and `trace` fields (#37137)\nchore(docs): update x handle references (#37081)\nchore(model-profiles): refresh model profile data (#37074)\nchore(model-profiles): refresh model profile data (#37051)\nchore(model-profiles): refresh model profile data (#37015)\nchore(model-profiles): refresh model profile data (#37005)\nhotfix: bump min core versions (#36996)\nfeat(core): add content-block-centric",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.2",
-      "published_at": "2026-05-02 02:22",
-      "tag": "langchain-openrouter==0.2.2",
       "source": "release"
     },
     {
