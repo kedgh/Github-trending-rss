@@ -1,73 +1,84 @@
 {
   "title": "Orgs",
-  "updated": "2026-05-03 10:05",
+  "updated": "2026-05-03 15:50",
   "count": 28,
   "items": [
     {
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform",
       "language": "Python",
-      "stars_num": 135644,
-      "total_stars": "135644",
+      "stars_num": 135657,
+      "total_stars": "135657",
       "url": "https://github.com/langchain-ai/langchain",
       "source": "org:langchain-ai",
       "org": "langchain-ai",
-      "updated_at": "2026-05-03 09:39"
+      "updated_at": "2026-05-03 15:44"
     },
     {
       "name": "langchain-ai/langgraph",
       "description": "Build resilient language agents as graphs.",
       "language": "Python",
-      "stars_num": 31057,
-      "total_stars": "31057",
+      "stars_num": 31076,
+      "total_stars": "31076",
       "url": "https://github.com/langchain-ai/langgraph",
       "source": "org:langchain-ai",
       "org": "langchain-ai",
-      "updated_at": "2026-05-03 09:21"
+      "updated_at": "2026-05-03 15:48"
     },
     {
-      "name": "langchain-ai/deepagents",
-      "description": "Agent harness built with LangChain and LangGraph. Equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - well-equipped to handle complex agentic tasks.",
+      "name": "langchain-ai/open-swe",
+      "description": "An Open-Source Asynchronous Coding Agent",
       "language": "Python",
-      "stars_num": 22136,
-      "total_stars": "22136",
-      "url": "https://github.com/langchain-ai/deepagents",
+      "stars_num": 9706,
+      "total_stars": "9706",
+      "url": "https://github.com/langchain-ai/open-swe",
       "source": "org:langchain-ai",
       "org": "langchain-ai",
-      "updated_at": "2026-05-03 08:15"
+      "updated_at": "2026-05-03 15:31"
     },
     {
-      "name": "langchain-ai/open_deep_research",
-      "description": "",
-      "language": "Python",
-      "stars_num": 11287,
-      "total_stars": "11287",
-      "url": "https://github.com/langchain-ai/open_deep_research",
-      "source": "org:langchain-ai",
-      "org": "langchain-ai",
-      "updated_at": "2026-05-03 05:31"
-    },
-    {
-      "name": "langchain-ai/lca-lc-foundations",
-      "description": "",
+      "name": "langchain-ai/agent-chat-ui",
+      "description": "🦜💬 Web app for interacting with any LangGraph agent (PY & TS) via a chat interface.",
       "language": "TypeScript",
-      "stars_num": 425,
-      "total_stars": "425",
-      "url": "https://github.com/langchain-ai/lca-lc-foundations",
+      "stars_num": 2798,
+      "total_stars": "2798",
+      "url": "https://github.com/langchain-ai/agent-chat-ui",
       "source": "org:langchain-ai",
       "org": "langchain-ai",
-      "updated_at": "2026-05-03 06:11"
+      "updated_at": "2026-05-03 15:20"
+    },
+    {
+      "name": "langchain-ai/langchain-academy",
+      "description": "",
+      "language": "Jupyter Notebook",
+      "stars_num": 2586,
+      "total_stars": "2586",
+      "url": "https://github.com/langchain-ai/langchain-academy",
+      "source": "org:langchain-ai",
+      "org": "langchain-ai",
+      "updated_at": "2026-05-03 15:32"
     },
     {
       "name": "langgenius/dify",
       "description": "Production-ready platform for agentic workflow development.",
       "language": "TypeScript",
-      "stars_num": 139891,
-      "total_stars": "139891",
+      "stars_num": 139920,
+      "total_stars": "139920",
       "url": "https://github.com/langgenius/dify",
       "source": "org:langgenius",
       "org": "langgenius",
-      "updated_at": "2026-05-03 10:03"
+      "updated_at": "2026-05-03 15:43"
+    },
+    {
+      "name": "langgenius/webapp-conversation",
+      "description": "",
+      "language": "TypeScript",
+      "stars_num": 1067,
+      "total_stars": "1067",
+      "url": "https://github.com/langgenius/webapp-conversation",
+      "source": "org:langgenius",
+      "org": "langgenius",
+      "updated_at": "2026-05-03 10:18"
     },
     {
       "name": "langgenius/dify-official-plugins",
@@ -81,26 +92,15 @@
       "updated_at": "2026-05-01 13:28"
     },
     {
-      "name": "langgenius/dify-plugin-daemon",
+      "name": "langgenius/webapp-text-generator",
       "description": "",
-      "language": "Go",
-      "stars_num": 425,
-      "total_stars": "425",
-      "url": "https://github.com/langgenius/dify-plugin-daemon",
+      "language": "TypeScript",
+      "stars_num": 270,
+      "total_stars": "270",
+      "url": "https://github.com/langgenius/webapp-text-generator",
       "source": "org:langgenius",
       "org": "langgenius",
-      "updated_at": "2026-04-30 16:57"
-    },
-    {
-      "name": "langgenius/dify-docs",
-      "description": "",
-      "language": "MDX",
-      "stars_num": 160,
-      "total_stars": "160",
-      "url": "https://github.com/langgenius/dify-docs",
-      "source": "org:langgenius",
-      "org": "langgenius",
-      "updated_at": "2026-04-30 11:43"
+      "updated_at": "2026-05-03 10:17"
     },
     {
       "name": "langgenius/graphon",
@@ -117,56 +117,56 @@
       "name": "ollama/ollama",
       "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "language": "Go",
-      "stars_num": 170582,
-      "total_stars": "170582",
+      "stars_num": 170593,
+      "total_stars": "170593",
       "url": "https://github.com/ollama/ollama",
       "source": "org:ollama",
       "org": "ollama",
-      "updated_at": "2026-05-03 09:45"
+      "updated_at": "2026-05-03 15:45"
     },
     {
       "name": "ollama/ollama-python",
       "description": "Ollama Python library",
       "language": "Python",
-      "stars_num": 9910,
-      "total_stars": "9910",
+      "stars_num": 9911,
+      "total_stars": "9911",
       "url": "https://github.com/ollama/ollama-python",
       "source": "org:ollama",
       "org": "ollama",
-      "updated_at": "2026-05-03 02:59"
+      "updated_at": "2026-05-03 11:58"
     },
     {
       "name": "ollama/ollama-js",
       "description": "Ollama JavaScript library",
       "language": "TypeScript",
-      "stars_num": 4191,
-      "total_stars": "4191",
+      "stars_num": 4192,
+      "total_stars": "4192",
       "url": "https://github.com/ollama/ollama-js",
       "source": "org:ollama",
       "org": "ollama",
-      "updated_at": "2026-05-02 20:26"
+      "updated_at": "2026-05-03 10:53"
     },
     {
       "name": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "language": "TypeScript",
-      "stars_num": 186493,
-      "total_stars": "186493",
+      "stars_num": 186511,
+      "total_stars": "186511",
       "url": "https://github.com/n8n-io/n8n",
       "source": "org:n8n-io",
       "org": "n8n-io",
-      "updated_at": "2026-05-03 09:55"
+      "updated_at": "2026-05-03 15:43"
     },
     {
       "name": "n8n-io/self-hosted-ai-starter-kit",
       "description": "The Self-hosted AI Starter Kit is an open-source template that quickly sets up a local AI environment. Curated by n8n, it provides essential tools for creating secure, self-hosted AI workflows.",
       "language": "",
-      "stars_num": 14743,
-      "total_stars": "14743",
+      "stars_num": 14744,
+      "total_stars": "14744",
       "url": "https://github.com/n8n-io/self-hosted-ai-starter-kit",
       "source": "org:n8n-io",
       "org": "n8n-io",
-      "updated_at": "2026-05-03 08:58"
+      "updated_at": "2026-05-03 15:43"
     },
     {
       "name": "n8n-io/n8n-docs",
@@ -202,114 +202,114 @@
       "updated_at": "2026-05-02 05:31"
     },
     {
+      "name": "openai/whisper",
+      "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "language": "Python",
+      "stars_num": 98794,
+      "total_stars": "98794",
+      "url": "https://github.com/openai/whisper",
+      "source": "org:openai",
+      "org": "openai",
+      "updated_at": "2026-05-03 15:45"
+    },
+    {
       "name": "openai/codex",
       "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
-      "stars_num": 79591,
-      "total_stars": "79591",
+      "stars_num": 79641,
+      "total_stars": "79641",
       "url": "https://github.com/openai/codex",
       "source": "org:openai",
       "org": "openai",
-      "updated_at": "2026-05-03 09:57"
+      "updated_at": "2026-05-03 15:45"
     },
     {
       "name": "openai/symphony",
       "description": "Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.",
       "language": "Elixir",
-      "stars_num": 20752,
-      "total_stars": "20752",
+      "stars_num": 20826,
+      "total_stars": "20826",
       "url": "https://github.com/openai/symphony",
       "source": "org:openai",
       "org": "openai",
-      "updated_at": "2026-05-03 10:03"
-    },
-    {
-      "name": "openai/tiktoken",
-      "description": "tiktoken is a fast BPE tokeniser for use with OpenAI's models.",
-      "language": "Python",
-      "stars_num": 18083,
-      "total_stars": "18083",
-      "url": "https://github.com/openai/tiktoken",
-      "source": "org:openai",
-      "org": "openai",
-      "updated_at": "2026-05-03 10:00"
+      "updated_at": "2026-05-03 15:50"
     },
     {
       "name": "openai/skills",
       "description": "Skills Catalog for Codex",
       "language": "Python",
-      "stars_num": 18073,
-      "total_stars": "18073",
+      "stars_num": 18098,
+      "total_stars": "18098",
       "url": "https://github.com/openai/skills",
       "source": "org:openai",
       "org": "openai",
-      "updated_at": "2026-05-03 09:53"
+      "updated_at": "2026-05-03 15:40"
     },
     {
-      "name": "openai/codex-plugin-cc",
-      "description": "Use Codex from Claude Code to review code or delegate tasks.",
-      "language": "JavaScript",
-      "stars_num": 17108,
-      "total_stars": "17108",
-      "url": "https://github.com/openai/codex-plugin-cc",
+      "name": "openai/chatkit-js",
+      "description": "",
+      "language": "TypeScript",
+      "stars_num": 1909,
+      "total_stars": "1909",
+      "url": "https://github.com/openai/chatkit-js",
       "source": "org:openai",
       "org": "openai",
-      "updated_at": "2026-05-03 10:04"
+      "updated_at": "2026-05-03 15:46"
     },
     {
       "name": "anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "stars_num": 127316,
-      "total_stars": "127316",
+      "stars_num": 127414,
+      "total_stars": "127414",
       "url": "https://github.com/anthropics/skills",
       "source": "org:anthropics",
       "org": "anthropics",
-      "updated_at": "2026-05-03 10:01"
+      "updated_at": "2026-05-03 15:50"
     },
     {
       "name": "anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "language": "Shell",
-      "stars_num": 119949,
-      "total_stars": "119949",
+      "stars_num": 119987,
+      "total_stars": "119987",
       "url": "https://github.com/anthropics/claude-code",
       "source": "org:anthropics",
       "org": "anthropics",
-      "updated_at": "2026-05-03 10:01"
+      "updated_at": "2026-05-03 15:45"
     },
     {
       "name": "anthropics/claude-cookbooks",
       "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
       "language": "Jupyter Notebook",
-      "stars_num": 42039,
-      "total_stars": "42039",
+      "stars_num": 42055,
+      "total_stars": "42055",
       "url": "https://github.com/anthropics/claude-cookbooks",
       "source": "org:anthropics",
       "org": "anthropics",
-      "updated_at": "2026-05-03 09:56"
+      "updated_at": "2026-05-03 15:26"
     },
     {
-      "name": "anthropics/claude-quickstarts",
-      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
-      "language": "Python",
-      "stars_num": 16423,
-      "total_stars": "16423",
-      "url": "https://github.com/anthropics/claude-quickstarts",
+      "name": "anthropics/prompt-eng-interactive-tutorial",
+      "description": "Anthropic's Interactive Prompt Engineering Tutorial",
+      "language": "Jupyter Notebook",
+      "stars_num": 35201,
+      "total_stars": "35201",
+      "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
       "source": "org:anthropics",
       "org": "anthropics",
-      "updated_at": "2026-05-03 09:47"
+      "updated_at": "2026-05-03 15:26"
     },
     {
-      "name": "anthropics/financial-services",
-      "description": "",
+      "name": "anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "stars_num": 7878,
-      "total_stars": "7878",
-      "url": "https://github.com/anthropics/financial-services",
+      "stars_num": 18429,
+      "total_stars": "18429",
+      "url": "https://github.com/anthropics/claude-plugins-official",
       "source": "org:anthropics",
       "org": "anthropics",
-      "updated_at": "2026-05-03 09:44"
+      "updated_at": "2026-05-03 15:43"
     }
   ]
 }

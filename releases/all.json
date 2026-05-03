@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-03 10:05",
+  "updated": "2026-05-03 15:50",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.23.0",
+      "repo": "ollama/ollama",
+      "description": "## Claude Desktop with Ollama Launch\r\n<img width=\"1272\" height=\"872\" alt=\"ca1\" src=\"https://github.com/user-attachments/assets/1d550e3f-0272-4429-8cb2-06d32344cb77\" />\r\n\r\nClaude Desktop is now supported with Ollama Launch. Both Claude Cowork and Claude Code are supported within the Claude Desktop App.\r\n\r\n```\r\nollama launch claude-desktop\r\n```\r\n\r\n<img width=\"1272\" height=\"872\" alt=\"ca2\" src=\"https://github.com/user-attachments/assets/f2a5ed5f-3069-4975-bb22-ada82914a01c\" />\r\n\r\n\r\nClaude Code on th",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.23.0",
+      "published_at": "2026-05-03 11:34",
+      "tag": "v0.23.0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.22.1",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* Updated the **Gemma 4** renderer for thinking and tool calling improvements\r\n* Model recommendations are now updated without updating Ollama\r\n* Aligned the desktop app's launch page with `ollama launch` integrations\r\n* Fixed the Poolside integration title in `ollama launch`\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.22.0...v0.22.1",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.22.0",
       "published_at": "2026-04-28 23:00",
       "tag": "v0.22.0",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.21.3-rc0",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* api: accept \"max\" as a think value by @ParthSareen in https://github.com/ollama/ollama/pull/15787\r\n* openai: map responses reasoning effort to think by @ParthSareen in https://github.com/ollama/ollama/pull/15789\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.21.2...v0.21.3-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.21.3-rc0",
-      "published_at": "2026-04-24 20:15",
-      "tag": "v0.21.3-rc0",
       "source": "release"
     },
     {
