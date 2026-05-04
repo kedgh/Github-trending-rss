@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-04 16:20",
+  "updated": "2026-05-04 21:26",
   "count": 15,
   "items": [
     {
@@ -87,10 +87,19 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.18.6](https://github.com/n8n-io/n8n/compare/n8n@2.18.5...n8n@2.18.6) (2026-05-01)\n\n\n### Bug Fixes\n\n* **core:** Restore peer project discovery in share dropdowns ([#29565](https://github.com/n8n-io/n8n/issues/29565)) ([bf133fd](https://github.com/n8n-io/n8n/commit/bf133fd5120401a48974dbb05b118d93b8e48dce))",
+      "description": "## [2.18.7](https://github.com/n8n-io/n8n/compare/n8n@2.18.6...n8n@2.18.7) (2026-05-04)\n\n\n### Bug Fixes\n\n* **core:** Pass userId through webhook test execution path for redaction ([#29322](https://github.com/n8n-io/n8n/issues/29322)) ([2300441](https://github.com/n8n-io/n8n/commit/2300441783bceb2e6c5653cde771f449c6c23d3e))",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-05-04 12:52",
+      "published_at": "2026-05-04 19:05",
       "tag": "stable",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n n8n@2.18.7",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.18.7](https://github.com/n8n-io/n8n/compare/n8n@2.18.6...n8n@2.18.7) (2026-05-04)\n\n\n### Bug Fixes\n\n* **core:** Pass userId through webhook test execution path for redaction ([#29322](https://github.com/n8n-io/n8n/issues/29322)) ([2300441](https://github.com/n8n-io/n8n/commit/2300441783bceb2e6c5653cde771f449c6c23d3e))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.18.7",
+      "published_at": "2026-05-04 19:05",
+      "tag": "n8n@2.18.7",
       "source": "release"
     },
     {
@@ -100,15 +109,6 @@
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.18.6",
       "published_at": "2026-05-04 12:52",
       "tag": "n8n@2.18.6",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.19.2",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.19.2](https://github.com/n8n-io/n8n/compare/n8n@2.19.1...n8n@2.19.2) (2026-05-01)\n\n\n### Bug Fixes\n\n* **core:** Persist execution context before writing to db ([#29529](https://github.com/n8n-io/n8n/issues/29529)) ([f443a58](https://github.com/n8n-io/n8n/commit/f443a58fdec51f02d61d747578dae5624771ee20))\n* **core:** Respect global admin scope when listing favorites ([#29517](https://github.com/n8n-io/n8n/issues/29517)) ([e8db911](https://github.com/n8n-io/n8n/commit/e8db9111ce34478576d894070",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.19.2",
-      "published_at": "2026-05-01 17:34",
-      "tag": "n8n@2.19.2",
       "source": "release"
     },
     {
