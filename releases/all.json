@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-04 10:05",
+  "updated": "2026-05-04 16:20",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n stable",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.18.6](https://github.com/n8n-io/n8n/compare/n8n@2.18.5...n8n@2.18.6) (2026-05-01)\n\n\n### Bug Fixes\n\n* **core:** Restore peer project discovery in share dropdowns ([#29565](https://github.com/n8n-io/n8n/issues/29565)) ([bf133fd](https://github.com/n8n-io/n8n/commit/bf133fd5120401a48974dbb05b118d93b8e48dce))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-05-04 12:52",
+      "tag": "stable",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n n8n@2.18.6",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.18.6](https://github.com/n8n-io/n8n/compare/n8n@2.18.5...n8n@2.18.6) (2026-05-01)\n\n\n### Bug Fixes\n\n* **core:** Restore peer project discovery in share dropdowns ([#29565](https://github.com/n8n-io/n8n/issues/29565)) ([bf133fd](https://github.com/n8n-io/n8n/commit/bf133fd5120401a48974dbb05b118d93b8e48dce))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.18.6",
+      "published_at": "2026-05-04 12:52",
+      "tag": "n8n@2.18.6",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n n8n@2.19.2",
       "repo": "n8n-io/n8n",
       "description": "## [2.19.2](https://github.com/n8n-io/n8n/compare/n8n@2.19.1...n8n@2.19.2) (2026-05-01)\n\n\n### Bug Fixes\n\n* **core:** Persist execution context before writing to db ([#29529](https://github.com/n8n-io/n8n/issues/29529)) ([f443a58](https://github.com/n8n-io/n8n/commit/f443a58fdec51f02d61d747578dae5624771ee20))\n* **core:** Respect global admin scope when listing favorites ([#29517](https://github.com/n8n-io/n8n/issues/29517)) ([e8db911](https://github.com/n8n-io/n8n/commit/e8db9111ce34478576d894070",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.19.2",
       "published_at": "2026-05-01 17:34",
       "tag": "n8n@2.19.2",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n beta",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.19.2](https://github.com/n8n-io/n8n/compare/n8n@2.19.1...n8n@2.19.2) (2026-05-01)\n\n\n### Bug Fixes\n\n* **core:** Persist execution context before writing to db ([#29529](https://github.com/n8n-io/n8n/issues/29529)) ([f443a58](https://github.com/n8n-io/n8n/commit/f443a58fdec51f02d61d747578dae5624771ee20))\n* **core:** Respect global admin scope when listing favorites ([#29517](https://github.com/n8n-io/n8n/issues/29517)) ([e8db911](https://github.com/n8n-io/n8n/commit/e8db9111ce34478576d894070",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-05-01 17:34",
-      "tag": "beta",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@1.123.38",
-      "repo": "n8n-io/n8n",
-      "description": "## [1.123.38](https://github.com/n8n-io/n8n/compare/n8n@1.123.37...n8n@1.123.38) (2026-04-29)\n\n\n### Bug Fixes\n\n* **core:** Fix code node executions hanging when idle timer overlaps with task acceptance ([#29393](https://github.com/n8n-io/n8n/issues/29393)) ([4af49f1](https://github.com/n8n-io/n8n/commit/4af49f1d9eec95ba840fa40438f16b891db2bc98))\n* **core:** Fix task runner hanging when connection attempt fails ([#29441](https://github.com/n8n-io/n8n/issues/29441)) ([271af23](https://github.com/n",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.38",
-      "published_at": "2026-04-29 22:18",
-      "tag": "n8n@1.123.38",
       "source": "release"
     },
     {
