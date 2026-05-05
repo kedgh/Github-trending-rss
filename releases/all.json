@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-05 03:17",
+  "updated": "2026-05-05 10:04",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.10",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Upgrade React from `da9325b5-20260417` to `f4e0d4ed-20260429`: #93457\n- Bump `@vercel/ncc`: #93459\n- Include deployment id in `cacheHandlers` keys: #93453\n- fix(next/image): Improve error message for private IP (SSRF) rejections: #91686\n\n### Misc Changes\n\n- Upgrade to swc 65: #93325\n- [test] Ensure target page is compiled before navigation in instant-navs-devtools: #93365\n- [ci] Allow configuring the base URL for preview builds: #93464\n- turbo-tasks-backend: fix snapshot coor",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.10",
+      "published_at": "2026-05-05 07:58",
+      "tag": "v16.3.0-canary.10",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.9",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Drop once_cell from all direct crate deps: #93095\n- Replace Lazy<FxHashMap> static lookups with phf::Map: #93096\n\n### Credits \n\nHuge thanks to @mmastrac for helping!\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.8",
       "published_at": "2026-05-02 08:44",
       "tag": "v16.3.0-canary.8",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.7",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [test] Preserve Playwright traces on every failure: #93366\n- [ci] Add support for private preview builds: #93375\n- Fix deploy tests crashing under AI coding assistants: #93394\n- Remove leftover Turbopack manifests: #93398\n- [ci]: remove PR creation from deploy test workflow: #93400\n\n### Credits \n\nHuge thanks to @eps1lon, @unstubbable, @timneutkens, and @ztanner for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.7",
-      "published_at": "2026-05-01 14:56",
-      "tag": "v16.3.0-canary.7",
       "source": "release"
     }
   ]
