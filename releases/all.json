@@ -1,33 +1,33 @@
 {
   "title": "Releases",
-  "updated": "2026-05-05 21:20",
+  "updated": "2026-05-06 03:07",
   "count": 15,
   "items": [
     {
-      "name": "langchain-ai/langchain langchain-classic==1.0.5",
+      "name": "langchain-ai/langchain langchain-mistralai==1.1.4",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-classic==1.0.4\n\nrelease(langchain-classic): 1.0.5 (#37165)\nrefactor(langchain-classic): retarget deprecations to `create_agent`, other chores (#37164)\nchore(langchain,langchain-classic): uncomment optional deps (#37163)\nchore: bump types-pyyaml from 6.0.12.20250915 to 6.0.12.20260408 in /libs/langchain (#37130)\nchore: bump types-pytz from 2026.1.1.20260304 to 2026.1.1.20260408 in /libs/langchain (#37131)\nchore: bump notebook from 7.4.5 to 7.5.6 in /libs/langchain (#37104)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-classic%3D%3D1.0.5",
-      "published_at": "2026-05-04 01:32",
-      "tag": "langchain-classic==1.0.5",
+      "description": "Changes since langchain-mistralai==1.1.3\n\nrelease(mistralai): 1.1.4 (#37191)\nfix(mistralai): strip non-wire keys from `ToolMessage` (#37188)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.1.4",
+      "published_at": "2026-05-05 23:29",
+      "tag": "langchain-mistralai==1.1.4",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-anthropic==1.4.3",
+      "name": "langchain-ai/langchain langchain-fireworks==1.3.1",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-anthropic==1.4.2\n\nrelease(anthropic): 1.4.3 (#37166)\nrefactor(langchain-classic): retarget deprecations to `create_agent`, other chores (#37164)\nchore(docs): update x handle references (#37081)\nfix(anthropic): guard httpx finalizers (#37064)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.3",
-      "published_at": "2026-05-04 01:33",
-      "tag": "langchain-anthropic==1.4.3",
+      "description": "Changes since langchain-fireworks==1.3.0\n\nfix(fireworks): require `api_key` in `FireworksEmbeddings` (#37193)\nrelease(fireworks): 1.3.1 (#37189)\nfix(fireworks): strip non-wire keys from `ToolMessage` text content blocks (#37187)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.3.1",
+      "published_at": "2026-05-05 23:43",
+      "tag": "langchain-fireworks==1.3.1",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain==1.3.0a1",
+      "name": "langchain-ai/langchain langchain-core==1.3.3",
       "repo": "langchain-ai/langchain",
-      "description": "Initial release\n\nrelease(langchain): 1.3.0a1 (#37140)\nfeat(langchain): wire stream_events(version='v3') into create_agent (#37136)\nMerge remote-tracking branch 'origin/master' into v1.4\nfeat(core): stream_events(version='v3') protocol (#37111)\nrelease(fireworks): 1.2.1 (#37113)\nrelease(langchain): 1.2.17 (#37110)\nfeat(langchain): add `respond` decision to HITL middleware (#37095)\nrelease(langchain): 1.2.16 (#37085)\nchore(docs): update x handle references (#37081)\nrelease(anthropic): 1.4.2 (#3706",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.0a1",
-      "published_at": "2026-05-02 03:19",
-      "tag": "langchain==1.3.0a1",
+      "description": "Changes since langchain-core==1.3.2\n\nrelease(core): 1.3.3 (#37198)\nfix(core): set deprecation `since` to 1.3.3 to match release (#37200)\nfix(core, langchain): harden `load()` against untrusted manifests (#37197)\nchore: bump notebook from 7.5.0 to 7.5.6 in /libs/core (#37109)\nchore: bump types-pyyaml from 6.0.12.20250915 to 6.0.12.20260408 in /libs/core (#37129)\nfix(core): preserve structured `inputs` on tool runs in tracers (#37108)\nrelease(perplexity): 1.2.0 (#37091)\nchore(docs): update x handl",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.3.3",
+      "published_at": "2026-05-06 03:02",
+      "tag": "langchain-core==1.3.3",
       "source": "release"
     },
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.23.1-rc0",
+      "repo": "ollama/ollama",
+      "description": "## Gemma 4 MTP (Multi-token Processing) for the MLX runner\r\nGemma 4 MTP speculative decoding is now supported on Macs. This can give over a 2x speed increase for the Gemma 4 31B model on coding tasks.\r\n\r\n```\r\nollama run gemma4:31b-coding-mtp-bf16\r\n```\r\n\r\n## What's Changed\r\n* Update MLX and MLX-C with threading fixes by @dhiltgen in https://github.com/ollama/ollama/pull/15845\r\n* go: bump to 1.26 by @ParthSareen in https://github.com/ollama/ollama/pull/15904\r\n* Add Gemma 4 MTP speculative decoding",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.23.1-rc0",
+      "published_at": "2026-05-06 01:13",
+      "tag": "v0.23.1-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.23.0",
       "repo": "ollama/ollama",
       "description": "## Claude Desktop\r\nClaude Desktop is now supported with Ollama Launch. \r\n\r\nClaude Cowork and Claude Code are supported within the Claude Desktop App.\r\n\r\n```\r\nollama launch claude-desktop\r\n```\r\n\r\n### Claude Cowork\r\n<img width=\"1272\" height=\"872\" alt=\"ca1\" src=\"https://github.com/user-attachments/assets/1d550e3f-0272-4429-8cb2-06d32344cb77\" />\r\n\r\n\r\n### Claude Code\r\n<img width=\"1272\" height=\"872\" alt=\"ca2\" src=\"https://github.com/user-attachments/assets/f2a5ed5f-3069-4975-bb22-ada82914a01c\" />\r\n\r\n\r",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.22.1",
       "published_at": "2026-04-29 04:30",
       "tag": "v0.22.1",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.22.0",
-      "repo": "ollama/ollama",
-      "description": "## New models \r\n* NVIDIA's [Nemotron 3 Omni](https://ollama.com/library/nemotron3)\r\n* Poolside's first open-weight coding model - [Laguna XS.2](https://ollama.com/library/laguna-xs.2)\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.21.2...v0.22.0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.22.0",
-      "published_at": "2026-04-28 23:00",
-      "tag": "v0.22.0",
       "source": "release"
     },
     {
