@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-05-06 03:07",
+  "updated": "2026-05-06 10:04",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain==0.3.29",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain==0.3.28\n\nrelease(langchain): 0.3.29 (#37212)\nfix(langchain): restrict deserialization in `langchain.storage._lc_store` (#37209)\nfix(core, langchain): harden `load()` against untrusted manifests (#37201)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D0.3.29",
+      "published_at": "2026-05-06 05:02",
+      "tag": "langchain==0.3.29",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-mistralai==1.1.4",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.3.1",
       "published_at": "2026-05-05 23:43",
       "tag": "langchain-fireworks==1.3.1",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.3.3",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.3.2\n\nrelease(core): 1.3.3 (#37198)\nfix(core): set deprecation `since` to 1.3.3 to match release (#37200)\nfix(core, langchain): harden `load()` against untrusted manifests (#37197)\nchore: bump notebook from 7.5.0 to 7.5.6 in /libs/core (#37109)\nchore: bump types-pyyaml from 6.0.12.20250915 to 6.0.12.20260408 in /libs/core (#37129)\nfix(core): preserve structured `inputs` on tool runs in tracers (#37108)\nrelease(perplexity): 1.2.0 (#37091)\nchore(docs): update x handl",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.3.3",
-      "published_at": "2026-05-06 03:02",
-      "tag": "langchain-core==1.3.3",
       "source": "release"
     },
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.23.1-rc0",
+      "name": "ollama/ollama v0.23.1",
       "repo": "ollama/ollama",
       "description": "## Gemma 4 MTP (Multi-token Processing) for the MLX runner\r\nGemma 4 MTP speculative decoding is now supported on Macs. This can give over a 2x speed increase for the Gemma 4 31B model on coding tasks.\r\n\r\n```\r\nollama run gemma4:31b-coding-mtp-bf16\r\n```\r\n\r\n## What's Changed\r\n* Update MLX and MLX-C with threading fixes by @dhiltgen in https://github.com/ollama/ollama/pull/15845\r\n* go: bump to 1.26 by @ParthSareen in https://github.com/ollama/ollama/pull/15904\r\n* Add Gemma 4 MTP speculative decoding",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.23.1-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.23.1",
       "published_at": "2026-05-06 01:13",
-      "tag": "v0.23.1-rc0",
+      "tag": "v0.23.1",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.11",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Fix dev mode reload and error on back navigation between Next.js pages: #93486\n- Fix double-encoding of URL pathname parts in client param parsing: #93491\n- Don't suppress usage of deprecated TypeScript `compilerOptions`: #93377\n\n### Misc Changes\n\n- [ci] Move Turbopack, Rspack and font data workflows off of `RELEASE_BOT_GITHUB_TOKEN`: #93455\n- [ci] Migrate React sync off of `RELEASE_BOT_GITHUB_TOKEN`: #93456\n- [ci] Create unique preview build versions for canary previews: #93",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.11",
+      "published_at": "2026-05-06 07:59",
+      "tag": "v16.3.0-canary.11",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.10",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Upgrade React from `da9325b5-20260417` to `f4e0d4ed-20260429`: #93457\n- Bump `@vercel/ncc`: #93459\n- Include deployment id in `cacheHandlers` keys: #93453\n- fix(next/image): Improve error message for private IP (SSRF) rejections: #91686\n\n### Misc Changes\n\n- Upgrade to swc 65: #93325\n- [test] Ensure target page is compiled before navigation in instant-navs-devtools: #93365\n- [ci] Allow configuring the base URL for preview builds: #93464\n- turbo-tasks-backend: fix snapshot coor",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.9",
       "published_at": "2026-05-03 08:23",
       "tag": "v16.3.0-canary.9",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.8",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Revert \"Revert \"Node.js streams: Add forkpoint for prerenderToStream\"\": #93376\n- Fix streaming in draft mode for cache components: #93417\n\n### Misc Changes\n\n- trace-server: shrink_to_fit LazySortedVec after sorting: #93361\n- feat(metadata): support non-standard directives in robots.ts via `other`: #93206\n- [turbo-trace-server] optimize loading even more: #93332\n\n### Credits \n\nHuge thanks to @sokra, @timneutkens, @lukesandberg, and @samselikoff for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.8",
-      "published_at": "2026-05-02 08:44",
-      "tag": "v16.3.0-canary.8",
       "source": "release"
     }
   ]
