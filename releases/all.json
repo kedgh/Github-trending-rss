@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-05-06 21:49",
+  "updated": "2026-05-07 03:26",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain==1.3.0a2",
+      "repo": "langchain-ai/langchain",
+      "description": "Initial release\n\nrelease(langchain): 1.3.0a2 (#37225)\nrelease(langchain): 1.3.0a2 (#37224)\nfix(langchain): ordered schema resolution — list replaces set so state_schema wins (#37223)\nrelease(langchain): 1.3.0a1 (#37140)\nfeat(langchain): wire stream_events(version='v3') into create_agent (#37136)\nMerge remote-tracking branch 'origin/master' into v1.4\nfeat(core): stream_events(version='v3') protocol (#37111)\nrelease(fireworks): 1.2.1 (#37113)\nrelease(langchain): 1.2.17 (#37110)\nfeat(langchain): ad",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.0a2",
+      "published_at": "2026-05-07 02:54",
+      "tag": "langchain==1.3.0a2",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain==0.3.29",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.1.4",
       "published_at": "2026-05-05 23:29",
       "tag": "langchain-mistralai==1.1.4",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-fireworks==1.3.1",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-fireworks==1.3.0\n\nfix(fireworks): require `api_key` in `FireworksEmbeddings` (#37193)\nrelease(fireworks): 1.3.1 (#37189)\nfix(fireworks): strip non-wire keys from `ToolMessage` text content blocks (#37187)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.3.1",
-      "published_at": "2026-05-05 23:43",
-      "tag": "langchain-fireworks==1.3.1",
       "source": "release"
     },
     {
@@ -87,10 +87,19 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.19.3](https://github.com/n8n-io/n8n/compare/n8n@2.19.2...n8n@2.19.3) (2026-05-06)\n\n\n### Bug Fixes\n\n* **core:** Acquire expression isolate for dynamic node parameter requests ([#29711](https://github.com/n8n-io/n8n/issues/29711)) ([cd4a3f5](https://github.com/n8n-io/n8n/commit/cd4a3f579545736be33921c6f7dd9337165e37dc))\n* **core:** Add file path validation to localFile source ([#29789](https://github.com/n8n-io/n8n/issues/29789)) ([5352606](https://github.com/n8n-io/n8n/commit/5352606c74989c",
+      "description": "## [2.19.4](https://github.com/n8n-io/n8n/compare/n8n@2.19.3...n8n@2.19.4) (2026-05-06)\n\n\n### Bug Fixes\n\n* Add fully dynamic disclaimer to Quick Connect offer ([#29865](https://github.com/n8n-io/n8n/issues/29865)) ([492a0b7](https://github.com/n8n-io/n8n/commit/492a0b7c01c5552685e859c432fa92b82d3b300c))\n* **core:** Add support for context establishment hooks in webhook mode ([#29901](https://github.com/n8n-io/n8n/issues/29901)) ([c967cb2](https://github.com/n8n-io/n8n/commit/c967cb23d4e6bb349d13",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-05-06 19:00",
+      "published_at": "2026-05-07 02:21",
       "tag": "stable",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n n8n@2.19.4",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.19.4](https://github.com/n8n-io/n8n/compare/n8n@2.19.3...n8n@2.19.4) (2026-05-06)\n\n\n### Bug Fixes\n\n* Add fully dynamic disclaimer to Quick Connect offer ([#29865](https://github.com/n8n-io/n8n/issues/29865)) ([492a0b7](https://github.com/n8n-io/n8n/commit/492a0b7c01c5552685e859c432fa92b82d3b300c))\n* **core:** Add support for context establishment hooks in webhook mode ([#29901](https://github.com/n8n-io/n8n/issues/29901)) ([c967cb2](https://github.com/n8n-io/n8n/commit/c967cb23d4e6bb349d13",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.19.4",
+      "published_at": "2026-05-07 02:21",
+      "tag": "n8n@2.19.4",
       "source": "release"
     },
     {
@@ -103,39 +112,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.39",
-      "repo": "n8n-io/n8n",
-      "description": "## [1.123.39](https://github.com/n8n-io/n8n/compare/n8n@1.123.38...n8n@1.123.39) (2026-05-06)\n\n\n### Bug Fixes\n\n* **core:** Add timeout to external secrets provider update to prevent startup hang ([#29682](https://github.com/n8n-io/n8n/issues/29682)) ([77eb533](https://github.com/n8n-io/n8n/commit/77eb53363d7db1e0b439ae81cdd101964e3ec1f7))\n\n\n### Features\n\n* **core:** Add flag to import workflow cli to activate workflow on import ([#29341](https://github.com/n8n-io/n8n/issues/29341)) ([db3b57b](ht",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.39",
-      "published_at": "2026-05-06 18:38",
-      "tag": "n8n@1.123.39",
+      "name": "vercel/next.js v16.3.0-canary.12",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Refactor: Decouple request store creation from `req` / `res`: #93499\n- Detect `'use cache'` module-scope deadlocks early in dev: #93500\n- Bundle the `'use cache'` deadlock probe worker: #93538\n- Support configuring a default instant validation level : #93301\n- Upgrade React from `f4e0d4ed-20260429` to `dd453071-20260506`: #93547\n\n### Misc Changes\n\n- [turbopack] shrink the size of futures: #93474\n- [turbopack] Simplify local task tracking: #93478\n- [turbopack] correct a fencep",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.12",
+      "published_at": "2026-05-07 02:59",
+      "tag": "v16.3.0-canary.12",
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.3.0-canary.11",
+      "name": "vercel/next.js v16.2.5",
       "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Fix dev mode reload and error on back navigation between Next.js pages: #93486\n- Fix double-encoding of URL pathname parts in client param parsing: #93491\n- Don't suppress usage of deprecated TypeScript `compilerOptions`: #93377\n\n### Misc Changes\n\n- [ci] Move Turbopack, Rspack and font data workflows off of `RELEASE_BOT_GITHUB_TOKEN`: #93455\n- [ci] Migrate React sync off of `RELEASE_BOT_GITHUB_TOKEN`: #93456\n- [ci] Create unique preview build versions for canary previews: #93",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.11",
-      "published_at": "2026-05-06 07:59",
-      "tag": "v16.3.0-canary.11",
+      "description": "This release contains security fixes for the following advisories:\r\n\r\nHigh:\r\n- [GHSA-8h8q-6873-q5fj: Denial of Service with Server Components](https://github.com/vercel/next.js/security/advisories/GHSA-8h8q-6873-q5fj)\r\n- [GHSA-267c-6grr-h53f: Middleware / Proxy bypass in App Router applications via segment-prefetch routes](https://github.com/vercel/next.js/security/advisories/GHSA-267c-6grr-h53f)\r\n- [GHSA-mg66-mrh9-m8jx: Denial of Service via connection exhaustion in applications using Cache Com",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.5",
+      "published_at": "2026-05-07 02:54",
+      "tag": "v16.2.5",
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.3.0-canary.10",
+      "name": "vercel/next.js v15.5.16",
       "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Upgrade React from `da9325b5-20260417` to `f4e0d4ed-20260429`: #93457\n- Bump `@vercel/ncc`: #93459\n- Include deployment id in `cacheHandlers` keys: #93453\n- fix(next/image): Improve error message for private IP (SSRF) rejections: #91686\n\n### Misc Changes\n\n- Upgrade to swc 65: #93325\n- [test] Ensure target page is compiled before navigation in instant-navs-devtools: #93365\n- [ci] Allow configuring the base URL for preview builds: #93464\n- turbo-tasks-backend: fix snapshot coor",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.10",
-      "published_at": "2026-05-05 07:58",
-      "tag": "v16.3.0-canary.10",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.9",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Drop once_cell from all direct crate deps: #93095\n- Replace Lazy<FxHashMap> static lookups with phf::Map: #93096\n\n### Credits \n\nHuge thanks to @mmastrac for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.9",
-      "published_at": "2026-05-03 08:23",
-      "tag": "v16.3.0-canary.9",
+      "description": "This release contains security fixes for the following advisories:\r\n\r\nHigh:\r\n- [GHSA-8h8q-6873-q5fj: Denial of Service with Server Components](https://github.com/vercel/next.js/security/advisories/GHSA-8h8q-6873-q5fj)\r\n- [GHSA-267c-6grr-h53f: Middleware / Proxy bypass in App Router applications via segment-prefetch routes](https://github.com/vercel/next.js/security/advisories/GHSA-267c-6grr-h53f)\r\n- [GHSA-mg66-mrh9-m8jx: Denial of Service via connection exhaustion in applications using Cache Com",
+      "url": "https://github.com/vercel/next.js/releases/tag/v15.5.16",
+      "published_at": "2026-05-07 02:53",
+      "tag": "v15.5.16",
       "source": "release"
     }
   ]
