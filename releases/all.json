@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-06 10:04",
+  "updated": "2026-05-06 21:49",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.20.0",
+      "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "# [2.20.0](https://github.com/n8n-io/n8n/compare/n8n@2.19.0...n8n@2.20.0) (2026-05-05)\n\n\n### Bug Fixes\n\n* **ai-builder:** Add boundaries on the workflow builder remediation loops ([#29430](https://github.com/n8n-io/n8n/issues/29430)) ([2259f32](https://github.com/n8n-io/n8n/commit/2259f32de88c103b088b450bf46990ad2e939942))\n* **ai-builder:** Allow skipping final ask-user question ([#29563](https://github.com/n8n-io/n8n/issues/29563)) ([661f990](https://github.com/n8n-io/n8n/commit/661f9908bce5107",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.20.0",
-      "published_at": "2026-05-05 17:41",
-      "tag": "n8n@2.20.0",
+      "description": "## [2.19.3](https://github.com/n8n-io/n8n/compare/n8n@2.19.2...n8n@2.19.3) (2026-05-06)\n\n\n### Bug Fixes\n\n* **core:** Acquire expression isolate for dynamic node parameter requests ([#29711](https://github.com/n8n-io/n8n/issues/29711)) ([cd4a3f5](https://github.com/n8n-io/n8n/commit/cd4a3f579545736be33921c6f7dd9337165e37dc))\n* **core:** Add file path validation to localFile source ([#29789](https://github.com/n8n-io/n8n/issues/29789)) ([5352606](https://github.com/n8n-io/n8n/commit/5352606c74989c",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-05-06 19:00",
+      "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n beta",
+      "name": "n8n-io/n8n n8n@2.19.3",
       "repo": "n8n-io/n8n",
-      "description": "# [2.20.0](https://github.com/n8n-io/n8n/compare/n8n@2.19.0...n8n@2.20.0) (2026-05-05)\n\n\n### Bug Fixes\n\n* **ai-builder:** Add boundaries on the workflow builder remediation loops ([#29430](https://github.com/n8n-io/n8n/issues/29430)) ([2259f32](https://github.com/n8n-io/n8n/commit/2259f32de88c103b088b450bf46990ad2e939942))\n* **ai-builder:** Allow skipping final ask-user question ([#29563](https://github.com/n8n-io/n8n/issues/29563)) ([661f990](https://github.com/n8n-io/n8n/commit/661f9908bce5107",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-05-05 17:41",
-      "tag": "beta",
+      "description": "## [2.19.3](https://github.com/n8n-io/n8n/compare/n8n@2.19.2...n8n@2.19.3) (2026-05-06)\n\n\n### Bug Fixes\n\n* **core:** Acquire expression isolate for dynamic node parameter requests ([#29711](https://github.com/n8n-io/n8n/issues/29711)) ([cd4a3f5](https://github.com/n8n-io/n8n/commit/cd4a3f579545736be33921c6f7dd9337165e37dc))\n* **core:** Add file path validation to localFile source ([#29789](https://github.com/n8n-io/n8n/issues/29789)) ([5352606](https://github.com/n8n-io/n8n/commit/5352606c74989c",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.19.3",
+      "published_at": "2026-05-06 19:00",
+      "tag": "n8n@2.19.3",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.18.7",
+      "name": "n8n-io/n8n n8n@1.123.39",
       "repo": "n8n-io/n8n",
-      "description": "## [2.18.7](https://github.com/n8n-io/n8n/compare/n8n@2.18.6...n8n@2.18.7) (2026-05-04)\n\n\n### Bug Fixes\n\n* **core:** Pass userId through webhook test execution path for redaction ([#29322](https://github.com/n8n-io/n8n/issues/29322)) ([2300441](https://github.com/n8n-io/n8n/commit/2300441783bceb2e6c5653cde771f449c6c23d3e))",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.18.7",
-      "published_at": "2026-05-04 19:05",
-      "tag": "n8n@2.18.7",
+      "description": "## [1.123.39](https://github.com/n8n-io/n8n/compare/n8n@1.123.38...n8n@1.123.39) (2026-05-06)\n\n\n### Bug Fixes\n\n* **core:** Add timeout to external secrets provider update to prevent startup hang ([#29682](https://github.com/n8n-io/n8n/issues/29682)) ([77eb533](https://github.com/n8n-io/n8n/commit/77eb53363d7db1e0b439ae81cdd101964e3ec1f7))\n\n\n### Features\n\n* **core:** Add flag to import workflow cli to activate workflow on import ([#29341](https://github.com/n8n-io/n8n/issues/29341)) ([db3b57b](ht",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.39",
+      "published_at": "2026-05-06 18:38",
+      "tag": "n8n@1.123.39",
       "source": "release"
     },
     {
