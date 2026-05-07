@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-07 16:20",
+  "updated": "2026-05-07 21:46",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.14",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- perf(ecmascript): shrink JsValue 64→32 bytes: #93106\n- Order loader tree imports by tree depth: #93537\n- Turbopack: more strict vergen setup: #93541\n\n### Credits \n\nHuge thanks to @mmastrac, @sokra, and @mischnic for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.14",
+      "published_at": "2026-05-07 17:19",
+      "tag": "v16.3.0-canary.14",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.13",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Disable instant validations in draft mode: #93472\n\n### Misc Changes\n\n- Drop `ReferencedAsset::from_resolve_result` as a turbotask: #93297\n- Turbopack: Cache effect errors, replace the write_lock Mutex with a lazily created Notify instance: #93476\n\n### Credits \n\nHuge thanks to @samselikoff, @lukesandberg, and @bgw for helping!\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.12",
       "published_at": "2026-05-07 02:59",
       "tag": "v16.3.0-canary.12",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.2.5",
-      "repo": "vercel/next.js",
-      "description": "This release contains security fixes for the following advisories:\r\n\r\nHigh:\r\n- [GHSA-8h8q-6873-q5fj: Denial of Service with Server Components](https://github.com/vercel/next.js/security/advisories/GHSA-8h8q-6873-q5fj)\r\n- [GHSA-267c-6grr-h53f: Middleware / Proxy bypass in App Router applications via segment-prefetch routes](https://github.com/vercel/next.js/security/advisories/GHSA-267c-6grr-h53f)\r\n- [GHSA-mg66-mrh9-m8jx: Denial of Service via connection exhaustion in applications using Cache Com",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.5",
-      "published_at": "2026-05-07 02:54",
-      "tag": "v16.2.5",
       "source": "release"
     }
   ]
