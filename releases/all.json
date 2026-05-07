@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-07 03:26",
+  "updated": "2026-05-07 10:06",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.13",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Disable instant validations in draft mode: #93472\n\n### Misc Changes\n\n- Drop `ReferencedAsset::from_resolve_result` as a turbotask: #93297\n- Turbopack: Cache effect errors, replace the write_lock Mutex with a lazily created Notify instance: #93476\n\n### Credits \n\nHuge thanks to @samselikoff, @lukesandberg, and @bgw for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.13",
+      "published_at": "2026-05-07 08:00",
+      "tag": "v16.3.0-canary.13",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.12",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Refactor: Decouple request store creation from `req` / `res`: #93499\n- Detect `'use cache'` module-scope deadlocks early in dev: #93500\n- Bundle the `'use cache'` deadlock probe worker: #93538\n- Support configuring a default instant validation level : #93301\n- Upgrade React from `f4e0d4ed-20260429` to `dd453071-20260506`: #93547\n\n### Misc Changes\n\n- [turbopack] shrink the size of futures: #93474\n- [turbopack] Simplify local task tracking: #93478\n- [turbopack] correct a fencep",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.2.5",
       "published_at": "2026-05-07 02:54",
       "tag": "v16.2.5",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v15.5.16",
-      "repo": "vercel/next.js",
-      "description": "This release contains security fixes for the following advisories:\r\n\r\nHigh:\r\n- [GHSA-8h8q-6873-q5fj: Denial of Service with Server Components](https://github.com/vercel/next.js/security/advisories/GHSA-8h8q-6873-q5fj)\r\n- [GHSA-267c-6grr-h53f: Middleware / Proxy bypass in App Router applications via segment-prefetch routes](https://github.com/vercel/next.js/security/advisories/GHSA-267c-6grr-h53f)\r\n- [GHSA-mg66-mrh9-m8jx: Denial of Service via connection exhaustion in applications using Cache Com",
-      "url": "https://github.com/vercel/next.js/releases/tag/v15.5.16",
-      "published_at": "2026-05-07 02:53",
-      "tag": "v15.5.16",
       "source": "release"
     }
   ]
