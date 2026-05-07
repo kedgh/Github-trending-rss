@@ -1,33 +1,33 @@
 {
   "title": "Releases",
-  "updated": "2026-05-07 21:46",
+  "updated": "2026-05-08 03:28",
   "count": 15,
   "items": [
     {
-      "name": "langchain-ai/langchain langchain==1.3.0a2",
+      "name": "langchain-ai/langchain langchain==0.3.30",
       "repo": "langchain-ai/langchain",
-      "description": "Initial release\n\nrelease(langchain): 1.3.0a2 (#37225)\nrelease(langchain): 1.3.0a2 (#37224)\nfix(langchain): ordered schema resolution — list replaces set so state_schema wins (#37223)\nrelease(langchain): 1.3.0a1 (#37140)\nfeat(langchain): wire stream_events(version='v3') into create_agent (#37136)\nMerge remote-tracking branch 'origin/master' into v1.4\nfeat(core): stream_events(version='v3') protocol (#37111)\nrelease(fireworks): 1.2.1 (#37113)\nrelease(langchain): 1.2.17 (#37110)\nfeat(langchain): ad",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.0a2",
-      "published_at": "2026-05-07 02:54",
-      "tag": "langchain==1.3.0a2",
+      "description": "Changes since langchain==0.3.29\r\n\r\nrelease(langchain): release 0.3.30 (#37241)\r\nchore(langchain): backport loads/dumps harden to v0.3 and deprecate hub (#37239)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D0.3.30",
+      "published_at": "2026-05-07 23:48",
+      "tag": "langchain==0.3.30",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain==0.3.29",
+      "name": "langchain-ai/langchain langchain-core==0.3.86",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==0.3.28\n\nrelease(langchain): 0.3.29 (#37212)\nfix(langchain): restrict deserialization in `langchain.storage._lc_store` (#37209)\nfix(core, langchain): harden `load()` against untrusted manifests (#37201)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D0.3.29",
-      "published_at": "2026-05-06 05:02",
-      "tag": "langchain==0.3.29",
+      "description": "Changes since langchain-core==0.3.85\n\nrelease(core): 0.3.86 (#37242)\nfix(core): backport path-traversal fix to v0.3 (CVE-2026-34070, GHSA-qh6h-p6c9-ff54) (#37233)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D0.3.86",
+      "published_at": "2026-05-08 00:48",
+      "tag": "langchain-core==0.3.86",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-mistralai==1.1.4",
+      "name": "langchain-ai/langchain langchain-classic==1.0.7",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-mistralai==1.1.3\n\nrelease(mistralai): 1.1.4 (#37191)\nfix(mistralai): strip non-wire keys from `ToolMessage` (#37188)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.1.4",
-      "published_at": "2026-05-05 23:29",
-      "tag": "langchain-mistralai==1.1.4",
+      "description": "Changes since langchain-classic==1.0.6\n\nrelease(langchain-classic): 1.0.7 (#37240)\nchore(langchain-classic): deprecate hub, limit loads/dumps (#37234)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-classic%3D%3D1.0.7",
+      "published_at": "2026-05-07 23:47",
+      "tag": "langchain-classic==1.0.7",
       "source": "release"
     },
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.40",
+      "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.40](https://github.com/n8n-io/n8n/compare/n8n@1.123.39...n8n@1.123.40) (2026-05-07)\n\n\n### Bug Fixes\n\n* **core:** Allow GIT_SSH_COMMAND in simple-git after 3.36.0 upgrade ([#29947](https://github.com/n8n-io/n8n/issues/29947)) ([1bb7d11](https://github.com/n8n-io/n8n/commit/1bb7d110e58960affbdf5e3a6e9fe663a8b229a8))\n* **Snowflake Node:** Fix issue with Insert and Update operations not working ([#29812](https://github.com/n8n-io/n8n/issues/29812)) ([aec110f](https://github.com/n8n-io/n8n/",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.40",
-      "published_at": "2026-05-07 13:50",
-      "tag": "n8n@1.123.40",
+      "description": "## [2.19.5](https://github.com/n8n-io/n8n/compare/n8n@2.19.4...n8n@2.19.5) (2026-05-07)\n\n\n### Bug Fixes\n\n* **core:** Simple-git update broke https connection ([#30004](https://github.com/n8n-io/n8n/issues/30004)) ([17fa22b](https://github.com/n8n-io/n8n/commit/17fa22b4169e74bded8bedafe19bce11944bd17b))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-05-07 23:37",
+      "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.20.4",
+      "name": "n8n-io/n8n n8n@2.19.5",
       "repo": "n8n-io/n8n",
-      "description": "## [2.20.4](https://github.com/n8n-io/n8n/compare/n8n@2.20.0...n8n@2.20.4) (2026-05-07)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* **core:** Add support for context establishment hooks in webhook mode ([#29900](https://github.com/n8n-io/n8n/issues/29900)) ([71d4122](https://github.com/n8n-io/n8n/commit/71d41224385e64098000569bf9ac4838a61c669c))\r\n* **core:** Allow GIT_SSH_COMMAND in simple-git after 3.36.0 upgrade ([#29946](https://github.com/n8n-io/n8n/issues/29946)) ([2f31aca](https://github.com/n8n-io/n8n/commit",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.20.4",
-      "published_at": "2026-05-07 15:09",
-      "tag": "n8n@2.20.4",
+      "description": "## [2.19.5](https://github.com/n8n-io/n8n/compare/n8n@2.19.4...n8n@2.19.5) (2026-05-07)\n\n\n### Bug Fixes\n\n* **core:** Simple-git update broke https connection ([#30004](https://github.com/n8n-io/n8n/issues/30004)) ([17fa22b](https://github.com/n8n-io/n8n/commit/17fa22b4169e74bded8bedafe19bce11944bd17b))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.19.5",
+      "published_at": "2026-05-07 23:37",
+      "tag": "n8n@2.19.5",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n beta",
+      "name": "n8n-io/n8n n8n@1.123.41",
       "repo": "n8n-io/n8n",
-      "description": "## [2.20.4](https://github.com/n8n-io/n8n/compare/n8n@2.20.0...n8n@2.20.4) (2026-05-07)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* **core:** Add support for context establishment hooks in webhook mode ([#29900](https://github.com/n8n-io/n8n/issues/29900)) ([71d4122](https://github.com/n8n-io/n8n/commit/71d41224385e64098000569bf9ac4838a61c669c))\r\n* **core:** Allow GIT_SSH_COMMAND in simple-git after 3.36.0 upgrade ([#29946](https://github.com/n8n-io/n8n/issues/29946)) ([2f31aca](https://github.com/n8n-io/n8n/commit",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-05-07 15:09",
-      "tag": "beta",
+      "description": "## [1.123.41](https://github.com/n8n-io/n8n/compare/n8n@1.123.40...n8n@1.123.41) (2026-05-07)\n\n\n### Bug Fixes\n\n* **core:** Simple-git update broke https connection ([#30005](https://github.com/n8n-io/n8n/issues/30005)) ([73539f4](https://github.com/n8n-io/n8n/commit/73539f47407fbf70807ee1ada726574d6fb4f0fa))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.41",
+      "published_at": "2026-05-07 21:47",
+      "tag": "n8n@1.123.41",
       "source": "release"
     },
     {
