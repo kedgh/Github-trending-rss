@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-07 10:06",
+  "updated": "2026-05-07 16:20",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n stable",
+      "name": "n8n-io/n8n n8n@1.123.40",
       "repo": "n8n-io/n8n",
-      "description": "## [2.19.4](https://github.com/n8n-io/n8n/compare/n8n@2.19.3...n8n@2.19.4) (2026-05-06)\n\n\n### Bug Fixes\n\n* Add fully dynamic disclaimer to Quick Connect offer ([#29865](https://github.com/n8n-io/n8n/issues/29865)) ([492a0b7](https://github.com/n8n-io/n8n/commit/492a0b7c01c5552685e859c432fa92b82d3b300c))\n* **core:** Add support for context establishment hooks in webhook mode ([#29901](https://github.com/n8n-io/n8n/issues/29901)) ([c967cb2](https://github.com/n8n-io/n8n/commit/c967cb23d4e6bb349d13",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-05-07 02:21",
-      "tag": "stable",
+      "description": "## [1.123.40](https://github.com/n8n-io/n8n/compare/n8n@1.123.39...n8n@1.123.40) (2026-05-07)\n\n\n### Bug Fixes\n\n* **core:** Allow GIT_SSH_COMMAND in simple-git after 3.36.0 upgrade ([#29947](https://github.com/n8n-io/n8n/issues/29947)) ([1bb7d11](https://github.com/n8n-io/n8n/commit/1bb7d110e58960affbdf5e3a6e9fe663a8b229a8))\n* **Snowflake Node:** Fix issue with Insert and Update operations not working ([#29812](https://github.com/n8n-io/n8n/issues/29812)) ([aec110f](https://github.com/n8n-io/n8n/",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.40",
+      "published_at": "2026-05-07 13:50",
+      "tag": "n8n@1.123.40",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.19.4",
+      "name": "n8n-io/n8n n8n@2.20.4",
       "repo": "n8n-io/n8n",
-      "description": "## [2.19.4](https://github.com/n8n-io/n8n/compare/n8n@2.19.3...n8n@2.19.4) (2026-05-06)\n\n\n### Bug Fixes\n\n* Add fully dynamic disclaimer to Quick Connect offer ([#29865](https://github.com/n8n-io/n8n/issues/29865)) ([492a0b7](https://github.com/n8n-io/n8n/commit/492a0b7c01c5552685e859c432fa92b82d3b300c))\n* **core:** Add support for context establishment hooks in webhook mode ([#29901](https://github.com/n8n-io/n8n/issues/29901)) ([c967cb2](https://github.com/n8n-io/n8n/commit/c967cb23d4e6bb349d13",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.19.4",
-      "published_at": "2026-05-07 02:21",
-      "tag": "n8n@2.19.4",
+      "description": "## [2.20.4](https://github.com/n8n-io/n8n/compare/n8n@2.20.0...n8n@2.20.4) (2026-05-07)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* **core:** Add support for context establishment hooks in webhook mode ([#29900](https://github.com/n8n-io/n8n/issues/29900)) ([71d4122](https://github.com/n8n-io/n8n/commit/71d41224385e64098000569bf9ac4838a61c669c))\r\n* **core:** Allow GIT_SSH_COMMAND in simple-git after 3.36.0 upgrade ([#29946](https://github.com/n8n-io/n8n/issues/29946)) ([2f31aca](https://github.com/n8n-io/n8n/commit",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.20.4",
+      "published_at": "2026-05-07 15:09",
+      "tag": "n8n@2.20.4",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.19.3",
+      "name": "n8n-io/n8n beta",
       "repo": "n8n-io/n8n",
-      "description": "## [2.19.3](https://github.com/n8n-io/n8n/compare/n8n@2.19.2...n8n@2.19.3) (2026-05-06)\n\n\n### Bug Fixes\n\n* **core:** Acquire expression isolate for dynamic node parameter requests ([#29711](https://github.com/n8n-io/n8n/issues/29711)) ([cd4a3f5](https://github.com/n8n-io/n8n/commit/cd4a3f579545736be33921c6f7dd9337165e37dc))\n* **core:** Add file path validation to localFile source ([#29789](https://github.com/n8n-io/n8n/issues/29789)) ([5352606](https://github.com/n8n-io/n8n/commit/5352606c74989c",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.19.3",
-      "published_at": "2026-05-06 19:00",
-      "tag": "n8n@2.19.3",
+      "description": "## [2.20.4](https://github.com/n8n-io/n8n/compare/n8n@2.20.0...n8n@2.20.4) (2026-05-07)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* **core:** Add support for context establishment hooks in webhook mode ([#29900](https://github.com/n8n-io/n8n/issues/29900)) ([71d4122](https://github.com/n8n-io/n8n/commit/71d41224385e64098000569bf9ac4838a61c669c))\r\n* **core:** Allow GIT_SSH_COMMAND in simple-git after 3.36.0 upgrade ([#29946](https://github.com/n8n-io/n8n/issues/29946)) ([2f31aca](https://github.com/n8n-io/n8n/commit",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-05-07 15:09",
+      "tag": "beta",
       "source": "release"
     },
     {
