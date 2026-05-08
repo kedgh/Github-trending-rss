@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-08 10:14",
+  "updated": "2026-05-08 15:19",
   "count": 15,
   "items": [
     {
@@ -60,7 +60,7 @@
     {
       "name": "ollama/ollama v0.23.2",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n\r\n* `ollama launch` no longer includes Claude Desktop due to the third-party integration being limited to Anthropic models. `ollama launch claude-desktop --restore` still works to restore Claude to it's normal state.\r\n* `/api/show` responses are now cached, improving median latency by **~6.7x** which will increase load speed for integrations like VS Code.\r\n* Improved backup workflow when managing launch integrations\r\n* Cleaner image generation layout in the MLX runner\r\n\r\n**Ful",
+      "description": "## What's Changed\r\n\r\n* `ollama launch` no longer includes Claude Desktop due to the third-party integration being limited to Anthropic models. \r\n* Use `ollama launch claude-desktop --restore` to restore Claude Desktop to its normal state.\r\n* `/api/show` responses are now cached, improving median latency by **~6.7x** which will increase load speed for integrations like VS Code.\r\n* Improved backup workflow when managing launch integrations\r\n* Cleaner image generation layout in the MLX runner\r\n\r\n**",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.23.2",
       "published_at": "2026-05-08 04:23",
       "tag": "v0.23.2",
