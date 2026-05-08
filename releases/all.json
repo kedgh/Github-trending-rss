@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-05-08 21:14",
+  "updated": "2026-05-09 03:06",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain==1.2.18",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain==1.2.17\n\nrelease(langchain): 1.2.18 (#37250)\nrevert: feat(langchain): ls_agent_type tag on create_agent calls (#37249)\nchore(langchain-classic): deprecate hub, limit loads/dumps (#37234)\nrefactor(langchain-classic): retarget deprecations to `create_agent`, other chores (#37164)\nchore(langchain,langchain-classic): uncomment optional deps (#37163)\nrelease(fireworks): 1.2.1 (#37113)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.18",
+      "published_at": "2026-05-08 21:59",
+      "tag": "langchain==1.2.18",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain==0.3.30",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D0.3.86",
       "published_at": "2026-05-08 00:48",
       "tag": "langchain-core==0.3.86",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-classic==1.0.7",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-classic==1.0.6\n\nrelease(langchain-classic): 1.0.7 (#37240)\nchore(langchain-classic): deprecate hub, limit loads/dumps (#37234)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-classic%3D%3D1.0.7",
-      "published_at": "2026-05-07 23:47",
-      "tag": "langchain-classic==1.0.7",
       "source": "release"
     },
     {
