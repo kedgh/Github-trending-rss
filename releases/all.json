@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-08 03:28",
+  "updated": "2026-05-08 10:14",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.23.2",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n\r\n* `ollama launch` no longer includes Claude Desktop due to the third-party integration being limited to Anthropic models. `ollama launch claude-desktop --restore` still works to restore Claude to it's normal state.\r\n* `/api/show` responses are now cached, improving median latency by **~6.7x** which will increase load speed for integrations like VS Code.\r\n* Improved backup workflow when managing launch integrations\r\n* Cleaner image generation layout in the MLX runner\r\n\r\n**Ful",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.23.2",
+      "published_at": "2026-05-08 04:23",
+      "tag": "v0.23.2",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.23.1",
       "repo": "ollama/ollama",
       "description": "## Gemma 4 MTP (Multi-token Processing) for the MLX runner\r\nGemma 4 MTP speculative decoding is now supported on Macs. This can give over a 2x speed increase for the Gemma 4 31B model on coding tasks.\r\n\r\n```\r\nollama run gemma4:31b-coding-mtp-bf16\r\n```\r\n\r\n## What's Changed\r\n* Update MLX and MLX-C with threading fixes by @dhiltgen in https://github.com/ollama/ollama/pull/15845\r\n* go: bump to 1.26 by @ParthSareen in https://github.com/ollama/ollama/pull/15904\r\n* Add Gemma 4 MTP speculative decoding",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.23.0",
       "published_at": "2026-05-03 11:34",
       "tag": "v0.23.0",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.22.1",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* Updated the **Gemma 4** renderer for thinking and tool calling improvements\r\n* Model recommendations are now updated without updating Ollama\r\n* Aligned the desktop app's launch page with `ollama launch` integrations\r\n* Fixed the Poolside integration title in `ollama launch`\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.22.0...v0.22.1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.22.1",
-      "published_at": "2026-04-29 04:30",
-      "tag": "v0.22.1",
       "source": "release"
     },
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.16",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Hold `cacheSignal` across `unstable_cache` foreground revalidation: #93617\n- Encode non-ASCII characters in cache tags at construction: #93601\n\n### Credits \n\nHuge thanks to @unstubbable for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.16",
+      "published_at": "2026-05-08 07:55",
+      "tag": "v16.3.0-canary.16",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.3.0-canary.15",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- [devtools] Force ANSI colors on overlay code frames regardless of TTY: #93550\n- Turbopack: Match proxy matchers with webpack implementation: #93594\n- Track `searchParams` access through a Proxy to catch missing-key reads: #93549\n- Cherry-pick ghsa commits to canary: #93614\n\n### Misc Changes\n\n- docs: escape literal triple-backticks in contribution guide: #93584\n- [test] Pin package manager to patch versions: #93592\n- turbo-rcstr: replace `rcstr!` macro_rules with proc macro: #",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.15",
+      "published_at": "2026-05-08 06:31",
+      "tag": "v16.3.0-canary.15",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.14",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- perf(ecmascript): shrink JsValue 64→32 bytes: #93106\n- Order loader tree imports by tree depth: #93537\n- Turbopack: more strict vergen setup: #93541\n\n### Credits \n\nHuge thanks to @mmastrac, @sokra, and @mischnic for helping!\n",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.14",
       "published_at": "2026-05-07 17:19",
       "tag": "v16.3.0-canary.14",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.13",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Disable instant validations in draft mode: #93472\n\n### Misc Changes\n\n- Drop `ReferencedAsset::from_resolve_result` as a turbotask: #93297\n- Turbopack: Cache effect errors, replace the write_lock Mutex with a lazily created Notify instance: #93476\n\n### Credits \n\nHuge thanks to @samselikoff, @lukesandberg, and @bgw for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.13",
-      "published_at": "2026-05-07 08:00",
-      "tag": "v16.3.0-canary.13",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.12",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Refactor: Decouple request store creation from `req` / `res`: #93499\n- Detect `'use cache'` module-scope deadlocks early in dev: #93500\n- Bundle the `'use cache'` deadlock probe worker: #93538\n- Support configuring a default instant validation level : #93301\n- Upgrade React from `f4e0d4ed-20260429` to `dd453071-20260506`: #93547\n\n### Misc Changes\n\n- [turbopack] shrink the size of futures: #93474\n- [turbopack] Simplify local task tracking: #93478\n- [turbopack] correct a fencep",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.12",
-      "published_at": "2026-05-07 02:59",
-      "tag": "v16.3.0-canary.12",
       "source": "release"
     }
   ]
