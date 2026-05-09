@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-09 03:06",
+  "updated": "2026-05-09 10:07",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.17",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Stabilize `unstable_io`: #93621\n- Use Next.js version as Turbopack persistent cache versioning key: #93605\n- feat(turbopack): add chunkLoadingGlobal config option: #93488\n- fix(devtools): render nested error messages with HotlinkedText: #93620\n- Fix: Improved rewrite detection during optimistic routing: #93619\n- Fix \"type: module\" in project dir when using standalone or adapters: #93612\n- Instant Insights: favor reported errors over missing slots: #93709\n\n### Misc Changes\n\n- ",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.17",
+      "published_at": "2026-05-09 07:58",
+      "tag": "v16.3.0-canary.17",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.16",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Hold `cacheSignal` across `unstable_cache` foreground revalidation: #93617\n- Encode non-ASCII characters in cache tags at construction: #93601\n\n### Credits \n\nHuge thanks to @unstubbable for helping!\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.15",
       "published_at": "2026-05-08 06:31",
       "tag": "v16.3.0-canary.15",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.14",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- perf(ecmascript): shrink JsValue 64→32 bytes: #93106\n- Order loader tree imports by tree depth: #93537\n- Turbopack: more strict vergen setup: #93541\n\n### Credits \n\nHuge thanks to @mmastrac, @sokra, and @mischnic for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.14",
-      "published_at": "2026-05-07 17:19",
-      "tag": "v16.3.0-canary.14",
       "source": "release"
     }
   ]
