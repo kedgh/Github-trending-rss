@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-10 02:48",
+  "updated": "2026-05-10 10:08",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.18",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Remove redundant instant navigation prefetch header: #93713\n- Instant Insights: Favor reporting errors from all potential navigations over reporting a failed attempt to validate when a slot is missing: #93714\n\n### Misc Changes\n\n- CI speed improvements: #93411\n\n### Credits \n\nHuge thanks to @acdlite, @gnoff, and @timneutkens for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.18",
+      "published_at": "2026-05-10 07:55",
+      "tag": "v16.3.0-canary.18",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.17",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Stabilize `unstable_io`: #93621\n- Use Next.js version as Turbopack persistent cache versioning key: #93605\n- feat(turbopack): add chunkLoadingGlobal config option: #93488\n- fix(devtools): render nested error messages with HotlinkedText: #93620\n- Fix: Improved rewrite detection during optimistic routing: #93619\n- Fix \"type: module\" in project dir when using standalone or adapters: #93612\n- Instant Insights: favor reported errors over missing slots: #93709\n\n### Misc Changes\n\n- ",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.16",
       "published_at": "2026-05-08 07:55",
       "tag": "v16.3.0-canary.16",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.15",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- [devtools] Force ANSI colors on overlay code frames regardless of TTY: #93550\n- Turbopack: Match proxy matchers with webpack implementation: #93594\n- Track `searchParams` access through a Proxy to catch missing-key reads: #93549\n- Cherry-pick ghsa commits to canary: #93614\n\n### Misc Changes\n\n- docs: escape literal triple-backticks in contribution guide: #93584\n- [test] Pin package manager to patch versions: #93592\n- turbo-rcstr: replace `rcstr!` macro_rules with proc macro: #",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.15",
-      "published_at": "2026-05-08 06:31",
-      "tag": "v16.3.0-canary.15",
       "source": "release"
     }
   ]
