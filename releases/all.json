@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-11 02:50",
+  "updated": "2026-05-11 10:27",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.19",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Proof of concept: task eviction after snapshot for turbo-tasks-backend: #91790\n\n### Credits \n\nHuge thanks to @lukesandberg for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.19",
+      "published_at": "2026-05-11 07:58",
+      "tag": "v16.3.0-canary.19",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.18",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Remove redundant instant navigation prefetch header: #93713\n- Instant Insights: Favor reporting errors from all potential navigations over reporting a failed attempt to validate when a slot is missing: #93714\n\n### Misc Changes\n\n- CI speed improvements: #93411\n\n### Credits \n\nHuge thanks to @acdlite, @gnoff, and @timneutkens for helping!\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.17",
       "published_at": "2026-05-09 07:58",
       "tag": "v16.3.0-canary.17",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.16",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Hold `cacheSignal` across `unstable_cache` foreground revalidation: #93617\n- Encode non-ASCII characters in cache tags at construction: #93601\n\n### Credits \n\nHuge thanks to @unstubbable for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.16",
-      "published_at": "2026-05-08 07:55",
-      "tag": "v16.3.0-canary.16",
       "source": "release"
     }
   ]
