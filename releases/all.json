@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-05-12 22:00",
+  "updated": "2026-05-13 03:29",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain==1.3.0",
+      "repo": "langchain-ai/langchain",
+      "description": "This release adds support for `version=\"v3\"` in `stream_events` / `astream_events` for `langchain` agents. Refer to the [event streaming](https://docs.langchain.com/oss/python/langchain/event-streaming) guide for details.",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.0",
+      "published_at": "2026-05-12 22:46",
+      "tag": "langchain==1.3.0",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-core==1.4.0",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.18",
       "published_at": "2026-05-08 21:59",
       "tag": "langchain==1.2.18",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain==0.3.30",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==0.3.29\r\n\r\nrelease(langchain): release 0.3.30 (#37241)\r\nchore(langchain): backport loads/dumps harden to v0.3 and deprecate hub (#37239)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D0.3.30",
-      "published_at": "2026-05-07 23:48",
-      "tag": "langchain==0.3.30",
       "source": "release"
     },
     {
