@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-12 10:12",
+  "updated": "2026-05-12 16:28",
   "count": 15,
   "items": [
     {
@@ -31,6 +31,15 @@
       "source": "release"
     },
     {
+      "name": "langgenius/dify 1.14.1",
+      "repo": "langgenius/dify",
+      "description": "## 🚀 What's New in v1.14.1?\r\n\r\nv1.14.1 is a patch release focused on security hardening, workflow and knowledge-base stability, deployment cleanup, and continued UI platform migration after v1.14.0.\r\n\r\n### 🔐 Security\r\n\r\n- **Self-hosted `SECRET_KEY` hardening** — Docker deployments no longer rely on a public default key. When `SECRET_KEY` is left empty, the API generates and persists a runtime key through the configured storage backend, while explicitly configured keys continue to work as before.",
+      "url": "https://github.com/langgenius/dify/releases/tag/1.14.1",
+      "published_at": "2026-05-12 16:19",
+      "tag": "1.14.1",
+      "source": "release"
+    },
+    {
       "name": "langgenius/dify 1.14.0",
       "repo": "langgenius/dify",
       "description": "## 🚀 What's New in v1.14.0?\r\n\r\n### Collaboration\r\n<img width=\"2632\" height=\"1190\" alt=\"img_v3_02117_67a67218-1ae5-4d68-a45b-3ada592f87fg\" src=\"https://github.com/user-attachments/assets/1d4a3660-8a6a-4b29-9766-4d5b5fd9a51b\" />\r\n\r\nCollaboration allows workspace members to edit the same workflow together, with synced graph updates, online presence, and shared visibility into who is working where.\r\n\r\nOn self-hosted deployments, collaboration is turned off by default. Enable it by setting:\r\n\r\n```\r\nE",
@@ -49,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "langgenius/dify 1.13.2",
-      "repo": "langgenius/dify",
-      "description": "This patch release fixes several critical regressions and stability issues introduced in v1.13.1, including:\r\n\r\n- a severe regression in prompt message transformation that caused multiple LLM-plugin invocation failures across\r\n   LLM-related nodes, including LLM and Question Classifier.\r\n- Knowledge Retrieval node execution failures caused by incompatible enum values\r\n- improper Weaviate client cleanup\r\n\r\n---\r\n\r\n## Upgrade Guide\r\n\r\n> [!IMPORTANT]\r\n> If you use custom `CELERY_QUEUES`, make sure `",
-      "url": "https://github.com/langgenius/dify/releases/tag/1.13.2",
-      "published_at": "2026-03-18 22:20",
-      "tag": "1.13.2",
+      "name": "ollama/ollama v0.23.3-rc1",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* mlx: refined model push behavior by @dhiltgen in https://github.com/ollama/ollama/pull/15431\r\n* test: integration test hardening by @dhiltgen in https://github.com/ollama/ollama/pull/13532\r\n* app: harden update flows by @dhiltgen in https://github.com/ollama/ollama/pull/16100\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.2...v0.23.3-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.23.3-rc1",
+      "published_at": "2026-05-12 11:48",
+      "tag": "v0.23.3-rc1",
       "source": "release"
     },
     {
@@ -76,39 +85,30 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.23.0",
-      "repo": "ollama/ollama",
-      "description": "## Claude Desktop\r\nClaude Desktop is now supported with Ollama Launch. \r\n\r\nClaude Cowork and Claude Code are supported within the Claude Desktop App.\r\n\r\n```\r\nollama launch claude-desktop\r\n```\r\n\r\n### Claude Cowork\r\n<img width=\"1272\" height=\"872\" alt=\"ca1\" src=\"https://github.com/user-attachments/assets/1d550e3f-0272-4429-8cb2-06d32344cb77\" />\r\n\r\n\r\n### Claude Code\r\n<img width=\"1272\" height=\"872\" alt=\"ca2\" src=\"https://github.com/user-attachments/assets/f2a5ed5f-3069-4975-bb22-ada82914a01c\" />\r\n\r\n\r",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.23.0",
-      "published_at": "2026-05-03 11:34",
-      "tag": "v0.23.0",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@1.123.42",
+      "name": "n8n-io/n8n n8n@2.21.0",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.42](https://github.com/n8n-io/n8n/compare/n8n@1.123.41...n8n@1.123.42) (2026-05-08)",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.42",
-      "published_at": "2026-05-08 17:21",
-      "tag": "n8n@1.123.42",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.20.6",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.20.6](https://github.com/n8n-io/n8n/compare/n8n@2.20.5...n8n@2.20.6) (2026-05-08)\n\n\n### Bug Fixes\n\n* **Salesforce Node:** Fix trigger not firing on repeated record updates ([#30006](https://github.com/n8n-io/n8n/issues/30006)) ([f259afa](https://github.com/n8n-io/n8n/commit/f259afa978b72effcf194d40bfe78d5256fef7dc))",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.20.6",
-      "published_at": "2026-05-08 17:30",
-      "tag": "n8n@2.20.6",
+      "description": "# [2.21.0](https://github.com/n8n-io/n8n/compare/n8n@2.20.0...n8n@2.21.0) (2026-05-12)\n\n\n### Bug Fixes\n\n* Add warning to Computer Use install modal ([#30094](https://github.com/n8n-io/n8n/issues/30094)) ([ecf96ad](https://github.com/n8n-io/n8n/commit/ecf96ad30c8d29641db07cd78885ea28aff26199))\n* **ai-builder:** Allow restoring archived workflows from Instance AI ([#29813](https://github.com/n8n-io/n8n/issues/29813)) ([a33a89a](https://github.com/n8n-io/n8n/commit/a33a89a215d6cef39895858bf36c00c15",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.21.0",
+      "published_at": "2026-05-12 16:02",
+      "tag": "n8n@2.21.0",
       "source": "release"
     },
     {
       "name": "n8n-io/n8n beta",
       "repo": "n8n-io/n8n",
-      "description": "## [2.20.6](https://github.com/n8n-io/n8n/compare/n8n@2.20.5...n8n@2.20.6) (2026-05-08)\n\n\n### Bug Fixes\n\n* **Salesforce Node:** Fix trigger not firing on repeated record updates ([#30006](https://github.com/n8n-io/n8n/issues/30006)) ([f259afa](https://github.com/n8n-io/n8n/commit/f259afa978b72effcf194d40bfe78d5256fef7dc))",
+      "description": "# [2.21.0](https://github.com/n8n-io/n8n/compare/n8n@2.20.0...n8n@2.21.0) (2026-05-12)\n\n\n### Bug Fixes\n\n* Add warning to Computer Use install modal ([#30094](https://github.com/n8n-io/n8n/issues/30094)) ([ecf96ad](https://github.com/n8n-io/n8n/commit/ecf96ad30c8d29641db07cd78885ea28aff26199))\n* **ai-builder:** Allow restoring archived workflows from Instance AI ([#29813](https://github.com/n8n-io/n8n/issues/29813)) ([a33a89a](https://github.com/n8n-io/n8n/commit/a33a89a215d6cef39895858bf36c00c15",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-05-08 17:30",
+      "published_at": "2026-05-12 16:02",
       "tag": "beta",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n stable",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.20.6](https://github.com/n8n-io/n8n/compare/n8n@2.20.5...n8n@2.20.6) (2026-05-08)\n\n\n### Bug Fixes\n\n* **Salesforce Node:** Fix trigger not firing on repeated record updates ([#30006](https://github.com/n8n-io/n8n/issues/30006)) ([f259afa](https://github.com/n8n-io/n8n/commit/f259afa978b72effcf194d40bfe78d5256fef7dc))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-05-12 16:04",
+      "tag": "stable",
       "source": "release"
     },
     {
