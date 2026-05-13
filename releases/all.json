@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-13 03:29",
+  "updated": "2026-05-13 10:27",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.23.3-rc1",
+      "name": "ollama/ollama v0.23.3",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* mlx: refined model push behavior by @dhiltgen in https://github.com/ollama/ollama/pull/15431\r\n* test: integration test hardening by @dhiltgen in https://github.com/ollama/ollama/pull/13532\r\n* app: harden update flows by @dhiltgen in https://github.com/ollama/ollama/pull/16100\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.2...v0.23.3-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.23.3-rc1",
+      "description": "## What's Changed\r\n* mlx: refined model push behavior by @dhiltgen in https://github.com/ollama/ollama/pull/15431\r\n* test: integration test hardening by @dhiltgen in https://github.com/ollama/ollama/pull/13532\r\n* app: harden update flows by @dhiltgen in https://github.com/ollama/ollama/pull/16100\r\n* mlx: update the imagegen runner for mlx thread affinity by @pdevine in https://github.com/ollama/ollama/pull/16096\r\n* mlx: avoid status timeout during inference by @dhiltgen in https://github.com/oll",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.23.3",
       "published_at": "2026-05-12 11:48",
-      "tag": "v0.23.3-rc1",
+      "tag": "v0.23.3",
       "source": "release"
     },
     {
