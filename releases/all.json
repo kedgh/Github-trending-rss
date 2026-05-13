@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-13 22:10",
+  "updated": "2026-05-14 03:43",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.30.0-rc15",
+      "repo": "ollama/ollama",
+      "description": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon.\r\n\r\nWhile in pre-release we'd love [feedback](https://github.com/ollama/ollama/pull/16031) on:\r\n\r\n* Performance improvements or degradation\r\n* Errors or crashes that did not previously occur\r\n* Memory utilization improvements or degradation\r\n\r\n## Known issues:\r\n\r\n* `lagu",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc15",
+      "published_at": "2026-05-13 22:32",
+      "tag": "v0.30.0-rc15",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.23.3",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* mlx: refined model push behavior by @dhiltgen in https://github.com/ollama/ollama/pull/15431\r\n* test: integration test hardening by @dhiltgen in https://github.com/ollama/ollama/pull/13532\r\n* app: harden update flows by @dhiltgen in https://github.com/ollama/ollama/pull/16100\r\n* mlx: update the imagegen runner for mlx thread affinity by @pdevine in https://github.com/ollama/ollama/pull/16096\r\n* mlx: avoid status timeout during inference by @dhiltgen in https://github.com/oll",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.23.2",
       "published_at": "2026-05-08 04:23",
       "tag": "v0.23.2",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.23.1",
-      "repo": "ollama/ollama",
-      "description": "## Gemma 4 MTP (Multi-token Processing) for the MLX runner\r\nGemma 4 MTP speculative decoding is now supported on Macs. This can give over a 2x speed increase for the Gemma 4 31B model on coding tasks.\r\n\r\n```\r\nollama run gemma4:31b-coding-mtp-bf16\r\n```\r\n\r\n## What's Changed\r\n* Update MLX and MLX-C with threading fixes by @dhiltgen in https://github.com/ollama/ollama/pull/15845\r\n* go: bump to 1.26 by @ParthSareen in https://github.com/ollama/ollama/pull/15904\r\n* Add Gemma 4 MTP speculative decoding",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.23.1",
-      "published_at": "2026-05-06 01:13",
-      "tag": "v0.23.1",
       "source": "release"
     },
     {
