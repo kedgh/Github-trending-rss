@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-14 03:43",
+  "updated": "2026-05-14 10:29",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.24.0-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* mlx: add memory trace logging by @dhiltgen in https://github.com/ollama/ollama/pull/16131\r\n* launch: codex app integration by @ParthSareen in https://github.com/ollama/ollama/pull/16120\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.4...v0.24.0-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.24.0-rc0",
+      "published_at": "2026-05-14 10:24",
+      "tag": "v0.24.0-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.30.0-rc15",
       "repo": "ollama/ollama",
       "description": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon.\r\n\r\nWhile in pre-release we'd love [feedback](https://github.com/ollama/ollama/pull/16031) on:\r\n\r\n* Performance improvements or degradation\r\n* Errors or crashes that did not previously occur\r\n* Memory utilization improvements or degradation\r\n\r\n## Known issues:\r\n\r\n* `lagu",
@@ -67,21 +76,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.23.3",
+      "name": "ollama/ollama v0.23.4",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* mlx: refined model push behavior by @dhiltgen in https://github.com/ollama/ollama/pull/15431\r\n* test: integration test hardening by @dhiltgen in https://github.com/ollama/ollama/pull/13532\r\n* app: harden update flows by @dhiltgen in https://github.com/ollama/ollama/pull/16100\r\n* mlx: update the imagegen runner for mlx thread affinity by @pdevine in https://github.com/ollama/ollama/pull/16096\r\n* mlx: avoid status timeout during inference by @dhiltgen in https://github.com/oll",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.23.3",
-      "published_at": "2026-05-12 11:48",
-      "tag": "v0.23.3",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.23.2",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n\r\n* `ollama launch` no longer includes Claude Desktop due to the third-party integration being limited to Anthropic models. \r\n* Use `ollama launch claude-desktop --restore` to restore Claude Desktop to its normal state.\r\n* `/api/show` responses are now cached, improving median latency by **~6.7x** which will increase load speed for integrations like VS Code.\r\n* Improved backup workflow when managing launch integrations\r\n* Cleaner image generation layout in the MLX runner\r\n\r\n**",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.23.2",
-      "published_at": "2026-05-08 04:23",
-      "tag": "v0.23.2",
+      "description": "## What's Changed\r\n* `ollama launch opencode` now supports vision models with image inputs\r\n* Fixed formatting of Claude tool results when using local image paths\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.3...v0.23.4",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.23.4",
+      "published_at": "2026-05-14 04:40",
+      "tag": "v0.23.4",
       "source": "release"
     },
     {
