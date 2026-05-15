@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-15 03:29",
+  "updated": "2026-05-15 10:28",
   "count": 15,
   "items": [
     {
@@ -58,21 +58,21 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.24.0-rc0",
+      "name": "ollama/ollama v0.30.0-rc17",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* mlx: add memory trace logging by @dhiltgen in https://github.com/ollama/ollama/pull/16131\r\n* launch: codex app integration by @ParthSareen in https://github.com/ollama/ollama/pull/16120\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.4...v0.24.0-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.24.0-rc0",
-      "published_at": "2026-05-14 10:24",
-      "tag": "v0.24.0-rc0",
+      "description": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon.\r\n\r\nWhile in pre-release we'd love [feedback](https://github.com/ollama/ollama/pull/16031) on:\r\n\r\n* Performance improvements or degradation\r\n* Errors or crashes that did not previously occur\r\n* Memory utilization improvements or degradation\r\n\r\n## Known issues:\r\n\r\n* `lagu",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc17",
+      "published_at": "2026-05-13 22:32",
+      "tag": "v0.30.0-rc17",
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.30.0-rc15",
+      "name": "ollama/ollama v0.24.0",
       "repo": "ollama/ollama",
-      "description": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon.\r\n\r\nWhile in pre-release we'd love [feedback](https://github.com/ollama/ollama/pull/16031) on:\r\n\r\n* Performance improvements or degradation\r\n* Errors or crashes that did not previously occur\r\n* Memory utilization improvements or degradation\r\n\r\n## Known issues:\r\n\r\n* `lagu",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc15",
-      "published_at": "2026-05-13 22:32",
-      "tag": "v0.30.0-rc15",
+      "description": "## Codex App\r\n\r\nThe OpenAI Codex App is now available on Ollama. Use any Ollama model — local or cloud — inside the desktop app to code, browse, and review.\r\n\r\n```bash\r\nollama launch codex-app\r\n```\r\n\r\n<img width=\"2088\" height=\"1404\" alt=\"CleanShot 2026-05-14 at 15 04 18@2x\" src=\"https://github.com/user-attachments/assets/53bd7997-19fd-4809-b8f2-b6ed284369c9\" />\r\n\r\n\r\n### Built-in browser\r\nCodex can spin up local servers and sites in its built-in browser. Annotate directly on the page to request c",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.24.0",
+      "published_at": "2026-05-14 10:24",
+      "tag": "v0.24.0",
       "source": "release"
     },
     {
