@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-05-15 21:47",
+  "updated": "2026-05-16 03:19",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain==1.3.1",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain==1.3.0\n\nrelease(langchain): 1.3.1 (#37454)\nfix(langchain): alias Bedrock providers in summarization token check (#37453)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.1",
+      "published_at": "2026-05-16 02:15",
+      "tag": "langchain==1.3.1",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain==1.3.0",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.0",
       "published_at": "2026-05-12 02:42",
       "tag": "langchain-core==1.4.0",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain==1.2.18",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==1.2.17\n\nrelease(langchain): 1.2.18 (#37250)\nrevert: feat(langchain): ls_agent_type tag on create_agent calls (#37249)\nchore(langchain-classic): deprecate hub, limit loads/dumps (#37234)\nrefactor(langchain-classic): retarget deprecations to `create_agent`, other chores (#37164)\nchore(langchain,langchain-classic): uncomment optional deps (#37163)\nrelease(fireworks): 1.2.1 (#37113)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.18",
-      "published_at": "2026-05-08 21:59",
-      "tag": "langchain==1.2.18",
       "source": "release"
     },
     {
@@ -69,7 +69,7 @@
     {
       "name": "ollama/ollama v0.24.0",
       "repo": "ollama/ollama",
-      "description": "## Codex App\r\n\r\nThe OpenAI Codex App is now available on Ollama. Use any Ollama model — local or cloud — inside the desktop app to code, browse, and review.\r\n\r\n```bash\r\nollama launch codex-app\r\n```\r\n\r\n<img width=\"2088\" height=\"1404\" alt=\"CleanShot 2026-05-14 at 15 04 18@2x\" src=\"https://github.com/user-attachments/assets/53bd7997-19fd-4809-b8f2-b6ed284369c9\" />\r\n\r\n\r\n### Built-in browser\r\nCodex can spin up local servers and sites in its built-in browser. Annotate directly on the page to request c",
+      "description": "## Codex App\r\n\r\nOllama 0.24 includes support for the Codex App, OpenAI's desktop experience for working on Codex threads in parallel with built-in worktree support and git functionality.\r\n\r\n```bash\r\nollama launch codex-app\r\n```\r\n\r\n<img width=\"2088\" height=\"1404\" alt=\"CleanShot 2026-05-14 at 15 04 18@2x\" src=\"https://github.com/user-attachments/assets/53bd7997-19fd-4809-b8f2-b6ed284369c9\" />\r\n\r\n\r\n### Built-in browser\r\nCodex can load local servers and sites in its built-in browser, enabling you to",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.24.0",
       "published_at": "2026-05-14 10:24",
       "tag": "v0.24.0",
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.20",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- [turbopack] fix feature usage telemetry: #93100\n- Add an info panel for the existing \"Cache disabled\" indicator: #93756\n- Convert test/integration to isolated tests: #93247\n- Extend instant error overlay to metadata, viewport, and sync IO errors: #93287\n- Turbopack: expose hashes of source files to adapters: #93539\n- bfcacheId: Opt out of state preservation: #93633\n- Honor Suspense-above-body opt-in for dynamic `generateViewport`: #93759\n- Add `next internal static-routes-inf",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.20",
+      "published_at": "2026-05-16 00:00",
+      "tag": "v16.3.0-canary.20",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.19",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Proof of concept: task eviction after snapshot for turbo-tasks-backend: #91790\n\n### Credits \n\nHuge thanks to @lukesandberg for helping!\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.18",
       "published_at": "2026-05-10 07:55",
       "tag": "v16.3.0-canary.18",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.17",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Stabilize `unstable_io`: #93621\n- Use Next.js version as Turbopack persistent cache versioning key: #93605\n- feat(turbopack): add chunkLoadingGlobal config option: #93488\n- fix(devtools): render nested error messages with HotlinkedText: #93620\n- Fix: Improved rewrite detection during optimistic routing: #93619\n- Fix \"type: module\" in project dir when using standalone or adapters: #93612\n- Instant Insights: favor reported errors over missing slots: #93709\n\n### Misc Changes\n\n- ",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.17",
-      "published_at": "2026-05-09 07:58",
-      "tag": "v16.3.0-canary.17",
       "source": "release"
     }
   ]
