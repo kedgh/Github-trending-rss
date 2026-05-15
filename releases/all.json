@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-15 10:28",
+  "updated": "2026-05-15 16:40",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.21.2",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.21.2](https://github.com/n8n-io/n8n/compare/n8n@2.21.1...n8n@2.21.2) (2026-05-14)\n\n\n### Bug Fixes\n\n* **core:** Preserve nested arrays in VM expression engine output ([#30333](https://github.com/n8n-io/n8n/issues/30333)) ([f5698a1](https://github.com/n8n-io/n8n/commit/f5698a1047b9fd8b53c9b0ba638bd960f602e50c))\n* **core:** Resolve empty expressions to empty string in VM evaluator ([#30324](https://github.com/n8n-io/n8n/issues/30324)) ([6dd1306](https://github.com/n8n-io/n8n/commit/6dd130617c",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.21.2",
-      "published_at": "2026-05-14 18:48",
-      "tag": "n8n@2.21.2",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n beta",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.21.2](https://github.com/n8n-io/n8n/compare/n8n@2.21.1...n8n@2.21.2) (2026-05-14)\n\n\n### Bug Fixes\n\n* **core:** Preserve nested arrays in VM expression engine output ([#30333](https://github.com/n8n-io/n8n/issues/30333)) ([f5698a1](https://github.com/n8n-io/n8n/commit/f5698a1047b9fd8b53c9b0ba638bd960f602e50c))\n* **core:** Resolve empty expressions to empty string in VM evaluator ([#30324](https://github.com/n8n-io/n8n/issues/30324)) ([6dd1306](https://github.com/n8n-io/n8n/commit/6dd130617c",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-05-14 18:48",
-      "tag": "beta",
-      "source": "release"
-    },
-    {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.20.7-exp.0](https://github.com/n8n-io/n8n/compare/n8n@2.20.7...n8n@2.20.7-exp.0) (2026-05-13)",
+      "description": "## [2.20.8](https://github.com/n8n-io/n8n/compare/n8n@2.20.7-exp.0...n8n@2.20.8) (2026-05-15)\n\n\n### Bug Fixes\n\n* **core:** Preserve nested arrays in VM expression engine output ([#30334](https://github.com/n8n-io/n8n/issues/30334)) ([067939a](https://github.com/n8n-io/n8n/commit/067939a99fa527c1d05ed7d38d987fdbdabfef04))",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-05-13 21:59",
+      "published_at": "2026-05-15 14:26",
       "tag": "stable",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n n8n@2.20.8",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.20.8](https://github.com/n8n-io/n8n/compare/n8n@2.20.7-exp.0...n8n@2.20.8) (2026-05-15)\n\n\n### Bug Fixes\n\n* **core:** Preserve nested arrays in VM expression engine output ([#30334](https://github.com/n8n-io/n8n/issues/30334)) ([067939a](https://github.com/n8n-io/n8n/commit/067939a99fa527c1d05ed7d38d987fdbdabfef04))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.20.8",
+      "published_at": "2026-05-15 14:26",
+      "tag": "n8n@2.20.8",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n n8n@2.21.3",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.21.3](https://github.com/n8n-io/n8n/compare/n8n@2.21.2...n8n@2.21.3) (2026-05-15)",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.21.3",
+      "published_at": "2026-05-15 14:40",
+      "tag": "n8n@2.21.3",
       "source": "release"
     },
     {
