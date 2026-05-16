@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-16 03:19",
+  "updated": "2026-05-16 10:10",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.21",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Redesign dev overlay: cleaner shell + instant fix-card guidance: #93755\n\n### Misc Changes\n\n- Trace middleware/proxy source files in webpack NFT pipeline: #93871\n\n### Credits \n\nHuge thanks to @unstubbable and @yavorpunchev for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.21",
+      "published_at": "2026-05-16 07:59",
+      "tag": "v16.3.0-canary.21",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.20",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- [turbopack] fix feature usage telemetry: #93100\n- Add an info panel for the existing \"Cache disabled\" indicator: #93756\n- Convert test/integration to isolated tests: #93247\n- Extend instant error overlay to metadata, viewport, and sync IO errors: #93287\n- Turbopack: expose hashes of source files to adapters: #93539\n- bfcacheId: Opt out of state preservation: #93633\n- Honor Suspense-above-body opt-in for dynamic `generateViewport`: #93759\n- Add `next internal static-routes-inf",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.19",
       "published_at": "2026-05-11 07:58",
       "tag": "v16.3.0-canary.19",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.18",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Remove redundant instant navigation prefetch header: #93713\n- Instant Insights: Favor reporting errors from all potential navigations over reporting a failed attempt to validate when a slot is missing: #93714\n\n### Misc Changes\n\n- CI speed improvements: #93411\n\n### Credits \n\nHuge thanks to @acdlite, @gnoff, and @timneutkens for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.18",
-      "published_at": "2026-05-10 07:55",
-      "tag": "v16.3.0-canary.18",
       "source": "release"
     }
   ]
