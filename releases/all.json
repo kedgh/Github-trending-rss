@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-18 22:57",
+  "updated": "2026-05-19 03:27",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.30.0-rc17",
+      "name": "ollama/ollama v0.30.0-rc20",
       "repo": "ollama/ollama",
       "description": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon.\r\n\r\nWhile in pre-release we'd love [feedback](https://github.com/ollama/ollama/pull/16031) on:\r\n\r\n* Performance improvements or degradation\r\n* Errors or crashes that did not previously occur\r\n* Memory utilization improvements or degradation\r\n\r\n## Known issues:\r\n\r\n* `lagu",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc17",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc20",
       "published_at": "2026-05-13 22:32",
-      "tag": "v0.30.0-rc17",
+      "tag": "v0.30.0-rc20",
       "source": "release"
     },
     {
