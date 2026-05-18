@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-18 02:56",
+  "updated": "2026-05-18 10:35",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.22",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- turbo-tasks: prioritize recomputed tasks with Recomputation priority: #93876\n\n### Credits \n\nHuge thanks to @sokra for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.22",
+      "published_at": "2026-05-18 07:58",
+      "tag": "v16.3.0-canary.22",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.21",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Redesign dev overlay: cleaner shell + instant fix-card guidance: #93755\n\n### Misc Changes\n\n- Trace middleware/proxy source files in webpack NFT pipeline: #93871\n\n### Credits \n\nHuge thanks to @unstubbable and @yavorpunchev for helping!\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.20",
       "published_at": "2026-05-16 00:00",
       "tag": "v16.3.0-canary.20",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.19",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Proof of concept: task eviction after snapshot for turbo-tasks-backend: #91790\n\n### Credits \n\nHuge thanks to @lukesandberg for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.19",
-      "published_at": "2026-05-11 07:58",
-      "tag": "v16.3.0-canary.19",
       "source": "release"
     }
   ]
