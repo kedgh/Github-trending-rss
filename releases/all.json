@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-05-19 03:27",
+  "updated": "2026-05-19 10:34",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-tests==1.1.8",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-tests==1.1.7\n\nhotfix(standard-tests): set `langchain-core` version bounds (#37509)\nhotfix: bump lockfiles (#37508)\nrelease(standard-tests): 1.1.8 (#37507)\ntest(standard-tests): assert `ls_model_name` honors per-call model override (#37504)\nchore(core,langchain,openai): refresh stale OpenAI model references (#37487)\nchore: bump langsmith from 0.7.31 to 0.8.0 in /libs/standard-tests (#37381)\nchore(infra): merge v1.4 into master (#37350)\nchore: bump urllib3 from 2.6.3 to 2.7",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-tests%3D%3D1.1.8",
+      "published_at": "2026-05-19 05:33",
+      "tag": "langchain-tests==1.1.8",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain==1.3.1",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.0",
       "published_at": "2026-05-12 22:46",
       "tag": "langchain==1.3.0",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.4.0",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==0.3.86\n\nchore(infra): merge v1.4 into master (#37350)\nchore: bump urllib3 from 2.6.3 to 2.7.0 in /libs/core (#37329)\nfix(core): avoid eager `pydantic.v1` import in `@deprecated` (#37308)\nchore: bump mistune from 3.1.4 to 3.2.1 in /libs/core (#37237)\nchore: bump jupyter-server from 2.17.0 to 2.18.0 in /libs/core (#37204)\nrelease(core): 1.3.3 (#37198)\nfix(core): set deprecation `since` to 1.3.3 to match release (#37200)\nfix(core, langchain): harden `load()` against un",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.0",
-      "published_at": "2026-05-12 02:42",
-      "tag": "langchain-core==1.4.0",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.23",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- [Turbopack] Add graph-based CSS chunking algorithm behind experimental.cssChunking: \"graph\": #93606\n\n### Misc Changes\n\n- Convert more tests from createNext -> nextTestSetup: #93799\n- turbopack: emit assets before duplicate check in emit_assets: #93875\n- [test] split `og-api` test suite into default and standalone variants: #93915\n- Pass projectDir to adapter modifyConfig: #93916\n- Distinguish in-navigation errors in the instant error overlay: #93843\n- Eval next.config export ",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.23",
+      "published_at": "2026-05-19 08:02",
+      "tag": "v16.3.0-canary.23",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.22",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- turbo-tasks: prioritize recomputed tasks with Recomputation priority: #93876\n\n### Credits \n\nHuge thanks to @sokra for helping!\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.21",
       "published_at": "2026-05-16 07:59",
       "tag": "v16.3.0-canary.21",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.20",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- [turbopack] fix feature usage telemetry: #93100\n- Add an info panel for the existing \"Cache disabled\" indicator: #93756\n- Convert test/integration to isolated tests: #93247\n- Extend instant error overlay to metadata, viewport, and sync IO errors: #93287\n- Turbopack: expose hashes of source files to adapters: #93539\n- bfcacheId: Opt out of state preservation: #93633\n- Honor Suspense-above-body opt-in for dynamic `generateViewport`: #93759\n- Add `next internal static-routes-inf",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.20",
-      "published_at": "2026-05-16 00:00",
-      "tag": "v16.3.0-canary.20",
       "source": "release"
     }
   ]
