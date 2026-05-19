@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-19 10:34",
+  "updated": "2026-05-19 17:29",
   "count": 15,
   "items": [
     {
@@ -31,6 +31,15 @@
       "source": "release"
     },
     {
+      "name": "langgenius/dify 1.14.2",
+      "repo": "langgenius/dify",
+      "description": "## 🚀 What's New in v1.14.2?\r\n\r\nv1.14.2 is a patch release focused on security hardening, workflow and knowledge reliability, observability fixes, agent groundwork, and deployment/runtime tuning after v1.14.1.\r\n\r\n### 🔐 Security and administration\r\n\r\n- **Tenant-scoped sensitive endpoints** — strengthened tenant isolation for app trace-config endpoints and FilePreview text extraction. Thanks @xr843 in [#35793](https://github.com/langgenius/dify/pull/35793) and [#35797](https://github.com/langgenius",
+      "url": "https://github.com/langgenius/dify/releases/tag/1.14.2",
+      "published_at": "2026-05-19 13:34",
+      "tag": "1.14.2",
+      "source": "release"
+    },
+    {
       "name": "langgenius/dify 1.14.1",
       "repo": "langgenius/dify",
       "description": "## 🚀 What's New in v1.14.1?\r\n\r\nv1.14.1 is a patch release focused on security hardening, workflow and knowledge-base stability, deployment cleanup, and continued UI platform migration after v1.14.0.\r\n\r\n### 🔐 Security\r\n\r\n- **Self-hosted `SECRET_KEY` hardening** — Docker deployments no longer rely on a public default key. When `SECRET_KEY` is left empty, the API generates and persists a runtime key through the configured storage backend, while explicitly configured keys continue to work as before.",
@@ -46,15 +55,6 @@
       "url": "https://github.com/langgenius/dify/releases/tag/1.14.0",
       "published_at": "2026-04-29 12:06",
       "tag": "1.14.0",
-      "source": "release"
-    },
-    {
-      "name": "langgenius/dify 1.13.3",
-      "repo": "langgenius/dify",
-      "description": "## 🚀 What's New in v1.13.3?\r\nOur latest patch release, v1.13.3, focuses on stability and correctness across workflow execution, streaming, and knowledge retrieval. Here's a quick look at the most important updates:\r\n\r\n### 🎬 New Features\r\n- **Workflow Configuration**: Added variable-reference support for model parameters in LLM, Question Classifier, and Variable Extractor nodes by @scdeng in #33082.\r\n\r\n### 🛠️ Bug Fixes\r\n- **Streaming Reliability**: Fixed `StreamsBroadcastChannel` replay and concu",
-      "url": "https://github.com/langgenius/dify/releases/tag/1.13.3",
-      "published_at": "2026-03-27 16:46",
-      "tag": "1.13.3",
       "source": "release"
     },
     {
