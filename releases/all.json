@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-20 16:55",
+  "updated": "2026-05-20 22:41",
   "count": 15,
   "items": [
     {
@@ -87,28 +87,28 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "No changelog generated. Likely points to fixes in our CI.",
+      "description": "## [2.21.5](https://github.com/n8n-io/n8n/compare/n8n@2.21.4...n8n@2.21.5) (2026-05-20)\n\n\n### Bug Fixes\n\n* **editor:** Stabilize workflow setup credentials state ([#30731](https://github.com/n8n-io/n8n/issues/30731)) ([8c58173](https://github.com/n8n-io/n8n/commit/8c5817385760cff1fd764216d17ba3ed7d90def3))",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-05-19 20:10",
+      "published_at": "2026-05-20 17:53",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.21.4",
+      "name": "n8n-io/n8n n8n@2.21.5",
       "repo": "n8n-io/n8n",
-      "description": "No changelog generated. Likely points to fixes in our CI.",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.21.4",
-      "published_at": "2026-05-19 18:52",
-      "tag": "n8n@2.21.4",
+      "description": "## [2.21.5](https://github.com/n8n-io/n8n/compare/n8n@2.21.4...n8n@2.21.5) (2026-05-20)\n\n\n### Bug Fixes\n\n* **editor:** Stabilize workflow setup credentials state ([#30731](https://github.com/n8n-io/n8n/issues/30731)) ([8c58173](https://github.com/n8n-io/n8n/commit/8c5817385760cff1fd764216d17ba3ed7d90def3))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.21.5",
+      "published_at": "2026-05-20 17:53",
+      "tag": "n8n@2.21.5",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.20.12",
+      "name": "n8n-io/n8n n8n@1.123.45",
       "repo": "n8n-io/n8n",
-      "description": "No changelog generated. Likely points to fixes in our CI.",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.20.12",
-      "published_at": "2026-05-19 19:02",
-      "tag": "n8n@2.20.12",
+      "description": "## [1.123.45](https://github.com/n8n-io/n8n/compare/n8n@1.123.44...n8n@1.123.45) (2026-05-20)\n\n\n### Bug Fixes\n\n* **core:** Limit Insights compaction runs ([#30629](https://github.com/n8n-io/n8n/issues/30629)) ([5ce4ce3](https://github.com/n8n-io/n8n/commit/5ce4ce36cfbdf24a8f64d84647bba7b413b46b16))\n* Fix security issue in langsmith via minor version upgrade from 0.5.19 to 0.6.0 ([#30684](https://github.com/n8n-io/n8n/issues/30684)) ([e1c9c21](https://github.com/n8n-io/n8n/commit/e1c9c2123f45eaa9",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.45",
+      "published_at": "2026-05-20 17:54",
+      "tag": "n8n@1.123.45",
       "source": "release"
     },
     {
