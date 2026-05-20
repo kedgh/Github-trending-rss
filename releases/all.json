@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-20 03:44",
+  "updated": "2026-05-20 10:34",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.30.0-rc20",
+      "name": "ollama/ollama v0.30.0-rc21",
       "repo": "ollama/ollama",
       "description": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon.\r\n\r\nWhile in pre-release we'd love [feedback](https://github.com/ollama/ollama/pull/16031) on:\r\n\r\n* Performance improvements or degradation\r\n* Errors or crashes that did not previously occur\r\n* Memory utilization improvements or degradation\r\n\r\n## Known issues:\r\n\r\n* `lagu",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc20",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc21",
       "published_at": "2026-05-13 22:32",
-      "tag": "v0.30.0-rc20",
+      "tag": "v0.30.0-rc21",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.24",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Add nextConfig.instrumentationClientInject: #93785\n- Add MCP `compile_route` tool: #93337\n- [turbopack-trace-server] Add memory samples to the mcp tool results: #93338\n\n### Misc Changes\n\n- docs: update agent test guidance: #93924\n- Add create PR skill: #93937\n- Use node streams for server inserted HTML: #93934\n- Remove vercel approvers: #93921\n- [otel] honor traceparent for verbose mode spans: #93874\n- Fix cross-param leak with `prefetch={true}` and `cachedNavigations`: #9394",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.24",
+      "published_at": "2026-05-20 08:06",
+      "tag": "v16.3.0-canary.24",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.23",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- [Turbopack] Add graph-based CSS chunking algorithm behind experimental.cssChunking: \"graph\": #93606\n\n### Misc Changes\n\n- Convert more tests from createNext -> nextTestSetup: #93799\n- turbopack: emit assets before duplicate check in emit_assets: #93875\n- [test] split `og-api` test suite into default and standalone variants: #93915\n- Pass projectDir to adapter modifyConfig: #93916\n- Distinguish in-navigation errors in the instant error overlay: #93843\n- Eval next.config export ",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.22",
       "published_at": "2026-05-18 07:58",
       "tag": "v16.3.0-canary.22",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.21",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Redesign dev overlay: cleaner shell + instant fix-card guidance: #93755\n\n### Misc Changes\n\n- Trace middleware/proxy source files in webpack NFT pipeline: #93871\n\n### Credits \n\nHuge thanks to @unstubbable and @yavorpunchev for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.21",
-      "published_at": "2026-05-16 07:59",
-      "tag": "v16.3.0-canary.21",
       "source": "release"
     }
   ]
