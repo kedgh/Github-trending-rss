@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-21 16:59",
+  "updated": "2026-05-21 22:46",
   "count": 15,
   "items": [
     {
@@ -87,28 +87,28 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.21.5](https://github.com/n8n-io/n8n/compare/n8n@2.21.4...n8n@2.21.5) (2026-05-20)\n\n\n### Bug Fixes\n\n* **editor:** Stabilize workflow setup credentials state ([#30731](https://github.com/n8n-io/n8n/issues/30731)) ([8c58173](https://github.com/n8n-io/n8n/commit/8c5817385760cff1fd764216d17ba3ed7d90def3))",
+      "description": "## [2.21.7](https://github.com/n8n-io/n8n/compare/n8n@2.21.5...n8n@2.21.7) (2026-05-21)\n\n\n### Bug Fixes\n\n* **core:** Acquire expression isolate for scheduled polls ([#30742](https://github.com/n8n-io/n8n/issues/30742)) ([6167d4a](https://github.com/n8n-io/n8n/commit/6167d4a3623d1a7ac73922737b71fb840b69ac9f))\n* **core:** Populate manual user id on webhook execution data path ([#30781](https://github.com/n8n-io/n8n/issues/30781)) ([50c55aa](https://github.com/n8n-io/n8n/commit/50c55aa94b7d8605854d",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-05-20 17:53",
+      "published_at": "2026-05-21 22:13",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.21.5",
+      "name": "n8n-io/n8n n8n@2.21.7",
       "repo": "n8n-io/n8n",
-      "description": "## [2.21.5](https://github.com/n8n-io/n8n/compare/n8n@2.21.4...n8n@2.21.5) (2026-05-20)\n\n\n### Bug Fixes\n\n* **editor:** Stabilize workflow setup credentials state ([#30731](https://github.com/n8n-io/n8n/issues/30731)) ([8c58173](https://github.com/n8n-io/n8n/commit/8c5817385760cff1fd764216d17ba3ed7d90def3))",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.21.5",
-      "published_at": "2026-05-20 17:53",
-      "tag": "n8n@2.21.5",
+      "description": "## [2.21.7](https://github.com/n8n-io/n8n/compare/n8n@2.21.5...n8n@2.21.7) (2026-05-21)\n\n\n### Bug Fixes\n\n* **core:** Acquire expression isolate for scheduled polls ([#30742](https://github.com/n8n-io/n8n/issues/30742)) ([6167d4a](https://github.com/n8n-io/n8n/commit/6167d4a3623d1a7ac73922737b71fb840b69ac9f))\n* **core:** Populate manual user id on webhook execution data path ([#30781](https://github.com/n8n-io/n8n/issues/30781)) ([50c55aa](https://github.com/n8n-io/n8n/commit/50c55aa94b7d8605854d",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.21.7",
+      "published_at": "2026-05-21 22:13",
+      "tag": "n8n@2.21.7",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.45",
+      "name": "n8n-io/n8n n8n@2.21.6-exp.0",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.45](https://github.com/n8n-io/n8n/compare/n8n@1.123.44...n8n@1.123.45) (2026-05-20)\n\n\n### Bug Fixes\n\n* **core:** Limit Insights compaction runs ([#30629](https://github.com/n8n-io/n8n/issues/30629)) ([5ce4ce3](https://github.com/n8n-io/n8n/commit/5ce4ce36cfbdf24a8f64d84647bba7b413b46b16))\n* Fix security issue in langsmith via minor version upgrade from 0.5.19 to 0.6.0 ([#30684](https://github.com/n8n-io/n8n/issues/30684)) ([e1c9c21](https://github.com/n8n-io/n8n/commit/e1c9c2123f45eaa9",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.45",
-      "published_at": "2026-05-20 17:54",
-      "tag": "n8n@1.123.45",
+      "description": "## [2.21.6-exp.0](https://github.com/n8n-io/n8n/compare/n8n@2.21.6...n8n@2.21.6-exp.0) (2026-05-21)",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.21.6-exp.0",
+      "published_at": "2026-05-21 19:42",
+      "tag": "n8n@2.21.6-exp.0",
       "source": "release"
     },
     {
