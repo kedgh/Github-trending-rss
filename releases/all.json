@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-05-21 10:35",
+  "updated": "2026-05-21 16:59",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-fireworks==1.4.1",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-fireworks==1.4.0\n\nrelease(fireworks): 1.4.1 (#37603)\nfix(fireworks): retry on bare `APIConnectionError`, default `max_retries=2` (#37602)\ntest(fireworks): stabilize integration tests with rate limiting and retries (#37590)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.4.1",
+      "published_at": "2026-05-21 14:38",
+      "tag": "langchain-fireworks==1.4.1",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-fireworks==1.4.0",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-tests%3D%3D1.1.8",
       "published_at": "2026-05-19 05:33",
       "tag": "langchain-tests==1.1.8",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain==1.3.1",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==1.3.0\n\nrelease(langchain): 1.3.1 (#37454)\nfix(langchain): alias Bedrock providers in summarization token check (#37453)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.1",
-      "published_at": "2026-05-16 02:15",
-      "tag": "langchain==1.3.1",
       "source": "release"
     },
     {
