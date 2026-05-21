@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-05-21 22:46",
+  "updated": "2026-05-22 03:44",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-tests==1.1.9",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-tests==1.1.8\n\nrelease(standard-tests): 1.1.9 (#37609)\ntest(standard-tests): allow extra content blocks in streaming assertions (#37592)\nchore: bump idna from 3.11 to 3.15 in /libs/standard-tests (#37536)\nchore: bump the minor-and-patch group across 3 directories with 15 updates (#37515)\nci(infra): harden Dependabot version-bound preservation (#37510)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-tests%3D%3D1.1.9",
+      "published_at": "2026-05-22 02:24",
+      "tag": "langchain-tests==1.1.9",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-fireworks==1.4.1",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.4.0",
       "published_at": "2026-05-21 05:57",
       "tag": "langchain-fireworks==1.4.0",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-tests==1.1.8",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-tests==1.1.7\n\nhotfix(standard-tests): set `langchain-core` version bounds (#37509)\nhotfix: bump lockfiles (#37508)\nrelease(standard-tests): 1.1.8 (#37507)\ntest(standard-tests): assert `ls_model_name` honors per-call model override (#37504)\nchore(core,langchain,openai): refresh stale OpenAI model references (#37487)\nchore: bump langsmith from 0.7.31 to 0.8.0 in /libs/standard-tests (#37381)\nchore(infra): merge v1.4 into master (#37350)\nchore: bump urllib3 from 2.6.3 to 2.7",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-tests%3D%3D1.1.8",
-      "published_at": "2026-05-19 05:33",
-      "tag": "langchain-tests==1.1.8",
       "source": "release"
     },
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.30.0-rc21",
+      "name": "ollama/ollama v0.30.0-rc22",
       "repo": "ollama/ollama",
       "description": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon.\r\n\r\nWhile in pre-release we'd love [feedback](https://github.com/ollama/ollama/pull/16031) on:\r\n\r\n* Performance improvements or degradation\r\n* Errors or crashes that did not previously occur\r\n* Memory utilization improvements or degradation\r\n\r\n## Known issues:\r\n\r\n* `lagu",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc21",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc22",
       "published_at": "2026-05-13 22:32",
-      "tag": "v0.30.0-rc21",
+      "tag": "v0.30.0-rc22",
       "source": "release"
     },
     {
