@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-22 16:51",
+  "updated": "2026-05-22 22:22",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n n8n@2.22.2",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.22.2](https://github.com/n8n-io/n8n/compare/n8n@2.22.1...n8n@2.22.2) (2026-05-22)\n\n\n### Bug Fixes\n\n* **core:** Acquire expression isolate for scheduled polls ([#30741](https://github.com/n8n-io/n8n/issues/30741)) ([27ae0d7](https://github.com/n8n-io/n8n/commit/27ae0d7eb83b8e46935569e8694c536a03aeb4e6))\n* **core:** Report scheduled-poll isolate acquisition failures via __emitError ([#30791](https://github.com/n8n-io/n8n/issues/30791)) ([61597f0](https://github.com/n8n-io/n8n/commit/61597f03",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.22.2",
+      "published_at": "2026-05-22 18:01",
+      "tag": "n8n@2.22.2",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n beta",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.22.2](https://github.com/n8n-io/n8n/compare/n8n@2.22.1...n8n@2.22.2) (2026-05-22)\n\n\n### Bug Fixes\n\n* **core:** Acquire expression isolate for scheduled polls ([#30741](https://github.com/n8n-io/n8n/issues/30741)) ([27ae0d7](https://github.com/n8n-io/n8n/commit/27ae0d7eb83b8e46935569e8694c536a03aeb4e6))\n* **core:** Report scheduled-poll isolate acquisition failures via __emitError ([#30791](https://github.com/n8n-io/n8n/issues/30791)) ([61597f0](https://github.com/n8n-io/n8n/commit/61597f03",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-05-22 18:01",
+      "tag": "beta",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
       "description": "## [2.21.7](https://github.com/n8n-io/n8n/compare/n8n@2.21.5...n8n@2.21.7) (2026-05-21)\n\n\n### Bug Fixes\n\n* **core:** Acquire expression isolate for scheduled polls ([#30742](https://github.com/n8n-io/n8n/issues/30742)) ([6167d4a](https://github.com/n8n-io/n8n/commit/6167d4a3623d1a7ac73922737b71fb840b69ac9f))\n* **core:** Populate manual user id on webhook execution data path ([#30781](https://github.com/n8n-io/n8n/issues/30781)) ([50c55aa](https://github.com/n8n-io/n8n/commit/50c55aa94b7d8605854d",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "published_at": "2026-05-21 22:13",
       "tag": "stable",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.21.7",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.21.7](https://github.com/n8n-io/n8n/compare/n8n@2.21.5...n8n@2.21.7) (2026-05-21)\n\n\n### Bug Fixes\n\n* **core:** Acquire expression isolate for scheduled polls ([#30742](https://github.com/n8n-io/n8n/issues/30742)) ([6167d4a](https://github.com/n8n-io/n8n/commit/6167d4a3623d1a7ac73922737b71fb840b69ac9f))\n* **core:** Populate manual user id on webhook execution data path ([#30781](https://github.com/n8n-io/n8n/issues/30781)) ([50c55aa](https://github.com/n8n-io/n8n/commit/50c55aa94b7d8605854d",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.21.7",
-      "published_at": "2026-05-21 22:13",
-      "tag": "n8n@2.21.7",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.21.6-exp.0",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.21.6-exp.0](https://github.com/n8n-io/n8n/compare/n8n@2.21.6...n8n@2.21.6-exp.0) (2026-05-21)",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.21.6-exp.0",
-      "published_at": "2026-05-21 19:42",
-      "tag": "n8n@2.21.6-exp.0",
       "source": "release"
     },
     {
