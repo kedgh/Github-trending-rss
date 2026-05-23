@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-23 03:24",
+  "updated": "2026-05-23 10:14",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.27",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Add next-dev-loop and next-ppr-optimizer skills: #93943\n- test: migrate webdriver callers to next.browser: #93941\n- Revert \"Include PPR routes in dynamicRoutes regardless of revalidate time\": #94032\n- Fix pr-status job pagination: #94049\n- Prerender static metadata under dynamic segments to canonical pathname: #93873\n- Instant navs devtools revamp: #94027\n- Add Chromium-only Playwright image publisher: #94051\n\n### Credits \n\nHuge thanks to @gaojude, @timneutkens, @gnoff, and @",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.27",
+      "published_at": "2026-05-23 08:02",
+      "tag": "v16.3.0-canary.27",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.26",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- [ci] Add an `TURBO_TASKS_AVAILABLE_PARALLELISM` environment variable that overrides `std::thread::available_parallelism` callsites: #93995\n- Make `--debug-build-paths` work with `src/` directory projects: #94016\n- ci: run Linux Playwright jobs in prebuilt Microsoft container: #93794\n- Revert \"Prerender HTTP access fallbacks with Cache Components semantics\": #94018\n- Respond to App Shell prefetches on the server: #93998\n- [turbopack] Disable ctor under RA: #94022\n- Upgrade rus",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.25",
       "published_at": "2026-05-21 08:06",
       "tag": "v16.3.0-canary.25",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.24",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Add nextConfig.instrumentationClientInject: #93785\n- Add MCP `compile_route` tool: #93337\n- [turbopack-trace-server] Add memory samples to the mcp tool results: #93338\n\n### Misc Changes\n\n- docs: update agent test guidance: #93924\n- Add create PR skill: #93937\n- Use node streams for server inserted HTML: #93934\n- Remove vercel approvers: #93921\n- [otel] honor traceparent for verbose mode spans: #93874\n- Fix cross-param leak with `prefetch={true}` and `cachedNavigations`: #9394",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.24",
-      "published_at": "2026-05-20 08:06",
-      "tag": "v16.3.0-canary.24",
       "source": "release"
     }
   ]
