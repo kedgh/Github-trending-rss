@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-26 03:17",
+  "updated": "2026-05-26 10:30",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.29",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Replace next-ppr-optimizer with next-cache-components-optimizer: #94035\n- [Skills] next-dev-loop: persist login state across loops: #94105\n- Fix errors.json merge driver to handle gaps in error codes: #93829\n\n### Credits \n\nHuge thanks to @gaojude and @sokra for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.29",
+      "published_at": "2026-05-26 08:02",
+      "tag": "v16.3.0-canary.29",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.28",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- [Skills] Mark backport-pr and create-pr as internal: #94076\n\n### Credits \n\nHuge thanks to @gaojude for helping!\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.27",
       "published_at": "2026-05-23 08:02",
       "tag": "v16.3.0-canary.27",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.26",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [ci] Add an `TURBO_TASKS_AVAILABLE_PARALLELISM` environment variable that overrides `std::thread::available_parallelism` callsites: #93995\n- Make `--debug-build-paths` work with `src/` directory projects: #94016\n- ci: run Linux Playwright jobs in prebuilt Microsoft container: #93794\n- Revert \"Prerender HTTP access fallbacks with Cache Components semantics\": #94018\n- Respond to App Shell prefetches on the server: #93998\n- [turbopack] Disable ctor under RA: #94022\n- Upgrade rus",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.26",
-      "published_at": "2026-05-22 08:00",
-      "tag": "v16.3.0-canary.26",
       "source": "release"
     }
   ]
