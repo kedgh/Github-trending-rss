@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-05-26 22:49",
+  "updated": "2026-05-27 03:59",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain==1.3.2",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain==1.3.1\n\nchore(langchain): bump to 1.3.2, require langgraph>=1.2.2 (#37703)\nfix(langchain): land final answer in last AIMessage for `TodoListMiddleware` (#37643)\nfeat(langchain): redact streamed PII in flight on `PIIMiddleware` (#37616)\nchore(infra): bump `langchain-tests` floor to 1.1.9 (#37610)\nrelease(standard-tests): 1.1.9 (#37609)\nfeat(langchain): register stream transformers on middleware (#37591)\nchore: bump idna from 3.11 to 3.15 in /libs/langchain_v1 (#37534)\nci(i",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.2",
+      "published_at": "2026-05-27 02:18",
+      "tag": "langchain==1.3.2",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-tests==1.1.9",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.2.2",
       "published_at": "2026-05-22 06:08",
       "tag": "langchain-openai==1.2.2",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-fireworks==1.4.1",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-fireworks==1.4.0\n\nrelease(fireworks): 1.4.1 (#37603)\nfix(fireworks): retry on bare `APIConnectionError`, default `max_retries=2` (#37602)\ntest(fireworks): stabilize integration tests with rate limiting and retries (#37590)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.4.1",
-      "published_at": "2026-05-21 14:38",
-      "tag": "langchain-fireworks==1.4.1",
       "source": "release"
     },
     {
