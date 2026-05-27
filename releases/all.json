@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-27 17:32",
+  "updated": "2026-05-27 22:58",
   "count": 15,
   "items": [
     {
@@ -87,10 +87,19 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.21.8](https://github.com/n8n-io/n8n/compare/n8n@2.21.7...n8n@2.21.8) (2026-05-27)",
+      "description": "## [2.22.4](https://github.com/n8n-io/n8n/compare/n8n@2.22.3...n8n@2.22.4) (2026-05-27)\n\n\n### Bug Fixes\n\n* **core:** Remove aggressive temp directory cleanup in binary data rename ([#31165](https://github.com/n8n-io/n8n/issues/31165)) ([978840d](https://github.com/n8n-io/n8n/commit/978840db54cb6c27596b661fafe6af8bb734180b))",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-05-27 15:12",
+      "published_at": "2026-05-27 17:35",
       "tag": "stable",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n n8n@2.22.4",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.22.4](https://github.com/n8n-io/n8n/compare/n8n@2.22.3...n8n@2.22.4) (2026-05-27)\n\n\n### Bug Fixes\n\n* **core:** Remove aggressive temp directory cleanup in binary data rename ([#31165](https://github.com/n8n-io/n8n/issues/31165)) ([978840d](https://github.com/n8n-io/n8n/commit/978840db54cb6c27596b661fafe6af8bb734180b))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.22.4",
+      "published_at": "2026-05-27 15:15",
+      "tag": "n8n@2.22.4",
       "source": "release"
     },
     {
@@ -100,15 +109,6 @@
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.21.8",
       "published_at": "2026-05-27 15:12",
       "tag": "n8n@2.21.8",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@1.123.48",
-      "repo": "n8n-io/n8n",
-      "description": "## [1.123.48](https://github.com/n8n-io/n8n/compare/n8n@1.123.47...n8n@1.123.48) (2026-05-27)",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.48",
-      "published_at": "2026-05-27 15:04",
-      "tag": "n8n@1.123.48",
       "source": "release"
     },
     {
