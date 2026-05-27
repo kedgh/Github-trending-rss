@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-05-27 03:59",
+  "updated": "2026-05-27 10:40",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-perplexity==1.3.0",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-perplexity==1.2.0\n\nrelease(perplexity): 1.3.0 (#37707)\nfeat(perplexity): `use_responses_api` flag on `ChatPerplexity` (#37359)\nchore(infra): bump `langchain-tests` floor to 1.1.9 (#37610)\nchore: bump langsmith from 0.8.4 to 0.8.5 in /libs/partners/perplexity (#37545)\nchore: bump idna from 3.10 to 3.15 in /libs/partners/perplexity (#37544)\nci(infra): harden Dependabot version-bound preservation (#37510)\nchore: bump langsmith from 0.8.0 to 0.8.4 in /libs/partners/perplexity",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.3.0",
+      "published_at": "2026-05-27 08:22",
+      "tag": "langchain-perplexity==1.3.0",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain==1.3.2",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-tests%3D%3D1.1.9",
       "published_at": "2026-05-22 02:24",
       "tag": "langchain-tests==1.1.9",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-openai==1.2.2",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.2.1\n\nrelease(openai): 1.2.2 (#37617)\nchore(infra): bump `langchain-tests` floor to 1.1.9 (#37610)\ntest(openai): unbreak audio chat and Azure embedding integration tests (#37589)\nfix(openai): guard httpx finalizers (#37570)\nchore: bump langsmith from 0.8.4 to 0.8.5 in /libs/partners/openai (#37549)\nchore: bump idna from 3.11 to 3.15 in /libs/partners/openai (#37548)\nci(infra): harden Dependabot version-bound preservation (#37510)\ntest(standard-tests): assert `ls_",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.2.2",
-      "published_at": "2026-05-22 06:08",
-      "tag": "langchain-openai==1.2.2",
       "source": "release"
     },
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.30.0-rc23",
+      "name": "ollama/ollama v0.30.0-rc27",
       "repo": "ollama/ollama",
       "description": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon.\r\n\r\nWhile in pre-release we'd love [feedback](https://github.com/ollama/ollama/pull/16031) on:\r\n\r\n* Performance improvements or degradation\r\n* Errors or crashes that did not previously occur\r\n* Memory utilization improvements or degradation\r\n\r\n## Known issues:\r\n\r\n* `lagu",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc23",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc27",
       "published_at": "2026-05-13 22:32",
-      "tag": "v0.30.0-rc23",
+      "tag": "v0.30.0-rc27",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.30",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Revert \"Revert \"refactor: write pages router export files directly to server/pages/\"\": #93409\n\n### Misc Changes\n\n- Turbopack: make available_modules an OperationVc and simplify merged module bookkeeping: #94055\n- chore: release @next/rspack-core 1.0.3: #94116\n- Improve notFound recovery in error pathway: #94037\n- Turbopack: Fix unsound IntoIterator for ReadRef<T>: #94122\n- [ci] Skip installing native binaries when fetching test timings: #93593\n- [ci] Reserve comments for stat",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.30",
+      "published_at": "2026-05-27 08:02",
+      "tag": "v16.3.0-canary.30",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.29",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Replace next-ppr-optimizer with next-cache-components-optimizer: #94035\n- [Skills] next-dev-loop: persist login state across loops: #94105\n- Fix errors.json merge driver to handle gaps in error codes: #93829\n\n### Credits \n\nHuge thanks to @gaojude and @sokra for helping!\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.28",
       "published_at": "2026-05-24 08:00",
       "tag": "v16.3.0-canary.28",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.27",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Add next-dev-loop and next-ppr-optimizer skills: #93943\n- test: migrate webdriver callers to next.browser: #93941\n- Revert \"Include PPR routes in dynamicRoutes regardless of revalidate time\": #94032\n- Fix pr-status job pagination: #94049\n- Prerender static metadata under dynamic segments to canonical pathname: #93873\n- Instant navs devtools revamp: #94027\n- Add Chromium-only Playwright image publisher: #94051\n\n### Credits \n\nHuge thanks to @gaojude, @timneutkens, @gnoff, and @",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.27",
-      "published_at": "2026-05-23 08:02",
-      "tag": "v16.3.0-canary.27",
       "source": "release"
     }
   ]
