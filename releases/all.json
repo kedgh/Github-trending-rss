@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-28 17:49",
+  "updated": "2026-05-28 23:32",
   "count": 15,
   "items": [
     {
@@ -103,12 +103,21 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.22.4",
+      "name": "n8n-io/n8n n8n@1.123.49",
       "repo": "n8n-io/n8n",
-      "description": "## [2.22.4](https://github.com/n8n-io/n8n/compare/n8n@2.22.3...n8n@2.22.4) (2026-05-27)\n\n\n### Bug Fixes\n\n* **core:** Remove aggressive temp directory cleanup in binary data rename ([#31165](https://github.com/n8n-io/n8n/issues/31165)) ([978840d](https://github.com/n8n-io/n8n/commit/978840db54cb6c27596b661fafe6af8bb734180b))",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.22.4",
-      "published_at": "2026-05-27 15:15",
-      "tag": "n8n@2.22.4",
+      "description": "## [1.123.49](https://github.com/n8n-io/n8n/compare/n8n@1.123.48...n8n@1.123.49) (2026-05-28)\n\n\n### Bug Fixes\n\n* **core:** Drain webhook close functions to prevent MCP connection leaks ([#31188](https://github.com/n8n-io/n8n/issues/31188)) ([69b2fbd](https://github.com/n8n-io/n8n/commit/69b2fbd1027691c7aa723d1a31db16a74ec5fb91))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.49",
+      "published_at": "2026-05-28 17:52",
+      "tag": "n8n@1.123.49",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.3.0-canary.32",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Fix short circuit evaluation of AND / OR in the Turbopack analyzer for string & nullish-related methods: #94159\n- Turbopack: fix instrumentationClientInject with type:module: #94184\n- [test] Add test for static metadata files and `generateStaticParams`: #93465\n- Align issue triage guidance with automated behavior: #94189\n\n### Credits \n\nHuge thanks to @sampoder, @mischnic, @eps1lon, and @timneutkens for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.32",
+      "published_at": "2026-05-28 19:56",
+      "tag": "v16.3.0-canary.32",
       "source": "release"
     },
     {
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.30",
       "published_at": "2026-05-27 08:02",
       "tag": "v16.3.0-canary.30",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.29",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Replace next-ppr-optimizer with next-cache-components-optimizer: #94035\n- [Skills] next-dev-loop: persist login state across loops: #94105\n- Fix errors.json merge driver to handle gaps in error codes: #93829\n\n### Credits \n\nHuge thanks to @gaojude and @sokra for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.29",
-      "published_at": "2026-05-26 08:02",
-      "tag": "v16.3.0-canary.29",
       "source": "release"
     }
   ]
