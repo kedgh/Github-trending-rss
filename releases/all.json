@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-05-28 04:03",
+  "updated": "2026-05-28 10:27",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-perplexity==1.3.1",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-perplexity==1.3.0\n\nrelease(perplexity): 1.3.1 (#37720)\nchore(perplexity): bump `perplexityai` to 0.34.1 (#37710)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.3.1",
+      "published_at": "2026-05-28 04:45",
+      "tag": "langchain-perplexity==1.3.1",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-perplexity==1.3.0",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.4.2",
       "published_at": "2026-05-28 02:10",
       "tag": "langchain-fireworks==1.4.2",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain==1.3.2",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==1.3.1\n\nchore(langchain): bump to 1.3.2, require langgraph>=1.2.2 (#37703)\nfix(langchain): land final answer in last AIMessage for `TodoListMiddleware` (#37643)\nfeat(langchain): redact streamed PII in flight on `PIIMiddleware` (#37616)\nchore(infra): bump `langchain-tests` floor to 1.1.9 (#37610)\nrelease(standard-tests): 1.1.9 (#37609)\nfeat(langchain): register stream transformers on middleware (#37591)\nchore: bump idna from 3.11 to 3.15 in /libs/langchain_v1 (#37534)\nci(i",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.2",
-      "published_at": "2026-05-27 02:18",
-      "tag": "langchain==1.3.2",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.31",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- ServerActionsGraph: pass ModuleGraphLayer as OperationVc: #94141\n- [ci] Explicitly disable package-manager-cache for uses of actions/setup-node: #93953\n- Bugfix: Incorrect search params stored in cache: #94144\n- Upgrade ast-grep: #94150\n- docs: transpilePackages usage: #93602\n- [Skills] next-cache-components-optimizer: clarify private-cache scope rule: #94113\n- [ci] Increase TEST_CONCURRENCY from 8 to 12: #94138\n- Upgrade React from `75b0945b-20260526` to `c0cd4d5d-20260527`:",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.31",
+      "published_at": "2026-05-28 08:25",
+      "tag": "v16.3.0-canary.31",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.30",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Revert \"Revert \"refactor: write pages router export files directly to server/pages/\"\": #93409\n\n### Misc Changes\n\n- Turbopack: make available_modules an OperationVc and simplify merged module bookkeeping: #94055\n- chore: release @next/rspack-core 1.0.3: #94116\n- Improve notFound recovery in error pathway: #94037\n- Turbopack: Fix unsound IntoIterator for ReadRef<T>: #94122\n- [ci] Skip installing native binaries when fetching test timings: #93593\n- [ci] Reserve comments for stat",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.29",
       "published_at": "2026-05-26 08:02",
       "tag": "v16.3.0-canary.29",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.28",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [Skills] Mark backport-pr and create-pr as internal: #94076\n\n### Credits \n\nHuge thanks to @gaojude for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.28",
-      "published_at": "2026-05-24 08:00",
-      "tag": "v16.3.0-canary.28",
       "source": "release"
     }
   ]
