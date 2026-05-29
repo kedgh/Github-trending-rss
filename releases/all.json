@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-05-29 04:08",
+  "updated": "2026-05-29 10:31",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-anthropic==1.4.4",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-anthropic==1.4.3\n\nrelease(anthropic): 1.4.4 (#37757)\nfix(anthropic): normalize cross-provider tool-call IDs (#37756)\ntest(anthropic): retry integration tests on transient failures (#37697)\nchore(infra): bump `langchain-tests` floor to 1.1.9 (#37610)\nchore: bump langsmith from 0.8.3 to 0.8.5 in /libs/partners/anthropic (#37564)\nchore: bump idna from 3.11 to 3.15 in /libs/partners/anthropic (#37565)\nci(infra): harden Dependabot version-bound preservation (#37510)\nchore(infr",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.4",
+      "published_at": "2026-05-29 04:20",
+      "tag": "langchain-anthropic==1.4.4",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-perplexity==1.3.1",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.3.0",
       "published_at": "2026-05-27 08:22",
       "tag": "langchain-perplexity==1.3.0",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-fireworks==1.4.2",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-fireworks==1.4.1\n\nrelease(fireworks): 1.4.2 (#37715)\nfix(fireworks): strip non-wire keys from all content parts before serialization (#37714)\nchore(model-profiles): refresh model profile data (#37650)\nchore(infra): bump `langchain-tests` floor to 1.1.9 (#37610)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.4.2",
-      "published_at": "2026-05-28 02:10",
-      "tag": "langchain-fireworks==1.4.2",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.33",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- docs: fix code examples in getting-started guides: #93273\n- [CC] Streaming prerender: #94044\n- test: skip flaky instant-nav-panel tests: #94196\n- [CC] Avoid unnecessary conversions to a stream: #94192\n- test: fix next-after-app-static: #94195\n- Propagate adapter preferred regions: #94123\n- [ci] Update all actions/* dependencies: #94174\n- Consolidate Resume Data Caches and partially revert #88556: #94194\n- Fix `'use cache'` bail-out under `unstable_instant = false`: #94198\n- T",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.33",
+      "published_at": "2026-05-29 08:07",
+      "tag": "v16.3.0-canary.33",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.32",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Fix short circuit evaluation of AND / OR in the Turbopack analyzer for string & nullish-related methods: #94159\n- Turbopack: fix instrumentationClientInject with type:module: #94184\n- [test] Add test for static metadata files and `generateStaticParams`: #93465\n- Align issue triage guidance with automated behavior: #94189\n\n### Credits \n\nHuge thanks to @sampoder, @mischnic, @eps1lon, and @timneutkens for helping!\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.31",
       "published_at": "2026-05-28 08:25",
       "tag": "v16.3.0-canary.31",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.30",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Revert \"Revert \"refactor: write pages router export files directly to server/pages/\"\": #93409\n\n### Misc Changes\n\n- Turbopack: make available_modules an OperationVc and simplify merged module bookkeeping: #94055\n- chore: release @next/rspack-core 1.0.3: #94116\n- Improve notFound recovery in error pathway: #94037\n- Turbopack: Fix unsound IntoIterator for ReadRef<T>: #94122\n- [ci] Skip installing native binaries when fetching test timings: #93593\n- [ci] Reserve comments for stat",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.30",
-      "published_at": "2026-05-27 08:02",
-      "tag": "v16.3.0-canary.30",
       "source": "release"
     }
   ]
