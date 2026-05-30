@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-30 04:10",
+  "updated": "2026-05-30 10:26",
   "count": 15,
   "items": [
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.35",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Exclude static metadata and viewport from error recovery prerender when cache-components is enabled: #94134\n- [turbopack] Shrink ReadRawVcFuture from 80 to 64 bytes: #94201\n- [turbopack] Move `WellKnownObjectKind` & `WellKnownFunctionKind` into `well_known/kinds.rs` in the analyzer: #94209\n- [turbopack] Move `require.context`-related code into a seperate file in the analyzer: #94210\n\n### Credits \n\nHuge thanks to @gnoff, @lukesandberg, and @sampoder for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.35",
+      "published_at": "2026-05-30 08:26",
+      "tag": "v16.3.0-canary.35",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.3.0-canary.34",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Update `shortcircuit_if_known` to `eval_shortcircuit()`: #94163\n- Remove dead code from `JsValue::Binary` in `is_truthy`: #94165\n- Produce valid file URLs for `import.meta.url` on Windows in Turbopack: #94179\n- [turbopack] Store TaskDirtyCause in Dirtyness and pass to NativeFunction::span: #94057\n- Turbopack: cleanup ModuleHotReferenceAssetReference: #94206\n- [feat] updated the documentation for deployment to point to new next.js Docker official guide.: #94185\n- docs: correct",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.34",
+      "published_at": "2026-05-30 04:41",
+      "tag": "v16.3.0-canary.34",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.33",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- docs: fix code examples in getting-started guides: #93273\n- [CC] Streaming prerender: #94044\n- test: skip flaky instant-nav-panel tests: #94196\n- [CC] Avoid unnecessary conversions to a stream: #94192\n- test: fix next-after-app-static: #94195\n- Propagate adapter preferred regions: #94123\n- [ci] Update all actions/* dependencies: #94174\n- Consolidate Resume Data Caches and partially revert #88556: #94194\n- Fix `'use cache'` bail-out under `unstable_instant = false`: #94198\n- T",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.33",
       "published_at": "2026-05-29 08:07",
       "tag": "v16.3.0-canary.33",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.32",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Fix short circuit evaluation of AND / OR in the Turbopack analyzer for string & nullish-related methods: #94159\n- Turbopack: fix instrumentationClientInject with type:module: #94184\n- [test] Add test for static metadata files and `generateStaticParams`: #93465\n- Align issue triage guidance with automated behavior: #94189\n\n### Credits \n\nHuge thanks to @sampoder, @mischnic, @eps1lon, and @timneutkens for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.32",
-      "published_at": "2026-05-28 19:56",
-      "tag": "v16.3.0-canary.32",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.31",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- ServerActionsGraph: pass ModuleGraphLayer as OperationVc: #94141\n- [ci] Explicitly disable package-manager-cache for uses of actions/setup-node: #93953\n- Bugfix: Incorrect search params stored in cache: #94144\n- Upgrade ast-grep: #94150\n- docs: transpilePackages usage: #93602\n- [Skills] next-cache-components-optimizer: clarify private-cache scope rule: #94113\n- [ci] Increase TEST_CONCURRENCY from 8 to 12: #94138\n- Upgrade React from `75b0945b-20260526` to `c0cd4d5d-20260527`:",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.31",
-      "published_at": "2026-05-28 08:25",
-      "tag": "v16.3.0-canary.31",
       "source": "release"
     }
   ]
