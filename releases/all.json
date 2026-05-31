@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-05-31 03:01",
+  "updated": "2026-05-31 10:42",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.36",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Turbopack analyzer: analyze ternaries + promises in string & nullish methods: #94187\n- [turbopack] Break up `graph.rs` in the analyzer into smaller files: #94211\n- [turbopack] Add `explain()` methods to `WellKnownObjectKind` and `WellKnownFunctionKind`: #94217\n- [turbopack] Handle negative numbers as constants in the analyzer: #94218\n- [turbopack] Use `ast_path.kinds()` instead of mapping over `ast_path` in the analyzer: #94221\n- [CLI] Exit non-zero with a clear message when ",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.36",
+      "published_at": "2026-05-31 08:00",
+      "tag": "v16.3.0-canary.36",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.35",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Exclude static metadata and viewport from error recovery prerender when cache-components is enabled: #94134\n- [turbopack] Shrink ReadRawVcFuture from 80 to 64 bytes: #94201\n- [turbopack] Move `WellKnownObjectKind` & `WellKnownFunctionKind` into `well_known/kinds.rs` in the analyzer: #94209\n- [turbopack] Move `require.context`-related code into a seperate file in the analyzer: #94210\n\n### Credits \n\nHuge thanks to @gnoff, @lukesandberg, and @sampoder for helping!\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.34",
       "published_at": "2026-05-30 04:41",
       "tag": "v16.3.0-canary.34",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.33",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- docs: fix code examples in getting-started guides: #93273\n- [CC] Streaming prerender: #94044\n- test: skip flaky instant-nav-panel tests: #94196\n- [CC] Avoid unnecessary conversions to a stream: #94192\n- test: fix next-after-app-static: #94195\n- Propagate adapter preferred regions: #94123\n- [ci] Update all actions/* dependencies: #94174\n- Consolidate Resume Data Caches and partially revert #88556: #94194\n- Fix `'use cache'` bail-out under `unstable_instant = false`: #94198\n- T",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.33",
-      "published_at": "2026-05-29 08:07",
-      "tag": "v16.3.0-canary.33",
       "source": "release"
     }
   ]
