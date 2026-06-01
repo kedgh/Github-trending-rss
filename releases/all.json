@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-01 10:51",
+  "updated": "2026-06-01 19:12",
   "count": 15,
   "items": [
     {
@@ -87,28 +87,28 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.22.5](https://github.com/n8n-io/n8n/compare/n8n@2.22.4...n8n@2.22.5) (2026-05-28)",
+      "description": "## [2.22.6](https://github.com/n8n-io/n8n/compare/n8n@2.22.5...n8n@2.22.6) (2026-06-01)\n\n\n### Bug Fixes\n\n* **core:** Insights page shows license paywall for licensed users ([#31453](https://github.com/n8n-io/n8n/issues/31453)) ([41db3cd](https://github.com/n8n-io/n8n/commit/41db3cded4117eb62b613b660e6ae3f0e02ffda0))\n* **core:** Preserve code-builder thread suffix when parsing session ([#31309](https://github.com/n8n-io/n8n/issues/31309)) ([e062c20](https://github.com/n8n-io/n8n/commit/e062c2064f",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-05-28 16:20",
+      "published_at": "2026-06-01 18:37",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.22.5",
+      "name": "n8n-io/n8n n8n@2.22.6",
       "repo": "n8n-io/n8n",
-      "description": "## [2.22.5](https://github.com/n8n-io/n8n/compare/n8n@2.22.4...n8n@2.22.5) (2026-05-28)",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.22.5",
-      "published_at": "2026-05-28 16:20",
-      "tag": "n8n@2.22.5",
+      "description": "## [2.22.6](https://github.com/n8n-io/n8n/compare/n8n@2.22.5...n8n@2.22.6) (2026-06-01)\n\n\n### Bug Fixes\n\n* **core:** Insights page shows license paywall for licensed users ([#31453](https://github.com/n8n-io/n8n/issues/31453)) ([41db3cd](https://github.com/n8n-io/n8n/commit/41db3cded4117eb62b613b660e6ae3f0e02ffda0))\n* **core:** Preserve code-builder thread suffix when parsing session ([#31309](https://github.com/n8n-io/n8n/issues/31309)) ([e062c20](https://github.com/n8n-io/n8n/commit/e062c2064f",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.22.6",
+      "published_at": "2026-06-01 18:37",
+      "tag": "n8n@2.22.6",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.49",
+      "name": "n8n-io/n8n n8n@1.123.50",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.49](https://github.com/n8n-io/n8n/compare/n8n@1.123.48...n8n@1.123.49) (2026-05-28)\n\n\n### Bug Fixes\n\n* **core:** Drain webhook close functions to prevent MCP connection leaks ([#31188](https://github.com/n8n-io/n8n/issues/31188)) ([69b2fbd](https://github.com/n8n-io/n8n/commit/69b2fbd1027691c7aa723d1a31db16a74ec5fb91))",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.49",
-      "published_at": "2026-05-28 17:52",
-      "tag": "n8n@1.123.49",
+      "description": "## [1.123.50](https://github.com/n8n-io/n8n/compare/n8n@1.123.49...n8n@1.123.50) (2026-06-01)\n\n\n### Bug Fixes\n\n* **core:** Add configurable retries and error details to S3 ([#29810](https://github.com/n8n-io/n8n/issues/29810)) ([83023cc](https://github.com/n8n-io/n8n/commit/83023cce28ecec4baa6ca499635cd4ecd9c4d88b))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.50",
+      "published_at": "2026-06-01 18:33",
+      "tag": "n8n@1.123.50",
       "source": "release"
     },
     {
