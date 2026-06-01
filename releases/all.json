@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-02 01:21",
+  "updated": "2026-06-02 05:23",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.30.0-rc31",
+      "name": "ollama/ollama v0.30.0-rc32",
       "repo": "ollama/ollama",
       "description": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon.\r\n\r\nWhile in pre-release we'd love [feedback](https://github.com/ollama/ollama/pull/16031) on:\r\n\r\n* Performance improvements or degradation\r\n* Errors or crashes that did not previously occur\r\n* Memory utilization improvements or degradation\r\n\r\n## Known issues:\r\n\r\n* `lagu",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc31",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc32",
       "published_at": "2026-05-13 22:32",
-      "tag": "v0.30.0-rc31",
+      "tag": "v0.30.0-rc32",
       "source": "release"
     },
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.2.7",
+      "repo": "vercel/next.js",
+      "description": "> [!NOTE]\r\n> This release is backporting bug fixes. It does **not** include all pending features/changes on canary.\r\n\r\n### Core Changes\r\n\r\n- Backport documentation fixes for v16.2 (#93804)\r\n- [backport] Patch `playwright-core` to resolve `_finishedPromise` on `requestFailed` (#93920)\r\n- [backport] Fix dev mode hydration failure when page is served from HTTP cache (#93492)\r\n- [backport] Fix catch-all `router.query` corruption with `basePath` + `rewrites` (#93917)\r\n- [backport] Encode non-ASCII ch",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.7",
+      "published_at": "2026-06-02 03:53",
+      "tag": "v16.2.7",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v15.5.19",
+      "repo": "vercel/next.js",
+      "description": "> [!NOTE]\r\n> This release is backporting bug fixes. It does **not** include all pending features/changes on canary.\r\n\r\n### Core Changes\r\n\r\n- [15.5.x] Don't drop `FormData` entries (#94244)\r\n\r\n### Other\r\n\r\n- [15.5.x] Fix CI (#94281)\r\n\r\n### Credits\r\n\r\nHuge thanks to @eps1lon for helping!\r\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v15.5.19",
+      "published_at": "2026-06-02 04:09",
+      "tag": "v15.5.19",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.36",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Turbopack analyzer: analyze ternaries + promises in string & nullish methods: #94187\n- [turbopack] Break up `graph.rs` in the analyzer into smaller files: #94211\n- [turbopack] Add `explain()` methods to `WellKnownObjectKind` and `WellKnownFunctionKind`: #94217\n- [turbopack] Handle negative numbers as constants in the analyzer: #94218\n- [turbopack] Use `ast_path.kinds()` instead of mapping over `ast_path` in the analyzer: #94221\n- [CLI] Exit non-zero with a clear message when ",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.36",
       "published_at": "2026-05-31 08:00",
       "tag": "v16.3.0-canary.36",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.35",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Exclude static metadata and viewport from error recovery prerender when cache-components is enabled: #94134\n- [turbopack] Shrink ReadRawVcFuture from 80 to 64 bytes: #94201\n- [turbopack] Move `WellKnownObjectKind` & `WellKnownFunctionKind` into `well_known/kinds.rs` in the analyzer: #94209\n- [turbopack] Move `require.context`-related code into a seperate file in the analyzer: #94210\n\n### Credits \n\nHuge thanks to @gnoff, @lukesandberg, and @sampoder for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.35",
-      "published_at": "2026-05-30 08:26",
-      "tag": "v16.3.0-canary.35",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.34",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Update `shortcircuit_if_known` to `eval_shortcircuit()`: #94163\n- Remove dead code from `JsValue::Binary` in `is_truthy`: #94165\n- Produce valid file URLs for `import.meta.url` on Windows in Turbopack: #94179\n- [turbopack] Store TaskDirtyCause in Dirtyness and pass to NativeFunction::span: #94057\n- Turbopack: cleanup ModuleHotReferenceAssetReference: #94206\n- [feat] updated the documentation for deployment to point to new next.js Docker official guide.: #94185\n- docs: correct",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.34",
-      "published_at": "2026-05-30 04:41",
-      "tag": "v16.3.0-canary.34",
       "source": "release"
     }
   ]
