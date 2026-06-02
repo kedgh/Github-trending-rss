@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-02 18:08",
+  "updated": "2026-06-03 00:06",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n n8n@2.25.1",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.25.1](https://github.com/n8n-io/n8n/compare/n8n@2.24.0...n8n@2.25.1) (2026-06-02)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* **cli:** Decouple agent library bundle from build:data ([#31293](https://github.com/n8n-io/n8n/issues/31293)) ([70ab5e5](https://github.com/n8n-io/n8n/commit/70ab5e582821ec50778e7aba01cbd1896879f3ff))\r\n* **Compression Node:** Add decompression output size validation ([#31366](https://github.com/n8n-io/n8n/issues/31366)) ([90dd93c](https://github.com/n8n-io/n8n/commit/90dd93c7723f33f71ea",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.25.1",
+      "published_at": "2026-06-02 18:51",
+      "tag": "n8n@2.25.1",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n beta",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.25.1](https://github.com/n8n-io/n8n/compare/n8n@2.24.0...n8n@2.25.1) (2026-06-02)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* **cli:** Decouple agent library bundle from build:data ([#31293](https://github.com/n8n-io/n8n/issues/31293)) ([70ab5e5](https://github.com/n8n-io/n8n/commit/70ab5e582821ec50778e7aba01cbd1896879f3ff))\r\n* **Compression Node:** Add decompression output size validation ([#31366](https://github.com/n8n-io/n8n/issues/31366)) ([90dd93c](https://github.com/n8n-io/n8n/commit/90dd93c7723f33f71ea",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-06-02 18:51",
+      "tag": "beta",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
       "description": "## [2.22.6](https://github.com/n8n-io/n8n/compare/n8n@2.22.5...n8n@2.22.6) (2026-06-01)\n\n\n### Bug Fixes\n\n* **core:** Insights page shows license paywall for licensed users ([#31453](https://github.com/n8n-io/n8n/issues/31453)) ([41db3cd](https://github.com/n8n-io/n8n/commit/41db3cded4117eb62b613b660e6ae3f0e02ffda0))\n* **core:** Preserve code-builder thread suffix when parsing session ([#31309](https://github.com/n8n-io/n8n/issues/31309)) ([e062c20](https://github.com/n8n-io/n8n/commit/e062c2064f",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "published_at": "2026-06-01 18:37",
       "tag": "stable",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.22.6",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.22.6](https://github.com/n8n-io/n8n/compare/n8n@2.22.5...n8n@2.22.6) (2026-06-01)\n\n\n### Bug Fixes\n\n* **core:** Insights page shows license paywall for licensed users ([#31453](https://github.com/n8n-io/n8n/issues/31453)) ([41db3cd](https://github.com/n8n-io/n8n/commit/41db3cded4117eb62b613b660e6ae3f0e02ffda0))\n* **core:** Preserve code-builder thread suffix when parsing session ([#31309](https://github.com/n8n-io/n8n/issues/31309)) ([e062c20](https://github.com/n8n-io/n8n/commit/e062c2064f",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.22.6",
-      "published_at": "2026-06-01 18:37",
-      "tag": "n8n@2.22.6",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@1.123.50",
-      "repo": "n8n-io/n8n",
-      "description": "## [1.123.50](https://github.com/n8n-io/n8n/compare/n8n@1.123.49...n8n@1.123.50) (2026-06-01)\n\n\n### Bug Fixes\n\n* **core:** Add configurable retries and error details to S3 ([#29810](https://github.com/n8n-io/n8n/issues/29810)) ([83023cc](https://github.com/n8n-io/n8n/commit/83023cce28ecec4baa6ca499635cd4ecd9c4d88b))",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.50",
-      "published_at": "2026-06-01 18:33",
-      "tag": "n8n@1.123.50",
       "source": "release"
     },
     {
