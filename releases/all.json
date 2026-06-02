@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-02 05:23",
+  "updated": "2026-06-02 10:48",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.30.0-rc32",
+      "name": "ollama/ollama v0.30.0",
       "repo": "ollama/ollama",
-      "description": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon.\r\n\r\nWhile in pre-release we'd love [feedback](https://github.com/ollama/ollama/pull/16031) on:\r\n\r\n* Performance improvements or degradation\r\n* Errors or crashes that did not previously occur\r\n* Memory utilization improvements or degradation\r\n\r\n## Known issues:\r\n\r\n* `lagu",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc32",
+      "description": "Ollama 0.30 is now available, with improved compatibility and performance using [llama.cpp](https://github.com/ggml-org/llama.cpp). This augments the MLX engine on Apple Silicon, bringing support to a wider range of hardware.\r\n\r\nThis release brings support for a wider range of models, including GGUF-based models from Hugging Face and your own fine-tuned models along with faster performance on NVIDIA hardware.\r\n\r\n## Known issues:\r\n\r\n* `laguna-xs.2` is not yet supported on Windows/Linux.\r\n* `llama",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0",
       "published_at": "2026-05-13 22:32",
-      "tag": "v0.30.0-rc32",
+      "tag": "v0.30.0",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.37",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Switch `TotalOrderF64` to `f64` in `ConstantNumber` to correctly handle `NaN === NaN` and `0 === -0` inside the Turbopack analyzer: #94172\n- Use `serde_json::Number` in `CompileTimeDefineValue` and remove `TotalOrderF64`: #94177\n- docs: bodySizeLimit measures raw HTTP body: #94137\n- Update ctor from 0.10 to 1.0.6: #94045\n- Include `--port` in `next internal query-trace` startup hint and help example: #93961\n- Turbopack: refactor NFT to add Endpoint.traced_files: #94224\n- Turb",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.37",
+      "published_at": "2026-06-02 08:11",
+      "tag": "v16.3.0-canary.37",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.2.7",
       "repo": "vercel/next.js",
       "description": "> [!NOTE]\r\n> This release is backporting bug fixes. It does **not** include all pending features/changes on canary.\r\n\r\n### Core Changes\r\n\r\n- Backport documentation fixes for v16.2 (#93804)\r\n- [backport] Patch `playwright-core` to resolve `_finishedPromise` on `requestFailed` (#93920)\r\n- [backport] Fix dev mode hydration failure when page is served from HTTP cache (#93492)\r\n- [backport] Fix catch-all `router.query` corruption with `basePath` + `rewrites` (#93917)\r\n- [backport] Encode non-ASCII ch",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v15.5.19",
       "published_at": "2026-06-02 04:09",
       "tag": "v15.5.19",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.36",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Turbopack analyzer: analyze ternaries + promises in string & nullish methods: #94187\n- [turbopack] Break up `graph.rs` in the analyzer into smaller files: #94211\n- [turbopack] Add `explain()` methods to `WellKnownObjectKind` and `WellKnownFunctionKind`: #94217\n- [turbopack] Handle negative numbers as constants in the analyzer: #94218\n- [turbopack] Use `ast_path.kinds()` instead of mapping over `ast_path` in the analyzer: #94221\n- [CLI] Exit non-zero with a clear message when ",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.36",
-      "published_at": "2026-05-31 08:00",
-      "tag": "v16.3.0-canary.36",
       "source": "release"
     }
   ]
