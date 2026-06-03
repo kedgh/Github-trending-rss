@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-03 10:57",
+  "updated": "2026-06-03 18:45",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,39 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.25.1",
+      "name": "n8n-io/n8n n8n@1.123.51",
       "repo": "n8n-io/n8n",
-      "description": "# [2.25.1](https://github.com/n8n-io/n8n/compare/n8n@2.24.0...n8n@2.25.1) (2026-06-02)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* **cli:** Decouple agent library bundle from build:data ([#31293](https://github.com/n8n-io/n8n/issues/31293)) ([70ab5e5](https://github.com/n8n-io/n8n/commit/70ab5e582821ec50778e7aba01cbd1896879f3ff))\r\n* **Compression Node:** Add decompression output size validation ([#31366](https://github.com/n8n-io/n8n/issues/31366)) ([90dd93c](https://github.com/n8n-io/n8n/commit/90dd93c7723f33f71ea",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.25.1",
-      "published_at": "2026-06-02 18:51",
-      "tag": "n8n@2.25.1",
+      "description": "## [1.123.51](https://github.com/n8n-io/n8n/compare/n8n@1.123.50...n8n@1.123.51) (2026-06-03)\n\n\n### Bug Fixes\n\n* **core:** Quiet VM expression engine logs on the happy path ([#31566](https://github.com/n8n-io/n8n/issues/31566)) ([1c35031](https://github.com/n8n-io/n8n/commit/1c350312abbef4312507c9d0990f271f2da9f6a9))\n* **core:** Re-register expression metrics after Prometheus registry reset ([#31567](https://github.com/n8n-io/n8n/issues/31567)) ([497bf6b](https://github.com/n8n-io/n8n/commit/497",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.51",
+      "published_at": "2026-06-03 18:21",
+      "tag": "n8n@1.123.51",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n n8n@2.25.2",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.25.2](https://github.com/n8n-io/n8n/compare/n8n@2.25.1...n8n@2.25.2) (2026-06-03)\n\n\n### Bug Fixes\n\n* **core:** External agent channels correctly utilise the user ID for episodic memory ([#31589](https://github.com/n8n-io/n8n/issues/31589)) ([db938fc](https://github.com/n8n-io/n8n/commit/db938fc9390f68f9b477b34a8bb01b1243a19456))\n* **core:** The n8n import:workflow --activeState=fromJson cli can fail for subworkflow dependencies ([#31569](https://github.com/n8n-io/n8n/issues/31569)) ([1671e",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.25.2",
+      "published_at": "2026-06-03 17:09",
+      "tag": "n8n@2.25.2",
       "source": "release"
     },
     {
       "name": "n8n-io/n8n beta",
       "repo": "n8n-io/n8n",
-      "description": "# [2.25.1](https://github.com/n8n-io/n8n/compare/n8n@2.24.0...n8n@2.25.1) (2026-06-02)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* **cli:** Decouple agent library bundle from build:data ([#31293](https://github.com/n8n-io/n8n/issues/31293)) ([70ab5e5](https://github.com/n8n-io/n8n/commit/70ab5e582821ec50778e7aba01cbd1896879f3ff))\r\n* **Compression Node:** Add decompression output size validation ([#31366](https://github.com/n8n-io/n8n/issues/31366)) ([90dd93c](https://github.com/n8n-io/n8n/commit/90dd93c7723f33f71ea",
+      "description": "## [2.25.2](https://github.com/n8n-io/n8n/compare/n8n@2.25.1...n8n@2.25.2) (2026-06-03)\n\n\n### Bug Fixes\n\n* **core:** External agent channels correctly utilise the user ID for episodic memory ([#31589](https://github.com/n8n-io/n8n/issues/31589)) ([db938fc](https://github.com/n8n-io/n8n/commit/db938fc9390f68f9b477b34a8bb01b1243a19456))\n* **core:** The n8n import:workflow --activeState=fromJson cli can fail for subworkflow dependencies ([#31569](https://github.com/n8n-io/n8n/issues/31569)) ([1671e",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-06-02 18:51",
+      "published_at": "2026-06-03 17:09",
       "tag": "beta",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n stable",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.22.6](https://github.com/n8n-io/n8n/compare/n8n@2.22.5...n8n@2.22.6) (2026-06-01)\n\n\n### Bug Fixes\n\n* **core:** Insights page shows license paywall for licensed users ([#31453](https://github.com/n8n-io/n8n/issues/31453)) ([41db3cd](https://github.com/n8n-io/n8n/commit/41db3cded4117eb62b613b660e6ae3f0e02ffda0))\n* **core:** Preserve code-builder thread suffix when parsing session ([#31309](https://github.com/n8n-io/n8n/issues/31309)) ([e062c20](https://github.com/n8n-io/n8n/commit/e062c2064f",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-06-01 18:37",
-      "tag": "stable",
+      "name": "vercel/next.js v16.3.0-canary.39",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Upgrade React from `c0cd4d5d-20260527` to `f0dfee38-20260529`: #94245\n- Turbopack: fix pages index normalization for --debug-build-paths: #94341\n\n### Credits \n\nHuge thanks to @vercel-release-bot and @mischnic for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.39",
+      "published_at": "2026-06-03 16:39",
+      "tag": "v16.3.0-canary.39",
       "source": "release"
     },
     {
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.37",
       "published_at": "2026-06-02 08:11",
       "tag": "v16.3.0-canary.37",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.2.7",
-      "repo": "vercel/next.js",
-      "description": "> [!NOTE]\r\n> This release is backporting bug fixes. It does **not** include all pending features/changes on canary.\r\n\r\n### Core Changes\r\n\r\n- Backport documentation fixes for v16.2 (#93804)\r\n- [backport] Patch `playwright-core` to resolve `_finishedPromise` on `requestFailed` (#93920)\r\n- [backport] Fix dev mode hydration failure when page is served from HTTP cache (#93492)\r\n- [backport] Fix catch-all `router.query` corruption with `basePath` + `rewrites` (#93917)\r\n- [backport] Encode non-ASCII ch",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.7",
-      "published_at": "2026-06-02 03:53",
-      "tag": "v16.2.7",
       "source": "release"
     }
   ]
