@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-06-04 00:21",
+  "updated": "2026-06-04 04:48",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-deepseek==1.1.0",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-deepseek==1.0.1\n\nchore(infra): bump `langchain-tests` floor to 1.1.9 (#37610)\nchore: bump idna from 3.10 to 3.15 in /libs/partners/deepseek (#37560)\nci(infra): harden Dependabot version-bound preservation (#37510)\nchore: bump urllib3 from 2.6.3 to 2.7.0 in /libs/partners/deepseek (#37341)\nchore: bump langchain-core from 1.3.2 to 1.3.3 in /libs/partners/deepseek (#37282)\nchore: bump langsmith from 0.7.31 to 0.8.3 in /libs/partners/deepseek (#37283)\nchore(docs): update x ha",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.1.0",
+      "published_at": "2026-06-04 03:07",
+      "tag": "langchain-deepseek==1.1.0",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain==1.3.4",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.3",
       "published_at": "2026-06-03 02:20",
       "tag": "langchain==1.3.3",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-anthropic==1.4.4",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-anthropic==1.4.3\n\nrelease(anthropic): 1.4.4 (#37757)\nfix(anthropic): normalize cross-provider tool-call IDs (#37756)\ntest(anthropic): retry integration tests on transient failures (#37697)\nchore(infra): bump `langchain-tests` floor to 1.1.9 (#37610)\nchore: bump langsmith from 0.8.3 to 0.8.5 in /libs/partners/anthropic (#37564)\nchore: bump idna from 3.11 to 3.15 in /libs/partners/anthropic (#37565)\nci(infra): harden Dependabot version-bound preservation (#37510)\nchore(infr",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.4",
-      "published_at": "2026-05-29 04:20",
-      "tag": "langchain-anthropic==1.4.4",
       "source": "release"
     },
     {
@@ -58,30 +58,30 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.30.4-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* llama.cpp version update by @dhiltgen in https://github.com/ollama/ollama/pull/16463\r\n* Kill llama-server during Windows cleanup by @dhiltgen in https://github.com/ollama/ollama/pull/16458\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.3...v0.30.4-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.4-rc0",
+      "published_at": "2026-06-04 02:48",
+      "tag": "v0.30.4-rc0",
+      "source": "release"
+    },
+    {
+      "name": "ollama/ollama v0.30.3",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* models: add support for gemma4-12b by @pdevine in https://github.com/ollama/ollama/pull/16457\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.2...v0.30.3",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.3",
+      "published_at": "2026-06-04 00:35",
+      "tag": "v0.30.3",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.30.2",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* feat(launch): show and auto-install Cline CLI by @hoyyeva in https://github.com/ollama/ollama/pull/16402\r\n* log template details to aid troubleshooting by @dhiltgen in https://github.com/ollama/ollama/pull/16403\r\n* cmd/launch: add Qwen code integration by @hoyyeva in https://github.com/ollama/ollama/pull/15900\r\n* launch: fix opencode local model limits by @dhiltgen in https://github.com/ollama/ollama/pull/16425\r\n* llm: include cached prompt tokens in llama-server counts by @",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.2",
       "published_at": "2026-06-03 08:37",
       "tag": "v0.30.2",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.30.0",
-      "repo": "ollama/ollama",
-      "description": "Ollama 0.30 is now available, with improved compatibility and performance using [llama.cpp](https://github.com/ggml-org/llama.cpp). This augments the MLX engine on Apple Silicon, bringing support to a wider range of hardware.\r\n\r\nThis release brings support for a wider range of models, including GGUF-based models from Hugging Face and your own fine-tuned models along with faster performance on NVIDIA hardware.\r\n\r\n## Known issues:\r\n\r\n* `laguna-xs.2` is not yet supported on Windows/Linux.\r\n* `llama",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0",
-      "published_at": "2026-05-13 22:32",
-      "tag": "v0.30.0",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.24.0",
-      "repo": "ollama/ollama",
-      "description": "## Codex App\r\n\r\nOllama 0.24 includes support for the Codex App, OpenAI's desktop experience for working on Codex threads in parallel with built-in worktree support and git functionality.\r\n\r\n```bash\r\nollama launch codex-app\r\n```\r\n\r\n<img width=\"2088\" height=\"1404\" alt=\"CleanShot 2026-05-14 at 15 04 18@2x\" src=\"https://github.com/user-attachments/assets/53bd7997-19fd-4809-b8f2-b6ed284369c9\" />\r\n\r\n\r\n### Built-in browser\r\nCodex can load local servers and sites in its built-in browser, enabling you to",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.24.0",
-      "published_at": "2026-05-14 10:24",
-      "tag": "v0.24.0",
       "source": "release"
     },
     {
