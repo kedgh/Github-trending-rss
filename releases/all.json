@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-03 04:37",
+  "updated": "2026-06-03 10:57",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.30.2",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* feat(launch): show and auto-install Cline CLI by @hoyyeva in https://github.com/ollama/ollama/pull/16402\r\n* log template details to aid troubleshooting by @dhiltgen in https://github.com/ollama/ollama/pull/16403\r\n* cmd/launch: add Qwen code integration by @hoyyeva in https://github.com/ollama/ollama/pull/15900\r\n* launch: fix opencode local model limits by @dhiltgen in https://github.com/ollama/ollama/pull/16425\r\n* llm: include cached prompt tokens in llama-server counts by @",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.2",
+      "published_at": "2026-06-03 08:37",
+      "tag": "v0.30.2",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.30.0",
       "repo": "ollama/ollama",
       "description": "Ollama 0.30 is now available, with improved compatibility and performance using [llama.cpp](https://github.com/ggml-org/llama.cpp). This augments the MLX engine on Apple Silicon, bringing support to a wider range of hardware.\r\n\r\nThis release brings support for a wider range of models, including GGUF-based models from Hugging Face and your own fine-tuned models along with faster performance on NVIDIA hardware.\r\n\r\n## Known issues:\r\n\r\n* `laguna-xs.2` is not yet supported on Windows/Linux.\r\n* `llama",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.24.0",
       "published_at": "2026-05-14 10:24",
       "tag": "v0.24.0",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.23.4",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* `ollama launch opencode` now supports vision models with image inputs\r\n* Fixed formatting of Claude tool results when using local image paths\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.3...v0.23.4",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.23.4",
-      "published_at": "2026-05-14 04:40",
-      "tag": "v0.23.4",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.38",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [cd] Stop fetching all tags when searching for ancestor tag: #94302\n- chore: lint-language output only warnings and errors: #94261\n- DiskFileSystem: run write effects on a spawned task: #94140\n- Disable `default-case` ESLint rule for type-checked TypeScript files: #94316\n- Handle a purged browser cache on back navigation: #94317\n- Persist debug channel via `IndexedDB` without blocking hydration: #94243\n- Fix debug channel not closing on the client with Node streams: #94268\n- ",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.38",
+      "published_at": "2026-06-03 08:14",
+      "tag": "v16.3.0-canary.38",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.37",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Switch `TotalOrderF64` to `f64` in `ConstantNumber` to correctly handle `NaN === NaN` and `0 === -0` inside the Turbopack analyzer: #94172\n- Use `serde_json::Number` in `CompileTimeDefineValue` and remove `TotalOrderF64`: #94177\n- docs: bodySizeLimit measures raw HTTP body: #94137\n- Update ctor from 0.10 to 1.0.6: #94045\n- Include `--port` in `next internal query-trace` startup hint and help example: #93961\n- Turbopack: refactor NFT to add Endpoint.traced_files: #94224\n- Turb",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.2.7",
       "published_at": "2026-06-02 03:53",
       "tag": "v16.2.7",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v15.5.19",
-      "repo": "vercel/next.js",
-      "description": "> [!NOTE]\r\n> This release is backporting bug fixes. It does **not** include all pending features/changes on canary.\r\n\r\n### Core Changes\r\n\r\n- [15.5.x] Don't drop `FormData` entries (#94244)\r\n\r\n### Other\r\n\r\n- [15.5.x] Fix CI (#94281)\r\n\r\n### Credits\r\n\r\nHuge thanks to @eps1lon for helping!\r\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v15.5.19",
-      "published_at": "2026-06-02 04:09",
-      "tag": "v15.5.19",
       "source": "release"
     }
   ]
