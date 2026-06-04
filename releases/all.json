@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-04 17:44",
+  "updated": "2026-06-04 22:40",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.51",
+      "name": "n8n-io/n8n n8n@2.23.3",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.51](https://github.com/n8n-io/n8n/compare/n8n@1.123.50...n8n@1.123.51) (2026-06-03)\n\n\n### Bug Fixes\n\n* **core:** Quiet VM expression engine logs on the happy path ([#31566](https://github.com/n8n-io/n8n/issues/31566)) ([1c35031](https://github.com/n8n-io/n8n/commit/1c350312abbef4312507c9d0990f271f2da9f6a9))\n* **core:** Re-register expression metrics after Prometheus registry reset ([#31567](https://github.com/n8n-io/n8n/issues/31567)) ([497bf6b](https://github.com/n8n-io/n8n/commit/497",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.51",
-      "published_at": "2026-06-03 18:21",
-      "tag": "n8n@1.123.51",
+      "description": "## [2.23.3](https://github.com/n8n-io/n8n/compare/n8n@2.23.2...n8n@2.23.3) (2026-06-04)\n\n\n### Bug Fixes\n\n* **core:** Prevent evaluation executions from stalling in status new ([#31702](https://github.com/n8n-io/n8n/issues/31702)) ([fde615b](https://github.com/n8n-io/n8n/commit/fde615b6fe3050fe1acb9d520df5af66508abc74))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.23.3",
+      "published_at": "2026-06-04 18:11",
+      "tag": "n8n@2.23.3",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.25.2",
+      "name": "n8n-io/n8n n8n@1.123.52",
       "repo": "n8n-io/n8n",
-      "description": "## [2.25.2](https://github.com/n8n-io/n8n/compare/n8n@2.25.1...n8n@2.25.2) (2026-06-03)\n\n\n### Bug Fixes\n\n* **core:** External agent channels correctly utilise the user ID for episodic memory ([#31589](https://github.com/n8n-io/n8n/issues/31589)) ([db938fc](https://github.com/n8n-io/n8n/commit/db938fc9390f68f9b477b34a8bb01b1243a19456))\n* **core:** The n8n import:workflow --activeState=fromJson cli can fail for subworkflow dependencies ([#31569](https://github.com/n8n-io/n8n/issues/31569)) ([1671e",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.25.2",
-      "published_at": "2026-06-03 17:09",
-      "tag": "n8n@2.25.2",
+      "description": "## [1.123.52](https://github.com/n8n-io/n8n/compare/n8n@1.123.51...n8n@1.123.52) (2026-06-04)\n\n\n### Bug Fixes\n\n* **core:** Reject unsafe property tokens in in-isolate $jmespath ([#31643](https://github.com/n8n-io/n8n/issues/31643)) ([08de252](https://github.com/n8n-io/n8n/commit/08de252a0f49d452cbceb916370ab705ad08155f))\n* **core:** Report only error class and stack for unhandled node errors ([#31640](https://github.com/n8n-io/n8n/issues/31640)) ([fbb9005](https://github.com/n8n-io/n8n/commit/fb",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.52",
+      "published_at": "2026-06-04 18:07",
+      "tag": "n8n@1.123.52",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n beta",
+      "name": "n8n-io/n8n n8n@2.25.3",
       "repo": "n8n-io/n8n",
-      "description": "## [2.25.2](https://github.com/n8n-io/n8n/compare/n8n@2.25.1...n8n@2.25.2) (2026-06-03)\n\n\n### Bug Fixes\n\n* **core:** External agent channels correctly utilise the user ID for episodic memory ([#31589](https://github.com/n8n-io/n8n/issues/31589)) ([db938fc](https://github.com/n8n-io/n8n/commit/db938fc9390f68f9b477b34a8bb01b1243a19456))\n* **core:** The n8n import:workflow --activeState=fromJson cli can fail for subworkflow dependencies ([#31569](https://github.com/n8n-io/n8n/issues/31569)) ([1671e",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-06-03 17:09",
-      "tag": "beta",
+      "description": "## [2.25.3](https://github.com/n8n-io/n8n/compare/n8n@2.25.2...n8n@2.25.3) (2026-06-04)\n\n\n### Bug Fixes\n\n* **core:** Prevent evaluation executions from stalling in status new ([#31701](https://github.com/n8n-io/n8n/issues/31701)) ([4bfa365](https://github.com/n8n-io/n8n/commit/4bfa3657df5fb7c004d6832597233e642ff0c97d))\n\n\n### Features\n\n* Implements AI Assistant empty state workflow previews experiment ([#31663](https://github.com/n8n-io/n8n/issues/31663)) ([ff5e472](https://github.com/n8n-io/n8n/",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.25.3",
+      "published_at": "2026-06-04 18:13",
+      "tag": "n8n@2.25.3",
       "source": "release"
     },
     {
