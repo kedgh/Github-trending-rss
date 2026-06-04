@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-04 22:40",
+  "updated": "2026-06-05 03:55",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.30.5-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* docs: add Cline CLI integration doc by @hoyyeva in https://github.com/ollama/ollama/pull/16341\r\n* integrations: hermes windows install by @BruceMacD in https://github.com/ollama/ollama/pull/16487\r\n* llama.cpp version update by @dhiltgen in https://github.com/ollama/ollama/pull/16511\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.4...v0.30.5-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.5-rc0",
+      "published_at": "2026-06-05 01:00",
+      "tag": "v0.30.5-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.30.4",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* llama.cpp version update by @dhiltgen in https://github.com/ollama/ollama/pull/16463\r\n* Kill llama-server during Windows cleanup by @dhiltgen in https://github.com/ollama/ollama/pull/16458\r\n\r\n\r\n## Known Issues\r\n* gemma4:12b crash with floating point exception\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.3...v0.30.4",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.3",
       "published_at": "2026-06-04 00:35",
       "tag": "v0.30.3",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.30.2",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* feat(launch): show and auto-install Cline CLI by @hoyyeva in https://github.com/ollama/ollama/pull/16402\r\n* log template details to aid troubleshooting by @dhiltgen in https://github.com/ollama/ollama/pull/16403\r\n* cmd/launch: add Qwen code integration by @hoyyeva in https://github.com/ollama/ollama/pull/15900\r\n* launch: fix opencode local model limits by @dhiltgen in https://github.com/ollama/ollama/pull/16425\r\n* llm: include cached prompt tokens in llama-server counts by @",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.2",
-      "published_at": "2026-06-03 08:37",
-      "tag": "v0.30.2",
       "source": "release"
     },
     {
