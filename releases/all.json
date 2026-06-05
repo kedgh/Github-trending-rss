@@ -1,8 +1,26 @@
 {
   "title": "Releases",
-  "updated": "2026-06-05 22:28",
+  "updated": "2026-06-06 03:43",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-perplexity==1.3.2",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-perplexity==1.3.1\n\nrelease(perplexity): 1.3.2 (#37925)\nfix(perplexity): serialize `ToolMessage` and `AIMessage.tool_calls` (#37911)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.3.2",
+      "published_at": "2026-06-06 03:21",
+      "tag": "langchain-perplexity==1.3.2",
+      "source": "release"
+    },
+    {
+      "name": "langchain-ai/langchain langchain-core==1.4.1",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-core==1.4.0\n\nrelease(core): 1.4.1 (#37922)\nfix(core): remove Bedrock prevalidation from `load` (#37909)\ndocs(core): expand and link `ModelProfile` docstrings (#37904)\nrelease(anthropic): 1.4.4 (#37757)\nchore(core): bump `uuid-utils` to 0.16.0 (#37699)\nchore(infra): bump `langchain-tests` floor to 1.1.9 (#37610)\nrelease(standard-tests): 1.1.9 (#37609)\nchore: bump idna from 3.11 to 3.15 in /libs/core (#37539)\nci(infra): harden Dependabot version-bound preservation (#37510)\n",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.1",
+      "published_at": "2026-06-05 22:51",
+      "tag": "langchain-core==1.4.1",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-deepseek==1.1.0",
       "repo": "langchain-ai/langchain",
@@ -10,24 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.1.0",
       "published_at": "2026-06-04 03:07",
       "tag": "langchain-deepseek==1.1.0",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain==1.3.4",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==1.3.3\n\nrelease(langchain): 1.3.4 (#37861)\nfix(langchain): improve HITL rejection guidance (#37859)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.4",
-      "published_at": "2026-06-03 04:05",
-      "tag": "langchain==1.3.4",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain==1.3.3",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==1.3.2\n\nrelease(langchain): 1.3.3 (#37843)\nchore(langchain): bump `langgraph` to 1.2.4 (#37857)\nchore(langchain): loosen `langgraph` dep range (#37855)\nfeat(langchain): project subagent runs onto typed run.subagents channel (#37739)\nfeat(langchain): add `interrupt_mode` and `when` predicate to `HumanInTheLoopMiddleware` (#37579)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.3",
-      "published_at": "2026-06-03 02:20",
-      "tag": "langchain==1.3.3",
       "source": "release"
     },
     {
