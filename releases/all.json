@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-05 17:33",
+  "updated": "2026-06-05 22:28",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.23.3",
+      "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.23.3](https://github.com/n8n-io/n8n/compare/n8n@2.23.2...n8n@2.23.3) (2026-06-04)\n\n\n### Bug Fixes\n\n* **core:** Prevent evaluation executions from stalling in status new ([#31702](https://github.com/n8n-io/n8n/issues/31702)) ([fde615b](https://github.com/n8n-io/n8n/commit/fde615b6fe3050fe1acb9d520df5af66508abc74))",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.23.3",
-      "published_at": "2026-06-04 18:11",
-      "tag": "n8n@2.23.3",
+      "description": "## [2.23.4](https://github.com/n8n-io/n8n/compare/n8n@2.23.3...n8n@2.23.4) (2026-06-05)\n\n\n### Bug Fixes\n\n* **core:** Polyfill DOMMatrix when parsing PDFs in Data Loader ([#31700](https://github.com/n8n-io/n8n/issues/31700)) ([f80c96a](https://github.com/n8n-io/n8n/commit/f80c96aa6b14994f7c2781eaf99ad5eafbd93c11))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-06-05 19:13",
+      "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.52",
+      "name": "n8n-io/n8n n8n@2.23.4",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.52](https://github.com/n8n-io/n8n/compare/n8n@1.123.51...n8n@1.123.52) (2026-06-04)\n\n\n### Bug Fixes\n\n* **core:** Reject unsafe property tokens in in-isolate $jmespath ([#31643](https://github.com/n8n-io/n8n/issues/31643)) ([08de252](https://github.com/n8n-io/n8n/commit/08de252a0f49d452cbceb916370ab705ad08155f))\n* **core:** Report only error class and stack for unhandled node errors ([#31640](https://github.com/n8n-io/n8n/issues/31640)) ([fbb9005](https://github.com/n8n-io/n8n/commit/fb",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.52",
-      "published_at": "2026-06-04 18:07",
-      "tag": "n8n@1.123.52",
+      "description": "## [2.23.4](https://github.com/n8n-io/n8n/compare/n8n@2.23.3...n8n@2.23.4) (2026-06-05)\n\n\n### Bug Fixes\n\n* **core:** Polyfill DOMMatrix when parsing PDFs in Data Loader ([#31700](https://github.com/n8n-io/n8n/issues/31700)) ([f80c96a](https://github.com/n8n-io/n8n/commit/f80c96aa6b14994f7c2781eaf99ad5eafbd93c11))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.23.4",
+      "published_at": "2026-06-05 19:13",
+      "tag": "n8n@2.23.4",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.25.3",
+      "name": "n8n-io/n8n n8n@1.123.53",
       "repo": "n8n-io/n8n",
-      "description": "## [2.25.3](https://github.com/n8n-io/n8n/compare/n8n@2.25.2...n8n@2.25.3) (2026-06-04)\n\n\n### Bug Fixes\n\n* **core:** Prevent evaluation executions from stalling in status new ([#31701](https://github.com/n8n-io/n8n/issues/31701)) ([4bfa365](https://github.com/n8n-io/n8n/commit/4bfa3657df5fb7c004d6832597233e642ff0c97d))\n\n\n### Features\n\n* Implements AI Assistant empty state workflow previews experiment ([#31663](https://github.com/n8n-io/n8n/issues/31663)) ([ff5e472](https://github.com/n8n-io/n8n/",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.25.3",
-      "published_at": "2026-06-04 18:13",
-      "tag": "n8n@2.25.3",
+      "description": "## [1.123.53](https://github.com/n8n-io/n8n/compare/n8n@1.123.52...n8n@1.123.53) (2026-06-05)\n\n\n### Bug Fixes\n\n* Backport bumps ([#31727](https://github.com/n8n-io/n8n/issues/31727)) ([410418a](https://github.com/n8n-io/n8n/commit/410418a741e5b703a61ab968e8beda6f70fc0593))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.53",
+      "published_at": "2026-06-05 17:59",
+      "tag": "n8n@1.123.53",
       "source": "release"
     },
     {
