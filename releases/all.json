@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-06 03:43",
+  "updated": "2026-06-06 10:27",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.30.6",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* `ollama launch omp` now integrates with [Oh My Pi](https://omp.sh), an AI coding agent with IDE integration\r\n* MLX embedding layers now use NVFP4 global scale for improved quantization on Apple Silicon\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.5...v0.30.6",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.6",
+      "published_at": "2026-06-06 04:00",
+      "tag": "v0.30.6",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.30.5",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* Fix gemma4:12b floating point exception crash\r\n* integrations: hermes windows install by @BruceMacD in https://github.com/ollama/ollama/pull/16487\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.4...v0.30.5",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.4",
       "published_at": "2026-06-04 02:48",
       "tag": "v0.30.4",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.30.3",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* models: add support for gemma4-12b by @pdevine in https://github.com/ollama/ollama/pull/16457\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.2...v0.30.3",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.3",
-      "published_at": "2026-06-04 00:35",
-      "tag": "v0.30.3",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.42",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [turbopack] Treat local `const` assignments as side-effect free: #94294\n- [turbopack] Remove worker helpers from the default runtime: #94372\n- Extract App Shell from static prefetches: #94095\n- docs: correct wording and casing in turbopack tracing guide: #94469\n- Turbopack: refactor ServerActionManifestAsset to be lazy: #94377\n- docs: typos and errors outside docs, error, examples folders: #94472\n- Update vendored lodash to 4.18.1: #94473\n- chore: reword cacheComponents jsDoc",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.42",
+      "published_at": "2026-06-06 08:03",
+      "tag": "v16.3.0-canary.42",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.41",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- make `TaskInput::is_resolved` inlinable everywhere: #94213\n- [App Shells] staged shell rendering in cached navs: #94441\n- [App Shells] staged shell rendering during build: #94442\n- docs: fix typos in `testing.md`: #94446\n- Keep the dev React debug channel on Node streams end to end: #94433\n- test: pin material-ui link fixture dependencies: #94354\n- Revert \"Keep the dev React debug channel on Node streams end to end\": #94459\n- [turbopack] Only ship top-level async support in t",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.40",
       "published_at": "2026-06-04 08:16",
       "tag": "v16.3.0-canary.40",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.39",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Upgrade React from `c0cd4d5d-20260527` to `f0dfee38-20260529`: #94245\n- Turbopack: fix pages index normalization for --debug-build-paths: #94341\n\n### Credits \n\nHuge thanks to @vercel-release-bot and @mischnic for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.39",
-      "published_at": "2026-06-03 16:39",
-      "tag": "v16.3.0-canary.39",
       "source": "release"
     }
   ]
