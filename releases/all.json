@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-07 03:07",
+  "updated": "2026-06-07 10:45",
   "count": 15,
   "items": [
     {
@@ -60,7 +60,7 @@
     {
       "name": "ollama/ollama v0.30.6",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* `ollama launch omp` now integrates with [Oh My Pi](https://omp.sh), an AI coding agent with IDE integration\r\n* MLX embedding layers now use NVFP4 global scale for improved quantization on Apple Silicon\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.5...v0.30.6",
+      "description": "# New models\r\n- [Gemma 4 QAT weights](https://ollama.com/library/gemma4): the Gemma 4 family is now optimized with Quantization-Aware Training (QAT) to dramatically reduce memory requirements and maximize on-device performance. Look for the tags ending in `-qat`:\r\n  - `gemma4:e2b-it-qat`\r\n  - `gemma4:e4b-it-qat`\r\n  - `gemma4:12b-it-qat`\r\n  - `gemma4:26b-a4b-it-qat`\r\n  - `gemma4:31b-it-qat`\r\n\r\n\r\n## What's Changed\r\n* `ollama launch omp` now integrates with [Oh My Pi](https://omp.sh), an AI coding ",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.6",
       "published_at": "2026-06-06 04:00",
       "tag": "v0.30.6",
@@ -69,7 +69,7 @@
     {
       "name": "ollama/ollama v0.30.5",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* Fix gemma4:12b floating point exception crash\r\n* integrations: hermes windows install by @BruceMacD in https://github.com/ollama/ollama/pull/16487\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.4...v0.30.5",
+      "description": "## What's Changed\r\n\r\n* Fixed the `gemma4:12b` floating point exception crash on x86, CUDA, Linux, and Windows systems.\r\n* `ollama launch hermes-desktop` now launches Hermes Desktop and can skip rebuilding when a packaged desktop app is already installed.\r\n* `ollama launch hermes` now supports native Windows installs through the Hermes PowerShell installer.\r\n* Added Cline CLI integration docs.\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.4...v0.30.5",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.5",
       "published_at": "2026-06-05 01:00",
       "tag": "v0.30.5",
@@ -78,7 +78,7 @@
     {
       "name": "ollama/ollama v0.30.4",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* llama.cpp version update by @dhiltgen in https://github.com/ollama/ollama/pull/16463\r\n* Kill llama-server during Windows cleanup by @dhiltgen in https://github.com/ollama/ollama/pull/16458\r\n\r\n\r\n## Known Issues\r\n* gemma4:12b crash with floating point exception\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.3...v0.30.4",
+      "description": "# New models\r\n- [Nemotron-3-Ultra](https://ollama.com/library/nemotron-3-ultra): NVIDIA Nemotron 3 Ultra is built for high-throughput reasoning and long-running agent workflows.\r\n\r\n## What's Changed\r\n\r\n* Fixed multimodal models not using GPU on the llama.cpp backend can now use Metal GPU offload on Apple Silicon, improving multimodal performance on supported Macs.\r\n* `ollama create --experimental` now respects `REQUIRES` in Modelfiles for MLX-based models.\r\n* `ollama launch codex` now cleans up ",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.4",
       "published_at": "2026-06-04 02:48",
       "tag": "v0.30.4",
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.43",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Revert \"[ci] Increase TEST_CONCURRENCY from 8 to 12 (#94138)\": #94517\n\n### Credits \n\nHuge thanks to @bgw for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.43",
+      "published_at": "2026-06-07 07:58",
+      "tag": "v16.3.0-canary.43",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.42",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- [turbopack] Treat local `const` assignments as side-effect free: #94294\n- [turbopack] Remove worker helpers from the default runtime: #94372\n- Extract App Shell from static prefetches: #94095\n- docs: correct wording and casing in turbopack tracing guide: #94469\n- Turbopack: refactor ServerActionManifestAsset to be lazy: #94377\n- docs: typos and errors outside docs, error, examples folders: #94472\n- Update vendored lodash to 4.18.1: #94473\n- chore: reword cacheComponents jsDoc",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.41",
       "published_at": "2026-06-05 08:04",
       "tag": "v16.3.0-canary.41",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.40",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- docs: add GitHub SSH authentication guidance: #94360\n- Deprecate undocumented custom server methods: #94348\n- Trace cacheHandler and cacheHandlers when using adapters: #94197\n- refactor: make stage advancing logic more generic: #94349\n- docs: document Cache Components behavior for navigation hooks: #94387\n- fix: build hangs if sync IO aborts before root chunk is flushed: #94365\n- refactor: make early/late checks stricter: #94358\n- refactor: remove delayUntilRuntimeStage: #943",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.40",
-      "published_at": "2026-06-04 08:16",
-      "tag": "v16.3.0-canary.40",
       "source": "release"
     }
   ]
