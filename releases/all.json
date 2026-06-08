@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-08 18:20",
+  "updated": "2026-06-08 23:33",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,39 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n stable",
+      "name": "n8n-io/n8n n8n@1.123.54",
       "repo": "n8n-io/n8n",
-      "description": "## [2.23.4](https://github.com/n8n-io/n8n/compare/n8n@2.23.3...n8n@2.23.4) (2026-06-05)\n\n\n### Bug Fixes\n\n* **core:** Polyfill DOMMatrix when parsing PDFs in Data Loader ([#31700](https://github.com/n8n-io/n8n/issues/31700)) ([f80c96a](https://github.com/n8n-io/n8n/commit/f80c96aa6b14994f7c2781eaf99ad5eafbd93c11))",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-06-05 19:13",
-      "tag": "stable",
+      "description": "## [1.123.54](https://github.com/n8n-io/n8n/compare/n8n@1.123.53...n8n@1.123.54) (2026-06-08)\n\n\n### Bug Fixes\n\n* **core:** Insights page shows paywall for licensed users due to posthog init failing [1.x backport] ([#31889](https://github.com/n8n-io/n8n/issues/31889)) ([4412736](https://github.com/n8n-io/n8n/commit/44127368bbf05bae13a7c2e4a825bc76fa1ca1a3))\n* Fix 9 security issues in samlify, tmp, fengari and 7 more ([#31785](https://github.com/n8n-io/n8n/issues/31785)) ([68aade4](https://github.",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.54",
+      "published_at": "2026-06-08 18:23",
+      "tag": "n8n@1.123.54",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.23.4",
+      "name": "n8n-io/n8n n8n@2.25.6",
       "repo": "n8n-io/n8n",
-      "description": "## [2.23.4](https://github.com/n8n-io/n8n/compare/n8n@2.23.3...n8n@2.23.4) (2026-06-05)\n\n\n### Bug Fixes\n\n* **core:** Polyfill DOMMatrix when parsing PDFs in Data Loader ([#31700](https://github.com/n8n-io/n8n/issues/31700)) ([f80c96a](https://github.com/n8n-io/n8n/commit/f80c96aa6b14994f7c2781eaf99ad5eafbd93c11))",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.23.4",
-      "published_at": "2026-06-05 19:13",
-      "tag": "n8n@2.23.4",
+      "description": "## [2.25.6](https://github.com/n8n-io/n8n/compare/n8n@2.25.5...n8n@2.25.6) (2026-06-08)\n\n\n### Bug Fixes\n\n* **editor:** Copy only selected markdown editor text ([#31891](https://github.com/n8n-io/n8n/issues/31891)) ([7627351](https://github.com/n8n-io/n8n/commit/7627351cd53c718cea95634d7f343763dac73273))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.25.6",
+      "published_at": "2026-06-08 18:56",
+      "tag": "n8n@2.25.6",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.53",
+      "name": "n8n-io/n8n beta",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.53](https://github.com/n8n-io/n8n/compare/n8n@1.123.52...n8n@1.123.53) (2026-06-05)\n\n\n### Bug Fixes\n\n* Backport bumps ([#31727](https://github.com/n8n-io/n8n/issues/31727)) ([410418a](https://github.com/n8n-io/n8n/commit/410418a741e5b703a61ab968e8beda6f70fc0593))",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.53",
-      "published_at": "2026-06-05 17:59",
-      "tag": "n8n@1.123.53",
+      "description": "## [2.25.6](https://github.com/n8n-io/n8n/compare/n8n@2.25.5...n8n@2.25.6) (2026-06-08)\n\n\n### Bug Fixes\n\n* **editor:** Copy only selected markdown editor text ([#31891](https://github.com/n8n-io/n8n/issues/31891)) ([7627351](https://github.com/n8n-io/n8n/commit/7627351cd53c718cea95634d7f343763dac73273))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-06-08 18:56",
+      "tag": "beta",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.3.0-canary.45",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [turbopack] standardize chunk entry names for webpack and postcss loaders: #94256\n- Add global config to enable Partial Prefetching: #94448\n- Fix: Subtree hints not propagating correctly: #94489\n- Partial Prefetching: Default to App Shell only: #94510\n- Turbopack: refactor into `get_next_client_transforms_rules`: #94487\n- [cna] Use `allowBuilds` instead of `ignoredBuiltDependencies` when using PNPM 11+: #94544\n- Turbopack: content hash polyfill sourcemap file: #94548\n\n### Cre",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.45",
+      "published_at": "2026-06-08 20:35",
+      "tag": "v16.3.0-canary.45",
       "source": "release"
     },
     {
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.43",
       "published_at": "2026-06-07 07:58",
       "tag": "v16.3.0-canary.43",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.42",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [turbopack] Treat local `const` assignments as side-effect free: #94294\n- [turbopack] Remove worker helpers from the default runtime: #94372\n- Extract App Shell from static prefetches: #94095\n- docs: correct wording and casing in turbopack tracing guide: #94469\n- Turbopack: refactor ServerActionManifestAsset to be lazy: #94377\n- docs: typos and errors outside docs, error, examples folders: #94472\n- Update vendored lodash to 4.18.1: #94473\n- chore: reword cacheComponents jsDoc",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.42",
-      "published_at": "2026-06-06 08:03",
-      "tag": "v16.3.0-canary.42",
       "source": "release"
     }
   ]
