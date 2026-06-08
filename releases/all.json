@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-08 03:08",
+  "updated": "2026-06-08 10:49",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.30.7-rc1",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* docs: update Zod example to use native toJSONSchema by @fuleinist in https://github.com/ollama/ollama/pull/14746\r\n* launch: use native Windows Hermes config path by @BruceMacD in https://github.com/ollama/ollama/pull/16558\r\n\r\n## New Contributors\r\n* @fuleinist made their first contribution in https://github.com/ollama/ollama/pull/14746\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.6...v0.30.7-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.7-rc1",
+      "published_at": "2026-06-08 05:51",
+      "tag": "v0.30.7-rc1",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.30.6",
       "repo": "ollama/ollama",
       "description": "# New models\r\n- [Gemma 4 QAT weights](https://ollama.com/library/gemma4): the Gemma 4 family is now optimized with Quantization-Aware Training (QAT) to dramatically reduce memory requirements and maximize on-device performance. Look for the tags ending in `-qat`:\r\n  - `gemma4:e2b-it-qat`\r\n  - `gemma4:e4b-it-qat`\r\n  - `gemma4:12b-it-qat`\r\n  - `gemma4:26b-a4b-it-qat`\r\n  - `gemma4:31b-it-qat`\r\n\r\n\r\n## What's Changed\r\n* `ollama launch omp` now integrates with [Oh My Pi](https://omp.sh), an AI coding ",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.5",
       "published_at": "2026-06-05 01:00",
       "tag": "v0.30.5",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.30.4",
-      "repo": "ollama/ollama",
-      "description": "# New models\r\n- [Nemotron-3-Ultra](https://ollama.com/library/nemotron-3-ultra): NVIDIA Nemotron 3 Ultra is built for high-throughput reasoning and long-running agent workflows.\r\n\r\n## What's Changed\r\n\r\n* Fixed multimodal models not using GPU on the llama.cpp backend can now use Metal GPU offload on Apple Silicon, improving multimodal performance on supported Macs.\r\n* `ollama create --experimental` now respects `REQUIRES` in Modelfiles for MLX-based models.\r\n* `ollama launch codex` now cleans up ",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.4",
-      "published_at": "2026-06-04 02:48",
-      "tag": "v0.30.4",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.44",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Turbopack: remove EcmascriptParsable::parse_original: #94465\n- Turbopack: Add an experimental option for eviction: #94439\n- Specialize client hook prerender abort reasons: #94494\n- enable eviction on canary: #94451\n- Remove turbopackMemoryLimit it is dead: #94483\n- [turbopack] Enable Effects to be evicted: #94173\n\n### Credits \n\nHuge thanks to @lukesandberg and @gnoff for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.44",
+      "published_at": "2026-06-08 07:59",
+      "tag": "v16.3.0-canary.44",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.43",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Revert \"[ci] Increase TEST_CONCURRENCY from 8 to 12 (#94138)\": #94517\n\n### Credits \n\nHuge thanks to @bgw for helping!\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.42",
       "published_at": "2026-06-06 08:03",
       "tag": "v16.3.0-canary.42",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.41",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- make `TaskInput::is_resolved` inlinable everywhere: #94213\n- [App Shells] staged shell rendering in cached navs: #94441\n- [App Shells] staged shell rendering during build: #94442\n- docs: fix typos in `testing.md`: #94446\n- Keep the dev React debug channel on Node streams end to end: #94433\n- test: pin material-ui link fixture dependencies: #94354\n- Revert \"Keep the dev React debug channel on Node streams end to end\": #94459\n- [turbopack] Only ship top-level async support in t",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.41",
-      "published_at": "2026-06-05 08:04",
-      "tag": "v16.3.0-canary.41",
       "source": "release"
     }
   ]
