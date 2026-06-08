@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-06-08 23:33",
+  "updated": "2026-06-09 04:03",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-core==1.4.2",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-core==1.4.1\n\nrelease(core): 1.4.2 (#37968)\nfeat(core): deprecate problematic `dict()` method (#31685)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.2",
+      "published_at": "2026-06-09 02:19",
+      "tag": "langchain-core==1.4.2",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-perplexity==1.3.2",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.1",
       "published_at": "2026-06-05 22:51",
       "tag": "langchain-core==1.4.1",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-deepseek==1.1.0",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-deepseek==1.0.1\n\nchore(infra): bump `langchain-tests` floor to 1.1.9 (#37610)\nchore: bump idna from 3.10 to 3.15 in /libs/partners/deepseek (#37560)\nci(infra): harden Dependabot version-bound preservation (#37510)\nchore: bump urllib3 from 2.6.3 to 2.7.0 in /libs/partners/deepseek (#37341)\nchore: bump langchain-core from 1.3.2 to 1.3.3 in /libs/partners/deepseek (#37282)\nchore: bump langsmith from 0.7.31 to 0.8.3 in /libs/partners/deepseek (#37283)\nchore(docs): update x ha",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.1.0",
-      "published_at": "2026-06-04 03:07",
-      "tag": "langchain-deepseek==1.1.0",
       "source": "release"
     },
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.30.7-rc1",
+      "name": "ollama/ollama v0.30.7",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* docs: update Zod example to use native toJSONSchema by @fuleinist in https://github.com/ollama/ollama/pull/14746\r\n* launch: use native Windows Hermes config path by @BruceMacD in https://github.com/ollama/ollama/pull/16558\r\n\r\n## New Contributors\r\n* @fuleinist made their first contribution in https://github.com/ollama/ollama/pull/14746\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.6...v0.30.7-rc1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.7-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.7",
       "published_at": "2026-06-08 05:51",
-      "tag": "v0.30.7-rc1",
+      "tag": "v0.30.7",
       "source": "release"
     },
     {
