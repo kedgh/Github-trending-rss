@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-09 04:03",
+  "updated": "2026-06-09 10:26",
   "count": 15,
   "items": [
     {
@@ -60,7 +60,7 @@
     {
       "name": "ollama/ollama v0.30.7",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* docs: update Zod example to use native toJSONSchema by @fuleinist in https://github.com/ollama/ollama/pull/14746\r\n* launch: use native Windows Hermes config path by @BruceMacD in https://github.com/ollama/ollama/pull/16558\r\n\r\n## New Contributors\r\n* @fuleinist made their first contribution in https://github.com/ollama/ollama/pull/14746\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.6...v0.30.7-rc1",
+      "description": "Ollama Launch now supports Hermes Desktop, a native desktop interface for the Hermes agent. Run it alongside your Hermes agent to get a visual interface for managing conversations, integrations, and messaging apps.\r\n\r\n```\r\nollama launch hermes-desktop\r\n```\r\n<img width=\"2556\" height=\"1716\" alt=\"image\" src=\"https://github.com/user-attachments/assets/3b2292d8-9f94-4d32-9023-85772e6ab3f8\" />\r\n\r\nWhat's Changed\r\n\r\n- Hermes Desktop is now available via `ollama launch hermes-desktop` with native Windows",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.7",
       "published_at": "2026-06-08 05:51",
       "tag": "v0.30.7",
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.46",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- docs: clarify next-env.d.ts regeneration: #94232\n- docs: add updateTag example to cacheTag page: #94508\n- Remove `experimental.useNodeStreams` flag as it's enabled: #93938\n- Remove dead cacheComponents web streams path: #93944\n- [ci] Disable on-call notification if manual deploy e2e tests failed: #94554\n- Reduce new test concurrency to five: #94552\n- fix(dev-overlay): Tidy up issues/insight menu and tab overlay: #94549\n- [turbopack] Remove WebAssembly helpers from the default",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.46",
+      "published_at": "2026-06-09 08:02",
+      "tag": "v16.3.0-canary.46",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.45",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- [turbopack] standardize chunk entry names for webpack and postcss loaders: #94256\n- Add global config to enable Partial Prefetching: #94448\n- Fix: Subtree hints not propagating correctly: #94489\n- Partial Prefetching: Default to App Shell only: #94510\n- Turbopack: refactor into `get_next_client_transforms_rules`: #94487\n- [cna] Use `allowBuilds` instead of `ignoredBuiltDependencies` when using PNPM 11+: #94544\n- Turbopack: content hash polyfill sourcemap file: #94548\n\n### Cre",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.44",
       "published_at": "2026-06-08 07:59",
       "tag": "v16.3.0-canary.44",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.43",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Revert \"[ci] Increase TEST_CONCURRENCY from 8 to 12 (#94138)\": #94517\n\n### Credits \n\nHuge thanks to @bgw for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.43",
-      "published_at": "2026-06-07 07:58",
-      "tag": "v16.3.0-canary.43",
       "source": "release"
     }
   ]
