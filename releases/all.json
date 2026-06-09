@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-09 22:30",
+  "updated": "2026-06-10 03:58",
   "count": 15,
   "items": [
     {
@@ -85,6 +85,15 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n n8n@2.26.1",
+      "repo": "n8n-io/n8n",
+      "description": "No changelog generated. Likely points to fixes in our CI.",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.26.1",
+      "published_at": "2026-06-09 23:53",
+      "tag": "n8n@2.26.1",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n n8n@2.26.0",
       "repo": "n8n-io/n8n",
       "description": "# [2.26.0](https://github.com/n8n-io/n8n/compare/n8n@2.25.1...n8n@2.26.0) (2026-06-09)\n\n\n### Bug Fixes\n\n* **API:** Enforce the redaction floor when creating workflows ([#31898](https://github.com/n8n-io/n8n/issues/31898)) ([03eecb1](https://github.com/n8n-io/n8n/commit/03eecb1f50f144d72bcd074f4bb5710634b53860))\n* **AWS Rekognition Node:** Handle all binary data modes correctly ([#31065](https://github.com/n8n-io/n8n/issues/31065)) ([e264e06](https://github.com/n8n-io/n8n/commit/e264e061b4ab3e0cd",
@@ -96,19 +105,10 @@
     {
       "name": "n8n-io/n8n beta",
       "repo": "n8n-io/n8n",
-      "description": "# [2.26.0](https://github.com/n8n-io/n8n/compare/n8n@2.25.1...n8n@2.26.0) (2026-06-09)\n\n\n### Bug Fixes\n\n* **API:** Enforce the redaction floor when creating workflows ([#31898](https://github.com/n8n-io/n8n/issues/31898)) ([03eecb1](https://github.com/n8n-io/n8n/commit/03eecb1f50f144d72bcd074f4bb5710634b53860))\n* **AWS Rekognition Node:** Handle all binary data modes correctly ([#31065](https://github.com/n8n-io/n8n/issues/31065)) ([e264e06](https://github.com/n8n-io/n8n/commit/e264e061b4ab3e0cd",
+      "description": "No changelog generated. Likely points to fixes in our CI.",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-06-09 18:50",
+      "published_at": "2026-06-09 23:53",
       "tag": "beta",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n stable",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.25.6](https://github.com/n8n-io/n8n/compare/n8n@2.25.5...n8n@2.25.6) (2026-06-08)\n\n\n### Bug Fixes\n\n* **editor:** Copy only selected markdown editor text ([#31891](https://github.com/n8n-io/n8n/issues/31891)) ([7627351](https://github.com/n8n-io/n8n/commit/7627351cd53c718cea95634d7f343763dac73273))",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-06-09 18:53",
-      "tag": "stable",
       "source": "release"
     },
     {
