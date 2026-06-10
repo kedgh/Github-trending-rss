@@ -1,33 +1,33 @@
 {
   "title": "Releases",
-  "updated": "2026-06-10 03:58",
+  "updated": "2026-06-10 10:39",
   "count": 15,
   "items": [
     {
-      "name": "langchain-ai/langchain langchain-core==1.4.2",
+      "name": "langchain-ai/langchain langchain==1.3.6",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.4.1\n\nrelease(core): 1.4.2 (#37968)\nfeat(core): deprecate problematic `dict()` method (#31685)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.2",
-      "published_at": "2026-06-09 02:19",
-      "tag": "langchain-core==1.4.2",
+      "description": "Changes since langchain==1.3.5\n\nrelease(langchain): 1.3.6 (#38001)\nfix(langchain): preserve summarization trigger compatibility (#38000)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.6",
+      "published_at": "2026-06-10 08:53",
+      "tag": "langchain==1.3.6",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-perplexity==1.3.2",
+      "name": "langchain-ai/langchain langchain==1.3.5",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-perplexity==1.3.1\n\nrelease(perplexity): 1.3.2 (#37925)\nfix(perplexity): serialize `ToolMessage` and `AIMessage.tool_calls` (#37911)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.3.2",
-      "published_at": "2026-06-06 03:21",
-      "tag": "langchain-perplexity==1.3.2",
+      "description": "Changes since langchain==1.3.4\n\nrelease(langchain): 1.3.5 (#37998)\nfeat(langchain): port AND-capable trigger conditions to `SummarizationMiddleware` (#34576)\nhotfix(openai): min core dep (#37990)\nfeat(openai): support `apply_patch` built-in tool (#37157)\nchore: bump pyarrow from 21.0.0 to 23.0.1 in /libs/langchain_v1 (#37930)\nchore: bump dependencies  (#37892)\nchore: bump aiohttp from 3.13.4 to 3.14.0 in /libs/langchain_v1 (#37888)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.5",
+      "published_at": "2026-06-10 08:15",
+      "tag": "langchain==1.3.5",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-core==1.4.1",
+      "name": "langchain-ai/langchain langchain-perplexity==1.4.0",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.4.0\n\nrelease(core): 1.4.1 (#37922)\nfix(core): remove Bedrock prevalidation from `load` (#37909)\ndocs(core): expand and link `ModelProfile` docstrings (#37904)\nrelease(anthropic): 1.4.4 (#37757)\nchore(core): bump `uuid-utils` to 0.16.0 (#37699)\nchore(infra): bump `langchain-tests` floor to 1.1.9 (#37610)\nrelease(standard-tests): 1.1.9 (#37609)\nchore: bump idna from 3.11 to 3.15 in /libs/core (#37539)\nci(infra): harden Dependabot version-bound preservation (#37510)\n",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.1",
-      "published_at": "2026-06-05 22:51",
-      "tag": "langchain-core==1.4.1",
+      "description": "Changes since langchain-perplexity==1.3.2\n\nrelease(perplexity): 1.4.0 (#37993)\nfeat(perplexity): `bind_tools` and Responses-API tool round-trip (#37934)\nhotfix(openai): min core dep (#37990)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.4.0",
+      "published_at": "2026-06-10 05:22",
+      "tag": "langchain-perplexity==1.4.0",
       "source": "release"
     },
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.3.0-canary.46",
+      "name": "vercel/next.js v16.3.0-preview.2",
       "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- docs: clarify next-env.d.ts regeneration: #94232\n- docs: add updateTag example to cacheTag page: #94508\n- Remove `experimental.useNodeStreams` flag as it's enabled: #93938\n- Remove dead cacheComponents web streams path: #93944\n- [ci] Disable on-call notification if manual deploy e2e tests failed: #94554\n- Reduce new test concurrency to five: #94552\n- fix(dev-overlay): Tidy up issues/insight menu and tab overlay: #94549\n- [turbopack] Remove WebAssembly helpers from the default",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.46",
-      "published_at": "2026-06-09 08:02",
-      "tag": "v16.3.0-canary.46",
+      "description": "### Misc Changes\r\n\r\n- [cd] Ensure wasm binaries get tagged properly: #94621\r\n\r\n### Credits \r\n\r\nHuge thanks to @eps1lon for helping!\r\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.2",
+      "published_at": "2026-06-10 06:11",
+      "tag": "v16.3.0-preview.2",
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.3.0-canary.45",
+      "name": "vercel/next.js v16.3.0-preview.1",
       "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [turbopack] standardize chunk entry names for webpack and postcss loaders: #94256\n- Add global config to enable Partial Prefetching: #94448\n- Fix: Subtree hints not propagating correctly: #94489\n- Partial Prefetching: Default to App Shell only: #94510\n- Turbopack: refactor into `get_next_client_transforms_rules`: #94487\n- [cna] Use `allowBuilds` instead of `ignoredBuiltDependencies` when using PNPM 11+: #94544\n- Turbopack: content hash polyfill sourcemap file: #94548\n\n### Cre",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.45",
-      "published_at": "2026-06-08 20:35",
-      "tag": "v16.3.0-canary.45",
+      "description": "### Misc Changes\r\n\r\n- [cd] Publish preview release with `@preview` NPM dist-tag: #94619\r\n\r\n### Credits \r\n\r\nHuge thanks to @eps1lon for helping!\r\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.1",
+      "published_at": "2026-06-10 06:11",
+      "tag": "v16.3.0-preview.1",
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.3.0-canary.44",
+      "name": "vercel/next.js v16.3.0-preview.0",
       "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Turbopack: remove EcmascriptParsable::parse_original: #94465\n- Turbopack: Add an experimental option for eviction: #94439\n- Specialize client hook prerender abort reasons: #94494\n- enable eviction on canary: #94451\n- Remove turbopackMemoryLimit it is dead: #94483\n- [turbopack] Enable Effects to be evicted: #94173\n\n### Credits \n\nHuge thanks to @lukesandberg and @gnoff for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.44",
-      "published_at": "2026-06-08 07:59",
-      "tag": "v16.3.0-canary.44",
+      "description": "### Misc Changes\r\n\r\n- Rename prefetch option `force-runtime` to `allow-runtime`: #94568\r\n- Remove unstable_instant agent hints; insights validate by default: #94577\r\n- [turbopack] Use an arena for `JSValue`s: #94297\r\n- Stabilize export const prefetch: #94571\r\n- Fix node:stream leak in webpack edge bundles: #94585\r\n- docs: fix 'time zone' spelling in FOUC guide: #93244\r\n- docs: add pnpm installation step to module-not-found error page: #93773\r\n- Stream Cache Components dev render instead of resta",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.0",
+      "published_at": "2026-06-10 06:10",
+      "tag": "v16.3.0-preview.0",
       "source": "release"
     }
   ]
