@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-10 17:42",
+  "updated": "2026-06-10 22:57",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-preview.3",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\r\n\r\n- [turbopack] Enable turbopackFileSystemCacheForBuild by default in non-stable releases: #94616\r\n- [16.3.x-preview] Setup release branch: #94594\r\n- [cd] Publish preview release with `@preview` NPM dist-tag: #94619\r\n- [cd] Ensure wasm binaries get tagged properly: #94621\r\n\r\n### Credits \r\n\r\nHuge thanks to @lukesandberg and @eps1lon for helping!\r\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.3",
+      "published_at": "2026-06-10 22:15",
+      "tag": "v16.3.0-preview.3",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-preview.2",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\r\n\r\n- [cd] Ensure wasm binaries get tagged properly: #94621\r\n\r\n### Credits \r\n\r\nHuge thanks to @eps1lon for helping!\r\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.1",
       "published_at": "2026-06-10 06:11",
       "tag": "v16.3.0-preview.1",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-preview.0",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\r\n\r\n- Rename prefetch option `force-runtime` to `allow-runtime`: #94568\r\n- Remove unstable_instant agent hints; insights validate by default: #94577\r\n- [turbopack] Use an arena for `JSValue`s: #94297\r\n- Stabilize export const prefetch: #94571\r\n- Fix node:stream leak in webpack edge bundles: #94585\r\n- docs: fix 'time zone' spelling in FOUC guide: #93244\r\n- docs: add pnpm installation step to module-not-found error page: #93773\r\n- Stream Cache Components dev render instead of resta",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.0",
-      "published_at": "2026-06-10 06:10",
-      "tag": "v16.3.0-preview.0",
       "source": "release"
     }
   ]
