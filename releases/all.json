@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-06-10 22:57",
+  "updated": "2026-06-11 04:15",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain==1.3.7",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain==1.3.6\n\nrelease(langchain): 1.3.7 (#38024)\nstyle(langchain): add ruff rules ARG (#34435)\nfeat(langchain): add `ProviderToolSearchMiddleware` (#37969)\nchore(langchain): activate mypy `warn_return_any` (#34249)\ntest(langchain): mark legacy trigger view for 2.0 removal (#38002)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.7",
+      "published_at": "2026-06-11 02:20",
+      "tag": "langchain==1.3.7",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain==1.3.6",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.1.3",
       "published_at": "2026-06-10 12:16",
       "tag": "langchain-groq==1.1.3",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain==1.3.5",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==1.3.4\n\nrelease(langchain): 1.3.5 (#37998)\nfeat(langchain): port AND-capable trigger conditions to `SummarizationMiddleware` (#34576)\nhotfix(openai): min core dep (#37990)\nfeat(openai): support `apply_patch` built-in tool (#37157)\nchore: bump pyarrow from 21.0.0 to 23.0.1 in /libs/langchain_v1 (#37930)\nchore: bump dependencies  (#37892)\nchore: bump aiohttp from 3.13.4 to 3.14.0 in /libs/langchain_v1 (#37888)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.5",
-      "published_at": "2026-06-10 08:15",
-      "tag": "langchain==1.3.5",
       "source": "release"
     },
     {
