@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-11 04:15",
+  "updated": "2026-06-11 10:49",
   "count": 15,
   "items": [
     {
@@ -22,12 +22,12 @@
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-groq==1.1.3",
+      "name": "langchain-ai/langchain langchain-mistralai==1.1.5",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-groq==1.1.2\n\nrelease(groq): 1.1.3 (#38009)\nhotfix(openai): min core dep (#37990)\ntest(langchain,partners): disable pytest-benchmark under xdist to silence `PytestBenchmarkWarning` (#37901)\nchore(model-profiles): refresh model profile data (#37726)\nchore(infra): bump `langchain-tests` floor to 1.1.9 (#37610)\nchore: bump idna from 3.10 to 3.15 in /libs/partners/groq (#37556)\nci(infra): harden Dependabot version-bound preservation (#37510)\nchore: bump langsmith from 0.7.31 t",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.1.3",
-      "published_at": "2026-06-10 12:16",
-      "tag": "langchain-groq==1.1.3",
+      "description": "Changes since langchain-mistralai==1.1.4\n\nrelease(mistralai): 1.1.5 (#38038)\nfix(core): support content block tokens in callbacks (#34739)\nhotfix(openai): min core dep (#37990)\nchore(model-profiles): refresh model profile data (#37916)\ntest(langchain,partners): disable pytest-benchmark under xdist to silence `PytestBenchmarkWarning` (#37901)\nchore(model-profiles): refresh model profile data (#37870)\nchore(infra): bump `langchain-tests` floor to 1.1.9 (#37610)\ntest(mistralai): stabilize integrati",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.1.5",
+      "published_at": "2026-06-11 05:53",
+      "tag": "langchain-mistralai==1.1.5",
       "source": "release"
     },
     {
@@ -121,21 +121,21 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.48",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [turbopack] Enable turbopackFileSystemCacheForBuild by default in non-stable releases: #94616\n- Add a cold cache dev indicator: #94611\n- instant: build fix-card Copy AI prompt dynamically from title + link: #94637\n- Stage short-lived `'use cache'` entries correctly in dev: #94645\n- docs: next/root-params references on i18n guide: #94629\n- [ci] Reduce usage of turborepo cache in `build_and_deploy.yml`: #94319\n- [ci] Download fnm directly from GitHub releases and validate check",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.48",
+      "published_at": "2026-06-11 06:49",
+      "tag": "v16.3.0-canary.48",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-preview.2",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\r\n\r\n- [cd] Ensure wasm binaries get tagged properly: #94621\r\n\r\n### Credits \r\n\r\nHuge thanks to @eps1lon for helping!\r\n",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.2",
       "published_at": "2026-06-10 06:11",
       "tag": "v16.3.0-preview.2",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-preview.1",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\r\n\r\n- [cd] Publish preview release with `@preview` NPM dist-tag: #94619\r\n\r\n### Credits \r\n\r\nHuge thanks to @eps1lon for helping!\r\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.1",
-      "published_at": "2026-06-10 06:11",
-      "tag": "v16.3.0-preview.1",
       "source": "release"
     }
   ]
