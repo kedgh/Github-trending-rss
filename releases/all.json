@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-06-12 22:39",
+  "updated": "2026-06-13 03:57",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain==1.3.9",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain==1.3.8\n\nrelease(anthropic): 1.4.6 (#38105)\nrelease(langchain): 1.3.9 (#38104)\nfix(langchain,anthropic): confine file-search results and tighten anthropic `allowed_prefixes` (#38106)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.9",
+      "published_at": "2026-06-13 00:53",
+      "tag": "langchain==1.3.9",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain==1.3.8",
       "repo": "langchain-ai/langchain",
@@ -13,21 +22,12 @@
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-model-profiles==0.0.6",
+      "name": "langchain-ai/langchain langchain-core==1.4.7",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-model-profiles==0.0.5\n\nrelease(model-profiles): 0.0.6 (#38057)\nfeat(standard-tests): validate tool call chunks during streaming (#34707)\nhotfix(core): bump lockfile(s) (#38032)\nrelease(langchain): 1.3.7 (#38024)\nrelease(langchain): 1.3.6 (#38001)\nrelease(langchain): 1.3.5 (#37998)\nhotfix(openai): min core dep (#37990)\nchore: bump idna from 3.11 to 3.15 in /libs/model-profiles (#37538)\nchore: bump the minor-and-patch group across 3 directories with 15 updates (#37515)\nci(i",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-model-profiles%3D%3D0.0.6",
-      "published_at": "2026-06-11 11:06",
-      "tag": "langchain-model-profiles==0.0.6",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.4.6",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.4.5\n\nrelease(core): 1.4.6 (#38061)\nfeat(core,partners): add package version tracking to tracing metadata (#35295)\nfix(core,openai): normalize v1 streamed tool calls (#35983)\nchore(infra): bump mypy to 2.1 and unify type-check config across the monorepo (#36470)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.6",
-      "published_at": "2026-06-11 15:10",
-      "tag": "langchain-core==1.4.6",
+      "description": "Changes since langchain-core==1.4.6\n\nchore: bump tornado from 6.5.5 to 6.5.6 in /libs/core (#38115)\nrelease(core): 1.4.7 (#38111)\nfix(core,partners): rename package version trace metadata (#38110)\nfix(core): fix Pydantic v1 support in tools/runnable (#33698)\nstyle(core,langchain,langchain-classic,partners): replace double backticks in docstrings (#38095)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.7",
+      "published_at": "2026-06-13 03:24",
+      "tag": "langchain-core==1.4.7",
       "source": "release"
     },
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.30.8",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* docs: hermes desktop by @BruceMacD in https://github.com/ollama/ollama/pull/16549\r\n* docs: omp by @BruceMacD in https://github.com/ollama/ollama/pull/16552\r\n* MLX MTP Cache Improvements by @jessegross in https://github.com/ollama/ollama/pull/16363\r\n* mlxrunner: harden linear/embedding layers against over-promotion by @pdevine in https://github.com/ollama/ollama/pull/16682\r\n* Decouple prompt caching from context shift by @koriyoshi2041 in https://github.com/ollama/ollama/pull",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.8",
+      "published_at": "2026-06-13 01:04",
+      "tag": "v0.30.8",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.30.7",
       "repo": "ollama/ollama",
       "description": "Ollama Launch now supports Hermes Desktop, a native desktop interface for the Hermes agent. Run it alongside your Hermes agent to get a visual interface for managing conversations, integrations, and messaging apps.\r\n\r\n```\r\nollama launch hermes-desktop\r\n```\r\n<img width=\"2556\" height=\"1716\" alt=\"image\" src=\"https://github.com/user-attachments/assets/3b2292d8-9f94-4d32-9023-85772e6ab3f8\" />\r\n\r\nWhat's Changed\r\n\r\n- Hermes Desktop is now available via `ollama launch hermes-desktop` with native Windows",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.6",
       "published_at": "2026-06-06 04:00",
       "tag": "v0.30.6",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.30.5",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n\r\n* Fixed the `gemma4:12b` floating point exception crash on x86, CUDA, Linux, and Windows systems.\r\n* `ollama launch hermes-desktop` now launches Hermes Desktop and can skip rebuilding when a packaged desktop app is already installed.\r\n* `ollama launch hermes` now supports native Windows installs through the Hermes PowerShell installer.\r\n* Added Cline CLI integration docs.\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.4...v0.30.5",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.5",
-      "published_at": "2026-06-05 01:00",
-      "tag": "v0.30.5",
       "source": "release"
     },
     {
