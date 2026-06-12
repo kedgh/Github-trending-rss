@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-12 04:11",
+  "updated": "2026-06-12 10:46",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.49",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [turbopack] Rename variables in `path_join` and add tests: #94625\n- Warn on prefetch={true} navigation without Partial Prefetching (dev): #94672\n- Serve stale `'use cache'` entries in the dev server until they expire: #94662\n- Re-fetch dynamic content on navigation with `partialPrefetching` enabled: #94655\n- docs: expand the Cache Components migration guide: #94649\n- Add Owner Stack to \"`prefetch={true}` navigation without Partial Prefetching\" warning: #94683\n- [tubopack] mig",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.49",
+      "published_at": "2026-06-12 08:20",
+      "tag": "v16.3.0-canary.49",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-preview.3",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\r\n\r\n- [turbopack] Enable turbopackFileSystemCacheForBuild by default in non-stable releases: #94616\r\n- [16.3.x-preview] Setup release branch: #94594\r\n- [cd] Publish preview release with `@preview` NPM dist-tag: #94619\r\n- [cd] Ensure wasm binaries get tagged properly: #94621\r\n\r\n### Credits \r\n\r\nHuge thanks to @lukesandberg and @eps1lon for helping!\r\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.48",
       "published_at": "2026-06-11 06:49",
       "tag": "v16.3.0-canary.48",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-preview.2",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\r\n\r\n- [cd] Ensure wasm binaries get tagged properly: #94621\r\n\r\n### Credits \r\n\r\nHuge thanks to @eps1lon for helping!\r\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.2",
-      "published_at": "2026-06-10 06:11",
-      "tag": "v16.3.0-preview.2",
       "source": "release"
     }
   ]
