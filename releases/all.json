@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-06-12 10:46",
+  "updated": "2026-06-12 17:58",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain==1.3.8",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain==1.3.7\n\nrelease(langchain): 1.3.8 (#38096)\nstyle(core,langchain,langchain-classic,partners): replace double backticks in docstrings (#38095)\nrelease(core): 1.4.6 (#38061)\nchore(langchain): add overloads to `create_agent` (#34309)\nchore(infra): bump mypy to 2.1 and unify type-check config across the monorepo (#36470)\nfix(langchain): support async middleware decorator typing (#34584)\nfix(langchain): tighten structured output model fallbacks (#38042)\nrelease(anthropic): 1.4.",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.8",
+      "published_at": "2026-06-12 12:20",
+      "tag": "langchain==1.3.8",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-model-profiles==0.0.6",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.6",
       "published_at": "2026-06-11 15:10",
       "tag": "langchain-core==1.4.6",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.4.5",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.4.4\n\nrelease(core): 1.4.5 (#38056)\nfeat(standard-tests): validate tool call chunks during streaming (#34707)\nfix(core): async tracer `on_chat_model_start` fallback in sync context (#35233)\nfix(langchain): tighten structured output model fallbacks (#38042)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.5",
-      "published_at": "2026-06-11 10:58",
-      "tag": "langchain-core==1.4.5",
       "source": "release"
     },
     {
