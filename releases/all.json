@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-13 03:57",
+  "updated": "2026-06-13 10:38",
   "count": 15,
   "items": [
     {
@@ -60,7 +60,7 @@
     {
       "name": "ollama/ollama v0.30.8",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* docs: hermes desktop by @BruceMacD in https://github.com/ollama/ollama/pull/16549\r\n* docs: omp by @BruceMacD in https://github.com/ollama/ollama/pull/16552\r\n* MLX MTP Cache Improvements by @jessegross in https://github.com/ollama/ollama/pull/16363\r\n* mlxrunner: harden linear/embedding layers against over-promotion by @pdevine in https://github.com/ollama/ollama/pull/16682\r\n* Decouple prompt caching from context shift by @koriyoshi2041 in https://github.com/ollama/ollama/pull",
+      "description": "## What's Changed\r\n* Fixed `ollama launch` selecting the wrong provider in some cases\r\n* Improved prompt caching by decoupling it from context shift for better KV cache reuse\r\n* More stable MLX inference with hardened linear and embedding layers\r\n* MLX runner now creates snapshots during prompt processing and speculative decoding for improved reliability\r\n* Improved recurrent model support with per-boundary states from the gated-delta kernels\r\n\r\n**Full Changelog**: https://github.com/ollama/olla",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.8",
       "published_at": "2026-06-13 01:04",
       "tag": "v0.30.8",
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.50",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [codemod] Write pnpm overrides to pnpm-workspace.yaml on pnpm v11+: #94690\n- [ci] Always upload canary tarballs from the canary branch: #94557\n- docs: document non-streamed bot rendering and Cache Components: #94605\n- [CC] Exclude caches with low stale from static prerenders: #94678\n- [CC] Rename shellStage to streamReleaseStage: #94749\n- [turbopack] Drop data while serializing in `next build`: #94561\n- [turbopack] Optimize cell_dependency representation: #94717\n- [turbopack]",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.50",
+      "published_at": "2026-06-13 08:10",
+      "tag": "v16.3.0-canary.50",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.49",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- [turbopack] Rename variables in `path_join` and add tests: #94625\n- Warn on prefetch={true} navigation without Partial Prefetching (dev): #94672\n- Serve stale `'use cache'` entries in the dev server until they expire: #94662\n- Re-fetch dynamic content on navigation with `partialPrefetching` enabled: #94655\n- docs: expand the Cache Components migration guide: #94649\n- Add Owner Stack to \"`prefetch={true}` navigation without Partial Prefetching\" warning: #94683\n- [tubopack] mig",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.3",
       "published_at": "2026-06-10 22:15",
       "tag": "v16.3.0-preview.3",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.48",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [turbopack] Enable turbopackFileSystemCacheForBuild by default in non-stable releases: #94616\n- Add a cold cache dev indicator: #94611\n- instant: build fix-card Copy AI prompt dynamically from title + link: #94637\n- Stage short-lived `'use cache'` entries correctly in dev: #94645\n- docs: next/root-params references on i18n guide: #94629\n- [ci] Reduce usage of turborepo cache in `build_and_deploy.yml`: #94319\n- [ci] Download fnm directly from GitHub releases and validate check",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.48",
-      "published_at": "2026-06-11 06:49",
-      "tag": "v16.3.0-canary.48",
       "source": "release"
     }
   ]
