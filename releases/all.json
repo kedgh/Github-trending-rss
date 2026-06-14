@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-14 03:10",
+  "updated": "2026-06-14 10:50",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.51",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Avoid a premature Suspense fallback flash in the streaming dev render: #94783\n\n### Credits \n\nHuge thanks to @unstubbable for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.51",
+      "published_at": "2026-06-14 08:00",
+      "tag": "v16.3.0-canary.51",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.50",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- [codemod] Write pnpm overrides to pnpm-workspace.yaml on pnpm v11+: #94690\n- [ci] Always upload canary tarballs from the canary branch: #94557\n- docs: document non-streamed bot rendering and Cache Components: #94605\n- [CC] Exclude caches with low stale from static prerenders: #94678\n- [CC] Rename shellStage to streamReleaseStage: #94749\n- [turbopack] Drop data while serializing in `next build`: #94561\n- [turbopack] Optimize cell_dependency representation: #94717\n- [turbopack]",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.49",
       "published_at": "2026-06-12 08:20",
       "tag": "v16.3.0-canary.49",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-preview.3",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\r\n\r\n- [turbopack] Enable turbopackFileSystemCacheForBuild by default in non-stable releases: #94616\r\n- [16.3.x-preview] Setup release branch: #94594\r\n- [cd] Publish preview release with `@preview` NPM dist-tag: #94619\r\n- [cd] Ensure wasm binaries get tagged properly: #94621\r\n\r\n### Credits \r\n\r\nHuge thanks to @lukesandberg and @eps1lon for helping!\r\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.3",
-      "published_at": "2026-06-10 22:15",
-      "tag": "v16.3.0-preview.3",
       "source": "release"
     }
   ]
