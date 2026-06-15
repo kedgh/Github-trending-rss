@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-16 01:02",
+  "updated": "2026-06-16 04:47",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.30.9-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* llama: update llama.cpp to b9637 by @jmorganca in https://github.com/ollama/ollama/pull/16609\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.8...v0.30.9-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.9-rc0",
+      "published_at": "2026-06-16 03:55",
+      "tag": "v0.30.9-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.30.8",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* Fixed `ollama launch` selecting the wrong provider in some cases\r\n* Improved prompt caching by decoupling it from context shift for better KV cache reuse\r\n* More stable MLX inference with hardened linear and embedding layers\r\n* MLX runner now creates snapshots during prompt processing and speculative decoding for improved reliability\r\n* Improved recurrent model support with per-boundary states from the gated-delta kernels\r\n\r\n**Full Changelog**: https://github.com/ollama/olla",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.7",
       "published_at": "2026-06-08 05:51",
       "tag": "v0.30.7",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.30.6",
-      "repo": "ollama/ollama",
-      "description": "# New models\r\n- [Gemma 4 QAT weights](https://ollama.com/library/gemma4): the Gemma 4 family is now optimized with Quantization-Aware Training (QAT) to dramatically reduce memory requirements and maximize on-device performance. Look for the tags ending in `-qat`:\r\n  - `gemma4:e2b-it-qat`\r\n  - `gemma4:e4b-it-qat`\r\n  - `gemma4:12b-it-qat`\r\n  - `gemma4:26b-a4b-it-qat`\r\n  - `gemma4:31b-it-qat`\r\n\r\n\r\n## What's Changed\r\n* `ollama launch omp` now integrates with [Oh My Pi](https://omp.sh), an AI coding ",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.6",
-      "published_at": "2026-06-06 04:00",
-      "tag": "v0.30.6",
       "source": "release"
     },
     {
