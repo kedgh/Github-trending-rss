@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-16 04:47",
+  "updated": "2026-06-16 10:55",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.30.9-rc0",
+      "name": "ollama/ollama v0.30.9-rc1",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* llama: update llama.cpp to b9637 by @jmorganca in https://github.com/ollama/ollama/pull/16609\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.8...v0.30.9-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.9-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.9-rc1",
       "published_at": "2026-06-16 03:55",
-      "tag": "v0.30.9-rc0",
+      "tag": "v0.30.9-rc1",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.52",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- chore: upgrade next-rspack to rspack 2.0: #92222\n\n### Misc Changes\n\n- docs: Route Handlers to be supported later on: #94705\n- [ci] Allow \"rerun failed jobs\" to work up until 5 days for e2e deploy tests: #94812\n- Fix stale next data API test URL: #94815\n- Format submillisecond durations as milliseconds: #94813\n- Instruct agents to keep and commit the generated agent-rules block: #94725\n- [agents-md] Index bundled docs instead of downloading into .next-docs: #94719\n- docs: add ",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.52",
+      "published_at": "2026-06-16 08:16",
+      "tag": "v16.3.0-canary.52",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.51",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Avoid a premature Suspense fallback flash in the streaming dev render: #94783\n\n### Credits \n\nHuge thanks to @unstubbable for helping!\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.50",
       "published_at": "2026-06-13 08:10",
       "tag": "v16.3.0-canary.50",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.49",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [turbopack] Rename variables in `path_join` and add tests: #94625\n- Warn on prefetch={true} navigation without Partial Prefetching (dev): #94672\n- Serve stale `'use cache'` entries in the dev server until they expire: #94662\n- Re-fetch dynamic content on navigation with `partialPrefetching` enabled: #94655\n- docs: expand the Cache Components migration guide: #94649\n- Add Owner Stack to \"`prefetch={true}` navigation without Partial Prefetching\" warning: #94683\n- [tubopack] mig",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.49",
-      "published_at": "2026-06-12 08:20",
-      "tag": "v16.3.0-canary.49",
       "source": "release"
     }
   ]
