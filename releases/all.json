@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-17 04:41",
+  "updated": "2026-06-17 10:52",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.30.9-rc1",
+      "name": "ollama/ollama v0.30.9",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* Support for Cohere2Moe architecture\r\n* Fixed LFM2 parser/render for cases where thinking was not emitted\r\n* Fixed issue where `ollama launch claude` and other coding agent or assistant use cases would only output one token\r\n* Ollama will now return an error if a single message is larger than the current context window\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.8...v0.30.9-rc1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.9-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.9",
       "published_at": "2026-06-16 03:55",
-      "tag": "v0.30.9-rc1",
+      "tag": "v0.30.9",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.53",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- pass `--locked` to `cargo binstall`: #94834\n- [ci] Use node-version-file when we already have a repository checkout and reduce hardcoded references to node versions: #94780\n- [turbopack] Allocate `Effect`s in an arena: #94614\n- [turbo-tasks] Shrink RawVc to 8 bytes and CellId to 4 bytes: #94792\n- rust react compiler: detect and build for react 18: #94836\n- [test] Unflake `metadata static routes cache` test: #94796\n- [test] Recover from a leftover build process on test retry: ",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.53",
+      "published_at": "2026-06-17 08:10",
+      "tag": "v16.3.0-canary.53",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.52",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- chore: upgrade next-rspack to rspack 2.0: #92222\n\n### Misc Changes\n\n- docs: Route Handlers to be supported later on: #94705\n- [ci] Allow \"rerun failed jobs\" to work up until 5 days for e2e deploy tests: #94812\n- Fix stale next data API test URL: #94815\n- Format submillisecond durations as milliseconds: #94813\n- Instruct agents to keep and commit the generated agent-rules block: #94725\n- [agents-md] Index bundled docs instead of downloading into .next-docs: #94719\n- docs: add ",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.51",
       "published_at": "2026-06-14 08:00",
       "tag": "v16.3.0-canary.51",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.50",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [codemod] Write pnpm overrides to pnpm-workspace.yaml on pnpm v11+: #94690\n- [ci] Always upload canary tarballs from the canary branch: #94557\n- docs: document non-streamed bot rendering and Cache Components: #94605\n- [CC] Exclude caches with low stale from static prerenders: #94678\n- [CC] Rename shellStage to streamReleaseStage: #94749\n- [turbopack] Drop data while serializing in `next build`: #94561\n- [turbopack] Optimize cell_dependency representation: #94717\n- [turbopack]",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.50",
-      "published_at": "2026-06-13 08:10",
-      "tag": "v16.3.0-canary.50",
       "source": "release"
     }
   ]
