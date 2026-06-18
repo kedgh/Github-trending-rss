@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-18 10:48",
+  "updated": "2026-06-18 18:08",
   "count": 15,
   "items": [
     {
@@ -60,7 +60,7 @@
     {
       "name": "ollama/ollama v0.30.10",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* models: add Cohere2MoE model  by @jmorganca in https://github.com/ollama/ollama/pull/16670\r\n* llama: update llama.cpp to b9672 by @pdevine in https://github.com/ollama/ollama/pull/16775\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.9...v0.30.10-rc0",
+      "description": "## What's Changed\r\n\r\n* Command A and North family models now run on Apple Silicon with the MLX engine\r\n* Updated the underlying llama.cpp engine to build 9672\r\n* Fixed build artifacts for MLX\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.9...v0.30.10\r\n",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.10",
       "published_at": "2026-06-18 00:22",
       "tag": "v0.30.10",
