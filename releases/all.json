@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-18 04:03",
+  "updated": "2026-06-18 10:48",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.30.10-rc0",
+      "name": "ollama/ollama v0.30.10",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* models: add Cohere2MoE model  by @jmorganca in https://github.com/ollama/ollama/pull/16670\r\n* llama: update llama.cpp to b9672 by @pdevine in https://github.com/ollama/ollama/pull/16775\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.9...v0.30.10-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.10-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.10",
       "published_at": "2026-06-18 00:22",
-      "tag": "v0.30.10-rc0",
+      "tag": "v0.30.10",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.56",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Let LLMs create less noisy and more focused PR descriptions: #94896\n- Avoid re-logging server-originated errors forwarded from the browser: #94917\n- [ci] Only install chromium-headless-shell and not chromium: #94882\n\n### Credits \n\nHuge thanks to @eps1lon, @unstubbable, and @bgw for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.56",
+      "published_at": "2026-06-18 08:11",
+      "tag": "v16.3.0-canary.56",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.55",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- [cd] Continue release train if `@next/swc-wasm-*` fails to publish: #94912\n\n### Credits \n\nHuge thanks to @eps1lon for helping!\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.53",
       "published_at": "2026-06-17 08:10",
       "tag": "v16.3.0-canary.53",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.52",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- chore: upgrade next-rspack to rspack 2.0: #92222\n\n### Misc Changes\n\n- docs: Route Handlers to be supported later on: #94705\n- [ci] Allow \"rerun failed jobs\" to work up until 5 days for e2e deploy tests: #94812\n- Fix stale next data API test URL: #94815\n- Format submillisecond durations as milliseconds: #94813\n- Instruct agents to keep and commit the generated agent-rules block: #94725\n- [agents-md] Index bundled docs instead of downloading into .next-docs: #94719\n- docs: add ",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.52",
-      "published_at": "2026-06-16 08:16",
-      "tag": "v16.3.0-canary.52",
       "source": "release"
     }
   ]
