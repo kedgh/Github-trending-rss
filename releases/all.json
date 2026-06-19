@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-19 04:13",
+  "updated": "2026-06-19 11:33",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.58",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Fix dev overlay hydration error ordering: #94555\n- [turbopack] Retry chunk loading on failure: #94918\n- Upgrade React from `ad78e251-20260616` to `b1786c31-20260618`: #94951\n- [ci] Update playwright to 1.61.0: #94871\n- [cd] reduce size of npm metadata on publish: #94953\n\n### Credits \n\nHuge thanks to @timneutkens, @sampoder, @vercel-release-bot, @bgw, and @styfle for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.58",
+      "published_at": "2026-06-19 08:15",
+      "tag": "v16.3.0-canary.58",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.57",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Scope the Cold cache indicator in dev to shell cache misses: #94911\n- Fix Instant Navs DevTools capture bugs and re-enable its test suite: #94866\n- docs: fix capitalization of Server and Client Components: #94891\n- docs: Fix broken link to Node.js Debugging Guide: #93958\n- docs: fix broken Node.js inspector URL in debugging guide: #94934\n- examples/with-ably: update to App Router + Ably v2: #94600\n- docs: clarify sequential data fetching example: #94930\n- docs: GtK, caching w",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.56",
       "published_at": "2026-06-18 08:11",
       "tag": "v16.3.0-canary.56",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.55",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [cd] Continue release train if `@next/swc-wasm-*` fails to publish: #94912\n\n### Credits \n\nHuge thanks to @eps1lon for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.55",
-      "published_at": "2026-06-18 03:17",
-      "tag": "v16.3.0-canary.55",
       "source": "release"
     }
   ]
