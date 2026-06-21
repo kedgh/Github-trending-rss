@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-21 03:12",
+  "updated": "2026-06-21 10:53",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.60",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Remove embedded Claude Code plugin marketplace: #94877\n\n### Credits \n\nHuge thanks to @gaojude for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.60",
+      "published_at": "2026-06-21 08:03",
+      "tag": "v16.3.0-canary.60",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.59",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Upgrade to swc 70: #94814\n- [turbopack] Sort modules in chunks to reduce duplicates: #94961\n- router instrumentation: refactor client hook dispatch (1/7): #94755\n- [otel] Add more verbose-mode OTEL spans for App Router: #94894\n- Enforce route segment configs on metadata routes under Cache Components: #94962\n- typegen: default to Turbopack: #94952\n- router instrumentation: add transition start context (2/7): #94766\n- fix: after(callback) called after response end: #94974\n- fix",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.58",
       "published_at": "2026-06-19 08:15",
       "tag": "v16.3.0-canary.58",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.57",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Scope the Cold cache indicator in dev to shell cache misses: #94911\n- Fix Instant Navs DevTools capture bugs and re-enable its test suite: #94866\n- docs: fix capitalization of Server and Client Components: #94891\n- docs: Fix broken link to Node.js Debugging Guide: #93958\n- docs: fix broken Node.js inspector URL in debugging guide: #94934\n- examples/with-ably: update to App Router + Ably v2: #94600\n- docs: clarify sequential data fetching example: #94930\n- docs: GtK, caching w",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.57",
-      "published_at": "2026-06-19 00:35",
-      "tag": "v16.3.0-canary.57",
       "source": "release"
     }
   ]
