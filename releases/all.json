@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-23 22:31",
+  "updated": "2026-06-24 03:51",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.62",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [skills] Mark insight-error-page and next-rspack as internal: #95070\n- Turbopack: Fix log box test on react 18: #95078\n- Turbopack: Avoid clone when sorting by module file path: #95079\n- Fix false-positive `export const dynamic` in Cache Components detection: #95083\n- docs: add Interactive Apps guide: #94020\n\n### Credits \n\nHuge thanks to @gaojude, @bgw, @eps1lon, and @aurorascharff for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.62",
+      "published_at": "2026-06-23 23:22",
+      "tag": "v16.3.0-canary.62",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.61",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- [test] Fix failing determinism test using adapter: #95051\n- docs: fix typo in slot-missing-default.mdx: #94531\n- [otel] Correctly set error code attributes for App API routes: #94979\n- docs: Cache components requires Node.js runtime: #94897\n- [scripts] Write pnpm overrides for pnpm projects in pack/patch helpers: #94747\n- docs(authentication): add Auth and streaming, fix code fences and imports: #95056\n- Statically prerender metadata image routes under Cache Components: #9495",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.60",
       "published_at": "2026-06-21 08:03",
       "tag": "v16.3.0-canary.60",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.59",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Upgrade to swc 70: #94814\n- [turbopack] Sort modules in chunks to reduce duplicates: #94961\n- router instrumentation: refactor client hook dispatch (1/7): #94755\n- [otel] Add more verbose-mode OTEL spans for App Router: #94894\n- Enforce route segment configs on metadata routes under Cache Components: #94962\n- typegen: default to Turbopack: #94952\n- router instrumentation: add transition start context (2/7): #94766\n- fix: after(callback) called after response end: #94974\n- fix",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.59",
-      "published_at": "2026-06-20 08:09",
-      "tag": "v16.3.0-canary.59",
       "source": "release"
     }
   ]
