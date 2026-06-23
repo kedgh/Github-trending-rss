@@ -1,33 +1,33 @@
 {
   "title": "Releases",
-  "updated": "2026-06-23 04:35",
+  "updated": "2026-06-23 10:31",
   "count": 15,
   "items": [
     {
-      "name": "langchain-ai/langchain langchain==1.3.10",
+      "name": "langchain-ai/langchain langchain==1.3.11",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==1.3.9\n\nrelease(langchain): 1.3.10 (#38255)\nchore: bump cryptography from 46.0.7 to 48.0.1 in /libs/langchain_v1 (#38176)\nchore: bump aiohttp from 3.14.0 to 3.14.1 in /libs/langchain_v1 (#38179)\nfix(langchain): switch summary format (#38171)\nfix(langchain): detect provider strategy for dated `gpt-5.2`/`gpt-5.4` snapshots (#38222)\nchore(langchain): improve typing in tests (#38163)\nchore: bump pyjwt from 2.12.0 to 2.13.0 in /libs/langchain_v1 (#38168)\nrelease(openai): 1.3.2",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.10",
-      "published_at": "2026-06-19 03:43",
-      "tag": "langchain==1.3.10",
+      "description": "Changes since langchain==1.3.10\n\nrelease(langchain): 1.3.11 (#38377)\nfix(langchain,openai): only set `strict=True` on tools for OpenAI-compatible models in `ProviderStrategy` (#38370)\nchore: bump pydantic-settings from 2.12.0 to 2.14.2 in /libs/langchain_v1 (#38279)\nchore: bump vcrpy from 8.1.1 to 8.2.1 in /libs/langchain_v1 (#38280)\nchore: bump langsmith from 0.8.9 to 0.8.18 in /libs/langchain_v1 (#38281)\ndocs(langchain): document summarization prompt contract (#38256)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.11",
+      "published_at": "2026-06-23 07:00",
+      "tag": "langchain==1.3.11",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-core==1.4.8",
+      "name": "langchain-ai/langchain langchain-openai==1.3.3",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.4.7\n\nchore: bump jupyter-server from 2.18.0 to 2.20.0 in /libs/core (#38252)\nchore: bump tornado from 6.5.6 to 6.5.7 in /libs/core (#38184)\nchore: bump bleach from 6.3.0 to 6.4.0 in /libs/core (#38198)\nrelease(core): 1.4.8 (#38254)\nrefactor(langchain-classic): remove code for Python < 3.10 (#38194)\nperf(core): memoize `BaseTool.tool_call_schema` subset model and cache `model_json_schema` (#38073)\nstyle(core): fix style in `langchain_core`/`_security` (#38189)\nfix(",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.8",
-      "published_at": "2026-06-19 03:39",
-      "tag": "langchain-core==1.4.8",
+      "description": "Changes since langchain-openai==1.3.2\n\nrelease(openai): 1.3.3 (#38375)\nfix(openai): drop response item ids when `store` is false (#38372)\nfix(langchain,openai): only set `strict=True` on tools for OpenAI-compatible models in `ProviderStrategy` (#38370)\ntest(openai): clarify expected strict schema error (#38338)\nfix(openai): drop `stop` from Responses API payload (#38336)\nchore: bump langsmith from 0.8.5 to 0.8.18 in /libs/partners/openai (#38293)\nchore: bump vcrpy from 8.1.1 to 8.2.1 in /libs/pa",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.3.3",
+      "published_at": "2026-06-23 06:54",
+      "tag": "langchain-openai==1.3.3",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-openai==1.3.2",
+      "name": "langchain-ai/langchain langchain-anthropic==1.4.7",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.3.1\r\n\r\nrelease(openai): 1.3.2 (#38130)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.3.2",
-      "published_at": "2026-06-13 13:42",
-      "tag": "langchain-openai==1.3.2",
+      "description": "Changes since langchain-anthropic==1.4.6\n\nhotfix(anthropic): regenerate cassette (#38376)\nrelease(anthropic): 1.4.7 (#38373)\nchore: bump vcrpy from 8.1.1 to 8.2.1 in /libs/partners/anthropic (#38324)\nchore: bump langsmith from 0.8.5 to 0.8.18 in /libs/partners/anthropic (#38325)\ndocs(anthropic): clarify prompt caching middleware docstring (#38206)\ndocs: refresh `README` installation and resources (#38119)\ntest(core,langchain): update tests for explicit deserialization allowlists (#38118)\nrelease",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.7",
+      "published_at": "2026-06-23 06:56",
+      "tag": "langchain-anthropic==1.4.7",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.61",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [test] Fix failing determinism test using adapter: #95051\n- docs: fix typo in slot-missing-default.mdx: #94531\n- [otel] Correctly set error code attributes for App API routes: #94979\n- docs: Cache components requires Node.js runtime: #94897\n- [scripts] Write pnpm overrides for pnpm projects in pack/patch helpers: #94747\n- docs(authentication): add Auth and streaming, fix code fences and imports: #95056\n- Statically prerender metadata image routes under Cache Components: #9495",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.61",
+      "published_at": "2026-06-23 08:10",
+      "tag": "v16.3.0-canary.61",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.60",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Remove embedded Claude Code plugin marketplace: #94877\n\n### Credits \n\nHuge thanks to @gaojude for helping!\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.59",
       "published_at": "2026-06-20 08:09",
       "tag": "v16.3.0-canary.59",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.58",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Fix dev overlay hydration error ordering: #94555\n- [turbopack] Retry chunk loading on failure: #94918\n- Upgrade React from `ad78e251-20260616` to `b1786c31-20260618`: #94951\n- [ci] Update playwright to 1.61.0: #94871\n- [cd] reduce size of npm metadata on publish: #94953\n\n### Credits \n\nHuge thanks to @timneutkens, @sampoder, @vercel-release-bot, @bgw, and @styfle for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.58",
-      "published_at": "2026-06-19 08:15",
-      "tag": "v16.3.0-canary.58",
       "source": "release"
     }
   ]
