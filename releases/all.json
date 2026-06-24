@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-24 22:10",
+  "updated": "2026-06-25 03:27",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.66",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Revert \"Remove legacy PPR codepaths\": #95113\n- dev-overlay: wire Link prefetch={true} Partial Prefetching warning into Insights: #94798\n- Docs/partial prefetching: #94855\n- [ci] Make preview tarballs available while new Canaries are being published: #95112\n- [cd] add ad-hoc preview release cut from canary: #95086\n- Add missing switch case: #95127\n- Revert \"Add missing switch case\": #95129\n- Fix Navigation Inspector styles in dark mode: #95126\n- [test] Reorder `hmr-intercept-r",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.66",
+      "published_at": "2026-06-25 03:18",
+      "tag": "v16.3.0-canary.66",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.65",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- docs(cache-components): clarify allow-runtime, sync-IO and instant=false, CLS fallback: #94997\n- Keep the resolved cache life for `cacheMaxMemorySize: 0` caches in dev: #95100\n- Avoid mutating `req.headers` when stripping internal headers: #95116\n\n### Credits \n\nHuge thanks to @aurorascharff and @unstubbable for helping!\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.64",
       "published_at": "2026-06-24 15:46",
       "tag": "v16.3.0-canary.64",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.63",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Serve ISR fallback shells in response to prefetch requests: #94534\n- Insights: drop irrelevant fix cards from instant errors: #94926\n- Navigation inspector UI updates: #94959\n- skill(next-cache-components-adoption): clarify prereqs: #95082\n- Turbopack: Delete dead AttachedFileSystem type: #94960\n- Opt Partial Prefetching routes into the runtime stage of Cached Navs: #95097\n- Fix #95015 by pulling a fix to scattered-collect: #95098\n- docs(caching): clarify generateStaticParams",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.63",
-      "published_at": "2026-06-24 08:00",
-      "tag": "v16.3.0-canary.63",
       "source": "release"
     }
   ]
