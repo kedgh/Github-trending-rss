@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-24 03:51",
+  "updated": "2026-06-24 10:32",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.63",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Serve ISR fallback shells in response to prefetch requests: #94534\n- Insights: drop irrelevant fix cards from instant errors: #94926\n- Navigation inspector UI updates: #94959\n- skill(next-cache-components-adoption): clarify prereqs: #95082\n- Turbopack: Delete dead AttachedFileSystem type: #94960\n- Opt Partial Prefetching routes into the runtime stage of Cached Navs: #95097\n- Fix #95015 by pulling a fix to scattered-collect: #95098\n- docs(caching): clarify generateStaticParams",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.63",
+      "published_at": "2026-06-24 08:00",
+      "tag": "v16.3.0-canary.63",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.62",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- [skills] Mark insight-error-page and next-rspack as internal: #95070\n- Turbopack: Fix log box test on react 18: #95078\n- Turbopack: Avoid clone when sorting by module file path: #95079\n- Fix false-positive `export const dynamic` in Cache Components detection: #95083\n- docs: add Interactive Apps guide: #94020\n\n### Credits \n\nHuge thanks to @gaojude, @bgw, @eps1lon, and @aurorascharff for helping!\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.61",
       "published_at": "2026-06-23 08:10",
       "tag": "v16.3.0-canary.61",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.60",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Remove embedded Claude Code plugin marketplace: #94877\n\n### Credits \n\nHuge thanks to @gaojude for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.60",
-      "published_at": "2026-06-21 08:03",
-      "tag": "v16.3.0-canary.60",
       "source": "release"
     }
   ]
