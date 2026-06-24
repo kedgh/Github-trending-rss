@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-24 10:32",
+  "updated": "2026-06-24 16:55",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.64",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Consider merging chunks when `overlap == 1`: #95102\n- [turbopack] Add support for single-entry chunks: #94727\n- Turbopack: add TURBOPACK_DEBUG_CSS_CHUNKING env var: #95080\n- [cd] publish on release tags instead of branch push: #95085\n\n### Credits \n\nHuge thanks to @sampoder, @sokra, and @eps1lon for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.64",
+      "published_at": "2026-06-24 15:46",
+      "tag": "v16.3.0-canary.64",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.63",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Serve ISR fallback shells in response to prefetch requests: #94534\n- Insights: drop irrelevant fix cards from instant errors: #94926\n- Navigation inspector UI updates: #94959\n- skill(next-cache-components-adoption): clarify prereqs: #95082\n- Turbopack: Delete dead AttachedFileSystem type: #94960\n- Opt Partial Prefetching routes into the runtime stage of Cached Navs: #95097\n- Fix #95015 by pulling a fix to scattered-collect: #95098\n- docs(caching): clarify generateStaticParams",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.62",
       "published_at": "2026-06-23 23:22",
       "tag": "v16.3.0-canary.62",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.61",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [test] Fix failing determinism test using adapter: #95051\n- docs: fix typo in slot-missing-default.mdx: #94531\n- [otel] Correctly set error code attributes for App API routes: #94979\n- docs: Cache components requires Node.js runtime: #94897\n- [scripts] Write pnpm overrides for pnpm projects in pack/patch helpers: #94747\n- docs(authentication): add Auth and streaming, fix code fences and imports: #95056\n- Statically prerender metadata image routes under Cache Components: #9495",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.61",
-      "published_at": "2026-06-23 08:10",
-      "tag": "v16.3.0-canary.61",
       "source": "release"
     }
   ]
