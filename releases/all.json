@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-24 16:55",
+  "updated": "2026-06-24 22:10",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,39 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.28.0",
+      "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "# [2.28.0](https://github.com/n8n-io/n8n/compare/n8n@2.27.0...n8n@2.28.0) (2026-06-23)\n\n\n### Bug Fixes\n\n* **API:** Return 409 when deleting a published workflow ([#32600](https://github.com/n8n-io/n8n/issues/32600)) ([1f774c8](https://github.com/n8n-io/n8n/commit/1f774c8ea1a5550d6ba680cdc60190e2f7b210c9))\n* **Bitbucket Trigger Node:** Use account_id to validate credentials instead of username ([#30172](https://github.com/n8n-io/n8n/issues/30172)) ([5dc9c45](https://github.com/n8n-io/n8n/commit/5",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.28.0",
-      "published_at": "2026-06-23 20:19",
-      "tag": "n8n@2.28.0",
+      "description": "## [2.27.4](https://github.com/n8n-io/n8n/compare/n8n@2.27.3...n8n@2.27.4) (2026-06-24)\n\n\n### Bug Fixes\n\n* **core:** Let allowlisted Python packages import their own submodules via relative imports ([#32832](https://github.com/n8n-io/n8n/issues/32832)) ([62e876c](https://github.com/n8n-io/n8n/commit/62e876c01cfec2ac3184dcb93037140760a530d8))\n\n\n### Features\n\n* **core:** Fix building incorrect chained nodes ([#32850](https://github.com/n8n-io/n8n/issues/32850)) ([91ac921](https://github.com/n8n-io",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-06-24 19:03",
+      "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.26.9",
+      "name": "n8n-io/n8n n8n@2.27.4",
       "repo": "n8n-io/n8n",
-      "description": "## [2.26.9](https://github.com/n8n-io/n8n/compare/n8n@2.26.8...n8n@2.26.9) (2026-06-22)\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/32744\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://stagereview.app/assets/gh-open-in-stage-dark.svg\">\n    <img src=\"https://stagereview.app/assets/gh-open-in-stage-light.svg\" alt=\"Open in Stage\">\n  </picture>\n</a>\n\n<!-- stage-review-badge-end -->\n\n<!-- This is an auto-generated descripti",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.26.9",
-      "published_at": "2026-06-22 19:58",
-      "tag": "n8n@2.26.9",
+      "description": "## [2.27.4](https://github.com/n8n-io/n8n/compare/n8n@2.27.3...n8n@2.27.4) (2026-06-24)\n\n\n### Bug Fixes\n\n* **core:** Let allowlisted Python packages import their own submodules via relative imports ([#32832](https://github.com/n8n-io/n8n/issues/32832)) ([62e876c](https://github.com/n8n-io/n8n/commit/62e876c01cfec2ac3184dcb93037140760a530d8))\n\n\n### Features\n\n* **core:** Fix building incorrect chained nodes ([#32850](https://github.com/n8n-io/n8n/issues/32850)) ([91ac921](https://github.com/n8n-io",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.27.4",
+      "published_at": "2026-06-24 19:03",
+      "tag": "n8n@2.27.4",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.60",
+      "name": "n8n-io/n8n n8n@1.123.61",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.60](https://github.com/n8n-io/n8n/compare/n8n@1.123.59...n8n@1.123.60) (2026-06-22)\n\n\n### Bug Fixes\n\n* **core:** Exclude error workflow executions from billable execution count ([#32544](https://github.com/n8n-io/n8n/issues/32544)) ([f3fbfb0](https://github.com/n8n-io/n8n/commit/f3fbfb02b15196d7343c82987b1d23d35084f08a))\n* Fix 21 security issues in tmp, protobufjs, ws and 8 more ([#32687](https://github.com/n8n-io/n8n/issues/32687)) ([bf85807](https://github.com/n8n-io/n8n/commit/bf858",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.60",
-      "published_at": "2026-06-22 18:54",
-      "tag": "n8n@1.123.60",
+      "description": "## [1.123.61](https://github.com/n8n-io/n8n/compare/n8n@1.123.60...n8n@1.123.61) (2026-06-24)\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/32926\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://stagereview.app/assets/gh-open-in-stage-dark.svg\">\n    <img src=\"https://stagereview.app/assets/gh-open-in-stage-light.svg\" alt=\"Open in Stage\">\n  </picture>\n</a>\n\n<!-- stage-review-badge-end -->\n\n<!-- This is an auto-generated des",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.61",
+      "published_at": "2026-06-24 18:47",
+      "tag": "n8n@1.123.61",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.3.0-canary.65",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- docs(cache-components): clarify allow-runtime, sync-IO and instant=false, CLS fallback: #94997\n- Keep the resolved cache life for `cacheMaxMemorySize: 0` caches in dev: #95100\n- Avoid mutating `req.headers` when stripping internal headers: #95116\n\n### Credits \n\nHuge thanks to @aurorascharff and @unstubbable for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.65",
+      "published_at": "2026-06-24 19:17",
+      "tag": "v16.3.0-canary.65",
       "source": "release"
     },
     {
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.63",
       "published_at": "2026-06-24 08:00",
       "tag": "v16.3.0-canary.63",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.62",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [skills] Mark insight-error-page and next-rspack as internal: #95070\n- Turbopack: Fix log box test on react 18: #95078\n- Turbopack: Avoid clone when sorting by module file path: #95079\n- Fix false-positive `export const dynamic` in Cache Components detection: #95083\n- docs: add Interactive Apps guide: #94020\n\n### Credits \n\nHuge thanks to @gaojude, @bgw, @eps1lon, and @aurorascharff for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.62",
-      "published_at": "2026-06-23 23:22",
-      "tag": "v16.3.0-canary.62",
       "source": "release"
     }
   ]
