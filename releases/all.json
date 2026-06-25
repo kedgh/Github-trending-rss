@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-25 03:27",
+  "updated": "2026-06-25 10:33",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.30.11-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* launch: add thinking capability detection to opencode by @hoyyeva in https://github.com/ollama/ollama/pull/15434\r\n* launch: auto-install Claude Code by @hoyyeva in https://github.com/ollama/ollama/pull/16802\r\n* launch: auto-install opencode when missing by @hoyyeva in https://github.com/ollama/ollama/pull/16806\r\n* discover: fix inverted iGPU/dGPU Vulkan classification on Windows hybrid graphics by @Sahil170595 in https://github.com/ollama/ollama/pull/16669\r\n* mlxrunner: unif",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.11-rc0",
+      "published_at": "2026-06-25 09:52",
+      "tag": "v0.30.11-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.30.10",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n\r\n* Command A and North family models now run on Apple Silicon with the MLX engine\r\n* Updated the underlying llama.cpp engine to build 9672\r\n* Fixed build artifacts for MLX\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.9...v0.30.10\r\n",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.9",
       "published_at": "2026-06-16 03:55",
       "tag": "v0.30.9",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.30.8",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* Fixed `ollama launch` selecting the wrong provider in some cases\r\n* Improved prompt caching by decoupling it from context shift for better KV cache reuse\r\n* More stable MLX inference with hardened linear and embedding layers\r\n* MLX runner now creates snapshots during prompt processing and speculative decoding for improved reliability\r\n* Improved recurrent model support with per-boundary states from the gated-delta kernels\r\n\r\n**Full Changelog**: https://github.com/ollama/olla",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.8",
-      "published_at": "2026-06-13 01:04",
-      "tag": "v0.30.8",
       "source": "release"
     },
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-preview.4",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [ci] Make automatic native binding install opt-in: #95114\n\n### Credits \n\nHuge thanks to @eps1lon for helping!\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.4",
+      "published_at": "2026-06-25 08:07",
+      "tag": "v16.3.0-preview.4",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.3.0-canary.67",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Restore canary version 16.3.0-canary.66 after v16.3.0-preview.4 preview release\n- Fix local fonts in statically prerendered `ImageResponse` metadata route: #95121\n- docs(root-params): generateStaticParams section and CC requirement: #95073\n- Surface an error for blocking routes under the Navigation Inspector: #95139\n- Suppress prefetch={true} warning when route opts out via instant = false: #95099\n- skill(cc-adoption): recommend next-dev-loop and add build-only path: #95122\n\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.67",
+      "published_at": "2026-06-25 08:01",
+      "tag": "v16.3.0-canary.67",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.66",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Revert \"Remove legacy PPR codepaths\": #95113\n- dev-overlay: wire Link prefetch={true} Partial Prefetching warning into Insights: #94798\n- Docs/partial prefetching: #94855\n- [ci] Make preview tarballs available while new Canaries are being published: #95112\n- [cd] add ad-hoc preview release cut from canary: #95086\n- Add missing switch case: #95127\n- Revert \"Add missing switch case\": #95129\n- Fix Navigation Inspector styles in dark mode: #95126\n- [test] Reorder `hmr-intercept-r",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.66",
       "published_at": "2026-06-25 03:18",
       "tag": "v16.3.0-canary.66",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.65",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- docs(cache-components): clarify allow-runtime, sync-IO and instant=false, CLS fallback: #94997\n- Keep the resolved cache life for `cacheMaxMemorySize: 0` caches in dev: #95100\n- Avoid mutating `req.headers` when stripping internal headers: #95116\n\n### Credits \n\nHuge thanks to @aurorascharff and @unstubbable for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.65",
-      "published_at": "2026-06-24 19:17",
-      "tag": "v16.3.0-canary.65",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.64",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Consider merging chunks when `overlap == 1`: #95102\n- [turbopack] Add support for single-entry chunks: #94727\n- Turbopack: add TURBOPACK_DEBUG_CSS_CHUNKING env var: #95080\n- [cd] publish on release tags instead of branch push: #95085\n\n### Credits \n\nHuge thanks to @sampoder, @sokra, and @eps1lon for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.64",
-      "published_at": "2026-06-24 15:46",
-      "tag": "v16.3.0-canary.64",
       "source": "release"
     }
   ]
