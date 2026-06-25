@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-25 22:07",
+  "updated": "2026-06-26 03:47",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-preview.5",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Restore canary version 16.3.0-canary.66 after v16.3.0-preview.4 preview release\n- Fix local fonts in statically prerendered `ImageResponse` metadata route: #95121\n- docs(root-params): generateStaticParams section and CC requirement: #95073\n- Surface an error for blocking routes under the Navigation Inspector: #95139\n- Suppress prefetch={true} warning when route opts out via instant = false: #95099\n- skill(cc-adoption): recommend next-dev-loop and add build-only path: #95122\n-",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.5",
+      "published_at": "2026-06-26 02:33",
+      "tag": "v16.3.0-preview.5",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-preview.4",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- [ci] Make automatic native binding install opt-in: #95114\n\n### Credits \n\nHuge thanks to @eps1lon for helping!\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.67",
       "published_at": "2026-06-25 08:01",
       "tag": "v16.3.0-canary.67",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.66",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Revert \"Remove legacy PPR codepaths\": #95113\n- dev-overlay: wire Link prefetch={true} Partial Prefetching warning into Insights: #94798\n- Docs/partial prefetching: #94855\n- [ci] Make preview tarballs available while new Canaries are being published: #95112\n- [cd] add ad-hoc preview release cut from canary: #95086\n- Add missing switch case: #95127\n- Revert \"Add missing switch case\": #95129\n- Fix Navigation Inspector styles in dark mode: #95126\n- [test] Reorder `hmr-intercept-r",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.66",
-      "published_at": "2026-06-25 03:18",
-      "tag": "v16.3.0-canary.66",
       "source": "release"
     }
   ]
