@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-06-26 10:36",
+  "updated": "2026-06-26 16:52",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-fireworks==1.4.3",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-fireworks==1.4.2\n\nrelease(fireworks): 1.4.3\nchore: bump vcrpy from 8.1.1 to 8.2.1 in /libs/partners/fireworks (#38314)\nchore: bump langsmith from 0.8.16 to 0.8.18 in /libs/partners/fireworks (#38313)\nchore: bump langsmith from 0.8.14 to 0.8.16 in /libs/partners/fireworks (#38235)\nchore: bump pytest from 9.0.3 to 9.1.0 in /libs/partners/fireworks (#38233)\nchore(model-profiles): refresh model profile data (#38210)\nchore(model-profiles): refresh model profile data (#38191)\nc",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.4.3",
+      "published_at": "2026-06-26 14:52",
+      "tag": "langchain-fireworks==1.4.3",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-openrouter==0.2.4",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.11",
       "published_at": "2026-06-23 07:00",
       "tag": "langchain==1.3.11",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-openai==1.3.3",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.3.2\n\nrelease(openai): 1.3.3 (#38375)\nfix(openai): drop response item ids when `store` is false (#38372)\nfix(langchain,openai): only set `strict=True` on tools for OpenAI-compatible models in `ProviderStrategy` (#38370)\ntest(openai): clarify expected strict schema error (#38338)\nfix(openai): drop `stop` from Responses API payload (#38336)\nchore: bump langsmith from 0.8.5 to 0.8.18 in /libs/partners/openai (#38293)\nchore: bump vcrpy from 8.1.1 to 8.2.1 in /libs/pa",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.3.3",
-      "published_at": "2026-06-23 06:54",
-      "tag": "langchain-openai==1.3.3",
       "source": "release"
     },
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.30.11-rc0",
+      "name": "ollama/ollama v0.30.11-rc1",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* launch: add thinking capability detection to opencode by @hoyyeva in https://github.com/ollama/ollama/pull/15434\r\n* launch: auto-install Claude Code by @hoyyeva in https://github.com/ollama/ollama/pull/16802\r\n* launch: auto-install opencode when missing by @hoyyeva in https://github.com/ollama/ollama/pull/16806\r\n* discover: fix inverted iGPU/dGPU Vulkan classification on Windows hybrid graphics by @Sahil170595 in https://github.com/ollama/ollama/pull/16669\r\n* mlxrunner: unif",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.11-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.11-rc1",
       "published_at": "2026-06-25 09:52",
-      "tag": "v0.30.11-rc0",
+      "tag": "v0.30.11-rc1",
       "source": "release"
     },
     {
