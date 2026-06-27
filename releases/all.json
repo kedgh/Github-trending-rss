@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-27 03:29",
+  "updated": "2026-06-27 10:29",
   "count": 15,
   "items": [
     {
@@ -13,21 +13,21 @@
       "source": "release"
     },
     {
+      "name": "langchain-ai/langchain langchain-anthropic==1.4.8",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-anthropic==1.4.7\n\nrelease(anthropic): 1.4.8 (#38490)\nfix(anthropic): keep initial text on `content_block_start` (#38442)\nchore: bump langgraph-checkpoint from 4.1.0 to 4.1.1 in /libs/partners/anthropic (#38479)\nfix(core): add messages to bare `raise ValueError` calls (#38158)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.8",
+      "published_at": "2026-06-27 05:28",
+      "tag": "langchain-anthropic==1.4.8",
+      "source": "release"
+    },
+    {
       "name": "langchain-ai/langchain langchain-openrouter==0.2.4",
       "repo": "langchain-ai/langchain",
       "description": "Changes since langchain-openrouter==0.2.3\n\nrelease(openrouter): 0.2.4 (#38381)\nchore(openrouter): bump `openrouter` floor to 0.9.2, drop file workaround (#38216)\ntest(openrouter): cover `cache_control` passthrough on tool defs (#38215)\nfeat(openrouter): surface `parallel_tool_calls` on `bind_tools` (#38214)\nchore(model-profiles): refresh model profile data (#38341)\nchore(model-profiles): refresh model profile data (#38331)\nchore: bump vcrpy from 8.1.1 to 8.2.1 in /libs/partners/openrouter (#3829",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.4",
       "published_at": "2026-06-23 11:45",
       "tag": "langchain-openrouter==0.2.4",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain==1.3.11",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==1.3.10\n\nrelease(langchain): 1.3.11 (#38377)\nfix(langchain,openai): only set `strict=True` on tools for OpenAI-compatible models in `ProviderStrategy` (#38370)\nchore: bump pydantic-settings from 2.12.0 to 2.14.2 in /libs/langchain_v1 (#38279)\nchore: bump vcrpy from 8.1.1 to 8.2.1 in /libs/langchain_v1 (#38280)\nchore: bump langsmith from 0.8.9 to 0.8.18 in /libs/langchain_v1 (#38281)\ndocs(langchain): document summarization prompt contract (#38256)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.11",
-      "published_at": "2026-06-23 07:00",
-      "tag": "langchain==1.3.11",
       "source": "release"
     },
     {
