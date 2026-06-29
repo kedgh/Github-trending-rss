@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-06-29 10:42",
+  "updated": "2026-06-29 18:26",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.28.2",
+      "name": "n8n-io/n8n n8n@2.27.5",
       "repo": "n8n-io/n8n",
-      "description": "## [2.28.2](https://github.com/n8n-io/n8n/compare/n8n@2.28.1...n8n@2.28.2) (2026-06-25)\r\n\r\n- fix(core): Broken workflow verification loop in iAI\r\n---\r\n\r\n",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.28.2",
-      "published_at": "2026-06-25 18:22",
-      "tag": "n8n@2.28.2",
+      "description": "## [2.27.5](https://github.com/n8n-io/n8n/compare/n8n@2.27.4...n8n@2.27.5) (2026-06-29)\n\n\n### Bug Fixes\n\n* **core:** Prevent startup failure from partially-installed community packages ([#33033](https://github.com/n8n-io/n8n/issues/33033)) ([416720a](https://github.com/n8n-io/n8n/commit/416720a69cd1c72fcd14b02ce89372ffcbb63ff8))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/33189\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"ht",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.27.5",
+      "published_at": "2026-06-29 16:04",
+      "tag": "n8n@2.27.5",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n stable",
+      "name": "n8n-io/n8n n8n@1.123.62",
       "repo": "n8n-io/n8n",
-      "description": "## [2.27.4](https://github.com/n8n-io/n8n/compare/n8n@2.27.3...n8n@2.27.4) (2026-06-24)\n\n\n### Bug Fixes\n\n* **core:** Let allowlisted Python packages import their own submodules via relative imports ([#32832](https://github.com/n8n-io/n8n/issues/32832)) ([62e876c](https://github.com/n8n-io/n8n/commit/62e876c01cfec2ac3184dcb93037140760a530d8))\n\n\n### Features\n\n* **core:** Fix building incorrect chained nodes ([#32850](https://github.com/n8n-io/n8n/issues/32850)) ([91ac921](https://github.com/n8n-io",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-06-24 19:03",
-      "tag": "stable",
+      "description": "## [1.123.62](https://github.com/n8n-io/n8n/compare/n8n@1.123.61...n8n@1.123.62) (2026-06-29)\n\n\n### Bug Fixes\n\n* Fix 5 security issues in hono, vue-i18n, linkify-it ([#33164](https://github.com/n8n-io/n8n/issues/33164)) ([e325585](https://github.com/n8n-io/n8n/commit/e325585aacfff869ff2e7fa631e812d17f086e1b))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/33208\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://stagereview.ap",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.62",
+      "published_at": "2026-06-29 18:22",
+      "tag": "n8n@1.123.62",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.27.4",
+      "name": "n8n-io/n8n n8n@2.28.3",
       "repo": "n8n-io/n8n",
-      "description": "## [2.27.4](https://github.com/n8n-io/n8n/compare/n8n@2.27.3...n8n@2.27.4) (2026-06-24)\n\n\n### Bug Fixes\n\n* **core:** Let allowlisted Python packages import their own submodules via relative imports ([#32832](https://github.com/n8n-io/n8n/issues/32832)) ([62e876c](https://github.com/n8n-io/n8n/commit/62e876c01cfec2ac3184dcb93037140760a530d8))\n\n\n### Features\n\n* **core:** Fix building incorrect chained nodes ([#32850](https://github.com/n8n-io/n8n/issues/32850)) ([91ac921](https://github.com/n8n-io",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.27.4",
-      "published_at": "2026-06-24 19:03",
-      "tag": "n8n@2.27.4",
+      "description": "## [2.28.3](https://github.com/n8n-io/n8n/compare/n8n@2.28.2...n8n@2.28.3) (2026-06-29)\n\n\n### Bug Fixes\n\n* **core:** Prevent startup failure from partially-installed community packages ([#33032](https://github.com/n8n-io/n8n/issues/33032)) ([adfc7c7](https://github.com/n8n-io/n8n/commit/adfc7c7d20d1c215e1ffca791eea5999ffaaad26))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/33188\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"ht",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.28.3",
+      "published_at": "2026-06-29 16:14",
+      "tag": "n8n@2.28.3",
       "source": "release"
     },
     {
