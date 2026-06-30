@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-06-30 03:45",
+  "updated": "2026-06-30 10:36",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-openrouter==0.2.5",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-openrouter==0.2.4\n\nrelease(openrouter): 0.2.5 (#38553)\nfix(openrouter): deduplicate repeated finish metadata (#38552)\nfix(openrouter): strip Responses reasoning IDs (#38383)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.5",
+      "published_at": "2026-06-30 03:47",
+      "tag": "langchain-openrouter==0.2.5",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-fireworks==1.4.3",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.8",
       "published_at": "2026-06-27 05:28",
       "tag": "langchain-anthropic==1.4.8",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-openrouter==0.2.4",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openrouter==0.2.3\n\nrelease(openrouter): 0.2.4 (#38381)\nchore(openrouter): bump `openrouter` floor to 0.9.2, drop file workaround (#38216)\ntest(openrouter): cover `cache_control` passthrough on tool defs (#38215)\nfeat(openrouter): surface `parallel_tool_calls` on `bind_tools` (#38214)\nchore(model-profiles): refresh model profile data (#38341)\nchore(model-profiles): refresh model profile data (#38331)\nchore: bump vcrpy from 8.1.1 to 8.2.1 in /libs/partners/openrouter (#3829",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.4",
-      "published_at": "2026-06-23 11:45",
-      "tag": "langchain-openrouter==0.2.4",
       "source": "release"
     },
     {
