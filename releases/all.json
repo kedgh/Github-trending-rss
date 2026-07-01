@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-01 03:45",
+  "updated": "2026-07-01 10:43",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.31.1",
+      "repo": "ollama/ollama",
+      "description": "## Faster Gemma 4 on Apple Silicon\r\n\r\n<img width=\"1037\" height=\"485\" alt=\"Screenshot 2026-06-30 at 5 25 29 PM\" src=\"https://github.com/user-attachments/assets/547d5076-090f-43c4-a661-938e11abc955\" />\r\n\r\nGemma 4 is now significantly faster in Ollama on Apple Silicon, generating tokens nearly 90% faster on average across a coding-agent benchmark by leveraging multi-token prediction (MTP). Ollama auto-tunes how many tokens to draft as it runs, so the speedup is on by default, requires no configurat",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.31.1",
+      "published_at": "2026-07-01 06:10",
+      "tag": "v0.31.1",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.30.12-rc0",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* tools: ignore braces inside JSON strings when detecting tool call end by @aditya-786 in https://github.com/ollama/ollama/pull/16937\r\n* mlx: bump dependency by @dhiltgen in https://github.com/ollama/ollama/pull/16935\r\n* llama.cpp update by @dhiltgen in https://github.com/ollama/ollama/pull/16960\r\n\r\n## New Contributors\r\n* @aditya-786 made their first contribution in https://github.com/ollama/ollama/pull/16937\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.3",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.11",
       "published_at": "2026-06-25 09:52",
       "tag": "v0.30.11",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.30.10",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n\r\n* Command A and North family models now run on Apple Silicon with the MLX engine\r\n* Updated the underlying llama.cpp engine to build 9672\r\n* Fixed build artifacts for MLX\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.9...v0.30.10\r\n",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.10",
-      "published_at": "2026-06-18 00:22",
-      "tag": "v0.30.10",
       "source": "release"
     },
     {
