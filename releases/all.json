@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-02 03:41",
+  "updated": "2026-07-02 10:32",
   "count": 15,
   "items": [
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.2.10",
+      "repo": "vercel/next.js",
+      "description": "Contains no changes except publishing `@next/swc-wasm-web` which was accidentally not published since 16.2.4.",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.10",
+      "published_at": "2026-07-02 04:13",
+      "tag": "v16.2.10",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v15.5.20",
+      "repo": "vercel/next.js",
+      "description": "Contains no changes except publishing `@next/swc-wasm-web` which was accidentally not published since 15.5.15.",
+      "url": "https://github.com/vercel/next.js/releases/tag/v15.5.20",
+      "published_at": "2026-07-02 05:07",
+      "tag": "v15.5.20",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-preview.5",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Restore canary version 16.3.0-canary.66 after v16.3.0-preview.4 preview release\n- Fix local fonts in statically prerendered `ImageResponse` metadata route: #95121\n- docs(root-params): generateStaticParams section and CC requirement: #95073\n- Surface an error for blocking routes under the Navigation Inspector: #95139\n- Suppress prefetch={true} warning when route opts out via instant = false: #95099\n- skill(cc-adoption): recommend next-dev-loop and add build-only path: #95122\n-",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.5",
       "published_at": "2026-06-26 02:33",
       "tag": "v16.3.0-preview.5",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-preview.4",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [ci] Make automatic native binding install opt-in: #95114\n\n### Credits \n\nHuge thanks to @eps1lon for helping!\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.4",
-      "published_at": "2026-06-25 08:07",
-      "tag": "v16.3.0-preview.4",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.67",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Restore canary version 16.3.0-canary.66 after v16.3.0-preview.4 preview release\n- Fix local fonts in statically prerendered `ImageResponse` metadata route: #95121\n- docs(root-params): generateStaticParams section and CC requirement: #95073\n- Surface an error for blocking routes under the Navigation Inspector: #95139\n- Suppress prefetch={true} warning when route opts out via instant = false: #95099\n- skill(cc-adoption): recommend next-dev-loop and add build-only path: #95122\n\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.67",
-      "published_at": "2026-06-25 08:01",
-      "tag": "v16.3.0-canary.67",
       "source": "release"
     }
   ]
