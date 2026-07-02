@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-02 16:43",
+  "updated": "2026-07-02 21:41",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.75",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [cd] Replace the release package with our own GitHub release creation: #95352\n- [test] Enable deploy tests for the Instant Navigation Testing API suite: #95236\n- Await reused in-flight prefetch entries under Instant Navigation lock: #95301\n- [test] Park the blocking-fallback segment on a withheld param: #95300\n- Make `instant()` resilient to a leaked navigation-testing cookie: #95375\n- [ci] Avoid running full CI mid-stack for GH-native stacks, same as we do for Graphite: #952",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.75",
+      "published_at": "2026-07-02 17:45",
+      "tag": "v16.3.0-canary.75",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.2.10",
       "repo": "vercel/next.js",
       "description": "Contains no changes except publishing `@next/swc-wasm-web` which was accidentally not published since 16.2.4.",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v15.5.20",
       "published_at": "2026-07-02 05:07",
       "tag": "v15.5.20",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-preview.5",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Restore canary version 16.3.0-canary.66 after v16.3.0-preview.4 preview release\n- Fix local fonts in statically prerendered `ImageResponse` metadata route: #95121\n- docs(root-params): generateStaticParams section and CC requirement: #95073\n- Surface an error for blocking routes under the Navigation Inspector: #95139\n- Suppress prefetch={true} warning when route opts out via instant = false: #95099\n- skill(cc-adoption): recommend next-dev-loop and add build-only path: #95122\n-",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.5",
-      "published_at": "2026-06-26 02:33",
-      "tag": "v16.3.0-preview.5",
       "source": "release"
     }
   ]
