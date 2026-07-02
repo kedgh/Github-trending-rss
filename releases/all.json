@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-02 10:32",
+  "updated": "2026-07-02 16:43",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.28.4",
+      "name": "n8n-io/n8n n8n@2.28.5",
       "repo": "n8n-io/n8n",
-      "description": "## [2.28.4](https://github.com/n8n-io/n8n/compare/n8n@2.28.3...n8n@2.28.4) (2026-07-01)\n\n\n### Bug Fixes\n\n* **AI Agent Node:** Preserve parallel tool call structure in chat memory ([#33307](https://github.com/n8n-io/n8n/issues/33307)) ([5f266e6](https://github.com/n8n-io/n8n/commit/5f266e6ad09b345ec484db4f0cca00baac59ab10))\n* **core:** Ensure project variables override same-key global variables ([#33232](https://github.com/n8n-io/n8n/issues/33232)) ([e5fffa2](https://github.com/n8n-io/n8n/commit/",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.28.4",
-      "published_at": "2026-07-01 16:06",
-      "tag": "n8n@2.28.4",
+      "description": "## [2.28.5](https://github.com/n8n-io/n8n/compare/n8n@2.28.4...n8n@2.28.5) (2026-07-02)\n\n\n### Bug Fixes\n\n* **core:** Preserve Date values passed to the expression isolate ([#33363](https://github.com/n8n-io/n8n/issues/33363)) ([c3676bd](https://github.com/n8n-io/n8n/commit/c3676bd63a9e680428c3391635023ef8de2eef94))\n* **editor:** Show Free credits badge for Tool-variant nodes in node creator panel ([#33348](https://github.com/n8n-io/n8n/issues/33348)) ([9625e75](https://github.com/n8n-io/n8n/comm",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.28.5",
+      "published_at": "2026-07-02 16:27",
+      "tag": "n8n@2.28.5",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.29.2",
+      "name": "n8n-io/n8n n8n@1.123.63",
       "repo": "n8n-io/n8n",
-      "description": "## [2.29.2](https://github.com/n8n-io/n8n/compare/n8n@2.29.1...n8n@2.29.2) (2026-07-01)\n\n\n### Bug Fixes\n\n* **core:** Preserve Date values passed to the expression isolate ([#33362](https://github.com/n8n-io/n8n/issues/33362)) ([2e07474](https://github.com/n8n-io/n8n/commit/2e074742db62fc2a20405a35aaadd4b1b10b381b))\n* **editor:** Show Free credits badge for Tool-variant nodes in node creator panel ([#33347](https://github.com/n8n-io/n8n/issues/33347)) ([c2f1483](https://github.com/n8n-io/n8n/comm",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.29.2",
-      "published_at": "2026-07-01 19:27",
-      "tag": "n8n@2.29.2",
+      "description": "## [1.123.63](https://github.com/n8n-io/n8n/compare/n8n@1.123.62...n8n@1.123.63) (2026-07-02)\n\n\n### Bug Fixes\n\n* **core:** Preserve Date values passed to the expression isolate ([#33364](https://github.com/n8n-io/n8n/issues/33364)) ([0e04591](https://github.com/n8n-io/n8n/commit/0e0459163918118006b5b0eec2b8cc18cf05613d))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/33416\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://st",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.63",
+      "published_at": "2026-07-02 15:52",
+      "tag": "n8n@1.123.63",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.29.1",
+      "name": "n8n-io/n8n n8n@2.29.3",
       "repo": "n8n-io/n8n",
-      "description": "## [2.29.1](https://github.com/n8n-io/n8n/compare/n8n@2.29.0...n8n@2.29.1) (2026-07-01)\n\n\n### Bug Fixes\n\n* **AI Agent Node:** Preserve parallel tool call structure in chat memory ([#33306](https://github.com/n8n-io/n8n/issues/33306)) ([db3ebd6](https://github.com/n8n-io/n8n/commit/db3ebd6076a8ca16a3985f43dc3cd1d1fc0c82de))\n* **core:** Skip AI Gateway managed credentials in pre-execution permission check ([#33277](https://github.com/n8n-io/n8n/issues/33277)) ([b21f291](https://github.com/n8n-io/n",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.29.1",
-      "published_at": "2026-07-01 16:32",
-      "tag": "n8n@2.29.1",
+      "description": "## [2.29.3](https://github.com/n8n-io/n8n/compare/n8n@2.29.2...n8n@2.29.3) (2026-07-02)\n\n\n### Bug Fixes\n\n* **editor:** Align parameter input sizes ([#33381](https://github.com/n8n-io/n8n/issues/33381)) ([995f5a7](https://github.com/n8n-io/n8n/commit/995f5a79dd3d0e2380ff74462bf84027e5e24d08))\n\n\n### Features\n\n* **core:** Route Instance AI billing to a dedicated credit pool ([#33388](https://github.com/n8n-io/n8n/issues/33388)) ([6632f49](https://github.com/n8n-io/n8n/commit/6632f4943ae3fe4f4d91ba8",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.29.3",
+      "published_at": "2026-07-02 16:02",
+      "tag": "n8n@2.29.3",
       "source": "release"
     },
     {
