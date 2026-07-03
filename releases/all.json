@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-03 03:12",
+  "updated": "2026-07-03 10:07",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.76",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Fix navigation getting reverted when a Server Action is in flight: #95391\n- Fix false-positive nested-cache error for a short default profile: #95373\n- Skip saving `expire: 0` values in the default cache handler in prod: #95363\n- [ci] Disable mid-stack PR optimization for native PR stacks: #95427\n- Fix history push getting treated like replace when followed by refresh: #95392\n- Upgrade React from `ec0fca31-20260701` to `3508aee6-20260702`: #95410\n- fix(config): correctly vali",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.76",
+      "published_at": "2026-07-03 08:04",
+      "tag": "v16.3.0-canary.76",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.75",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- [cd] Replace the release package with our own GitHub release creation: #95352\n- [test] Enable deploy tests for the Instant Navigation Testing API suite: #95236\n- Await reused in-flight prefetch entries under Instant Navigation lock: #95301\n- [test] Park the blocking-fallback segment on a withheld param: #95300\n- Make `instant()` resilient to a leaked navigation-testing cookie: #95375\n- [ci] Avoid running full CI mid-stack for GH-native stacks, same as we do for Graphite: #952",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.2.10",
       "published_at": "2026-07-02 04:13",
       "tag": "v16.2.10",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v15.5.20",
-      "repo": "vercel/next.js",
-      "description": "Contains no changes except publishing `@next/swc-wasm-web` which was accidentally not published since 15.5.15.",
-      "url": "https://github.com/vercel/next.js/releases/tag/v15.5.20",
-      "published_at": "2026-07-02 05:07",
-      "tag": "v15.5.20",
       "source": "release"
     }
   ]
