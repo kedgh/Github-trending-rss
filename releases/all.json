@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-03 10:07",
+  "updated": "2026-07-03 16:51",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.28.5",
+      "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.28.5](https://github.com/n8n-io/n8n/compare/n8n@2.28.4...n8n@2.28.5) (2026-07-02)\n\n\n### Bug Fixes\n\n* **core:** Preserve Date values passed to the expression isolate ([#33363](https://github.com/n8n-io/n8n/issues/33363)) ([c3676bd](https://github.com/n8n-io/n8n/commit/c3676bd63a9e680428c3391635023ef8de2eef94))\n* **editor:** Show Free credits badge for Tool-variant nodes in node creator panel ([#33348](https://github.com/n8n-io/n8n/issues/33348)) ([9625e75](https://github.com/n8n-io/n8n/comm",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.28.5",
-      "published_at": "2026-07-02 16:27",
-      "tag": "n8n@2.28.5",
+      "description": "## [2.28.6](https://github.com/n8n-io/n8n/compare/n8n@2.28.5...n8n@2.28.6) (2026-07-03)\n\n\n### Bug Fixes\n\n* **core:** Prevent duplicate zod instances that break npm installs ([#33471](https://github.com/n8n-io/n8n/issues/33471)) ([a182295](https://github.com/n8n-io/n8n/commit/a182295a2aa4f4707fde005ed085bed58f6af64a))\n* **editor:** Align parameter input sizes ([#33448](https://github.com/n8n-io/n8n/issues/33448)) ([2d0da0b](https://github.com/n8n-io/n8n/commit/2d0da0bb2aea0f674fc68b43abaef4c8c0fb",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-07-03 16:02",
+      "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.63",
+      "name": "n8n-io/n8n n8n@2.28.6",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.63](https://github.com/n8n-io/n8n/compare/n8n@1.123.62...n8n@1.123.63) (2026-07-02)\n\n\n### Bug Fixes\n\n* **core:** Preserve Date values passed to the expression isolate ([#33364](https://github.com/n8n-io/n8n/issues/33364)) ([0e04591](https://github.com/n8n-io/n8n/commit/0e0459163918118006b5b0eec2b8cc18cf05613d))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/33416\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://st",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.63",
-      "published_at": "2026-07-02 15:52",
-      "tag": "n8n@1.123.63",
+      "description": "## [2.28.6](https://github.com/n8n-io/n8n/compare/n8n@2.28.5...n8n@2.28.6) (2026-07-03)\n\n\n### Bug Fixes\n\n* **core:** Prevent duplicate zod instances that break npm installs ([#33471](https://github.com/n8n-io/n8n/issues/33471)) ([a182295](https://github.com/n8n-io/n8n/commit/a182295a2aa4f4707fde005ed085bed58f6af64a))\n* **editor:** Align parameter input sizes ([#33448](https://github.com/n8n-io/n8n/issues/33448)) ([2d0da0b](https://github.com/n8n-io/n8n/commit/2d0da0bb2aea0f674fc68b43abaef4c8c0fb",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.28.6",
+      "published_at": "2026-07-03 16:02",
+      "tag": "n8n@2.28.6",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.29.3",
+      "name": "n8n-io/n8n n8n@2.29.4",
       "repo": "n8n-io/n8n",
-      "description": "## [2.29.3](https://github.com/n8n-io/n8n/compare/n8n@2.29.2...n8n@2.29.3) (2026-07-02)\n\n\n### Bug Fixes\n\n* **editor:** Align parameter input sizes ([#33381](https://github.com/n8n-io/n8n/issues/33381)) ([995f5a7](https://github.com/n8n-io/n8n/commit/995f5a79dd3d0e2380ff74462bf84027e5e24d08))\n\n\n### Features\n\n* **core:** Route Instance AI billing to a dedicated credit pool ([#33388](https://github.com/n8n-io/n8n/issues/33388)) ([6632f49](https://github.com/n8n-io/n8n/commit/6632f4943ae3fe4f4d91ba8",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.29.3",
-      "published_at": "2026-07-02 16:02",
-      "tag": "n8n@2.29.3",
+      "description": "## [2.29.4](https://github.com/n8n-io/n8n/compare/n8n@2.29.3...n8n@2.29.4) (2026-07-03)\n\n\n### Bug Fixes\n\n* **Basic LLM Chain Node:** Prevent \"Failed to parse agent steps\" error ([#33434](https://github.com/n8n-io/n8n/issues/33434)) ([686fce8](https://github.com/n8n-io/n8n/commit/686fce800a6f86f0ec9239221821d70dddd9e749))\n* **core:** Prevent duplicate zod instances that break npm installs ([#33470](https://github.com/n8n-io/n8n/issues/33470)) ([4d8304a](https://github.com/n8n-io/n8n/commit/4d8304",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.29.4",
+      "published_at": "2026-07-03 15:56",
+      "tag": "n8n@2.29.4",
       "source": "release"
     },
     {
