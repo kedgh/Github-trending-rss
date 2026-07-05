@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-05 02:58",
+  "updated": "2026-07-05 10:14",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.78",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Add `serverComponentsHmrCancellation` experimental flag: #95462\n\n### Credits \n\nHuge thanks to @unstubbable for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.78",
+      "published_at": "2026-07-05 07:57",
+      "tag": "v16.3.0-canary.78",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.77",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Avoid unnecessary rendering for validation in dev: #95394\n- fix: work around SWC compress bug: #95457\n- docs: Update FormEvent to SubmitEvent in form handling example (deprecated in React 19.2.10+): #95453\n- Update font data: #95441\n- Ignore-list internal frames whose source maps chain to original sources: #95448\n- Type resolved `cacheLife` profiles, dropping runtime asserts: #95428\n- Split typeof-window server requires into .browser variants: #95201\n- Collect modules with br",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.76",
       "published_at": "2026-07-03 08:04",
       "tag": "v16.3.0-canary.76",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.75",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [cd] Replace the release package with our own GitHub release creation: #95352\n- [test] Enable deploy tests for the Instant Navigation Testing API suite: #95236\n- Await reused in-flight prefetch entries under Instant Navigation lock: #95301\n- [test] Park the blocking-fallback segment on a withheld param: #95300\n- Make `instant()` resilient to a leaked navigation-testing cookie: #95375\n- [ci] Avoid running full CI mid-stack for GH-native stacks, same as we do for Graphite: #952",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.75",
-      "published_at": "2026-07-02 17:45",
-      "tag": "v16.3.0-canary.75",
       "source": "release"
     }
   ]
