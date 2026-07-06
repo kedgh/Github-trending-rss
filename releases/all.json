@@ -1,8 +1,26 @@
 {
   "title": "Releases",
-  "updated": "2026-07-06 03:04",
+  "updated": "2026-07-06 10:26",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-openrouter==0.2.6",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-openrouter==0.2.5\n\nrelease(openrouter): 0.2.6 (#38681)\nfix(openrouter): support `default_headers` for custom HTTP header injection (#36582)\nchore(model-profiles): refresh model profile data (#38663)\n",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.6",
+      "published_at": "2026-07-06 04:53",
+      "tag": "langchain-openrouter==0.2.6",
+      "source": "release"
+    },
+    {
+      "name": "langchain-ai/langchain langchain-mistralai==1.1.6",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-mistralai==1.1.5\n\nrelease(mistralai): 1.1.6 (#38684)\nfeat(mistralai): surface citation metadata from chat responses (#37008)\nchore(model-profiles): refresh model profile data (#38663)\nchore: bump vcrpy from 8.1.1 to 8.2.1 in /libs/partners/mistralai (#38302)\nchore: bump langsmith from 0.8.5 to 0.8.18 in /libs/partners/mistralai (#38304)\nchore(model-profiles): refresh model profile data (#38210)\ndocs: refresh `README` installation and resources (#38119)\nrelease(core): 1.4.",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.1.6",
+      "published_at": "2026-07-06 05:30",
+      "tag": "langchain-mistralai==1.1.6",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-openrouter==0.2.5",
       "repo": "langchain-ai/langchain",
@@ -10,24 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.5",
       "published_at": "2026-06-30 03:47",
       "tag": "langchain-openrouter==0.2.5",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-fireworks==1.4.3",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-fireworks==1.4.2\n\nrelease(fireworks): 1.4.3\nchore: bump vcrpy from 8.1.1 to 8.2.1 in /libs/partners/fireworks (#38314)\nchore: bump langsmith from 0.8.16 to 0.8.18 in /libs/partners/fireworks (#38313)\nchore: bump langsmith from 0.8.14 to 0.8.16 in /libs/partners/fireworks (#38235)\nchore: bump pytest from 9.0.3 to 9.1.0 in /libs/partners/fireworks (#38233)\nchore(model-profiles): refresh model profile data (#38210)\nchore(model-profiles): refresh model profile data (#38191)\nc",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.4.3",
-      "published_at": "2026-06-26 14:52",
-      "tag": "langchain-fireworks==1.4.3",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-anthropic==1.4.8",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-anthropic==1.4.7\n\nrelease(anthropic): 1.4.8 (#38490)\nfix(anthropic): keep initial text on `content_block_start` (#38442)\nchore: bump langgraph-checkpoint from 4.1.0 to 4.1.1 in /libs/partners/anthropic (#38479)\nfix(core): add messages to bare `raise ValueError` calls (#38158)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.8",
-      "published_at": "2026-06-27 05:28",
-      "tag": "langchain-anthropic==1.4.8",
       "source": "release"
     },
     {
