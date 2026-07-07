@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-07 10:14",
+  "updated": "2026-07-07 17:27",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.28.7",
+      "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.28.7](https://github.com/n8n-io/n8n/compare/n8n@2.28.6...n8n@2.28.7) (2026-07-06)\n\n\n### Bug Fixes\n\n* **core:** Pin langgraph and langgraph-checkpoint to prevent broken npm installs ([#33610](https://github.com/n8n-io/n8n/issues/33610)) ([7fe5d56](https://github.com/n8n-io/n8n/commit/7fe5d5692ae802f854c95ad99cb080df670b71f2))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/33615\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.28.7",
-      "published_at": "2026-07-06 16:17",
-      "tag": "n8n@2.28.7",
+      "description": "## [2.29.7](https://github.com/n8n-io/n8n/compare/n8n@2.29.6...n8n@2.29.7) (2026-07-07)\n\n\n### Bug Fixes\n\n* **core:** Prevent Code node failure when a workflow contains an AI tool ([#33644](https://github.com/n8n-io/n8n/issues/33644)) ([df12545](https://github.com/n8n-io/n8n/commit/df1254505b5b2cc2ee6e86aeaf2c4142fa454970))\n* **editor:** Generate actions for nodes using a flat Action field across versions ([#33663](https://github.com/n8n-io/n8n/issues/33663)) ([246a5c8](https://github.com/n8n-io/",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-07-07 15:57",
+      "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.29.6",
+      "name": "n8n-io/n8n n8n@2.29.7",
       "repo": "n8n-io/n8n",
-      "description": "## [2.29.6](https://github.com/n8n-io/n8n/compare/n8n@2.29.5...n8n@2.29.6) (2026-07-06)\n\n\n### Bug Fixes\n\n* **core:** Pin langgraph and langgraph-checkpoint to prevent broken npm installs ([#33609](https://github.com/n8n-io/n8n/issues/33609)) ([a1d2108](https://github.com/n8n-io/n8n/commit/a1d2108900210c316840e6121efd4acc22ecb727))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/33614\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.29.6",
-      "published_at": "2026-07-06 16:15",
-      "tag": "n8n@2.29.6",
+      "description": "## [2.29.7](https://github.com/n8n-io/n8n/compare/n8n@2.29.6...n8n@2.29.7) (2026-07-07)\n\n\n### Bug Fixes\n\n* **core:** Prevent Code node failure when a workflow contains an AI tool ([#33644](https://github.com/n8n-io/n8n/issues/33644)) ([df12545](https://github.com/n8n-io/n8n/commit/df1254505b5b2cc2ee6e86aeaf2c4142fa454970))\n* **editor:** Generate actions for nodes using a flat Action field across versions ([#33663](https://github.com/n8n-io/n8n/issues/33663)) ([246a5c8](https://github.com/n8n-io/",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.29.7",
+      "published_at": "2026-07-07 14:29",
+      "tag": "n8n@2.29.7",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n beta",
+      "name": "n8n-io/n8n n8n@2.30.0",
       "repo": "n8n-io/n8n",
-      "description": "## [2.29.6](https://github.com/n8n-io/n8n/compare/n8n@2.29.5...n8n@2.29.6) (2026-07-06)\n\n\n### Bug Fixes\n\n* **core:** Pin langgraph and langgraph-checkpoint to prevent broken npm installs ([#33609](https://github.com/n8n-io/n8n/issues/33609)) ([a1d2108](https://github.com/n8n-io/n8n/commit/a1d2108900210c316840e6121efd4acc22ecb727))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/33614\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-07-06 16:15",
-      "tag": "beta",
+      "description": "# [2.30.0](https://github.com/n8n-io/n8n/compare/n8n@2.29.0...n8n@2.30.0) (2026-07-07)\n\n\n### Bug Fixes\n\n* **AI Agent Node:** Preserve parallel tool call structure in chat memory ([#32481](https://github.com/n8n-io/n8n/issues/32481)) ([387bb73](https://github.com/n8n-io/n8n/commit/387bb736659d98877baa812e7068a5a8075a6582))\n* **AI Agent Node:** Return intermediate steps when no tools are used ([#33450](https://github.com/n8n-io/n8n/issues/33450)) ([3ac2495](https://github.com/n8n-io/n8n/commit/3ac",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.30.0",
+      "published_at": "2026-07-07 15:55",
+      "tag": "n8n@2.30.0",
       "source": "release"
     },
     {
