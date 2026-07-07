@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-07 03:44",
+  "updated": "2026-07-07 10:14",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.31.2-rc1",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* ci: avoid unbounded parallelism by @dhiltgen in https://github.com/ollama/ollama/pull/16966\r\n* fix cuda toolkit lookup and parallel by @MarkWard0110 in https://github.com/ollama/ollama/pull/16613\r\n* docs(cloud): update retirement list by @mxyng in https://github.com/ollama/ollama/pull/17000\r\n* discover: fall back to standard CUDA when the JetPack runner is absent by @kevinpark1217 in https://github.com/ollama/ollama/pull/16949\r\n* agent: harness core by @ParthSareen in https:",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc1",
+      "published_at": "2026-07-07 06:28",
+      "tag": "v0.31.2-rc1",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.31.1",
       "repo": "ollama/ollama",
       "description": "## Faster Gemma 4 on Apple Silicon\r\n\r\n<img width=\"1037\" height=\"485\" alt=\"Screenshot 2026-06-30 at 5 25 29 PM\" src=\"https://github.com/user-attachments/assets/547d5076-090f-43c4-a661-938e11abc955\" />\r\n\r\nGemma 4 is now significantly faster in Ollama on Apple Silicon, generating tokens nearly 90% faster on average across a coding-agent benchmark by leveraging multi-token prediction (MTP). Ollama auto-tunes how many tokens to draft as it runs, so the speedup is on by default, requires no configurat",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.12-rc0",
       "published_at": "2026-06-30 01:45",
       "tag": "v0.30.12-rc0",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.30.11",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* launch: add thinking capability detection to opencode by @hoyyeva in https://github.com/ollama/ollama/pull/15434\r\n* launch: auto-install Claude Code by @hoyyeva in https://github.com/ollama/ollama/pull/16802\r\n* launch: auto-install opencode when missing by @hoyyeva in https://github.com/ollama/ollama/pull/16806\r\n* discover: fix inverted iGPU/dGPU Vulkan classification on Windows hybrid graphics by @Sahil170595 in https://github.com/ollama/ollama/pull/16669\r\n* mlxrunner: unif",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.11",
-      "published_at": "2026-06-25 09:52",
-      "tag": "v0.30.11",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.79",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- docs: remove incorrect statement that force-cache is the default for …: #95235\n- Turbopack: add all keys to dynamic exports before sealing the object: #93334\n- Disable `supportsImmutableAssets` with `config.output`: #95521\n- turbo-persistence: skip directory fsync on Windows: #95497\n- Abort superseded Server Components HMR requests on the client: #95463\n- [ci] Add stats comment with partial stats: #95401\n- [fragment-scroll] Enable new scroll handler by default: #95378\n- Upgra",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.79",
+      "published_at": "2026-07-07 08:01",
+      "tag": "v16.3.0-canary.79",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.78",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Add `serverComponentsHmrCancellation` experimental flag: #95462\n\n### Credits \n\nHuge thanks to @unstubbable for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.77",
       "published_at": "2026-07-04 08:00",
       "tag": "v16.3.0-canary.77",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.76",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Fix navigation getting reverted when a Server Action is in flight: #95391\n- Fix false-positive nested-cache error for a short default profile: #95373\n- Skip saving `expire: 0` values in the default cache handler in prod: #95363\n- [ci] Disable mid-stack PR optimization for native PR stacks: #95427\n- Fix history push getting treated like replace when followed by refresh: #95392\n- Upgrade React from `ec0fca31-20260701` to `3508aee6-20260702`: #95410\n- fix(config): correctly vali",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.76",
-      "published_at": "2026-07-03 08:04",
-      "tag": "v16.3.0-canary.76",
       "source": "release"
     }
   ]
