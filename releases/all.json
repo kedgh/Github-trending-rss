@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-08 03:43",
+  "updated": "2026-07-08 09:55",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.31.2-rc1",
+      "name": "ollama/ollama v0.31.2-rc2",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* ci: avoid unbounded parallelism by @dhiltgen in https://github.com/ollama/ollama/pull/16966\r\n* fix cuda toolkit lookup and parallel by @MarkWard0110 in https://github.com/ollama/ollama/pull/16613\r\n* docs(cloud): update retirement list by @mxyng in https://github.com/ollama/ollama/pull/17000\r\n* discover: fall back to standard CUDA when the JetPack runner is absent by @kevinpark1217 in https://github.com/ollama/ollama/pull/16949\r\n* agent: harness core by @ParthSareen in https:",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc2",
       "published_at": "2026-07-07 06:28",
-      "tag": "v0.31.2-rc1",
+      "tag": "v0.31.2-rc2",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.80",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Turbopack: add more context to persistence file errors: #95318\n- [ci] Split up large cache-components-dev-warmup test suite: #95553\n- Cancel a superseded Server Components HMR refresh's server-side work: #95486\n- test: Fix immutable static asset deployment tests: #95550\n- [ci] Migrate webpack tests back to arm runners: #95549\n- docs: Fix testing-adapters variable name: #95575\n- test: Use Turbopack for 'Test new and changed tests when deployed': #95552\n- test: Disable service ",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.80",
+      "published_at": "2026-07-08 07:59",
+      "tag": "v16.3.0-canary.80",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.79",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- docs: remove incorrect statement that force-cache is the default for …: #95235\n- Turbopack: add all keys to dynamic exports before sealing the object: #93334\n- Disable `supportsImmutableAssets` with `config.output`: #95521\n- turbo-persistence: skip directory fsync on Windows: #95497\n- Abort superseded Server Components HMR requests on the client: #95463\n- [ci] Add stats comment with partial stats: #95401\n- [fragment-scroll] Enable new scroll handler by default: #95378\n- Upgra",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.78",
       "published_at": "2026-07-05 07:57",
       "tag": "v16.3.0-canary.78",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.77",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Avoid unnecessary rendering for validation in dev: #95394\n- fix: work around SWC compress bug: #95457\n- docs: Update FormEvent to SubmitEvent in form handling example (deprecated in React 19.2.10+): #95453\n- Update font data: #95441\n- Ignore-list internal frames whose source maps chain to original sources: #95448\n- Type resolved `cacheLife` profiles, dropping runtime asserts: #95428\n- Split typeof-window server requires into .browser variants: #95201\n- Collect modules with br",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.77",
-      "published_at": "2026-07-04 08:00",
-      "tag": "v16.3.0-canary.77",
       "source": "release"
     }
   ]
