@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-08 21:44",
+  "updated": "2026-07-09 03:10",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.31.2-rc2",
+      "name": "ollama/ollama v0.31.2",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* ci: avoid unbounded parallelism by @dhiltgen in https://github.com/ollama/ollama/pull/16966\r\n* fix cuda toolkit lookup and parallel by @MarkWard0110 in https://github.com/ollama/ollama/pull/16613\r\n* docs(cloud): update retirement list by @mxyng in https://github.com/ollama/ollama/pull/17000\r\n* discover: fall back to standard CUDA when the JetPack runner is absent by @kevinpark1217 in https://github.com/ollama/ollama/pull/16949\r\n* agent: harness core by @ParthSareen in https:",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2",
       "published_at": "2026-07-07 06:28",
-      "tag": "v0.31.2-rc2",
+      "tag": "v0.31.2",
       "source": "release"
     },
     {
