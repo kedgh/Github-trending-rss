@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-08 16:11",
+  "updated": "2026-07-08 21:44",
   "count": 15,
   "items": [
     {
@@ -87,28 +87,28 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.29.7](https://github.com/n8n-io/n8n/compare/n8n@2.29.6...n8n@2.29.7) (2026-07-07)\n\n\n### Bug Fixes\n\n* **core:** Prevent Code node failure when a workflow contains an AI tool ([#33644](https://github.com/n8n-io/n8n/issues/33644)) ([df12545](https://github.com/n8n-io/n8n/commit/df1254505b5b2cc2ee6e86aeaf2c4142fa454970))\n* **editor:** Generate actions for nodes using a flat Action field across versions ([#33663](https://github.com/n8n-io/n8n/issues/33663)) ([246a5c8](https://github.com/n8n-io/",
+      "description": "## [2.29.8](https://github.com/n8n-io/n8n/compare/n8n@2.29.7...n8n@2.29.8) (2026-07-08)\n\n\n### Bug Fixes\n\n* **core:** Guard against null run-data slots in execution redaction ([#33726](https://github.com/n8n-io/n8n/issues/33726)) ([c894461](https://github.com/n8n-io/n8n/commit/c89446119cea24f53f5ad33d9f83027bf5544cb3))\n* **core:** Run database connection recovery only for Postgres ([#33753](https://github.com/n8n-io/n8n/issues/33753)) ([766261d](https://github.com/n8n-io/n8n/commit/766261d21677ed",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-07-07 15:57",
+      "published_at": "2026-07-08 16:53",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.29.7",
+      "name": "n8n-io/n8n n8n@2.29.8",
       "repo": "n8n-io/n8n",
-      "description": "## [2.29.7](https://github.com/n8n-io/n8n/compare/n8n@2.29.6...n8n@2.29.7) (2026-07-07)\n\n\n### Bug Fixes\n\n* **core:** Prevent Code node failure when a workflow contains an AI tool ([#33644](https://github.com/n8n-io/n8n/issues/33644)) ([df12545](https://github.com/n8n-io/n8n/commit/df1254505b5b2cc2ee6e86aeaf2c4142fa454970))\n* **editor:** Generate actions for nodes using a flat Action field across versions ([#33663](https://github.com/n8n-io/n8n/issues/33663)) ([246a5c8](https://github.com/n8n-io/",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.29.7",
-      "published_at": "2026-07-07 14:29",
-      "tag": "n8n@2.29.7",
+      "description": "## [2.29.8](https://github.com/n8n-io/n8n/compare/n8n@2.29.7...n8n@2.29.8) (2026-07-08)\n\n\n### Bug Fixes\n\n* **core:** Guard against null run-data slots in execution redaction ([#33726](https://github.com/n8n-io/n8n/issues/33726)) ([c894461](https://github.com/n8n-io/n8n/commit/c89446119cea24f53f5ad33d9f83027bf5544cb3))\n* **core:** Run database connection recovery only for Postgres ([#33753](https://github.com/n8n-io/n8n/issues/33753)) ([766261d](https://github.com/n8n-io/n8n/commit/766261d21677ed",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.29.8",
+      "published_at": "2026-07-08 16:53",
+      "tag": "n8n@2.29.8",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.30.0",
+      "name": "n8n-io/n8n n8n@1.123.64",
       "repo": "n8n-io/n8n",
-      "description": "# [2.30.0](https://github.com/n8n-io/n8n/compare/n8n@2.29.0...n8n@2.30.0) (2026-07-07)\n\n\n### Bug Fixes\n\n* **AI Agent Node:** Preserve parallel tool call structure in chat memory ([#32481](https://github.com/n8n-io/n8n/issues/32481)) ([387bb73](https://github.com/n8n-io/n8n/commit/387bb736659d98877baa812e7068a5a8075a6582))\n* **AI Agent Node:** Return intermediate steps when no tools are used ([#33450](https://github.com/n8n-io/n8n/issues/33450)) ([3ac2495](https://github.com/n8n-io/n8n/commit/3ac",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.30.0",
-      "published_at": "2026-07-07 15:55",
-      "tag": "n8n@2.30.0",
+      "description": "## [1.123.64](https://github.com/n8n-io/n8n/compare/n8n@1.123.63...n8n@1.123.64) (2026-07-08)\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/33810\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://stagereview.app/assets/gh-open-in-stage-dark.svg\">\n    <img src=\"https://stagereview.app/assets/gh-open-in-stage-light.svg\" alt=\"Open in Stage\">\n  </picture>\n</a>\n\n<!-- stage-review-badge-end -->\n\n<!-- This is an auto-generated des",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.64",
+      "published_at": "2026-07-08 16:28",
+      "tag": "n8n@1.123.64",
       "source": "release"
     },
     {
