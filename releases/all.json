@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-09 17:23",
+  "updated": "2026-07-09 22:36",
   "count": 15,
   "items": [
     {
@@ -31,6 +31,15 @@
       "source": "release"
     },
     {
+      "name": "langgenius/dify 1.16.0-rc1",
+      "repo": "langgenius/dify",
+      "description": "# Introducing Dify Agent *(Experimental)*: A New Agent Experience in Dify\r\n\r\n> [!WARNING]\r\n> You should provide Dify Agent services ⚠️**only to trusted, non-malicious users**⚠️.\r\n\r\nAs many of you know, the shell-based LLM agent paradigm has brought a major leap in agent capabilities and changed how we think about agents. Meanwhile, Skills provide a standardized way to package and distribute capabilities, making it easier to build powerful agents.\r\n\r\nToday, we are experimentally launching Dify Ag",
+      "url": "https://github.com/langgenius/dify/releases/tag/1.16.0-rc1",
+      "published_at": "2026-07-09 22:06",
+      "tag": "1.16.0-rc1",
+      "source": "release"
+    },
+    {
       "name": "langgenius/dify 1.15.0",
       "repo": "langgenius/dify",
       "description": "# Dify 1.15.0 Release Note\r\n\r\n## What's Changed\r\n\r\n### UX & UI Enhancements\r\n\r\n<img width=\"1920\" height=\"1044\" alt=\"录屏2026-06-25 21 12 33\" src=\"https://github.com/user-attachments/assets/c3ac7394-2ccf-4a66-873a-b7224a16897a\" />\r\n\r\n\r\n- **Redesigned landing / onboarding** for an easier first-run experience (#37433, #37844, #37800)\r\n- **Faster navigation** — improved \"go to anything\" palette and autofocused search inputs (#32130, #37175)\r\n- **Safer deletes** — one-click confirmation before removing",
@@ -46,15 +55,6 @@
       "url": "https://github.com/langgenius/dify/releases/tag/1.14.2",
       "published_at": "2026-05-19 13:34",
       "tag": "1.14.2",
-      "source": "release"
-    },
-    {
-      "name": "langgenius/dify 1.14.1",
-      "repo": "langgenius/dify",
-      "description": "## 🚀 What's New in v1.14.1?\r\n\r\nv1.14.1 is a patch release focused on security hardening, workflow and knowledge-base stability, deployment cleanup, and continued UI platform migration after v1.14.0.\r\n\r\n### 🔐 Security\r\n\r\n- **Self-hosted `SECRET_KEY` hardening** — Docker deployments no longer rely on a public default key. When `SECRET_KEY` is left empty, the API generates and persists a runtime key through the configured storage backend, while explicitly configured keys continue to work as before.",
-      "url": "https://github.com/langgenius/dify/releases/tag/1.14.1",
-      "published_at": "2026-05-12 16:19",
-      "tag": "1.14.1",
       "source": "release"
     },
     {
