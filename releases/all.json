@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-07-10 22:03",
+  "updated": "2026-07-11 03:17",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-openai==1.3.5",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-openai==1.3.4\n\nrelease(openai): 1.3.5 (#38785)\nfeat(openai): support explicit prompt caching (#38762)\nchore(model-profiles): refresh model profile data (#38774)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.3.5",
+      "published_at": "2026-07-11 02:58",
+      "tag": "langchain-openai==1.3.5",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-fireworks==1.4.4",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.12",
       "published_at": "2026-07-09 06:38",
       "tag": "langchain==1.3.12",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-openai==1.3.4",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.3.3\n\nrelease(openai): 1.3.4 (#38731)\nfix(openai): suppress Pydantic serializer warning on structured output parsed field (#37727)\ntest(openai): skip Codex VCR tests before cassette setup (#38690)\nchore: bump the minor-and-patch group across 3 directories with 11 updates (#38587)\nchore: bump langgraph-checkpoint from 4.1.0 to 4.1.1 in /libs/partners/openai (#38476)\nfix(core): use `asyncio.get_running_loop()` in async contexts (#38157)\ntest(openai): clarify async ",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.3.4",
-      "published_at": "2026-07-09 07:00",
-      "tag": "langchain-openai==1.3.4",
       "source": "release"
     },
     {
