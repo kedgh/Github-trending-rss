@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-07-11 03:17",
+  "updated": "2026-07-11 09:53",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain==1.3.13",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain==1.3.12\n\nrelease(langchain): 1.3.13 (#38787)\nfeat(langchain): add `meta` extra and support langchain-meta in init_chat_model (#38786)\nfeat(openai): support explicit prompt caching (#38762)\nchore(deps): refresh lockfiles (#38746)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.13",
+      "published_at": "2026-07-11 07:06",
+      "tag": "langchain==1.3.13",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-openai==1.3.5",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.4.4",
       "published_at": "2026-07-10 01:56",
       "tag": "langchain-fireworks==1.4.4",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain==1.3.12",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==1.3.11\n\nrelease(langchain): 1.3.12 (#38730)\nfix(langchain): propagate interrupts through ToolRetryMiddleware (#38722)\nfix(langchain): avoid shared process-group kill in shell middleware (#36359)\nfix(langchain): sanitize anthropic cache markers on fallback retries (#37867)\nstyle: fix some ruff preview rules in `langchain_v1` and `standard-tests` (#38657)\nchore(langchain): add types in agent middleware tests (#38188)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.12",
-      "published_at": "2026-07-09 06:38",
-      "tag": "langchain==1.3.12",
       "source": "release"
     },
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.32.0-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* create: select the qwen3.5 parser and renderer for Qwen3.5/Next by @jessegross in https://github.com/ollama/ollama/pull/17078\r\n* launch: warn before old agent models by @ParthSareen in https://github.com/ollama/ollama/pull/17063\r\n* cmd: agent UI by @ParthSareen in https://github.com/ollama/ollama/pull/17017\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.31.2...v0.32.0-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.0-rc0",
+      "published_at": "2026-07-11 09:03",
+      "tag": "v0.32.0-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.31.2",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n\r\n* Enabled flash attention on older NVIDIA GPUs (compute capability 6.x)\r\n* iGPU can now offload vision models with padding to fit available memory\r\n* Fixed structured output for thinking models when thinking is disabled\r\n* Hardened GGUF model creation\r\n* `ollama launch` for Claude Code now disables telemetry by default\r\n* Fixed loading models on paths with non-UTF-8 characters\r\n* Updated the MLX and llama.cpp engines\r\n\r\n## New Contributors\r\n* @kevinpark1217 made their first ",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.31.1",
       "published_at": "2026-07-01 06:10",
       "tag": "v0.31.1",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.30.12-rc0",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* tools: ignore braces inside JSON strings when detecting tool call end by @aditya-786 in https://github.com/ollama/ollama/pull/16937\r\n* mlx: bump dependency by @dhiltgen in https://github.com/ollama/ollama/pull/16935\r\n* llama.cpp update by @dhiltgen in https://github.com/ollama/ollama/pull/16960\r\n\r\n## New Contributors\r\n* @aditya-786 made their first contribution in https://github.com/ollama/ollama/pull/16937\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.3",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.12-rc0",
-      "published_at": "2026-06-30 01:45",
-      "tag": "v0.30.12-rc0",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.83",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Turbopack tests: remove assertions that duplicate webpack results: #95688\n- Fix support for `custom-media-queries` in LightningCSS: #95689\n- Clarify AI-assisted contribution policy in PR template and AGENTS.md: #95629\n- docs: add Building guide: #94999\n- docs: add incremental adoption path to Cache Components migration guide: #95325\n- [PPF] Sync IO is only allowed in the dynamic stage: #95384\n- refactor: remove unnecessary switches from StagedRenderingController: #95383\n- Kee",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.83",
+      "published_at": "2026-07-11 07:56",
+      "tag": "v16.3.0-canary.83",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.82",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- [turbopack] Compile service workers registered from pages router pages: #95583\n- [turbopack] Output service workers to `/_next/static/`: #95554\n- Reduce the size of OperationVc from 8 bytes to 4: #95614\n- Upgrade React from `df4bd1b4-20260708` to `5123b063-20260708`: #95642\n- Add attribute rendering benchmark: #95621\n- docs(opengraph-image): load assets at module scope to keep route static under Cache Components: #95246\n- Convert agent-041's blocking-data check to the agentic",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.81",
       "published_at": "2026-07-09 07:59",
       "tag": "v16.3.0-canary.81",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.80",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Turbopack: add more context to persistence file errors: #95318\n- [ci] Split up large cache-components-dev-warmup test suite: #95553\n- Cancel a superseded Server Components HMR refresh's server-side work: #95486\n- test: Fix immutable static asset deployment tests: #95550\n- [ci] Migrate webpack tests back to arm runners: #95549\n- docs: Fix testing-adapters variable name: #95575\n- test: Use Turbopack for 'Test new and changed tests when deployed': #95552\n- test: Disable service ",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.80",
-      "published_at": "2026-07-08 07:59",
-      "tag": "v16.3.0-canary.80",
       "source": "release"
     }
   ]
