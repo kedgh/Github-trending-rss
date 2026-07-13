@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-13 02:53",
+  "updated": "2026-07-13 09:58",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.84",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- request insights: expose dev snapshots to tools and HMR (3/5): #93976\n- request insights: derive request history and fetch data (2/5): #93975\n- request insights: record local framework spans (1/5): #93974\n\n### Credits \n\nHuge thanks to @feedthejim for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.84",
+      "published_at": "2026-07-13 07:57",
+      "tag": "v16.3.0-canary.84",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.83",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Turbopack tests: remove assertions that duplicate webpack results: #95688\n- Fix support for `custom-media-queries` in LightningCSS: #95689\n- Clarify AI-assisted contribution policy in PR template and AGENTS.md: #95629\n- docs: add Building guide: #94999\n- docs: add incremental adoption path to Cache Components migration guide: #95325\n- [PPF] Sync IO is only allowed in the dynamic stage: #95384\n- refactor: remove unnecessary switches from StagedRenderingController: #95383\n- Kee",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.82",
       "published_at": "2026-07-10 08:07",
       "tag": "v16.3.0-canary.82",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.81",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [ci] Pin typescript version in tests: #95619\n- fix(create-next-app): render filenames in Geist Mono so the preloaded font is used: #95471\n- [turbopack] print Turbopack warnings after SSG: #95430\n- fix(create-next-app): pin both axes on Tailwind template logos to silence aspect-ratio warning: #95609\n- Turbopack: enable `import with {type: 'text'}` by default: #95606\n- Consistently gate navigation-testing-lock API on flag: #95582\n- test: Fix immutable static asset deployment te",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.81",
-      "published_at": "2026-07-09 07:59",
-      "tag": "v16.3.0-canary.81",
       "source": "release"
     }
   ]
