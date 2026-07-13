@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-13 09:58",
+  "updated": "2026-07-13 16:52",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n stable",
+      "name": "n8n-io/n8n n8n@1.123.65",
       "repo": "n8n-io/n8n",
-      "description": "## [2.29.10](https://github.com/n8n-io/n8n/compare/n8n@2.29.9...n8n@2.29.10) (2026-07-10)\n\n\n### Bug Fixes\n\n* **editor:** Keep AI Assistant thread state intact on editor hand-off ([#33925](https://github.com/n8n-io/n8n/issues/33925)) ([3934a83](https://github.com/n8n-io/n8n/commit/3934a83e4757fac493446bc505d1edd3804c27c2))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/33957\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://s",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-07-10 15:57",
-      "tag": "stable",
+      "description": "## [1.123.65](https://github.com/n8n-io/n8n/compare/n8n@1.123.64...n8n@1.123.65) (2026-07-13)\n\n\n### Bug Fixes\n\n* **core:** Settle webhook execution promise on early errors ([#33998](https://github.com/n8n-io/n8n/issues/33998)) ([ec985f4](https://github.com/n8n-io/n8n/commit/ec985f4bf5cd771b18ab4e922c5da350884ebc55))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/34046\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://stagere",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.65",
+      "published_at": "2026-07-13 15:57",
+      "tag": "n8n@1.123.65",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.29.10",
+      "name": "n8n-io/n8n n8n@2.30.4",
       "repo": "n8n-io/n8n",
-      "description": "## [2.29.10](https://github.com/n8n-io/n8n/compare/n8n@2.29.9...n8n@2.29.10) (2026-07-10)\n\n\n### Bug Fixes\n\n* **editor:** Keep AI Assistant thread state intact on editor hand-off ([#33925](https://github.com/n8n-io/n8n/issues/33925)) ([3934a83](https://github.com/n8n-io/n8n/commit/3934a83e4757fac493446bc505d1edd3804c27c2))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/33957\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://s",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.29.10",
-      "published_at": "2026-07-10 15:57",
-      "tag": "n8n@2.29.10",
+      "description": "## [2.30.4](https://github.com/n8n-io/n8n/compare/n8n@2.30.3...n8n@2.30.4) (2026-07-13)\n\n\n### Bug Fixes\n\n* **core:** Decouple executions visibility from the sharing license feature ([#33986](https://github.com/n8n-io/n8n/issues/33986)) ([2cfd956](https://github.com/n8n-io/n8n/commit/2cfd9560f0efffb63cf112c9fd44e0b6c326619e))\n* **core:** Settle webhook execution promise on early errors ([#33996](https://github.com/n8n-io/n8n/issues/33996)) ([254a1e5](https://github.com/n8n-io/n8n/commit/254a1e562",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.30.4",
+      "published_at": "2026-07-13 16:02",
+      "tag": "n8n@2.30.4",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.30.3",
+      "name": "n8n-io/n8n beta",
       "repo": "n8n-io/n8n",
-      "description": "## [2.30.3](https://github.com/n8n-io/n8n/compare/n8n@2.30.2...n8n@2.30.3) (2026-07-10)\n\n\n### Bug Fixes\n\n* **editor:** Keep AI Assistant thread state intact on editor hand-off ([#33924](https://github.com/n8n-io/n8n/issues/33924)) ([ee10d01](https://github.com/n8n-io/n8n/commit/ee10d01e96a1a621efb5cb671b8af0ed0436bb91))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/33958\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://sta",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.30.3",
-      "published_at": "2026-07-10 15:59",
-      "tag": "n8n@2.30.3",
+      "description": "## [2.30.4](https://github.com/n8n-io/n8n/compare/n8n@2.30.3...n8n@2.30.4) (2026-07-13)\n\n\n### Bug Fixes\n\n* **core:** Decouple executions visibility from the sharing license feature ([#33986](https://github.com/n8n-io/n8n/issues/33986)) ([2cfd956](https://github.com/n8n-io/n8n/commit/2cfd9560f0efffb63cf112c9fd44e0b6c326619e))\n* **core:** Settle webhook execution promise on early errors ([#33996](https://github.com/n8n-io/n8n/issues/33996)) ([254a1e5](https://github.com/n8n-io/n8n/commit/254a1e562",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-07-13 16:02",
+      "tag": "beta",
       "source": "release"
     },
     {
