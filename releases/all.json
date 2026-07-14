@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-14 03:14",
+  "updated": "2026-07-14 09:45",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.32.0-rc0",
+      "name": "ollama/ollama v0.32.0",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* create: select the qwen3.5 parser and renderer for Qwen3.5/Next by @jessegross in https://github.com/ollama/ollama/pull/17078\r\n* launch: warn before old agent models by @ParthSareen in https://github.com/ollama/ollama/pull/17063\r\n* cmd: agent UI by @ParthSareen in https://github.com/ollama/ollama/pull/17017\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.31.2...v0.32.0-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.0-rc0",
+      "description": "## What's Changed\r\n\r\n  - New interactive agent experience: running `ollama` now launches an agent to help you code and delegate work\r\n```\r\n❯ ollama\r\nOllama 0.32.0\r\n\r\n▸ Chat, Code, & Work (glm-5.2:cloud)\r\n    Chat with models, code, search the web, and delegate real work\r\n```\r\n  - Renamed the Codex App integration to ChatGPT: use ollama launch chatgpt (and --restore to return to your usual ChatGPT profile)\r\n  - Simplified integration selection: the ollama launch menu now only offers the most popu",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.0",
       "published_at": "2026-07-11 09:03",
-      "tag": "v0.32.0-rc0",
+      "tag": "v0.32.0",
       "source": "release"
     },
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-preview.6",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Enhance ESLint rule `no-location-assign-relative-destination`: #93057\n\n### Misc Changes\n\n- Turbopack: order CSS modules by chunk-group co-occurrence in linearize: #95579\n- [test] Disable i18n-api-support deploy test for Turbopack with adapters: #95739\n- Fork navigation-testing-lock module: #95611\n- docs: runtime prefetching update: #95564\n- request insights: add agent diagnosis access (4/5): #93977\n- Fix Pages router 404 runtime rendering with Adapter: #95264\n- Fix duplicate ",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.6",
+      "published_at": "2026-07-14 04:20",
+      "tag": "v16.3.0-preview.6",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.3.0-canary.85",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [turbopack] Switch `make_production_chunks` to use floats: #95749\n- Fix termination handling: #95692\n- Restore canary version 16.3.0-canary.84 after v16.3.0-preview.6 preview release\n- Turbopack: order CSS modules by chunk-group co-occurrence in linearize: #95579\n- [test] Disable i18n-api-support deploy test for Turbopack with adapters: #95739\n- Fork navigation-testing-lock module: #95611\n- docs: runtime prefetching update: #95564\n- request insights: add agent diagnosis acces",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.85",
+      "published_at": "2026-07-14 07:54",
+      "tag": "v16.3.0-canary.85",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.84",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- request insights: expose dev snapshots to tools and HMR (3/5): #93976\n- request insights: derive request history and fetch data (2/5): #93975\n- request insights: record local framework spans (1/5): #93974\n\n### Credits \n\nHuge thanks to @feedthejim for helping!",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.84",
       "published_at": "2026-07-13 07:57",
       "tag": "v16.3.0-canary.84",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.83",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Turbopack tests: remove assertions that duplicate webpack results: #95688\n- Fix support for `custom-media-queries` in LightningCSS: #95689\n- Clarify AI-assisted contribution policy in PR template and AGENTS.md: #95629\n- docs: add Building guide: #94999\n- docs: add incremental adoption path to Cache Components migration guide: #95325\n- [PPF] Sync IO is only allowed in the dynamic stage: #95384\n- refactor: remove unnecessary switches from StagedRenderingController: #95383\n- Kee",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.83",
-      "published_at": "2026-07-11 07:56",
-      "tag": "v16.3.0-canary.83",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.82",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [turbopack] Compile service workers registered from pages router pages: #95583\n- [turbopack] Output service workers to `/_next/static/`: #95554\n- Reduce the size of OperationVc from 8 bytes to 4: #95614\n- Upgrade React from `df4bd1b4-20260708` to `5123b063-20260708`: #95642\n- Add attribute rendering benchmark: #95621\n- docs(opengraph-image): load assets at module scope to keep route static under Cache Components: #95246\n- Convert agent-041's blocking-data check to the agentic",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.82",
-      "published_at": "2026-07-10 08:07",
-      "tag": "v16.3.0-canary.82",
       "source": "release"
     }
   ]
