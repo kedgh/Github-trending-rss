@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-14 09:45",
+  "updated": "2026-07-14 15:49",
   "count": 15,
   "items": [
     {
@@ -85,6 +85,15 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n n8n@2.29.11",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.29.11](https://github.com/n8n-io/n8n/compare/n8n@2.29.10...n8n@2.29.11) (2026-07-13)\n\n\n### Bug Fixes\n\n* **core:** Decouple executions visibility from the sharing license feature ([#33987](https://github.com/n8n-io/n8n/issues/33987)) ([78c0d6a](https://github.com/n8n-io/n8n/commit/78c0d6a0baede150e71ee643a875d9e7ed1cefe6))\n* **core:** Settle webhook execution promise on early errors ([#33997](https://github.com/n8n-io/n8n/issues/33997)) ([b69b48d](https://github.com/n8n-io/n8n/commit/b69b48",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.29.11",
+      "published_at": "2026-07-14 14:55",
+      "tag": "n8n@2.29.11",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n n8n@1.123.65",
       "repo": "n8n-io/n8n",
       "description": "## [1.123.65](https://github.com/n8n-io/n8n/compare/n8n@1.123.64...n8n@1.123.65) (2026-07-13)\n\n\n### Bug Fixes\n\n* **core:** Settle webhook execution promise on early errors ([#33998](https://github.com/n8n-io/n8n/issues/33998)) ([ec985f4](https://github.com/n8n-io/n8n/commit/ec985f4bf5cd771b18ab4e922c5da350884ebc55))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/34046\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://stagere",
@@ -100,15 +109,6 @@
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.30.4",
       "published_at": "2026-07-13 16:02",
       "tag": "n8n@2.30.4",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n beta",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.30.4](https://github.com/n8n-io/n8n/compare/n8n@2.30.3...n8n@2.30.4) (2026-07-13)\n\n\n### Bug Fixes\n\n* **core:** Decouple executions visibility from the sharing license feature ([#33986](https://github.com/n8n-io/n8n/issues/33986)) ([2cfd956](https://github.com/n8n-io/n8n/commit/2cfd9560f0efffb63cf112c9fd44e0b6c326619e))\n* **core:** Settle webhook execution promise on early errors ([#33996](https://github.com/n8n-io/n8n/issues/33996)) ([254a1e5](https://github.com/n8n-io/n8n/commit/254a1e562",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-07-13 16:02",
-      "tag": "beta",
       "source": "release"
     },
     {
