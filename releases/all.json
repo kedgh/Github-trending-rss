@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-15 03:05",
+  "updated": "2026-07-15 09:41",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.86",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Better support the CLI spinner when running the TSC CLI: #95753\n- Upgrade React from `5123b063-20260708` to `7023f501-20260714`: #95782\n- docs: add route-side URL data audit to the Partial Prefetching adoption guide: #95389\n- docs: revalidateTag with expire zero, for route handlers: #95760\n- request insights: add DevTools request panel (5/5): #93978\n- docs: Improve immutable static docs: #95752\n- Add React sync development skill: #95620\n- docs: useSearchParams example stray l",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.86",
+      "published_at": "2026-07-15 07:59",
+      "tag": "v16.3.0-canary.86",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-preview.6",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Enhance ESLint rule `no-location-assign-relative-destination`: #93057\n\n### Misc Changes\n\n- Turbopack: order CSS modules by chunk-group co-occurrence in linearize: #95579\n- [test] Disable i18n-api-support deploy test for Turbopack with adapters: #95739\n- Fork navigation-testing-lock module: #95611\n- docs: runtime prefetching update: #95564\n- request insights: add agent diagnosis access (4/5): #93977\n- Fix Pages router 404 runtime rendering with Adapter: #95264\n- Fix duplicate ",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.85",
       "published_at": "2026-07-14 07:54",
       "tag": "v16.3.0-canary.85",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.84",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- request insights: expose dev snapshots to tools and HMR (3/5): #93976\n- request insights: derive request history and fetch data (2/5): #93975\n- request insights: record local framework spans (1/5): #93974\n\n### Credits \n\nHuge thanks to @feedthejim for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.84",
-      "published_at": "2026-07-13 07:57",
-      "tag": "v16.3.0-canary.84",
       "source": "release"
     }
   ]
