@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-16 09:51",
+  "updated": "2026-07-16 15:58",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.32.1",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n- Improved Gemma 4 tool calling and multi-turn reasoning, including more reliable tool-response continuations\r\n- Fixed a recurrent MLX model cache leak that could increase memory use across requests, and improved cache snapshot performance\r\n- MLX text model loading now respects `OLLAMA_LOAD_TIMEOUT`\r\n- Agent web search and fetch now tell users to run `ollama signin` when authentication is required\r\n- The interactive agent now receives the current working directory for better p",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.1",
+      "published_at": "2026-07-16 11:27",
+      "tag": "v0.32.1",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.32.0",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n\r\n  - New interactive agent experience: running `ollama` now launches an agent to help you code and delegate work\r\n```\r\n❯ ollama\r\nOllama 0.32.0\r\n\r\n▸ Chat, Code, & Work (glm-5.2:cloud)\r\n    Chat with models, code, search the web, and delegate real work\r\n```\r\n  - Renamed the Codex App integration to ChatGPT: use ollama launch chatgpt (and --restore to return to your usual ChatGPT profile)\r\n  - Simplified integration selection: the ollama launch menu now only offers the most popu",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2",
       "published_at": "2026-07-07 06:28",
       "tag": "v0.31.2",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.31.1",
-      "repo": "ollama/ollama",
-      "description": "## Faster Gemma 4 on Apple Silicon\r\n\r\n<img width=\"1037\" height=\"485\" alt=\"Screenshot 2026-06-30 at 5 25 29 PM\" src=\"https://github.com/user-attachments/assets/547d5076-090f-43c4-a661-938e11abc955\" />\r\n\r\nGemma 4 is now significantly faster in Ollama on Apple Silicon, generating tokens nearly 90% faster on average across a coding-agent benchmark by leveraging multi-token prediction (MTP). Ollama auto-tunes how many tokens to draft as it runs, so the speedup is on by default, requires no configurat",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.31.1",
-      "published_at": "2026-07-01 06:10",
-      "tag": "v0.31.1",
       "source": "release"
     },
     {
