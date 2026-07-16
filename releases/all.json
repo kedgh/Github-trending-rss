@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-07-16 21:24",
+  "updated": "2026-07-17 02:58",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain==1.3.14",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain==1.3.13\n\nrelease(langchain): 1.3.14 (#38883)\nfix(langchain): only retry retryable exceptions in `ToolRetryMiddleware` (#38845)\nfeat(langchain): `ToolErrorMiddleware` (#38781)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.14",
+      "published_at": "2026-07-16 21:28",
+      "tag": "langchain==1.3.14",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain==1.3.13",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.3.5",
       "published_at": "2026-07-11 02:58",
       "tag": "langchain-openai==1.3.5",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-fireworks==1.4.4",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-fireworks==1.4.3\n\nrelease(fireworks): 1.4.4 (#38753)\nfix(fireworks): report cached prompt token usage (#38751)\nchore(deps): refresh lockfiles (#38746)\nchore(model-profiles): refresh model profile data (#38663)\nchore: bump pytest from 9.1.0 to 9.1.1 in /libs/partners/fireworks (#38594)\nchore: bump langsmith from 0.8.18 to 0.9.5 in /libs/partners/fireworks (#38595)\ndocs(fireworks): clarify prompt-cache session affinity guidance (#38522)\ntest(fireworks): cover request-level ",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.4.4",
-      "published_at": "2026-07-10 01:56",
-      "tag": "langchain-fireworks==1.4.4",
       "source": "release"
     },
     {
