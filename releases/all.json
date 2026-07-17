@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-17 02:58",
+  "updated": "2026-07-17 09:55",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.88",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Run more test suites under cacheComponents flag: #95878\n- Unify appShells flag with Partial Prefetching: #95415\n- Fix Request Insights span collection: #95818\n- Revert \"Replay same-document traversals that happen before hydration\": #95853\n- [ci] Allow running all deploy tests with builds from a private registry: #95784\n- [turbopack] Only ship pages-router routes in the client chunk-group bootstrap manifest: #94671\n- [turbopack] Inline the chunk group bootstrap in Next.js to d",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.88",
+      "published_at": "2026-07-17 07:54",
+      "tag": "v16.3.0-canary.88",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.87",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- [turbopack] Generate component chunks for each merged group to increase cache hits: #95261\n- Exclude stale under 5 minutes from app shells: #95833\n- docs: remove experimental @next/routing note: #94903\n- [turbopack] Tell agents not to mention next.config.js options: #95825\n- chore: Remove stale build warning: #95813\n- Replay same-document traversals that happen before hydration: #95682\n- docs: cssChunking graph option: #95693\n- [Bench] Extend bench app to have realistic clien",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.86",
       "published_at": "2026-07-15 07:59",
       "tag": "v16.3.0-canary.86",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-preview.6",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Enhance ESLint rule `no-location-assign-relative-destination`: #93057\n\n### Misc Changes\n\n- Turbopack: order CSS modules by chunk-group co-occurrence in linearize: #95579\n- [test] Disable i18n-api-support deploy test for Turbopack with adapters: #95739\n- Fork navigation-testing-lock module: #95611\n- docs: runtime prefetching update: #95564\n- request insights: add agent diagnosis access (4/5): #93977\n- Fix Pages router 404 runtime rendering with Adapter: #95264\n- Fix duplicate ",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.6",
-      "published_at": "2026-07-14 04:20",
-      "tag": "v16.3.0-preview.6",
       "source": "release"
     }
   ]
