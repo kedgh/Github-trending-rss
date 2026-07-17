@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-17 15:54",
+  "updated": "2026-07-17 21:09",
   "count": 15,
   "items": [
     {
@@ -31,6 +31,15 @@
       "source": "release"
     },
     {
+      "name": "langgenius/dify 1.16.0",
+      "repo": "langgenius/dify",
+      "description": "# Introducing Dify Agent *(Beta)*: A New Agent Experience in Dify\r\n\r\n> [!WARNING]\r\n> You should provide Dify Agent services ⚠️**only to trusted, non-malicious users**⚠️.\r\n\r\nAs many of you know, the shell-based LLM agent paradigm has brought a major leap in agent capabilities and changed how we think about agents. Meanwhile, Skills provide a standardized way to package and distribute capabilities, making it easier to build powerful agents.\r\n\r\n\r\nToday, we are launching Dify Agent. Like other leadi",
+      "url": "https://github.com/langgenius/dify/releases/tag/1.16.0",
+      "published_at": "2026-07-17 19:14",
+      "tag": "1.16.0",
+      "source": "release"
+    },
+    {
       "name": "langgenius/dify 1.16.0-rc1",
       "repo": "langgenius/dify",
       "description": "# Introducing Dify Agent *(Experimental)*: A New Agent Experience in Dify\r\n\r\n> [!WARNING]\r\n> You should provide Dify Agent services ⚠️**only to trusted, non-malicious users**⚠️.\r\n\r\nAs many of you know, the shell-based LLM agent paradigm has brought a major leap in agent capabilities and changed how we think about agents. Meanwhile, Skills provide a standardized way to package and distribute capabilities, making it easier to build powerful agents.\r\n\r\nToday, we are experimentally launching Dify Ag",
@@ -46,15 +55,6 @@
       "url": "https://github.com/langgenius/dify/releases/tag/1.15.0",
       "published_at": "2026-06-25 21:16",
       "tag": "1.15.0",
-      "source": "release"
-    },
-    {
-      "name": "langgenius/dify 1.14.2",
-      "repo": "langgenius/dify",
-      "description": "## 🚀 What's New in v1.14.2?\r\n\r\nv1.14.2 is a patch release focused on security hardening, workflow and knowledge reliability, observability fixes, agent groundwork, and deployment/runtime tuning after v1.14.1.\r\n\r\n### 🔐 Security and administration\r\n\r\n- **Tenant-scoped sensitive endpoints** — strengthened tenant isolation for app trace-config endpoints and FilePreview text extraction. Thanks @xr843 in [#35793](https://github.com/langgenius/dify/pull/35793) and [#35797](https://github.com/langgenius",
-      "url": "https://github.com/langgenius/dify/releases/tag/1.14.2",
-      "published_at": "2026-05-19 13:34",
-      "tag": "1.14.2",
       "source": "release"
     },
     {
@@ -87,28 +87,28 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.30.6](https://github.com/n8n-io/n8n/compare/n8n@2.30.5...n8n@2.30.6) (2026-07-16)\n\n\n### Bug Fixes\n\n* **core:** Require execution mode for MCP workflow executions ([#34281](https://github.com/n8n-io/n8n/issues/34281)) ([ea5319f](https://github.com/n8n-io/n8n/commit/ea5319fe6c1a0cb7d88863a7e060603a55f9e2ca))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/34300\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://stagereview",
+      "description": "## [2.30.7](https://github.com/n8n-io/n8n/compare/n8n@2.30.6...n8n@2.30.7) (2026-07-17)\n\n\n### Bug Fixes\n\n* **core:** Lint community packages against their provenance-attested source ([#34391](https://github.com/n8n-io/n8n/issues/34391)) ([ecf9507](https://github.com/n8n-io/n8n/commit/ecf9507feec4c73b5906b02a7f8f9289b511afdc))\n* **core:** Sign SES requests with the ses service name ([#34283](https://github.com/n8n-io/n8n/issues/34283)) ([9a9db18](https://github.com/n8n-io/n8n/commit/9a9db1808fe1a",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-07-16 16:15",
+      "published_at": "2026-07-17 16:08",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.30.6",
+      "name": "n8n-io/n8n n8n@2.30.7",
       "repo": "n8n-io/n8n",
-      "description": "## [2.30.6](https://github.com/n8n-io/n8n/compare/n8n@2.30.5...n8n@2.30.6) (2026-07-16)\n\n\n### Bug Fixes\n\n* **core:** Require execution mode for MCP workflow executions ([#34281](https://github.com/n8n-io/n8n/issues/34281)) ([ea5319f](https://github.com/n8n-io/n8n/commit/ea5319fe6c1a0cb7d88863a7e060603a55f9e2ca))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/34300\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://stagereview",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.30.6",
-      "published_at": "2026-07-16 16:15",
-      "tag": "n8n@2.30.6",
+      "description": "## [2.30.7](https://github.com/n8n-io/n8n/compare/n8n@2.30.6...n8n@2.30.7) (2026-07-17)\n\n\n### Bug Fixes\n\n* **core:** Lint community packages against their provenance-attested source ([#34391](https://github.com/n8n-io/n8n/issues/34391)) ([ecf9507](https://github.com/n8n-io/n8n/commit/ecf9507feec4c73b5906b02a7f8f9289b511afdc))\n* **core:** Sign SES requests with the ses service name ([#34283](https://github.com/n8n-io/n8n/issues/34283)) ([9a9db18](https://github.com/n8n-io/n8n/commit/9a9db1808fe1a",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.30.7",
+      "published_at": "2026-07-17 16:07",
+      "tag": "n8n@2.30.7",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.31.2",
+      "name": "n8n-io/n8n n8n@1.123.66",
       "repo": "n8n-io/n8n",
-      "description": "## [2.31.2](https://github.com/n8n-io/n8n/compare/n8n@2.31.1...n8n@2.31.2) (2026-07-16)\n\n\n### Bug Fixes\n\n* **core:** Fix change in width of all dropdowns in UI ([#34266](https://github.com/n8n-io/n8n/issues/34266)) ([953bbe5](https://github.com/n8n-io/n8n/commit/953bbe5b06e6948f5365ec45d9e440e540774c38))\n* **core:** Require execution mode for MCP workflow executions ([#34280](https://github.com/n8n-io/n8n/issues/34280)) ([9aced71](https://github.com/n8n-io/n8n/commit/9aced71e1131c3e85233560b079b",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.31.2",
-      "published_at": "2026-07-16 16:18",
-      "tag": "n8n@2.31.2",
+      "description": "## [1.123.66](https://github.com/n8n-io/n8n/compare/n8n@1.123.65...n8n@1.123.66) (2026-07-17)\n\n\n### Bug Fixes\n\n* **Code Node:** External modules not working even when allowed in n8n version 1.x ([#34093](https://github.com/n8n-io/n8n/issues/34093)) ([beb673e](https://github.com/n8n-io/n8n/commit/beb673e21995029b833fac3a76ae31277272c664))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/34393\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" s",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.66",
+      "published_at": "2026-07-17 16:27",
+      "tag": "n8n@1.123.66",
       "source": "release"
     },
     {
