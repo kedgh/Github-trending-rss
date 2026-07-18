@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-18 02:55",
+  "updated": "2026-07-18 09:45",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.89",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Fix Rust doctest failures: #95909\n- [turbopack] Clean up `server_chunking_context`: #95908\n- [turbopack] Don't SSR on pages only navigated to through a soft nav: #95539\n- Package skills/ as a Claude Code plugin: #95907\n- [ci] Avoid apt-get in the next-stats-action Docker image: #95847\n- Back/forward set the Nav Inspector back to pending: #95865\n- fix(agent-rules): pad managed AGENTS.md block with blank lines: #95892\n- Revert \"Run more test suites under cacheComponents flag\": ",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.89",
+      "published_at": "2026-07-18 07:55",
+      "tag": "v16.3.0-canary.89",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.88",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Run more test suites under cacheComponents flag: #95878\n- Unify appShells flag with Partial Prefetching: #95415\n- Fix Request Insights span collection: #95818\n- Revert \"Replay same-document traversals that happen before hydration\": #95853\n- [ci] Allow running all deploy tests with builds from a private registry: #95784\n- [turbopack] Only ship pages-router routes in the client chunk-group bootstrap manifest: #94671\n- [turbopack] Inline the chunk group bootstrap in Next.js to d",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.87",
       "published_at": "2026-07-16 07:59",
       "tag": "v16.3.0-canary.87",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.86",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Better support the CLI spinner when running the TSC CLI: #95753\n- Upgrade React from `5123b063-20260708` to `7023f501-20260714`: #95782\n- docs: add route-side URL data audit to the Partial Prefetching adoption guide: #95389\n- docs: revalidateTag with expire zero, for route handlers: #95760\n- request insights: add DevTools request panel (5/5): #93978\n- docs: Improve immutable static docs: #95752\n- Add React sync development skill: #95620\n- docs: useSearchParams example stray l",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.86",
-      "published_at": "2026-07-15 07:59",
-      "tag": "v16.3.0-canary.86",
       "source": "release"
     }
   ]
