@@ -1,33 +1,33 @@
 {
   "title": "Releases",
-  "updated": "2026-07-21 21:20",
+  "updated": "2026-07-22 03:06",
   "count": 15,
   "items": [
     {
-      "name": "langchain-ai/langchain langchain-core==1.5.0",
+      "name": "langchain-ai/langchain langchain-xai==1.3.0",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.4.9\n\nrelease(core): 1.5.0 (#38978)\nfeat(core): add `reasoning_effort` as a standard chat model parameter (#38887)\nchore: bump soupsieve from 2.8 to 2.8.4 in /libs/core (#38750)\nchore: bump mistune from 3.2.1 to 3.3.0 in /libs/core (#38783)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.0",
-      "published_at": "2026-07-21 11:37",
-      "tag": "langchain-core==1.5.0",
+      "description": "Changes since langchain-xai==1.2.2\n\nrelease(xai): 1.3.0 (#38984)\nfeat(core): add `reasoning_effort` as a standard chat model parameter (#38887)\nfix: patch Dependabot dependency vulnerabilities (#38853)\nchore: bump langsmith from 0.9.5 to 0.10.2 in /libs/partners/xai (#38832)\nchore(deps): refresh lockfiles (#38746)\nchore(model-profiles): refresh model profile data (#38739)\nchore: bump langsmith from 0.8.18 to 0.9.5 in /libs/partners/xai (#38598)\nchore: bump pytest from 9.1.0 to 9.1.1 in /libs/par",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.3.0",
+      "published_at": "2026-07-22 00:15",
+      "tag": "langchain-xai==1.3.0",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain==1.3.14",
+      "name": "langchain-ai/langchain langchain-openai==1.4.0",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==1.3.13\n\nrelease(langchain): 1.3.14 (#38883)\nfix(langchain): only retry retryable exceptions in `ToolRetryMiddleware` (#38845)\nfeat(langchain): `ToolErrorMiddleware` (#38781)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.14",
-      "published_at": "2026-07-16 21:28",
-      "tag": "langchain==1.3.14",
+      "description": "Changes since langchain-openai==1.3.5\n\nrelease(openai): 1.4.0 (#38983)\nchore: bump pillow from 12.2.0 to 12.3.0 in /libs/partners/openai (#38999)\nfeat(core): add `reasoning_effort` as a standard chat model parameter (#38887)\nchore(model-profiles): refresh model profile data (#38797)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.4.0",
+      "published_at": "2026-07-22 00:09",
+      "tag": "langchain-openai==1.4.0",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain==1.3.13",
+      "name": "langchain-ai/langchain langchain-fireworks==1.5.0",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==1.3.12\n\nrelease(langchain): 1.3.13 (#38787)\nfeat(langchain): add `meta` extra and support langchain-meta in init_chat_model (#38786)\nfeat(openai): support explicit prompt caching (#38762)\nchore(deps): refresh lockfiles (#38746)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.13",
-      "published_at": "2026-07-11 07:06",
-      "tag": "langchain==1.3.13",
+      "description": "Changes since langchain-fireworks==1.4.4\n\nrelease(fireworks): 1.5.0 (#38986)\nfeat(core): add `reasoning_effort` as a standard chat model parameter (#38887)\nchore: bump langsmith from 0.10.2 to 0.10.6 in /libs/partners/fireworks (#38914)\nfix: patch Dependabot dependency vulnerabilities (#38853)\nchore: bump langsmith from 0.9.5 to 0.10.2 in /libs/partners/fireworks (#38830)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.5.0",
+      "published_at": "2026-07-22 00:16",
+      "tag": "langchain-fireworks==1.5.0",
       "source": "release"
     },
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.3.0-canary.91",
+      "name": "vercel/next.js v16.3.0-preview.7",
       "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [turbopack] Skip redundant top-level root updates: #95903\n- [turbopack] Drop unused exports from a CJS module: #95716\n- Turbopack: Simplify parent directory creation retry loop logic: #95835\n- Run Rust doctests in CI: #95911\n- docs: add 'Set up your editor' to the installation guide: #95928\n- fix(cms-contentful): await draftMode() and use Promise<> params type: #95631\n- Move outputHashSalt out of experimental: #95840\n- Move immutable static assets config option out of experim",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.91",
-      "published_at": "2026-07-21 07:58",
-      "tag": "v16.3.0-canary.91",
+      "description": "### Example Changes\n\n- fix: error handling and loading states in with-apollo-and-redux example: #91457\n\n### Misc Changes\n\n- Upgrade React from `172742b4-20260716` to `81e442ea-20260721`: #96016\n- Fix Turbopack middleware matcher with i18n single locale: #96014\n- Improve performance of validating MPA form submissions: #96013\n- Enforce `serverActions.bodySizeLimit` for Server Actions in Edge runtime: #96012\n- Set correct origin for internal redirects in custom server: #96011\n- Ensure exotic rewrit",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.7",
+      "published_at": "2026-07-22 02:28",
+      "tag": "v16.3.0-preview.7",
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.3.0-canary.90",
+      "name": "vercel/next.js v16.3.0-canary.92",
       "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Upgrade React from `7023f501-20260714` to `172742b4-20260716`: #95901\n\n### Credits \n\nHuge thanks to @vercel-release-bot for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.90",
-      "published_at": "2026-07-20 11:27",
-      "tag": "v16.3.0-canary.90",
+      "description": "### Example Changes\n\n- fix: error handling and loading states in with-apollo-and-redux example: #91457\n\n### Misc Changes\n\n- Upgrade React from `172742b4-20260716` to `81e442ea-20260721`: #96016\n- Fix Turbopack middleware matcher with i18n single locale: #96014\n- Improve performance of validating MPA form submissions: #96013\n- Enforce `serverActions.bodySizeLimit` for Server Actions in Edge runtime: #96012\n- Set correct origin for internal redirects in custom server: #96011\n- Ensure exotic rewrit",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.92",
+      "published_at": "2026-07-22 01:51",
+      "tag": "v16.3.0-canary.92",
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.3.0-canary.89",
+      "name": "vercel/next.js v16.2.11",
       "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Fix Rust doctest failures: #95909\n- [turbopack] Clean up `server_chunking_context`: #95908\n- [turbopack] Don't SSR on pages only navigated to through a soft nav: #95539\n- Package skills/ as a Claude Code plugin: #95907\n- [ci] Avoid apt-get in the next-stats-action Docker image: #95847\n- Back/forward set the Nav Inspector back to pending: #95865\n- fix(agent-rules): pad managed AGENTS.md block with blank lines: #95892\n- Revert \"Run more test suites under cacheComponents flag\": ",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.89",
-      "published_at": "2026-07-18 07:55",
-      "tag": "v16.3.0-canary.89",
+      "description": "This release contains security fixes for the following advisories:\r\n\r\nHigh:\r\n\r\n- [Denial of Service in App Router using Server Actions](https://github.com/vercel/next.js/security/advisories/GHSA-m99w-x7hq-7vfj)\r\n- [Middleware / Proxy bypass in App Router applications using Turbopack and single locale](https://github.com/vercel/next.js/security/advisories/GHSA-6gpp-xcg3-4w24)\r\n- [Server-Side Request Forgery in rewrites via attacker-controlled destination hostname](https://github.com/vercel/next.j",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.11",
+      "published_at": "2026-07-22 00:58",
+      "tag": "v16.2.11",
       "source": "release"
     }
   ]
