@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-21 03:27",
+  "updated": "2026-07-21 09:54",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.32.2-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* launch: keep Claude Code channels available by @hoyyeva in https://github.com/ollama/ollama/pull/17210\r\n* cmd: remove dead agent prompt wrappers by @ParthSareen in https://github.com/ollama/ollama/pull/17227\r\n* agent: reorder working directory instruction by @ParthSareen in https://github.com/ollama/ollama/pull/17228\r\n* agent: clean up semantics, UX, DX, and procedural code by @ParthSareen in https://github.com/ollama/ollama/pull/17212\r\n* agent: allow unlimited tool rounds f",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc0",
+      "published_at": "2026-07-21 05:00",
+      "tag": "v0.32.2-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.32.1",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n- Improved Gemma 4 tool calling and multi-turn reasoning, including more reliable tool-response continuations\r\n- Fixed a recurrent MLX model cache leak that could increase memory use across requests, and improved cache snapshot performance\r\n- MLX text model loading now respects `OLLAMA_LOAD_TIMEOUT`\r\n- Agent web search and fetch now tell users to run `ollama signin` when authentication is required\r\n- The interactive agent now receives the current working directory for better p",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.0",
       "published_at": "2026-07-11 09:03",
       "tag": "v0.32.0",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.31.2",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n\r\n* Enabled flash attention on older NVIDIA GPUs (compute capability 6.x)\r\n* iGPU can now offload vision models with padding to fit available memory\r\n* Fixed structured output for thinking models when thinking is disabled\r\n* Hardened GGUF model creation\r\n* `ollama launch` for Claude Code now disables telemetry by default\r\n* Fixed loading models on paths with non-UTF-8 characters\r\n* Updated the MLX and llama.cpp engines\r\n\r\n## New Contributors\r\n* @kevinpark1217 made their first ",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2",
-      "published_at": "2026-07-07 06:28",
-      "tag": "v0.31.2",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.91",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [turbopack] Skip redundant top-level root updates: #95903\n- [turbopack] Drop unused exports from a CJS module: #95716\n- Turbopack: Simplify parent directory creation retry loop logic: #95835\n- Run Rust doctests in CI: #95911\n- docs: add 'Set up your editor' to the installation guide: #95928\n- fix(cms-contentful): await draftMode() and use Promise<> params type: #95631\n- Move outputHashSalt out of experimental: #95840\n- Move immutable static assets config option out of experim",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.91",
+      "published_at": "2026-07-21 07:58",
+      "tag": "v16.3.0-canary.91",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.90",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Upgrade React from `7023f501-20260714` to `172742b4-20260716`: #95901\n\n### Credits \n\nHuge thanks to @vercel-release-bot for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.89",
       "published_at": "2026-07-18 07:55",
       "tag": "v16.3.0-canary.89",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.88",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Run more test suites under cacheComponents flag: #95878\n- Unify appShells flag with Partial Prefetching: #95415\n- Fix Request Insights span collection: #95818\n- Revert \"Replay same-document traversals that happen before hydration\": #95853\n- [ci] Allow running all deploy tests with builds from a private registry: #95784\n- [turbopack] Only ship pages-router routes in the client chunk-group bootstrap manifest: #94671\n- [turbopack] Inline the chunk group bootstrap in Next.js to d",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.88",
-      "published_at": "2026-07-17 07:54",
-      "tag": "v16.3.0-canary.88",
       "source": "release"
     }
   ]
