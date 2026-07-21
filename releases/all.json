@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-07-21 09:54",
+  "updated": "2026-07-21 16:10",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-core==1.5.0",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-core==1.4.9\n\nrelease(core): 1.5.0 (#38978)\nfeat(core): add `reasoning_effort` as a standard chat model parameter (#38887)\nchore: bump soupsieve from 2.8 to 2.8.4 in /libs/core (#38750)\nchore: bump mistune from 3.2.1 to 3.3.0 in /libs/core (#38783)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.0",
+      "published_at": "2026-07-21 11:37",
+      "tag": "langchain-core==1.5.0",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain==1.3.14",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.13",
       "published_at": "2026-07-11 07:06",
       "tag": "langchain==1.3.13",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-openai==1.3.5",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.3.4\n\nrelease(openai): 1.3.5 (#38785)\nfeat(openai): support explicit prompt caching (#38762)\nchore(model-profiles): refresh model profile data (#38774)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.3.5",
-      "published_at": "2026-07-11 02:58",
-      "tag": "langchain-openai==1.3.5",
       "source": "release"
     },
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n n8n@2.32.0",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.32.0](https://github.com/n8n-io/n8n/compare/n8n@2.31.0...n8n@2.32.0) (2026-07-21)\n\n\n### Bug Fixes\n\n* **ai-builder:** Honor eq [@version](https://github.com/version) conditions in generated node type definitions ([#34232](https://github.com/n8n-io/n8n/issues/34232)) ([9a48bc5](https://github.com/n8n-io/n8n/commit/9a48bc5fa75976a0ffba93bde062fd0fb05a7b8c))\n* **ai-builder:** Open agent chat preview on the same tab on instance AI ([#34441](https://github.com/n8n-io/n8n/issues/34441)) ([6d56cee]",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.32.0",
+      "published_at": "2026-07-21 15:54",
+      "tag": "n8n@2.32.0",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n beta",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.32.0](https://github.com/n8n-io/n8n/compare/n8n@2.31.0...n8n@2.32.0) (2026-07-21)\n\n\n### Bug Fixes\n\n* **ai-builder:** Honor eq [@version](https://github.com/version) conditions in generated node type definitions ([#34232](https://github.com/n8n-io/n8n/issues/34232)) ([9a48bc5](https://github.com/n8n-io/n8n/commit/9a48bc5fa75976a0ffba93bde062fd0fb05a7b8c))\n* **ai-builder:** Open agent chat preview on the same tab on instance AI ([#34441](https://github.com/n8n-io/n8n/issues/34441)) ([6d56cee]",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-07-21 15:54",
+      "tag": "beta",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.30.8](https://github.com/n8n-io/n8n/compare/n8n@2.30.7...n8n@2.30.8) (2026-07-20)\n\n\n### Bug Fixes\n\n* **core:** Fix AI Agent not seeing tools connected through HITL tools ([#34435](https://github.com/n8n-io/n8n/issues/34435)) ([c9bee5e](https://github.com/n8n-io/n8n/commit/c9bee5e6e82650a6cb8f88b1376a8fbd1fabe9fc))\n* **editor:** Auto-ungroup invalid groups on workflow save ([#34514](https://github.com/n8n-io/n8n/issues/34514)) ([bbd15de](https://github.com/n8n-io/n8n/commit/bbd15de01f09484c",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-07-20 15:55",
-      "tag": "stable",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.30.8",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.30.8](https://github.com/n8n-io/n8n/compare/n8n@2.30.7...n8n@2.30.8) (2026-07-20)\n\n\n### Bug Fixes\n\n* **core:** Fix AI Agent not seeing tools connected through HITL tools ([#34435](https://github.com/n8n-io/n8n/issues/34435)) ([c9bee5e](https://github.com/n8n-io/n8n/commit/c9bee5e6e82650a6cb8f88b1376a8fbd1fabe9fc))\n* **editor:** Auto-ungroup invalid groups on workflow save ([#34514](https://github.com/n8n-io/n8n/issues/34514)) ([bbd15de](https://github.com/n8n-io/n8n/commit/bbd15de01f09484c",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.30.8",
-      "published_at": "2026-07-20 15:55",
-      "tag": "n8n@2.30.8",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.31.4",
-      "repo": "n8n-io/n8n",
       "description": "## [2.31.4](https://github.com/n8n-io/n8n/compare/n8n@2.31.3...n8n@2.31.4) (2026-07-20)\n\n\n### Bug Fixes\n\n* **editor:** Auto-ungroup invalid groups on workflow save ([#34513](https://github.com/n8n-io/n8n/issues/34513)) ([bb8dbed](https://github.com/n8n-io/n8n/commit/bb8dbedb8459f2c084b7f76e78c073f780da1c41))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/34533\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://stagereview.app",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.31.4",
-      "published_at": "2026-07-20 16:17",
-      "tag": "n8n@2.31.4",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-07-21 16:02",
+      "tag": "stable",
       "source": "release"
     },
     {
