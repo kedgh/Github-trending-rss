@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-22 03:06",
+  "updated": "2026-07-22 09:52",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.32.2-rc0",
+      "name": "ollama/ollama v0.32.2-rc3",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* launch: keep Claude Code channels available by @hoyyeva in https://github.com/ollama/ollama/pull/17210\r\n* cmd: remove dead agent prompt wrappers by @ParthSareen in https://github.com/ollama/ollama/pull/17227\r\n* agent: reorder working directory instruction by @ParthSareen in https://github.com/ollama/ollama/pull/17228\r\n* agent: clean up semantics, UX, DX, and procedural code by @ParthSareen in https://github.com/ollama/ollama/pull/17212\r\n* agent: allow unlimited tool rounds f",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc3",
       "published_at": "2026-07-21 05:00",
-      "tag": "v0.32.2-rc0",
+      "tag": "v0.32.2-rc3",
       "source": "release"
     },
     {
@@ -121,21 +121,21 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.93",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- docs: attribute App Shell prefetch to Partial Prefetching: #96003\n- Turbopack: Remove chunk group id from value of chunk groups map: #95142\n- [ci] Enforce minimumReleaseAge in e2e tests that install external dependencies: #95628\n- Turbopack: Fix missing canonicalization of paths and always use verbatim paths internally for Windows: #95668\n- Revert \"[turbopack] Don't SSR on pages only navigated to through a soft nav (#95539)\": #96028\n- Turbopack: Use `Arc<PathBuf>` for keys in",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.93",
+      "published_at": "2026-07-22 07:55",
+      "tag": "v16.3.0-canary.93",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.92",
       "repo": "vercel/next.js",
       "description": "### Example Changes\n\n- fix: error handling and loading states in with-apollo-and-redux example: #91457\n\n### Misc Changes\n\n- Upgrade React from `172742b4-20260716` to `81e442ea-20260721`: #96016\n- Fix Turbopack middleware matcher with i18n single locale: #96014\n- Improve performance of validating MPA form submissions: #96013\n- Enforce `serverActions.bodySizeLimit` for Server Actions in Edge runtime: #96012\n- Set correct origin for internal redirects in custom server: #96011\n- Ensure exotic rewrit",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.92",
       "published_at": "2026-07-22 01:51",
       "tag": "v16.3.0-canary.92",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.2.11",
-      "repo": "vercel/next.js",
-      "description": "This release contains security fixes for the following advisories:\r\n\r\nHigh:\r\n\r\n- [Denial of Service in App Router using Server Actions](https://github.com/vercel/next.js/security/advisories/GHSA-m99w-x7hq-7vfj)\r\n- [Middleware / Proxy bypass in App Router applications using Turbopack and single locale](https://github.com/vercel/next.js/security/advisories/GHSA-6gpp-xcg3-4w24)\r\n- [Server-Side Request Forgery in rewrites via attacker-controlled destination hostname](https://github.com/vercel/next.j",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.11",
-      "published_at": "2026-07-22 00:58",
-      "tag": "v16.2.11",
       "source": "release"
     }
   ]
