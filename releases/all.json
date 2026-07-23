@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-23 16:14",
+  "updated": "2026-07-23 21:28",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-preview.9",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [Bench] Add client-trace attribution pass and document metrics to render-pipeline: #95828\n- Turbopack: Split up turbo-tasks-fs/src/lib.rs into smaller modules: #96030\n- Turbopack: Use Arc<PathMap> and Box<Path> to make InvalidatorMap slightly more efficient: #95987\n- Turbopack: Use `swc_core::ecma::utils::prop_name_eq` for a couple of the `next-custom-transforms`: #96035\n- [Cache Components] Exclude dynamic params from prerenders when no generateStaticParams values is provide",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.9",
+      "published_at": "2026-07-23 20:43",
+      "tag": "v16.3.0-preview.9",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-preview.8",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Always consult `npm_config_user_agent` first: #95879\n- Rewrite next-cache-components-optimizer around a test-driven instant() loop: #94721\n- docs: attribute App Shell prefetch to Partial Prefetching: #96003\n- Turbopack: Remove chunk group id from value of chunk groups map: #95142\n- [ci] Enforce minimumReleaseAge in e2e tests that install external dependencies: #95628\n- Turbopack: Fix missing canonicalization of paths and always use verbatim paths internally for Windows: #9566",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.94",
       "published_at": "2026-07-23 08:02",
       "tag": "v16.3.0-canary.94",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-preview.7",
-      "repo": "vercel/next.js",
-      "description": "### Example Changes\n\n- fix: error handling and loading states in with-apollo-and-redux example: #91457\n\n### Misc Changes\n\n- Upgrade React from `172742b4-20260716` to `81e442ea-20260721`: #96016\n- Fix Turbopack middleware matcher with i18n single locale: #96014\n- Improve performance of validating MPA form submissions: #96013\n- Enforce `serverActions.bodySizeLimit` for Server Actions in Edge runtime: #96012\n- Set correct origin for internal redirects in custom server: #96011\n- Ensure exotic rewrit",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.7",
-      "published_at": "2026-07-22 02:28",
-      "tag": "v16.3.0-preview.7",
       "source": "release"
     }
   ]
