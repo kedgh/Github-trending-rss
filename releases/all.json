@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-07-24 21:20",
+  "updated": "2026-07-25 03:14",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-anthropic==1.5.2",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-anthropic==1.5.1\n\nrelease(anthropic): 1.5.2 (#39056)\nfeat(anthropic): add Claude Opus 5 support (#39054)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.2",
+      "published_at": "2026-07-25 03:08",
+      "tag": "langchain-anthropic==1.5.2",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-openai==1.4.1",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.5.1",
       "published_at": "2026-07-24 04:28",
       "tag": "langchain-fireworks==1.5.1",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.5.1",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.5.0\n\nrelease(core): 1.5.1 (#39042)\nfeat(anthropic,fireworks,openai): support langsmith gateway through env var (#38742)\nfix(core): use `tool_call_schema` cache for `BaseTool` token counting in `count_tokens_approximately` (#39020)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.1",
-      "published_at": "2026-07-24 04:13",
-      "tag": "langchain-core==1.5.1",
       "source": "release"
     },
     {
@@ -103,12 +103,12 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.32.4",
+      "name": "n8n-io/n8n n8n@2.32.5",
       "repo": "n8n-io/n8n",
-      "description": "## [2.32.4](https://github.com/n8n-io/n8n/compare/n8n@2.32.3...n8n@2.32.4) (2026-07-24)\n\n\n### Bug Fixes\n\n* **core:** Fall back to the run's resolved model for AI Assistant verification LLM calls ([#34776](https://github.com/n8n-io/n8n/issues/34776)) ([14e48ba](https://github.com/n8n-io/n8n/commit/14e48bacb974a76fbc73f385e25ad1540e47933a))\n* **core:** Stop Instance AI follow-up runs from looping when they keep failing before the agent starts ([#34772](https://github.com/n8n-io/n8n/issues/34772)) ",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.32.4",
-      "published_at": "2026-07-24 15:53",
-      "tag": "n8n@2.32.4",
+      "description": "## [2.32.5](https://github.com/n8n-io/n8n/compare/n8n@2.32.4...n8n@2.32.5) (2026-07-24)\n\n\n### Bug Fixes\n\n* **core:** Sign S3 object paths with strict RFC 3986 encoding ([#34871](https://github.com/n8n-io/n8n/issues/34871)) ([95ad6f6](https://github.com/n8n-io/n8n/commit/95ad6f6eae274dcd0898128f3a23a90a9d69fafe))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/34932\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://stagereview",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.32.5",
+      "published_at": "2026-07-25 02:03",
+      "tag": "n8n@2.32.5",
       "source": "release"
     },
     {
