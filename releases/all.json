@@ -1,33 +1,33 @@
 {
   "title": "Releases",
-  "updated": "2026-07-24 03:01",
+  "updated": "2026-07-24 09:56",
   "count": 15,
   "items": [
     {
-      "name": "langchain-ai/langchain langchain-openrouter==0.2.7",
+      "name": "langchain-ai/langchain langchain-openai==1.4.1",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openrouter==0.2.6\n\nrelease(openrouter): 0.2.7 (#39022)\nchore(model-profiles): refresh model profile data (#39010)\nchore(model-profiles): refresh model profile data (#38990)\nchore(model-profiles): refresh model profile data (#38927)\nchore(model-profiles): refresh model profile data (#38905)\nchore(model-profiles): refresh model profile data (#38876)\nchore(model-profiles): refresh model profile data (#38856)\nchore(model-profiles): refresh model profile data (#38821)\nchore(mo",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.7",
-      "published_at": "2026-07-23 04:16",
-      "tag": "langchain-openrouter==0.2.7",
+      "description": "Changes since langchain-openai==1.4.0\n\nrelease(openai): 1.4.1 (#39045)\nfeat(anthropic,fireworks,openai): support langsmith gateway through env var (#38742)\nfix(openai): correct `gpt-5.3-chat-latest` profile (#39009)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.4.1",
+      "published_at": "2026-07-24 04:31",
+      "tag": "langchain-openai==1.4.1",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-xai==1.3.0",
+      "name": "langchain-ai/langchain langchain-fireworks==1.5.1",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-xai==1.2.2\n\nrelease(xai): 1.3.0 (#38984)\nfeat(core): add `reasoning_effort` as a standard chat model parameter (#38887)\nfix: patch Dependabot dependency vulnerabilities (#38853)\nchore: bump langsmith from 0.9.5 to 0.10.2 in /libs/partners/xai (#38832)\nchore(deps): refresh lockfiles (#38746)\nchore(model-profiles): refresh model profile data (#38739)\nchore: bump langsmith from 0.8.18 to 0.9.5 in /libs/partners/xai (#38598)\nchore: bump pytest from 9.1.0 to 9.1.1 in /libs/par",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.3.0",
-      "published_at": "2026-07-22 00:15",
-      "tag": "langchain-xai==1.3.0",
+      "description": "Changes since langchain-fireworks==1.5.0\n\nrelease(fireworks): 1.5.1 (#39044)\nfeat(anthropic,fireworks,openai): support langsmith gateway through env var (#38742)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.5.1",
+      "published_at": "2026-07-24 04:28",
+      "tag": "langchain-fireworks==1.5.1",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-openai==1.4.0",
+      "name": "langchain-ai/langchain langchain-core==1.5.1",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.3.5\n\nrelease(openai): 1.4.0 (#38983)\nchore: bump pillow from 12.2.0 to 12.3.0 in /libs/partners/openai (#38999)\nfeat(core): add `reasoning_effort` as a standard chat model parameter (#38887)\nchore(model-profiles): refresh model profile data (#38797)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.4.0",
-      "published_at": "2026-07-22 00:09",
-      "tag": "langchain-openai==1.4.0",
+      "description": "Changes since langchain-core==1.5.0\n\nrelease(core): 1.5.1 (#39042)\nfeat(anthropic,fireworks,openai): support langsmith gateway through env var (#38742)\nfix(core): use `tool_call_schema` cache for `BaseTool` token counting in `count_tokens_approximately` (#39020)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.1",
+      "published_at": "2026-07-24 04:13",
+      "tag": "langchain-core==1.5.1",
       "source": "release"
     },
     {
@@ -121,21 +121,21 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.95",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Turbopack: Very minor improvements for watcher loop: #96103\n- Turbopack: Refactor watcher event handling and batching logic: #96087\n- fix: remove deprecated url.parse() from custom-server example: #96105\n- Upgrade React from `711c445b-20260722` to `28cd4bb0-20260723`: #96100\n- Throw for empty or incomplete generateStaticParams results with output: export: #95969\n- Throw when generateStaticParams returns invalid values: #95968\n- Remove inert experimental.viewTransition flag: #",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.95",
+      "published_at": "2026-07-24 07:58",
+      "tag": "v16.3.0-canary.95",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-preview.8",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Always consult `npm_config_user_agent` first: #95879\n- Rewrite next-cache-components-optimizer around a test-driven instant() loop: #94721\n- docs: attribute App Shell prefetch to Partial Prefetching: #96003\n- Turbopack: Remove chunk group id from value of chunk groups map: #95142\n- [ci] Enforce minimumReleaseAge in e2e tests that install external dependencies: #95628\n- Turbopack: Fix missing canonicalization of paths and always use verbatim paths internally for Windows: #9566",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.8",
       "published_at": "2026-07-22 18:21",
       "tag": "v16.3.0-preview.8",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.94",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [Cache Components] Exclude dynamic params from prerenders when no generateStaticParams values is provided: #95872\n- Gate `partialFallback` behavior behind `partialPrefetching` flag: #96074\n- [turbopack] Fix deployment skew protection for component chunks: #96079\n- Turbopack: stop copying sourcesContent into every serialized source map: #95934\n- Upgrade React from `81e442ea-20260721` to `711c445b-20260722`: #96066\n- fix: cache miss in App Shell for cached pages with gSP: #9566",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.94",
-      "published_at": "2026-07-23 08:02",
-      "tag": "v16.3.0-canary.94",
       "source": "release"
     }
   ]
