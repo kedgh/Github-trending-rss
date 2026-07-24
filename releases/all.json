@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-24 09:56",
+  "updated": "2026-07-24 16:10",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.32.3",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.32.3](https://github.com/n8n-io/n8n/compare/n8n@2.32.2...n8n@2.32.3) (2026-07-23)\n\n\n### Bug Fixes\n\n* **editor:** Restore agent channel credential setup ([#34757](https://github.com/n8n-io/n8n/issues/34757)) ([53e48ee](https://github.com/n8n-io/n8n/commit/53e48ee8b0ed802277fc94ee9a77e331a4e36788))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/34760\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://stagereview.app/asset",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.32.3",
-      "published_at": "2026-07-23 15:56",
-      "tag": "n8n@2.32.3",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n beta",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.32.3](https://github.com/n8n-io/n8n/compare/n8n@2.32.2...n8n@2.32.3) (2026-07-23)\n\n\n### Bug Fixes\n\n* **editor:** Restore agent channel credential setup ([#34757](https://github.com/n8n-io/n8n/issues/34757)) ([53e48ee](https://github.com/n8n-io/n8n/commit/53e48ee8b0ed802277fc94ee9a77e331a4e36788))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/34760\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://stagereview.app/asset",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-07-23 15:56",
-      "tag": "beta",
-      "source": "release"
-    },
-    {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.31.5](https://github.com/n8n-io/n8n/compare/n8n@2.31.4...n8n@2.31.5) (2026-07-22)\n\n\n### Bug Fixes\n\n* **core:** Coerce AWS request header values to strings before signing ([#34568](https://github.com/n8n-io/n8n/issues/34568)) ([6a8d4e9](https://github.com/n8n-io/n8n/commit/6a8d4e9a9b6ba75387647f4eae7ecdbbe4a266b5))\n* **core:** Fix AI Agent not seeing tools connected through HITL tools ([#34434](https://github.com/n8n-io/n8n/issues/34434)) ([0a4ef52](https://github.com/n8n-io/n8n/commit/0a4e",
+      "description": "## [2.31.6](https://github.com/n8n-io/n8n/compare/n8n@2.31.5...n8n@2.31.6) (2026-07-24)\n\n\n### Bug Fixes\n\n* **core:** Stop Instance AI follow-up runs from looping when they keep failing before the agent starts ([#34773](https://github.com/n8n-io/n8n/issues/34773)) ([031227a](https://github.com/n8n-io/n8n/commit/031227a50e15dd2885853ecfec0719e31c571f49))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/34848\">\n  <picture>\n    <source media=\"(prefers-color-s",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-07-22 18:50",
+      "published_at": "2026-07-24 15:57",
       "tag": "stable",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n n8n@2.31.6",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.31.6](https://github.com/n8n-io/n8n/compare/n8n@2.31.5...n8n@2.31.6) (2026-07-24)\n\n\n### Bug Fixes\n\n* **core:** Stop Instance AI follow-up runs from looping when they keep failing before the agent starts ([#34773](https://github.com/n8n-io/n8n/issues/34773)) ([031227a](https://github.com/n8n-io/n8n/commit/031227a50e15dd2885853ecfec0719e31c571f49))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/34848\">\n  <picture>\n    <source media=\"(prefers-color-s",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.31.6",
+      "published_at": "2026-07-24 15:57",
+      "tag": "n8n@2.31.6",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n n8n@2.32.4",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.32.4](https://github.com/n8n-io/n8n/compare/n8n@2.32.3...n8n@2.32.4) (2026-07-24)\n\n\n### Bug Fixes\n\n* **core:** Fall back to the run's resolved model for AI Assistant verification LLM calls ([#34776](https://github.com/n8n-io/n8n/issues/34776)) ([14e48ba](https://github.com/n8n-io/n8n/commit/14e48bacb974a76fbc73f385e25ad1540e47933a))\n* **core:** Stop Instance AI follow-up runs from looping when they keep failing before the agent starts ([#34772](https://github.com/n8n-io/n8n/issues/34772)) ",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.32.4",
+      "published_at": "2026-07-24 15:53",
+      "tag": "n8n@2.32.4",
       "source": "release"
     },
     {
