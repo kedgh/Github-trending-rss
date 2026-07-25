@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-25 21:05",
+  "updated": "2026-07-26 02:55",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.32.4-rc0",
+      "name": "ollama/ollama v0.32.4",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* x/create: quantize lm_head at 8-bit in the requested family by @jessegross in https://github.com/ollama/ollama/pull/17357\r\n* test: harden flaky updater and transfer unit tests by @dhiltgen in https://github.com/ollama/ollama/pull/17378\r\n* server: fix ps data race on scheduler loaded map by @dhiltgen in https://github.com/ollama/ollama/pull/17376\r\n* qwen3_5: fix expert quantization handling and gather packed gate_up in one launch by @jessegross in https://github.com/ollama/ol",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.4-rc0",
+      "description": "## What's Changed\r\n- Support Laguna on Apple GPUs via the MLX engine\r\n- Quantize draft-model output heads at the requested type when creating speculative-decoding drafts.\r\n- Fixed Qwen3 MoE decoding for differently-quantized experts, plus faster packed gate/up projection (~4–9% on M5 Max).\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.3...v0.32.4",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.4",
       "published_at": "2026-07-25 10:22",
-      "tag": "v0.32.4-rc0",
+      "tag": "v0.32.4",
       "source": "release"
     },
     {
