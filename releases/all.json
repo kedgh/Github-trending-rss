@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-25 03:14",
+  "updated": "2026-07-25 09:55",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.96",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [sourcemaps] Use file: sourcemaps for Turbopack to improve dev performance: #95946\n- Give RouteCacheEntry a single hidden class across its lifecycle: #96164\n- Keep optimistic-route param handling monomorphic: #96169\n- Store RouteTree slots in a Map to keep slot access monomorphic: #96168\n- Make reifyRouteTree object literals match the canonical RouteTree key order: #96162\n- Keep VaryPath monomorphic by making isRootParam required: #96122\n- docs: expand and modernize the Singl",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.96",
+      "published_at": "2026-07-25 08:00",
+      "tag": "v16.3.0-canary.96",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-preview.9",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- [Bench] Add client-trace attribution pass and document metrics to render-pipeline: #95828\n- Turbopack: Split up turbo-tasks-fs/src/lib.rs into smaller modules: #96030\n- Turbopack: Use Arc<PathMap> and Box<Path> to make InvalidatorMap slightly more efficient: #95987\n- Turbopack: Use `swc_core::ecma::utils::prop_name_eq` for a couple of the `next-custom-transforms`: #96035\n- [Cache Components] Exclude dynamic params from prerenders when no generateStaticParams values is provide",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.95",
       "published_at": "2026-07-24 07:58",
       "tag": "v16.3.0-canary.95",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-preview.8",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Always consult `npm_config_user_agent` first: #95879\n- Rewrite next-cache-components-optimizer around a test-driven instant() loop: #94721\n- docs: attribute App Shell prefetch to Partial Prefetching: #96003\n- Turbopack: Remove chunk group id from value of chunk groups map: #95142\n- [ci] Enforce minimumReleaseAge in e2e tests that install external dependencies: #95628\n- Turbopack: Fix missing canonicalization of paths and always use verbatim paths internally for Windows: #9566",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.8",
-      "published_at": "2026-07-22 18:21",
-      "tag": "v16.3.0-preview.8",
       "source": "release"
     }
   ]
