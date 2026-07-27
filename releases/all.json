@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-07-27 22:13",
+  "updated": "2026-07-28 03:15",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-fireworks==1.5.2",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-fireworks==1.5.1\n\nrelease(fireworks): 1.5.2 (#39093)\nchore(model-profiles): refresh model profile data (#39092)\nchore(model-profiles): refresh model profile data (#39084)\nchore(model-profiles): refresh model profile data (#39050)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.5.2",
+      "published_at": "2026-07-28 00:59",
+      "tag": "langchain-fireworks==1.5.2",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-anthropic==1.5.2",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.4.1",
       "published_at": "2026-07-24 04:31",
       "tag": "langchain-openai==1.4.1",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-fireworks==1.5.1",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-fireworks==1.5.0\n\nrelease(fireworks): 1.5.1 (#39044)\nfeat(anthropic,fireworks,openai): support langsmith gateway through env var (#38742)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.5.1",
-      "published_at": "2026-07-24 04:28",
-      "tag": "langchain-fireworks==1.5.1",
       "source": "release"
     },
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.32.5-rc0",
+      "name": "ollama/ollama v0.32.5",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* mlx update by @dhiltgen in https://github.com/ollama/ollama/pull/17397\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.4...v0.32.5-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.5-rc0",
+      "description": "## What's Changed\r\n\r\n* Fixed an MLX Metal bug that could reduce output quality for NVFP4 models, particularly Laguna.\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.4...v0.32.5\r\n",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.5",
       "published_at": "2026-07-27 09:25",
-      "tag": "v0.32.5-rc0",
+      "tag": "v0.32.5",
       "source": "release"
     },
     {
