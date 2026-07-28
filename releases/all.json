@@ -1,8 +1,26 @@
 {
   "title": "Releases",
-  "updated": "2026-07-28 21:44",
+  "updated": "2026-07-29 03:10",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-core==1.5.2",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-core==1.5.1\n\nrelease(core): 1.5.2 (#39108)\nfix(core): handle empty string in gateway env vars (#39107)\nchore: bump setuptools from 82.0.0 to 83.0.0 in /libs/core (#39032)\nchore: bump jupyterlab from 4.5.9 to 4.5.10 in /libs/core (#39033)\nchore: bump setuptools from 80.9.0 to 83.0.0 in /libs/text-splitters (#39029)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.2",
+      "published_at": "2026-07-29 00:39",
+      "tag": "langchain-core==1.5.2",
+      "source": "release"
+    },
+    {
+      "name": "langchain-ai/langchain langchain-anthropic==1.5.3",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-anthropic==1.5.2\n\nrelease(anthropic): 1.5.3 (#39109)\nfix(anthropic): preserve empty thinking field in signature_delta streaming (#38765)\nfix(anthropic): strip unsupported fields from system message content blocks (#39101)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.3",
+      "published_at": "2026-07-29 01:03",
+      "tag": "langchain-anthropic==1.5.3",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-fireworks==1.5.2",
       "repo": "langchain-ai/langchain",
@@ -10,24 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.5.2",
       "published_at": "2026-07-28 00:59",
       "tag": "langchain-fireworks==1.5.2",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-anthropic==1.5.2",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-anthropic==1.5.1\n\nrelease(anthropic): 1.5.2 (#39056)\nfeat(anthropic): add Claude Opus 5 support (#39054)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.2",
-      "published_at": "2026-07-25 03:08",
-      "tag": "langchain-anthropic==1.5.2",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-openai==1.4.1",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.4.0\n\nrelease(openai): 1.4.1 (#39045)\nfeat(anthropic,fireworks,openai): support langsmith gateway through env var (#38742)\nfix(openai): correct `gpt-5.3-chat-latest` profile (#39009)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.4.1",
-      "published_at": "2026-07-24 04:31",
-      "tag": "langchain-openai==1.4.1",
       "source": "release"
     },
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-preview.10",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Unify allow-runtime with Partial Prefetching: #96106\n- Attempt static prefetch before resorting to runtime: #96095\n- Block prefetch task until sufficient response is received: #96017\n- Use a safe clock for Request Insights bookkeeping: #96274\n- Count key length in remaining byte-budgeted LRUs: #96231\n- Serve cached misses from the filesystem route cache: #96230\n- Count URL key length in the filesystem route cache LRU: #96229\n- Turbopack: Only extend the watcher's batch window",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.10",
+      "published_at": "2026-07-29 00:18",
+      "tag": "v16.3.0-preview.10",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.3.0-canary.99",
+      "repo": "vercel/next.js",
+      "description": "Initial release",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.99",
+      "published_at": "2026-07-28 23:21",
+      "tag": "v16.3.0-canary.99",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.97",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- fix(sandbox): release one-shot timeout ids after they run: #96161\n- Fix dev overlay symbolication for project paths needing percent-encoding: #96221\n- [internal] Add a skill for benching changes in a sandbox: #95943\n- Run dev validation in process when using Webpack: #96219\n- Read chunk source maps from disk in the dev validation worker: #96218\n- Retry the source map lookup with a plain path: #96215\n- Pass fallback params to the dev validation worker as maps: #96210\n- [source",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.97",
       "published_at": "2026-07-26 07:56",
       "tag": "v16.3.0-canary.97",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.2.12",
-      "repo": "vercel/next.js",
-      "description": "## What's Changed\r\n* Backport/docs fixes 16.2 - July round by @icyJoseph in https://github.com/vercel/next.js/pull/96031\r\n* [Backport] Fixes to support TypeScript 7 by @lukesandberg in https://github.com/vercel/next.js/pull/95831\r\n\r\n\r\n**Full Changelog**: https://github.com/vercel/next.js/compare/v16.2.11...v16.2.12",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.2.12",
-      "published_at": "2026-07-26 07:55",
-      "tag": "v16.2.12",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v15.5.22",
-      "repo": "vercel/next.js",
-      "description": "## What's Changed\r\n* [15.5] Reject TypeScript >= 7.0 with an actionable error by @lukesandberg in https://github.com/vercel/next.js/pull/96110\r\n\r\n\r\n**Full Changelog**: https://github.com/vercel/next.js/compare/v15.5.21...v15.5.22",
-      "url": "https://github.com/vercel/next.js/releases/tag/v15.5.22",
-      "published_at": "2026-07-26 07:54",
-      "tag": "v15.5.22",
       "source": "release"
     }
   ]
