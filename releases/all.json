@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-28 09:48",
+  "updated": "2026-07-28 16:18",
   "count": 15,
   "items": [
     {
@@ -31,6 +31,15 @@
       "source": "release"
     },
     {
+      "name": "langgenius/dify 1.16.1",
+      "repo": "langgenius/dify",
+      "description": "## What's Changed\r\n\r\n### New Features\r\n**Tool Multi-Select Input**\r\n- Workflow tool nodes now support multi-select dropdown inputs, allowing users to choose multiple values from a predefined list when configuring tool parameters. (#39346)\r\n\r\n**Workflow Node Locator**\r\n- You can now click a node_id in workflow run logs or error messages to locate and highlight the corresponding node in the workflow editor canvas. (#38187)\r\n\r\n**Workflow Block Selector Improvements**\r\n- The block selector panel now",
+      "url": "https://github.com/langgenius/dify/releases/tag/1.16.1",
+      "published_at": "2026-07-28 11:43",
+      "tag": "1.16.1",
+      "source": "release"
+    },
+    {
       "name": "langgenius/dify 1.16.0",
       "repo": "langgenius/dify",
       "description": "# Introducing Dify Agent *(Beta)*: A New Agent Experience in Dify\r\n\r\n> [!WARNING]\r\n> You should provide Dify Agent services ⚠️**only to trusted, non-malicious users**⚠️.\r\n\r\nAs many of you know, the shell-based LLM agent paradigm has brought a major leap in agent capabilities and changed how we think about agents. Meanwhile, Skills provide a standardized way to package and distribute capabilities, making it easier to build powerful agents.\r\n\r\n\r\nToday, we are launching Dify Agent. Like other leadi",
@@ -46,15 +55,6 @@
       "url": "https://github.com/langgenius/dify/releases/tag/1.16.0-rc1",
       "published_at": "2026-07-09 22:06",
       "tag": "1.16.0-rc1",
-      "source": "release"
-    },
-    {
-      "name": "langgenius/dify 1.15.0",
-      "repo": "langgenius/dify",
-      "description": "# Dify 1.15.0 Release Note\r\n\r\n## What's Changed\r\n\r\n### UX & UI Enhancements\r\n\r\n<img width=\"1920\" height=\"1044\" alt=\"录屏2026-06-25 21 12 33\" src=\"https://github.com/user-attachments/assets/c3ac7394-2ccf-4a66-873a-b7224a16897a\" />\r\n\r\n\r\n- **Redesigned landing / onboarding** for an easier first-run experience (#37433, #37844, #37800)\r\n- **Faster navigation** — improved \"go to anything\" palette and autofocused search inputs (#32130, #37175)\r\n- **Safer deletes** — one-click confirmation before removing",
-      "url": "https://github.com/langgenius/dify/releases/tag/1.15.0",
-      "published_at": "2026-06-25 21:16",
-      "tag": "1.15.0",
       "source": "release"
     },
     {
@@ -85,12 +85,21 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n stable",
+      "name": "n8n-io/n8n n8n@2.33.0",
       "repo": "n8n-io/n8n",
-      "description": "## [2.31.7](https://github.com/n8n-io/n8n/compare/n8n@2.31.6...n8n@2.31.7) (2026-07-27)\n\n\n### Bug Fixes\n\n* **core:** Avoid loading execution data during credentials security audit ([#34912](https://github.com/n8n-io/n8n/issues/34912)) ([0b61a96](https://github.com/n8n-io/n8n/commit/0b61a9681cd299f0b7586a6769dda2f77da408b7))\n* **core:** Sign S3 object paths with strict RFC 3986 encoding ([#34873](https://github.com/n8n-io/n8n/issues/34873)) ([75b0d34](https://github.com/n8n-io/n8n/commit/75b0d340",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-07-27 16:01",
-      "tag": "stable",
+      "description": "# [2.33.0](https://github.com/n8n-io/n8n/compare/n8n@2.32.0...n8n@2.33.0) (2026-07-28)\n\n\n### Bug Fixes\n\n* **ai-builder:** Halt workflow verification at send-and-wait gates on loops ([#34809](https://github.com/n8n-io/n8n/issues/34809)) ([e904939](https://github.com/n8n-io/n8n/commit/e904939db2d14091cf638be2d793a8430ba29621))\n* **ai-builder:** Keep assistant replies in the user's language during tool-heavy turns ([#34761](https://github.com/n8n-io/n8n/issues/34761)) ([5a64744](https://github.com/",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.33.0",
+      "published_at": "2026-07-28 15:58",
+      "tag": "n8n@2.33.0",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n beta",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.33.0](https://github.com/n8n-io/n8n/compare/n8n@2.32.0...n8n@2.33.0) (2026-07-28)\n\n\n### Bug Fixes\n\n* **ai-builder:** Halt workflow verification at send-and-wait gates on loops ([#34809](https://github.com/n8n-io/n8n/issues/34809)) ([e904939](https://github.com/n8n-io/n8n/commit/e904939db2d14091cf638be2d793a8430ba29621))\n* **ai-builder:** Keep assistant replies in the user's language during tool-heavy turns ([#34761](https://github.com/n8n-io/n8n/issues/34761)) ([5a64744](https://github.com/",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-07-28 15:58",
+      "tag": "beta",
       "source": "release"
     },
     {
@@ -100,15 +109,6 @@
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.31.7",
       "published_at": "2026-07-27 16:01",
       "tag": "n8n@2.31.7",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.31.6",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.31.6](https://github.com/n8n-io/n8n/compare/n8n@2.31.5...n8n@2.31.6) (2026-07-24)\n\n\n### Bug Fixes\n\n* **core:** Stop Instance AI follow-up runs from looping when they keep failing before the agent starts ([#34773](https://github.com/n8n-io/n8n/issues/34773)) ([031227a](https://github.com/n8n-io/n8n/commit/031227a50e15dd2885853ecfec0719e31c571f49))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/34848\">\n  <picture>\n    <source media=\"(prefers-color-s",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.31.6",
-      "published_at": "2026-07-24 15:57",
-      "tag": "n8n@2.31.6",
       "source": "release"
     },
     {
