@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-29 16:24",
+  "updated": "2026-07-29 21:49",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.33.0",
+      "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "# [2.33.0](https://github.com/n8n-io/n8n/compare/n8n@2.32.0...n8n@2.33.0) (2026-07-28)\n\n\n### Bug Fixes\n\n* **ai-builder:** Halt workflow verification at send-and-wait gates on loops ([#34809](https://github.com/n8n-io/n8n/issues/34809)) ([e904939](https://github.com/n8n-io/n8n/commit/e904939db2d14091cf638be2d793a8430ba29621))\n* **ai-builder:** Keep assistant replies in the user's language during tool-heavy turns ([#34761](https://github.com/n8n-io/n8n/issues/34761)) ([5a64744](https://github.com/",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.33.0",
-      "published_at": "2026-07-28 15:58",
-      "tag": "n8n@2.33.0",
+      "description": "## [2.32.6](https://github.com/n8n-io/n8n/compare/n8n@2.32.5...n8n@2.32.6) (2026-07-29)\n\n\n### Bug Fixes\n\n* **core:** Accept 5-field cron expressions in schedule trigger ([#35013](https://github.com/n8n-io/n8n/issues/35013)) ([0de32f0](https://github.com/n8n-io/n8n/commit/0de32f0cbc4c8af269ecebc30352871d947127bb))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/35154\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://stagerevie",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-07-29 16:36",
+      "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n beta",
+      "name": "n8n-io/n8n n8n@2.32.6",
       "repo": "n8n-io/n8n",
-      "description": "# [2.33.0](https://github.com/n8n-io/n8n/compare/n8n@2.32.0...n8n@2.33.0) (2026-07-28)\n\n\n### Bug Fixes\n\n* **ai-builder:** Halt workflow verification at send-and-wait gates on loops ([#34809](https://github.com/n8n-io/n8n/issues/34809)) ([e904939](https://github.com/n8n-io/n8n/commit/e904939db2d14091cf638be2d793a8430ba29621))\n* **ai-builder:** Keep assistant replies in the user's language during tool-heavy turns ([#34761](https://github.com/n8n-io/n8n/issues/34761)) ([5a64744](https://github.com/",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-07-28 15:58",
-      "tag": "beta",
+      "description": "## [2.32.6](https://github.com/n8n-io/n8n/compare/n8n@2.32.5...n8n@2.32.6) (2026-07-29)\n\n\n### Bug Fixes\n\n* **core:** Accept 5-field cron expressions in schedule trigger ([#35013](https://github.com/n8n-io/n8n/issues/35013)) ([0de32f0](https://github.com/n8n-io/n8n/commit/0de32f0cbc4c8af269ecebc30352871d947127bb))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/35154\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://stagerevie",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.32.6",
+      "published_at": "2026-07-29 16:36",
+      "tag": "n8n@2.32.6",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.31.7",
+      "name": "n8n-io/n8n n8n@2.33.1",
       "repo": "n8n-io/n8n",
-      "description": "## [2.31.7](https://github.com/n8n-io/n8n/compare/n8n@2.31.6...n8n@2.31.7) (2026-07-27)\n\n\n### Bug Fixes\n\n* **core:** Avoid loading execution data during credentials security audit ([#34912](https://github.com/n8n-io/n8n/issues/34912)) ([0b61a96](https://github.com/n8n-io/n8n/commit/0b61a9681cd299f0b7586a6769dda2f77da408b7))\n* **core:** Sign S3 object paths with strict RFC 3986 encoding ([#34873](https://github.com/n8n-io/n8n/issues/34873)) ([75b0d34](https://github.com/n8n-io/n8n/commit/75b0d340",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.31.7",
-      "published_at": "2026-07-27 16:01",
-      "tag": "n8n@2.31.7",
+      "description": "## [2.33.1](https://github.com/n8n-io/n8n/compare/n8n@2.33.0...n8n@2.33.1) (2026-07-29)\n\n\n### Features\n\n* **core:** Expose workflow hook context to lifecycle external hooks ([#35084](https://github.com/n8n-io/n8n/issues/35084)) ([b4ffe0e](https://github.com/n8n-io/n8n/commit/b4ffe0e433b3a173571aa1df99c12677ff0cbb95))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/35153\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://stager",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.33.1",
+      "published_at": "2026-07-29 16:35",
+      "tag": "n8n@2.33.1",
       "source": "release"
     },
     {
