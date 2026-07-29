@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-29 03:10",
+  "updated": "2026-07-29 09:50",
   "count": 15,
   "items": [
     {
@@ -130,12 +130,12 @@
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.3.0-canary.97",
+      "name": "vercel/next.js v16.3.0-canary.102",
       "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- fix(sandbox): release one-shot timeout ids after they run: #96161\n- Fix dev overlay symbolication for project paths needing percent-encoding: #96221\n- [internal] Add a skill for benching changes in a sandbox: #95943\n- Run dev validation in process when using Webpack: #96219\n- Read chunk source maps from disk in the dev validation worker: #96218\n- Retry the source map lookup with a plain path: #96215\n- Pass fallback params to the dev validation worker as maps: #96210\n- [source",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.97",
-      "published_at": "2026-07-26 07:56",
-      "tag": "v16.3.0-canary.97",
+      "description": "### Misc Changes\n\n- Revert \"Revert \"[turbopack] Track re-exports in `import_usage` inside of `compute_import_usage`\"\": #96315\n- [turbopack] Remove loader calls for dropped dynamic imports: #96284\n- docs: add guide and references for experimental.useOffline: #93218\n\n### Credits \n\nHuge thanks to @sampoder and @icyJoseph for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.102",
+      "published_at": "2026-07-29 07:55",
+      "tag": "v16.3.0-canary.102",
       "source": "release"
     }
   ]
