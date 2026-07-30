@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-30 03:00",
+  "updated": "2026-07-30 09:43",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.103",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Update PWA guide with enhanced offline support details and example links for serwist: #96360\n- [fragment-scroll] Stop blurring on navigations: #96113\n- Fix PPR rendering for configured HTML bots: #96364\n- Bump postcss to 8.5.23: #96107\n- Ensure unique resolved `headers()` value between render passes: #96085\n- Share Ecmascript HMR chunk versioning, diffing, and merging between browser and node: #96325\n- Make retry stop when the time it was given is up: #96354\n- Gate partial fa",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.103",
+      "published_at": "2026-07-30 08:04",
+      "tag": "v16.3.0-canary.103",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-preview.10",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Unify allow-runtime with Partial Prefetching: #96106\n- Attempt static prefetch before resorting to runtime: #96095\n- Block prefetch task until sufficient response is received: #96017\n- Use a safe clock for Request Insights bookkeeping: #96274\n- Count key length in remaining byte-budgeted LRUs: #96231\n- Serve cached misses from the filesystem route cache: #96230\n- Count URL key length in the filesystem route cache LRU: #96229\n- Turbopack: Only extend the watcher's batch window",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.99",
       "published_at": "2026-07-28 23:21",
       "tag": "v16.3.0-canary.99",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.102",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Revert \"Revert \"[turbopack] Track re-exports in `import_usage` inside of `compute_import_usage`\"\": #96315\n- [turbopack] Remove loader calls for dropped dynamic imports: #96284\n- docs: add guide and references for experimental.useOffline: #93218\n\n### Credits \n\nHuge thanks to @sampoder and @icyJoseph for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.102",
-      "published_at": "2026-07-29 07:55",
-      "tag": "v16.3.0-canary.102",
       "source": "release"
     }
   ]
