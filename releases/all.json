@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-07-31 03:12",
+  "updated": "2026-07-31 10:01",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.104",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [turbopack] Respect `sideEffects` in a `package.json` file with `optimizePackageImports`: #96383\n- [turbopack] Keep track of components of the remainder chunk: #96409\n- Update Rust toolchain to nightly-2026-07-29: #96365\n- Remove obsolete shouldWaitOnAllReady render option: #96401\n- Upgrade React from `6cb4322d-20260729` to `0f42eac2-20260730`: #96402\n- fix: respect `htmlLimitedBots` in cache components without buffering the full response: #96367\n- test: expand Cache Componen",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.104",
+      "published_at": "2026-07-31 07:56",
+      "tag": "v16.3.0-canary.104",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.103",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Update PWA guide with enhanced offline support details and example links for serwist: #96360\n- [fragment-scroll] Stop blurring on navigations: #96113\n- Fix PPR rendering for configured HTML bots: #96364\n- Bump postcss to 8.5.23: #96107\n- Ensure unique resolved `headers()` value between render passes: #96085\n- Share Ecmascript HMR chunk versioning, diffing, and merging between browser and node: #96325\n- Make retry stop when the time it was given is up: #96354\n- Gate partial fa",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.10",
       "published_at": "2026-07-29 00:18",
       "tag": "v16.3.0-preview.10",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.99",
-      "repo": "vercel/next.js",
-      "description": "Initial release",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.99",
-      "published_at": "2026-07-28 23:21",
-      "tag": "v16.3.0-canary.99",
       "source": "release"
     }
   ]
