@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-01 03:10",
+  "updated": "2026-08-01 10:02",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.105",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- test: stabilize after() deploy revalidation checks: #96428\n- Add automated code review workflow: #96359\n- [turbopack] Introduce documentation on `experimental.turbopackChunking`: #96437\n- [react-sync] Enable auto-merge on PRs: #96442\n- [ci] Run new/changed deploy tests asap: #96438\n- Upgrade React from `0f42eac2-20260730` to `cbb046ab-20260731`: #96434\n- [turbopack] Fix component chunks for workers: #96432\n- Enable turbopackFileSystemCacheForBuild by default: #96395\n- Consoli",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.105",
+      "published_at": "2026-08-01 07:57",
+      "tag": "v16.3.0-canary.105",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.104",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- [turbopack] Respect `sideEffects` in a `package.json` file with `optimizePackageImports`: #96383\n- [turbopack] Keep track of components of the remainder chunk: #96409\n- Update Rust toolchain to nightly-2026-07-29: #96365\n- Remove obsolete shouldWaitOnAllReady render option: #96401\n- Upgrade React from `6cb4322d-20260729` to `0f42eac2-20260730`: #96402\n- fix: respect `htmlLimitedBots` in cache components without buffering the full response: #96367\n- test: expand Cache Componen",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.103",
       "published_at": "2026-07-30 08:04",
       "tag": "v16.3.0-canary.103",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-preview.10",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Unify allow-runtime with Partial Prefetching: #96106\n- Attempt static prefetch before resorting to runtime: #96095\n- Block prefetch task until sufficient response is received: #96017\n- Use a safe clock for Request Insights bookkeeping: #96274\n- Count key length in remaining byte-budgeted LRUs: #96231\n- Serve cached misses from the filesystem route cache: #96230\n- Count URL key length in the filesystem route cache LRU: #96229\n- Turbopack: Only extend the watcher's batch window",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-preview.10",
-      "published_at": "2026-07-29 00:18",
-      "tag": "v16.3.0-preview.10",
       "source": "release"
     }
   ]
