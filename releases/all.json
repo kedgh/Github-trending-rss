@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-02 02:56",
+  "updated": "2026-08-02 09:58",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.106",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Warn that `experimental.useCache` is deprecated: #96448\n- Fix hybrid Pages/App Router not-found rendering with adapters: #96392\n\n### Credits \n\nHuge thanks to @unstubbable and @ztanner for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.106",
+      "published_at": "2026-08-02 07:56",
+      "tag": "v16.3.0-canary.106",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.105",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- test: stabilize after() deploy revalidation checks: #96428\n- Add automated code review workflow: #96359\n- [turbopack] Introduce documentation on `experimental.turbopackChunking`: #96437\n- [react-sync] Enable auto-merge on PRs: #96442\n- [ci] Run new/changed deploy tests asap: #96438\n- Upgrade React from `0f42eac2-20260730` to `cbb046ab-20260731`: #96434\n- [turbopack] Fix component chunks for workers: #96432\n- Enable turbopackFileSystemCacheForBuild by default: #96395\n- Consoli",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.104",
       "published_at": "2026-07-31 07:56",
       "tag": "v16.3.0-canary.104",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.103",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Update PWA guide with enhanced offline support details and example links for serwist: #96360\n- [fragment-scroll] Stop blurring on navigations: #96113\n- Fix PPR rendering for configured HTML bots: #96364\n- Bump postcss to 8.5.23: #96107\n- Ensure unique resolved `headers()` value between render passes: #96085\n- Share Ecmascript HMR chunk versioning, diffing, and merging between browser and node: #96325\n- Make retry stop when the time it was given is up: #96354\n- Gate partial fa",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.103",
-      "published_at": "2026-07-30 08:04",
-      "tag": "v16.3.0-canary.103",
       "source": "release"
     }
   ]
