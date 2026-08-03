@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-03 17:26",
+  "updated": "2026-08-03 22:19",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.0-canary.107",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Enable Turbopack build filesystem cache by default: #96493\n\n### Credits \n\nHuge thanks to @timneutkens for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.107",
+      "published_at": "2026-08-03 21:59",
+      "tag": "v16.3.0-canary.107",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.106",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Warn that `experimental.useCache` is deprecated: #96448\n- Fix hybrid Pages/App Router not-found rendering with adapters: #96392\n\n### Credits \n\nHuge thanks to @unstubbable and @ztanner for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.105",
       "published_at": "2026-08-01 07:57",
       "tag": "v16.3.0-canary.105",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.104",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [turbopack] Respect `sideEffects` in a `package.json` file with `optimizePackageImports`: #96383\n- [turbopack] Keep track of components of the remainder chunk: #96409\n- Update Rust toolchain to nightly-2026-07-29: #96365\n- Remove obsolete shouldWaitOnAllReady render option: #96401\n- Upgrade React from `6cb4322d-20260729` to `0f42eac2-20260730`: #96402\n- fix: respect `htmlLimitedBots` in cache components without buffering the full response: #96367\n- test: expand Cache Componen",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.104",
-      "published_at": "2026-07-31 07:56",
-      "tag": "v16.3.0-canary.104",
       "source": "release"
     }
   ]
