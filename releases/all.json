@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-04 21:51",
+  "updated": "2026-08-05 03:19",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.32.6-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n  - Qwen3.5 is faster on Apple GPUs: the MLX engine now uses the model's MTP head for speculative decoding automatically\r\n  - `/v1/chat/completions` streaming now matches OpenAI's wire format: `role` only on the first chunk, `finish_reason` on its own chunk,\r\n  and usage in a separate chunk with `stream_options.include_usage`.\r\n  - Truncated OpenAI responses now report `finish_reason: \"length\"` instead of `\"tool_calls\"`.\r\n  - `ollama run kimi-k3` now offers `kimi-k3:cloud` for",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0",
+      "published_at": "2026-08-05 02:49",
+      "tag": "v0.32.6-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.32.5",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n\r\n* Fixed an MLX Metal bug that could reduce output quality for NVFP4 models, particularly Laguna.\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.4...v0.32.5\r\n",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.4",
       "published_at": "2026-07-25 10:22",
       "tag": "v0.32.4",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.32.3",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n\r\n- Fixed model downloads that stall before sending data.\r\n- Improved integrations: restored Claude Code Channels, fixed Anthropic thinking streams, and made Hermes Desktop respect `--force-build`.\r\n- Expanded GPU support with CUDA on Windows ARM64, B200 support through CUDA 12, and lower memory use on Linux CUDA/ROCm iGPUs.\r\n- Added chat, thinking, and tool calling support for Laguna 2.1 models, including a Metal inference fix.\r\n- Fixed GLM tool calls being silently dropped a",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.3",
-      "published_at": "2026-07-23 08:44",
-      "tag": "v0.32.3",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.1-canary.1",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- docs: correction to dynamicParams migration: #96624\n- docs: proxy event argument: #96435\n- docs: remove experimental note from runtime prefetching: #96615\n- Turbopack: don't strip async-module runtime from shared runtime chunks: #96599\n- [turbopack] Add `turbopack_ecmascript` and `turbopack_wasm`'s embeded FS to `internal_assets_conditions`: #96600\n- Preserve per-segment prefetching after dynamic navigation: #96583\n- Rename static generation stream option to waitForAllReady: ",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.1",
+      "published_at": "2026-08-04 22:15",
+      "tag": "v16.3.1-canary.1",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.1-canary.0",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Fix catch-all index page being served for every other slug: #96553\n\n### Credits \n\nHuge thanks to @acdlite for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0",
       "published_at": "2026-08-04 05:03",
       "tag": "v16.3.0",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.107",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Enable Turbopack build filesystem cache by default: #96493\n\n### Credits \n\nHuge thanks to @timneutkens for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.107",
-      "published_at": "2026-08-03 21:59",
-      "tag": "v16.3.0-canary.107",
       "source": "release"
     }
   ]
