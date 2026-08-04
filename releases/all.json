@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-04 03:21",
+  "updated": "2026-08-04 09:47",
   "count": 15,
   "items": [
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.1-canary.0",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Fix catch-all index page being served for every other slug: #96553\n\n### Credits \n\nHuge thanks to @acdlite for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.0",
+      "published_at": "2026-08-04 06:32",
+      "tag": "v16.3.1-canary.0",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.3.0",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\r\n- Update vendored lodash to 4.17.23 to fix CVE-2025-13465: #91558\r\n- Fix invalid HTML response for route-level RSC requests in deployment adapter: #91541\r\n- Normalize encoded dynamic placeholders in app routes: #91603\r\n- Fix(pages-router): restore Content-Length and ETag for /_next/data/ JSON responses: #90304\r\n- Update tokio from 1.43.0 to 1.47.3: #90945\r\n- [turbopack] Simplify snapshotting logic: #91178\r\n- Turbopack: enable server HMR for app route handlers: #91466\r\n- turbo-t",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0",
+      "published_at": "2026-08-04 05:03",
+      "tag": "v16.3.0",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.0-canary.107",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Enable Turbopack build filesystem cache by default: #96493\n\n### Credits \n\nHuge thanks to @timneutkens for helping!",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.107",
       "published_at": "2026-08-03 21:59",
       "tag": "v16.3.0-canary.107",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.106",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Warn that `experimental.useCache` is deprecated: #96448\n- Fix hybrid Pages/App Router not-found rendering with adapters: #96392\n\n### Credits \n\nHuge thanks to @unstubbable and @ztanner for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.106",
-      "published_at": "2026-08-02 07:56",
-      "tag": "v16.3.0-canary.106",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.0-canary.105",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- test: stabilize after() deploy revalidation checks: #96428\n- Add automated code review workflow: #96359\n- [turbopack] Introduce documentation on `experimental.turbopackChunking`: #96437\n- [react-sync] Enable auto-merge on PRs: #96442\n- [ci] Run new/changed deploy tests asap: #96438\n- Upgrade React from `0f42eac2-20260730` to `cbb046ab-20260731`: #96434\n- [turbopack] Fix component chunks for workers: #96432\n- Enable turbopackFileSystemCacheForBuild by default: #96395\n- Consoli",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.0-canary.105",
-      "published_at": "2026-08-01 07:57",
-      "tag": "v16.3.0-canary.105",
       "source": "release"
     }
   ]
