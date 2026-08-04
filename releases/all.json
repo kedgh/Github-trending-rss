@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-04 09:47",
+  "updated": "2026-08-04 16:24",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n n8n@2.34.0",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.34.0](https://github.com/n8n-io/n8n/compare/n8n@2.33.0...n8n@2.34.0) (2026-08-04)\n\n\n### Bug Fixes\n\n* **ai-builder:** Treat bound stored credentials as settled in setup analysis ([#35340](https://github.com/n8n-io/n8n/issues/35340)) ([5decab2](https://github.com/n8n-io/n8n/commit/5decab21ac29076e848fc45cee532622db76fc50))\n* **AWS Bedrock Chat Model Node:** Enable TCP keepalive on Bedrock runtime connections ([#35323](https://github.com/n8n-io/n8n/issues/35323)) ([78e27ff](https://github.com/",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.34.0",
+      "published_at": "2026-08-04 15:50",
+      "tag": "n8n@2.34.0",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n beta",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.34.0](https://github.com/n8n-io/n8n/compare/n8n@2.33.0...n8n@2.34.0) (2026-08-04)\n\n\n### Bug Fixes\n\n* **ai-builder:** Treat bound stored credentials as settled in setup analysis ([#35340](https://github.com/n8n-io/n8n/issues/35340)) ([5decab2](https://github.com/n8n-io/n8n/commit/5decab21ac29076e848fc45cee532622db76fc50))\n* **AWS Bedrock Chat Model Node:** Enable TCP keepalive on Bedrock runtime connections ([#35323](https://github.com/n8n-io/n8n/issues/35323)) ([78e27ff](https://github.com/",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-08-04 15:50",
+      "tag": "beta",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n n8n@1.123.68",
       "repo": "n8n-io/n8n",
       "description": "## [1.123.68](https://github.com/n8n-io/n8n/compare/n8n@1.123.67...n8n@1.123.68) (2026-08-03)\n\n\n### Bug Fixes\n\n* **Onfleet Trigger Node:** Fix content type issue (backport 1.x) ([#24878](https://github.com/n8n-io/n8n/issues/24878)) ([a71b153](https://github.com/n8n-io/n8n/commit/a71b153f7095d9aa144dd7209945a614ff2781f0))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/35403?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-n",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.68",
       "published_at": "2026-08-03 15:47",
       "tag": "n8n@1.123.68",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n stable",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.32.7](https://github.com/n8n-io/n8n/compare/n8n@2.32.6...n8n@2.32.7) (2026-07-31)\n\n\n### Bug Fixes\n\n* **core:** Import security audit risk reporters with a file extension ([#35267](https://github.com/n8n-io/n8n/issues/35267)) ([7d61ea0](https://github.com/n8n-io/n8n/commit/7d61ea01229858d1dc6f75fcdb60cf3ce644adaa))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/35316\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://sta",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-07-31 15:56",
-      "tag": "stable",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.32.7",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.32.7](https://github.com/n8n-io/n8n/compare/n8n@2.32.6...n8n@2.32.7) (2026-07-31)\n\n\n### Bug Fixes\n\n* **core:** Import security audit risk reporters with a file extension ([#35267](https://github.com/n8n-io/n8n/issues/35267)) ([7d61ea0](https://github.com/n8n-io/n8n/commit/7d61ea01229858d1dc6f75fcdb60cf3ce644adaa))\n\n<!-- stage-review-badge-begin -->\n\n---\n\n<a href=\"https://stagereview.app/n8n-io/n8n/pull/35316\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://sta",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.32.7",
-      "published_at": "2026-07-31 15:56",
-      "tag": "n8n@2.32.7",
       "source": "release"
     },
     {
