@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-05 16:21",
+  "updated": "2026-08-05 21:46",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n stable",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.33.4](https://github.com/n8n-io/n8n/compare/n8n@2.33.3...n8n@2.33.4) (2026-08-05)\n\n\n### Bug Fixes\n\n* **core:** Improve task broker resilience when a runner dies ([#35364](https://github.com/n8n-io/n8n/issues/35364)) ([fa797ca](https://github.com/n8n-io/n8n/commit/fa797cae07e83b317ad93bf13fbc0d671489db1d))\n* **core:** Recover unresponsive task runners ([#35528](https://github.com/n8n-io/n8n/issues/35528)) ([05b5a42](https://github.com/n8n-io/n8n/commit/05b5a42edcaa412020293b2574bbbcd42881aa",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-08-05 16:32",
+      "tag": "stable",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n n8n@2.33.4",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.33.4](https://github.com/n8n-io/n8n/compare/n8n@2.33.3...n8n@2.33.4) (2026-08-05)\n\n\n### Bug Fixes\n\n* **core:** Improve task broker resilience when a runner dies ([#35364](https://github.com/n8n-io/n8n/issues/35364)) ([fa797ca](https://github.com/n8n-io/n8n/commit/fa797cae07e83b317ad93bf13fbc0d671489db1d))\n* **core:** Recover unresponsive task runners ([#35528](https://github.com/n8n-io/n8n/issues/35528)) ([05b5a42](https://github.com/n8n-io/n8n/commit/05b5a42edcaa412020293b2574bbbcd42881aa",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.33.4",
+      "published_at": "2026-08-05 16:32",
+      "tag": "n8n@2.33.4",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n n8n@1.123.69",
       "repo": "n8n-io/n8n",
       "description": "## [1.123.69](https://github.com/n8n-io/n8n/compare/n8n@1.123.68...n8n@1.123.69) (2026-08-05)\n\n\n### Bug Fixes\n\n* **editor:** Improve resource locator link preview handling ([#35570](https://github.com/n8n-io/n8n/issues/35570)) ([7fd9a6e](https://github.com/n8n-io/n8n/commit/7fd9a6ef4e439294e17f0188f01b6fb81415e6b8))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/35575?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-ima",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.69",
       "published_at": "2026-08-05 16:14",
       "tag": "n8n@1.123.69",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.34.0",
-      "repo": "n8n-io/n8n",
-      "description": "# [2.34.0](https://github.com/n8n-io/n8n/compare/n8n@2.33.0...n8n@2.34.0) (2026-08-04)\n\n\n### Bug Fixes\n\n* **ai-builder:** Treat bound stored credentials as settled in setup analysis ([#35340](https://github.com/n8n-io/n8n/issues/35340)) ([5decab2](https://github.com/n8n-io/n8n/commit/5decab21ac29076e848fc45cee532622db76fc50))\n* **AWS Bedrock Chat Model Node:** Enable TCP keepalive on Bedrock runtime connections ([#35323](https://github.com/n8n-io/n8n/issues/35323)) ([78e27ff](https://github.com/",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.34.0",
-      "published_at": "2026-08-04 15:50",
-      "tag": "n8n@2.34.0",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n beta",
-      "repo": "n8n-io/n8n",
-      "description": "# [2.34.0](https://github.com/n8n-io/n8n/compare/n8n@2.33.0...n8n@2.34.0) (2026-08-04)\n\n\n### Bug Fixes\n\n* **ai-builder:** Treat bound stored credentials as settled in setup analysis ([#35340](https://github.com/n8n-io/n8n/issues/35340)) ([5decab2](https://github.com/n8n-io/n8n/commit/5decab21ac29076e848fc45cee532622db76fc50))\n* **AWS Bedrock Chat Model Node:** Enable TCP keepalive on Bedrock runtime connections ([#35323](https://github.com/n8n-io/n8n/issues/35323)) ([78e27ff](https://github.com/",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-08-04 15:50",
-      "tag": "beta",
       "source": "release"
     },
     {
