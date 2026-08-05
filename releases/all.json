@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-08-05 21:46",
+  "updated": "2026-08-06 03:17",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-anthropic==1.5.4",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-anthropic==1.5.3\n\nrelease(anthropic): 1.5.4 (#39277)\nfix(anthropic): handle tool schemas with unsupported top-level composition (#39273)\nchore: bump the minor-and-patch group across 3 directories with 7 updates (#39187)\nfix(anthropic): preserve caller `tool_choice` (#39206)\nfeat(anthropic): add `user_profile_id` convenience attribute (#39148)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.4",
+      "published_at": "2026-08-06 03:03",
+      "tag": "langchain-anthropic==1.5.4",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-core==1.5.3",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.2",
       "published_at": "2026-07-29 00:39",
       "tag": "langchain-core==1.5.2",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-anthropic==1.5.3",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-anthropic==1.5.2\n\nrelease(anthropic): 1.5.3 (#39109)\nfix(anthropic): preserve empty thinking field in signature_delta streaming (#38765)\nfix(anthropic): strip unsupported fields from system message content blocks (#39101)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.3",
-      "published_at": "2026-07-29 01:03",
-      "tag": "langchain-anthropic==1.5.3",
       "source": "release"
     },
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.32.6-rc0",
+      "name": "ollama/ollama v0.32.6",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n  - Qwen3.5 is faster on Apple GPUs: the MLX engine now uses the model's MTP head for speculative decoding automatically\r\n  - `/v1/chat/completions` streaming now matches OpenAI's wire format: `role` only on the first chunk, `finish_reason` on its own chunk,\r\n  and usage in a separate chunk with `stream_options.include_usage`.\r\n  - Truncated OpenAI responses now report `finish_reason: \"length\"` instead of `\"tool_calls\"`.\r\n  - `ollama run kimi-k3` now offers `kimi-k3:cloud` for",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.6",
       "published_at": "2026-08-05 02:49",
-      "tag": "v0.32.6-rc0",
+      "tag": "v0.32.6",
       "source": "release"
     },
     {
