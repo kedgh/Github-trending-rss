@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-05 09:48",
+  "updated": "2026-08-05 16:21",
   "count": 15,
   "items": [
     {
@@ -85,6 +85,15 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n n8n@1.123.69",
+      "repo": "n8n-io/n8n",
+      "description": "## [1.123.69](https://github.com/n8n-io/n8n/compare/n8n@1.123.68...n8n@1.123.69) (2026-08-05)\n\n\n### Bug Fixes\n\n* **editor:** Improve resource locator link preview handling ([#35570](https://github.com/n8n-io/n8n/issues/35570)) ([7fd9a6e](https://github.com/n8n-io/n8n/commit/7fd9a6ef4e439294e17f0188f01b6fb81415e6b8))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/35575?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-ima",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.69",
+      "published_at": "2026-08-05 16:14",
+      "tag": "n8n@1.123.69",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n n8n@2.34.0",
       "repo": "n8n-io/n8n",
       "description": "# [2.34.0](https://github.com/n8n-io/n8n/compare/n8n@2.33.0...n8n@2.34.0) (2026-08-04)\n\n\n### Bug Fixes\n\n* **ai-builder:** Treat bound stored credentials as settled in setup analysis ([#35340](https://github.com/n8n-io/n8n/issues/35340)) ([5decab2](https://github.com/n8n-io/n8n/commit/5decab21ac29076e848fc45cee532622db76fc50))\n* **AWS Bedrock Chat Model Node:** Enable TCP keepalive on Bedrock runtime connections ([#35323](https://github.com/n8n-io/n8n/issues/35323)) ([78e27ff](https://github.com/",
@@ -103,12 +112,12 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.68",
-      "repo": "n8n-io/n8n",
-      "description": "## [1.123.68](https://github.com/n8n-io/n8n/compare/n8n@1.123.67...n8n@1.123.68) (2026-08-03)\n\n\n### Bug Fixes\n\n* **Onfleet Trigger Node:** Fix content type issue (backport 1.x) ([#24878](https://github.com/n8n-io/n8n/issues/24878)) ([a71b153](https://github.com/n8n-io/n8n/commit/a71b153f7095d9aa144dd7209945a614ff2781f0))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/35403?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-n",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.68",
-      "published_at": "2026-08-03 15:47",
-      "tag": "n8n@1.123.68",
+      "name": "vercel/next.js v16.3.1-canary.3",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Fix Turbopack worker chunk loading with asset prefix: #96636\n- [react-sync] Open pull requests as the bot that authors the commits: #96682\n\n### Credits \n\nHuge thanks to @timneutkens and @eps1lon for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.3",
+      "published_at": "2026-08-05 14:27",
+      "tag": "v16.3.1-canary.3",
       "source": "release"
     },
     {
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.1",
       "published_at": "2026-08-04 22:15",
       "tag": "v16.3.1-canary.1",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.1-canary.0",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Fix catch-all index page being served for every other slug: #96553\n\n### Credits \n\nHuge thanks to @acdlite for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.0",
-      "published_at": "2026-08-04 06:32",
-      "tag": "v16.3.1-canary.0",
       "source": "release"
     }
   ]
