@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-06 03:17",
+  "updated": "2026-08-06 09:49",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.1-canary.4",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [Bench] Fixes for pure Fizz bench: #96771\n- Derive foreground cache revalidation from the consumer: #96731\n- [turbopack] Raise registration calls in hoisted modules to the top: #96697\n- Fix race when navigating Back before hydration: #96252\n- docs: present each Skill as steps in the AI agents guide: #96751\n- Reuse completed cache entries for the rest of a request: #96727\n- Discard only cache entries that predate a tag revalidation: #96726\n- Upgrade React from `7dfc7ccd-202608",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.4",
+      "published_at": "2026-08-06 07:59",
+      "tag": "v16.3.1-canary.4",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.1-canary.3",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Fix Turbopack worker chunk loading with asset prefix: #96636\n- [react-sync] Open pull requests as the bot that authors the commits: #96682\n\n### Credits \n\nHuge thanks to @timneutkens and @eps1lon for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.2",
       "published_at": "2026-08-05 07:58",
       "tag": "v16.3.1-canary.2",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.1-canary.1",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- docs: correction to dynamicParams migration: #96624\n- docs: proxy event argument: #96435\n- docs: remove experimental note from runtime prefetching: #96615\n- Turbopack: don't strip async-module runtime from shared runtime chunks: #96599\n- [turbopack] Add `turbopack_ecmascript` and `turbopack_wasm`'s embeded FS to `internal_assets_conditions`: #96600\n- Preserve per-segment prefetching after dynamic navigation: #96583\n- Rename static generation stream option to waitForAllReady: ",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.1",
-      "published_at": "2026-08-04 22:15",
-      "tag": "v16.3.1-canary.1",
       "source": "release"
     }
   ]
