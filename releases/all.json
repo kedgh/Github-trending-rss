@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-06 09:49",
+  "updated": "2026-08-06 16:19",
   "count": 15,
   "items": [
     {
@@ -87,28 +87,28 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.33.4](https://github.com/n8n-io/n8n/compare/n8n@2.33.3...n8n@2.33.4) (2026-08-05)\n\n\n### Bug Fixes\n\n* **core:** Improve task broker resilience when a runner dies ([#35364](https://github.com/n8n-io/n8n/issues/35364)) ([fa797ca](https://github.com/n8n-io/n8n/commit/fa797cae07e83b317ad93bf13fbc0d671489db1d))\n* **core:** Recover unresponsive task runners ([#35528](https://github.com/n8n-io/n8n/issues/35528)) ([05b5a42](https://github.com/n8n-io/n8n/commit/05b5a42edcaa412020293b2574bbbcd42881aa",
+      "description": "## [2.33.5](https://github.com/n8n-io/n8n/compare/n8n@2.33.4...n8n@2.33.5) (2026-08-06)\n\n\n### Bug Fixes\n\n* **editor:** Focus Markdown editor input before toolbar ([#35606](https://github.com/n8n-io/n8n/issues/35606)) ([388e313](https://github.com/n8n-io/n8n/commit/388e3132e2623a59b53bec4bbe160c2c13e5a758))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/35694?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-08-05 16:32",
+      "published_at": "2026-08-06 15:57",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.33.4",
+      "name": "n8n-io/n8n n8n@2.33.5",
       "repo": "n8n-io/n8n",
-      "description": "## [2.33.4](https://github.com/n8n-io/n8n/compare/n8n@2.33.3...n8n@2.33.4) (2026-08-05)\n\n\n### Bug Fixes\n\n* **core:** Improve task broker resilience when a runner dies ([#35364](https://github.com/n8n-io/n8n/issues/35364)) ([fa797ca](https://github.com/n8n-io/n8n/commit/fa797cae07e83b317ad93bf13fbc0d671489db1d))\n* **core:** Recover unresponsive task runners ([#35528](https://github.com/n8n-io/n8n/issues/35528)) ([05b5a42](https://github.com/n8n-io/n8n/commit/05b5a42edcaa412020293b2574bbbcd42881aa",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.33.4",
-      "published_at": "2026-08-05 16:32",
-      "tag": "n8n@2.33.4",
+      "description": "## [2.33.5](https://github.com/n8n-io/n8n/compare/n8n@2.33.4...n8n@2.33.5) (2026-08-06)\n\n\n### Bug Fixes\n\n* **editor:** Focus Markdown editor input before toolbar ([#35606](https://github.com/n8n-io/n8n/issues/35606)) ([388e313](https://github.com/n8n-io/n8n/commit/388e3132e2623a59b53bec4bbe160c2c13e5a758))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/35694?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.33.5",
+      "published_at": "2026-08-06 15:57",
+      "tag": "n8n@2.33.5",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.69",
+      "name": "n8n-io/n8n n8n@2.34.2",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.69](https://github.com/n8n-io/n8n/compare/n8n@1.123.68...n8n@1.123.69) (2026-08-05)\n\n\n### Bug Fixes\n\n* **editor:** Improve resource locator link preview handling ([#35570](https://github.com/n8n-io/n8n/issues/35570)) ([7fd9a6e](https://github.com/n8n-io/n8n/commit/7fd9a6ef4e439294e17f0188f01b6fb81415e6b8))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/35575?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-ima",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.69",
-      "published_at": "2026-08-05 16:14",
-      "tag": "n8n@1.123.69",
+      "description": "## [2.34.2](https://github.com/n8n-io/n8n/compare/n8n@2.34.1...n8n@2.34.2) (2026-08-06)\n\n\n### Bug Fixes\n\n* **editor:** Focus Markdown editor input before toolbar ([#35605](https://github.com/n8n-io/n8n/issues/35605)) ([ed4298a](https://github.com/n8n-io/n8n/commit/ed4298acfd7734f74df6183f0aa735feeaea48bc))\n* **editor:** Show agent tool credentials above configuration ([#35612](https://github.com/n8n-io/n8n/issues/35612)) ([38b6dca](https://github.com/n8n-io/n8n/commit/38b6dca1b5dd5ac3cee5ce3f9b0",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.34.2",
+      "published_at": "2026-08-06 15:53",
+      "tag": "n8n@2.34.2",
       "source": "release"
     },
     {
