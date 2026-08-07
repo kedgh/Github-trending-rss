@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-07 07:51",
+  "updated": "2026-08-07 10:12",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.1-canary.5",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Refactor server from CacheNodeSeedData -> TransportData: #96679\n- Unify full/partial navigation response types: #96439\n- Unify RouteTree and CacheNodeSeedData on the client: #96406\n- Consolidate Promise.withResolvers polyfills: #96772\n- [ci] Open automated update pull requests with `nextjs-bot`: #96683\n- Require Cache Components for Instant Navigation testing: #96745\n- Fix use cache over- and under-invalidation in dev: #96235\n- Fix which pages the dev server announces, and wh",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.5",
+      "published_at": "2026-08-07 09:16",
+      "tag": "v16.3.1-canary.5",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.1-canary.4",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- [Bench] Fixes for pure Fizz bench: #96771\n- Derive foreground cache revalidation from the consumer: #96731\n- [turbopack] Raise registration calls in hoisted modules to the top: #96697\n- Fix race when navigating Back before hydration: #96252\n- docs: present each Skill as steps in the AI agents guide: #96751\n- Reuse completed cache entries for the rest of a request: #96727\n- Discard only cache entries that predate a tag revalidation: #96726\n- Upgrade React from `7dfc7ccd-202608",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.3",
       "published_at": "2026-08-05 14:27",
       "tag": "v16.3.1-canary.3",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.1-canary.2",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [turbopack] Add test for sideEffects with optimizePackageImports: #96549\n- [turbopack] Strip leading BOM before parsing CSS: #96678\n- Upgrade React from `cbb046ab-20260731` to `7dfc7ccd-20260803`: #96550\n- docs: use relative doc links in instant-navigation error pages: #96672\n- Turbopack: terminate failed plugin worker threads: #96592\n- [turbopack] Collapse nested promises in the analyzer: #96601\n- Fix HTML-limited bot matching in prerender bypass rules: #96584\n- [ci] Fix cre",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.2",
-      "published_at": "2026-08-05 07:58",
-      "tag": "v16.3.1-canary.2",
       "source": "release"
     }
   ]
