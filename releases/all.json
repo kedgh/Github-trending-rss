@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-08-07 20:42",
+  "updated": "2026-08-08 02:41",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-openai==1.4.2",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-openai==1.4.1\n\nrelease(openai): 1.4.2 (#39322)\nfix(openai): handle `ContextWindowExceededError` (#39300)\nchore: bump the minor-and-patch group across 3 directories with 7 updates (#39187)\nfix(openai): filter langchain-generated content block IDs (#39209)\nfix(openai): preserve Responses `text` options (#39204)\nfix(openai): redact MCP `authorization` (#39155)\nchore(model-profiles): refresh model profile data (#39050)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.4.2",
+      "published_at": "2026-08-07 21:58",
+      "tag": "langchain-openai==1.4.2",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-anthropic==1.5.4",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.3",
       "published_at": "2026-07-30 22:56",
       "tag": "langchain-core==1.5.3",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.5.2",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.5.1\n\nrelease(core): 1.5.2 (#39108)\nfix(core): handle empty string in gateway env vars (#39107)\nchore: bump setuptools from 82.0.0 to 83.0.0 in /libs/core (#39032)\nchore: bump jupyterlab from 4.5.9 to 4.5.10 in /libs/core (#39033)\nchore: bump setuptools from 80.9.0 to 83.0.0 in /libs/text-splitters (#39029)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.2",
-      "published_at": "2026-07-29 00:39",
-      "tag": "langchain-core==1.5.2",
       "source": "release"
     },
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n stable",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.33.7](https://github.com/n8n-io/n8n/compare/n8n@2.33.6...n8n@2.33.7) (2026-08-07)\n\n\n### Bug Fixes\n\n* **core:** Fix task runner health check failing ([#35817](https://github.com/n8n-io/n8n/issues/35817)) ([e271104](https://github.com/n8n-io/n8n/commit/e2711041af6aa9bf7643b1461fa513a399aeb0ed))\n* **core:** Handle out-of-scope display option dependencies ([#35864](https://github.com/n8n-io/n8n/issues/35864)) ([0e83399](https://github.com/n8n-io/n8n/commit/0e8339982bd5b21b84d8f48c00df9435f4eec",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-08-08 00:52",
+      "tag": "stable",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n n8n@2.33.7",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.33.7](https://github.com/n8n-io/n8n/compare/n8n@2.33.6...n8n@2.33.7) (2026-08-07)\n\n\n### Bug Fixes\n\n* **core:** Fix task runner health check failing ([#35817](https://github.com/n8n-io/n8n/issues/35817)) ([e271104](https://github.com/n8n-io/n8n/commit/e2711041af6aa9bf7643b1461fa513a399aeb0ed))\n* **core:** Handle out-of-scope display option dependencies ([#35864](https://github.com/n8n-io/n8n/issues/35864)) ([0e83399](https://github.com/n8n-io/n8n/commit/0e8339982bd5b21b84d8f48c00df9435f4eec",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.33.7",
+      "published_at": "2026-08-08 00:52",
+      "tag": "n8n@2.33.7",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n n8n@2.33.6",
       "repo": "n8n-io/n8n",
       "description": "## [2.33.6](https://github.com/n8n-io/n8n/compare/n8n@2.33.5...n8n@2.33.6) (2026-08-07)\n\n\n### Bug Fixes\n\n* Send n8n version on backend posthog flag retrieval ([#35720](https://github.com/n8n-io/n8n/issues/35720)) ([b422237](https://github.com/n8n-io/n8n/commit/b422237ac99457df2819aae76ea8872b7bae4df5))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/35807?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"tru",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.33.6",
       "published_at": "2026-08-07 15:56",
       "tag": "n8n@2.33.6",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.34.3",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.34.3](https://github.com/n8n-io/n8n/compare/n8n@2.34.2...n8n@2.34.3) (2026-08-07)\n\n\n### Bug Fixes\n\n* **core:** Ignore undeclared fields in agent resume payloads ([#35705](https://github.com/n8n-io/n8n/issues/35705)) ([a944f62](https://github.com/n8n-io/n8n/commit/a944f62402b0f7ad502dc71e91c2dc10fcbc4e6e))\n* **editor:** Make DropdownMenus more obviously scrollable ([#35742](https://github.com/n8n-io/n8n/issues/35742)) ([fdfdbcc](https://github.com/n8n-io/n8n/commit/fdfdbcc866528a68604b467bd",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.34.3",
-      "published_at": "2026-08-07 15:52",
-      "tag": "n8n@2.34.3",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n beta",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.34.3](https://github.com/n8n-io/n8n/compare/n8n@2.34.2...n8n@2.34.3) (2026-08-07)\n\n\n### Bug Fixes\n\n* **core:** Ignore undeclared fields in agent resume payloads ([#35705](https://github.com/n8n-io/n8n/issues/35705)) ([a944f62](https://github.com/n8n-io/n8n/commit/a944f62402b0f7ad502dc71e91c2dc10fcbc4e6e))\n* **editor:** Make DropdownMenus more obviously scrollable ([#35742](https://github.com/n8n-io/n8n/issues/35742)) ([fdfdbcc](https://github.com/n8n-io/n8n/commit/fdfdbcc866528a68604b467bd",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-08-07 15:52",
-      "tag": "beta",
       "source": "release"
     },
     {
