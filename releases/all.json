@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-07 15:01",
+  "updated": "2026-08-07 20:42",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,39 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n stable",
+      "name": "n8n-io/n8n n8n@2.33.6",
       "repo": "n8n-io/n8n",
-      "description": "## [2.33.5](https://github.com/n8n-io/n8n/compare/n8n@2.33.4...n8n@2.33.5) (2026-08-06)\n\n\n### Bug Fixes\n\n* **editor:** Focus Markdown editor input before toolbar ([#35606](https://github.com/n8n-io/n8n/issues/35606)) ([388e313](https://github.com/n8n-io/n8n/commit/388e3132e2623a59b53bec4bbe160c2c13e5a758))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/35694?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-08-06 15:57",
-      "tag": "stable",
+      "description": "## [2.33.6](https://github.com/n8n-io/n8n/compare/n8n@2.33.5...n8n@2.33.6) (2026-08-07)\n\n\n### Bug Fixes\n\n* Send n8n version on backend posthog flag retrieval ([#35720](https://github.com/n8n-io/n8n/issues/35720)) ([b422237](https://github.com/n8n-io/n8n/commit/b422237ac99457df2819aae76ea8872b7bae4df5))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/35807?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"tru",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.33.6",
+      "published_at": "2026-08-07 15:56",
+      "tag": "n8n@2.33.6",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.33.5",
+      "name": "n8n-io/n8n n8n@2.34.3",
       "repo": "n8n-io/n8n",
-      "description": "## [2.33.5](https://github.com/n8n-io/n8n/compare/n8n@2.33.4...n8n@2.33.5) (2026-08-06)\n\n\n### Bug Fixes\n\n* **editor:** Focus Markdown editor input before toolbar ([#35606](https://github.com/n8n-io/n8n/issues/35606)) ([388e313](https://github.com/n8n-io/n8n/commit/388e3132e2623a59b53bec4bbe160c2c13e5a758))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/35694?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.33.5",
-      "published_at": "2026-08-06 15:57",
-      "tag": "n8n@2.33.5",
+      "description": "## [2.34.3](https://github.com/n8n-io/n8n/compare/n8n@2.34.2...n8n@2.34.3) (2026-08-07)\n\n\n### Bug Fixes\n\n* **core:** Ignore undeclared fields in agent resume payloads ([#35705](https://github.com/n8n-io/n8n/issues/35705)) ([a944f62](https://github.com/n8n-io/n8n/commit/a944f62402b0f7ad502dc71e91c2dc10fcbc4e6e))\n* **editor:** Make DropdownMenus more obviously scrollable ([#35742](https://github.com/n8n-io/n8n/issues/35742)) ([fdfdbcc](https://github.com/n8n-io/n8n/commit/fdfdbcc866528a68604b467bd",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.34.3",
+      "published_at": "2026-08-07 15:52",
+      "tag": "n8n@2.34.3",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.34.2",
+      "name": "n8n-io/n8n beta",
       "repo": "n8n-io/n8n",
-      "description": "## [2.34.2](https://github.com/n8n-io/n8n/compare/n8n@2.34.1...n8n@2.34.2) (2026-08-06)\n\n\n### Bug Fixes\n\n* **editor:** Focus Markdown editor input before toolbar ([#35605](https://github.com/n8n-io/n8n/issues/35605)) ([ed4298a](https://github.com/n8n-io/n8n/commit/ed4298acfd7734f74df6183f0aa735feeaea48bc))\n* **editor:** Show agent tool credentials above configuration ([#35612](https://github.com/n8n-io/n8n/issues/35612)) ([38b6dca](https://github.com/n8n-io/n8n/commit/38b6dca1b5dd5ac3cee5ce3f9b0",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.34.2",
-      "published_at": "2026-08-06 15:53",
-      "tag": "n8n@2.34.2",
+      "description": "## [2.34.3](https://github.com/n8n-io/n8n/compare/n8n@2.34.2...n8n@2.34.3) (2026-08-07)\n\n\n### Bug Fixes\n\n* **core:** Ignore undeclared fields in agent resume payloads ([#35705](https://github.com/n8n-io/n8n/issues/35705)) ([a944f62](https://github.com/n8n-io/n8n/commit/a944f62402b0f7ad502dc71e91c2dc10fcbc4e6e))\n* **editor:** Make DropdownMenus more obviously scrollable ([#35742](https://github.com/n8n-io/n8n/issues/35742)) ([fdfdbcc](https://github.com/n8n-io/n8n/commit/fdfdbcc866528a68604b467bd",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-08-07 15:52",
+      "tag": "beta",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.3.1-canary.7",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Show compiler plugin warning in more situations: #75682\n\n### Misc Changes\n\n- ci: stop publishing @vercel/devlow-bench: #96887\n- fix(turbopack): name the module in the non-ESM-placeable error, and stop duplicating the importer in traces: #96560\n- fix(turbopack): support `type: 'text'` in rules, and error on binding imports of non-ESM modules: #96558\n- Fix missing styled-jsx styles in Pages Router SSR on adapter builds: #96632\n\n### Credits \n\nHuge thanks to @mischnic, @sokra, an",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.7",
+      "published_at": "2026-08-07 18:11",
+      "tag": "v16.3.1-canary.7",
       "source": "release"
     },
     {
@@ -121,21 +130,12 @@
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.3.1-canary.4",
+      "name": "vercel/next.js v15.5.23",
       "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [Bench] Fixes for pure Fizz bench: #96771\n- Derive foreground cache revalidation from the consumer: #96731\n- [turbopack] Raise registration calls in hoisted modules to the top: #96697\n- Fix race when navigating Back before hydration: #96252\n- docs: present each Skill as steps in the AI agents guide: #96751\n- Reuse completed cache entries for the rest of a request: #96727\n- Discard only cache entries that predate a tag revalidation: #96726\n- Upgrade React from `7dfc7ccd-202608",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.4",
-      "published_at": "2026-08-06 07:59",
-      "tag": "v16.3.1-canary.4",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.1-canary.3",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Fix Turbopack worker chunk loading with asset prefix: #96636\n- [react-sync] Open pull requests as the bot that authors the commits: #96682\n\n### Credits \n\nHuge thanks to @timneutkens and @eps1lon for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.3",
-      "published_at": "2026-08-05 14:27",
-      "tag": "v16.3.1-canary.3",
+      "description": "## What's Changed\r\n\r\n* [15.x] Port ReplyServer traversal guards to FlightClient @eps1lon in https://github.com/vercel/next.js/pull/96405\r\n\r\n\r\n**Full Changelog**: https://github.com/vercel/next.js/compare/v15.5.22...v15.5.23",
+      "url": "https://github.com/vercel/next.js/releases/tag/v15.5.23",
+      "published_at": "2026-08-07 17:57",
+      "tag": "v15.5.23",
       "source": "release"
     }
   ]
