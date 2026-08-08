@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-08 02:41",
+  "updated": "2026-08-08 08:59",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.1-canary.8",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Flush pending revalidations for forwarded action error responses: #96945\n- Handle Server Actions on dynamic PPR fallback routes: #96932\n- Turbopack: Improve how DiskWatcher is configured and fix polling watcher bugs: #96440\n- Turbopack: Allow DiskWatcher to use a mocked DiskFileSystem, add a small unit test: #96353\n- [turbopack] Add e2e test that uses component chunks + workers: #96556\n- [turbopack] Support `experimental.serverMinification` & expand `experimental.turbopackMin",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.8",
+      "published_at": "2026-08-08 07:48",
+      "tag": "v16.3.1-canary.8",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.1-canary.7",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Show compiler plugin warning in more situations: #75682\n\n### Misc Changes\n\n- ci: stop publishing @vercel/devlow-bench: #96887\n- fix(turbopack): name the module in the non-ESM-placeable error, and stop duplicating the importer in traces: #96560\n- fix(turbopack): support `type: 'text'` in rules, and error on binding imports of non-ESM modules: #96558\n- Fix missing styled-jsx styles in Pages Router SSR on adapter builds: #96632\n\n### Credits \n\nHuge thanks to @mischnic, @sokra, an",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.5",
       "published_at": "2026-08-07 09:16",
       "tag": "v16.3.1-canary.5",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v15.5.23",
-      "repo": "vercel/next.js",
-      "description": "## What's Changed\r\n\r\n* [15.x] Port ReplyServer traversal guards to FlightClient @eps1lon in https://github.com/vercel/next.js/pull/96405\r\n\r\n\r\n**Full Changelog**: https://github.com/vercel/next.js/compare/v15.5.22...v15.5.23",
-      "url": "https://github.com/vercel/next.js/releases/tag/v15.5.23",
-      "published_at": "2026-08-07 17:57",
-      "tag": "v15.5.23",
       "source": "release"
     }
   ]
