@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-09 02:24",
+  "updated": "2026-08-09 09:04",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.1-canary.9",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [turbopack] Fix a potential deadlock in scope_and_block: #95695\n- Remove the turbopack-build-events trace span, use `next build` instead: #96746\n- docs: add `export const dynamic = 'force-static'` to Route Handlers example on Static Exports: #96964\n- [turbopack] Follow re-exports for side-effect free async modules: #95993\n\n### Credits \n\nHuge thanks to @lukesandberg, @m-kawafuji, and @sampoder for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.9",
+      "published_at": "2026-08-09 07:44",
+      "tag": "v16.3.1-canary.9",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.1-canary.8",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Flush pending revalidations for forwarded action error responses: #96945\n- Handle Server Actions on dynamic PPR fallback routes: #96932\n- Turbopack: Improve how DiskWatcher is configured and fix polling watcher bugs: #96440\n- Turbopack: Allow DiskWatcher to use a mocked DiskFileSystem, add a small unit test: #96353\n- [turbopack] Add e2e test that uses component chunks + workers: #96556\n- [turbopack] Support `experimental.serverMinification` & expand `experimental.turbopackMin",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.7",
       "published_at": "2026-08-07 18:11",
       "tag": "v16.3.1-canary.7",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.1-canary.5",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Refactor server from CacheNodeSeedData -> TransportData: #96679\n- Unify full/partial navigation response types: #96439\n- Unify RouteTree and CacheNodeSeedData on the client: #96406\n- Consolidate Promise.withResolvers polyfills: #96772\n- [ci] Open automated update pull requests with `nextjs-bot`: #96683\n- Require Cache Components for Instant Navigation testing: #96745\n- Fix use cache over- and under-invalidation in dev: #96235\n- Fix which pages the dev server announces, and wh",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.5",
-      "published_at": "2026-08-07 09:16",
-      "tag": "v16.3.1-canary.5",
       "source": "release"
     }
   ]
