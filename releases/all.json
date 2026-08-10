@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-10 15:14",
+  "updated": "2026-08-10 20:49",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.32.7",
+      "repo": "ollama/ollama",
+      "description": "## Muse Glimmer\r\n\r\n> Note: Muse Glimmer is currently available via initial support via Ollama's MLX engine on Apple Silicon. Additional support and optimizations for Apple Silicon, NVIDIA, AMD, and other platforms will be available in the coming days.\r\n\r\n**Muse Glimmer**, Meta's newest open model and the first released by Meta Superintelligence Labs, is now available on Ollama. It's a 30B multimodal model purpose-built for agent workloads that run locally.\r\n\r\nWith Ollama, you can now use Muse Gl",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.7",
+      "published_at": "2026-08-10 18:49",
+      "tag": "v0.32.7",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.32.6",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n  - Qwen3.5 is faster on Apple GPUs: the MLX engine now uses the model's MTP head for speculative decoding automatically\r\n  - `/v1/chat/completions` streaming now matches OpenAI's wire format: `role` only on the first chunk, `finish_reason` on its own chunk,\r\n  and usage in a separate chunk with `stream_options.include_usage`.\r\n  - Truncated OpenAI responses now report `finish_reason: \"length\"` instead of `\"tool_calls\"`.\r\n  - `ollama run kimi-k3` now offers `kimi-k3:cloud` for",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.5",
       "published_at": "2026-07-27 09:25",
       "tag": "v0.32.5",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.32.4",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n- Support Laguna on Apple GPUs via the MLX engine\r\n- Quantize draft-model output heads at the requested type when creating speculative-decoding drafts.\r\n- Fixed Qwen3 MoE decoding for differently-quantized experts, plus faster packed gate/up projection (~4–9% on M5 Max).\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.3...v0.32.4",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.4",
-      "published_at": "2026-07-25 10:22",
-      "tag": "v0.32.4",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.1-canary.10",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [turbopack] Treat constants with values referencing other values as unsafe: #96190\n\n### Credits \n\nHuge thanks to @sampoder for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.10",
+      "published_at": "2026-08-10 15:16",
+      "tag": "v16.3.1-canary.10",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.1-canary.9",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- [turbopack] Fix a potential deadlock in scope_and_block: #95695\n- Remove the turbopack-build-events trace span, use `next build` instead: #96746\n- docs: add `export const dynamic = 'force-static'` to Route Handlers example on Static Exports: #96964\n- [turbopack] Follow re-exports for side-effect free async modules: #95993\n\n### Credits \n\nHuge thanks to @lukesandberg, @m-kawafuji, and @sampoder for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.8",
       "published_at": "2026-08-08 07:48",
       "tag": "v16.3.1-canary.8",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.1-canary.7",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Show compiler plugin warning in more situations: #75682\n\n### Misc Changes\n\n- ci: stop publishing @vercel/devlow-bench: #96887\n- fix(turbopack): name the module in the non-ESM-placeable error, and stop duplicating the importer in traces: #96560\n- fix(turbopack): support `type: 'text'` in rules, and error on binding imports of non-ESM modules: #96558\n- Fix missing styled-jsx styles in Pages Router SSR on adapter builds: #96632\n\n### Credits \n\nHuge thanks to @mischnic, @sokra, an",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.7",
-      "published_at": "2026-08-07 18:11",
-      "tag": "v16.3.1-canary.7",
       "source": "release"
     }
   ]
