@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-08-10 20:49",
+  "updated": "2026-08-11 02:43",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-openai==1.4.3",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-openai==1.4.2\n\nrelease(openai): 1.4.3 (#39485)\nfix(openai): filter invalid tool calls from content (#39366)\nchore(openai): update guidance for responses API for OpenAI-compatible providers (#39327)\nchore(openai): update docstring for `include_response_headers` (#39326)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.4.3",
+      "published_at": "2026-08-10 21:23",
+      "tag": "langchain-openai==1.4.3",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-openai==1.4.2",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.4",
       "published_at": "2026-08-06 03:03",
       "tag": "langchain-anthropic==1.5.4",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.5.3",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.5.2\n\nrelease(core): 1.5.3 (#39145)\nfix(core): fall back to `LANGSMITH_API_KEY` for gateway (#39115)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.3",
-      "published_at": "2026-07-30 22:56",
-      "tag": "langchain-core==1.5.3",
       "source": "release"
     },
     {
