@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-08-11 20:44",
+  "updated": "2026-08-12 02:50",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-core==1.5.4",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-core==1.5.3\n\nrelease(core): 1.5.4 (#39592)\nfix(core): compat with pydantic 2.14 (#39328)\nfix(core): stop StructuredPrompt from mutating caller kwargs (#39174)\nfix(core): preserve flat tool args schema for `RootModel` runnables (#39307)\nfix(core): close internally created event loops in streaming tracers (#39222)\nchore: bump the minor-and-patch group across 3 directories with 7 updates (#39187)\nfix(core): preserve OpenAI file blocks (#39205)\nfix(core): document reserved ar",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.4",
+      "published_at": "2026-08-12 02:03",
+      "tag": "langchain-core==1.5.4",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-openai==1.4.3",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.4.2",
       "published_at": "2026-08-07 21:58",
       "tag": "langchain-openai==1.4.2",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-anthropic==1.5.4",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-anthropic==1.5.3\n\nrelease(anthropic): 1.5.4 (#39277)\nfix(anthropic): handle tool schemas with unsupported top-level composition (#39273)\nchore: bump the minor-and-patch group across 3 directories with 7 updates (#39187)\nfix(anthropic): preserve caller `tool_choice` (#39206)\nfeat(anthropic): add `user_profile_id` convenience attribute (#39148)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.4",
-      "published_at": "2026-08-06 03:03",
-      "tag": "langchain-anthropic==1.5.4",
       "source": "release"
     },
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.32.9",
+      "repo": "ollama/ollama",
+      "description": "## NVIDIA Nemotron 3.5 Lightning\r\n\r\n[NVIDIA Nemotron 3.5 Lightning](https://ollama.com/library/nemotron-3.5-lightning) is an open 30B mixture-of-experts (MoE) model with 3B active parameters built for that execution layer of always-on agents. It is designed for harnesses like OpenClaw and Hermes Agent – all supported by the [NVIDIA NemoClaw](https://github.com/NVIDIA/NemoClaw) open source security and management stack for running always-on AI agents.\r\n\r\n```\r\nollama run nemotron-3.5-lightning\r\n``",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.9",
+      "published_at": "2026-08-11 21:23",
+      "tag": "v0.32.9",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.32.8",
       "repo": "ollama/ollama",
       "description": "## Muse Glimmer\r\n\r\nMuse Glimmer is now available on all platforms. Muse Glimmer can power coding agent applications such as Claude Code, Codex, Pi and more, as well as long-running personal assistants such as OpenClaw and Hermes.\r\n\r\nOllama's MLX engine provides state-of-the-art performance on Apple Silicon for this model, with support for DFlash and image input as of Ollama 0.32.7.\r\n\r\nTo download and run Muse Glimmer locally:\r\n\r\n```bash\r\nollama run muse-glimmer\r\n```\r\n\r\nTo run Muse Glimmer with C",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.7",
       "published_at": "2026-08-10 18:49",
       "tag": "v0.32.7",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.32.6",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n  - Qwen3.5 is faster on Apple GPUs: the MLX engine now uses the model's MTP head for speculative decoding automatically\r\n  - `/v1/chat/completions` streaming now matches OpenAI's wire format: `role` only on the first chunk, `finish_reason` on its own chunk,\r\n  and usage in a separate chunk with `stream_options.include_usage`.\r\n  - Truncated OpenAI responses now report `finish_reason: \"length\"` instead of `\"tool_calls\"`.\r\n  - `ollama run kimi-k3` now offers `kimi-k3:cloud` for",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.6",
-      "published_at": "2026-08-05 02:49",
-      "tag": "v0.32.6",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.1-canary.12",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [turbopack] Bail CJS tree-shaking on `var x = module.exports = {}`: #97130\n- docs: server client and directives: #96145\n- docs: clarify client cache freshness after hydration: #97180\n- Fix: Optimistic routing bugs leading to repeated prefetch loops: #97128\n- docs: create client-side fetching guide: #96341\n- Turbopack: accept a module type argument for import.meta.glob: #96991\n- docs: align Cache Components authentication guide title: #97143\n- test: re-enable a few more passin",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.12",
+      "published_at": "2026-08-12 01:48",
+      "tag": "v16.3.1-canary.12",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.1-canary.11",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- fix(scripts): correct typo in rm.mjs error message: #87015\n- docs: improve clarity and punctuation in README: #86096\n\n### Misc Changes\n\n- Encode the cache item name built by `unstable_cache`: #96937\n- [refactor] Rename `encodeCacheTag` to `encodeHeaderSafe`: #96936\n- Fix formatting of Google Fonts section in documentation: #88447\n- Fixing a bug - typo issue fixed: #97141\n- examples: fix Webiny API env variable name: #97134\n- docs: fix Link prefetch grammar and Client Componen",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.10",
       "published_at": "2026-08-10 15:16",
       "tag": "v16.3.1-canary.10",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.1-canary.9",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [turbopack] Fix a potential deadlock in scope_and_block: #95695\n- Remove the turbopack-build-events trace span, use `next build` instead: #96746\n- docs: add `export const dynamic = 'force-static'` to Route Handlers example on Static Exports: #96964\n- [turbopack] Follow re-exports for side-effect free async modules: #95993\n\n### Credits \n\nHuge thanks to @lukesandberg, @m-kawafuji, and @sampoder for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.9",
-      "published_at": "2026-08-09 07:44",
-      "tag": "v16.3.1-canary.9",
       "source": "release"
     }
   ]
