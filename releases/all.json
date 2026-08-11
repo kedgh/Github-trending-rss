@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-11 14:52",
+  "updated": "2026-08-11 20:44",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n n8n@2.35.0",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.35.0](https://github.com/n8n-io/n8n/compare/n8n@2.34.0...n8n@2.35.0) (2026-08-11)\n\n\n### Bug Fixes\n\n* **AI Agent Node:** Stop pre-tool-call text leaking into agent responses ([#35212](https://github.com/n8n-io/n8n/issues/35212)) ([d5845df](https://github.com/n8n-io/n8n/commit/d5845df4fcbb52f1e90696aa8f4ed1520f9dad1e))\n* **core:** Apply redaction policy to Code node console output ([#35121](https://github.com/n8n-io/n8n/issues/35121)) ([242da02](https://github.com/n8n-io/n8n/commit/242da024ac",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.0",
+      "published_at": "2026-08-11 15:57",
+      "tag": "n8n@2.35.0",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n beta",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.35.0](https://github.com/n8n-io/n8n/compare/n8n@2.34.0...n8n@2.35.0) (2026-08-11)\n\n\n### Bug Fixes\n\n* **AI Agent Node:** Stop pre-tool-call text leaking into agent responses ([#35212](https://github.com/n8n-io/n8n/issues/35212)) ([d5845df](https://github.com/n8n-io/n8n/commit/d5845df4fcbb52f1e90696aa8f4ed1520f9dad1e))\n* **core:** Apply redaction policy to Code node console output ([#35121](https://github.com/n8n-io/n8n/issues/35121)) ([242da02](https://github.com/n8n-io/n8n/commit/242da024ac",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-08-11 15:57",
+      "tag": "beta",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.33.7](https://github.com/n8n-io/n8n/compare/n8n@2.33.6...n8n@2.33.7) (2026-08-07)\n\n\n### Bug Fixes\n\n* **core:** Fix task runner health check failing ([#35817](https://github.com/n8n-io/n8n/issues/35817)) ([e271104](https://github.com/n8n-io/n8n/commit/e2711041af6aa9bf7643b1461fa513a399aeb0ed))\n* **core:** Handle out-of-scope display option dependencies ([#35864](https://github.com/n8n-io/n8n/issues/35864)) ([0e83399](https://github.com/n8n-io/n8n/commit/0e8339982bd5b21b84d8f48c00df9435f4eec",
+      "description": "## [2.34.4](https://github.com/n8n-io/n8n/compare/n8n@2.34.3...n8n@2.34.4) (2026-08-07)\n\n\n### Bug Fixes\n\n* **core:** Fix task runner health check failing ([#35816](https://github.com/n8n-io/n8n/issues/35816)) ([badd50e](https://github.com/n8n-io/n8n/commit/badd50ee79022c2137152ebe36141037a737c2d4))\n* **core:** Handle out-of-scope display option dependencies ([#35863](https://github.com/n8n-io/n8n/issues/35863)) ([1e9734d](https://github.com/n8n-io/n8n/commit/1e9734d51ed3b9d7204d34d2579f5bda08907",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-08-08 00:52",
+      "published_at": "2026-08-11 16:00",
       "tag": "stable",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.33.7",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.33.7](https://github.com/n8n-io/n8n/compare/n8n@2.33.6...n8n@2.33.7) (2026-08-07)\n\n\n### Bug Fixes\n\n* **core:** Fix task runner health check failing ([#35817](https://github.com/n8n-io/n8n/issues/35817)) ([e271104](https://github.com/n8n-io/n8n/commit/e2711041af6aa9bf7643b1461fa513a399aeb0ed))\n* **core:** Handle out-of-scope display option dependencies ([#35864](https://github.com/n8n-io/n8n/issues/35864)) ([0e83399](https://github.com/n8n-io/n8n/commit/0e8339982bd5b21b84d8f48c00df9435f4eec",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.33.7",
-      "published_at": "2026-08-08 00:52",
-      "tag": "n8n@2.33.7",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.33.6",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.33.6](https://github.com/n8n-io/n8n/compare/n8n@2.33.5...n8n@2.33.6) (2026-08-07)\n\n\n### Bug Fixes\n\n* Send n8n version on backend posthog flag retrieval ([#35720](https://github.com/n8n-io/n8n/issues/35720)) ([b422237](https://github.com/n8n-io/n8n/commit/b422237ac99457df2819aae76ea8872b7bae4df5))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/35807?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"tru",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.33.6",
-      "published_at": "2026-08-07 15:56",
-      "tag": "n8n@2.33.6",
       "source": "release"
     },
     {
