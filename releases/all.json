@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-12 20:49",
+  "updated": "2026-08-13 02:51",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.1-canary.14",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Fix debug build paths Pages Router support entries: #93529\n\n### Misc Changes\n\n- Restore the live `headers()` view of the incoming request: #97166\n- [test] Compile the middleware redirect routes up front in dev: #97190\n- Update gh-stack skill guidance: #97163\n- [test] Unflake `use-cache-custom-handler-dev` tests: #97187\n- Forward a build-container pin to deploy-test deployments: #97191\n- Fix unset crossOrigin in Turbopack manifests: #97164\n- Allow literal exports in `'use cach",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.14",
+      "published_at": "2026-08-12 21:25",
+      "tag": "v16.3.1-canary.14",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.1-canary.13",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Decouple loader tree construction from children ordering: #97192\n- [turbopack] Retain fewer stale cache versions and use a TTL: #96941\n- Bump lightningcss: #97159\n\n### Credits \n\nHuge thanks to @gnoff, @lukesandberg, and @mischnic for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.12",
       "published_at": "2026-08-12 01:48",
       "tag": "v16.3.1-canary.12",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.1-canary.11",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- fix(scripts): correct typo in rm.mjs error message: #87015\n- docs: improve clarity and punctuation in README: #86096\n\n### Misc Changes\n\n- Encode the cache item name built by `unstable_cache`: #96937\n- [refactor] Rename `encodeCacheTag` to `encodeHeaderSafe`: #96936\n- Fix formatting of Google Fonts section in documentation: #88447\n- Fixing a bug - typo issue fixed: #97141\n- examples: fix Webiny API env variable name: #97134\n- docs: fix Link prefetch grammar and Client Componen",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.11",
-      "published_at": "2026-08-11 07:48",
-      "tag": "v16.3.1-canary.11",
       "source": "release"
     }
   ]
