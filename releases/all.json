@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-08-13 09:14",
+  "updated": "2026-08-13 15:14",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-anthropic==1.5.6",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-anthropic==1.5.5\n\nrelease(anthropic): 1.5.6 (#39622)\nfix(anthropic): normalize `tool_search_tool_result` blocks (#39621)\nfix(anthropic): correct model profile data for Fable 5, Sonnet 5, Opus 4.1 (#39604)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.6",
+      "published_at": "2026-08-13 10:31",
+      "tag": "langchain-anthropic==1.5.6",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain==1.3.15",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.4",
       "published_at": "2026-08-12 02:03",
       "tag": "langchain-core==1.5.4",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-anthropic==1.5.5",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-anthropic==1.5.4\n\nrelease(anthropic): 1.5.5 (#39597)\nfix(anthropic): report reasoning tokens in usage metadata (#39590)\nfix(anthropic): fix `KeyError` on rename in Claude file-tool middleware (#39293)\nchore(model-profiles): refresh model profile data (#39299)\nfix(anthropic): clearer error when no credentials are configured (#39285)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.5",
-      "published_at": "2026-08-12 03:16",
-      "tag": "langchain-anthropic==1.5.5",
       "source": "release"
     },
     {
