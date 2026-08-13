@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-08-13 20:50",
+  "updated": "2026-08-14 02:51",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-openai==1.5.0",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-openai==1.4.3\n\nrelease(openai): 1.5.0 (#39629)\nfeat(openai): support openai 3.0 SDK (#39613)\nchore(partners): bump langgraph floor in openai and huggingface lockfiles (#39617)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.0",
+      "published_at": "2026-08-13 21:15",
+      "tag": "langchain-openai==1.5.0",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-anthropic==1.5.6",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.15",
       "published_at": "2026-08-12 03:11",
       "tag": "langchain==1.3.15",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.5.4",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.5.3\n\nrelease(core): 1.5.4 (#39592)\nfix(core): compat with pydantic 2.14 (#39328)\nfix(core): stop StructuredPrompt from mutating caller kwargs (#39174)\nfix(core): preserve flat tool args schema for `RootModel` runnables (#39307)\nfix(core): close internally created event loops in streaming tracers (#39222)\nchore: bump the minor-and-patch group across 3 directories with 7 updates (#39187)\nfix(core): preserve OpenAI file blocks (#39205)\nfix(core): document reserved ar",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.4",
-      "published_at": "2026-08-12 02:03",
-      "tag": "langchain-core==1.5.4",
       "source": "release"
     },
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.32.10-rc1",
+      "name": "ollama/ollama v0.32.10",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n- Models that don't set a `repeat_penalty` now default to 1.0 (off) instead of 1.1, matching other engines and speeding up speculative decoding; set a per-model parameter if an older model repeats itself.\r\n- Faster prefill on NVFP4 MLX models with a global scale, about 7–8% on Qwen3.6 and Muse Glimmer.\r\n- Fixed blob verification being skipped when an OCI manifest's config and layer share a digest.\r\n\r\n## New Contributors\r\n* @vigneshakaviki made their first contribution in https",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.10-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.10",
       "published_at": "2026-08-13 06:36",
-      "tag": "v0.32.10-rc1",
+      "tag": "v0.32.10",
       "source": "release"
     },
     {
