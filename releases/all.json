@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-14 02:51",
+  "updated": "2026-08-14 09:13",
   "count": 15,
   "items": [
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.1",
+      "repo": "vercel/next.js",
+      "description": "## What's Changed\r\n* [16.x] Turbopack: don't strip async-module runtime from shared runtime chunks by @lukesandberg in https://github.com/vercel/next.js/pull/96653\r\n* [16.x] [turbopack] Add `turbopack_ecmascript` and `turbopack_wasm`'s embeded FS to `internal_assets_conditions` by @lukesandberg in https://github.com/vercel/next.js/pull/96655\r\n* [16.x] [turbopack] Collapse nested promises in the analyzer by @sampoder in https://github.com/vercel/next.js/pull/96675\r\n* [16.x] fix(next/image): prese",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1",
+      "published_at": "2026-08-14 06:48",
+      "tag": "v16.3.1",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.3.1-canary.16",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Unify how a response's shell and full payloads are written: #96878\n- Convert per-segment prefetches to NavigationFlightResponse format: #96877\n- Unify how server responses are written into the client cache: #96876\n- Convert tree prefetches to NavigationFlightResponse format: #96788\n- Revert i18n localization change for dynamic Pages API routes (#94905): #97327\n- fix(next/image): skip 0-byte entries when initializing disk LRU cache: #94068\n- Update authentication diagram URL: ",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.16",
+      "published_at": "2026-08-14 07:49",
+      "tag": "v16.3.1-canary.16",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.1-canary.15",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- test: fix 'ouput' typo in parseIdsFromCliOutput: #97266\n- Add the mtime fallback back: #97268\n- Allow issue participants to request reopening: #96947\n- [turbopack] Document clusters for chunking: #97267\n- Link to issues in the contribution guide and discourage trivial PRs: #97188\n- Stop serializing hmr version state: #97146\n- [turbopack] Add `clusters` to chunking heuristics: #95157\n- [test] Redirect the deployment host in-process for proxy deploy tests: #97260\n- [test] Unfla",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.15",
       "published_at": "2026-08-13 07:50",
       "tag": "v16.3.1-canary.15",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.1-canary.14",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Fix debug build paths Pages Router support entries: #93529\n\n### Misc Changes\n\n- Restore the live `headers()` view of the incoming request: #97166\n- [test] Compile the middleware redirect routes up front in dev: #97190\n- Update gh-stack skill guidance: #97163\n- [test] Unflake `use-cache-custom-handler-dev` tests: #97187\n- Forward a build-container pin to deploy-test deployments: #97191\n- Fix unset crossOrigin in Turbopack manifests: #97164\n- Allow literal exports in `'use cach",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.14",
-      "published_at": "2026-08-12 21:25",
-      "tag": "v16.3.1-canary.14",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.1-canary.13",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Decouple loader tree construction from children ordering: #97192\n- [turbopack] Retain fewer stale cache versions and use a TTL: #96941\n- Bump lightningcss: #97159\n\n### Credits \n\nHuge thanks to @gnoff, @lukesandberg, and @mischnic for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.13",
-      "published_at": "2026-08-12 07:51",
-      "tag": "v16.3.1-canary.13",
       "source": "release"
     }
   ]
