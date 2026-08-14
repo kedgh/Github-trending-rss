@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-14 15:11",
+  "updated": "2026-08-14 20:44",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.71",
+      "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.71](https://github.com/n8n-io/n8n/compare/n8n@1.123.70...n8n@1.123.71) (2026-08-13)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/36182?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/revie",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.71",
-      "published_at": "2026-08-13 16:06",
-      "tag": "n8n@1.123.71",
+      "description": "## [2.34.6](https://github.com/n8n-io/n8n/compare/n8n@2.34.5...n8n@2.34.6) (2026-08-14)\n\n\n### Bug Fixes\n\n* **core:** Allow `details` field in `continueErrorOutput` mode ([#36229](https://github.com/n8n-io/n8n/issues/36229)) ([a5b4822](https://github.com/n8n-io/n8n/commit/a5b4822c43c39779bf063d6d699324794607db05))\n* **Google Ads Node:** Migrate from sunset v21 API to v25 ([#36260](https://github.com/n8n-io/n8n/issues/36260)) ([ee0c183](https://github.com/n8n-io/n8n/commit/ee0c183745c1f59d58747beb",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-08-14 16:12",
+      "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.35.2",
+      "name": "n8n-io/n8n n8n@2.34.6",
       "repo": "n8n-io/n8n",
-      "description": "## [2.35.2](https://github.com/n8n-io/n8n/compare/n8n@2.35.1...n8n@2.35.2) (2026-08-13)\n\n\n### Bug Fixes\n\n* **core:** Report the real activation mode for triggers activated via the publication outbox ([#36151](https://github.com/n8n-io/n8n/issues/36151)) ([07e3927](https://github.com/n8n-io/n8n/commit/07e3927d0ced53aa1572d278933c424a1bc265ee))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/36181?utm_source=github\" target=\"_blank\" rel=\"noope",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.2",
-      "published_at": "2026-08-13 15:59",
-      "tag": "n8n@2.35.2",
+      "description": "## [2.34.6](https://github.com/n8n-io/n8n/compare/n8n@2.34.5...n8n@2.34.6) (2026-08-14)\n\n\n### Bug Fixes\n\n* **core:** Allow `details` field in `continueErrorOutput` mode ([#36229](https://github.com/n8n-io/n8n/issues/36229)) ([a5b4822](https://github.com/n8n-io/n8n/commit/a5b4822c43c39779bf063d6d699324794607db05))\n* **Google Ads Node:** Migrate from sunset v21 API to v25 ([#36260](https://github.com/n8n-io/n8n/issues/36260)) ([ee0c183](https://github.com/n8n-io/n8n/commit/ee0c183745c1f59d58747beb",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.34.6",
+      "published_at": "2026-08-14 16:12",
+      "tag": "n8n@2.34.6",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n beta",
+      "name": "n8n-io/n8n n8n@2.35.3",
       "repo": "n8n-io/n8n",
-      "description": "## [2.35.2](https://github.com/n8n-io/n8n/compare/n8n@2.35.1...n8n@2.35.2) (2026-08-13)\n\n\n### Bug Fixes\n\n* **core:** Report the real activation mode for triggers activated via the publication outbox ([#36151](https://github.com/n8n-io/n8n/issues/36151)) ([07e3927](https://github.com/n8n-io/n8n/commit/07e3927d0ced53aa1572d278933c424a1bc265ee))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/36181?utm_source=github\" target=\"_blank\" rel=\"noope",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-08-13 15:59",
-      "tag": "beta",
+      "description": "## [2.35.3](https://github.com/n8n-io/n8n/compare/n8n@2.35.2...n8n@2.35.3) (2026-08-14)\n\n\n### Bug Fixes\n\n* **core:** Allow `details` field in `continueErrorOutput` mode ([#36228](https://github.com/n8n-io/n8n/issues/36228)) ([e58a680](https://github.com/n8n-io/n8n/commit/e58a68016b881f29b2509f6c9d1ba093edf7b83b))\n* **core:** Bound workflow publication outbox record processing with an abort deadline ([#36286](https://github.com/n8n-io/n8n/issues/36286)) ([69140c0](https://github.com/n8n-io/n8n/co",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.3",
+      "published_at": "2026-08-14 18:21",
+      "tag": "n8n@2.35.3",
       "source": "release"
     },
     {
