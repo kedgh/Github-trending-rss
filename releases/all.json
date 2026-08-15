@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-15 08:44",
+  "updated": "2026-08-15 14:22",
   "count": 15,
   "items": [
     {
@@ -69,7 +69,7 @@
     {
       "name": "ollama/ollama v0.32.12",
       "repo": "ollama/ollama",
-      "description": "<img width=\"600\" alt=\"ollama and qwen capybara\" src=\"https://github.com/user-attachments/assets/5fa5e93b-d48b-4a6a-b72a-25379ab9429c\" />\r\n\r\n## Qwen 3.8 - 27B model support \r\n\r\nThis release adds the support of Qwen 3.8 27B. \r\n\r\nFor Apple Silicon devices, Ollama has in particular optimized for maximum performance and output quality suitable for repeated tasks and coding agents. \r\n\r\nQwen 3.8 model page: \r\n\r\nhttps://ollama.com/library/qwen3.8\r\n\r\nQwen3.8 delivers substantial gains across coding, prof",
+      "description": "<img width=\"600\" alt=\"ollama and qwen capybara\" src=\"https://github.com/user-attachments/assets/5fa5e93b-d48b-4a6a-b72a-25379ab9429c\" />\r\n\r\n## Qwen 3.8 27B\r\n\r\nThis release adds the support of [Qwen 3.8 27B](https://ollama.com/library/qwen3.8). Qwen3.8 delivers substantial gains across coding, professional work, research, and long-horizon agentic tasks.\r\n\r\n```\r\nollama run qwen3.8:27b\r\n```\r\n\r\nFor Apple Silicon devices, Ollama has in particular optimized for maximum performance and output quality s",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.12",
       "published_at": "2026-08-15 00:37",
       "tag": "v0.32.12",
