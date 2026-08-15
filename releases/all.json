@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-08-15 02:41",
+  "updated": "2026-08-15 08:44",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-openrouter==0.2.8",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-openrouter==0.2.7\n\nrelease(openrouter): 0.2.8 (#39658)\nchore(model-profiles): refresh model profile data (#39646)\nchore(model-profiles): refresh model profile data (#39625)\nfix(openrouter): preserve cost metadata in usage chunks (#39338)\nchore(model-profiles): refresh model profile data (#39609)\nchore(model-profiles): refresh model profile data (#39579)\nchore(model-profiles): refresh model profile data (#39430)\nchore(model-profiles): refresh model profile data (#39344)\nch",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.8",
+      "published_at": "2026-08-15 03:03",
+      "tag": "langchain-openrouter==0.2.8",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-openai==1.5.1",
       "repo": "langchain-ai/langchain",
@@ -13,21 +22,12 @@
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-openai==1.5.0",
+      "name": "langchain-ai/langchain langchain-core==1.5.5",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.4.3\n\nrelease(openai): 1.5.0 (#39629)\nfeat(openai): support openai 3.0 SDK (#39613)\nchore(partners): bump langgraph floor in openai and huggingface lockfiles (#39617)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.0",
-      "published_at": "2026-08-13 21:15",
-      "tag": "langchain-openai==1.5.0",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-anthropic==1.5.6",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-anthropic==1.5.5\n\nrelease(anthropic): 1.5.6 (#39622)\nfix(anthropic): normalize `tool_search_tool_result` blocks (#39621)\nfix(anthropic): correct model profile data for Fable 5, Sonnet 5, Opus 4.1 (#39604)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.6",
-      "published_at": "2026-08-13 10:31",
-      "tag": "langchain-anthropic==1.5.6",
+      "description": "Changes since langchain-core==1.5.4\n\nrelease(core): 1.5.5 (#39655)\nfix(core): make abatch_iterate consistent with batch_iterate for None and zero size (#39367)\nfix(core): respect pydantic aliases when validating tool inputs (#39572)\nfix(core): issues in merging chunks (#39535)\nfix(core): handle v1 base model validation in async path (#39576)\nfix(core): handle tool descriptions for infer_schema=False (#39573)\nfix(core): clear usage metadata callback on exceptions in context manager (#39616)\nfix(c",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.5",
+      "published_at": "2026-08-15 02:56",
+      "tag": "langchain-core==1.5.5",
       "source": "release"
     },
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.32.13",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* qwen3.8: support developer instructions \r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.12...v0.32.13",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.13",
+      "published_at": "2026-08-15 03:16",
+      "tag": "v0.32.13",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.32.12",
       "repo": "ollama/ollama",
       "description": "<img width=\"600\" alt=\"ollama and qwen capybara\" src=\"https://github.com/user-attachments/assets/5fa5e93b-d48b-4a6a-b72a-25379ab9429c\" />\r\n\r\n## Qwen 3.8 - 27B model support \r\n\r\nThis release adds the support of Qwen 3.8 27B. \r\n\r\nFor Apple Silicon devices, Ollama has in particular optimized for maximum performance and output quality suitable for repeated tasks and coding agents. \r\n\r\nQwen 3.8 model page: \r\n\r\nhttps://ollama.com/library/qwen3.8\r\n\r\nQwen3.8 delivers substantial gains across coding, prof",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.11",
       "published_at": "2026-08-14 09:22",
       "tag": "v0.32.11",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.32.10",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n- Models that don't set a `repeat_penalty` now default to 1.0 (off) instead of 1.1, matching other engines and speeding up speculative decoding; set a per-model parameter if an older model repeats itself.\r\n- Faster prefill on NVFP4 MLX models with a global scale, about 7–8% on Qwen3.6 and Muse Glimmer.\r\n- Fixed blob verification being skipped when an OCI manifest's config and layer share a digest.\r\n\r\n## New Contributors\r\n* @vigneshakaviki made their first contribution in https",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.10",
-      "published_at": "2026-08-13 06:36",
-      "tag": "v0.32.10",
       "source": "release"
     },
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.1-canary.19",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Adopt SelectedMetadata for metadata rendering: #97387\n- fix(next/image): reject empty image on read/write to disk cache : #97278\n- Turbopack: remove stale manifests for deleted routes: #97333\n- Turbopack: make unreachable codegen more generic: #97385\n\n### Credits \n\nHuge thanks to @gnoff, @styfle, @marcoshernanz, and @mischnic for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.19",
+      "published_at": "2026-08-15 07:46",
+      "tag": "v16.3.1-canary.19",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.3.1-canary.18",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Upgrade React from `22e4f993-20260811` to `eb8feb71-20260814`: #97382",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.18",
+      "published_at": "2026-08-15 04:41",
+      "tag": "v16.3.1-canary.18",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.1-canary.17",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Turbopack: add imports_wildcard NFT unit test: #97373\n- Turbopack: improve chunk_item_content docs: #97370\n- Turbopack: don't trace embedded WASM loader helpers: #97353\n- test: Reenable i18n-api-support deploy test for Turbopack with adapters: #96898\n- Trace instrumentation startup: #97296\n- Trace route module preparation: #97295\n- Trace route module loading: #97318\n- fix(deps): bump `satori` and `@vercel/og`: #97276\n- Scope app-entry export validation to files inside the app",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.17",
       "published_at": "2026-08-15 01:04",
       "tag": "v16.3.1-canary.17",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.1",
-      "repo": "vercel/next.js",
-      "description": "## What's Changed\r\n* [16.x] Turbopack: don't strip async-module runtime from shared runtime chunks by @lukesandberg in https://github.com/vercel/next.js/pull/96653\r\n* [16.x] [turbopack] Add `turbopack_ecmascript` and `turbopack_wasm`'s embeded FS to `internal_assets_conditions` by @lukesandberg in https://github.com/vercel/next.js/pull/96655\r\n* [16.x] [turbopack] Collapse nested promises in the analyzer by @sampoder in https://github.com/vercel/next.js/pull/96675\r\n* [16.x] fix(next/image): prese",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1",
-      "published_at": "2026-08-14 06:48",
-      "tag": "v16.3.1",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.1-canary.16",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Unify how a response's shell and full payloads are written: #96878\n- Convert per-segment prefetches to NavigationFlightResponse format: #96877\n- Unify how server responses are written into the client cache: #96876\n- Convert tree prefetches to NavigationFlightResponse format: #96788\n- Revert i18n localization change for dynamic Pages API routes (#94905): #97327\n- fix(next/image): skip 0-byte entries when initializing disk LRU cache: #94068\n- Update authentication diagram URL: ",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.16",
-      "published_at": "2026-08-14 07:49",
-      "tag": "v16.3.1-canary.16",
       "source": "release"
     }
   ]
