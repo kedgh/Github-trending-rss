@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-16 02:16",
+  "updated": "2026-08-16 08:48",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.32.14-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* llm: transcode WebP images for llama-server \r\n* renderers/qwen: tolerate non-leading system messages\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.13...v0.32.14-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.14-rc0",
+      "published_at": "2026-08-16 03:41",
+      "tag": "v0.32.14-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.32.13",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* qwen3.8: support developer instructions \r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.12...v0.32.13",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.12",
       "published_at": "2026-08-15 00:37",
       "tag": "v0.32.12",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.32.11",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* `ollama launch dsh` now supports DeepSeek Harness, [DeepSeek's open-source agent harness](https://deepseek.com/harness/en/)\r\n* `ollama launch muse` now supports [Muse Code](https://developer.meta.com/ai/products/muse-code/), Meta's agentic coding CLI\r\n* The OpenAI-compatible Responses API now supports web search\r\n* Muse Glimmer template updates\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.10...v0.32.11\r\n\r\n",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.11",
-      "published_at": "2026-08-14 09:22",
-      "tag": "v0.32.11",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.1-canary.20",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Wait for back-before-hydration recoveries in the browser: #97321\n- Extract metadata resolution primitives: #97388\n- test: update React 18 redbox snapshot: #97415\n- Turbopack: retain conditions when replacing resolve request keys: #97372\n- Remove server route matcher stack: #94157\n\n### Credits \n\nHuge thanks to @gaearon, @gnoff, @timneutkens, and @mischnic for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.20",
+      "published_at": "2026-08-16 07:52",
+      "tag": "v16.3.1-canary.20",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.1-canary.19",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Adopt SelectedMetadata for metadata rendering: #97387\n- fix(next/image): reject empty image on read/write to disk cache : #97278\n- Turbopack: remove stale manifests for deleted routes: #97333\n- Turbopack: make unreachable codegen more generic: #97385\n\n### Credits \n\nHuge thanks to @gnoff, @styfle, @marcoshernanz, and @mischnic for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.18",
       "published_at": "2026-08-15 04:41",
       "tag": "v16.3.1-canary.18",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.1-canary.17",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Turbopack: add imports_wildcard NFT unit test: #97373\n- Turbopack: improve chunk_item_content docs: #97370\n- Turbopack: don't trace embedded WASM loader helpers: #97353\n- test: Reenable i18n-api-support deploy test for Turbopack with adapters: #96898\n- Trace instrumentation startup: #97296\n- Trace route module preparation: #97295\n- Trace route module loading: #97318\n- fix(deps): bump `satori` and `@vercel/og`: #97276\n- Scope app-entry export validation to files inside the app",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.17",
-      "published_at": "2026-08-15 01:04",
-      "tag": "v16.3.1-canary.17",
       "source": "release"
     }
   ]
