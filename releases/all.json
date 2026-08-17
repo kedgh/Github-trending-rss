@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-17 14:36",
+  "updated": "2026-08-17 20:26",
   "count": 15,
   "items": [
     {
@@ -85,6 +85,15 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n n8n@1.123.72",
+      "repo": "n8n-io/n8n",
+      "description": "## [1.123.72](https://github.com/n8n-io/n8n/compare/n8n@1.123.71...n8n@1.123.72) (2026-08-17)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/36390?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/revie",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.72",
+      "published_at": "2026-08-17 15:57",
+      "tag": "n8n@1.123.72",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
       "description": "## [2.34.6](https://github.com/n8n-io/n8n/compare/n8n@2.34.5...n8n@2.34.6) (2026-08-14)\n\n\n### Bug Fixes\n\n* **core:** Allow `details` field in `continueErrorOutput` mode ([#36229](https://github.com/n8n-io/n8n/issues/36229)) ([a5b4822](https://github.com/n8n-io/n8n/commit/a5b4822c43c39779bf063d6d699324794607db05))\n* **Google Ads Node:** Migrate from sunset v21 API to v25 ([#36260](https://github.com/n8n-io/n8n/issues/36260)) ([ee0c183](https://github.com/n8n-io/n8n/commit/ee0c183745c1f59d58747beb",
@@ -100,15 +109,6 @@
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.34.6",
       "published_at": "2026-08-14 16:12",
       "tag": "n8n@2.34.6",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.35.3",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.35.3](https://github.com/n8n-io/n8n/compare/n8n@2.35.2...n8n@2.35.3) (2026-08-14)\n\n\n### Bug Fixes\n\n* **core:** Allow `details` field in `continueErrorOutput` mode ([#36228](https://github.com/n8n-io/n8n/issues/36228)) ([e58a680](https://github.com/n8n-io/n8n/commit/e58a68016b881f29b2509f6c9d1ba093edf7b83b))\n* **core:** Bound workflow publication outbox record processing with an abort deadline ([#36286](https://github.com/n8n-io/n8n/issues/36286)) ([69140c0](https://github.com/n8n-io/n8n/co",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.3",
-      "published_at": "2026-08-14 18:21",
-      "tag": "n8n@2.35.3",
       "source": "release"
     },
     {
