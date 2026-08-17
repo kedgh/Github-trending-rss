@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-17 02:16",
+  "updated": "2026-08-17 08:45",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.1-canary.21",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Anchor the async local storage instances to global symbols: #97255\n- test: deflake use-cache-size-zero warm reload: #97421\n- Scaffolding for concurrentRouterQueue flag: #97413\n- Reorganize client router modules: #97402\n\n### Credits \n\nHuge thanks to @unstubbable, @gnoff, and @acdlite for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.21",
+      "published_at": "2026-08-17 07:55",
+      "tag": "v16.3.1-canary.21",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.1-canary.20",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Wait for back-before-hydration recoveries in the browser: #97321\n- Extract metadata resolution primitives: #97388\n- test: update React 18 redbox snapshot: #97415\n- Turbopack: retain conditions when replacing resolve request keys: #97372\n- Remove server route matcher stack: #94157\n\n### Credits \n\nHuge thanks to @gaearon, @gnoff, @timneutkens, and @mischnic for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.19",
       "published_at": "2026-08-15 07:46",
       "tag": "v16.3.1-canary.19",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.1-canary.18",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Upgrade React from `22e4f993-20260811` to `eb8feb71-20260814`: #97382",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.18",
-      "published_at": "2026-08-15 04:41",
-      "tag": "v16.3.1-canary.18",
       "source": "release"
     }
   ]
