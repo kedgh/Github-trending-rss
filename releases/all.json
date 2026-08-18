@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-08-18 08:44",
+  "updated": "2026-08-18 14:28",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-openai==1.5.2a1",
+      "repo": "langchain-ai/langchain",
+      "description": "Initial release\n\nrelease(openai): 1.5.2a1 (#39709)\nfeat(openai): extract gateway metadata from response headers when available (#39706)\nchore(openai): update snapshots (#39657)\nfix(openai): support o-series models in `get_num_tokens_from_messages` (#38710)\nrelease(openai): 1.5.1 (#39653)\nfix(openai): preserve streamed encrypted reasoning (#39635)\nchore(infra): support langsmith gateway in CI (#39651)\nrelease(openai): 1.5.0 (#39629)\nfeat(openai): support openai 3.0 SDK (#39613)\nchore(partners): b",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.2a1",
+      "published_at": "2026-08-18 09:51",
+      "tag": "langchain-openai==1.5.2a1",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-core==1.5.6",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.8",
       "published_at": "2026-08-15 03:03",
       "tag": "langchain-openrouter==0.2.8",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-openai==1.5.1",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.5.0\n\nrelease(openai): 1.5.1 (#39653)\nfix(openai): preserve streamed encrypted reasoning (#39635)\nchore(infra): support langsmith gateway in CI (#39651)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.1",
-      "published_at": "2026-08-14 23:47",
-      "tag": "langchain-openai==1.5.1",
       "source": "release"
     },
     {
