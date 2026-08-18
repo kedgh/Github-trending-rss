@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-18 20:27",
+  "updated": "2026-08-19 02:24",
   "count": 15,
   "items": [
     {
@@ -13,21 +13,21 @@
       "source": "release"
     },
     {
+      "name": "langchain-ai/langchain langchain-openai==1.5.2",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-openai==1.5.1\n\nrelease(openai): 1.5.2 (#39719)\nfix(openai): preserve reasoning item boundaries (#39278)\nrelease(openai): 1.5.2a1 (#39709)\nfeat(openai): extract gateway metadata from response headers when available (#39706)\nchore(openai): update snapshots (#39657)\nfix(openai): support o-series models in `get_num_tokens_from_messages` (#38710)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.2",
+      "published_at": "2026-08-19 01:38",
+      "tag": "langchain-openai==1.5.2",
+      "source": "release"
+    },
+    {
       "name": "langchain-ai/langchain langchain-core==1.5.6",
       "repo": "langchain-ai/langchain",
       "description": "Changes since langchain-core==1.5.5\n\nchore(core): release 1.5.6 (#39704)\nfeat(core): incorporate gateway metadata to traces (#39703)",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.6",
       "published_at": "2026-08-18 05:26",
       "tag": "langchain-core==1.5.6",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-openrouter==0.2.8",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openrouter==0.2.7\n\nrelease(openrouter): 0.2.8 (#39658)\nchore(model-profiles): refresh model profile data (#39646)\nchore(model-profiles): refresh model profile data (#39625)\nfix(openrouter): preserve cost metadata in usage chunks (#39338)\nchore(model-profiles): refresh model profile data (#39609)\nchore(model-profiles): refresh model profile data (#39579)\nchore(model-profiles): refresh model profile data (#39430)\nchore(model-profiles): refresh model profile data (#39344)\nch",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.8",
-      "published_at": "2026-08-15 03:03",
-      "tag": "langchain-openrouter==0.2.8",
       "source": "release"
     },
     {
