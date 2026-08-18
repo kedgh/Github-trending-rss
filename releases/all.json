@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-08-18 02:26",
+  "updated": "2026-08-18 08:44",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-core==1.5.6",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-core==1.5.5\n\nchore(core): release 1.5.6 (#39704)\nfeat(core): incorporate gateway metadata to traces (#39703)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.6",
+      "published_at": "2026-08-18 05:26",
+      "tag": "langchain-core==1.5.6",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-openrouter==0.2.8",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.1",
       "published_at": "2026-08-14 23:47",
       "tag": "langchain-openai==1.5.1",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.5.5",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.5.4\n\nrelease(core): 1.5.5 (#39655)\nfix(core): make abatch_iterate consistent with batch_iterate for None and zero size (#39367)\nfix(core): respect pydantic aliases when validating tool inputs (#39572)\nfix(core): issues in merging chunks (#39535)\nfix(core): handle v1 base model validation in async path (#39576)\nfix(core): handle tool descriptions for infer_schema=False (#39573)\nfix(core): clear usage metadata callback on exceptions in context manager (#39616)\nfix(c",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.5",
-      "published_at": "2026-08-15 02:56",
-      "tag": "langchain-core==1.5.5",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.1-canary.22",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- fix(turbo-persistence): allow 32-bit usize conversion: #97288\n- test: restore missing NFT `exports*` unit fixtures: #97459\n- [ci] Fix backport canary release dispatch: #97383\n- turbo-tasks-backend: Enforce that tasks exist when accessing them: #96043\n- turbo-tasks-backend: add persistence delete/tombstone plumbing for GC: #95975\n- turbo-persistence: add key-value tombstones for MultiValue families: #96929\n\n### Credits \n\nHuge thanks to @hardfist, @mischnic, @ztanner, and @luke",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.22",
+      "published_at": "2026-08-18 07:45",
+      "tag": "v16.3.1-canary.22",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.1-canary.21",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Anchor the async local storage instances to global symbols: #97255\n- test: deflake use-cache-size-zero warm reload: #97421\n- Scaffolding for concurrentRouterQueue flag: #97413\n- Reorganize client router modules: #97402\n\n### Credits \n\nHuge thanks to @unstubbable, @gnoff, and @acdlite for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.20",
       "published_at": "2026-08-16 07:52",
       "tag": "v16.3.1-canary.20",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.1-canary.19",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Adopt SelectedMetadata for metadata rendering: #97387\n- fix(next/image): reject empty image on read/write to disk cache : #97278\n- Turbopack: remove stale manifests for deleted routes: #97333\n- Turbopack: make unreachable codegen more generic: #97385\n\n### Credits \n\nHuge thanks to @gnoff, @styfle, @marcoshernanz, and @mischnic for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.19",
-      "published_at": "2026-08-15 07:46",
-      "tag": "v16.3.1-canary.19",
       "source": "release"
     }
   ]
