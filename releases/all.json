@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-18 14:28",
+  "updated": "2026-08-18 20:27",
   "count": 15,
   "items": [
     {
@@ -85,6 +85,24 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n n8n@2.36.0",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.36.0](https://github.com/n8n-io/n8n/compare/n8n@2.35.0...n8n@2.36.0) (2026-08-18)\n\n\n### Bug Fixes\n\n* **ai-builder:** Align HITL approval resume schemas with confirm envelope ([#36047](https://github.com/n8n-io/n8n/issues/36047)) ([be1fde1](https://github.com/n8n-io/n8n/commit/be1fde19f46d6a9f59ba1a2aab0ef8810e9bc68c))\n* **ai-builder:** Enable Save in agent tool modal when credential auth is selected ([#36012](https://github.com/n8n-io/n8n/issues/36012)) ([4fe94d8](https://github.com/n8n-io/",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.0",
+      "published_at": "2026-08-18 17:41",
+      "tag": "n8n@2.36.0",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n beta",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.36.0](https://github.com/n8n-io/n8n/compare/n8n@2.35.0...n8n@2.36.0) (2026-08-18)\n\n\n### Bug Fixes\n\n* **ai-builder:** Align HITL approval resume schemas with confirm envelope ([#36047](https://github.com/n8n-io/n8n/issues/36047)) ([be1fde1](https://github.com/n8n-io/n8n/commit/be1fde19f46d6a9f59ba1a2aab0ef8810e9bc68c))\n* **ai-builder:** Enable Save in agent tool modal when credential auth is selected ([#36012](https://github.com/n8n-io/n8n/issues/36012)) ([4fe94d8](https://github.com/n8n-io/",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-08-18 17:41",
+      "tag": "beta",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n n8n@1.123.72",
       "repo": "n8n-io/n8n",
       "description": "## [1.123.72](https://github.com/n8n-io/n8n/compare/n8n@1.123.71...n8n@1.123.72) (2026-08-17)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/36390?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/revie",
@@ -94,21 +112,12 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n stable",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.34.6](https://github.com/n8n-io/n8n/compare/n8n@2.34.5...n8n@2.34.6) (2026-08-14)\n\n\n### Bug Fixes\n\n* **core:** Allow `details` field in `continueErrorOutput` mode ([#36229](https://github.com/n8n-io/n8n/issues/36229)) ([a5b4822](https://github.com/n8n-io/n8n/commit/a5b4822c43c39779bf063d6d699324794607db05))\n* **Google Ads Node:** Migrate from sunset v21 API to v25 ([#36260](https://github.com/n8n-io/n8n/issues/36260)) ([ee0c183](https://github.com/n8n-io/n8n/commit/ee0c183745c1f59d58747beb",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-08-14 16:12",
-      "tag": "stable",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.34.6",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.34.6](https://github.com/n8n-io/n8n/compare/n8n@2.34.5...n8n@2.34.6) (2026-08-14)\n\n\n### Bug Fixes\n\n* **core:** Allow `details` field in `continueErrorOutput` mode ([#36229](https://github.com/n8n-io/n8n/issues/36229)) ([a5b4822](https://github.com/n8n-io/n8n/commit/a5b4822c43c39779bf063d6d699324794607db05))\n* **Google Ads Node:** Migrate from sunset v21 API to v25 ([#36260](https://github.com/n8n-io/n8n/issues/36260)) ([ee0c183](https://github.com/n8n-io/n8n/commit/ee0c183745c1f59d58747beb",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.34.6",
-      "published_at": "2026-08-14 16:12",
-      "tag": "n8n@2.34.6",
+      "name": "vercel/next.js v16.3.1-canary.23",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Trace lazy App Route module loading: #97439\n- [ci] Wait for the `next` version to be available on npm before deploy tests: #97460\n- docs: fix stale Dev Overlay README link in contributing guide: #97486\n- docs: app router reference accuracy: #97477\n- test: Don't wait trying to load non-existing images: #97488\n- test: cover dynamic APIs with i18n base path: #97367\n\n### Credits \n\nHuge thanks to @DavidIlie, @eps1lon, @icyJoseph, and @mischnic for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.23",
+      "published_at": "2026-08-18 19:59",
+      "tag": "v16.3.1-canary.23",
       "source": "release"
     },
     {
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.21",
       "published_at": "2026-08-17 07:55",
       "tag": "v16.3.1-canary.21",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.1-canary.20",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Wait for back-before-hydration recoveries in the browser: #97321\n- Extract metadata resolution primitives: #97388\n- test: update React 18 redbox snapshot: #97415\n- Turbopack: retain conditions when replacing resolve request keys: #97372\n- Remove server route matcher stack: #94157\n\n### Credits \n\nHuge thanks to @gaearon, @gnoff, @timneutkens, and @mischnic for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.20",
-      "published_at": "2026-08-16 07:52",
-      "tag": "v16.3.1-canary.20",
       "source": "release"
     }
   ]
