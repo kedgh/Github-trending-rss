@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-08-19 20:27",
+  "updated": "2026-08-20 02:21",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-core==1.6.0",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-core==1.5.6\n\nrelease(core): 1.6.0 (#39760)\nfix(core): resolve postponed annotations in `StructuredTool._injected_args_keys` (#39602)\nfeat(core): add standard model exception types (#39538)\nfix(core): allow deserializing `RunnablePick` (#39753)\nfix(core): make `convert_to_openai_function` handle callables and non-dict mappings (#39750)\nfix(core): make subprocess and temporary file tests portable on Windows (#39664)\nfix(core): fail fast when tool schemas can't resolve forwa",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.0",
+      "published_at": "2026-08-19 23:55",
+      "tag": "langchain-core==1.6.0",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-openai==1.5.2a1",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.2",
       "published_at": "2026-08-19 01:38",
       "tag": "langchain-openai==1.5.2",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.5.6",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.5.5\n\nchore(core): release 1.5.6 (#39704)\nfeat(core): incorporate gateway metadata to traces (#39703)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.6",
-      "published_at": "2026-08-18 05:26",
-      "tag": "langchain-core==1.5.6",
       "source": "release"
     },
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.32.15-rc1",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* Add a model metadata cache to reduce Ollama’s per-request overhead \r\n\r\n## New Contributors\r\n* @gaugarg-nv made their first contribution in https://github.com/ollama/ollama/pull/17752\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.14...v0.32.15-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.15-rc1",
+      "published_at": "2026-08-20 01:25",
+      "tag": "v0.32.15-rc1",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.32.14",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* llm: transcode WebP images for llama-server \r\n* renderers/qwen: tolerate non-leading system messages\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.13...v0.32.14",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.13",
       "published_at": "2026-08-15 03:16",
       "tag": "v0.32.13",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.32.12",
-      "repo": "ollama/ollama",
-      "description": "<img width=\"600\" alt=\"ollama and qwen capybara\" src=\"https://github.com/user-attachments/assets/5fa5e93b-d48b-4a6a-b72a-25379ab9429c\" />\r\n\r\n## Qwen 3.8 27B\r\n\r\nThis release adds the support of [Qwen 3.8 27B](https://ollama.com/library/qwen3.8). Qwen3.8 delivers substantial gains across coding, professional work, research, and long-horizon agentic tasks.\r\n\r\n```\r\nollama run qwen3.8:27b\r\n```\r\n\r\nFor Apple Silicon devices, Ollama has in particular optimized for maximum performance and output quality s",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.12",
-      "published_at": "2026-08-15 00:37",
-      "tag": "v0.32.12",
       "source": "release"
     },
     {
