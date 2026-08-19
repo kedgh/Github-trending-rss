@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-19 02:24",
+  "updated": "2026-08-19 08:44",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.1-canary.24",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- style(examples): remove redundant justify-content declaration: #97222\n- docs: rename Vercel Edge Config to Global Config in redirecting guide: #97456\n- fix: improve form accessibility by associating labels with inputs: #96335\n- [docs] fix: grammar typos in linking and navigating guide: #95544\n- fix(examples): correct error message typo: #97223\n- docs: fix typos in example links: #97149\n- Model prerenders as render candidates: #97431\n- Turbopack: support character class ranges",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.24",
+      "published_at": "2026-08-19 07:44",
+      "tag": "v16.3.1-canary.24",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.1-canary.23",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Trace lazy App Route module loading: #97439\n- [ci] Wait for the `next` version to be available on npm before deploy tests: #97460\n- docs: fix stale Dev Overlay README link in contributing guide: #97486\n- docs: app router reference accuracy: #97477\n- test: Don't wait trying to load non-existing images: #97488\n- test: cover dynamic APIs with i18n base path: #97367\n\n### Credits \n\nHuge thanks to @DavidIlie, @eps1lon, @icyJoseph, and @mischnic for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.22",
       "published_at": "2026-08-18 07:45",
       "tag": "v16.3.1-canary.22",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.1-canary.21",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Anchor the async local storage instances to global symbols: #97255\n- test: deflake use-cache-size-zero warm reload: #97421\n- Scaffolding for concurrentRouterQueue flag: #97413\n- Reorganize client router modules: #97402\n\n### Credits \n\nHuge thanks to @unstubbable, @gnoff, and @acdlite for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.21",
-      "published_at": "2026-08-17 07:55",
-      "tag": "v16.3.1-canary.21",
       "source": "release"
     }
   ]
