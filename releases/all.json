@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-19 08:44",
+  "updated": "2026-08-19 14:28",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.36.0",
+      "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "# [2.36.0](https://github.com/n8n-io/n8n/compare/n8n@2.35.0...n8n@2.36.0) (2026-08-18)\n\n\n### Bug Fixes\n\n* **ai-builder:** Align HITL approval resume schemas with confirm envelope ([#36047](https://github.com/n8n-io/n8n/issues/36047)) ([be1fde1](https://github.com/n8n-io/n8n/commit/be1fde19f46d6a9f59ba1a2aab0ef8810e9bc68c))\n* **ai-builder:** Enable Save in agent tool modal when credential auth is selected ([#36012](https://github.com/n8n-io/n8n/issues/36012)) ([4fe94d8](https://github.com/n8n-io/",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.0",
-      "published_at": "2026-08-18 17:41",
-      "tag": "n8n@2.36.0",
+      "description": "## [2.35.4](https://github.com/n8n-io/n8n/compare/n8n@2.35.3...n8n@2.35.4) (2026-08-19)\n\n\n### Bug Fixes\n\n* **API:** Return a request schema for decorator routes in /discover ([#36497](https://github.com/n8n-io/n8n/issues/36497)) ([fa781db](https://github.com/n8n-io/n8n/commit/fa781db2079eff0db5675fb2cd63558629db3dd7))\n* **Google Ads Node:** Select the renamed video views metric on API v25 ([#36414](https://github.com/n8n-io/n8n/issues/36414)) ([a8b2716](https://github.com/n8n-io/n8n/commit/a8b27",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-08-19 14:20",
+      "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n beta",
+      "name": "n8n-io/n8n n8n@2.35.4",
       "repo": "n8n-io/n8n",
-      "description": "# [2.36.0](https://github.com/n8n-io/n8n/compare/n8n@2.35.0...n8n@2.36.0) (2026-08-18)\n\n\n### Bug Fixes\n\n* **ai-builder:** Align HITL approval resume schemas with confirm envelope ([#36047](https://github.com/n8n-io/n8n/issues/36047)) ([be1fde1](https://github.com/n8n-io/n8n/commit/be1fde19f46d6a9f59ba1a2aab0ef8810e9bc68c))\n* **ai-builder:** Enable Save in agent tool modal when credential auth is selected ([#36012](https://github.com/n8n-io/n8n/issues/36012)) ([4fe94d8](https://github.com/n8n-io/",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-08-18 17:41",
-      "tag": "beta",
+      "description": "## [2.35.4](https://github.com/n8n-io/n8n/compare/n8n@2.35.3...n8n@2.35.4) (2026-08-19)\n\n\n### Bug Fixes\n\n* **API:** Return a request schema for decorator routes in /discover ([#36497](https://github.com/n8n-io/n8n/issues/36497)) ([fa781db](https://github.com/n8n-io/n8n/commit/fa781db2079eff0db5675fb2cd63558629db3dd7))\n* **Google Ads Node:** Select the renamed video views metric on API v25 ([#36414](https://github.com/n8n-io/n8n/issues/36414)) ([a8b2716](https://github.com/n8n-io/n8n/commit/a8b27",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.4",
+      "published_at": "2026-08-19 14:20",
+      "tag": "n8n@2.35.4",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.72",
+      "name": "n8n-io/n8n n8n@1.123.73",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.72](https://github.com/n8n-io/n8n/compare/n8n@1.123.71...n8n@1.123.72) (2026-08-17)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/36390?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/revie",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.72",
-      "published_at": "2026-08-17 15:57",
-      "tag": "n8n@1.123.72",
+      "description": "## [1.123.73](https://github.com/n8n-io/n8n/compare/n8n@1.123.72...n8n@1.123.73) (2026-08-19)\n\n\n### Bug Fixes\n\n* **core:** Acquire expression isolate for dynamic node parameter requests ([#36494](https://github.com/n8n-io/n8n/issues/36494)) ([4ee48e6](https://github.com/n8n-io/n8n/commit/4ee48e61a16e5730306556f1e79f1b4f32c8104f))\n\n\n### Features\n\n* **core:** Make the vm expression engine the default on 1.x ([#36498](https://github.com/n8n-io/n8n/issues/36498)) ([75bedd8](https://github.com/n8n-io",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.73",
+      "published_at": "2026-08-19 14:05",
+      "tag": "n8n@1.123.73",
       "source": "release"
     },
     {
