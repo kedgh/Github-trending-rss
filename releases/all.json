@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-08-20 02:21",
+  "updated": "2026-08-20 08:44",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-openai==1.6.0",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-openai==1.5.2\n\nrelease(openai): 1.6.0 (#39762)\nfeat(core): add standard model exception types (#39538)\nfix(openai): raise clear error on unexpected response type in `_create_chat_result` (#39731)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.0",
+      "published_at": "2026-08-20 05:45",
+      "tag": "langchain-openai==1.6.0",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-core==1.6.0",
       "repo": "langchain-ai/langchain",
@@ -13,21 +22,12 @@
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-openai==1.5.2a1",
+      "name": "langchain-ai/langchain langchain-anthropic==1.6.0",
       "repo": "langchain-ai/langchain",
-      "description": "Initial release\n\nrelease(openai): 1.5.2a1 (#39709)\nfeat(openai): extract gateway metadata from response headers when available (#39706)\nchore(openai): update snapshots (#39657)\nfix(openai): support o-series models in `get_num_tokens_from_messages` (#38710)\nrelease(openai): 1.5.1 (#39653)\nfix(openai): preserve streamed encrypted reasoning (#39635)\nchore(infra): support langsmith gateway in CI (#39651)\nrelease(openai): 1.5.0 (#39629)\nfeat(openai): support openai 3.0 SDK (#39613)\nchore(partners): b",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.2a1",
-      "published_at": "2026-08-18 09:51",
-      "tag": "langchain-openai==1.5.2a1",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-openai==1.5.2",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.5.1\n\nrelease(openai): 1.5.2 (#39719)\nfix(openai): preserve reasoning item boundaries (#39278)\nrelease(openai): 1.5.2a1 (#39709)\nfeat(openai): extract gateway metadata from response headers when available (#39706)\nchore(openai): update snapshots (#39657)\nfix(openai): support o-series models in `get_num_tokens_from_messages` (#38710)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.2",
-      "published_at": "2026-08-19 01:38",
-      "tag": "langchain-openai==1.5.2",
+      "description": "Changes since langchain-anthropic==1.5.6\n\nrelease(anthropic): 1.6.0 (#39763)\nfeat(core): add standard model exception types (#39538)\nfix(anthropic): exclude sibling directories from grep search scope (#39681)\nchore(infra): support langsmith gateway in CI (#39651)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.6.0",
+      "published_at": "2026-08-20 05:39",
+      "tag": "langchain-anthropic==1.6.0",
       "source": "release"
     },
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.32.15-rc1",
+      "name": "ollama/ollama v0.32.15-rc2",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* Add a model metadata cache to reduce Ollama’s per-request overhead \r\n\r\n## New Contributors\r\n* @gaugarg-nv made their first contribution in https://github.com/ollama/ollama/pull/17752\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.14...v0.32.15-rc1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.15-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.15-rc2",
       "published_at": "2026-08-20 01:25",
-      "tag": "v0.32.15-rc1",
+      "tag": "v0.32.15-rc2",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.1-canary.25",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [PPF] Remove `unstable_eager`: #97524\n- [PPF] Do not mark complete shell requests as partial: #97503\n- fix: add accessible label to icon-only link: #96334\n- Fix stale cross-references in skills/: #97566\n- docs: generateMetadata values should be serializable with use cache: #97551\n- Move preview props into separate manifest: #96004\n- docs: adjust interactive app guide: #97558\n- Turbopack: allow TURBOPACK_PRINT_CHUNK_GROUPS in release builds: #97515\n- [test] Point next-image-le",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.25",
+      "published_at": "2026-08-20 07:46",
+      "tag": "v16.3.1-canary.25",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.1-canary.24",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- style(examples): remove redundant justify-content declaration: #97222\n- docs: rename Vercel Edge Config to Global Config in redirecting guide: #97456\n- fix: improve form accessibility by associating labels with inputs: #96335\n- [docs] fix: grammar typos in linking and navigating guide: #95544\n- fix(examples): correct error message typo: #97223\n- docs: fix typos in example links: #97149\n- Model prerenders as render candidates: #97431\n- Turbopack: support character class ranges",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.23",
       "published_at": "2026-08-18 19:59",
       "tag": "v16.3.1-canary.23",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.1-canary.22",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- fix(turbo-persistence): allow 32-bit usize conversion: #97288\n- test: restore missing NFT `exports*` unit fixtures: #97459\n- [ci] Fix backport canary release dispatch: #97383\n- turbo-tasks-backend: Enforce that tasks exist when accessing them: #96043\n- turbo-tasks-backend: add persistence delete/tombstone plumbing for GC: #95975\n- turbo-persistence: add key-value tombstones for MultiValue families: #96929\n\n### Credits \n\nHuge thanks to @hardfist, @mischnic, @ztanner, and @luke",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.22",
-      "published_at": "2026-08-18 07:45",
-      "tag": "v16.3.1-canary.22",
       "source": "release"
     }
   ]
