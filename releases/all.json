@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-20 14:30",
+  "updated": "2026-08-20 20:30",
   "count": 15,
   "items": [
     {
@@ -87,28 +87,28 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.35.4](https://github.com/n8n-io/n8n/compare/n8n@2.35.3...n8n@2.35.4) (2026-08-19)\n\n\n### Bug Fixes\n\n* **API:** Return a request schema for decorator routes in /discover ([#36497](https://github.com/n8n-io/n8n/issues/36497)) ([fa781db](https://github.com/n8n-io/n8n/commit/fa781db2079eff0db5675fb2cd63558629db3dd7))\n* **Google Ads Node:** Select the renamed video views metric on API v25 ([#36414](https://github.com/n8n-io/n8n/issues/36414)) ([a8b2716](https://github.com/n8n-io/n8n/commit/a8b27",
+      "description": "## [2.35.5](https://github.com/n8n-io/n8n/compare/n8n@2.35.4...n8n@2.35.5) (2026-08-20)\n\n\n### Bug Fixes\n\n* **core:** Avoid restarting task runners that are only slow ([#36610](https://github.com/n8n-io/n8n/issues/36610)) ([7ee5295](https://github.com/n8n-io/n8n/commit/7ee5295ed58ccf2b7921ac22a6fc89a315b11bfe))\n* **core:** Only init the expression engine for commands that evaluate expressions ([#36648](https://github.com/n8n-io/n8n/issues/36648)) ([af53a1a](https://github.com/n8n-io/n8n/commit/af",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-08-19 14:20",
+      "published_at": "2026-08-20 16:21",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.35.4",
+      "name": "n8n-io/n8n n8n@2.35.5",
       "repo": "n8n-io/n8n",
-      "description": "## [2.35.4](https://github.com/n8n-io/n8n/compare/n8n@2.35.3...n8n@2.35.4) (2026-08-19)\n\n\n### Bug Fixes\n\n* **API:** Return a request schema for decorator routes in /discover ([#36497](https://github.com/n8n-io/n8n/issues/36497)) ([fa781db](https://github.com/n8n-io/n8n/commit/fa781db2079eff0db5675fb2cd63558629db3dd7))\n* **Google Ads Node:** Select the renamed video views metric on API v25 ([#36414](https://github.com/n8n-io/n8n/issues/36414)) ([a8b2716](https://github.com/n8n-io/n8n/commit/a8b27",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.4",
-      "published_at": "2026-08-19 14:20",
-      "tag": "n8n@2.35.4",
+      "description": "## [2.35.5](https://github.com/n8n-io/n8n/compare/n8n@2.35.4...n8n@2.35.5) (2026-08-20)\n\n\n### Bug Fixes\n\n* **core:** Avoid restarting task runners that are only slow ([#36610](https://github.com/n8n-io/n8n/issues/36610)) ([7ee5295](https://github.com/n8n-io/n8n/commit/7ee5295ed58ccf2b7921ac22a6fc89a315b11bfe))\n* **core:** Only init the expression engine for commands that evaluate expressions ([#36648](https://github.com/n8n-io/n8n/issues/36648)) ([af53a1a](https://github.com/n8n-io/n8n/commit/af",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.5",
+      "published_at": "2026-08-20 16:21",
+      "tag": "n8n@2.35.5",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.73",
+      "name": "n8n-io/n8n n8n@1.123.74",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.73](https://github.com/n8n-io/n8n/compare/n8n@1.123.72...n8n@1.123.73) (2026-08-19)\n\n\n### Bug Fixes\n\n* **core:** Acquire expression isolate for dynamic node parameter requests ([#36494](https://github.com/n8n-io/n8n/issues/36494)) ([4ee48e6](https://github.com/n8n-io/n8n/commit/4ee48e61a16e5730306556f1e79f1b4f32c8104f))\n\n\n### Features\n\n* **core:** Make the vm expression engine the default on 1.x ([#36498](https://github.com/n8n-io/n8n/issues/36498)) ([75bedd8](https://github.com/n8n-io",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.73",
-      "published_at": "2026-08-19 14:05",
-      "tag": "n8n@1.123.73",
+      "description": "## [1.123.74](https://github.com/n8n-io/n8n/compare/n8n@1.123.73...n8n@1.123.74) (2026-08-20)\n\n\n### Bug Fixes\n\n* **core:** CAT-3451 ([#36593](https://github.com/n8n-io/n8n/issues/36593)) ([951edd7](https://github.com/n8n-io/n8n/commit/951edd783a596cc9d5f0913e6100cb1e70609cbc))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/36683?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.74",
+      "published_at": "2026-08-20 16:01",
+      "tag": "n8n@1.123.74",
       "source": "release"
     },
     {
