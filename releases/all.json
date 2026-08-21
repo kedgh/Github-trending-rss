@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-21 02:25",
+  "updated": "2026-08-21 08:49",
   "count": 15,
   "items": [
     {
@@ -60,7 +60,7 @@
     {
       "name": "ollama/ollama v0.32.15",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* Add a model metadata cache to reduce Ollama’s per-request overhead \r\n\r\n## New Contributors\r\n* @gaugarg-nv made their first contribution in https://github.com/ollama/ollama/pull/17752\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.14...v0.32.15-rc1",
+      "description": "## What's Changed\r\n* New desktop onboarding flow on first launch\r\n* Caches resolved model metadata between requests, cutting time-to-first-token by roughly half (TTFT dropped from ~995 ms to ~524 ms in benchmarks)\r\n* Fixes a bug where chat and generate could wedge after a mid-stream parser error\r\n* **Qwen 3.8** system messages are now normalized so non-leading system messages are handled consistently\r\n* MLX and llama.cpp dependency updates\r\n\r\n## New Contributors\r\n* @gaugarg-nv made their first c",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.15",
       "published_at": "2026-08-20 01:25",
       "tag": "v0.32.15",
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.1-canary.26",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- docs: document deploymentId build ID override and Pages Router skew in 16.2: #97645\n- Upgrade React from `eb8feb71-20260814` to `eafeac09-20260819`: #97636\n- Turbopack: rename to use turbopack: no side effects: #94427\n- refactor: move useDynamic{Route,Search}Params to reduce snapshot churn: #97360\n- [PPF] unstable_navigation(): #96908\n- [PPF] Scaffold unstable_navigation(): #97236\n- docs: Explicit cache output description: #97548\n- Improve Cache Components sync IO migration g",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.26",
+      "published_at": "2026-08-21 07:48",
+      "tag": "v16.3.1-canary.26",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.1-canary.25",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- [PPF] Remove `unstable_eager`: #97524\n- [PPF] Do not mark complete shell requests as partial: #97503\n- fix: add accessible label to icon-only link: #96334\n- Fix stale cross-references in skills/: #97566\n- docs: generateMetadata values should be serializable with use cache: #97551\n- Move preview props into separate manifest: #96004\n- docs: adjust interactive app guide: #97558\n- Turbopack: allow TURBOPACK_PRINT_CHUNK_GROUPS in release builds: #97515\n- [test] Point next-image-le",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.24",
       "published_at": "2026-08-19 07:44",
       "tag": "v16.3.1-canary.24",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.1-canary.23",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Trace lazy App Route module loading: #97439\n- [ci] Wait for the `next` version to be available on npm before deploy tests: #97460\n- docs: fix stale Dev Overlay README link in contributing guide: #97486\n- docs: app router reference accuracy: #97477\n- test: Don't wait trying to load non-existing images: #97488\n- test: cover dynamic APIs with i18n base path: #97367\n\n### Credits \n\nHuge thanks to @DavidIlie, @eps1lon, @icyJoseph, and @mischnic for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.23",
-      "published_at": "2026-08-18 19:59",
-      "tag": "v16.3.1-canary.23",
       "source": "release"
     }
   ]
