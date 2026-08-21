@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-08-21 20:28",
+  "updated": "2026-08-22 02:24",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-perplexity==1.4.1",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-perplexity==1.4.0\n\nrelease(perplexity): 1.4.1 (#39826)\nfix(perplexity): include type=\"message\" on Responses input items (#39774)\nfix(perplexity): preserve caller `extra_body` (#39203)\nchore: bump pillow from 12.2.0 to 12.3.0 in /libs/partners/perplexity (#38991)\nchore(deps): refresh lockfiles (#38746)\nfix(perplexity): use supported Responses API model (#38337)\nchore: bump vcrpy from 8.1.1 to 8.2.1 in /libs/partners/perplexity (#38290)\nchore: bump langsmith from 0.8.5 to 0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.4.1",
+      "published_at": "2026-08-21 22:08",
+      "tag": "langchain-perplexity==1.4.1",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain==1.3.16",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.0",
       "published_at": "2026-08-21 01:47",
       "tag": "langchain-fireworks==1.6.0",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-anthropic==1.6.1",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-anthropic==1.6.0\n\nrelease(anthropic): 1.6.1 (#39804)\nfix(anthropic): filter invalid tool calls from v1 content (#39803)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.6.1",
-      "published_at": "2026-08-20 22:06",
-      "tag": "langchain-anthropic==1.6.1",
       "source": "release"
     },
     {
