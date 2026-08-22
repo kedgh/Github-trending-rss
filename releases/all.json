@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-22 02:24",
+  "updated": "2026-08-22 08:44",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.33.0-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* mlx: fix mac assumptions on linux/windows by @dhiltgen in https://github.com/ollama/ollama/pull/17898\r\n* mlx update by @dhiltgen in https://github.com/ollama/ollama/pull/17886\r\n* lint fixes by @dhiltgen in https://github.com/ollama/ollama/pull/17897\r\n* app: add claude desktop app by @ParthSareen in https://github.com/ollama/ollama/pull/17899\r\n* app: polish onboarding layout and disable zoom by @hoyyeva in https://github.com/ollama/ollama/pull/17885\r\n* launch: fall back to np",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc0",
+      "published_at": "2026-08-22 06:52",
+      "tag": "v0.33.0-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.32.15",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* New desktop onboarding flow on first launch\r\n* Caches resolved model metadata between requests, cutting time-to-first-token by roughly half (TTFT dropped from ~995 ms to ~524 ms in benchmarks)\r\n* Fixes a bug where chat and generate could wedge after a mid-stream parser error\r\n* **Qwen 3.8** system messages are now normalized so non-leading system messages are handled consistently\r\n* MLX and llama.cpp dependency updates\r\n\r\n## New Contributors\r\n* @gaugarg-nv made their first c",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.14",
       "published_at": "2026-08-16 03:41",
       "tag": "v0.32.14",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.32.13",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* qwen3.8: support developer instructions \r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.12...v0.32.13",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.13",
-      "published_at": "2026-08-15 03:16",
-      "tag": "v0.32.13",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.1",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- docs: fix parallelRouteKey parameter name in useSelectedLayoutSegment(s): #97710\n- Turbopack: Avoid cloning paths in fs watcher if the path is already in a map: #97655\n- Remove generated error codes: #97687\n- [PPF] Instant validation for unstable_navigation(): #97309\n- Turbopack: trace graceful-fs calls: #97694\n- Migrate some async blocks to async closures: #97666\n- turbo-tasks: add scope_unbounded, a scoped execution primitive that allows more work to be discovered: #95974\n-",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.1",
+      "published_at": "2026-08-22 07:43",
+      "tag": "v16.4.0-canary.1",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.0",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- feat(turbopack): isolate HMR listeners across microfrontends: #95997\n- Turbopack: deduplicate Pages Router app chunks: #97664\n- [react-sync] Check assignability before assigning the actor: #97638\n- fix: preserve trailing slash during export MPA fallback: #97613\n- Turbopack: Split the read and write codepath data structures for symlinks: #97395\n- Turbopack: Show last modified file when waiting for the filesystem to settle: #97648\n\n### Credits \n\nHuge thanks to @fireairforce, @m",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.2",
       "published_at": "2026-08-21 17:36",
       "tag": "v16.3.2",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.1-canary.26",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- docs: document deploymentId build ID override and Pages Router skew in 16.2: #97645\n- Upgrade React from `eb8feb71-20260814` to `eafeac09-20260819`: #97636\n- Turbopack: rename to use turbopack: no side effects: #94427\n- refactor: move useDynamic{Route,Search}Params to reduce snapshot churn: #97360\n- [PPF] unstable_navigation(): #96908\n- [PPF] Scaffold unstable_navigation(): #97236\n- docs: Explicit cache output description: #97548\n- Improve Cache Components sync IO migration g",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.26",
-      "published_at": "2026-08-21 07:48",
-      "tag": "v16.3.1-canary.26",
       "source": "release"
     }
   ]
