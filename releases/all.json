@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-23 02:17",
+  "updated": "2026-08-23 08:50",
   "count": 15,
   "items": [
     {
@@ -60,7 +60,7 @@
     {
       "name": "ollama/ollama v0.33.0-rc2",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* mlx: fix mac assumptions on linux/windows by @dhiltgen in https://github.com/ollama/ollama/pull/17898\r\n* mlx update by @dhiltgen in https://github.com/ollama/ollama/pull/17886\r\n* lint fixes by @dhiltgen in https://github.com/ollama/ollama/pull/17897\r\n* app: add claude desktop app by @ParthSareen in https://github.com/ollama/ollama/pull/17899\r\n* app: polish onboarding layout and disable zoom by @hoyyeva in https://github.com/ollama/ollama/pull/17885\r\n* launch: fall back to np",
+      "description": "## What's Changed\r\n\r\n### Claude Desktop\r\n\r\n* Ollama now integrates with Claude\r\n* Turn individual Ollama models on or off for use in Claude, directly from the menu bar\r\n* Choose from your available Ollama models from within Claude; cloud models appear only when you're signed in\r\n* A new **Apps** view manages app integrations with copyable commands\r\n\r\n### Improved caching\r\n\r\n* Fixed a hang where agent clients that cancel long prefills\r\n* Prefill restore points are now trustworthy by construction:",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc2",
       "published_at": "2026-08-22 06:52",
       "tag": "v0.33.0-rc2",
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.2",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- introduce an options struct for constructing backend storage: #97284\n\n### Credits \n\nHuge thanks to @lukesandberg for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.2",
+      "published_at": "2026-08-23 07:45",
+      "tag": "v16.4.0-canary.2",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.1",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- docs: fix parallelRouteKey parameter name in useSelectedLayoutSegment(s): #97710\n- Turbopack: Avoid cloning paths in fs watcher if the path is already in a map: #97655\n- Remove generated error codes: #97687\n- [PPF] Instant validation for unstable_navigation(): #97309\n- Turbopack: trace graceful-fs calls: #97694\n- Migrate some async blocks to async closures: #97666\n- turbo-tasks: add scope_unbounded, a scoped execution primitive that allows more work to be discovered: #95974\n-",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.0",
       "published_at": "2026-08-21 18:05",
       "tag": "v16.4.0-canary.0",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.2",
-      "repo": "vercel/next.js",
-      "description": "> [!NOTE]\r\n> This release is backporting bug fixes. It does **not** include all pending features/changes on canary.\r\n\r\n### Core Changes\r\n\r\n- [backport] Scope app-entry export validation to files inside the app directory (#97357)\r\n- [backport] Fix catch-all index page being served for every other slug (#97416)\r\n- [16.3] Turbopack: don't trace embedded WASM loader helpers (#97353) (#97463)\r\n- [16.3] Turbopack: retain conditions when replacing resolve request keys (#97453)\r\n- [16.3.x] Fix Turbopack",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.2",
-      "published_at": "2026-08-21 17:36",
-      "tag": "v16.3.2",
       "source": "release"
     }
   ]
