@@ -1,7 +1,7 @@
 {
   "title": "GitHub Trending 日报 - 2026-08-23",
   "date": "2026-08-23",
-  "updated": "2026-08-23 14:26",
+  "updated": "2026-08-23 20:22",
   "consecutive": [
     {
       "name": "mattpocock/skills",
@@ -10,6 +10,22 @@
         "🔥今日"
       ],
       "max_stars": 50486
+    },
+    {
+      "name": "block/buzz",
+      "boards": [
+        "📈本月",
+        "🔥今日"
+      ],
+      "max_stars": 26583
+    },
+    {
+      "name": "virgiliojr94/book-to-skill",
+      "boards": [
+        "📈本月",
+        "🔥今日"
+      ],
+      "max_stars": 14737
     },
     {
       "name": "AprilNEA/OpenLogi",
@@ -31,26 +47,34 @@
       "name": "basecamp/omarchy",
       "boards": [
         "📈本月",
-        "📊本周"
+        "📊本周",
+        "🔥今日"
       ],
       "max_stars": 4036
     },
     {
-      "name": "cursor/plugins",
-      "boards": [
-        "📈本月",
-        "📊本周",
-        "🔥今日"
-      ],
-      "max_stars": 2159
-    },
-    {
       "name": "modular/modular",
       "boards": [
+        "📈本月",
+        "📊本周"
+      ],
+      "max_stars": 2336
+    },
+    {
+      "name": "apache/maka",
+      "boards": [
         "📊本周",
         "🔥今日"
       ],
-      "max_stars": 2017
+      "max_stars": 810
+    },
+    {
+      "name": "anthropics/claude-plugins-community",
+      "boards": [
+        "📊本周",
+        "🔥今日"
+      ],
+      "max_stars": 341
     }
   ],
   "trending": {
@@ -59,9 +83,9 @@
         "name": "mattpocock/skills",
         "description": "Skills for Real Engineers. Straight from my .agents directory.",
         "language": "Shell",
-        "stars_text": "2,683 stars today",
-        "stars_num": 2683,
-        "total_stars": "232553",
+        "stars_text": "2,448 stars today",
+        "stars_num": 2448,
+        "total_stars": "233180",
         "url": "https://github.com/mattpocock/skills",
         "source": "trending:daily"
       },
@@ -71,17 +95,27 @@
         "language": "Rust",
         "stars_text": "1,544 stars today",
         "stars_num": 1544,
-        "total_stars": "113999",
+        "total_stars": "114707",
         "url": "https://github.com/openai/codex",
+        "source": "trending:daily"
+      },
+      {
+        "name": "Alishahryar1/free-claude-code",
+        "description": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
+        "language": "Python",
+        "stars_text": "1,040 stars today",
+        "stars_num": 1040,
+        "total_stars": "47577",
+        "url": "https://github.com/Alishahryar1/free-claude-code",
         "source": "trending:daily"
       },
       {
         "name": "AprilNEA/OpenLogi",
         "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
         "language": "Rust",
-        "stars_text": "959 stars today",
-        "stars_num": 959,
-        "total_stars": "14121",
+        "stars_text": "1,008 stars today",
+        "stars_num": 1008,
+        "total_stars": "14408",
         "url": "https://github.com/AprilNEA/OpenLogi",
         "source": "trending:daily"
       },
@@ -91,68 +125,58 @@
         "language": "HTML",
         "stars_text": "829 stars today",
         "stars_num": 829,
-        "total_stars": "134035",
+        "total_stars": "134167",
         "url": "https://github.com/ripienaar/free-for-dev",
         "source": "trending:daily"
       },
       {
-        "name": "obra/superpowers",
-        "description": "An agentic skills framework & software development methodology that works.",
+        "name": "basecamp/omarchy",
+        "description": "Beautiful, Modern & Opinionated Linux",
         "language": "Shell",
-        "stars_text": "592 stars today",
-        "stars_num": 592,
-        "total_stars": "276305",
-        "url": "https://github.com/obra/superpowers",
+        "stars_text": "803 stars today",
+        "stars_num": 803,
+        "total_stars": "28631",
+        "url": "https://github.com/basecamp/omarchy",
         "source": "trending:daily"
       },
       {
-        "name": "mahlernim/google-timeline-visualizer",
-        "description": "Visualize your year in travel using your Google Location History (Timeline) data",
-        "language": "Kotlin",
-        "stars_text": "441 stars today",
-        "stars_num": 441,
-        "total_stars": "2606",
-        "url": "https://github.com/mahlernim/google-timeline-visualizer",
+        "name": "freestylefly/awesome-gpt-image-2",
+        "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+        "language": "JavaScript",
+        "stars_text": "628 stars today",
+        "stars_num": 628,
+        "total_stars": "12405",
+        "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+        "source": "trending:daily"
+      },
+      {
+        "name": "block/buzz",
+        "description": "A hive mind communication platform",
+        "language": "Rust",
+        "stars_text": "564 stars today",
+        "stars_num": 564,
+        "total_stars": "29891",
+        "url": "https://github.com/block/buzz",
+        "source": "trending:daily"
+      },
+      {
+        "name": "NousResearch/hermes-agent",
+        "description": "The agent that grows with you",
+        "language": "Python",
+        "stars_text": "443 stars today",
+        "stars_num": 443,
+        "total_stars": "234611",
+        "url": "https://github.com/NousResearch/hermes-agent",
         "source": "trending:daily"
       },
       {
         "name": "affaan-m/ECC",
         "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "language": "JavaScript",
-        "stars_text": "411 stars today",
-        "stars_num": 411,
-        "total_stars": "242257",
+        "stars_text": "427 stars today",
+        "stars_num": 427,
+        "total_stars": "242364",
         "url": "https://github.com/affaan-m/ECC",
-        "source": "trending:daily"
-      },
-      {
-        "name": "modular/modular",
-        "description": "The Modular Platform (includes MAX & Mojo)",
-        "language": "Mojo",
-        "stars_text": "395 stars today",
-        "stars_num": 395,
-        "total_stars": "28877",
-        "url": "https://github.com/modular/modular",
-        "source": "trending:daily"
-      },
-      {
-        "name": "multica-ai/andrej-karpathy-skills",
-        "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-        "language": "",
-        "stars_text": "315 stars today",
-        "stars_num": 315,
-        "total_stars": "205428",
-        "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-        "source": "trending:daily"
-      },
-      {
-        "name": "cursor/plugins",
-        "description": "Cursor plugin specification and official plugins",
-        "language": "TypeScript",
-        "stars_text": "286 stars today",
-        "stars_num": 286,
-        "total_stars": "4704",
-        "url": "https://github.com/cursor/plugins",
         "source": "trending:daily"
       }
     ],
@@ -163,7 +187,7 @@
         "language": "Python",
         "stars_text": "10,953 stars this week",
         "stars_num": 10953,
-        "total_stars": "114814",
+        "total_stars": "115014",
         "url": "https://github.com/harry0703/MoneyPrinterTurbo",
         "source": "trending:weekly"
       },
@@ -173,18 +197,8 @@
         "language": "Python",
         "stars_text": "9,381 stars this week",
         "stars_num": 9381,
-        "total_stars": "468751",
+        "total_stars": "468900",
         "url": "https://github.com/public-apis/public-apis",
-        "source": "trending:weekly"
-      },
-      {
-        "name": "cathrynlavery/diagram-design",
-        "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-        "language": "HTML",
-        "stars_text": "7,368 stars this week",
-        "stars_num": 7368,
-        "total_stars": "25555",
-        "url": "https://github.com/cathrynlavery/diagram-design",
         "source": "trending:weekly"
       },
       {
@@ -193,7 +207,7 @@
         "language": "Rust",
         "stars_text": "4,993 stars this week",
         "stars_num": 4993,
-        "total_stars": "14121",
+        "total_stars": "14408",
         "url": "https://github.com/AprilNEA/OpenLogi",
         "source": "trending:weekly"
       },
@@ -203,7 +217,7 @@
         "language": "Python",
         "stars_text": "3,447 stars this week",
         "stars_num": 3447,
-        "total_stars": "32167",
+        "total_stars": "32292",
         "url": "https://github.com/volcengine/OpenViking",
         "source": "trending:weekly"
       },
@@ -213,7 +227,7 @@
         "language": "TypeScript",
         "stars_text": "3,364 stars this week",
         "stars_num": 3364,
-        "total_stars": "7145",
+        "total_stars": "7184",
         "url": "https://github.com/cordiverse/cordis",
         "source": "trending:weekly"
       },
@@ -223,7 +237,7 @@
         "language": "Shell",
         "stars_text": "3,151 stars this week",
         "stars_num": 3151,
-        "total_stars": "28448",
+        "total_stars": "28631",
         "url": "https://github.com/basecamp/omarchy",
         "source": "trending:weekly"
       },
@@ -233,18 +247,8 @@
         "language": "Rust",
         "stars_text": "2,575 stars this week",
         "stars_num": 2575,
-        "total_stars": "4125",
+        "total_stars": "4169",
         "url": "https://github.com/akitaonrails/ai-memory",
-        "source": "trending:weekly"
-      },
-      {
-        "name": "semantica-agi/semantica",
-        "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
-        "language": "Python",
-        "stars_text": "2,450 stars this week",
-        "stars_num": 2450,
-        "total_stars": "10326",
-        "url": "https://github.com/semantica-agi/semantica",
         "source": "trending:weekly"
       },
       {
@@ -253,8 +257,28 @@
         "language": "Mojo",
         "stars_text": "2,017 stars this week",
         "stars_num": 2017,
-        "total_stars": "28877",
+        "total_stars": "28919",
         "url": "https://github.com/modular/modular",
+        "source": "trending:weekly"
+      },
+      {
+        "name": "cursor/plugins",
+        "description": "Cursor plugin specification and official plugins",
+        "language": "TypeScript",
+        "stars_text": "1,693 stars this week",
+        "stars_num": 1693,
+        "total_stars": "4755",
+        "url": "https://github.com/cursor/plugins",
+        "source": "trending:weekly"
+      },
+      {
+        "name": "jundot/omlx",
+        "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+        "language": "Python",
+        "stars_text": "1,597 stars this week",
+        "stars_num": 1597,
+        "total_stars": "20394",
+        "url": "https://github.com/jundot/omlx",
         "source": "trending:weekly"
       }
     ],
@@ -265,7 +289,7 @@
         "language": "Shell",
         "stars_text": "50,486 stars this month",
         "stars_num": 50486,
-        "total_stars": "232553",
+        "total_stars": "233180",
         "url": "https://github.com/mattpocock/skills",
         "source": "trending:monthly"
       },
@@ -275,7 +299,7 @@
         "language": "TypeScript",
         "stars_text": "29,023 stars this month",
         "stars_num": 29023,
-        "total_stars": "53366",
+        "total_stars": "53529",
         "url": "https://github.com/diegosouzapw/OmniRoute",
         "source": "trending:monthly"
       },
@@ -285,7 +309,7 @@
         "language": "Rust",
         "stars_text": "26,583 stars this month",
         "stars_num": 26583,
-        "total_stars": "29825",
+        "total_stars": "29891",
         "url": "https://github.com/block/buzz",
         "source": "trending:monthly"
       },
@@ -295,7 +319,7 @@
         "language": "Python",
         "stars_text": "24,229 stars this month",
         "stars_num": 24229,
-        "total_stars": "41004",
+        "total_stars": "41092",
         "url": "https://github.com/bojieli/ai-agent-book",
         "source": "trending:monthly"
       },
@@ -305,7 +329,7 @@
         "language": "TypeScript",
         "stars_text": "20,460 stars this month",
         "stars_num": 20460,
-        "total_stars": "95597",
+        "total_stars": "95714",
         "url": "https://github.com/earendil-works/pi",
         "source": "trending:monthly"
       },
@@ -315,7 +339,7 @@
         "language": "PowerShell",
         "stars_text": "18,829 stars this month",
         "stars_num": 18829,
-        "total_stars": "27457",
+        "total_stars": "27536",
         "url": "https://github.com/zhaoxuya520/reverse-skill",
         "source": "trending:monthly"
       },
@@ -325,7 +349,7 @@
         "language": "Python",
         "stars_text": "15,557 stars this month",
         "stars_num": 15557,
-        "total_stars": "23292",
+        "total_stars": "23354",
         "url": "https://github.com/ayghri/i-have-adhd",
         "source": "trending:monthly"
       },
@@ -335,7 +359,7 @@
         "language": "Python",
         "stars_text": "14,737 stars this month",
         "stars_num": 14737,
-        "total_stars": "24253",
+        "total_stars": "24332",
         "url": "https://github.com/virgiliojr94/book-to-skill",
         "source": "trending:monthly"
       },
@@ -345,7 +369,7 @@
         "language": "TypeScript",
         "stars_text": "14,702 stars this month",
         "stars_num": 14702,
-        "total_stars": "23892",
+        "total_stars": "23941",
         "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
         "source": "trending:monthly"
       },
@@ -355,7 +379,7 @@
         "language": "Jupyter Notebook",
         "stars_text": "13,881 stars this month",
         "stars_num": 13881,
-        "total_stars": "66381",
+        "total_stars": "66434",
         "url": "https://github.com/microsoft/AI-For-Beginners",
         "source": "trending:monthly"
       }
@@ -367,111 +391,111 @@
         "name": "openclaw/openclaw",
         "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
         "language": "TypeScript",
-        "stars_num": 387175,
-        "total_stars": "387175",
+        "stars_num": 387207,
+        "total_stars": "387207",
         "url": "https://github.com/openclaw/openclaw",
         "source": "topic:ai",
         "created_at": "2025-11-24 18:16",
-        "updated_at": "2026-08-23 14:26"
+        "updated_at": "2026-08-23 20:18"
       },
       {
         "name": "obra/superpowers",
         "description": "An agentic skills framework & software development methodology that works.",
         "language": "Shell",
-        "stars_num": 276305,
-        "total_stars": "276305",
+        "stars_num": 276487,
+        "total_stars": "276487",
         "url": "https://github.com/obra/superpowers",
         "source": "topic:ai",
         "created_at": "2025-10-10 03:45",
-        "updated_at": "2026-08-23 14:22"
+        "updated_at": "2026-08-23 20:19"
       },
       {
         "name": "NousResearch/hermes-agent",
         "description": "The agent that grows with you",
         "language": "Python",
-        "stars_num": 234473,
-        "total_stars": "234473",
+        "stars_num": 234611,
+        "total_stars": "234611",
         "url": "https://github.com/NousResearch/hermes-agent",
         "source": "topic:ai",
         "created_at": "2025-07-23 06:22",
-        "updated_at": "2026-08-23 14:26"
+        "updated_at": "2026-08-23 20:20"
       },
       {
         "name": "n8n-io/n8n",
         "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
         "language": "TypeScript",
-        "stars_num": 201922,
-        "total_stars": "201922",
+        "stars_num": 202051,
+        "total_stars": "202051",
         "url": "https://github.com/n8n-io/n8n",
         "source": "topic:ai",
         "created_at": "2019-06-22 17:24",
-        "updated_at": "2026-08-23 14:23"
+        "updated_at": "2026-08-23 20:19"
       },
       {
         "name": "Significant-Gravitas/AutoGPT",
         "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
         "language": "Python",
-        "stars_num": 186786,
-        "total_stars": "186786",
+        "stars_num": 186803,
+        "total_stars": "186803",
         "url": "https://github.com/Significant-Gravitas/AutoGPT",
         "source": "topic:ai",
         "created_at": "2023-03-16 17:21",
-        "updated_at": "2026-08-23 13:39"
+        "updated_at": "2026-08-23 19:56"
       },
       {
         "name": "firecrawl/firecrawl",
         "description": "The context API to search, scrape, and interact with the web at scale. 🔥",
         "language": "TypeScript",
-        "stars_num": 171054,
-        "total_stars": "171054",
+        "stars_num": 171165,
+        "total_stars": "171165",
         "url": "https://github.com/firecrawl/firecrawl",
         "source": "topic:ai",
         "created_at": "2024-04-16 05:02",
-        "updated_at": "2026-08-23 14:21"
+        "updated_at": "2026-08-23 20:05"
       },
       {
         "name": "f/prompts.chat",
         "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
         "language": "HTML",
-        "stars_num": 167779,
-        "total_stars": "167779",
+        "stars_num": 167797,
+        "total_stars": "167797",
         "url": "https://github.com/f/prompts.chat",
         "source": "topic:ai",
         "created_at": "2022-12-05 21:54",
-        "updated_at": "2026-08-23 13:43"
+        "updated_at": "2026-08-23 20:20"
       },
       {
         "name": "AUTOMATIC1111/stable-diffusion-webui",
         "description": "Stable Diffusion web UI",
         "language": "Python",
-        "stars_num": 164614,
-        "total_stars": "164614",
+        "stars_num": 164619,
+        "total_stars": "164619",
         "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
         "source": "topic:ai",
         "created_at": "2022-08-22 22:05",
-        "updated_at": "2026-08-23 14:25"
+        "updated_at": "2026-08-23 20:01"
       },
       {
         "name": "Snailclimb/JavaGuide",
         "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
         "language": "JavaScript",
-        "stars_num": 157962,
-        "total_stars": "157962",
+        "stars_num": 157972,
+        "total_stars": "157972",
         "url": "https://github.com/Snailclimb/JavaGuide",
         "source": "topic:ai",
         "created_at": "2018-05-07 21:27",
-        "updated_at": "2026-08-23 13:55"
+        "updated_at": "2026-08-23 20:15"
       },
       {
         "name": "langgenius/dify",
         "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
         "language": "TypeScript",
-        "stars_num": 153243,
-        "total_stars": "153243",
+        "stars_num": 153261,
+        "total_stars": "153261",
         "url": "https://github.com/langgenius/dify",
         "source": "topic:ai",
         "created_at": "2023-04-12 15:40",
-        "updated_at": "2026-08-23 14:19"
+        "updated_at": "2026-08-23 20:11"
       }
     ],
     "llm": [
@@ -479,111 +503,111 @@
         "name": "affaan-m/ECC",
         "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "language": "JavaScript",
-        "stars_num": 242257,
-        "total_stars": "242257",
+        "stars_num": 242364,
+        "total_stars": "242364",
         "url": "https://github.com/affaan-m/ECC",
         "source": "topic:llm",
         "created_at": "2026-01-18 08:51",
-        "updated_at": "2026-08-23 14:25"
+        "updated_at": "2026-08-23 20:21"
       },
       {
         "name": "NousResearch/hermes-agent",
         "description": "The agent that grows with you",
         "language": "Python",
-        "stars_num": 234473,
-        "total_stars": "234473",
+        "stars_num": 234611,
+        "total_stars": "234611",
         "url": "https://github.com/NousResearch/hermes-agent",
         "source": "topic:llm",
         "created_at": "2025-07-23 06:22",
-        "updated_at": "2026-08-23 14:26"
+        "updated_at": "2026-08-23 20:20"
       },
       {
         "name": "Significant-Gravitas/AutoGPT",
         "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
         "language": "Python",
-        "stars_num": 186786,
-        "total_stars": "186786",
+        "stars_num": 186803,
+        "total_stars": "186803",
         "url": "https://github.com/Significant-Gravitas/AutoGPT",
         "source": "topic:llm",
         "created_at": "2023-03-16 17:21",
-        "updated_at": "2026-08-23 13:39"
+        "updated_at": "2026-08-23 19:56"
       },
       {
         "name": "ollama/ollama",
         "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
         "language": "Go",
-        "stars_num": 179224,
-        "total_stars": "179224",
+        "stars_num": 179242,
+        "total_stars": "179242",
         "url": "https://github.com/ollama/ollama",
         "source": "topic:llm",
         "created_at": "2023-06-27 03:39",
-        "updated_at": "2026-08-23 13:44"
+        "updated_at": "2026-08-23 20:21"
       },
       {
         "name": "firecrawl/firecrawl",
         "description": "The context API to search, scrape, and interact with the web at scale. 🔥",
         "language": "TypeScript",
-        "stars_num": 171054,
-        "total_stars": "171054",
+        "stars_num": 171165,
+        "total_stars": "171165",
         "url": "https://github.com/firecrawl/firecrawl",
         "source": "topic:llm",
         "created_at": "2024-04-16 05:02",
-        "updated_at": "2026-08-23 14:21"
+        "updated_at": "2026-08-23 20:05"
       },
       {
         "name": "f/prompts.chat",
         "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
         "language": "HTML",
-        "stars_num": 167779,
-        "total_stars": "167779",
+        "stars_num": 167797,
+        "total_stars": "167797",
         "url": "https://github.com/f/prompts.chat",
         "source": "topic:llm",
         "created_at": "2022-12-05 21:54",
-        "updated_at": "2026-08-23 13:43"
+        "updated_at": "2026-08-23 20:20"
       },
       {
         "name": "huggingface/transformers",
         "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
         "language": "Python",
-        "stars_num": 164352,
-        "total_stars": "164352",
+        "stars_num": 164361,
+        "total_stars": "164361",
         "url": "https://github.com/huggingface/transformers",
         "source": "topic:llm",
         "created_at": "2018-10-29 21:56",
-        "updated_at": "2026-08-23 13:47"
+        "updated_at": "2026-08-23 19:47"
       },
       {
         "name": "langgenius/dify",
         "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
         "language": "TypeScript",
-        "stars_num": 153243,
-        "total_stars": "153243",
+        "stars_num": 153261,
+        "total_stars": "153261",
         "url": "https://github.com/langgenius/dify",
         "source": "topic:llm",
         "created_at": "2023-04-12 15:40",
-        "updated_at": "2026-08-23 14:19"
+        "updated_at": "2026-08-23 20:11"
       },
       {
         "name": "open-webui/open-webui",
         "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
         "language": "Python",
-        "stars_num": 149611,
-        "total_stars": "149611",
+        "stars_num": 149634,
+        "total_stars": "149634",
         "url": "https://github.com/open-webui/open-webui",
         "source": "topic:llm",
         "created_at": "2023-10-07 06:08",
-        "updated_at": "2026-08-23 14:02"
+        "updated_at": "2026-08-23 19:52"
       },
       {
         "name": "langchain-ai/langchain",
         "description": "The agent engineering platform.",
         "language": "Python",
-        "stars_num": 144809,
-        "total_stars": "144809",
+        "stars_num": 144821,
+        "total_stars": "144821",
         "url": "https://github.com/langchain-ai/langchain",
         "source": "topic:llm",
         "created_at": "2022-10-17 10:58",
-        "updated_at": "2026-08-23 14:17"
+        "updated_at": "2026-08-23 20:21"
       }
     ],
     "machine-learning": [
@@ -591,67 +615,67 @@
         "name": "tensorflow/tensorflow",
         "description": "An Open Source Machine Learning Framework for Everyone",
         "language": "C++",
-        "stars_num": 197360,
-        "total_stars": "197360",
+        "stars_num": 197367,
+        "total_stars": "197367",
         "url": "https://github.com/tensorflow/tensorflow",
         "source": "topic:machine-learning",
         "created_at": "2015-11-07 09:19",
-        "updated_at": "2026-08-23 13:03"
+        "updated_at": "2026-08-23 19:48"
       },
       {
         "name": "f/prompts.chat",
         "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
         "language": "HTML",
-        "stars_num": 167779,
-        "total_stars": "167779",
+        "stars_num": 167797,
+        "total_stars": "167797",
         "url": "https://github.com/f/prompts.chat",
         "source": "topic:machine-learning",
         "created_at": "2022-12-05 21:54",
-        "updated_at": "2026-08-23 13:43"
+        "updated_at": "2026-08-23 20:20"
       },
       {
         "name": "huggingface/transformers",
         "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
         "language": "Python",
-        "stars_num": 164352,
-        "total_stars": "164352",
+        "stars_num": 164361,
+        "total_stars": "164361",
         "url": "https://github.com/huggingface/transformers",
         "source": "topic:machine-learning",
         "created_at": "2018-10-29 21:56",
-        "updated_at": "2026-08-23 13:47"
+        "updated_at": "2026-08-23 19:47"
       },
       {
         "name": "rasbt/LLMs-from-scratch",
         "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
         "language": "Jupyter Notebook",
-        "stars_num": 103378,
-        "total_stars": "103378",
+        "stars_num": 103452,
+        "total_stars": "103452",
         "url": "https://github.com/rasbt/LLMs-from-scratch",
         "source": "topic:machine-learning",
         "created_at": "2023-07-24 02:15",
-        "updated_at": "2026-08-23 14:21"
+        "updated_at": "2026-08-23 20:07"
       },
       {
         "name": "pytorch/pytorch",
         "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
         "language": "Python",
-        "stars_num": 102551,
-        "total_stars": "102551",
+        "stars_num": 102550,
+        "total_stars": "102550",
         "url": "https://github.com/pytorch/pytorch",
         "source": "topic:machine-learning",
         "created_at": "2016-08-13 13:26",
-        "updated_at": "2026-08-23 13:49"
+        "updated_at": "2026-08-23 20:09"
       },
       {
         "name": "microsoft/ML-For-Beginners",
         "description": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
         "language": "Jupyter Notebook",
-        "stars_num": 89696,
-        "total_stars": "89696",
+        "stars_num": 89701,
+        "total_stars": "89701",
         "url": "https://github.com/microsoft/ML-For-Beginners",
         "source": "topic:machine-learning",
         "created_at": "2021-03-03 09:34",
-        "updated_at": "2026-08-23 13:53"
+        "updated_at": "2026-08-23 19:05"
       },
       {
         "name": "Developer-Y/cs-video-courses",
@@ -662,40 +686,40 @@
         "url": "https://github.com/Developer-Y/cs-video-courses",
         "source": "topic:machine-learning",
         "created_at": "2016-10-22 01:02",
-        "updated_at": "2026-08-23 13:57"
+        "updated_at": "2026-08-23 18:50"
       },
       {
         "name": "mlabonne/llm-course",
         "description": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
         "language": "",
-        "stars_num": 81923,
-        "total_stars": "81923",
+        "stars_num": 81930,
+        "total_stars": "81930",
         "url": "https://github.com/mlabonne/llm-course",
         "source": "topic:machine-learning",
         "created_at": "2023-06-18 06:16",
-        "updated_at": "2026-08-23 14:11"
+        "updated_at": "2026-08-23 19:57"
       },
       {
         "name": "netdata/netdata",
         "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
         "language": "Go",
-        "stars_num": 80266,
-        "total_stars": "80266",
+        "stars_num": 80264,
+        "total_stars": "80264",
         "url": "https://github.com/netdata/netdata",
         "source": "topic:machine-learning",
         "created_at": "2013-06-18 02:39",
-        "updated_at": "2026-08-23 11:53"
+        "updated_at": "2026-08-23 19:37"
       },
       {
         "name": "d2l-ai/d2l-zh",
         "description": "《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。",
         "language": "Python",
-        "stars_num": 79879,
-        "total_stars": "79879",
+        "stars_num": 79882,
+        "total_stars": "79882",
         "url": "https://github.com/d2l-ai/d2l-zh",
         "source": "topic:machine-learning",
         "created_at": "2017-08-23 12:40",
-        "updated_at": "2026-08-23 13:16"
+        "updated_at": "2026-08-23 20:09"
       }
     ],
     "deep-learning": [
@@ -703,67 +727,67 @@
         "name": "tensorflow/tensorflow",
         "description": "An Open Source Machine Learning Framework for Everyone",
         "language": "C++",
-        "stars_num": 197360,
-        "total_stars": "197360",
+        "stars_num": 197367,
+        "total_stars": "197367",
         "url": "https://github.com/tensorflow/tensorflow",
         "source": "topic:deep-learning",
         "created_at": "2015-11-07 09:19",
-        "updated_at": "2026-08-23 13:03"
+        "updated_at": "2026-08-23 19:48"
       },
       {
         "name": "AUTOMATIC1111/stable-diffusion-webui",
         "description": "Stable Diffusion web UI",
         "language": "Python",
-        "stars_num": 164614,
-        "total_stars": "164614",
+        "stars_num": 164619,
+        "total_stars": "164619",
         "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
         "source": "topic:deep-learning",
         "created_at": "2022-08-22 22:05",
-        "updated_at": "2026-08-23 14:25"
+        "updated_at": "2026-08-23 20:01"
       },
       {
         "name": "huggingface/transformers",
         "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
         "language": "Python",
-        "stars_num": 164352,
-        "total_stars": "164352",
+        "stars_num": 164361,
+        "total_stars": "164361",
         "url": "https://github.com/huggingface/transformers",
         "source": "topic:deep-learning",
         "created_at": "2018-10-29 21:56",
-        "updated_at": "2026-08-23 13:47"
+        "updated_at": "2026-08-23 19:47"
       },
       {
         "name": "rasbt/LLMs-from-scratch",
         "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
         "language": "Jupyter Notebook",
-        "stars_num": 103378,
-        "total_stars": "103378",
+        "stars_num": 103452,
+        "total_stars": "103452",
         "url": "https://github.com/rasbt/LLMs-from-scratch",
         "source": "topic:deep-learning",
         "created_at": "2023-07-24 02:15",
-        "updated_at": "2026-08-23 14:21"
+        "updated_at": "2026-08-23 20:07"
       },
       {
         "name": "pytorch/pytorch",
         "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
         "language": "Python",
-        "stars_num": 102551,
-        "total_stars": "102551",
+        "stars_num": 102550,
+        "total_stars": "102550",
         "url": "https://github.com/pytorch/pytorch",
         "source": "topic:deep-learning",
         "created_at": "2016-08-13 13:26",
-        "updated_at": "2026-08-23 13:49"
+        "updated_at": "2026-08-23 20:09"
       },
       {
         "name": "opencv/opencv",
         "description": "Open Source Computer Vision Library",
         "language": "C++",
-        "stars_num": 90555,
-        "total_stars": "90555",
+        "stars_num": 90557,
+        "total_stars": "90557",
         "url": "https://github.com/opencv/opencv",
         "source": "topic:deep-learning",
         "created_at": "2012-07-19 17:40",
-        "updated_at": "2026-08-23 14:25"
+        "updated_at": "2026-08-23 20:12"
       },
       {
         "name": "Developer-Y/cs-video-courses",
@@ -774,40 +798,40 @@
         "url": "https://github.com/Developer-Y/cs-video-courses",
         "source": "topic:deep-learning",
         "created_at": "2016-10-22 01:02",
-        "updated_at": "2026-08-23 13:57"
+        "updated_at": "2026-08-23 18:50"
       },
       {
         "name": "d2l-ai/d2l-zh",
         "description": "《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。",
         "language": "Python",
-        "stars_num": 79879,
-        "total_stars": "79879",
+        "stars_num": 79882,
+        "total_stars": "79882",
         "url": "https://github.com/d2l-ai/d2l-zh",
         "source": "topic:deep-learning",
         "created_at": "2017-08-23 12:40",
-        "updated_at": "2026-08-23 13:16"
+        "updated_at": "2026-08-23 20:09"
       },
       {
         "name": "dair-ai/Prompt-Engineering-Guide",
         "description": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
         "language": "MDX",
-        "stars_num": 77706,
-        "total_stars": "77706",
+        "stars_num": 77715,
+        "total_stars": "77715",
         "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
         "source": "topic:deep-learning",
         "created_at": "2022-12-17 00:04",
-        "updated_at": "2026-08-23 14:18"
+        "updated_at": "2026-08-23 19:39"
       },
       {
         "name": "labmlai/annotated_deep_learning_paper_implementations",
         "description": "🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gans(cyclegan, stylegan2, ...), 🎮 reinforcement learning (ppo, dqn), capsnet, distillation, ... 🧠",
         "language": "Python",
-        "stars_num": 67337,
-        "total_stars": "67337",
+        "stars_num": 67341,
+        "total_stars": "67341",
         "url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "source": "topic:deep-learning",
         "created_at": "2020-08-25 10:29",
-        "updated_at": "2026-08-23 13:30"
+        "updated_at": "2026-08-23 19:42"
       }
     ],
     "devops": [
@@ -815,89 +839,89 @@
         "name": "trimstray/the-book-of-secret-knowledge",
         "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
         "language": "",
-        "stars_num": 239904,
-        "total_stars": "239904",
+        "stars_num": 239944,
+        "total_stars": "239944",
         "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
         "source": "topic:devops",
         "created_at": "2018-06-23 18:43",
-        "updated_at": "2026-08-23 14:09"
+        "updated_at": "2026-08-23 20:12"
       },
       {
         "name": "bregman-arie/devops-exercises",
         "description": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
         "language": "Python",
-        "stars_num": 84216,
-        "total_stars": "84216",
+        "stars_num": 84221,
+        "total_stars": "84221",
         "url": "https://github.com/bregman-arie/devops-exercises",
         "source": "topic:devops",
         "created_at": "2019-10-04 01:31",
-        "updated_at": "2026-08-23 14:21"
+        "updated_at": "2026-08-23 18:46"
       },
       {
         "name": "netdata/netdata",
         "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
         "language": "Go",
-        "stars_num": 80266,
-        "total_stars": "80266",
+        "stars_num": 80264,
+        "total_stars": "80264",
         "url": "https://github.com/netdata/netdata",
         "source": "topic:devops",
         "created_at": "2013-06-18 02:39",
-        "updated_at": "2026-08-23 11:53"
+        "updated_at": "2026-08-23 19:37"
       },
       {
         "name": "binhnguyennus/awesome-scalability",
         "description": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
         "language": "",
-        "stars_num": 73475,
-        "total_stars": "73475",
+        "stars_num": 73480,
+        "total_stars": "73480",
         "url": "https://github.com/binhnguyennus/awesome-scalability",
         "source": "topic:devops",
         "created_at": "2017-12-27 11:46",
-        "updated_at": "2026-08-23 13:20"
+        "updated_at": "2026-08-23 19:27"
       },
       {
         "name": "nektos/act",
         "description": "Run your GitHub Actions locally 🚀",
         "language": "Go",
-        "stars_num": 71602,
-        "total_stars": "71602",
+        "stars_num": 71606,
+        "total_stars": "71606",
         "url": "https://github.com/nektos/act",
         "source": "topic:devops",
         "created_at": "2019-01-03 03:53",
-        "updated_at": "2026-08-23 14:04"
+        "updated_at": "2026-08-23 19:51"
       },
       {
         "name": "go-gitea/gitea",
         "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
         "language": "Go",
-        "stars_num": 57550,
-        "total_stars": "57550",
+        "stars_num": 57555,
+        "total_stars": "57555",
         "url": "https://github.com/go-gitea/gitea",
         "source": "topic:devops",
         "created_at": "2016-11-01 10:13",
-        "updated_at": "2026-08-23 14:11"
+        "updated_at": "2026-08-23 19:16"
       },
       {
         "name": "getsentry/sentry",
         "description": "Developer-first error tracking and performance monitoring",
         "language": "Python",
-        "stars_num": 44601,
-        "total_stars": "44601",
+        "stars_num": 44604,
+        "total_stars": "44604",
         "url": "https://github.com/getsentry/sentry",
         "source": "topic:devops",
         "created_at": "2010-08-31 06:06",
-        "updated_at": "2026-08-23 10:36"
+        "updated_at": "2026-08-23 18:07"
       },
       {
         "name": "Kong/kong",
         "description": "🦍 The API and AI Gateway",
         "language": "Lua",
-        "stars_num": 44023,
-        "total_stars": "44023",
+        "stars_num": 44025,
+        "total_stars": "44025",
         "url": "https://github.com/Kong/kong",
         "source": "topic:devops",
         "created_at": "2014-11-18 07:56",
-        "updated_at": "2026-08-23 13:18"
+        "updated_at": "2026-08-23 18:38"
       },
       {
         "name": "httpie/cli",
@@ -914,12 +938,12 @@
         "name": "Dokploy/dokploy",
         "description": "Open Source Alternative to Vercel, Netlify and Heroku.",
         "language": "TypeScript",
-        "stars_num": 36794,
-        "total_stars": "36794",
+        "stars_num": 36802,
+        "total_stars": "36802",
         "url": "https://github.com/Dokploy/dokploy",
         "source": "topic:devops",
         "created_at": "2024-04-19 15:49",
-        "updated_at": "2026-08-23 14:22"
+        "updated_at": "2026-08-23 20:19"
       }
     ],
     "docker": [
@@ -927,111 +951,111 @@
         "name": "louislam/uptime-kuma",
         "description": "A fancy self-hosted monitoring tool",
         "language": "JavaScript",
-        "stars_num": 90486,
-        "total_stars": "90486",
+        "stars_num": 90500,
+        "total_stars": "90500",
         "url": "https://github.com/louislam/uptime-kuma",
         "source": "topic:docker",
         "created_at": "2021-07-03 09:02",
-        "updated_at": "2026-08-23 14:03"
+        "updated_at": "2026-08-23 20:12"
       },
       {
         "name": "Stirling-Tools/Stirling-PDF",
         "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
         "language": "Java",
-        "stars_num": 90086,
-        "total_stars": "90086",
+        "stars_num": 90149,
+        "total_stars": "90149",
         "url": "https://github.com/Stirling-Tools/Stirling-PDF",
         "source": "topic:docker",
         "created_at": "2023-01-28 02:22",
-        "updated_at": "2026-08-23 14:25"
+        "updated_at": "2026-08-23 20:21"
       },
       {
         "name": "macrozheng/mall",
         "description": "mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于Spring Boot+MyBatis实现，采用Docker容器化部署。 前台商城系统包含首页门户、商品推荐、商品搜索、商品展示、购物车、订单流程、会员中心、客户服务、帮助中心等模块。 后台管理系统包含商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等模块。",
         "language": "Java",
-        "stars_num": 84607,
-        "total_stars": "84607",
+        "stars_num": 84608,
+        "total_stars": "84608",
         "url": "https://github.com/macrozheng/mall",
         "source": "topic:docker",
         "created_at": "2018-04-04 09:11",
-        "updated_at": "2026-08-23 12:44"
+        "updated_at": "2026-08-23 20:01"
       },
       {
         "name": "bregman-arie/devops-exercises",
         "description": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
         "language": "Python",
-        "stars_num": 84216,
-        "total_stars": "84216",
+        "stars_num": 84221,
+        "total_stars": "84221",
         "url": "https://github.com/bregman-arie/devops-exercises",
         "source": "topic:docker",
         "created_at": "2019-10-04 01:31",
-        "updated_at": "2026-08-23 14:21"
+        "updated_at": "2026-08-23 18:46"
       },
       {
         "name": "netdata/netdata",
         "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
         "language": "Go",
-        "stars_num": 80266,
-        "total_stars": "80266",
+        "stars_num": 80264,
+        "total_stars": "80264",
         "url": "https://github.com/netdata/netdata",
         "source": "topic:docker",
         "created_at": "2013-06-18 02:39",
-        "updated_at": "2026-08-23 11:53"
+        "updated_at": "2026-08-23 19:37"
       },
       {
         "name": "moby/moby",
         "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
         "language": "Go",
-        "stars_num": 71992,
-        "total_stars": "71992",
+        "stars_num": 71991,
+        "total_stars": "71991",
         "url": "https://github.com/moby/moby",
         "source": "topic:docker",
         "created_at": "2013-01-19 02:10",
-        "updated_at": "2026-08-23 13:04"
+        "updated_at": "2026-08-23 18:29"
       },
       {
         "name": "dani-garcia/vaultwarden",
         "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
         "language": "Rust",
-        "stars_num": 65847,
-        "total_stars": "65847",
+        "stars_num": 65873,
+        "total_stars": "65873",
         "url": "https://github.com/dani-garcia/vaultwarden",
         "source": "topic:docker",
         "created_at": "2018-02-18 06:40",
-        "updated_at": "2026-08-23 13:38"
+        "updated_at": "2026-08-23 20:21"
       },
       {
         "name": "traefik/traefik",
         "description": "The Cloud Native Application Proxy",
         "language": "Go",
-        "stars_num": 64539,
-        "total_stars": "64539",
+        "stars_num": 64541,
+        "total_stars": "64541",
         "url": "https://github.com/traefik/traefik",
         "source": "topic:docker",
         "created_at": "2015-09-14 03:04",
-        "updated_at": "2026-08-23 13:33"
+        "updated_at": "2026-08-23 16:43"
       },
       {
         "name": "usememos/memos",
         "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
         "language": "Go",
-        "stars_num": 62452,
-        "total_stars": "62452",
+        "stars_num": 62460,
+        "total_stars": "62460",
         "url": "https://github.com/usememos/memos",
         "source": "topic:docker",
         "created_at": "2021-12-08 23:30",
-        "updated_at": "2026-08-23 13:02"
+        "updated_at": "2026-08-23 19:37"
       },
       {
         "name": "sansan0/TrendRadar",
         "description": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。",
         "language": "Python",
-        "stars_num": 61677,
-        "total_stars": "61677",
+        "stars_num": 61682,
+        "total_stars": "61682",
         "url": "https://github.com/sansan0/TrendRadar",
         "source": "topic:docker",
         "created_at": "2025-04-28 19:42",
-        "updated_at": "2026-08-23 13:34"
+        "updated_at": "2026-08-23 19:56"
       }
     ],
     "kubernetes": [
@@ -1039,111 +1063,111 @@
         "name": "kubernetes/kubernetes",
         "description": "Production-Grade Container Scheduling and Management",
         "language": "Go",
-        "stars_num": 124912,
-        "total_stars": "124912",
+        "stars_num": 124916,
+        "total_stars": "124916",
         "url": "https://github.com/kubernetes/kubernetes",
         "source": "topic:kubernetes",
         "created_at": "2014-06-07 06:56",
-        "updated_at": "2026-08-23 14:24"
+        "updated_at": "2026-08-23 20:09"
       },
       {
         "name": "bregman-arie/devops-exercises",
         "description": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
         "language": "Python",
-        "stars_num": 84216,
-        "total_stars": "84216",
+        "stars_num": 84221,
+        "total_stars": "84221",
         "url": "https://github.com/bregman-arie/devops-exercises",
         "source": "topic:kubernetes",
         "created_at": "2019-10-04 01:31",
-        "updated_at": "2026-08-23 14:21"
+        "updated_at": "2026-08-23 18:46"
       },
       {
         "name": "netdata/netdata",
         "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
         "language": "Go",
-        "stars_num": 80266,
-        "total_stars": "80266",
+        "stars_num": 80264,
+        "total_stars": "80264",
         "url": "https://github.com/netdata/netdata",
         "source": "topic:kubernetes",
         "created_at": "2013-06-18 02:39",
-        "updated_at": "2026-08-23 11:53"
+        "updated_at": "2026-08-23 19:37"
       },
       {
         "name": "traefik/traefik",
         "description": "The Cloud Native Application Proxy",
         "language": "Go",
-        "stars_num": 64539,
-        "total_stars": "64539",
+        "stars_num": 64541,
+        "total_stars": "64541",
         "url": "https://github.com/traefik/traefik",
         "source": "topic:kubernetes",
         "created_at": "2015-09-14 03:04",
-        "updated_at": "2026-08-23 13:33"
+        "updated_at": "2026-08-23 16:43"
       },
       {
         "name": "minio/minio",
         "description": "MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.",
         "language": "Go",
-        "stars_num": 61379,
-        "total_stars": "61379",
+        "stars_num": 61381,
+        "total_stars": "61381",
         "url": "https://github.com/minio/minio",
         "source": "topic:kubernetes",
         "created_at": "2015-01-15 03:23",
-        "updated_at": "2026-08-23 13:07"
+        "updated_at": "2026-08-23 17:35"
       },
       {
         "name": "etcd-io/etcd",
         "description": "Distributed reliable key-value store for the most critical data of a distributed system",
         "language": "Go",
-        "stars_num": 52155,
-        "total_stars": "52155",
+        "stars_num": 52156,
+        "total_stars": "52156",
         "url": "https://github.com/etcd-io/etcd",
         "source": "topic:kubernetes",
         "created_at": "2013-07-07 05:57",
-        "updated_at": "2026-08-23 14:16"
+        "updated_at": "2026-08-23 19:42"
       },
       {
         "name": "GitHubDaily/GitHubDaily",
         "description": "坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.",
         "language": "",
-        "stars_num": 47532,
-        "total_stars": "47532",
+        "stars_num": 47531,
+        "total_stars": "47531",
         "url": "https://github.com/GitHubDaily/GitHubDaily",
         "source": "topic:kubernetes",
         "created_at": "2018-12-30 21:56",
-        "updated_at": "2026-08-23 13:16"
+        "updated_at": "2026-08-23 19:31"
       },
       {
         "name": "LeCoupa/awesome-cheatsheets",
         "description": "👩‍💻👨‍💻 Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file.",
         "language": "JavaScript",
-        "stars_num": 46389,
-        "total_stars": "46389",
+        "stars_num": 46390,
+        "total_stars": "46390",
         "url": "https://github.com/LeCoupa/awesome-cheatsheets",
         "source": "topic:kubernetes",
         "created_at": "2017-11-09 10:47",
-        "updated_at": "2026-08-23 10:55"
+        "updated_at": "2026-08-23 19:53"
       },
       {
         "name": "Kong/kong",
         "description": "🦍 The API and AI Gateway",
         "language": "Lua",
-        "stars_num": 44023,
-        "total_stars": "44023",
+        "stars_num": 44025,
+        "total_stars": "44025",
         "url": "https://github.com/Kong/kong",
         "source": "topic:kubernetes",
         "created_at": "2014-11-18 07:56",
-        "updated_at": "2026-08-23 13:18"
+        "updated_at": "2026-08-23 18:38"
       },
       {
         "name": "ToolJet/ToolJet",
         "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
         "language": "JavaScript",
-        "stars_num": 40703,
-        "total_stars": "40703",
+        "stars_num": 40713,
+        "total_stars": "40713",
         "url": "https://github.com/ToolJet/ToolJet",
         "source": "topic:kubernetes",
         "created_at": "2021-03-30 16:51",
-        "updated_at": "2026-08-23 14:13"
+        "updated_at": "2026-08-23 20:20"
       }
     ]
   },
@@ -1289,67 +1313,67 @@
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform.",
       "language": "Python",
-      "stars_num": 144809,
-      "total_stars": "144809",
+      "stars_num": 144821,
+      "total_stars": "144821",
       "url": "https://github.com/langchain-ai/langchain",
       "source": "org:langchain-ai",
       "org": "langchain-ai",
-      "updated_at": "2026-08-23 14:17"
+      "updated_at": "2026-08-23 20:21"
     },
     {
       "name": "langchain-ai/langgraph",
       "description": "Build resilient agents.",
       "language": "Python",
-      "stars_num": 40264,
-      "total_stars": "40264",
+      "stars_num": 40272,
+      "total_stars": "40272",
       "url": "https://github.com/langchain-ai/langgraph",
       "source": "org:langchain-ai",
       "org": "langchain-ai",
-      "updated_at": "2026-08-23 14:14"
+      "updated_at": "2026-08-23 20:02"
     },
     {
       "name": "langchain-ai/deepagents",
       "description": "The batteries-included agent harness.",
       "language": "Python",
-      "stars_num": 28089,
-      "total_stars": "28089",
+      "stars_num": 28125,
+      "total_stars": "28125",
       "url": "https://github.com/langchain-ai/deepagents",
       "source": "org:langchain-ai",
       "org": "langchain-ai",
-      "updated_at": "2026-08-23 14:12"
+      "updated_at": "2026-08-23 20:21"
     },
     {
-      "name": "langchain-ai/langchainjs",
-      "description": "The agent engineering platform",
+      "name": "langchain-ai/openwiki",
+      "description": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
       "language": "TypeScript",
-      "stars_num": 18127,
-      "total_stars": "18127",
-      "url": "https://github.com/langchain-ai/langchainjs",
+      "stars_num": 15499,
+      "total_stars": "15499",
+      "url": "https://github.com/langchain-ai/openwiki",
       "source": "org:langchain-ai",
       "org": "langchain-ai",
-      "updated_at": "2026-08-23 14:24"
+      "updated_at": "2026-08-23 20:03"
     },
     {
-      "name": "langchain-ai/langgraph-supervisor-py",
-      "description": "",
+      "name": "langchain-ai/openshell-deepagent",
+      "description": "A general-purpose coding agent that runs inside an NVIDIA OpenShell sandbox, orchestrated by Deep Agents and powered by NVIDIA Nemotron. The agent writes and executes code in an isolated, policy-governed Linux environment.",
       "language": "Python",
-      "stars_num": 1646,
-      "total_stars": "1646",
-      "url": "https://github.com/langchain-ai/langgraph-supervisor-py",
+      "stars_num": 186,
+      "total_stars": "186",
+      "url": "https://github.com/langchain-ai/openshell-deepagent",
       "source": "org:langchain-ai",
       "org": "langchain-ai",
-      "updated_at": "2026-08-23 13:50"
+      "updated_at": "2026-08-23 20:04"
     },
     {
       "name": "langgenius/dify",
       "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
       "language": "TypeScript",
-      "stars_num": 153243,
-      "total_stars": "153243",
+      "stars_num": 153261,
+      "total_stars": "153261",
       "url": "https://github.com/langgenius/dify",
       "source": "org:langgenius",
       "org": "langgenius",
-      "updated_at": "2026-08-23 14:19"
+      "updated_at": "2026-08-23 20:11"
     },
     {
       "name": "langgenius/dify-sandbox",
@@ -1371,7 +1395,7 @@
       "url": "https://github.com/langgenius/dify-official-plugins",
       "source": "org:langgenius",
       "org": "langgenius",
-      "updated_at": "2026-08-23 06:33"
+      "updated_at": "2026-08-23 19:11"
     },
     {
       "name": "langgenius/dify-plugins",
@@ -1382,7 +1406,7 @@
       "url": "https://github.com/langgenius/dify-plugins",
       "source": "org:langgenius",
       "org": "langgenius",
-      "updated_at": "2026-08-21 23:40"
+      "updated_at": "2026-08-23 19:00"
     },
     {
       "name": "langgenius/graphon",
@@ -1399,12 +1423,12 @@
       "name": "ollama/ollama",
       "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "language": "Go",
-      "stars_num": 179224,
-      "total_stars": "179224",
+      "stars_num": 179242,
+      "total_stars": "179242",
       "url": "https://github.com/ollama/ollama",
       "source": "org:ollama",
       "org": "ollama",
-      "updated_at": "2026-08-23 13:44"
+      "updated_at": "2026-08-23 20:21"
     },
     {
       "name": "ollama/ollama-python",
@@ -1415,7 +1439,7 @@
       "url": "https://github.com/ollama/ollama-python",
       "source": "org:ollama",
       "org": "ollama",
-      "updated_at": "2026-08-23 00:51"
+      "updated_at": "2026-08-23 19:55"
     },
     {
       "name": "ollama/ollama-js",
@@ -1443,12 +1467,12 @@
       "name": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "language": "TypeScript",
-      "stars_num": 201922,
-      "total_stars": "201922",
+      "stars_num": 202051,
+      "total_stars": "202051",
       "url": "https://github.com/n8n-io/n8n",
       "source": "org:n8n-io",
       "org": "n8n-io",
-      "updated_at": "2026-08-23 14:23"
+      "updated_at": "2026-08-23 20:19"
     },
     {
       "name": "n8n-io/self-hosted-ai-starter-kit",
@@ -1459,29 +1483,29 @@
       "url": "https://github.com/n8n-io/self-hosted-ai-starter-kit",
       "source": "org:n8n-io",
       "org": "n8n-io",
-      "updated_at": "2026-08-23 13:02"
+      "updated_at": "2026-08-23 17:43"
     },
     {
-      "name": "n8n-io/n8n-nodes-starter",
-      "description": "Example starter module for custom n8n nodes.",
-      "language": "TypeScript",
-      "stars_num": 1169,
-      "total_stars": "1169",
-      "url": "https://github.com/n8n-io/n8n-nodes-starter",
+      "name": "n8n-io/n8n-hosting",
+      "description": "Example of self-hosting n8n in various environments like docker, kubernetes, etc.",
+      "language": "Go Template",
+      "stars_num": 1721,
+      "total_stars": "1721",
+      "url": "https://github.com/n8n-io/n8n-hosting",
       "source": "org:n8n-io",
       "org": "n8n-io",
-      "updated_at": "2026-08-23 10:18"
+      "updated_at": "2026-08-23 18:15"
     },
     {
       "name": "n8n-io/skills",
       "description": "",
       "language": "Shell",
-      "stars_num": 450,
-      "total_stars": "450",
+      "stars_num": 454,
+      "total_stars": "454",
       "url": "https://github.com/n8n-io/skills",
       "source": "org:n8n-io",
       "org": "n8n-io",
-      "updated_at": "2026-08-23 11:49"
+      "updated_at": "2026-08-23 19:25"
     },
     {
       "name": "n8n-io/n8n-benchmarking",
@@ -1498,111 +1522,111 @@
       "name": "openai/codex",
       "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
-      "stars_num": 113999,
-      "total_stars": "113999",
+      "stars_num": 114707,
+      "total_stars": "114707",
       "url": "https://github.com/openai/codex",
       "source": "org:openai",
       "org": "openai",
-      "updated_at": "2026-08-23 14:25"
-    },
-    {
-      "name": "openai/whisper",
-      "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
-      "language": "Python",
-      "stars_num": 107795,
-      "total_stars": "107795",
-      "url": "https://github.com/openai/whisper",
-      "source": "org:openai",
-      "org": "openai",
-      "updated_at": "2026-08-23 14:21"
-    },
-    {
-      "name": "openai/gym",
-      "description": "A toolkit for developing and comparing reinforcement learning algorithms.",
-      "language": "Python",
-      "stars_num": 37248,
-      "total_stars": "37248",
-      "url": "https://github.com/openai/gym",
-      "source": "org:openai",
-      "org": "openai",
-      "updated_at": "2026-08-23 14:21"
+      "updated_at": "2026-08-23 20:21"
     },
     {
       "name": "openai/codex-plugin-cc",
       "description": "Use Codex from Claude Code to review code or delegate tasks.",
       "language": "JavaScript",
-      "stars_num": 32196,
-      "total_stars": "32196",
+      "stars_num": 32211,
+      "total_stars": "32211",
       "url": "https://github.com/openai/codex-plugin-cc",
       "source": "org:openai",
       "org": "openai",
-      "updated_at": "2026-08-23 14:21"
+      "updated_at": "2026-08-23 20:18"
     },
     {
-      "name": "openai/tiktoken",
-      "description": "tiktoken is a fast BPE tokeniser for use with OpenAI's models.",
+      "name": "openai/skills",
+      "description": "Skills Catalog for Codex",
       "language": "Python",
-      "stars_num": 19068,
-      "total_stars": "19068",
-      "url": "https://github.com/openai/tiktoken",
+      "stars_num": 25126,
+      "total_stars": "25126",
+      "url": "https://github.com/openai/skills",
       "source": "org:openai",
       "org": "openai",
-      "updated_at": "2026-08-23 14:20"
+      "updated_at": "2026-08-23 20:19"
+    },
+    {
+      "name": "openai/codex-security",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "language": "TypeScript",
+      "stars_num": 10097,
+      "total_stars": "10097",
+      "url": "https://github.com/openai/codex-security",
+      "source": "org:openai",
+      "org": "openai",
+      "updated_at": "2026-08-23 20:05"
+    },
+    {
+      "name": "openai/plugins",
+      "description": "OpenAI Plugins",
+      "language": "JavaScript",
+      "stars_num": 5176,
+      "total_stars": "5176",
+      "url": "https://github.com/openai/plugins",
+      "source": "org:openai",
+      "org": "openai",
+      "updated_at": "2026-08-23 20:20"
     },
     {
       "name": "anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "stars_num": 171063,
-      "total_stars": "171063",
+      "stars_num": 171109,
+      "total_stars": "171109",
       "url": "https://github.com/anthropics/skills",
       "source": "org:anthropics",
       "org": "anthropics",
-      "updated_at": "2026-08-23 14:22"
+      "updated_at": "2026-08-23 20:20"
     },
     {
       "name": "anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "language": "Python",
-      "stars_num": 142622,
-      "total_stars": "142622",
+      "stars_num": 142704,
+      "total_stars": "142704",
       "url": "https://github.com/anthropics/claude-code",
       "source": "org:anthropics",
       "org": "anthropics",
-      "updated_at": "2026-08-23 14:22"
-    },
-    {
-      "name": "anthropics/claude-cookbooks",
-      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
-      "language": "Jupyter Notebook",
-      "stars_num": 52010,
-      "total_stars": "52010",
-      "url": "https://github.com/anthropics/claude-cookbooks",
-      "source": "org:anthropics",
-      "org": "anthropics",
-      "updated_at": "2026-08-23 14:22"
+      "updated_at": "2026-08-23 20:17"
     },
     {
       "name": "anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "stars_num": 33836,
-      "total_stars": "33836",
+      "stars_num": 33851,
+      "total_stars": "33851",
       "url": "https://github.com/anthropics/claude-plugins-official",
       "source": "org:anthropics",
       "org": "anthropics",
-      "updated_at": "2026-08-23 14:18"
+      "updated_at": "2026-08-23 20:00"
+    },
+    {
+      "name": "anthropics/claude-agent-sdk-demos",
+      "description": "Claude Code SDK Demos",
+      "language": "TypeScript",
+      "stars_num": 2727,
+      "total_stars": "2727",
+      "url": "https://github.com/anthropics/claude-agent-sdk-demos",
+      "source": "org:anthropics",
+      "org": "anthropics",
+      "updated_at": "2026-08-23 19:59"
     },
     {
       "name": "anthropics/claude-plugins-community",
       "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
       "language": "Python",
-      "stars_num": 642,
-      "total_stars": "642",
+      "stars_num": 714,
+      "total_stars": "714",
       "url": "https://github.com/anthropics/claude-plugins-community",
       "source": "org:anthropics",
       "org": "anthropics",
-      "updated_at": "2026-08-23 14:25"
+      "updated_at": "2026-08-23 20:21"
     }
   ]
 }
