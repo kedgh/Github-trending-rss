@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-24 14:39",
+  "updated": "2026-08-24 20:30",
   "count": 15,
   "items": [
     {
@@ -85,6 +85,24 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n n8n@2.36.6",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.36.6](https://github.com/n8n-io/n8n/compare/n8n@2.36.5...n8n@2.36.6) (2026-08-24)\n\n\n### Bug Fixes\n\n* **editor:** Show personalization survey and community registration modal on Instance AI landing page ([#36826](https://github.com/n8n-io/n8n/issues/36826)) ([8a38897](https://github.com/n8n-io/n8n/commit/8a3889774abb6d4b0e9c567d283affb3f4a2d254))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/36895?utm_source=github\" target=\"_blank\" r",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.6",
+      "published_at": "2026-08-24 16:41",
+      "tag": "n8n@2.36.6",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n beta",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.36.6](https://github.com/n8n-io/n8n/compare/n8n@2.36.5...n8n@2.36.6) (2026-08-24)\n\n\n### Bug Fixes\n\n* **editor:** Show personalization survey and community registration modal on Instance AI landing page ([#36826](https://github.com/n8n-io/n8n/issues/36826)) ([8a38897](https://github.com/n8n-io/n8n/commit/8a3889774abb6d4b0e9c567d283affb3f4a2d254))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/36895?utm_source=github\" target=\"_blank\" r",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-08-24 16:41",
+      "tag": "beta",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
       "description": "## [2.35.7](https://github.com/n8n-io/n8n/compare/n8n@2.35.6...n8n@2.35.7) (2026-08-21)\n\n\n### Bug Fixes\n\n* **core:** Raise AI Assistant model verification token limit ([#36798](https://github.com/n8n-io/n8n/issues/36798)) ([f87affe](https://github.com/n8n-io/n8n/commit/f87affed36c476ab472b52e797ad1cf59ba59058))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/36806?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-di",
@@ -94,21 +112,12 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.35.7",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.35.7](https://github.com/n8n-io/n8n/compare/n8n@2.35.6...n8n@2.35.7) (2026-08-21)\n\n\n### Bug Fixes\n\n* **core:** Raise AI Assistant model verification token limit ([#36798](https://github.com/n8n-io/n8n/issues/36798)) ([f87affe](https://github.com/n8n-io/n8n/commit/f87affed36c476ab472b52e797ad1cf59ba59058))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/36806?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-di",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.7",
-      "published_at": "2026-08-21 18:23",
-      "tag": "n8n@2.35.7",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.35.6",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.35.6](https://github.com/n8n-io/n8n/compare/n8n@2.35.5...n8n@2.35.6) (2026-08-21)\n\n\n### Bug Fixes\n\n* **core:** Normalize env values before schema-based parsing ([#36732](https://github.com/n8n-io/n8n/issues/36732)) ([0664c7d](https://github.com/n8n-io/n8n/commit/0664c7db291d4ebc4c483fdc1b9178fb07d3f434))\n* **core:** Resolve end-user credentials when loading node parameters ([#36517](https://github.com/n8n-io/n8n/issues/36517)) ([6f6d04b](https://github.com/n8n-io/n8n/commit/6f6d04b29ee774e",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.6",
-      "published_at": "2026-08-21 15:58",
-      "tag": "n8n@2.35.6",
+      "name": "vercel/next.js v16.4.0-canary.4",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Add next/cache-handlers types entrypoint: #97592\n- Remove unused return values from getPageStaticInfo: #97661\n- [turbopack] defer NFT module content hashes: #97773\n- test: deflake basePath external navigation: #97611\n- docs(adapters): document assetsHashes and routing.middlewareMatchers: #96536\n- Migrate remaining async blocks to async closures: #97701\n- Turn off the adapter route collapses by default: #97774\n- Serve a run of fallback shells from one route entry: #97738\n- [te",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.4",
+      "published_at": "2026-08-24 20:02",
+      "tag": "v16.4.0-canary.4",
       "source": "release"
     },
     {
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.2",
       "published_at": "2026-08-23 07:45",
       "tag": "v16.4.0-canary.2",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.1",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- docs: fix parallelRouteKey parameter name in useSelectedLayoutSegment(s): #97710\n- Turbopack: Avoid cloning paths in fs watcher if the path is already in a map: #97655\n- Remove generated error codes: #97687\n- [PPF] Instant validation for unstable_navigation(): #97309\n- Turbopack: trace graceful-fs calls: #97694\n- Migrate some async blocks to async closures: #97666\n- turbo-tasks: add scope_unbounded, a scoped execution primitive that allows more work to be discovered: #95974\n-",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.1",
-      "published_at": "2026-08-22 07:43",
-      "tag": "v16.4.0-canary.1",
       "source": "release"
     }
   ]
