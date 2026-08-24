@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-24 02:17",
+  "updated": "2026-08-24 08:46",
   "count": 15,
   "items": [
     {
@@ -60,7 +60,7 @@
     {
       "name": "ollama/ollama v0.33.0-rc2",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n\r\n### Claude Desktop\r\n\r\n* Ollama now integrates with Claude\r\n* Turn individual Ollama models on or off for use in Claude, directly from the menu bar\r\n* Choose from your available Ollama models from within Claude; cloud models appear only when you're signed in\r\n* A new **Apps** view manages app integrations with copyable commands\r\n\r\n### Improved caching\r\n\r\n* Fixed a hang where agent clients that cancel long prefills\r\n* Prefill restore points are now trustworthy by construction:",
+      "description": "## What's Changed\r\n\r\n### Claude Desktop\r\n\r\n* Turn individual Ollama models on or off for use in Claude, directly from the menu bar\r\n* Choose from your available Ollama models from within Claude; cloud models appear only when you're signed in\r\n* A new **Apps** view manages app integrations with copyable commands\r\n\r\n### Improved caching\r\n\r\n* Fixed a hang where agent clients that cancel long prefills\r\n* Prefill restore points are now trustworthy by construction: a cancelled prefill keeps every rest",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc2",
       "published_at": "2026-08-22 06:52",
       "tag": "v0.33.0-rc2",
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.3",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [devtools] Fix indicator dragging on touch screens: #97723\n\n### Credits \n\nHuge thanks to @marcoshernanz for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.3",
+      "published_at": "2026-08-24 07:46",
+      "tag": "v16.4.0-canary.3",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.2",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- introduce an options struct for constructing backend storage: #97284\n\n### Credits \n\nHuge thanks to @lukesandberg for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.1",
       "published_at": "2026-08-22 07:43",
       "tag": "v16.4.0-canary.1",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.0",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- feat(turbopack): isolate HMR listeners across microfrontends: #95997\n- Turbopack: deduplicate Pages Router app chunks: #97664\n- [react-sync] Check assignability before assigning the actor: #97638\n- fix: preserve trailing slash during export MPA fallback: #97613\n- Turbopack: Split the read and write codepath data structures for symlinks: #97395\n- Turbopack: Show last modified file when waiting for the filesystem to settle: #97648\n\n### Credits \n\nHuge thanks to @fireairforce, @m",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.0",
-      "published_at": "2026-08-21 18:05",
-      "tag": "v16.4.0-canary.0",
       "source": "release"
     }
   ]
