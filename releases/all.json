@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-25 14:31",
+  "updated": "2026-08-25 20:30",
   "count": 15,
   "items": [
     {
@@ -31,6 +31,15 @@
       "source": "release"
     },
     {
+      "name": "langgenius/dify 1.17.0",
+      "repo": "langgenius/dify",
+      "description": "## New Features\r\n\r\n**Agent: E2B Sandbox, Home Snapshots, and Skill Management**\r\n- **E2B sandbox backend**: agent shell/code execution can now run on [E2B](https://e2b.dev) cloud sandboxes in addition to the local sandbox. Select the backend with `DIFY_AGENT_RUNTIME_BACKEND`; a new `docker-compose.e2b.yaml` ships the E2B stack, E2B traffic is authenticated, and the E2B template is synced on release (#39480, #39705, #39873, #39996, #40858, #40871, #40891, #40892).\r\n- **Build-time Home Snapshots**",
+      "url": "https://github.com/langgenius/dify/releases/tag/1.17.0",
+      "published_at": "2026-08-25 19:28",
+      "tag": "1.17.0",
+      "source": "release"
+    },
+    {
       "name": "langgenius/dify 1.16.1",
       "repo": "langgenius/dify",
       "description": "## What's Changed\r\n\r\n### New Features\r\n**Tool Multi-Select Input**\r\n- Workflow tool nodes now support multi-select dropdown inputs, allowing users to choose multiple values from a predefined list when configuring tool parameters. (#39346)\r\n\r\n**Workflow Node Locator**\r\n- You can now click a node_id in workflow run logs or error messages to locate and highlight the corresponding node in the workflow editor canvas. (#38187)\r\n\r\n**Workflow Block Selector Improvements**\r\n- The block selector panel now",
@@ -46,15 +55,6 @@
       "url": "https://github.com/langgenius/dify/releases/tag/1.16.0",
       "published_at": "2026-07-17 19:14",
       "tag": "1.16.0",
-      "source": "release"
-    },
-    {
-      "name": "langgenius/dify 1.16.0-rc1",
-      "repo": "langgenius/dify",
-      "description": "# Introducing Dify Agent *(Experimental)*: A New Agent Experience in Dify\r\n\r\n> [!WARNING]\r\n> You should provide Dify Agent services ⚠️**only to trusted, non-malicious users**⚠️.\r\n\r\nAs many of you know, the shell-based LLM agent paradigm has brought a major leap in agent capabilities and changed how we think about agents. Meanwhile, Skills provide a standardized way to package and distribute capabilities, making it easier to build powerful agents.\r\n\r\nToday, we are experimentally launching Dify Ag",
-      "url": "https://github.com/langgenius/dify/releases/tag/1.16.0-rc1",
-      "published_at": "2026-07-09 22:06",
-      "tag": "1.16.0-rc1",
       "source": "release"
     },
     {
@@ -85,29 +85,29 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.36.6",
+      "name": "n8n-io/n8n n8n@2.37.0",
       "repo": "n8n-io/n8n",
-      "description": "## [2.36.6](https://github.com/n8n-io/n8n/compare/n8n@2.36.5...n8n@2.36.6) (2026-08-24)\n\n\n### Bug Fixes\n\n* **editor:** Show personalization survey and community registration modal on Instance AI landing page ([#36826](https://github.com/n8n-io/n8n/issues/36826)) ([8a38897](https://github.com/n8n-io/n8n/commit/8a3889774abb6d4b0e9c567d283affb3f4a2d254))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/36895?utm_source=github\" target=\"_blank\" r",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.6",
-      "published_at": "2026-08-24 16:41",
-      "tag": "n8n@2.36.6",
+      "description": "# [2.37.0](https://github.com/n8n-io/n8n/compare/n8n@2.36.0...n8n@2.37.0) (2026-08-25)\n\n\n### Bug Fixes\n\n* **Agent Node:** Show disabled reason on prompt-source option ([#36612](https://github.com/n8n-io/n8n/issues/36612)) ([85869e8](https://github.com/n8n-io/n8n/commit/85869e8436e0a498ca9bdcd11ad2131cc2e81832))\n* **ai-builder:** Fix for autosave and publish events issues ([#36241](https://github.com/n8n-io/n8n/issues/36241)) ([87e8b9c](https://github.com/n8n-io/n8n/commit/87e8b9c58f5e35e1bf4c665",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.37.0",
+      "published_at": "2026-08-25 17:42",
+      "tag": "n8n@2.37.0",
       "source": "release"
     },
     {
       "name": "n8n-io/n8n beta",
       "repo": "n8n-io/n8n",
-      "description": "## [2.36.6](https://github.com/n8n-io/n8n/compare/n8n@2.36.5...n8n@2.36.6) (2026-08-24)\n\n\n### Bug Fixes\n\n* **editor:** Show personalization survey and community registration modal on Instance AI landing page ([#36826](https://github.com/n8n-io/n8n/issues/36826)) ([8a38897](https://github.com/n8n-io/n8n/commit/8a3889774abb6d4b0e9c567d283affb3f4a2d254))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/36895?utm_source=github\" target=\"_blank\" r",
+      "description": "# [2.37.0](https://github.com/n8n-io/n8n/compare/n8n@2.36.0...n8n@2.37.0) (2026-08-25)\n\n\n### Bug Fixes\n\n* **Agent Node:** Show disabled reason on prompt-source option ([#36612](https://github.com/n8n-io/n8n/issues/36612)) ([85869e8](https://github.com/n8n-io/n8n/commit/85869e8436e0a498ca9bdcd11ad2131cc2e81832))\n* **ai-builder:** Fix for autosave and publish events issues ([#36241](https://github.com/n8n-io/n8n/issues/36241)) ([87e8b9c](https://github.com/n8n-io/n8n/commit/87e8b9c58f5e35e1bf4c665",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-08-24 16:41",
+      "published_at": "2026-08-25 17:42",
       "tag": "beta",
       "source": "release"
     },
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.35.7](https://github.com/n8n-io/n8n/compare/n8n@2.35.6...n8n@2.35.7) (2026-08-21)\n\n\n### Bug Fixes\n\n* **core:** Raise AI Assistant model verification token limit ([#36798](https://github.com/n8n-io/n8n/issues/36798)) ([f87affe](https://github.com/n8n-io/n8n/commit/f87affed36c476ab472b52e797ad1cf59ba59058))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/36806?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-di",
+      "description": "## [2.36.6](https://github.com/n8n-io/n8n/compare/n8n@2.36.5...n8n@2.36.6) (2026-08-24)\n\n\n### Bug Fixes\n\n* **editor:** Show personalization survey and community registration modal on Instance AI landing page ([#36826](https://github.com/n8n-io/n8n/issues/36826)) ([8a38897](https://github.com/n8n-io/n8n/commit/8a3889774abb6d4b0e9c567d283affb3f4a2d254))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/36895?utm_source=github\" target=\"_blank\" r",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-08-21 18:23",
+      "published_at": "2026-08-25 17:45",
       "tag": "stable",
       "source": "release"
     },
