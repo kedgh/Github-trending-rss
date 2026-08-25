@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-25 02:27",
+  "updated": "2026-08-25 08:46",
   "count": 15,
   "items": [
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.6",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- turbo-tasks: execute scheduled tasks inline when they are read: #96808\n- Revert \"Record fallback cache lifetime for blocking PPR routes (#97821)\": #97835\n- Sweep stale Turbopack output from distDir on dev startup: #97591\n- Fix metadata prefetch cache key for search params: #97729\n- Turbopack: Improve file existence error handling in realpath_with_links and in module resolution: #97717\n- Write traces with buffered synchronous IO: #96874\n\n### Credits \n\nHuge thanks to @sokra, @a",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.6",
+      "published_at": "2026-08-25 07:45",
+      "tag": "v16.4.0-canary.6",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.4.0-canary.5",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Record fallback cache lifetime for blocking PPR routes: #97821\n- Document catchError for the Pages Router: #97748\n- clippy: allow needless late init where it makes sense: #96410\n- Turbopack: emit/collect: #96631\n- docs: note that response headers must be set before calling handle() in a custom server: #97693\n- Deduplicate the regress, wat/wasmparser and base64 dependencies: #97762\n- perf: split cold TurboMalloc accounting paths: #97767\n\n### Credits \n\nHuge thanks to @acdlite, ",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.5",
+      "published_at": "2026-08-25 03:47",
+      "tag": "v16.4.0-canary.5",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.4",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Add next/cache-handlers types entrypoint: #97592\n- Remove unused return values from getPageStaticInfo: #97661\n- [turbopack] defer NFT module content hashes: #97773\n- test: deflake basePath external navigation: #97611\n- docs(adapters): document assetsHashes and routing.middlewareMatchers: #96536\n- Migrate remaining async blocks to async closures: #97701\n- Turn off the adapter route collapses by default: #97774\n- Serve a run of fallback shells from one route entry: #97738\n- [te",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.4",
       "published_at": "2026-08-24 20:02",
       "tag": "v16.4.0-canary.4",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.3",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [devtools] Fix indicator dragging on touch screens: #97723\n\n### Credits \n\nHuge thanks to @marcoshernanz for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.3",
-      "published_at": "2026-08-24 07:46",
-      "tag": "v16.4.0-canary.3",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.2",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- introduce an options struct for constructing backend storage: #97284\n\n### Credits \n\nHuge thanks to @lukesandberg for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.2",
-      "published_at": "2026-08-23 07:45",
-      "tag": "v16.4.0-canary.2",
       "source": "release"
     }
   ]
