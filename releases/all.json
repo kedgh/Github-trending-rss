@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-08-25 08:46",
+  "updated": "2026-08-25 14:31",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain==1.3.17",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain==1.3.16\n\nrelease(langchain): 1.3.17 (#39893)\nfix(langchain): frame custom HITL rejection reasons (#39773)\nchore(deps): bump minor and patch dependencies (#39869)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.17",
+      "published_at": "2026-08-25 10:40",
+      "tag": "langchain==1.3.17",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-perplexity==1.4.1",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.16",
       "published_at": "2026-08-20 22:35",
       "tag": "langchain==1.3.16",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-fireworks==1.6.0",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-fireworks==1.5.2\n\nrelease(fireworks): 1.6.0 (#39810)\nfeat(fireworks): add document reranking (#39732)\nfix(fireworks): filter invalid tool calls from v1 content (#39805)\nfeat(core): add standard model exception types (#39538)\nchore(model-profiles): refresh model profile data (#39646)\nfix(fireworks): avoid repeated `service_tier` [closes #39619] (#39620)\nchore: bump langsmith from 0.10.6 to 0.10.16 in /libs/partners/fireworks (#39279)\nchore: bump aiohttp from 3.14.1 to 3.14",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.0",
-      "published_at": "2026-08-21 01:47",
-      "tag": "langchain-fireworks==1.6.0",
       "source": "release"
     },
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.33.0-rc2",
+      "name": "ollama/ollama v0.33.0-rc3",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n\r\n### Claude Desktop\r\n\r\n* Turn individual Ollama models on or off for use in Claude, directly from the menu bar\r\n* Choose from your available Ollama models from within Claude; cloud models appear only when you're signed in\r\n* A new **Apps** view manages app integrations with copyable commands\r\n\r\n### Improved caching\r\n\r\n* Fixed a hang where agent clients that cancel long prefills\r\n* Prefill restore points are now trustworthy by construction: a cancelled prefill keeps every rest",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc3",
       "published_at": "2026-08-22 06:52",
-      "tag": "v0.33.0-rc2",
+      "tag": "v0.33.0-rc3",
       "source": "release"
     },
     {
