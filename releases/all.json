@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-25 20:30",
+  "updated": "2026-08-26 02:26",
   "count": 15,
   "items": [
     {
@@ -85,57 +85,57 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.37.0",
-      "repo": "n8n-io/n8n",
-      "description": "# [2.37.0](https://github.com/n8n-io/n8n/compare/n8n@2.36.0...n8n@2.37.0) (2026-08-25)\n\n\n### Bug Fixes\n\n* **Agent Node:** Show disabled reason on prompt-source option ([#36612](https://github.com/n8n-io/n8n/issues/36612)) ([85869e8](https://github.com/n8n-io/n8n/commit/85869e8436e0a498ca9bdcd11ad2131cc2e81832))\n* **ai-builder:** Fix for autosave and publish events issues ([#36241](https://github.com/n8n-io/n8n/issues/36241)) ([87e8b9c](https://github.com/n8n-io/n8n/commit/87e8b9c58f5e35e1bf4c665",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.37.0",
-      "published_at": "2026-08-25 17:42",
-      "tag": "n8n@2.37.0",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n beta",
-      "repo": "n8n-io/n8n",
-      "description": "# [2.37.0](https://github.com/n8n-io/n8n/compare/n8n@2.36.0...n8n@2.37.0) (2026-08-25)\n\n\n### Bug Fixes\n\n* **Agent Node:** Show disabled reason on prompt-source option ([#36612](https://github.com/n8n-io/n8n/issues/36612)) ([85869e8](https://github.com/n8n-io/n8n/commit/85869e8436e0a498ca9bdcd11ad2131cc2e81832))\n* **ai-builder:** Fix for autosave and publish events issues ([#36241](https://github.com/n8n-io/n8n/issues/36241)) ([87e8b9c](https://github.com/n8n-io/n8n/commit/87e8b9c58f5e35e1bf4c665",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-08-25 17:42",
-      "tag": "beta",
-      "source": "release"
-    },
-    {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.36.6](https://github.com/n8n-io/n8n/compare/n8n@2.36.5...n8n@2.36.6) (2026-08-24)\n\n\n### Bug Fixes\n\n* **editor:** Show personalization survey and community registration modal on Instance AI landing page ([#36826](https://github.com/n8n-io/n8n/issues/36826)) ([8a38897](https://github.com/n8n-io/n8n/commit/8a3889774abb6d4b0e9c567d283affb3f4a2d254))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/36895?utm_source=github\" target=\"_blank\" r",
+      "description": "## [2.36.7](https://github.com/n8n-io/n8n/compare/n8n@2.36.6...n8n@2.36.7) (2026-08-25)\n\n\n### Bug Fixes\n\n* **API:** Adapt binary data endpoint ([#36994](https://github.com/n8n-io/n8n/issues/36994)) ([f6f237c](https://github.com/n8n-io/n8n/commit/f6f237c58d4dd9620c7f5106f081724552e1ba8b))\n* **API:** Require a JSON content type on decorator routes that take a body ([#36958](https://github.com/n8n-io/n8n/issues/36958)) ([bf90b05](https://github.com/n8n-io/n8n/commit/bf90b05e0e161b6cbb8765da01632eb2",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-08-25 17:45",
+      "published_at": "2026-08-25 21:02",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.4.0-canary.6",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- turbo-tasks: execute scheduled tasks inline when they are read: #96808\n- Revert \"Record fallback cache lifetime for blocking PPR routes (#97821)\": #97835\n- Sweep stale Turbopack output from distDir on dev startup: #97591\n- Fix metadata prefetch cache key for search params: #97729\n- Turbopack: Improve file existence error handling in realpath_with_links and in module resolution: #97717\n- Write traces with buffered synchronous IO: #96874\n\n### Credits \n\nHuge thanks to @sokra, @a",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.6",
-      "published_at": "2026-08-25 07:45",
-      "tag": "v16.4.0-canary.6",
+      "name": "n8n-io/n8n n8n@2.36.7",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.36.7](https://github.com/n8n-io/n8n/compare/n8n@2.36.6...n8n@2.36.7) (2026-08-25)\n\n\n### Bug Fixes\n\n* **API:** Adapt binary data endpoint ([#36994](https://github.com/n8n-io/n8n/issues/36994)) ([f6f237c](https://github.com/n8n-io/n8n/commit/f6f237c58d4dd9620c7f5106f081724552e1ba8b))\n* **API:** Require a JSON content type on decorator routes that take a body ([#36958](https://github.com/n8n-io/n8n/issues/36958)) ([bf90b05](https://github.com/n8n-io/n8n/commit/bf90b05e0e161b6cbb8765da01632eb2",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.7",
+      "published_at": "2026-08-25 21:02",
+      "tag": "n8n@2.36.7",
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.4.0-canary.5",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Record fallback cache lifetime for blocking PPR routes: #97821\n- Document catchError for the Pages Router: #97748\n- clippy: allow needless late init where it makes sense: #96410\n- Turbopack: emit/collect: #96631\n- docs: note that response headers must be set before calling handle() in a custom server: #97693\n- Deduplicate the regress, wat/wasmparser and base64 dependencies: #97762\n- perf: split cold TurboMalloc accounting paths: #97767\n\n### Credits \n\nHuge thanks to @acdlite, ",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.5",
-      "published_at": "2026-08-25 03:47",
-      "tag": "v16.4.0-canary.5",
+      "name": "n8n-io/n8n n8n@2.37.1",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.37.1](https://github.com/n8n-io/n8n/compare/n8n@2.37.0...n8n@2.37.1) (2026-08-25)\n\n\n### Bug Fixes\n\n* **core:** Route OAuth2 token requests through environment proxies in every process ([#37008](https://github.com/n8n-io/n8n/issues/37008)) ([5118020](https://github.com/n8n-io/n8n/commit/5118020fb66c1b148a62b69d840cf3123f95efc8))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/37029?utm_source=github\" target=\"_blank\" rel=\"noopener noref",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.37.1",
+      "published_at": "2026-08-25 22:04",
+      "tag": "n8n@2.37.1",
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.4.0-canary.4",
+      "name": "vercel/next.js v16.4.0-canary.7",
       "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Add next/cache-handlers types entrypoint: #97592\n- Remove unused return values from getPageStaticInfo: #97661\n- [turbopack] defer NFT module content hashes: #97773\n- test: deflake basePath external navigation: #97611\n- docs(adapters): document assetsHashes and routing.middlewareMatchers: #96536\n- Migrate remaining async blocks to async closures: #97701\n- Turn off the adapter route collapses by default: #97774\n- Serve a run of fallback shells from one route entry: #97738\n- [te",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.4",
-      "published_at": "2026-08-24 20:02",
-      "tag": "v16.4.0-canary.4",
+      "description": "### Misc Changes\n\n- Fix ISR misses with backslashes in segments when deployed on Windows: #97876\n- [next/image]: disable avif image optimization: #97875\n- fix(wasm): don't enable SWC's plugin host for wasm targets: #97859\n- fix(turbopack-node): make process_pool inert on wasm: #97858\n- fix(turbopack): make the SWC wasm-plugin backend native-only: #97857\n- fix(turbopack-trace-utils): skip the ctrl-c handler on wasm: #97856\n- refactor(turbopack-cli-utils): replace crossterm with owo-colors: #97855",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.7",
+      "published_at": "2026-08-26 00:44",
+      "tag": "v16.4.0-canary.7",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.3.3",
+      "repo": "vercel/next.js",
+      "description": "This release contains security fixes for the following advisories:\r\n\r\nCritical:\r\n\r\n- [Unauthenticated Remote Code Execution on windows-hosted servers](https://github.com/vercel/next.js/security/advisories/GHSA-p293-qw3h-jr36)\r\n- [Unauthenticated Remote Code Execution in Image Optimization API when AVIF files are used](https://github.com/vercel/next.js/security/advisories/GHSA-2xp9-vwfh-vxw4)\r\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.3",
+      "published_at": "2026-08-26 00:17",
+      "tag": "v16.3.3",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v15.5.24",
+      "repo": "vercel/next.js",
+      "description": "This release contains security fixes for the following advisories:\r\n\r\nCritical:\r\n\r\n- [Unauthenticated Remote Code Execution on windows-hosted servers](https://github.com/vercel/next.js/security/advisories/GHSA-p293-qw3h-jr36)\r\n- [Unauthenticated Remote Code Execution in Image Optimization API when AVIF files are used](https://github.com/vercel/next.js/security/advisories/GHSA-2xp9-vwfh-vxw4)\r\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v15.5.24",
+      "published_at": "2026-08-26 00:16",
+      "tag": "v15.5.24",
       "source": "release"
     }
   ]
