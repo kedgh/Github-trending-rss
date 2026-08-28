@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-08-28 16:11",
+  "updated": "2026-08-29 05:36",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain==1.4.0a2",
+      "repo": "langchain-ai/langchain",
+      "description": "Alpha preview of `langchain.mcp` — a first-party adapter that turns any MCP server into LangChain tools you can hand straight to `create_agent`.\n\nConnection handling is [FastMCP](https://gofastmcp.com/clients/client)'s, so its client features are available as-is rather than re-implemented behind a narrower interface.\n\n```bash\npip install \"langchain[mcp]==1.4.0a2\"\n```\n\n## Connect\n\n`MCPAdapter` takes any target `fastmcp.Client` accepts — transport is inferred, so there is one entry point rather th",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a2",
+      "published_at": "2026-08-29 00:19",
+      "tag": "langchain==1.4.0a2",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain==1.4.0a1",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.18",
       "published_at": "2026-08-28 01:33",
       "tag": "langchain==1.3.18",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-fireworks==1.6.1",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-fireworks==1.6.0\n\nrelease(fireworks): 1.6.1 (#39975)\nfix(fireworks): drop reasoning history blocks (#39973)\nchore(model-profiles): refresh model profile data (#39844)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.1",
-      "published_at": "2026-08-28 05:56",
-      "tag": "langchain-fireworks==1.6.1",
       "source": "release"
     },
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.33.2-rc1",
+      "name": "ollama/ollama v0.33.2",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* app: restore system dark mode by @hoyyeva in https://github.com/ollama/ollama/pull/18049\r\n* proxy: continue requests when the model catalog changes by @ParthSareen in https://github.com/ollama/ollama/pull/18058\r\n* app: synchronize macOS app handoff by @ParthSareen in https://github.com/ollama/ollama/pull/18056\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.33.1...v0.33.2-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.2-rc1",
+      "description": "## What's Changed\r\n\r\n* Ollama's app now follows the system appearance again, restoring dark mode support\r\n* Fixed the macOS app to properly hand off to an already-running instance instead of starting a second one\r\n* The Claude Desktop proxy no longer interrupts in-flight requests when the model catalog updates\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.33.1...v0.33.2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.2",
       "published_at": "2026-08-28 04:31",
-      "tag": "v0.33.2-rc1",
+      "tag": "v0.33.2",
       "source": "release"
     },
     {
@@ -103,12 +103,12 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.37.3",
+      "name": "n8n-io/n8n n8n@2.37.4",
       "repo": "n8n-io/n8n",
-      "description": "## [2.37.3](https://github.com/n8n-io/n8n/compare/n8n@2.37.1...n8n@2.37.3) (2026-08-27)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* Copy glibc into distroless runners image as a matched pair ([#37167](https://github.com/n8n-io/n8n/issues/37167)) ([d8de84b](https://github.com/n8n-io/n8n/commit/d8de84b09a2695df1f03c87d02d8850d487f1aed))\r\n* **core:** Stage libatomic into the distroless runners image ([#37125](https://github.com/n8n-io/n8n/issues/37125)) ([89c8edb](https://github.com/n8n-io/n8n/commit/89c8edbda6f7b0b64",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.37.3",
-      "published_at": "2026-08-27 15:32",
-      "tag": "n8n@2.37.3",
+      "description": "## [2.37.4](https://github.com/n8n-io/n8n/compare/n8n@2.37.3...n8n@2.37.4) (2026-08-28)\n\n\n### Bug Fixes\n\n* **core:** Allow a domain-restricted credential to work in its own node ([#37247](https://github.com/n8n-io/n8n/issues/37247)) ([7452313](https://github.com/n8n-io/n8n/commit/745231314e2d9cd789b0ed5907af65b339800074))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/37274?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.37.4",
+      "published_at": "2026-08-28 16:21",
+      "tag": "n8n@2.37.4",
       "source": "release"
     },
     {
