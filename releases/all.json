@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-29 05:36",
+  "updated": "2026-08-29 12:57",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.11",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Fix optimistic routing for encoded dynamic params: #97948\n- Fix intercepted route params after Proxy rewrites: #97953\n- [PPF] Fix navigation() in prospective runtime prerenders: #98000\n- Revert \"test: re-enable sync IO root coverage\": #98050\n- Turbopack: drop rust analyzer skip annotation: #98047\n- Turbopack: add next_config.use_react_experimental getter: #98032\n- More granular cache keys for use-cache entries: #95233\n- [ci] Remove dormant `code_freeze` workflow: #97756\n- tes",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.11",
+      "published_at": "2026-08-29 07:38",
+      "tag": "v16.4.0-canary.11",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.10",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Upgrade Turbopack to hashbrown 0.15: #97808\n- ci: skip framework tests for agent evals and skills: #97998\n- Expand Turbopack dev cleanup: #97833\n- Add Cache Components option to create-next-app: #97695\n- Mark deploy release test skill as internal: #97961\n- Turbopack: shorten CSS module class names: #97944\n- Prune incomplete parallel route matchers: #97108\n- Upgrade React from `f789f203-20260825` to `29d9d318-20260826`: #97995\n- docs(skills): preserve prefetched UI during Part",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.9",
       "published_at": "2026-08-27 08:43",
       "tag": "v16.4.0-canary.9",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.8",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Fix Turbopack resolution through chained symlinks: #97825\n- Add evals for whether agents actually use Next.js: #97816\n- evals: judge behavior instead of matching source text: #97826\n- Bump @vercel/agent-eval to 2.2.1: #97885\n- feat(turbopack): resolve `/`-rooted imports from the project directory: #97799\n- [ci] Use short-lived access tokens for preview-build uploads instead of static token: #97256\n- Turbopack: correctly trace through TypeScript `__importStar`: #97697\n- [turbo",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.8",
-      "published_at": "2026-08-26 07:46",
-      "tag": "v16.4.0-canary.8",
       "source": "release"
     }
   ]
