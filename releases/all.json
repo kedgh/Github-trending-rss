@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-30 04:13",
+  "updated": "2026-08-30 10:43",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.12",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [ci] Remove the popular workflow and its action: #97753\n- Store keys in key order in SST blocks that omit hashes: #97480\n- Honor non-interactive mode in upgrade codemod prompts: #98030\n- Transform .mjs files with Next.js codemods: #98029\n\n### Credits \n\nHuge thanks to @eps1lon, @lukesandberg, and @devjiwonchoi for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.12",
+      "published_at": "2026-08-30 07:38",
+      "tag": "v16.4.0-canary.12",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.11",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Fix optimistic routing for encoded dynamic params: #97948\n- Fix intercepted route params after Proxy rewrites: #97953\n- [PPF] Fix navigation() in prospective runtime prerenders: #98000\n- Revert \"test: re-enable sync IO root coverage\": #98050\n- Turbopack: drop rust analyzer skip annotation: #98047\n- Turbopack: add next_config.use_react_experimental getter: #98032\n- More granular cache keys for use-cache entries: #95233\n- [ci] Remove dormant `code_freeze` workflow: #97756\n- tes",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.10",
       "published_at": "2026-08-28 10:14",
       "tag": "v16.4.0-canary.10",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.9",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- fix: don't drop client references when the concatenated module id is 0: #97936\n- Replace resumed render bailout error with ReactDOM.browser behind a flag: #96844\n- Replace useSearchParams bailout error with ReactDOM.browser behind a flag: #96843\n- Replace CSRBailout error with `ReactDOM.browser` behind a flag: #96826\n- fix(next/image): reject non-2xx internal image responses: #97957\n- [test] Pin Vercel CLI to Node 20.9 compatible version: #97960\n- Re-enable AVIF image optimiz",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.9",
-      "published_at": "2026-08-27 08:43",
-      "tag": "v16.4.0-canary.9",
       "source": "release"
     }
   ]
