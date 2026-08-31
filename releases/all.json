@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-31 20:16",
+  "updated": "2026-09-01 06:13",
   "count": 15,
   "items": [
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.4",
+      "repo": "vercel/next.js",
+      "description": "Follow-up release to [v16.3.3](https://github.com/vercel/next.js/releases/tag/v16.3.3) re-enabling AVIF Image Optimization ([#97949](https://github.com/vercel/next.js/pull/97949)).\r\n\r\nThe following bug fixes have been backported. It does **not** include all pending features/changes on canary.\r\n\r\n- testmode: Fix infinite recursion in testmode passthrough fetch (#97691)\r\n- Fix build error when aliasing typescript to @typescript/typescript6 (#97997)\r\n- Fix unset crossOrigin in Turbopack manifests (",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.4",
+      "published_at": "2026-09-01 04:02",
+      "tag": "v16.3.4",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v15.5.25",
+      "repo": "vercel/next.js",
+      "description": "Follow-up release to [v15.5.24](https://github.com/vercel/next.js/releases/tag/v15.5.24) re-enabling AVIF Image Optimization when newer versions of `sharp` are installed ([#97954](https://github.com/vercel/next.js/pull/97954)).\r\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v15.5.25",
+      "published_at": "2026-09-01 04:02",
+      "tag": "v15.5.25",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.12",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- [ci] Remove the popular workflow and its action: #97753\n- Store keys in key order in SST blocks that omit hashes: #97480\n- Honor non-interactive mode in upgrade codemod prompts: #98030\n- Transform .mjs files with Next.js codemods: #98029\n\n### Credits \n\nHuge thanks to @eps1lon, @lukesandberg, and @devjiwonchoi for helping!",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.12",
       "published_at": "2026-08-30 07:38",
       "tag": "v16.4.0-canary.12",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.11",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Fix optimistic routing for encoded dynamic params: #97948\n- Fix intercepted route params after Proxy rewrites: #97953\n- [PPF] Fix navigation() in prospective runtime prerenders: #98000\n- Revert \"test: re-enable sync IO root coverage\": #98050\n- Turbopack: drop rust analyzer skip annotation: #98047\n- Turbopack: add next_config.use_react_experimental getter: #98032\n- More granular cache keys for use-cache entries: #95233\n- [ci] Remove dormant `code_freeze` workflow: #97756\n- tes",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.11",
-      "published_at": "2026-08-29 07:38",
-      "tag": "v16.4.0-canary.11",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.10",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Upgrade Turbopack to hashbrown 0.15: #97808\n- ci: skip framework tests for agent evals and skills: #97998\n- Expand Turbopack dev cleanup: #97833\n- Add Cache Components option to create-next-app: #97695\n- Mark deploy release test skill as internal: #97961\n- Turbopack: shorten CSS module class names: #97944\n- Prune incomplete parallel route matchers: #97108\n- Upgrade React from `f789f203-20260825` to `29d9d318-20260826`: #97995\n- docs(skills): preserve prefetched UI during Part",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.10",
-      "published_at": "2026-08-28 10:14",
-      "tag": "v16.4.0-canary.10",
       "source": "release"
     }
   ]
