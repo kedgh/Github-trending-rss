@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-08-31 10:36",
+  "updated": "2026-08-31 20:16",
   "count": 15,
   "items": [
     {
@@ -87,28 +87,28 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.36.8](https://github.com/n8n-io/n8n/compare/n8n@2.36.7...n8n@2.36.8) (2026-08-28)\n\n\n### Bug Fixes\n\n* **core:** Allow a domain-restricted credential to work in its own node ([#37248](https://github.com/n8n-io/n8n/issues/37248)) ([1166741](https://github.com/n8n-io/n8n/commit/11667410b182250c39a5bdfdf0755c982895b6e4))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/37273?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-",
+      "description": "## [2.36.9](https://github.com/n8n-io/n8n/compare/n8n@2.36.8...n8n@2.36.9) (2026-08-31)\n\n\n### Bug Fixes\n\n* **core:** Apply proxy environment variables consistently across packages and processes ([#37258](https://github.com/n8n-io/n8n/issues/37258)) ([a3e3b6a](https://github.com/n8n-io/n8n/commit/a3e3b6a8c03df7c2f1f0c33201cb926cb8932b69))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/37381?utm_source=github\" target=\"_blank\" rel=\"noopener n",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-08-28 16:00",
+      "published_at": "2026-08-31 16:01",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.36.8",
+      "name": "n8n-io/n8n n8n@2.36.9",
       "repo": "n8n-io/n8n",
-      "description": "## [2.36.8](https://github.com/n8n-io/n8n/compare/n8n@2.36.7...n8n@2.36.8) (2026-08-28)\n\n\n### Bug Fixes\n\n* **core:** Allow a domain-restricted credential to work in its own node ([#37248](https://github.com/n8n-io/n8n/issues/37248)) ([1166741](https://github.com/n8n-io/n8n/commit/11667410b182250c39a5bdfdf0755c982895b6e4))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/37273?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.8",
-      "published_at": "2026-08-28 16:00",
-      "tag": "n8n@2.36.8",
+      "description": "## [2.36.9](https://github.com/n8n-io/n8n/compare/n8n@2.36.8...n8n@2.36.9) (2026-08-31)\n\n\n### Bug Fixes\n\n* **core:** Apply proxy environment variables consistently across packages and processes ([#37258](https://github.com/n8n-io/n8n/issues/37258)) ([a3e3b6a](https://github.com/n8n-io/n8n/commit/a3e3b6a8c03df7c2f1f0c33201cb926cb8932b69))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/37381?utm_source=github\" target=\"_blank\" rel=\"noopener n",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.9",
+      "published_at": "2026-08-31 16:01",
+      "tag": "n8n@2.36.9",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.37.4",
+      "name": "n8n-io/n8n n8n@2.37.6",
       "repo": "n8n-io/n8n",
-      "description": "## [2.37.4](https://github.com/n8n-io/n8n/compare/n8n@2.37.3...n8n@2.37.4) (2026-08-28)\n\n\n### Bug Fixes\n\n* **core:** Allow a domain-restricted credential to work in its own node ([#37247](https://github.com/n8n-io/n8n/issues/37247)) ([7452313](https://github.com/n8n-io/n8n/commit/745231314e2d9cd789b0ed5907af65b339800074))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/37274?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.37.4",
-      "published_at": "2026-08-28 16:21",
-      "tag": "n8n@2.37.4",
+      "description": "## [2.37.6](https://github.com/n8n-io/n8n/compare/n8n@2.37.4...n8n@2.37.6) (2026-08-31)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* **core:** Thread execution id through dynamic-credential storage ([#37314](https://github.com/n8n-io/n8n/issues/37314)) ([537524f](https://github.com/n8n-io/n8n/commit/537524f2b1600be07d97512063f7199431bfe45c))\r\n\r\n<!-- This is an auto-generated description by cubic. -->\r\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/37412?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" dat",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.37.6",
+      "published_at": "2026-08-31 19:43",
+      "tag": "n8n@2.37.6",
       "source": "release"
     },
     {
