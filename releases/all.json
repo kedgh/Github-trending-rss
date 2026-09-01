@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-01 06:13",
+  "updated": "2026-09-01 10:50",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.13",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- evals: stop requiring the removed viewTransition flag in agent-043: #98116\n- errors: shorten \"use cache\" messages and unify them into one factory: #94300\n- test: add adoption skill evals: #97759\n- Upgrade React from `29d9d318-20260826` to `ff7445e6-20260831`: #98113\n- [ci] Simplify `upload-preview-tarballs` workflow: #98109\n- devlow: use commander for cli argument parsing: #93860\n- [PPF] Pass in original searchParams for private-cache pages: #98041\n- docs: document create-nex",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.13",
+      "published_at": "2026-09-01 07:44",
+      "tag": "v16.4.0-canary.13",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.4",
       "repo": "vercel/next.js",
       "description": "Follow-up release to [v16.3.3](https://github.com/vercel/next.js/releases/tag/v16.3.3) re-enabling AVIF Image Optimization ([#97949](https://github.com/vercel/next.js/pull/97949)).\r\n\r\nThe following bug fixes have been backported. It does **not** include all pending features/changes on canary.\r\n\r\n- testmode: Fix infinite recursion in testmode passthrough fetch (#97691)\r\n- Fix build error when aliasing typescript to @typescript/typescript6 (#97997)\r\n- Fix unset crossOrigin in Turbopack manifests (",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v15.5.25",
       "published_at": "2026-09-01 04:02",
       "tag": "v15.5.25",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.12",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [ci] Remove the popular workflow and its action: #97753\n- Store keys in key order in SST blocks that omit hashes: #97480\n- Honor non-interactive mode in upgrade codemod prompts: #98030\n- Transform .mjs files with Next.js codemods: #98029\n\n### Credits \n\nHuge thanks to @eps1lon, @lukesandberg, and @devjiwonchoi for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.12",
-      "published_at": "2026-08-30 07:38",
-      "tag": "v16.4.0-canary.12",
       "source": "release"
     }
   ]
