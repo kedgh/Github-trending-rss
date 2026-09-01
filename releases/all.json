@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-01 10:50",
+  "updated": "2026-09-01 18:51",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n n8n@2.38.1",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.38.1](https://github.com/n8n-io/n8n/compare/n8n@2.37.0...n8n@2.38.1) (2026-09-01)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* Add parameter binding for mongodb sort and projection ([#37335](https://github.com/n8n-io/n8n/issues/37335)) ([292f442](https://github.com/n8n-io/n8n/commit/292f442afa6015312e36c28d339030cdf90f1535))\r\n* **ai-builder:** Add case for agent artifacts in AIA preview tab bar ([#37141](https://github.com/n8n-io/n8n/issues/37141)) ([ede265d](https://github.com/n8n-io/n8n/commit/ede265d46fce8cb",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.38.1",
+      "published_at": "2026-09-01 18:29",
+      "tag": "n8n@2.38.1",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n beta",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.38.1](https://github.com/n8n-io/n8n/compare/n8n@2.37.0...n8n@2.38.1) (2026-09-01)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* Add parameter binding for mongodb sort and projection ([#37335](https://github.com/n8n-io/n8n/issues/37335)) ([292f442](https://github.com/n8n-io/n8n/commit/292f442afa6015312e36c28d339030cdf90f1535))\r\n* **ai-builder:** Add case for agent artifacts in AIA preview tab bar ([#37141](https://github.com/n8n-io/n8n/issues/37141)) ([ede265d](https://github.com/n8n-io/n8n/commit/ede265d46fce8cb",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-09-01 18:29",
+      "tag": "beta",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
       "description": "## [2.36.9](https://github.com/n8n-io/n8n/compare/n8n@2.36.8...n8n@2.36.9) (2026-08-31)\n\n\n### Bug Fixes\n\n* **core:** Apply proxy environment variables consistently across packages and processes ([#37258](https://github.com/n8n-io/n8n/issues/37258)) ([a3e3b6a](https://github.com/n8n-io/n8n/commit/a3e3b6a8c03df7c2f1f0c33201cb926cb8932b69))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/37381?utm_source=github\" target=\"_blank\" rel=\"noopener n",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "published_at": "2026-08-31 16:01",
       "tag": "stable",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.36.9",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.36.9](https://github.com/n8n-io/n8n/compare/n8n@2.36.8...n8n@2.36.9) (2026-08-31)\n\n\n### Bug Fixes\n\n* **core:** Apply proxy environment variables consistently across packages and processes ([#37258](https://github.com/n8n-io/n8n/issues/37258)) ([a3e3b6a](https://github.com/n8n-io/n8n/commit/a3e3b6a8c03df7c2f1f0c33201cb926cb8932b69))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/37381?utm_source=github\" target=\"_blank\" rel=\"noopener n",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.9",
-      "published_at": "2026-08-31 16:01",
-      "tag": "n8n@2.36.9",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.37.6",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.37.6](https://github.com/n8n-io/n8n/compare/n8n@2.37.4...n8n@2.37.6) (2026-08-31)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* **core:** Thread execution id through dynamic-credential storage ([#37314](https://github.com/n8n-io/n8n/issues/37314)) ([537524f](https://github.com/n8n-io/n8n/commit/537524f2b1600be07d97512063f7199431bfe45c))\r\n\r\n<!-- This is an auto-generated description by cubic. -->\r\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/37412?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" dat",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.37.6",
-      "published_at": "2026-08-31 19:43",
-      "tag": "n8n@2.37.6",
       "source": "release"
     },
     {
