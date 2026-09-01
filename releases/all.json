@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-09-01 23:49",
+  "updated": "2026-09-02 04:20",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain==1.4.0a3",
+      "repo": "langchain-ai/langchain",
+      "description": "Third alpha of the `1.4.0` line. This release focuses on the new `langchain.mcp` namespace for adapting MCP servers into LangChain tools.\n\n## `langchain.mcp` highlights\n\n- **`MCPAdapter`** adapts any target `fastmcp.Client` accepts — a URL, a local script, an in-process server, an `MCPConfig` naming several servers, or a pre-built client — as well as a FastMCP `ClientGroup` for a fleet of servers behind one client.\n- **`MCPAdapter.list_tools(*, cache_mode=\"use\")`** discovers and adapts tools, wi",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a3",
+      "published_at": "2026-09-02 01:19",
+      "tag": "langchain==1.4.0a3",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain==1.4.0a2",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a1",
       "published_at": "2026-08-28 06:21",
       "tag": "langchain==1.4.0a1",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain==1.3.18",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==1.3.17\n\nrelease(langchain): 1.3.18 (#39966)\nfix(langchain): preserve content-block shape in PIIMiddleware redaction (#39894)\nfix(core): shore up indexing in genai v1 streaming content (#39964)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.18",
-      "published_at": "2026-08-28 01:33",
-      "tag": "langchain==1.3.18",
       "source": "release"
     },
     {
