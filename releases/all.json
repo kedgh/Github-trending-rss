@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-09-02 10:10",
+  "updated": "2026-09-02 18:16",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain==1.4.0a4",
+      "repo": "langchain-ai/langchain",
+      "description": "Initial release\n\nrelease(langchain): 1.4.0a4\ntest(langchain): cover mixed-era ClientGroup and group elicitation\nUpdate libs/langchain_v1/langchain/mcp/adapter.py\nfix(langchain): drive MCP elicitation via member session for fastmcp 4.0.1\nfix(sdk): use latest fastmcp and rm reentrant impl\ncr\ncr\nrefactor(langchain): inline MCP client arming into `__init__`\nrefactor(langchain): stamp an arm marker instead of introspecting the handler closure\nfix(langchain): gate MCP interrupt routing on the negotiat",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a4",
+      "published_at": "2026-09-02 13:35",
+      "tag": "langchain==1.4.0a4",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain==1.4.0a3",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a2",
       "published_at": "2026-08-29 00:19",
       "tag": "langchain==1.4.0a2",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain==1.4.0a1",
-      "repo": "langchain-ai/langchain",
-      "description": "Initial release\n\nfix(langchain): name the content type MCP conversion could not handle\nrelease(langchain): 1.4.0a1\ntest(langchain): skip MCP tests on a pydantic older than `mcp` supports\ntest(langchain): drive MCP tests through FastMCP's own utilities\nfix(langchain/mcp): review edits (#39974)\nMerge remote-tracking branch 'origin/master' into sydney-runkle/langchain/simplify-mcp-adapter\nfix(langchain): import `assert_never` from `typing_extensions`\ntest(langchain): fix type errors in the MCP test",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a1",
-      "published_at": "2026-08-28 06:21",
-      "tag": "langchain==1.4.0a1",
       "source": "release"
     },
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.38.1",
-      "repo": "n8n-io/n8n",
-      "description": "# [2.38.1](https://github.com/n8n-io/n8n/compare/n8n@2.37.0...n8n@2.38.1) (2026-09-01)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* Add parameter binding for mongodb sort and projection ([#37335](https://github.com/n8n-io/n8n/issues/37335)) ([292f442](https://github.com/n8n-io/n8n/commit/292f442afa6015312e36c28d339030cdf90f1535))\r\n* **ai-builder:** Add case for agent artifacts in AIA preview tab bar ([#37141](https://github.com/n8n-io/n8n/issues/37141)) ([ede265d](https://github.com/n8n-io/n8n/commit/ede265d46fce8cb",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.38.1",
-      "published_at": "2026-09-01 18:29",
-      "tag": "n8n@2.38.1",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n beta",
-      "repo": "n8n-io/n8n",
-      "description": "# [2.38.1](https://github.com/n8n-io/n8n/compare/n8n@2.37.0...n8n@2.38.1) (2026-09-01)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* Add parameter binding for mongodb sort and projection ([#37335](https://github.com/n8n-io/n8n/issues/37335)) ([292f442](https://github.com/n8n-io/n8n/commit/292f442afa6015312e36c28d339030cdf90f1535))\r\n* **ai-builder:** Add case for agent artifacts in AIA preview tab bar ([#37141](https://github.com/n8n-io/n8n/issues/37141)) ([ede265d](https://github.com/n8n-io/n8n/commit/ede265d46fce8cb",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-09-01 18:29",
-      "tag": "beta",
-      "source": "release"
-    },
-    {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.36.9](https://github.com/n8n-io/n8n/compare/n8n@2.36.8...n8n@2.36.9) (2026-08-31)\n\n\n### Bug Fixes\n\n* **core:** Apply proxy environment variables consistently across packages and processes ([#37258](https://github.com/n8n-io/n8n/issues/37258)) ([a3e3b6a](https://github.com/n8n-io/n8n/commit/a3e3b6a8c03df7c2f1f0c33201cb926cb8932b69))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/37381?utm_source=github\" target=\"_blank\" rel=\"noopener n",
+      "description": "## [2.37.7](https://github.com/n8n-io/n8n/compare/n8n@2.37.6...n8n@2.37.7) (2026-09-02)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/37609?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/review-in-c",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-08-31 16:01",
+      "published_at": "2026-09-02 16:41",
       "tag": "stable",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n n8n@2.37.7",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.37.7](https://github.com/n8n-io/n8n/compare/n8n@2.37.6...n8n@2.37.7) (2026-09-02)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/37609?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/review-in-c",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.37.7",
+      "published_at": "2026-09-02 16:41",
+      "tag": "n8n@2.37.7",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n n8n@1.123.76",
+      "repo": "n8n-io/n8n",
+      "description": "## [1.123.76](https://github.com/n8n-io/n8n/compare/n8n@1.123.75...n8n@1.123.76) (2026-09-02)\n\n\n### Bug Fixes\n\n* **core:** Bump browserslist to 4.28.7 to clear CVE-2026-73088/73089 ([9de4cce](https://github.com/n8n-io/n8n/commit/9de4ccefcf623a1a3917532fa155a2410019204c))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/37610?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(pref",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.76",
+      "published_at": "2026-09-02 15:37",
+      "tag": "n8n@1.123.76",
       "source": "release"
     },
     {
