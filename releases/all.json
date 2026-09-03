@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-03 04:20",
+  "updated": "2026-09-03 10:16",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.33.3-rc1",
+      "name": "ollama/ollama v0.33.3-rc2",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* Report cached prompt tokens\r\n* Honor GGUF model defined default parameters\r\n* MLX, MLX-C, llama.cpp update\r\n\r\n## New Contributors\r\n* @marcelpetrick made their first contribution in https://github.com/ollama/ollama/pull/17579\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.33.2...v0.33.3-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc2",
       "published_at": "2026-09-02 08:11",
-      "tag": "v0.33.3-rc1",
+      "tag": "v0.33.3-rc2",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.15",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Reduce Turbopack cache size with per-family compression: #97714\n- [test] Skip hooks of suites skipped by a lazy `@force-gate`: #98169\n- docs: local development: Rewrite docker section, add Windows Dev Drive and WSL2 instructions: #98164\n- Bump swc to v77: #97407\n- Upgrade React from `ff7445e6-20260831` to `21c89c9f-20260901`: #98147\n- turbo-tasks-backend: parent_count-driven garbage collection: #97282\n- Remove the worker thread for turbopack builds: #96862\n- turbo-tasks-mallo",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.15",
+      "published_at": "2026-09-03 07:43",
+      "tag": "v16.4.0-canary.15",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.14",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- turbo-tasks-malloc: report memory from mimalloc: #97761\n- Remove Edge runtime handling in use-cache-wrapper: #98139\n- Skip discussions in the `issue_lock` workflow: #98146\n- [ci] Fix `issue_lock`: #97755\n- docs: document preloading with Cache Components: #97864\n- chore: Remove expired sharp release age exclusions: #98120\n\n### Credits \n\nHuge thanks to @lukesandberg, @mischnic, @eps1lon, @aurorascharff, and @styfle for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.13",
       "published_at": "2026-09-01 07:44",
       "tag": "v16.4.0-canary.13",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.4",
-      "repo": "vercel/next.js",
-      "description": "Follow-up release to [v16.3.3](https://github.com/vercel/next.js/releases/tag/v16.3.3) re-enabling AVIF Image Optimization ([#97949](https://github.com/vercel/next.js/pull/97949)).\r\n\r\nThe following bug fixes have been backported. It does **not** include all pending features/changes on canary.\r\n\r\n- testmode: Fix infinite recursion in testmode passthrough fetch (#97691)\r\n- Fix build error when aliasing typescript to @typescript/typescript6 (#97997)\r\n- Fix unset crossOrigin in Turbopack manifests (",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.4",
-      "published_at": "2026-09-01 04:02",
-      "tag": "v16.3.4",
       "source": "release"
     }
   ]
