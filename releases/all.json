@@ -1,8 +1,26 @@
 {
   "title": "Releases",
-  "updated": "2026-09-03 23:32",
+  "updated": "2026-09-04 04:20",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain==1.4.0",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain==1.3.18\n\ndocs(langchain): runnable `langchain.mcp` examples (#39976)\nfeat(langchain): `langchain.mcp` namespace, `MCPAdapter` (#39939)\nperf(anthropic,langchain): omit middleware trace inputs (#40098)\nfix(langchain): include model destination in agent tool routing (#38355)\nchore(langchain): bump vcrpy test dependency minimum to `>=8.2.0` (#39942)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0",
+      "published_at": "2026-09-04 00:59",
+      "tag": "langchain==1.4.0",
+      "source": "release"
+    },
+    {
+      "name": "langchain-ai/langchain langchain-anthropic==1.7.1",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-anthropic==1.7.0\n\nrelease(anthropic): 1.7.1 (#40181)\nperf(anthropic,langchain): omit middleware trace inputs (#40098)\nfeat(anthropic): add Claude Fable 5.1 support (#40106)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.1",
+      "published_at": "2026-09-03 23:42",
+      "tag": "langchain-anthropic==1.7.1",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain==1.4.0a4",
       "repo": "langchain-ai/langchain",
@@ -10,24 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a4",
       "published_at": "2026-09-02 13:35",
       "tag": "langchain==1.4.0a4",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain==1.4.0a3",
-      "repo": "langchain-ai/langchain",
-      "description": "Third alpha of the `1.4.0` line. This release focuses on the new `langchain.mcp` namespace for adapting MCP servers into LangChain tools.\n\n## `langchain.mcp` highlights\n\n- **`MCPAdapter`** adapts any target `fastmcp.Client` accepts — a URL, a local script, an in-process server, an `MCPConfig` naming several servers, or a pre-built client — as well as a FastMCP `ClientGroup` for a fleet of servers behind one client.\n- **`MCPAdapter.list_tools(*, cache_mode=\"use\")`** discovers and adapts tools, wi",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a3",
-      "published_at": "2026-09-02 01:19",
-      "tag": "langchain==1.4.0a3",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain==1.4.0a2",
-      "repo": "langchain-ai/langchain",
-      "description": "Alpha preview of `langchain.mcp` — a first-party adapter that turns any MCP server into LangChain tools you can hand straight to `create_agent`.\n\nConnection handling is [FastMCP](https://gofastmcp.com/clients/client)'s, so its client features are available as-is rather than re-implemented behind a narrower interface.\n\n```bash\npip install \"langchain[mcp]==1.4.0a2\"\n```\n\n## Connect\n\n`MCPAdapter` takes any target `fastmcp.Client` accepts — transport is inferred, so there is one entry point rather th",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a2",
-      "published_at": "2026-08-29 00:19",
-      "tag": "langchain==1.4.0a2",
       "source": "release"
     },
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.33.3-rc2",
+      "name": "ollama/ollama v0.33.3",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* Report cached prompt tokens\r\n* Honor GGUF model defined default parameters\r\n* MLX, MLX-C, llama.cpp update\r\n\r\n## New Contributors\r\n* @marcelpetrick made their first contribution in https://github.com/ollama/ollama/pull/17579\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.33.2...v0.33.3-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc2",
+      "description": "## What's Changed\r\n* gemma4 now supports images and audio on MLX engine\r\n* Report cached prompt tokens\r\n* Honor GGUF model defined default parameters\r\n* MLX, MLX-C, llama.cpp update\r\n\r\n## New Contributors\r\n* @marcelpetrick made their first contribution in https://github.com/ollama/ollama/pull/17579\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.33.2...v0.33.3",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3",
       "published_at": "2026-09-02 08:11",
-      "tag": "v0.33.3-rc2",
+      "tag": "v0.33.3",
       "source": "release"
     },
     {
