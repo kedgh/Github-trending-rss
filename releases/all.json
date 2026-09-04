@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-04 04:20",
+  "updated": "2026-09-04 10:12",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.16",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- test: remove stale deploy manifest exclusions: #98051\n- Enable hourly next-maintainer auto-close workflow: #98225\n- Return client errors for unrecognized Server Actions: #98123\n- Add Next Maintainer auto-close workflow: #98197\n- perf(turbopack): skip ignored files during server tracing: #97475\n- docs: note that experimental.taint taints process.env: #98145\n- test: preserve static params during Cache Components migration: #98209\n- Upgrade web-vitals to v6 and report soft navig",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.16",
+      "published_at": "2026-09-04 07:47",
+      "tag": "v16.4.0-canary.16",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.15",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Reduce Turbopack cache size with per-family compression: #97714\n- [test] Skip hooks of suites skipped by a lazy `@force-gate`: #98169\n- docs: local development: Rewrite docker section, add Windows Dev Drive and WSL2 instructions: #98164\n- Bump swc to v77: #97407\n- Upgrade React from `ff7445e6-20260831` to `21c89c9f-20260901`: #98147\n- turbo-tasks-backend: parent_count-driven garbage collection: #97282\n- Remove the worker thread for turbopack builds: #96862\n- turbo-tasks-mallo",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.14",
       "published_at": "2026-09-02 07:42",
       "tag": "v16.4.0-canary.14",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.13",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- evals: stop requiring the removed viewTransition flag in agent-043: #98116\n- errors: shorten \"use cache\" messages and unify them into one factory: #94300\n- test: add adoption skill evals: #97759\n- Upgrade React from `29d9d318-20260826` to `ff7445e6-20260831`: #98113\n- [ci] Simplify `upload-preview-tarballs` workflow: #98109\n- devlow: use commander for cli argument parsing: #93860\n- [PPF] Pass in original searchParams for private-cache pages: #98041\n- docs: document create-nex",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.13",
-      "published_at": "2026-09-01 07:44",
-      "tag": "v16.4.0-canary.13",
       "source": "release"
     }
   ]
