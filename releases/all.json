@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-09-05 04:05",
+  "updated": "2026-09-05 10:13",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-core==1.6.2",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-core==1.6.1\n\nrelease(core): 1.6.2 (#40209)\nfeat(openai): support async tools (#40208)\nchore(deps): bump mistune from 3.3.0 to 3.3.3 in /libs/core (#40150)\nchore(deps): bump tornado from 6.5.7 to 6.5.8 in /libs/core (#40113)\nfix(core): avoid mutation in google-genai standard content (#40023)\nfix(core): avoid mutation in bedrock converse standard content (#40022)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.2",
+      "published_at": "2026-09-05 05:29",
+      "tag": "langchain-core==1.6.2",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain==1.4.0",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.1",
       "published_at": "2026-09-03 23:42",
       "tag": "langchain-anthropic==1.7.1",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain==1.4.0a4",
-      "repo": "langchain-ai/langchain",
-      "description": "Initial release\n\nrelease(langchain): 1.4.0a4\ntest(langchain): cover mixed-era ClientGroup and group elicitation\nUpdate libs/langchain_v1/langchain/mcp/adapter.py\nfix(langchain): drive MCP elicitation via member session for fastmcp 4.0.1\nfix(sdk): use latest fastmcp and rm reentrant impl\ncr\ncr\nrefactor(langchain): inline MCP client arming into `__init__`\nrefactor(langchain): stamp an arm marker instead of introspecting the handler closure\nfix(langchain): gate MCP interrupt routing on the negotiat",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a4",
-      "published_at": "2026-09-02 13:35",
-      "tag": "langchain==1.4.0a4",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.18",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Turbopack: fix `source` field in CSS sourcemaps: #88225\n- fix: track dynamic accesses in final runtime prerenders: #98255\n- docs: add API reference pages for skipProxyUrlNormalize and skipTrailingSlashRedirect: #97967\n\n### Credits \n\nHuge thanks to @Xanaado, @lubieowoce, and @icyJoseph for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.18",
+      "published_at": "2026-09-05 07:41",
+      "tag": "v16.4.0-canary.18",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.17",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Turn on the adapter route collapses by default: #98218\n- fix: suppress missing package manager errors in next info: #97946\n\n### Credits \n\nHuge thanks to @unstubbable and @marcoshernanz for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.16",
       "published_at": "2026-09-04 07:47",
       "tag": "v16.4.0-canary.16",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.15",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Reduce Turbopack cache size with per-family compression: #97714\n- [test] Skip hooks of suites skipped by a lazy `@force-gate`: #98169\n- docs: local development: Rewrite docker section, add Windows Dev Drive and WSL2 instructions: #98164\n- Bump swc to v77: #97407\n- Upgrade React from `ff7445e6-20260831` to `21c89c9f-20260901`: #98147\n- turbo-tasks-backend: parent_count-driven garbage collection: #97282\n- Remove the worker thread for turbopack builds: #96862\n- turbo-tasks-mallo",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.15",
-      "published_at": "2026-09-03 07:43",
-      "tag": "v16.4.0-canary.15",
       "source": "release"
     }
   ]
