@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-06 03:44",
+  "updated": "2026-09-06 10:08",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.34.0-rc1",
+      "repo": "ollama/ollama",
+      "description": "## Use Ollama models in ChatGPT Desktop\r\n\r\nOllama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models. Setup is available from the Ollama app on MacOS.\r\n\r\nThis release also improves structured output performance on Apple Silicon, adds support for OpenAI-compatible client tool search and response compaction, and makes images work correctly through compacted responses.\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc1",
+      "published_at": "2026-09-06 07:49",
+      "tag": "v0.34.0-rc1",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.33.3",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* gemma4 now supports images and audio on MLX engine\r\n* Report cached prompt tokens\r\n* Honor GGUF model defined default parameters\r\n* MLX, MLX-C, llama.cpp update\r\n\r\n## New Contributors\r\n* @marcelpetrick made their first contribution in https://github.com/ollama/ollama/pull/17579\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.33.2...v0.33.3",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.33.2",
       "published_at": "2026-08-28 04:31",
       "tag": "v0.33.2",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.33.1",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* MLX: Qwen3.8 Flash Next support\r\n* cmake: make external compat patches idempotent\r\n* MLX and llama.cpp update\r\n* mlxrunner: add structured output support\r\n* mlxrunner: avoid Metal GPU timeouts when loading models from slow storage\r\n\r\n## New Contributors\r\n* @pd95 made their first contribution in https://github.com/ollama/ollama/pull/17948\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.33.0...v0.33.1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.1",
-      "published_at": "2026-08-27 02:09",
-      "tag": "v0.33.1",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.19",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- fix: route info segment overrides not updating in dev overlay: #96968\n\n### Credits \n\nHuge thanks to @mezotv for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.19",
+      "published_at": "2026-09-06 07:37",
+      "tag": "v16.4.0-canary.19",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.18",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Turbopack: fix `source` field in CSS sourcemaps: #88225\n- fix: track dynamic accesses in final runtime prerenders: #98255\n- docs: add API reference pages for skipProxyUrlNormalize and skipTrailingSlashRedirect: #97967\n\n### Credits \n\nHuge thanks to @Xanaado, @lubieowoce, and @icyJoseph for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.17",
       "published_at": "2026-09-04 16:59",
       "tag": "v16.4.0-canary.17",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.16",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- test: remove stale deploy manifest exclusions: #98051\n- Enable hourly next-maintainer auto-close workflow: #98225\n- Return client errors for unrecognized Server Actions: #98123\n- Add Next Maintainer auto-close workflow: #98197\n- perf(turbopack): skip ignored files during server tracing: #97475\n- docs: note that experimental.taint taints process.env: #98145\n- test: preserve static params during Cache Components migration: #98209\n- Upgrade web-vitals to v6 and report soft navig",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.16",
-      "published_at": "2026-09-04 07:47",
-      "tag": "v16.4.0-canary.16",
       "source": "release"
     }
   ]
