@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-08 04:56",
+  "updated": "2026-09-08 10:17",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.20",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- test(turbopack): remove dead top-level task unmarks: #98246\n- Fix flaky successive HMR changes test: #97610\n- docs: Remove version label from Turbopack in Pages Router: #98316\n- turbo-tasks-backend: fix strongly consistent read hanging on a canceled task: #98312\n\n### Credits \n\nHuge thanks to @lukesandberg, @sokra, and @icyJoseph for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.20",
+      "published_at": "2026-09-08 07:41",
+      "tag": "v16.4.0-canary.20",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.19",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- fix: route info segment overrides not updating in dev overlay: #96968\n\n### Credits \n\nHuge thanks to @mezotv for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.18",
       "published_at": "2026-09-05 07:41",
       "tag": "v16.4.0-canary.18",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.17",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Turn on the adapter route collapses by default: #98218\n- fix: suppress missing package manager errors in next info: #97946\n\n### Credits \n\nHuge thanks to @unstubbable and @marcoshernanz for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.17",
-      "published_at": "2026-09-04 16:59",
-      "tag": "v16.4.0-canary.17",
       "source": "release"
     }
   ]
