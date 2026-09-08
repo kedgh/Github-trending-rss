@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-08 10:17",
+  "updated": "2026-09-08 18:20",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n n8n@2.39.0",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.39.0](https://github.com/n8n-io/n8n/compare/n8n@2.38.1...n8n@2.39.0) (2026-09-08)\n\n\n### Bug Fixes\n\n* **ai-builder:** UI tweak to prevent overflowing text on err callout when on Agent Preview ([#37615](https://github.com/n8n-io/n8n/issues/37615)) ([c2e8d02](https://github.com/n8n-io/n8n/commit/c2e8d0292162e8324d4e77fca7c6e615884b196b))\n* **AMQP Trigger Node:** Reattach the receiver link when the broker detaches it ([#37431](https://github.com/n8n-io/n8n/issues/37431)) ([ddf6534](https://gith",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.0",
+      "published_at": "2026-09-08 16:25",
+      "tag": "n8n@2.39.0",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n beta",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.39.0](https://github.com/n8n-io/n8n/compare/n8n@2.38.1...n8n@2.39.0) (2026-09-08)\n\n\n### Bug Fixes\n\n* **ai-builder:** UI tweak to prevent overflowing text on err callout when on Agent Preview ([#37615](https://github.com/n8n-io/n8n/issues/37615)) ([c2e8d02](https://github.com/n8n-io/n8n/commit/c2e8d0292162e8324d4e77fca7c6e615884b196b))\n* **AMQP Trigger Node:** Reattach the receiver link when the broker detaches it ([#37431](https://github.com/n8n-io/n8n/issues/37431)) ([ddf6534](https://gith",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-09-08 16:25",
+      "tag": "beta",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.37.11](https://github.com/n8n-io/n8n/compare/n8n@2.37.10...n8n@2.37.11) (2026-09-07)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* **core:** Ensure running job cleanup when a workflow run rejects ([#37826](https://github.com/n8n-io/n8n/issues/37826)) ([257f0bb](https://github.com/n8n-io/n8n/commit/257f0bb616fe6013032513b7bfae3d7304efaf11))\r\n* **core:** Keep a serving external secrets provider active when its replacement fails ([#37872](https://github.com/n8n-io/n8n/issues/37872)) ([865fa12](https://github.com/n",
+      "description": "# [2.38.1](https://github.com/n8n-io/n8n/compare/n8n@2.37.0...n8n@2.38.1) (2026-09-01)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* Add parameter binding for mongodb sort and projection ([#37335](https://github.com/n8n-io/n8n/issues/37335)) ([292f442](https://github.com/n8n-io/n8n/commit/292f442afa6015312e36c28d339030cdf90f1535))\r\n* **ai-builder:** Add case for agent artifacts in AIA preview tab bar ([#37141](https://github.com/n8n-io/n8n/issues/37141)) ([ede265d](https://github.com/n8n-io/n8n/commit/ede265d46fce8cb",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-09-07 20:53",
+      "published_at": "2026-09-08 16:29",
       "tag": "stable",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.37.11",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.37.11](https://github.com/n8n-io/n8n/compare/n8n@2.37.10...n8n@2.37.11) (2026-09-07)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* **core:** Ensure running job cleanup when a workflow run rejects ([#37826](https://github.com/n8n-io/n8n/issues/37826)) ([257f0bb](https://github.com/n8n-io/n8n/commit/257f0bb616fe6013032513b7bfae3d7304efaf11))\r\n* **core:** Keep a serving external secrets provider active when its replacement fails ([#37872](https://github.com/n8n-io/n8n/issues/37872)) ([865fa12](https://github.com/n",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.37.11",
-      "published_at": "2026-09-07 20:53",
-      "tag": "n8n@2.37.11",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.38.4",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.38.4](https://github.com/n8n-io/n8n/compare/n8n@2.38.3...n8n@2.38.4) (2026-09-07)\n\n\n### Bug Fixes\n\n* **core:** Cap task runner task timeouts to the graceful shutdown window ([#37765](https://github.com/n8n-io/n8n/issues/37765)) ([6e12447](https://github.com/n8n-io/n8n/commit/6e12447f9b747da8f41cf7246e57ca0fa7ed5f16))\n* **core:** Keep a serving external secrets provider active when its replacement fails ([#37882](https://github.com/n8n-io/n8n/issues/37882)) ([1abbd4b](https://github.com/n8n",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.38.4",
-      "published_at": "2026-09-07 16:01",
-      "tag": "n8n@2.38.4",
       "source": "release"
     },
     {
