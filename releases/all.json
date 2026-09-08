@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-08 23:43",
+  "updated": "2026-09-09 04:31",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.21",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Bump to swc v78: #98268\n- Create next.config.ts when generating apps with `pnpm new-test`: #98364\n- test(evals): accept LayoutProps in App Router migration: #98365\n- [test] Run deploy tests against local JavaScript changes by default: #98353\n- [test] Resolve `workspace:*` packages to the version under test: #98330\n- turbo-tasks: explicit GC root anchoring + cross-session orphan reclamation: #96857\n- [PPF] Fix missing runtime-follow up if hints are stale: #98278\n- Instant vali",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.21",
+      "published_at": "2026-09-09 04:23",
+      "tag": "v16.4.0-canary.21",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.20",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- test(turbopack): remove dead top-level task unmarks: #98246\n- Fix flaky successive HMR changes test: #97610\n- docs: Remove version label from Turbopack in Pages Router: #98316\n- turbo-tasks-backend: fix strongly consistent read hanging on a canceled task: #98312\n\n### Credits \n\nHuge thanks to @lukesandberg, @sokra, and @icyJoseph for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.19",
       "published_at": "2026-09-06 07:37",
       "tag": "v16.4.0-canary.19",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.18",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Turbopack: fix `source` field in CSS sourcemaps: #88225\n- fix: track dynamic accesses in final runtime prerenders: #98255\n- docs: add API reference pages for skipProxyUrlNormalize and skipTrailingSlashRedirect: #97967\n\n### Credits \n\nHuge thanks to @Xanaado, @lubieowoce, and @icyJoseph for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.18",
-      "published_at": "2026-09-05 07:41",
-      "tag": "v16.4.0-canary.18",
       "source": "release"
     }
   ]
