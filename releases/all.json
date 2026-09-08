@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-09-08 18:20",
+  "updated": "2026-09-08 23:43",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-openai==1.6.1",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-openai==1.6.0\n\nfix(openai): bump `max_completion_tokens` in cache breakpoint integration test (#40284)\nrelease(openai): 1.6.1 (#40268)\nchore(model-profiles): refresh model profile data (#40217)\nfix(openai): support Azure AD auth with OpenAI 3.8 (#40190)\nfeat(openai): support async tools (#40208)\nfeat(openai): support `configuration_update` (#40201)\nchore(model-profiles): refresh model profile data (#40171)\nfix(openai): route `gpt-5.6-sol` to responses API (#40133)\nchore(o",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.1",
+      "published_at": "2026-09-08 22:20",
+      "tag": "langchain-openai==1.6.1",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-core==1.6.2",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0",
       "published_at": "2026-09-04 00:59",
       "tag": "langchain==1.4.0",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-anthropic==1.7.1",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-anthropic==1.7.0\n\nrelease(anthropic): 1.7.1 (#40181)\nperf(anthropic,langchain): omit middleware trace inputs (#40098)\nfeat(anthropic): add Claude Fable 5.1 support (#40106)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.1",
-      "published_at": "2026-09-03 23:42",
-      "tag": "langchain-anthropic==1.7.1",
       "source": "release"
     },
     {
