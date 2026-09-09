@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-09 04:31",
+  "updated": "2026-09-09 10:20",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.34.0-rc1",
+      "name": "ollama/ollama v0.34.0-rc3",
       "repo": "ollama/ollama",
       "description": "## Use Ollama models in ChatGPT Desktop\r\n\r\nOllama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models. Setup is available from the Ollama app on MacOS.\r\n\r\nThis release also improves structured output performance on Apple Silicon, adds support for OpenAI-compatible client tool search and response compaction, and makes images work correctly through compacted responses.\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc3",
       "published_at": "2026-09-06 07:49",
-      "tag": "v0.34.0-rc1",
+      "tag": "v0.34.0-rc3",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.22",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Add version for loaders api: #98377\n- turbo-tasks-backend: let a GC pass wind down when it is blocking an operation: #96676\n- docs: preserve Next.js development state: #98276\n- Adds .resolve to loaders api: #98361\n\n### Credits \n\nHuge thanks to @jimmyhmiller, @lukesandberg, and @aurorascharff for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.22",
+      "published_at": "2026-09-09 07:43",
+      "tag": "v16.4.0-canary.22",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.21",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Bump to swc v78: #98268\n- Create next.config.ts when generating apps with `pnpm new-test`: #98364\n- test(evals): accept LayoutProps in App Router migration: #98365\n- [test] Run deploy tests against local JavaScript changes by default: #98353\n- [test] Resolve `workspace:*` packages to the version under test: #98330\n- turbo-tasks: explicit GC root anchoring + cross-session orphan reclamation: #96857\n- [PPF] Fix missing runtime-follow up if hints are stale: #98278\n- Instant vali",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.20",
       "published_at": "2026-09-08 07:41",
       "tag": "v16.4.0-canary.20",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.19",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- fix: route info segment overrides not updating in dev overlay: #96968\n\n### Credits \n\nHuge thanks to @mezotv for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.19",
-      "published_at": "2026-09-06 07:37",
-      "tag": "v16.4.0-canary.19",
       "source": "release"
     }
   ]
