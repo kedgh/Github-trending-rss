@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-09 18:29",
+  "updated": "2026-09-09 23:39",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,39 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.39.0",
-      "repo": "n8n-io/n8n",
-      "description": "# [2.39.0](https://github.com/n8n-io/n8n/compare/n8n@2.38.1...n8n@2.39.0) (2026-09-08)\n\n\n### Bug Fixes\n\n* **ai-builder:** UI tweak to prevent overflowing text on err callout when on Agent Preview ([#37615](https://github.com/n8n-io/n8n/issues/37615)) ([c2e8d02](https://github.com/n8n-io/n8n/commit/c2e8d0292162e8324d4e77fca7c6e615884b196b))\n* **AMQP Trigger Node:** Reattach the receiver link when the broker detaches it ([#37431](https://github.com/n8n-io/n8n/issues/37431)) ([ddf6534](https://gith",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.0",
-      "published_at": "2026-09-08 16:25",
-      "tag": "n8n@2.39.0",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n beta",
-      "repo": "n8n-io/n8n",
-      "description": "# [2.39.0](https://github.com/n8n-io/n8n/compare/n8n@2.38.1...n8n@2.39.0) (2026-09-08)\n\n\n### Bug Fixes\n\n* **ai-builder:** UI tweak to prevent overflowing text on err callout when on Agent Preview ([#37615](https://github.com/n8n-io/n8n/issues/37615)) ([c2e8d02](https://github.com/n8n-io/n8n/commit/c2e8d0292162e8324d4e77fca7c6e615884b196b))\n* **AMQP Trigger Node:** Reattach the receiver link when the broker detaches it ([#37431](https://github.com/n8n-io/n8n/issues/37431)) ([ddf6534](https://gith",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-09-08 16:25",
-      "tag": "beta",
-      "source": "release"
-    },
-    {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "# [2.38.1](https://github.com/n8n-io/n8n/compare/n8n@2.37.0...n8n@2.38.1) (2026-09-01)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* Add parameter binding for mongodb sort and projection ([#37335](https://github.com/n8n-io/n8n/issues/37335)) ([292f442](https://github.com/n8n-io/n8n/commit/292f442afa6015312e36c28d339030cdf90f1535))\r\n* **ai-builder:** Add case for agent artifacts in AIA preview tab bar ([#37141](https://github.com/n8n-io/n8n/issues/37141)) ([ede265d](https://github.com/n8n-io/n8n/commit/ede265d46fce8cb",
+      "description": "## [2.38.5](https://github.com/n8n-io/n8n/compare/n8n@2.38.4...n8n@2.38.5) (2026-09-09)\n\n\n### Bug Fixes\n\n* **core:** Keep reporting the original job error when the job key is gone ([#38028](https://github.com/n8n-io/n8n/issues/38028)) ([cfc385f](https://github.com/n8n-io/n8n/commit/cfc385f49f2b198464228b4dc5429fb6d4da1cdf))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/38202?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" dat",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-09-08 16:29",
+      "published_at": "2026-09-09 20:03",
       "tag": "stable",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n n8n@2.38.5",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.38.5](https://github.com/n8n-io/n8n/compare/n8n@2.38.4...n8n@2.38.5) (2026-09-09)\n\n\n### Bug Fixes\n\n* **core:** Keep reporting the original job error when the job key is gone ([#38028](https://github.com/n8n-io/n8n/issues/38028)) ([cfc385f](https://github.com/n8n-io/n8n/commit/cfc385f49f2b198464228b4dc5429fb6d4da1cdf))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/38202?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" dat",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.38.5",
+      "published_at": "2026-09-09 20:03",
+      "tag": "n8n@2.38.5",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n n8n@2.39.1",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.39.1](https://github.com/n8n-io/n8n/compare/n8n@2.39.0...n8n@2.39.1) (2026-09-09)\n\n\n### Bug Fixes\n\n* **core:** Repair legacy-format data-encryption keys during bootstrap ([#38142](https://github.com/n8n-io/n8n/issues/38142)) ([514e20b](https://github.com/n8n-io/n8n/commit/514e20b83d509bd07618cc48650fe783c4bf74f7))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/38203?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.1",
+      "published_at": "2026-09-09 20:25",
+      "tag": "n8n@2.39.1",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.4.0-canary.23",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Turbopack: fix require handling with alternative: #98258\n- docs: clarify ISR with Suspense params: #98210\n- [cd] Update `peerDependencies` in prereleases to accept the current prerelease: #98411\n- test: stabilize error recovery snapshot timing: #98414\n- example: Use a Redis cacheHandler w/o dependencies: #95346\n- Support durable use-cache entries with client components: #98140\n- Upgrade React from `f4e439e1-20260902` to `6c0e1047-20260908`: #98363\n- fix: preserve repeated --r",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.23",
+      "published_at": "2026-09-09 23:09",
+      "tag": "v16.4.0-canary.23",
       "source": "release"
     },
     {
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.21",
       "published_at": "2026-09-09 04:23",
       "tag": "v16.4.0-canary.21",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.20",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- test(turbopack): remove dead top-level task unmarks: #98246\n- Fix flaky successive HMR changes test: #97610\n- docs: Remove version label from Turbopack in Pages Router: #98316\n- turbo-tasks-backend: fix strongly consistent read hanging on a canceled task: #98312\n\n### Credits \n\nHuge thanks to @lukesandberg, @sokra, and @icyJoseph for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.20",
-      "published_at": "2026-09-08 07:41",
-      "tag": "v16.4.0-canary.20",
       "source": "release"
     }
   ]
