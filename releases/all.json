@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-09-10 04:14",
+  "updated": "2026-09-10 10:20",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-openai==1.6.2",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-openai==1.6.1\n\nrelease(openai): 1.6.2 (#40339)\nfix(openai): add GPT-6 Astra reasoning efforts (#40330)\nchore(deps): bump httpx2 from 2.10.0 to 2.12.0 in /libs/partners/openai (#40309)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.2",
+      "published_at": "2026-09-10 05:22",
+      "tag": "langchain-openai==1.6.2",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-openai==1.6.1",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.2",
       "published_at": "2026-09-05 05:29",
       "tag": "langchain-core==1.6.2",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain==1.4.0",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==1.3.18\n\ndocs(langchain): runnable `langchain.mcp` examples (#39976)\nfeat(langchain): `langchain.mcp` namespace, `MCPAdapter` (#39939)\nperf(anthropic,langchain): omit middleware trace inputs (#40098)\nfix(langchain): include model destination in agent tool routing (#38355)\nchore(langchain): bump vcrpy test dependency minimum to `>=8.2.0` (#39942)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0",
-      "published_at": "2026-09-04 00:59",
-      "tag": "langchain==1.4.0",
       "source": "release"
     },
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.34.0-rc4",
+      "name": "ollama/ollama v0.34.0",
       "repo": "ollama/ollama",
       "description": "## Use Ollama models in ChatGPT Desktop\r\n\r\nOllama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models. Setup is available from the Ollama app on MacOS.\r\n\r\nThis release also improves structured output performance on Apple Silicon, adds support for OpenAI-compatible client tool search and response compaction, and makes images work correctly through compacted responses.\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc4",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0",
       "published_at": "2026-09-06 07:49",
-      "tag": "v0.34.0-rc4",
+      "tag": "v0.34.0",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.25",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- bundle-analyzer: record historical snapshots on each analyze run: #93520\n\n### Misc Changes\n\n- test: restore deployment exclusion for shared Cache Components tests: #98464\n- Resolve metadata independently across parallel routes: #97345\n- docs: preserve route behavior during Cache Components adoption: #98275\n- Add a fast-path to 'get_relative_path_to' for a potential common case when 'from' is empty: #98440\n- docs: document React browser API: #97621\n- Enable React browser bailo",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.25",
+      "published_at": "2026-09-10 07:46",
+      "tag": "v16.4.0-canary.25",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.24",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Re-enable @vercel/devlow-bench publishing: #98236\n- test: migrate caching deploy exclusions to force gates: #98154\n- Typecheck the Turbopack ECMAScript runtime in CI: #98422\n- Fix initial Turbopack HMR update handling: #98385\n- Skip bundler config validation in next/jest and under test: #98392\n- Remove `tsec`: #98423\n- Stabilize scope_unbounded panic test: #98416\n\n### Credits \n\nHuge thanks to @wbinnssmith, @gnoff, @sokra, and @eps1lon for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.23",
       "published_at": "2026-09-09 23:09",
       "tag": "v16.4.0-canary.23",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.22",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Add version for loaders api: #98377\n- turbo-tasks-backend: let a GC pass wind down when it is blocking an operation: #96676\n- docs: preserve Next.js development state: #98276\n- Adds .resolve to loaders api: #98361\n\n### Credits \n\nHuge thanks to @jimmyhmiller, @lukesandberg, and @aurorascharff for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.22",
-      "published_at": "2026-09-09 07:43",
-      "tag": "v16.4.0-canary.22",
       "source": "release"
     }
   ]
