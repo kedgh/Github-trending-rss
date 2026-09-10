@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-10 10:20",
+  "updated": "2026-09-10 18:19",
   "count": 15,
   "items": [
     {
@@ -31,6 +31,15 @@
       "source": "release"
     },
     {
+      "name": "langgenius/dify 1.17.1",
+      "repo": "langgenius/dify",
+      "description": "> [!WARNING]\r\n> **Self-hosted deployments using the bundled Weaviate must complete a manual, staged upgrade before starting 1.17.1.** The bundled Weaviate server moves from `1.27.0` to `1.39.2` — 12 minor versions — and skipping minors **is unsupported**. Pulling and restarting can silently and permanently break vector search. See Upgrade Guide below. Fresh deployments, external Weaviate, and other vector stores are unaffected.\r\n\r\n### New Features\r\n\r\n**Dataset-Scoped Knowledge Base API Keys**\r\n-",
+      "url": "https://github.com/langgenius/dify/releases/tag/1.17.1",
+      "published_at": "2026-09-10 18:04",
+      "tag": "1.17.1",
+      "source": "release"
+    },
+    {
       "name": "langgenius/dify 1.17.0",
       "repo": "langgenius/dify",
       "description": "## New Features\r\n\r\n**Agent: E2B Sandbox, Home Snapshots, and Skill Management**\r\n- **E2B sandbox backend**: agent shell/code execution can now run on [E2B](https://e2b.dev) cloud sandboxes in addition to the local sandbox. Select the backend with `DIFY_AGENT_RUNTIME_BACKEND`; a new `docker-compose.e2b.yaml` ships the E2B stack, E2B traffic is authenticated, and the E2B template is synced on release (#39480, #39705, #39873, #39996, #40858, #40871, #40891, #40892).\r\n- **Build-time Home Snapshots**",
@@ -49,18 +58,9 @@
       "source": "release"
     },
     {
-      "name": "langgenius/dify 1.16.0",
-      "repo": "langgenius/dify",
-      "description": "# Introducing Dify Agent *(Beta)*: A New Agent Experience in Dify\r\n\r\n> [!WARNING]\r\n> You should provide Dify Agent services ⚠️**only to trusted, non-malicious users**⚠️.\r\n\r\nAs many of you know, the shell-based LLM agent paradigm has brought a major leap in agent capabilities and changed how we think about agents. Meanwhile, Skills provide a standardized way to package and distribute capabilities, making it easier to build powerful agents.\r\n\r\n\r\nToday, we are launching Dify Agent. Like other leadi",
-      "url": "https://github.com/langgenius/dify/releases/tag/1.16.0",
-      "published_at": "2026-07-17 19:14",
-      "tag": "1.16.0",
-      "source": "release"
-    },
-    {
       "name": "ollama/ollama v0.34.0",
       "repo": "ollama/ollama",
-      "description": "## Use Ollama models in ChatGPT Desktop\r\n\r\nOllama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models. Setup is available from the Ollama app on MacOS.\r\n\r\nThis release also improves structured output performance on Apple Silicon, adds support for OpenAI-compatible client tool search and response compaction, and makes images work correctly through compacted responses.\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v",
+      "description": "## Use Ollama models in ChatGPT Desktop\r\n\r\nOllama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models. Setup is available from the Ollama app on MacOS.\r\n\r\n<img width=\"1374\" height=\"1300\" alt=\"CleanShot 2026-09-08 at 11 04 07 AM@2x\" src=\"https://github.com/user-attachments/assets/e10e299d-c11f-447d-9234-afa855824efe\" />\r\n\r\n\r\nThis release also improves structured output performance on Apple Silicon, adds support for OpenAI-compatible",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0",
       "published_at": "2026-09-06 07:49",
       "tag": "v0.34.0",
@@ -87,28 +87,28 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.38.5](https://github.com/n8n-io/n8n/compare/n8n@2.38.4...n8n@2.38.5) (2026-09-09)\n\n\n### Bug Fixes\n\n* **core:** Keep reporting the original job error when the job key is gone ([#38028](https://github.com/n8n-io/n8n/issues/38028)) ([cfc385f](https://github.com/n8n-io/n8n/commit/cfc385f49f2b198464228b4dc5429fb6d4da1cdf))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/38202?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" dat",
+      "description": "## [2.38.6](https://github.com/n8n-io/n8n/compare/n8n@2.38.5...n8n@2.38.6) (2026-09-10)\n\n\n### Performance Improvements\n\n* **core:** Bound peak memory during source control push ([#37975](https://github.com/n8n-io/n8n/issues/37975)) ([b3c32da](https://github.com/n8n-io/n8n/commit/b3c32da290a0ebbb8db66a0385d063e100ad08ba))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/38272?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-n",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-09-09 20:03",
+      "published_at": "2026-09-10 16:08",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.38.5",
+      "name": "n8n-io/n8n n8n@2.38.6",
       "repo": "n8n-io/n8n",
-      "description": "## [2.38.5](https://github.com/n8n-io/n8n/compare/n8n@2.38.4...n8n@2.38.5) (2026-09-09)\n\n\n### Bug Fixes\n\n* **core:** Keep reporting the original job error when the job key is gone ([#38028](https://github.com/n8n-io/n8n/issues/38028)) ([cfc385f](https://github.com/n8n-io/n8n/commit/cfc385f49f2b198464228b4dc5429fb6d4da1cdf))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/38202?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" dat",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.38.5",
-      "published_at": "2026-09-09 20:03",
-      "tag": "n8n@2.38.5",
+      "description": "## [2.38.6](https://github.com/n8n-io/n8n/compare/n8n@2.38.5...n8n@2.38.6) (2026-09-10)\n\n\n### Performance Improvements\n\n* **core:** Bound peak memory during source control push ([#37975](https://github.com/n8n-io/n8n/issues/37975)) ([b3c32da](https://github.com/n8n-io/n8n/commit/b3c32da290a0ebbb8db66a0385d063e100ad08ba))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/38272?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-n",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.38.6",
+      "published_at": "2026-09-10 16:08",
+      "tag": "n8n@2.38.6",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.39.1",
+      "name": "n8n-io/n8n n8n@1.123.79",
       "repo": "n8n-io/n8n",
-      "description": "## [2.39.1](https://github.com/n8n-io/n8n/compare/n8n@2.39.0...n8n@2.39.1) (2026-09-09)\n\n\n### Bug Fixes\n\n* **core:** Repair legacy-format data-encryption keys during bootstrap ([#38142](https://github.com/n8n-io/n8n/issues/38142)) ([514e20b](https://github.com/n8n-io/n8n/commit/514e20b83d509bd07618cc48650fe783c4bf74f7))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/38203?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.1",
-      "published_at": "2026-09-09 20:25",
-      "tag": "n8n@2.39.1",
+      "description": "## [1.123.79](https://github.com/n8n-io/n8n/compare/n8n@1.123.77...n8n@1.123.79) (2026-09-10)",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.79",
+      "published_at": "2026-09-10 14:26",
+      "tag": "n8n@1.123.79",
       "source": "release"
     },
     {
