@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-09-10 23:34",
+  "updated": "2026-09-11 04:15",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-anthropic==1.7.2",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-anthropic==1.7.1\n\nrelease(anthropic): 1.7.2 (#40387)\nfix(anthropic): preserve invalid tool use blocks (#40372)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.2",
+      "published_at": "2026-09-11 03:13",
+      "tag": "langchain-anthropic==1.7.2",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-openai==1.6.2",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.1",
       "published_at": "2026-09-08 22:20",
       "tag": "langchain-openai==1.6.1",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.6.2",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.6.1\n\nrelease(core): 1.6.2 (#40209)\nfeat(openai): support async tools (#40208)\nchore(deps): bump mistune from 3.3.0 to 3.3.3 in /libs/core (#40150)\nchore(deps): bump tornado from 6.5.7 to 6.5.8 in /libs/core (#40113)\nfix(core): avoid mutation in google-genai standard content (#40023)\nfix(core): avoid mutation in bedrock converse standard content (#40022)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.2",
-      "published_at": "2026-09-05 05:29",
-      "tag": "langchain-core==1.6.2",
       "source": "release"
     },
     {
