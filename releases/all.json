@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-11 10:15",
+  "updated": "2026-09-11 18:18",
   "count": 15,
   "items": [
     {
@@ -87,28 +87,28 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.38.6](https://github.com/n8n-io/n8n/compare/n8n@2.38.5...n8n@2.38.6) (2026-09-10)\n\n\n### Performance Improvements\n\n* **core:** Bound peak memory during source control push ([#37975](https://github.com/n8n-io/n8n/issues/37975)) ([b3c32da](https://github.com/n8n-io/n8n/commit/b3c32da290a0ebbb8db66a0385d063e100ad08ba))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/38272?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-n",
+      "description": "## [2.38.7](https://github.com/n8n-io/n8n/compare/n8n@2.38.6...n8n@2.38.7) (2026-09-11)\n\n\n### Bug Fixes\n\n* **core:** Execute MCP toolkit members on workers ([#38277](https://github.com/n8n-io/n8n/issues/38277)) ([1025dc7](https://github.com/n8n-io/n8n/commit/1025dc717d266f34f451eb152d71f66d6149ddbf))\n* **core:** Reuse an existing consent grant after the visitor authenticates mid-flow ([#38249](https://github.com/n8n-io/n8n/issues/38249)) ([52c8a72](https://github.com/n8n-io/n8n/commit/52c8a72ea1",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-09-10 16:08",
+      "published_at": "2026-09-11 16:06",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.38.6",
+      "name": "n8n-io/n8n n8n@2.38.7",
       "repo": "n8n-io/n8n",
-      "description": "## [2.38.6](https://github.com/n8n-io/n8n/compare/n8n@2.38.5...n8n@2.38.6) (2026-09-10)\n\n\n### Performance Improvements\n\n* **core:** Bound peak memory during source control push ([#37975](https://github.com/n8n-io/n8n/issues/37975)) ([b3c32da](https://github.com/n8n-io/n8n/commit/b3c32da290a0ebbb8db66a0385d063e100ad08ba))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/38272?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-n",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.38.6",
-      "published_at": "2026-09-10 16:08",
-      "tag": "n8n@2.38.6",
+      "description": "## [2.38.7](https://github.com/n8n-io/n8n/compare/n8n@2.38.6...n8n@2.38.7) (2026-09-11)\n\n\n### Bug Fixes\n\n* **core:** Execute MCP toolkit members on workers ([#38277](https://github.com/n8n-io/n8n/issues/38277)) ([1025dc7](https://github.com/n8n-io/n8n/commit/1025dc717d266f34f451eb152d71f66d6149ddbf))\n* **core:** Reuse an existing consent grant after the visitor authenticates mid-flow ([#38249](https://github.com/n8n-io/n8n/issues/38249)) ([52c8a72](https://github.com/n8n-io/n8n/commit/52c8a72ea1",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.38.7",
+      "published_at": "2026-09-11 16:06",
+      "tag": "n8n@2.38.7",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.79",
+      "name": "n8n-io/n8n n8n@2.39.4",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.79](https://github.com/n8n-io/n8n/compare/n8n@1.123.77...n8n@1.123.79) (2026-09-10)",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.79",
-      "published_at": "2026-09-10 14:26",
-      "tag": "n8n@1.123.79",
+      "description": "## [2.39.4](https://github.com/n8n-io/n8n/compare/n8n@2.39.3...n8n@2.39.4) (2026-09-11)\n\n\n### Bug Fixes\n\n* **core:** Select sandbox npm install flags by provider ([#38373](https://github.com/n8n-io/n8n/issues/38373)) ([17376d6](https://github.com/n8n-io/n8n/commit/17376d6df26201cdd848df4901b2a107c585133b))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/38413?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.4",
+      "published_at": "2026-09-11 16:29",
+      "tag": "n8n@2.39.4",
       "source": "release"
     },
     {
