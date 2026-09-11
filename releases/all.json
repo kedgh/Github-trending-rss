@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-11 04:15",
+  "updated": "2026-09-11 10:15",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.26",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Add in warning for workers around the fsevents bug: #98447\n- skill: add Partial Prefetching optimizer: #96471\n- bundle-analyzer: add table view to single-build analyzer: #93523\n- bundle-analyzer: add table view to compare mode: #93522\n- bundle-analyzer: add compare view with treemap diff: #93521\n- [testmode] Stop using deprecated `url.parse`: #98194\n- fix(next/image): don't share the requester's socket with the internal image response: #98168\n- Fix duplicate background revali",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.26",
+      "published_at": "2026-09-11 07:42",
+      "tag": "v16.4.0-canary.26",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.25",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- bundle-analyzer: record historical snapshots on each analyze run: #93520\n\n### Misc Changes\n\n- test: restore deployment exclusion for shared Cache Components tests: #98464\n- Resolve metadata independently across parallel routes: #97345\n- docs: preserve route behavior during Cache Components adoption: #98275\n- Add a fast-path to 'get_relative_path_to' for a potential common case when 'from' is empty: #98440\n- docs: document React browser API: #97621\n- Enable React browser bailo",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.24",
       "published_at": "2026-09-10 00:30",
       "tag": "v16.4.0-canary.24",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.23",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Turbopack: fix require handling with alternative: #98258\n- docs: clarify ISR with Suspense params: #98210\n- [cd] Update `peerDependencies` in prereleases to accept the current prerelease: #98411\n- test: stabilize error recovery snapshot timing: #98414\n- example: Use a Redis cacheHandler w/o dependencies: #95346\n- Support durable use-cache entries with client components: #98140\n- Upgrade React from `f4e439e1-20260902` to `6c0e1047-20260908`: #98363\n- fix: preserve repeated --r",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.23",
-      "published_at": "2026-09-09 23:09",
-      "tag": "v16.4.0-canary.23",
       "source": "release"
     }
   ]
