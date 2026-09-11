@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-09-11 23:36",
+  "updated": "2026-09-12 04:15",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-core==1.6.3",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-core==1.6.2\n\nrelease(core): 1.6.3 (#40407)\nfeat(core): Allow model name and provider tracing metadata override based on gateway response (#40406)\ntest(core): cover the deprecated `.text()` access path (#40243)\ndocs(core): remove stale Args/Raises entries from FileCallbackHandler._write and ChatGeneration.set_text (#40211)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.3",
+      "published_at": "2026-09-12 01:38",
+      "tag": "langchain-core==1.6.3",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-anthropic==1.7.2",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.2",
       "published_at": "2026-09-10 05:22",
       "tag": "langchain-openai==1.6.2",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-openai==1.6.1",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.6.0\n\nfix(openai): bump `max_completion_tokens` in cache breakpoint integration test (#40284)\nrelease(openai): 1.6.1 (#40268)\nchore(model-profiles): refresh model profile data (#40217)\nfix(openai): support Azure AD auth with OpenAI 3.8 (#40190)\nfeat(openai): support async tools (#40208)\nfeat(openai): support `configuration_update` (#40201)\nchore(model-profiles): refresh model profile data (#40171)\nfix(openai): route `gpt-5.6-sol` to responses API (#40133)\nchore(o",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.1",
-      "published_at": "2026-09-08 22:20",
-      "tag": "langchain-openai==1.6.1",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.5",
+      "repo": "vercel/next.js",
+      "description": "The following bug fixes have been backported. It does not include all pending features/changes on canary.\r\n\r\n- next/image: Skip 0-byte entries when initializing disk LRU cache (#98185)\r\n- next/image: Reject empty images when reading/writing to the disk cache (#98186)\r\n- Emit whole-app server NFTs when `output: 'standalone'` is used with an adapter (#98167)\r\n- Add CSP nonce to script tags of loading and template files (#98403)\r\n- Fix `use cache` prerender signal retention (#98448)",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.5",
+      "published_at": "2026-09-12 03:15",
+      "tag": "v16.3.5",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.26",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Add in warning for workers around the fsevents bug: #98447\n- skill: add Partial Prefetching optimizer: #96471\n- bundle-analyzer: add table view to single-build analyzer: #93523\n- bundle-analyzer: add table view to compare mode: #93522\n- bundle-analyzer: add compare view with treemap diff: #93521\n- [testmode] Stop using deprecated `url.parse`: #98194\n- fix(next/image): don't share the requester's socket with the internal image response: #98168\n- Fix duplicate background revali",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.25",
       "published_at": "2026-09-10 07:46",
       "tag": "v16.4.0-canary.25",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.24",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Re-enable @vercel/devlow-bench publishing: #98236\n- test: migrate caching deploy exclusions to force gates: #98154\n- Typecheck the Turbopack ECMAScript runtime in CI: #98422\n- Fix initial Turbopack HMR update handling: #98385\n- Skip bundler config validation in next/jest and under test: #98392\n- Remove `tsec`: #98423\n- Stabilize scope_unbounded panic test: #98416\n\n### Credits \n\nHuge thanks to @wbinnssmith, @gnoff, @sokra, and @eps1lon for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.24",
-      "published_at": "2026-09-10 00:30",
-      "tag": "v16.4.0-canary.24",
       "source": "release"
     }
   ]
