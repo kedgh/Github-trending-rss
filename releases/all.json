@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-12 04:15",
+  "updated": "2026-09-12 10:22",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.27",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Durable use cache: optimize env var existence checks: #98504\n- Adds this.mode for webpack loaders: #98532\n- Upgrade React from `6c0e1047-20260908` to `019019be-20260911`: #98576\n- feat(next/image): Add experimental imgOptMozjpeg config: #98571\n- [turbopack] Lazily compile dynamic imports in development (client side): #97203\n- fix(devtools): handle pointercancel when dragging the indicator: #98506\n- [ci] Show full logs under GitHub Actions debug logging: #98501\n- fix(typegen):",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.27",
+      "published_at": "2026-09-12 07:43",
+      "tag": "v16.4.0-canary.27",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.5",
       "repo": "vercel/next.js",
       "description": "The following bug fixes have been backported. It does not include all pending features/changes on canary.\r\n\r\n- next/image: Skip 0-byte entries when initializing disk LRU cache (#98185)\r\n- next/image: Reject empty images when reading/writing to the disk cache (#98186)\r\n- Emit whole-app server NFTs when `output: 'standalone'` is used with an adapter (#98167)\r\n- Add CSP nonce to script tags of loading and template files (#98403)\r\n- Fix `use cache` prerender signal retention (#98448)",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.26",
       "published_at": "2026-09-11 07:42",
       "tag": "v16.4.0-canary.26",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.25",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- bundle-analyzer: record historical snapshots on each analyze run: #93520\n\n### Misc Changes\n\n- test: restore deployment exclusion for shared Cache Components tests: #98464\n- Resolve metadata independently across parallel routes: #97345\n- docs: preserve route behavior during Cache Components adoption: #98275\n- Add a fast-path to 'get_relative_path_to' for a potential common case when 'from' is empty: #98440\n- docs: document React browser API: #97621\n- Enable React browser bailo",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.25",
-      "published_at": "2026-09-10 07:46",
-      "tag": "v16.4.0-canary.25",
       "source": "release"
     }
   ]
