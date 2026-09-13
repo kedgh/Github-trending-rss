@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-13 03:55",
+  "updated": "2026-09-13 10:20",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.28",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- test: stabilize OpenTelemetry collector lifecycle: #98427\n- Make TurbopackResult payloads disjoint: #98575\n\n### Credits \n\nHuge thanks to @sokra and @wbinnssmith for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.28",
+      "published_at": "2026-09-13 07:43",
+      "tag": "v16.4.0-canary.28",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.27",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Durable use cache: optimize env var existence checks: #98504\n- Adds this.mode for webpack loaders: #98532\n- Upgrade React from `6c0e1047-20260908` to `019019be-20260911`: #98576\n- feat(next/image): Add experimental imgOptMozjpeg config: #98571\n- [turbopack] Lazily compile dynamic imports in development (client side): #97203\n- fix(devtools): handle pointercancel when dragging the indicator: #98506\n- [ci] Show full logs under GitHub Actions debug logging: #98501\n- fix(typegen):",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.5",
       "published_at": "2026-09-12 03:15",
       "tag": "v16.3.5",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.26",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Add in warning for workers around the fsevents bug: #98447\n- skill: add Partial Prefetching optimizer: #96471\n- bundle-analyzer: add table view to single-build analyzer: #93523\n- bundle-analyzer: add table view to compare mode: #93522\n- bundle-analyzer: add compare view with treemap diff: #93521\n- [testmode] Stop using deprecated `url.parse`: #98194\n- fix(next/image): don't share the requester's socket with the internal image response: #98168\n- Fix duplicate background revali",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.26",
-      "published_at": "2026-09-11 07:42",
-      "tag": "v16.4.0-canary.26",
       "source": "release"
     }
   ]
