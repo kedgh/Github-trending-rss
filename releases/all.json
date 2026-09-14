@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-14 19:20",
+  "updated": "2026-09-15 01:18",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.30",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Expose App Router runtime errors over HMR: #98438\n- test: avoid OpenTelemetry collector socket reuse: #98632\n- fix: Bump vendored @mswjs/interceptors from 0.42.0 to 0.42.5: #98607\n- Document codemod errors and intentional migration exceptions: #98565\n- Unify TODO markers for codemods and skip adoption-only codemods for upgrade: #98560\n- Optimize strict module factory chunks: #98421\n- Sort batched chunk items globally by path: #98433\n\n### Credits \n\nHuge thanks to @devjiwonchoi",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.30",
+      "published_at": "2026-09-14 22:59",
+      "tag": "v16.4.0-canary.30",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.29",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Durable use cache: fix runtime env var mutation: #98558\n- refactor(turbopack): drop the generic on `new_atom`, and stop it copying an owned string: #98520\n- Serialize turbo-tasks trybuild tests: #98415\n\n### Credits \n\nHuge thanks to @mischnic and @sokra for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.28",
       "published_at": "2026-09-13 07:43",
       "tag": "v16.4.0-canary.28",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.27",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Durable use cache: optimize env var existence checks: #98504\n- Adds this.mode for webpack loaders: #98532\n- Upgrade React from `6c0e1047-20260908` to `019019be-20260911`: #98576\n- feat(next/image): Add experimental imgOptMozjpeg config: #98571\n- [turbopack] Lazily compile dynamic imports in development (client side): #97203\n- fix(devtools): handle pointercancel when dragging the indicator: #98506\n- [ci] Show full logs under GitHub Actions debug logging: #98501\n- fix(typegen):",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.27",
-      "published_at": "2026-09-12 07:43",
-      "tag": "v16.4.0-canary.27",
       "source": "release"
     }
   ]
