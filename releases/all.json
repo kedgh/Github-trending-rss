@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-15 05:13",
+  "updated": "2026-09-15 10:41",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.34.1-rc1",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* app: fix ChatGPT model selector spacing\r\n* mlxrunner: Evict prefix cache snapshots from the active conversation\r\n* mlxrunner: check system free memory and wait for evicted runners before loading the next MLX model \r\n* llm: raise token repeat limit to 100 and return error instead of incomplete result\r\n* mlx: scope array lifetimes instead of pinning and sweeping\r\n* llm: keep gemma3n projector off the CPU\r\n* app: refresh Apps layout and command copy feedback\r\n* MLX and llama.cp",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc1",
+      "published_at": "2026-09-15 06:14",
+      "tag": "v0.34.1-rc1",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.34.0",
       "repo": "ollama/ollama",
       "description": "## Use Ollama models in ChatGPT Desktop\r\n\r\nOllama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models. Setup is available from the Ollama app on MacOS.\r\n\r\n<img width=\"1374\" height=\"1300\" alt=\"CleanShot 2026-09-08 at 11 04 07 AM@2x\" src=\"https://github.com/user-attachments/assets/e10e299d-c11f-447d-9234-afa855824efe\" />\r\n\r\n\r\nThis release also improves structured output performance on Apple Silicon, adds support for OpenAI-compatible",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3",
       "published_at": "2026-09-02 08:11",
       "tag": "v0.33.3",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.33.2",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n\r\n* Ollama's app now follows the system appearance again, restoring dark mode support\r\n* Fixed the macOS app to properly hand off to an already-running instance instead of starting a second one\r\n* The Claude Desktop proxy no longer interrupts in-flight requests when the model catalog updates\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.33.1...v0.33.2",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.2",
-      "published_at": "2026-08-28 04:31",
-      "tag": "v0.33.2",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.31",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- fix: detect proxy.ts correctly with compound pageExtensions: #93246\n\n### Misc Changes\n\n- test(turbopack): strongly read test operations: #98247\n- Add `next dev` wait for Turbopack shutdown: #98646\n- docs: document default turbopack.resolveExtensions: #98627\n- test: migrate package CSS side-effects coverage: #98635\n- Improve tree shaking through Next.js module wrappers: #98638\n- Trace export usage through client component proxies: #98621\n\n### Credits \n\nHuge thanks to @lukesand",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.31",
+      "published_at": "2026-09-15 07:44",
+      "tag": "v16.4.0-canary.31",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.30",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Expose App Router runtime errors over HMR: #98438\n- test: avoid OpenTelemetry collector socket reuse: #98632\n- fix: Bump vendored @mswjs/interceptors from 0.42.0 to 0.42.5: #98607\n- Document codemod errors and intentional migration exceptions: #98565\n- Unify TODO markers for codemods and skip adoption-only codemods for upgrade: #98560\n- Optimize strict module factory chunks: #98421\n- Sort batched chunk items globally by path: #98433\n\n### Credits \n\nHuge thanks to @devjiwonchoi",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.29",
       "published_at": "2026-09-14 18:40",
       "tag": "v16.4.0-canary.29",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.28",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- test: stabilize OpenTelemetry collector lifecycle: #98427\n- Make TurbopackResult payloads disjoint: #98575\n\n### Credits \n\nHuge thanks to @sokra and @wbinnssmith for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.28",
-      "published_at": "2026-09-13 07:43",
-      "tag": "v16.4.0-canary.28",
       "source": "release"
     }
   ]
