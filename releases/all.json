@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-15 23:58",
+  "updated": "2026-09-16 04:41",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.34.1-rc2",
+      "name": "ollama/ollama v0.34.1",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* app: fix ChatGPT model selector spacing\r\n* mlxrunner: Evict prefix cache snapshots from the active conversation\r\n* mlxrunner: check system free memory and wait for evicted runners before loading the next MLX model \r\n* llm: raise token repeat limit to 100 and return error instead of incomplete result\r\n* mlx: scope array lifetimes instead of pinning and sweeping\r\n* llm: keep gemma3n projector off the CPU\r\n* app: refresh Apps layout and command copy feedback\r\n* MLX and llama.cp",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc2",
+      "description": "## What's Changed\r\n* MLX safetensors `ollama create` no longer experimental.  GGUF model creation now requires using llama.cpp tooling for safetensor conversion and quantization.\r\n* Improved MLX memory handling on Apple Silicon\r\n* Runaway repeat token detection now requires 100 repeat tokens for reduced false positives (e.g. OCR)\r\n* `/api/tags` is much faster on large model libraries (3.1 s → 294 ms cold in testing), and model capabilities are now reported consistently.\r\n* Deprecated `typical_p`",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.1",
       "published_at": "2026-09-15 06:14",
-      "tag": "v0.34.1-rc2",
+      "tag": "v0.34.1",
       "source": "release"
     },
     {
