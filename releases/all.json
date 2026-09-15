@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-15 10:41",
+  "updated": "2026-09-15 18:44",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.34.1-rc1",
+      "name": "ollama/ollama v0.34.1-rc2",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* app: fix ChatGPT model selector spacing\r\n* mlxrunner: Evict prefix cache snapshots from the active conversation\r\n* mlxrunner: check system free memory and wait for evicted runners before loading the next MLX model \r\n* llm: raise token repeat limit to 100 and return error instead of incomplete result\r\n* mlx: scope array lifetimes instead of pinning and sweeping\r\n* llm: keep gemma3n projector off the CPU\r\n* app: refresh Apps layout and command copy feedback\r\n* MLX and llama.cp",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc2",
       "published_at": "2026-09-15 06:14",
-      "tag": "v0.34.1-rc1",
+      "tag": "v0.34.1-rc2",
       "source": "release"
     },
     {
@@ -85,29 +85,29 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.39.5",
+      "name": "n8n-io/n8n n8n@2.40.0",
       "repo": "n8n-io/n8n",
-      "description": "## [2.39.5](https://github.com/n8n-io/n8n/compare/n8n@2.39.4...n8n@2.39.5) (2026-09-14)\n\n\n### Bug Fixes\n\n* **editor:** Fixes issue that prevented some users from revoking their end-user credentials ([#38455](https://github.com/n8n-io/n8n/issues/38455)) ([3d8f578](https://github.com/n8n-io/n8n/commit/3d8f578a390f196e22b0077aceff04cfbab28f6d))\n\n\n### Features\n\n* **core:** Add log streaming events for instance reports ([#38483](https://github.com/n8n-io/n8n/issues/38483)) ([6174e8e](https://github.c",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.5",
-      "published_at": "2026-09-14 15:36",
-      "tag": "n8n@2.39.5",
+      "description": "# [2.40.0](https://github.com/n8n-io/n8n/compare/n8n@2.39.0...n8n@2.40.0) (2026-09-15)\n\n\n### Bug Fixes\n\n* **AI Agent Node:** Preserve Anthropic thinking blocks with empty text across tool calls ([#38302](https://github.com/n8n-io/n8n/issues/38302)) ([7ac975c](https://github.com/n8n-io/n8n/commit/7ac975c37a06d563f097d085e510e204de2961c3))\n* **ai-builder:** Enhance guidance UX for agents with no sessions on builder session tab ([#38243](https://github.com/n8n-io/n8n/issues/38243)) ([1ed3a24](https",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.40.0",
+      "published_at": "2026-09-15 18:14",
+      "tag": "n8n@2.40.0",
       "source": "release"
     },
     {
       "name": "n8n-io/n8n beta",
       "repo": "n8n-io/n8n",
-      "description": "## [2.39.5](https://github.com/n8n-io/n8n/compare/n8n@2.39.4...n8n@2.39.5) (2026-09-14)\n\n\n### Bug Fixes\n\n* **editor:** Fixes issue that prevented some users from revoking their end-user credentials ([#38455](https://github.com/n8n-io/n8n/issues/38455)) ([3d8f578](https://github.com/n8n-io/n8n/commit/3d8f578a390f196e22b0077aceff04cfbab28f6d))\n\n\n### Features\n\n* **core:** Add log streaming events for instance reports ([#38483](https://github.com/n8n-io/n8n/issues/38483)) ([6174e8e](https://github.c",
+      "description": "# [2.40.0](https://github.com/n8n-io/n8n/compare/n8n@2.39.0...n8n@2.40.0) (2026-09-15)\n\n\n### Bug Fixes\n\n* **AI Agent Node:** Preserve Anthropic thinking blocks with empty text across tool calls ([#38302](https://github.com/n8n-io/n8n/issues/38302)) ([7ac975c](https://github.com/n8n-io/n8n/commit/7ac975c37a06d563f097d085e510e204de2961c3))\n* **ai-builder:** Enhance guidance UX for agents with no sessions on builder session tab ([#38243](https://github.com/n8n-io/n8n/issues/38243)) ([1ed3a24](https",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-09-14 15:36",
+      "published_at": "2026-09-15 18:14",
       "tag": "beta",
       "source": "release"
     },
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.38.7](https://github.com/n8n-io/n8n/compare/n8n@2.38.6...n8n@2.38.7) (2026-09-11)\n\n\n### Bug Fixes\n\n* **core:** Execute MCP toolkit members on workers ([#38277](https://github.com/n8n-io/n8n/issues/38277)) ([1025dc7](https://github.com/n8n-io/n8n/commit/1025dc717d266f34f451eb152d71f66d6149ddbf))\n* **core:** Reuse an existing consent grant after the visitor authenticates mid-flow ([#38249](https://github.com/n8n-io/n8n/issues/38249)) ([52c8a72](https://github.com/n8n-io/n8n/commit/52c8a72ea1",
+      "description": "## [2.39.5](https://github.com/n8n-io/n8n/compare/n8n@2.39.4...n8n@2.39.5) (2026-09-14)\n\n\n### Bug Fixes\n\n* **editor:** Fixes issue that prevented some users from revoking their end-user credentials ([#38455](https://github.com/n8n-io/n8n/issues/38455)) ([3d8f578](https://github.com/n8n-io/n8n/commit/3d8f578a390f196e22b0077aceff04cfbab28f6d))\n\n\n### Features\n\n* **core:** Add log streaming events for instance reports ([#38483](https://github.com/n8n-io/n8n/issues/38483)) ([6174e8e](https://github.c",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-09-11 16:06",
+      "published_at": "2026-09-15 18:28",
       "tag": "stable",
       "source": "release"
     },
