@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-16 10:35",
+  "updated": "2026-09-16 18:33",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,39 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.40.0",
-      "repo": "n8n-io/n8n",
-      "description": "# [2.40.0](https://github.com/n8n-io/n8n/compare/n8n@2.39.0...n8n@2.40.0) (2026-09-15)\n\n\n### Bug Fixes\n\n* **AI Agent Node:** Preserve Anthropic thinking blocks with empty text across tool calls ([#38302](https://github.com/n8n-io/n8n/issues/38302)) ([7ac975c](https://github.com/n8n-io/n8n/commit/7ac975c37a06d563f097d085e510e204de2961c3))\n* **ai-builder:** Enhance guidance UX for agents with no sessions on builder session tab ([#38243](https://github.com/n8n-io/n8n/issues/38243)) ([1ed3a24](https",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.40.0",
-      "published_at": "2026-09-15 18:14",
-      "tag": "n8n@2.40.0",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n beta",
-      "repo": "n8n-io/n8n",
-      "description": "# [2.40.0](https://github.com/n8n-io/n8n/compare/n8n@2.39.0...n8n@2.40.0) (2026-09-15)\n\n\n### Bug Fixes\n\n* **AI Agent Node:** Preserve Anthropic thinking blocks with empty text across tool calls ([#38302](https://github.com/n8n-io/n8n/issues/38302)) ([7ac975c](https://github.com/n8n-io/n8n/commit/7ac975c37a06d563f097d085e510e204de2961c3))\n* **ai-builder:** Enhance guidance UX for agents with no sessions on builder session tab ([#38243](https://github.com/n8n-io/n8n/issues/38243)) ([1ed3a24](https",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-09-15 18:14",
-      "tag": "beta",
-      "source": "release"
-    },
-    {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.39.5](https://github.com/n8n-io/n8n/compare/n8n@2.39.4...n8n@2.39.5) (2026-09-14)\n\n\n### Bug Fixes\n\n* **editor:** Fixes issue that prevented some users from revoking their end-user credentials ([#38455](https://github.com/n8n-io/n8n/issues/38455)) ([3d8f578](https://github.com/n8n-io/n8n/commit/3d8f578a390f196e22b0077aceff04cfbab28f6d))\n\n\n### Features\n\n* **core:** Add log streaming events for instance reports ([#38483](https://github.com/n8n-io/n8n/issues/38483)) ([6174e8e](https://github.c",
+      "description": "## [2.39.6](https://github.com/n8n-io/n8n/compare/n8n@2.39.5...n8n@2.39.6) (2026-09-16)\n\n\n### Bug Fixes\n\n* **core:** Check Gateway credits eligibility against the correct sub-node ([#38673](https://github.com/n8n-io/n8n/issues/38673)) ([0cf7e99](https://github.com/n8n-io/n8n/commit/0cf7e992d0c70797b608db78bc71684ab184b530))\n\n\n### Features\n\n* **core:** Add v3 breaking change rule for the storage directory rename ([#38636](https://github.com/n8n-io/n8n/issues/38636)) ([c3dcbbe](https://github.com/",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-09-15 18:28",
+      "published_at": "2026-09-16 14:52",
       "tag": "stable",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n n8n@2.39.6",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.39.6](https://github.com/n8n-io/n8n/compare/n8n@2.39.5...n8n@2.39.6) (2026-09-16)\n\n\n### Bug Fixes\n\n* **core:** Check Gateway credits eligibility against the correct sub-node ([#38673](https://github.com/n8n-io/n8n/issues/38673)) ([0cf7e99](https://github.com/n8n-io/n8n/commit/0cf7e992d0c70797b608db78bc71684ab184b530))\n\n\n### Features\n\n* **core:** Add v3 breaking change rule for the storage directory rename ([#38636](https://github.com/n8n-io/n8n/issues/38636)) ([c3dcbbe](https://github.com/",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.6",
+      "published_at": "2026-09-16 14:52",
+      "tag": "n8n@2.39.6",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n n8n@1.123.80",
+      "repo": "n8n-io/n8n",
+      "description": "## [1.123.80](https://github.com/n8n-io/n8n/compare/n8n@1.123.79...n8n@1.123.80) (2026-09-16)\n\n\n### Bug Fixes\n\n* **core:** Apply credential allowed domains in declarative node requests ([#38723](https://github.com/n8n-io/n8n/issues/38723)) ([35ffb88](https://github.com/n8n-io/n8n/commit/35ffb8881e967ca8937643497177335839be41ac))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/38771?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.80",
+      "published_at": "2026-09-16 14:51",
+      "tag": "n8n@1.123.80",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.4.0-canary.33",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Fix App Router locale path matching with Pages i18n: #98095\n- Upgrade React from `019019be-20260911` to `ff8f88fc-20260915`: #98693\n\n### Credits \n\nHuge thanks to @timneutkens for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.33",
+      "published_at": "2026-09-16 17:06",
+      "tag": "v16.4.0-canary.33",
       "source": "release"
     },
     {
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.31",
       "published_at": "2026-09-15 07:44",
       "tag": "v16.4.0-canary.31",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.30",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Expose App Router runtime errors over HMR: #98438\n- test: avoid OpenTelemetry collector socket reuse: #98632\n- fix: Bump vendored @mswjs/interceptors from 0.42.0 to 0.42.5: #98607\n- Document codemod errors and intentional migration exceptions: #98565\n- Unify TODO markers for codemods and skip adoption-only codemods for upgrade: #98560\n- Optimize strict module factory chunks: #98421\n- Sort batched chunk items globally by path: #98433\n\n### Credits \n\nHuge thanks to @devjiwonchoi",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.30",
-      "published_at": "2026-09-14 22:59",
-      "tag": "v16.4.0-canary.30",
       "source": "release"
     }
   ]
