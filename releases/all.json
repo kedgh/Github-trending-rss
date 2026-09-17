@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-17 04:42",
+  "updated": "2026-09-17 10:39",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.34.2-rc0",
+      "name": "ollama/ollama v0.34.2-rc1",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* llama.cpp updates\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.1...v0.34.2-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc1",
       "published_at": "2026-09-16 05:21",
-      "tag": "v0.34.2-rc0",
+      "tag": "v0.34.2-rc1",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.34",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Store code generation AST paths in a shared trie: #98581\n- Turbopack: Remove wasmer from lockfile by deleting dead feature option from our wasm crate: #98761\n- Prefer using join over try_join when you don't want a vec: #98547\n- Preserve committed app route response status during fallback: #98649\n- docs: scope React cache() guidance to the render pass: #98741\n- fix(next-custom-transforms): never place generated imports before directives: #98717\n- Pin tasks during construction:",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.34",
+      "published_at": "2026-09-17 07:46",
+      "tag": "v16.4.0-canary.34",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.33",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Fix App Router locale path matching with Pages i18n: #98095\n- Upgrade React from `019019be-20260911` to `ff8f88fc-20260915`: #98693\n\n### Credits \n\nHuge thanks to @timneutkens for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.32",
       "published_at": "2026-09-16 07:47",
       "tag": "v16.4.0-canary.32",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.31",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- fix: detect proxy.ts correctly with compound pageExtensions: #93246\n\n### Misc Changes\n\n- test(turbopack): strongly read test operations: #98247\n- Add `next dev` wait for Turbopack shutdown: #98646\n- docs: document default turbopack.resolveExtensions: #98627\n- test: migrate package CSS side-effects coverage: #98635\n- Improve tree shaking through Next.js module wrappers: #98638\n- Trace export usage through client component proxies: #98621\n\n### Credits \n\nHuge thanks to @lukesand",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.31",
-      "published_at": "2026-09-15 07:44",
-      "tag": "v16.4.0-canary.31",
       "source": "release"
     }
   ]
