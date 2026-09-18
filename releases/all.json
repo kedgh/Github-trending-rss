@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-18 10:27",
+  "updated": "2026-09-18 18:18",
   "count": 15,
   "items": [
     {
@@ -87,28 +87,28 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.39.7](https://github.com/n8n-io/n8n/compare/n8n@2.39.6...n8n@2.39.7) (2026-09-17)\n\n\n### Bug Fixes\n\n* **core:** Keep breaking change detection running when a rule throws ([#38790](https://github.com/n8n-io/n8n/issues/38790)) ([28945cb](https://github.com/n8n-io/n8n/commit/28945cb71d09a4cf232148ad00873dd11f59e484))\n* **editor:** Send number values in credential inputs ([#38881](https://github.com/n8n-io/n8n/issues/38881)) ([3ac6dda](https://github.com/n8n-io/n8n/commit/3ac6dda7d03ba19444fa4a",
+      "description": "## [2.39.8](https://github.com/n8n-io/n8n/compare/n8n@2.39.7...n8n@2.39.8) (2026-09-18)\n\n\n### Bug Fixes\n\n* **core:** Repair data-encryption keys stored as the raw instance key ([#38911](https://github.com/n8n-io/n8n/issues/38911)) ([954f6d8](https://github.com/n8n-io/n8n/commit/954f6d8c8cebfec2f635b7668fe141d4e1e222d5))\n* **core:** Sweep parents parked on a finished sub-execution ([#38949](https://github.com/n8n-io/n8n/issues/38949)) ([496b7cb](https://github.com/n8n-io/n8n/commit/496b7cb5ad60da",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-09-17 15:44",
+      "published_at": "2026-09-18 15:54",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.39.7",
+      "name": "n8n-io/n8n n8n@2.39.8",
       "repo": "n8n-io/n8n",
-      "description": "## [2.39.7](https://github.com/n8n-io/n8n/compare/n8n@2.39.6...n8n@2.39.7) (2026-09-17)\n\n\n### Bug Fixes\n\n* **core:** Keep breaking change detection running when a rule throws ([#38790](https://github.com/n8n-io/n8n/issues/38790)) ([28945cb](https://github.com/n8n-io/n8n/commit/28945cb71d09a4cf232148ad00873dd11f59e484))\n* **editor:** Send number values in credential inputs ([#38881](https://github.com/n8n-io/n8n/issues/38881)) ([3ac6dda](https://github.com/n8n-io/n8n/commit/3ac6dda7d03ba19444fa4a",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.7",
-      "published_at": "2026-09-17 15:44",
-      "tag": "n8n@2.39.7",
+      "description": "## [2.39.8](https://github.com/n8n-io/n8n/compare/n8n@2.39.7...n8n@2.39.8) (2026-09-18)\n\n\n### Bug Fixes\n\n* **core:** Repair data-encryption keys stored as the raw instance key ([#38911](https://github.com/n8n-io/n8n/issues/38911)) ([954f6d8](https://github.com/n8n-io/n8n/commit/954f6d8c8cebfec2f635b7668fe141d4e1e222d5))\n* **core:** Sweep parents parked on a finished sub-execution ([#38949](https://github.com/n8n-io/n8n/issues/38949)) ([496b7cb](https://github.com/n8n-io/n8n/commit/496b7cb5ad60da",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.8",
+      "published_at": "2026-09-18 15:54",
+      "tag": "n8n@2.39.8",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.81",
+      "name": "n8n-io/n8n n8n@2.40.3",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.81](https://github.com/n8n-io/n8n/compare/n8n@1.123.80...n8n@1.123.81) (2026-09-17)\n\n\n### Bug Fixes\n\n* **core:** Allow a domain-restricted credential to work in its own node ([#38786](https://github.com/n8n-io/n8n/issues/38786)) ([7e98622](https://github.com/n8n-io/n8n/commit/7e9862219b2e8f4d72792090048b543fef82fd1a))\n* **core:** Update undici to 7.29.1 ([#38849](https://github.com/n8n-io/n8n/issues/38849)) ([3357ecc](https://github.com/n8n-io/n8n/commit/3357ecc57f319e945b307020c69b536",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.81",
-      "published_at": "2026-09-17 15:59",
-      "tag": "n8n@1.123.81",
+      "description": "## [2.40.3](https://github.com/n8n-io/n8n/compare/n8n@2.40.2...n8n@2.40.3) (2026-09-18)\n\n\n### Bug Fixes\n\n* **core:** Repair data-encryption keys stored as the raw instance key ([#38910](https://github.com/n8n-io/n8n/issues/38910)) ([a8e0e7c](https://github.com/n8n-io/n8n/commit/a8e0e7c3844510321894bf661cc0610baeae8fc3))\n* **editor:** Fix blank workflow previews in AI Assistant ([#38914](https://github.com/n8n-io/n8n/issues/38914)) ([2049d15](https://github.com/n8n-io/n8n/commit/2049d15dbe7e7e034",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.40.3",
+      "published_at": "2026-09-18 15:39",
+      "tag": "n8n@2.40.3",
       "source": "release"
     },
     {
