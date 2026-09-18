@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-09-18 04:47",
+  "updated": "2026-09-18 10:27",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-typesafe==0.0.1a2",
+      "repo": "langchain-ai/langchain",
+      "description": "Initial release\n\nrelease(typesafe): bump to 0.0.1a2 (#40576)\nfeat(typesafe): experimental `AutoModeMiddleware` (#40545)\nfeat(typesafe): experimental `ModelRouterMiddleware` (#40543)\nfix(typesafe): trace usage metadata (#40570)\nfeat(typesafe): `TypeSafeClassifier` (#40542)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a2",
+      "published_at": "2026-09-18 06:24",
+      "tag": "langchain-typesafe==0.0.1a2",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-typesafe==0.0.1a1",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.1",
       "published_at": "2026-09-17 01:07",
       "tag": "langchain==1.4.1",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.6.3",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.6.2\n\nrelease(core): 1.6.3 (#40407)\nfeat(core): Allow model name and provider tracing metadata override based on gateway response (#40406)\ntest(core): cover the deprecated `.text()` access path (#40243)\ndocs(core): remove stale Args/Raises entries from FileCallbackHandler._write and ChatGeneration.set_text (#40211)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.3",
-      "published_at": "2026-09-12 01:38",
-      "tag": "langchain-core==1.6.3",
       "source": "release"
     },
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.34.2-rc3",
+      "name": "ollama/ollama v0.34.2",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* llama.cpp updates\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.1...v0.34.2-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc3",
+      "description": "## What's Changed\r\n\r\n- Added first-run setup when running `ollama`, with options to sign in or continue locally. Setup completion is shared with the desktop app on macOS and Windows.\r\n- Added `ollama://apps` to open the desktop app’s Apps page directly on macOS and Windows.\r\n- Fixed excessive memory growth during long generations with MLX speculative decoding.\r\n- Updated llama.cpp.\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.1...v0.34.2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.2",
       "published_at": "2026-09-16 05:21",
-      "tag": "v0.34.2-rc3",
+      "tag": "v0.34.2",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.35",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Nudge the agents for future defaults adoption: #98721\n- Add future defaults upgrade coverage for `next upgrade --ai`: #98643\n- Nudge the agents for latest version upgrade: #98640\n- Add \"latest\" upgrade coverage for `next upgrade --ai`: #98633\n- Nudge the agents for security vulnerable version upgrade: #98637\n- Add `next upgrade --ai` and security vulnerability coverage: #98562\n- agents: Add a `--comments-only` flag to `pr-status` script, trim down context bloat in AGENTS.md: ",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.35",
+      "published_at": "2026-09-18 07:43",
+      "tag": "v16.4.0-canary.35",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.34",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Store code generation AST paths in a shared trie: #98581\n- Turbopack: Remove wasmer from lockfile by deleting dead feature option from our wasm crate: #98761\n- Prefer using join over try_join when you don't want a vec: #98547\n- Preserve committed app route response status during fallback: #98649\n- docs: scope React cache() guidance to the render pass: #98741\n- fix(next-custom-transforms): never place generated imports before directives: #98717\n- Pin tasks during construction:",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.33",
       "published_at": "2026-09-16 17:06",
       "tag": "v16.4.0-canary.33",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.32",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- fix(turbopack): trace cyclic modules to explicit entries: #98661\n- Use default pnpm package import method: #98703\n- Fix constant inlining in shorthand properties: #98662\n- test(turbopack): add strong read operation roots: #98248\n- Use pnpm for isolated test installs: #98425\n- [turbopack] Forward usage information across re-exports: #96282\n- [turbopack] Use options object for ESM references: #98680\n- test: enable verified runtime deploy tests: #98457\n- test: enable verified as",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.32",
-      "published_at": "2026-09-16 07:47",
-      "tag": "v16.4.0-canary.32",
       "source": "release"
     }
   ]
