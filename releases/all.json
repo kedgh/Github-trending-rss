@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-19 04:11",
+  "updated": "2026-09-19 10:26",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.34.3-rc1",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n\r\n`GET /api/show` now advertises each model's thinking controls and default:\r\n```sh \r\ncurl http://localhost:11434/api/show -d '{\"model\": \"glm-5.3-flash:cloud\"}'\r\n```\r\n```json\r\n{\r\n  \"thinking\": {\r\n    \"values\": [\"low\", \"high\", \"max\"],\r\n    \"default\": \"max\"\r\n  }\r\n}\r\n```\r\n* **Nemotron H** vision models are now supported on Apple Silicon with MLX\r\n* Ollama's macOS app will now no longer reopen windows you've closed when activating it\r\n\r\n**Full Changelog**: https://github.com/ollam",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1",
+      "published_at": "2026-09-19 08:02",
+      "tag": "v0.34.3-rc1",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.34.2",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n\r\n- Added first-run setup when running `ollama`, with options to sign in or continue locally. Setup completion is shared with the desktop app on macOS and Windows.\r\n- Added `ollama://apps` to open the desktop app’s Apps page directly on macOS and Windows.\r\n- Fixed excessive memory growth during long generations with MLX speculative decoding.\r\n- Updated llama.cpp.\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.1...v0.34.2",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.34.1",
       "published_at": "2026-09-15 06:14",
       "tag": "v0.34.1",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.34.0",
-      "repo": "ollama/ollama",
-      "description": "## Use Ollama models in ChatGPT Desktop\r\n\r\nOllama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models. Setup is available from the Ollama app on MacOS.\r\n\r\n<img width=\"1374\" height=\"1300\" alt=\"CleanShot 2026-09-08 at 11 04 07 AM@2x\" src=\"https://github.com/user-attachments/assets/e10e299d-c11f-447d-9234-afa855824efe\" />\r\n\r\n\r\nThis release also improves structured output performance on Apple Silicon, adds support for OpenAI-compatible",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0",
-      "published_at": "2026-09-06 07:49",
-      "tag": "v0.34.0",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.36",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Persist resurrected tasks as new tasks: #98729\n- Rspack: Remove bincode dependency from rspack by way of turbo-unix-path: #98855\n- Pin tasks across restore waiter handoff: #98728\n- test: honor skipStart for Vercel deployments: #98776\n- Use internal prefix for Turbopack shutdown env: #98747\n- test: retry waiting for ISR fallback in prefetch-static-shell: #98884\n- Fix generated Turbopack GC option docs: #98888\n- Add agent feedback behavior evals: #98887\n- Add experimental agent",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.36",
+      "published_at": "2026-09-19 07:47",
+      "tag": "v16.4.0-canary.36",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.35",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Nudge the agents for future defaults adoption: #98721\n- Add future defaults upgrade coverage for `next upgrade --ai`: #98643\n- Nudge the agents for latest version upgrade: #98640\n- Add \"latest\" upgrade coverage for `next upgrade --ai`: #98633\n- Nudge the agents for security vulnerable version upgrade: #98637\n- Add `next upgrade --ai` and security vulnerability coverage: #98562\n- agents: Add a `--comments-only` flag to `pr-status` script, trim down context bloat in AGENTS.md: ",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.34",
       "published_at": "2026-09-17 07:46",
       "tag": "v16.4.0-canary.34",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.33",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Fix App Router locale path matching with Pages i18n: #98095\n- Upgrade React from `019019be-20260911` to `ff8f88fc-20260915`: #98693\n\n### Credits \n\nHuge thanks to @timneutkens for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.33",
-      "published_at": "2026-09-16 17:06",
-      "tag": "v16.4.0-canary.33",
       "source": "release"
     }
   ]
