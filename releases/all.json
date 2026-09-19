@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-19 10:26",
+  "updated": "2026-09-19 18:01",
   "count": 15,
   "items": [
     {
@@ -60,7 +60,7 @@
     {
       "name": "ollama/ollama v0.34.3-rc1",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n\r\n`GET /api/show` now advertises each model's thinking controls and default:\r\n```sh \r\ncurl http://localhost:11434/api/show -d '{\"model\": \"glm-5.3-flash:cloud\"}'\r\n```\r\n```json\r\n{\r\n  \"thinking\": {\r\n    \"values\": [\"low\", \"high\", \"max\"],\r\n    \"default\": \"max\"\r\n  }\r\n}\r\n```\r\n* **Nemotron H** vision models are now supported on Apple Silicon with MLX\r\n* Ollama's macOS app will now no longer reopen windows you've closed when activating it\r\n\r\n**Full Changelog**: https://github.com/ollam",
+      "description": "## What's Changed\r\n\r\n`GET /api/show` now advertises each model's thinking controls and default:\r\n```sh \r\ncurl http://localhost:11434/api/show -d '{\"model\": \"glm-5.3-flash:cloud\"}'\r\n```\r\n```json\r\n{\r\n  \"thinking\": {\r\n    \"values\": [\"low\", \"high\", \"max\"],\r\n    \"default\": \"max\"\r\n  }\r\n}\r\n```\r\n* **Nemotron H** vision models are now supported on Apple Silicon with MLX\r\n* Ollama's macOS app will now no longer reopen windows you've closed when activating it\r\n* Fix for model pulls from HuggingFace\r\n\r\n**Fu",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1",
       "published_at": "2026-09-19 08:02",
       "tag": "v0.34.3-rc1",
