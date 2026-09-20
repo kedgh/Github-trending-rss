@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-20 03:48",
+  "updated": "2026-09-20 10:37",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.37",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Preserve closed-parameter restrictions in client route prediction: #98889\n- [test] Fix deployment tests that relied on implicit startup: #98935\n- Turbopack: Add support for specifying additional roots: #98003\n- Turbopack: Add symlinks and additional roots to NFT metadata: #98469\n\n### Credits \n\nHuge thanks to @gnoff, @unstubbable, and @bgw for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.37",
+      "published_at": "2026-09-20 07:46",
+      "tag": "v16.4.0-canary.37",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.36",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Persist resurrected tasks as new tasks: #98729\n- Rspack: Remove bincode dependency from rspack by way of turbo-unix-path: #98855\n- Pin tasks across restore waiter handoff: #98728\n- test: honor skipStart for Vercel deployments: #98776\n- Use internal prefix for Turbopack shutdown env: #98747\n- test: retry waiting for ISR fallback in prefetch-static-shell: #98884\n- Fix generated Turbopack GC option docs: #98888\n- Add agent feedback behavior evals: #98887\n- Add experimental agent",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.35",
       "published_at": "2026-09-18 07:43",
       "tag": "v16.4.0-canary.35",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.34",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Store code generation AST paths in a shared trie: #98581\n- Turbopack: Remove wasmer from lockfile by deleting dead feature option from our wasm crate: #98761\n- Prefer using join over try_join when you don't want a vec: #98547\n- Preserve committed app route response status during fallback: #98649\n- docs: scope React cache() guidance to the render pass: #98741\n- fix(next-custom-transforms): never place generated imports before directives: #98717\n- Pin tasks during construction:",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.34",
-      "published_at": "2026-09-17 07:46",
-      "tag": "v16.4.0-canary.34",
       "source": "release"
     }
   ]
