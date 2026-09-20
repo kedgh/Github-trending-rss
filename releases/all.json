@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-09-20 23:09",
+  "updated": "2026-09-21 04:02",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-typesafe==0.0.1a3",
+      "repo": "langchain-ai/langchain",
+      "description": "Initial release\n\nrelease(typesafe): 0.0.1a3 (#40693)\nfeat(typesafe): make classifier questions invocation-scoped (#40659)\nrelease(typesafe): bump to 0.0.1a2 (#40576)\nfeat(typesafe): experimental `AutoModeMiddleware` (#40545)\nfeat(typesafe): experimental `ModelRouterMiddleware` (#40543)\nfix(typesafe): trace usage metadata (#40570)\nfeat(typesafe): `TypeSafeClassifier` (#40542)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a3",
+      "published_at": "2026-09-21 02:54",
+      "tag": "langchain-typesafe==0.0.1a3",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain==1.4.2",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a2",
       "published_at": "2026-09-18 06:24",
       "tag": "langchain-typesafe==0.0.1a2",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-typesafe==0.0.1a1",
-      "repo": "langchain-ai/langchain",
-      "description": "Initial release\n\nfeat(typesafe): `TypeSafeClassifier` (#40542)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a1",
-      "published_at": "2026-09-18 02:07",
-      "tag": "langchain-typesafe==0.0.1a1",
       "source": "release"
     },
     {
