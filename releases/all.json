@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-09-21 19:33",
+  "updated": "2026-09-22 01:31",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-core==1.6.4",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-core==1.6.3\n\nrelease(core): 1.6.4 (#40718)\nchore(core): deprecate chat message history (#40711)\nchore(deps): bump anyio from 4.12.0 to 4.14.2 in /libs/core (#40634)\nchore(deps): bump soupsieve from 2.8.4 to 2.9 in /libs/core (#40574)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.4",
+      "published_at": "2026-09-21 23:51",
+      "tag": "langchain-core==1.6.4",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-typesafe==0.0.1a3",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.2",
       "published_at": "2026-09-19 01:31",
       "tag": "langchain==1.4.2",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-typesafe==0.0.1a2",
-      "repo": "langchain-ai/langchain",
-      "description": "Initial release\n\nrelease(typesafe): bump to 0.0.1a2 (#40576)\nfeat(typesafe): experimental `AutoModeMiddleware` (#40545)\nfeat(typesafe): experimental `ModelRouterMiddleware` (#40543)\nfix(typesafe): trace usage metadata (#40570)\nfeat(typesafe): `TypeSafeClassifier` (#40542)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a2",
-      "published_at": "2026-09-18 06:24",
-      "tag": "langchain-typesafe==0.0.1a2",
       "source": "release"
     },
     {
@@ -87,9 +87,9 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.39.9](https://github.com/n8n-io/n8n/compare/n8n@2.39.8...n8n@2.39.9) (2026-09-21)\n\n\n### Bug Fixes\n\n* **API:** Resolve HTTP 405 error on PATCH /credentials/{credentialId} public API endpoint ([#38982](https://github.com/n8n-io/n8n/issues/38982)) ([48dccc2](https://github.com/n8n-io/n8n/commit/48dccc20c80db6dda03bfa877e39e3f409bc11b5))\n* **core:** Tear down workflow triggers when publication meets a node type the instance cannot load ([#39057](https://github.com/n8n-io/n8n/issues/39057)) ([b",
+      "description": "## [2.39.10](https://github.com/n8n-io/n8n/compare/n8n@2.39.9...n8n@2.39.10) (2026-09-21)\n\n\n### Bug Fixes\n\n* Limit declarative routing during base URL ownership checks ([#39146](https://github.com/n8n-io/n8n/issues/39146)) ([164b3f3](https://github.com/n8n-io/n8n/commit/164b3f3d8ea08ba5111d2e04cbe17921bc395fff))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/39179?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-d",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-09-21 15:41",
+      "published_at": "2026-09-21 22:07",
       "tag": "stable",
       "source": "release"
     },
@@ -103,12 +103,12 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.40.4",
+      "name": "n8n-io/n8n n8n@2.39.10",
       "repo": "n8n-io/n8n",
-      "description": "## [2.40.4](https://github.com/n8n-io/n8n/compare/n8n@2.40.3...n8n@2.40.4) (2026-09-21)\n\n\n### Bug Fixes\n\n* **core:** Tear down workflow triggers when publication meets a node type the instance cannot load ([#39056](https://github.com/n8n-io/n8n/issues/39056)) ([6a941e4](https://github.com/n8n-io/n8n/commit/6a941e4a99ad8b99164b36a76c31f4581966012a))\n\n\n### Performance Improvements\n\n* **core:** Stop loading project members when listing credentials ([#39095](https://github.com/n8n-io/n8n/issues/3909",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.40.4",
-      "published_at": "2026-09-21 15:32",
-      "tag": "n8n@2.40.4",
+      "description": "## [2.39.10](https://github.com/n8n-io/n8n/compare/n8n@2.39.9...n8n@2.39.10) (2026-09-21)\n\n\n### Bug Fixes\n\n* Limit declarative routing during base URL ownership checks ([#39146](https://github.com/n8n-io/n8n/issues/39146)) ([164b3f3](https://github.com/n8n-io/n8n/commit/164b3f3d8ea08ba5111d2e04cbe17921bc395fff))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/39179?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-d",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.10",
+      "published_at": "2026-09-21 22:07",
+      "tag": "n8n@2.39.10",
       "source": "release"
     },
     {
