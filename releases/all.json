@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-21 10:34",
+  "updated": "2026-09-21 19:33",
   "count": 15,
   "items": [
     {
@@ -87,28 +87,28 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.39.8](https://github.com/n8n-io/n8n/compare/n8n@2.39.7...n8n@2.39.8) (2026-09-18)\n\n\n### Bug Fixes\n\n* **core:** Repair data-encryption keys stored as the raw instance key ([#38911](https://github.com/n8n-io/n8n/issues/38911)) ([954f6d8](https://github.com/n8n-io/n8n/commit/954f6d8c8cebfec2f635b7668fe141d4e1e222d5))\n* **core:** Sweep parents parked on a finished sub-execution ([#38949](https://github.com/n8n-io/n8n/issues/38949)) ([496b7cb](https://github.com/n8n-io/n8n/commit/496b7cb5ad60da",
+      "description": "## [2.39.9](https://github.com/n8n-io/n8n/compare/n8n@2.39.8...n8n@2.39.9) (2026-09-21)\n\n\n### Bug Fixes\n\n* **API:** Resolve HTTP 405 error on PATCH /credentials/{credentialId} public API endpoint ([#38982](https://github.com/n8n-io/n8n/issues/38982)) ([48dccc2](https://github.com/n8n-io/n8n/commit/48dccc20c80db6dda03bfa877e39e3f409bc11b5))\n* **core:** Tear down workflow triggers when publication meets a node type the instance cannot load ([#39057](https://github.com/n8n-io/n8n/issues/39057)) ([b",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-09-18 15:54",
+      "published_at": "2026-09-21 15:41",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.39.8",
+      "name": "n8n-io/n8n n8n@2.39.9",
       "repo": "n8n-io/n8n",
-      "description": "## [2.39.8](https://github.com/n8n-io/n8n/compare/n8n@2.39.7...n8n@2.39.8) (2026-09-18)\n\n\n### Bug Fixes\n\n* **core:** Repair data-encryption keys stored as the raw instance key ([#38911](https://github.com/n8n-io/n8n/issues/38911)) ([954f6d8](https://github.com/n8n-io/n8n/commit/954f6d8c8cebfec2f635b7668fe141d4e1e222d5))\n* **core:** Sweep parents parked on a finished sub-execution ([#38949](https://github.com/n8n-io/n8n/issues/38949)) ([496b7cb](https://github.com/n8n-io/n8n/commit/496b7cb5ad60da",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.8",
-      "published_at": "2026-09-18 15:54",
-      "tag": "n8n@2.39.8",
+      "description": "## [2.39.9](https://github.com/n8n-io/n8n/compare/n8n@2.39.8...n8n@2.39.9) (2026-09-21)\n\n\n### Bug Fixes\n\n* **API:** Resolve HTTP 405 error on PATCH /credentials/{credentialId} public API endpoint ([#38982](https://github.com/n8n-io/n8n/issues/38982)) ([48dccc2](https://github.com/n8n-io/n8n/commit/48dccc20c80db6dda03bfa877e39e3f409bc11b5))\n* **core:** Tear down workflow triggers when publication meets a node type the instance cannot load ([#39057](https://github.com/n8n-io/n8n/issues/39057)) ([b",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.9",
+      "published_at": "2026-09-21 15:41",
+      "tag": "n8n@2.39.9",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.40.3",
+      "name": "n8n-io/n8n n8n@2.40.4",
       "repo": "n8n-io/n8n",
-      "description": "## [2.40.3](https://github.com/n8n-io/n8n/compare/n8n@2.40.2...n8n@2.40.3) (2026-09-18)\n\n\n### Bug Fixes\n\n* **core:** Repair data-encryption keys stored as the raw instance key ([#38910](https://github.com/n8n-io/n8n/issues/38910)) ([a8e0e7c](https://github.com/n8n-io/n8n/commit/a8e0e7c3844510321894bf661cc0610baeae8fc3))\n* **editor:** Fix blank workflow previews in AI Assistant ([#38914](https://github.com/n8n-io/n8n/issues/38914)) ([2049d15](https://github.com/n8n-io/n8n/commit/2049d15dbe7e7e034",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.40.3",
-      "published_at": "2026-09-18 15:39",
-      "tag": "n8n@2.40.3",
+      "description": "## [2.40.4](https://github.com/n8n-io/n8n/compare/n8n@2.40.3...n8n@2.40.4) (2026-09-21)\n\n\n### Bug Fixes\n\n* **core:** Tear down workflow triggers when publication meets a node type the instance cannot load ([#39056](https://github.com/n8n-io/n8n/issues/39056)) ([6a941e4](https://github.com/n8n-io/n8n/commit/6a941e4a99ad8b99164b36a76c31f4581966012a))\n\n\n### Performance Improvements\n\n* **core:** Stop loading project members when listing credentials ([#39095](https://github.com/n8n-io/n8n/issues/3909",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.40.4",
+      "published_at": "2026-09-21 15:32",
+      "tag": "n8n@2.40.4",
       "source": "release"
     },
     {
