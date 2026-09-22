@@ -1,33 +1,33 @@
 {
   "title": "Releases",
-  "updated": "2026-09-22 10:36",
+  "updated": "2026-09-22 18:39",
   "count": 15,
   "items": [
     {
-      "name": "langchain-ai/langchain langchain-openai==1.6.3",
+      "name": "langchain-ai/langchain langchain-openrouter==0.2.9",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.6.2\n\nrelease(openai): 1.6.3 (#40719)\nfix(openai): expose inferred Responses API routing at initialization (#40715)\nchore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/partners/openai (#40629)\nfix(openai): support GPT-6 request constraints (#40443)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.3",
-      "published_at": "2026-09-22 02:32",
-      "tag": "langchain-openai==1.6.3",
+      "description": "Changes since langchain-openrouter==0.2.8\n\nrelease(openrouter): 0.2.9 (#40736)\nchore(model-profiles): refresh model profile data (#40705)\nchore(model-profiles): refresh model profile data (#40685)\nchore(model-profiles): refresh model profile data (#40665)\nchore(deps): bump anyio from 4.13.0 to 4.14.2 in /libs/partners/openrouter (#40627)\nchore(model-profiles): refresh model profile data (#40600)\nchore(model-profiles): refresh model profile data (#40541)\nchore(model-profiles): refresh model profi",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.9",
+      "published_at": "2026-09-22 12:16",
+      "tag": "langchain-openrouter==0.2.9",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-core==1.6.4",
+      "name": "langchain-ai/langchain langchain-fireworks==1.6.2",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.6.3\n\nrelease(core): 1.6.4 (#40718)\nchore(core): deprecate chat message history (#40711)\nchore(deps): bump anyio from 4.12.0 to 4.14.2 in /libs/core (#40634)\nchore(deps): bump soupsieve from 2.8.4 to 2.9 in /libs/core (#40574)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.4",
-      "published_at": "2026-09-21 23:51",
-      "tag": "langchain-core==1.6.4",
+      "description": "Changes since langchain-fireworks==1.6.1\n\nfix(fireworks): use current completions model in LLM tests (#40740)\nhotfix(fireworks): use available model in LLM tests (#40737)\nrelease(fireworks): 1.6.2 (#40735)\nchore(model-profiles): refresh model profile data (#40665)\nchore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/partners/fireworks (#40639)\nchore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/partners/fireworks (#40587)\nchore(deps): bump langsmith from 0.12.1 to 0.12.6 in /libs/partners/f",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.2",
+      "published_at": "2026-09-22 12:44",
+      "tag": "langchain-fireworks==1.6.2",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-typesafe==0.0.1a3",
+      "name": "langchain-ai/langchain langchain-deepseek==1.1.1",
       "repo": "langchain-ai/langchain",
-      "description": "Initial release\n\nrelease(typesafe): 0.0.1a3 (#40693)\nfeat(typesafe): make classifier questions invocation-scoped (#40659)\nrelease(typesafe): bump to 0.0.1a2 (#40576)\nfeat(typesafe): experimental `AutoModeMiddleware` (#40545)\nfeat(typesafe): experimental `ModelRouterMiddleware` (#40543)\nfix(typesafe): trace usage metadata (#40570)\nfeat(typesafe): `TypeSafeClassifier` (#40542)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a3",
-      "published_at": "2026-09-21 02:54",
-      "tag": "langchain-typesafe==0.0.1a3",
+      "description": "Changes since langchain-deepseek==1.1.0\n\nfix(deepseek,infra): resolve compatible minimum OpenAI dependencies, bump min ver (#40738)\nrelease(deepseek): 1.1.1 (#40734)\nchore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/partners/deepseek (#40641)\nchore(model-profiles): refresh model profile data (#40399)\nfix(deepseek): route strict mode to the beta endpoint (#40249)\nchore(model-profiles): refresh model profile data (#39906)\nchore(model-profiles): refresh model profile data (#39844)\nfix(deepseek",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.1.1",
+      "published_at": "2026-09-22 12:30",
+      "tag": "langchain-deepseek==1.1.1",
       "source": "release"
     },
     {
@@ -85,30 +85,39 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n n8n@2.41.0",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.41.0](https://github.com/n8n-io/n8n/compare/n8n@2.40.0...n8n@2.41.0) (2026-09-22)\n\n\n### Bug Fixes\n\n* **ai-builder:**  Pass parent ask-user answers into Agent Builder ([#38693](https://github.com/n8n-io/n8n/issues/38693)) ([e149dfa](https://github.com/n8n-io/n8n/commit/e149dfa1aeb5b5fde8b2662ceddc19f960d0c319))\n* **ai-builder:** Reactive subject name on chip ([#39097](https://github.com/n8n-io/n8n/issues/39097)) ([233afff](https://github.com/n8n-io/n8n/commit/233afff41c75ff0b3d8fcbf2eac100c8",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.41.0",
+      "published_at": "2026-09-22 15:32",
+      "tag": "n8n@2.41.0",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n beta",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.41.0](https://github.com/n8n-io/n8n/compare/n8n@2.40.0...n8n@2.41.0) (2026-09-22)\n\n\n### Bug Fixes\n\n* **ai-builder:**  Pass parent ask-user answers into Agent Builder ([#38693](https://github.com/n8n-io/n8n/issues/38693)) ([e149dfa](https://github.com/n8n-io/n8n/commit/e149dfa1aeb5b5fde8b2662ceddc19f960d0c319))\n* **ai-builder:** Reactive subject name on chip ([#39097](https://github.com/n8n-io/n8n/issues/39097)) ([233afff](https://github.com/n8n-io/n8n/commit/233afff41c75ff0b3d8fcbf2eac100c8",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-09-22 15:32",
+      "tag": "beta",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.39.10](https://github.com/n8n-io/n8n/compare/n8n@2.39.9...n8n@2.39.10) (2026-09-21)\n\n\n### Bug Fixes\n\n* Limit declarative routing during base URL ownership checks ([#39146](https://github.com/n8n-io/n8n/issues/39146)) ([164b3f3](https://github.com/n8n-io/n8n/commit/164b3f3d8ea08ba5111d2e04cbe17921bc395fff))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/39179?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-d",
+      "description": "## [2.40.5](https://github.com/n8n-io/n8n/compare/n8n@2.40.4...n8n@2.40.5) (2026-09-21)\n\n\n### Bug Fixes\n\n* Limit declarative routing during base URL ownership checks ([#39147](https://github.com/n8n-io/n8n/issues/39147)) ([ebe5a73](https://github.com/n8n-io/n8n/commit/ebe5a73bdeea371d7ca2b10fcf228980a3c5a52f))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/39178?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dia",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-09-21 22:07",
+      "published_at": "2026-09-22 15:41",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.39.9",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.39.9](https://github.com/n8n-io/n8n/compare/n8n@2.39.8...n8n@2.39.9) (2026-09-21)\n\n\n### Bug Fixes\n\n* **API:** Resolve HTTP 405 error on PATCH /credentials/{credentialId} public API endpoint ([#38982](https://github.com/n8n-io/n8n/issues/38982)) ([48dccc2](https://github.com/n8n-io/n8n/commit/48dccc20c80db6dda03bfa877e39e3f409bc11b5))\n* **core:** Tear down workflow triggers when publication meets a node type the instance cannot load ([#39057](https://github.com/n8n-io/n8n/issues/39057)) ([b",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.9",
-      "published_at": "2026-09-21 15:41",
-      "tag": "n8n@2.39.9",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.39.10",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.39.10](https://github.com/n8n-io/n8n/compare/n8n@2.39.9...n8n@2.39.10) (2026-09-21)\n\n\n### Bug Fixes\n\n* Limit declarative routing during base URL ownership checks ([#39146](https://github.com/n8n-io/n8n/issues/39146)) ([164b3f3](https://github.com/n8n-io/n8n/commit/164b3f3d8ea08ba5111d2e04cbe17921bc395fff))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/39179?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-d",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.10",
-      "published_at": "2026-09-21 22:07",
-      "tag": "n8n@2.39.10",
+      "name": "vercel/next.js v16.4.0-canary.38",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- feat(turbopack): support `false` values for `resolveAlias` config: #93331\n\n### Misc Changes\n\n- Enable AI upgrade for canary: #99001\n- fix(turbo-persistence): preserve write errors on writer drop: #98840\n- Skip slow valued tombstone test under Miri: #98992\n- Improve the agent feedback review flow: #98937\n- Run AI upgrades with the latest official canary: #98870\n- test: move whole development-only suites out of e2e: #98842\n- Fix `instant-false` codemod to run on route segment f",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.38",
+      "published_at": "2026-09-22 16:53",
+      "tag": "v16.4.0-canary.38",
       "source": "release"
     },
     {
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.36",
       "published_at": "2026-09-19 07:47",
       "tag": "v16.4.0-canary.36",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.35",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Nudge the agents for future defaults adoption: #98721\n- Add future defaults upgrade coverage for `next upgrade --ai`: #98643\n- Nudge the agents for latest version upgrade: #98640\n- Add \"latest\" upgrade coverage for `next upgrade --ai`: #98633\n- Nudge the agents for security vulnerable version upgrade: #98637\n- Add `next upgrade --ai` and security vulnerability coverage: #98562\n- agents: Add a `--comments-only` flag to `pr-status` script, trim down context bloat in AGENTS.md: ",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.35",
-      "published_at": "2026-09-18 07:43",
-      "tag": "v16.4.0-canary.35",
       "source": "release"
     }
   ]
