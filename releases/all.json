@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-23 00:00",
+  "updated": "2026-09-23 04:41",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.34.3-rc1",
+      "name": "ollama/ollama v0.34.3",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n\r\n`GET /api/show` now advertises each model's thinking controls and default:\r\n```sh \r\ncurl http://localhost:11434/api/show -d '{\"model\": \"glm-5.3-flash:cloud\"}'\r\n```\r\n```json\r\n{\r\n  \"thinking\": {\r\n    \"values\": [\"low\", \"high\", \"max\"],\r\n    \"default\": \"max\"\r\n  }\r\n}\r\n```\r\n* **Nemotron H** vision models are now supported on Apple Silicon with MLX\r\n* Ollama's macOS app will now no longer reopen windows you've closed when activating it\r\n* Fix for model pulls from HuggingFace\r\n\r\n**Fu",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.3",
       "published_at": "2026-09-19 08:02",
-      "tag": "v0.34.3-rc1",
+      "tag": "v0.34.3",
       "source": "release"
     },
     {
@@ -121,21 +121,21 @@
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.4.0-canary.37",
+      "name": "vercel/next.js v16.3.6",
       "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Preserve closed-parameter restrictions in client route prediction: #98889\n- [test] Fix deployment tests that relied on implicit startup: #98935\n- Turbopack: Add support for specifying additional roots: #98003\n- Turbopack: Add symlinks and additional roots to NFT metadata: #98469\n\n### Credits \n\nHuge thanks to @gnoff, @unstubbable, and @bgw for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.37",
-      "published_at": "2026-09-20 07:46",
-      "tag": "v16.4.0-canary.37",
+      "description": "This release contains a security fix for [GHSA-vcvr-r3jv-pc5j: Remote Code Execution in next/og ImageResponse](https://github.com/vercel/next.js/security/advisories/GHSA-vcvr-r3jv-pc5j)",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.6",
+      "published_at": "2026-09-23 01:15",
+      "tag": "v16.3.6",
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.4.0-canary.36",
+      "name": "vercel/next.js v15.5.26",
       "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Persist resurrected tasks as new tasks: #98729\n- Rspack: Remove bincode dependency from rspack by way of turbo-unix-path: #98855\n- Pin tasks across restore waiter handoff: #98728\n- test: honor skipStart for Vercel deployments: #98776\n- Use internal prefix for Turbopack shutdown env: #98747\n- test: retry waiting for ISR fallback in prefetch-static-shell: #98884\n- Fix generated Turbopack GC option docs: #98888\n- Add agent feedback behavior evals: #98887\n- Add experimental agent",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.36",
-      "published_at": "2026-09-19 07:47",
-      "tag": "v16.4.0-canary.36",
+      "description": "This release contains additional security hardening for `next/og`. For more information, check out https://nextjs.org/blog/nextjs-security-update-september-22-2026",
+      "url": "https://github.com/vercel/next.js/releases/tag/v15.5.26",
+      "published_at": "2026-09-23 01:14",
+      "tag": "v15.5.26",
       "source": "release"
     }
   ]
