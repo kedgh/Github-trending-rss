@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-09-23 18:31",
+  "updated": "2026-09-23 23:50",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-openai==1.6.5",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-openai==1.6.4\n\nrelease(openai): 1.6.5 (#40787)\nfix(anthropic): add Opus 5.5 and GPT-6 profile augmentations (#40785)\nfeat(anthropic,openai): mid-conversation tool changes on `SystemMessage` (#40758)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.5",
+      "published_at": "2026-09-23 23:31",
+      "tag": "langchain-openai==1.6.5",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-openrouter==0.2.9",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.4",
       "published_at": "2026-09-23 06:37",
       "tag": "langchain-openai==1.6.4",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-fireworks==1.6.2",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-fireworks==1.6.1\n\nfix(fireworks): use current completions model in LLM tests (#40740)\nhotfix(fireworks): use available model in LLM tests (#40737)\nrelease(fireworks): 1.6.2 (#40735)\nchore(model-profiles): refresh model profile data (#40665)\nchore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/partners/fireworks (#40639)\nchore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/partners/fireworks (#40587)\nchore(deps): bump langsmith from 0.12.1 to 0.12.6 in /libs/partners/f",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.2",
-      "published_at": "2026-09-22 12:44",
-      "tag": "langchain-fireworks==1.6.2",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.40",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Keep cached root parameters out of generic fallback shells: #98950\n- Fix missing content in Cached Navigations: #98767\n- [turbopack] Track members across namespace re-exports: #96396\n- [PPF] Implement `unstable_ensureStatic = \"shell\" | \"prefetch\"`: #98191\n- [PPF] Validate `unstable_ensureStatic` nesting: #98357\n- Replace lerna task-runner usage with pnpm: #99040\n- [cd] Fix release branch gate and drop dead lerna publish config: #99039\n- Turbopack: fix \"ModuleId not found for ",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.40",
+      "published_at": "2026-09-23 23:25",
+      "tag": "v16.4.0-canary.40",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.39",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- [PPF] Scaffold `unstable_ensureStatic` segment config: #98190\n- [agent-feedback] Respect CI and telemetry opt-out: #99062\n- Fix prefetch loop when a predicted route redirects: #98998\n- Fix dev overlay header layout on small screens: #99049\n- [PPF] Separate tracking of runtime data accesses for shells and prefetches: #98129\n- Harden `next/og` SVG serialization: #99061\n- test: clarify dev-only intent of duplicate Sass warning test: #98917\n- test: enable upward distDir deploymen",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.38",
       "published_at": "2026-09-22 16:53",
       "tag": "v16.4.0-canary.38",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.6",
-      "repo": "vercel/next.js",
-      "description": "This release contains a security fix for [GHSA-vcvr-r3jv-pc5j: Remote Code Execution in next/og ImageResponse](https://github.com/vercel/next.js/security/advisories/GHSA-vcvr-r3jv-pc5j)",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.6",
-      "published_at": "2026-09-23 01:15",
-      "tag": "v16.3.6",
       "source": "release"
     }
   ]
