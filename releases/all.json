@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-23 23:50",
+  "updated": "2026-09-24 04:54",
   "count": 15,
   "items": [
     {
@@ -13,21 +13,21 @@
       "source": "release"
     },
     {
+      "name": "langchain-ai/langchain langchain-anthropic==1.7.4",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-anthropic==1.7.3\n\nchore(anthropic): fix integration test cassette (#40790)\nrelease(anthropic): 1.7.4 (#40786)\nfix(anthropic): add Opus 5.5 and GPT-6 profile augmentations (#40785)\nfeat(anthropic,openai): mid-conversation tool changes on `SystemMessage` (#40758)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.4",
+      "published_at": "2026-09-24 01:56",
+      "tag": "langchain-anthropic==1.7.4",
+      "source": "release"
+    },
+    {
       "name": "langchain-ai/langchain langchain-openrouter==0.2.9",
       "repo": "langchain-ai/langchain",
       "description": "Changes since langchain-openrouter==0.2.8\n\nrelease(openrouter): 0.2.9 (#40736)\nchore(model-profiles): refresh model profile data (#40705)\nchore(model-profiles): refresh model profile data (#40685)\nchore(model-profiles): refresh model profile data (#40665)\nchore(deps): bump anyio from 4.13.0 to 4.14.2 in /libs/partners/openrouter (#40627)\nchore(model-profiles): refresh model profile data (#40600)\nchore(model-profiles): refresh model profile data (#40541)\nchore(model-profiles): refresh model profi",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.9",
       "published_at": "2026-09-22 12:16",
       "tag": "langchain-openrouter==0.2.9",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-openai==1.6.4",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.6.3\n\nrelease(openai): 1.6.4 (#40775)\nchore(model-profiles): refresh openai model profile data (#40774)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.4",
-      "published_at": "2026-09-23 06:37",
-      "tag": "langchain-openai==1.6.4",
       "source": "release"
     },
     {
