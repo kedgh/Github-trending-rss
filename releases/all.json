@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-23 04:41",
+  "updated": "2026-09-23 10:36",
   "count": 15,
   "items": [
     {
@@ -13,21 +13,21 @@
       "source": "release"
     },
     {
+      "name": "langchain-ai/langchain langchain-openai==1.6.4",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-openai==1.6.3\n\nrelease(openai): 1.6.4 (#40775)\nchore(model-profiles): refresh openai model profile data (#40774)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.4",
+      "published_at": "2026-09-23 06:37",
+      "tag": "langchain-openai==1.6.4",
+      "source": "release"
+    },
+    {
       "name": "langchain-ai/langchain langchain-fireworks==1.6.2",
       "repo": "langchain-ai/langchain",
       "description": "Changes since langchain-fireworks==1.6.1\n\nfix(fireworks): use current completions model in LLM tests (#40740)\nhotfix(fireworks): use available model in LLM tests (#40737)\nrelease(fireworks): 1.6.2 (#40735)\nchore(model-profiles): refresh model profile data (#40665)\nchore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/partners/fireworks (#40639)\nchore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/partners/fireworks (#40587)\nchore(deps): bump langsmith from 0.12.1 to 0.12.6 in /libs/partners/f",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.2",
       "published_at": "2026-09-22 12:44",
       "tag": "langchain-fireworks==1.6.2",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-deepseek==1.1.1",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-deepseek==1.1.0\n\nfix(deepseek,infra): resolve compatible minimum OpenAI dependencies, bump min ver (#40738)\nrelease(deepseek): 1.1.1 (#40734)\nchore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/partners/deepseek (#40641)\nchore(model-profiles): refresh model profile data (#40399)\nfix(deepseek): route strict mode to the beta endpoint (#40249)\nchore(model-profiles): refresh model profile data (#39906)\nchore(model-profiles): refresh model profile data (#39844)\nfix(deepseek",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.1.1",
-      "published_at": "2026-09-22 12:30",
-      "tag": "langchain-deepseek==1.1.1",
       "source": "release"
     },
     {
@@ -58,9 +58,18 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.34.4-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* server: fix intermittent \"model not found\" errors. by @rick-github in https://github.com/ollama/ollama/pull/18438\r\n* server: apply structured outputs in a single pass on thinking models by @jessegross in https://github.com/ollama/ollama/pull/18479\r\n* app: avoid System Events for ChatGPT/Codex detection by @hoyyeva in https://github.com/ollama/ollama/pull/18601\r\n* llama.cpp: version update by @dhiltgen in https://github.com/ollama/ollama/pull/18577\r\n* MLX: version bump by @dh",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.4-rc0",
+      "published_at": "2026-09-23 10:24",
+      "tag": "v0.34.4-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.34.3",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n\r\n`GET /api/show` now advertises each model's thinking controls and default:\r\n```sh \r\ncurl http://localhost:11434/api/show -d '{\"model\": \"glm-5.3-flash:cloud\"}'\r\n```\r\n```json\r\n{\r\n  \"thinking\": {\r\n    \"values\": [\"low\", \"high\", \"max\"],\r\n    \"default\": \"max\"\r\n  }\r\n}\r\n```\r\n* **Nemotron H** vision models are now supported on Apple Silicon with MLX\r\n* Ollama's macOS app will now no longer reopen windows you've closed when activating it\r\n* Fix for model pulls from HuggingFace\r\n\r\n**Fu",
+      "description": "## What's Changed\r\n\r\n`GET /api/show` now advertises each model's thinking controls and default:\r\n\r\nAvailable in the CLI with:\r\n```\r\nollama show gemma4\r\n```\r\n\r\n```\r\n    thinking\r\n        levels     false, true\r\n        default    true\r\n```\r\n\r\nAvailable in the API with:\r\n```sh \r\ncurl http://localhost:11434/api/show -d '{\"model\": \"glm-5.3-flash:cloud\"}'\r\n```\r\n\r\n```json\r\n{\r\n  \"thinking\": {\r\n    \"values\": [\"low\", \"high\", \"max\"],\r\n    \"default\": \"max\"\r\n  }\r\n}\r\n```\r\n\r\nAlso available on ollama.com direc",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.34.3",
       "published_at": "2026-09-19 08:02",
       "tag": "v0.34.3",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.34.2",
       "published_at": "2026-09-16 05:21",
       "tag": "v0.34.2",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.34.1",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* MLX safetensors `ollama create` no longer experimental.  GGUF model creation now requires using llama.cpp tooling for safetensor conversion and quantization.\r\n* Improved MLX memory handling on Apple Silicon\r\n* Runaway repeat token detection now requires 100 repeat tokens for reduced false positives (e.g. OCR)\r\n* `/api/tags` is much faster on large model libraries (3.1 s → 294 ms cold in testing), and model capabilities are now reported consistently.\r\n* Deprecated `typical_p`",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.1",
-      "published_at": "2026-09-15 06:14",
-      "tag": "v0.34.1",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.39",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [PPF] Scaffold `unstable_ensureStatic` segment config: #98190\n- [agent-feedback] Respect CI and telemetry opt-out: #99062\n- Fix prefetch loop when a predicted route redirects: #98998\n- Fix dev overlay header layout on small screens: #99049\n- [PPF] Separate tracking of runtime data accesses for shells and prefetches: #98129\n- Harden `next/og` SVG serialization: #99061\n- test: clarify dev-only intent of duplicate Sass warning test: #98917\n- test: enable upward distDir deploymen",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.39",
+      "published_at": "2026-09-23 07:51",
+      "tag": "v16.4.0-canary.39",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.38",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- feat(turbopack): support `false` values for `resolveAlias` config: #93331\n\n### Misc Changes\n\n- Enable AI upgrade for canary: #99001\n- fix(turbo-persistence): preserve write errors on writer drop: #98840\n- Skip slow valued tombstone test under Miri: #98992\n- Improve the agent feedback review flow: #98937\n- Run AI upgrades with the latest official canary: #98870\n- test: move whole development-only suites out of e2e: #98842\n- Fix `instant-false` codemod to run on route segment f",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.3.6",
       "published_at": "2026-09-23 01:15",
       "tag": "v16.3.6",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v15.5.26",
-      "repo": "vercel/next.js",
-      "description": "This release contains additional security hardening for `next/og`. For more information, check out https://nextjs.org/blog/nextjs-security-update-september-22-2026",
-      "url": "https://github.com/vercel/next.js/releases/tag/v15.5.26",
-      "published_at": "2026-09-23 01:14",
-      "tag": "v15.5.26",
       "source": "release"
     }
   ]
