@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-23 10:36",
+  "updated": "2026-09-23 18:31",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n n8n@2.41.1",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.41.1](https://github.com/n8n-io/n8n/compare/n8n@2.41.0...n8n@2.41.1) (2026-09-23)\n\n\n### Bug Fixes\n\n* **core:** Restore pubsub subscriptions after Redis reconnect and detect half-open subscriber connections ([#39241](https://github.com/n8n-io/n8n/issues/39241)) ([b3196fb](https://github.com/n8n-io/n8n/commit/b3196fb520d4011ed66fdfcceb8da5da2b2e819d))\n\n\n### Features\n\n* **core:** Enable Agents by default ([#39328](https://github.com/n8n-io/n8n/issues/39328)) ([d8c49e2](https://github.com/n8n-",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.41.1",
+      "published_at": "2026-09-23 17:58",
+      "tag": "n8n@2.41.1",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n beta",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.41.1](https://github.com/n8n-io/n8n/compare/n8n@2.41.0...n8n@2.41.1) (2026-09-23)\n\n\n### Bug Fixes\n\n* **core:** Restore pubsub subscriptions after Redis reconnect and detect half-open subscriber connections ([#39241](https://github.com/n8n-io/n8n/issues/39241)) ([b3196fb](https://github.com/n8n-io/n8n/commit/b3196fb520d4011ed66fdfcceb8da5da2b2e819d))\n\n\n### Features\n\n* **core:** Enable Agents by default ([#39328](https://github.com/n8n-io/n8n/issues/39328)) ([d8c49e2](https://github.com/n8n-",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-09-23 17:58",
+      "tag": "beta",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n n8n@2.41.0",
       "repo": "n8n-io/n8n",
       "description": "# [2.41.0](https://github.com/n8n-io/n8n/compare/n8n@2.40.0...n8n@2.41.0) (2026-09-22)\n\n\n### Bug Fixes\n\n* **ai-builder:**  Pass parent ask-user answers into Agent Builder ([#38693](https://github.com/n8n-io/n8n/issues/38693)) ([e149dfa](https://github.com/n8n-io/n8n/commit/e149dfa1aeb5b5fde8b2662ceddc19f960d0c319))\n* **ai-builder:** Reactive subject name on chip ([#39097](https://github.com/n8n-io/n8n/issues/39097)) ([233afff](https://github.com/n8n-io/n8n/commit/233afff41c75ff0b3d8fcbf2eac100c8",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.41.0",
       "published_at": "2026-09-22 15:32",
       "tag": "n8n@2.41.0",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n beta",
-      "repo": "n8n-io/n8n",
-      "description": "# [2.41.0](https://github.com/n8n-io/n8n/compare/n8n@2.40.0...n8n@2.41.0) (2026-09-22)\n\n\n### Bug Fixes\n\n* **ai-builder:**  Pass parent ask-user answers into Agent Builder ([#38693](https://github.com/n8n-io/n8n/issues/38693)) ([e149dfa](https://github.com/n8n-io/n8n/commit/e149dfa1aeb5b5fde8b2662ceddc19f960d0c319))\n* **ai-builder:** Reactive subject name on chip ([#39097](https://github.com/n8n-io/n8n/issues/39097)) ([233afff](https://github.com/n8n-io/n8n/commit/233afff41c75ff0b3d8fcbf2eac100c8",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-09-22 15:32",
-      "tag": "beta",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n stable",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.40.5](https://github.com/n8n-io/n8n/compare/n8n@2.40.4...n8n@2.40.5) (2026-09-21)\n\n\n### Bug Fixes\n\n* Limit declarative routing during base URL ownership checks ([#39147](https://github.com/n8n-io/n8n/issues/39147)) ([ebe5a73](https://github.com/n8n-io/n8n/commit/ebe5a73bdeea371d7ca2b10fcf228980a3c5a52f))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/39178?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dia",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-09-22 15:41",
-      "tag": "stable",
       "source": "release"
     },
     {
