@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-09-24 18:49",
+  "updated": "2026-09-25 00:12",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-openai==1.6.6",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-openai==1.6.5\n\nrelease(openai): 1.6.6 (#40800)\nfix(openai): raise on error events in stream path (#40791)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.6",
+      "published_at": "2026-09-24 19:31",
+      "tag": "langchain-openai==1.6.6",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-openai==1.6.5",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.4",
       "published_at": "2026-09-24 01:56",
       "tag": "langchain-anthropic==1.7.4",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-openrouter==0.2.9",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openrouter==0.2.8\n\nrelease(openrouter): 0.2.9 (#40736)\nchore(model-profiles): refresh model profile data (#40705)\nchore(model-profiles): refresh model profile data (#40685)\nchore(model-profiles): refresh model profile data (#40665)\nchore(deps): bump anyio from 4.13.0 to 4.14.2 in /libs/partners/openrouter (#40627)\nchore(model-profiles): refresh model profile data (#40600)\nchore(model-profiles): refresh model profile data (#40541)\nchore(model-profiles): refresh model profi",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.9",
-      "published_at": "2026-09-22 12:16",
-      "tag": "langchain-openrouter==0.2.9",
       "source": "release"
     },
     {
