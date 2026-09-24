@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-09-25 00:12",
+  "updated": "2026-09-25 04:58",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-core==1.6.5",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-core==1.6.4\n\nrelease(core): 1.6.5 (#40816)\nfix(core): abbreviate long tool IDs in XML buffer strings (#40792)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.5",
+      "published_at": "2026-09-25 02:11",
+      "tag": "langchain-core==1.6.5",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-openai==1.6.6",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.5",
       "published_at": "2026-09-23 23:31",
       "tag": "langchain-openai==1.6.5",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-anthropic==1.7.4",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-anthropic==1.7.3\n\nchore(anthropic): fix integration test cassette (#40790)\nrelease(anthropic): 1.7.4 (#40786)\nfix(anthropic): add Opus 5.5 and GPT-6 profile augmentations (#40785)\nfeat(anthropic,openai): mid-conversation tool changes on `SystemMessage` (#40758)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.4",
-      "published_at": "2026-09-24 01:56",
-      "tag": "langchain-anthropic==1.7.4",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.44",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Turbopack: chunk each layout segment once in production: #99100\n- bundle-analyzer: exclude traces from output types: #98536\n- turbo-tasks-gc: Defer most aggregation graph management until after GC has settled: #98591\n- Skip ESLint migration when scripts do not use next lint: #99103\n- Turbopack: pass RcStr to AnalyzeIssue: #99166\n- Use graph-backed codegen for client proxies and WASM loaders: #99115\n- [PPF] Instant validation for `ensureStatic = \"shell\" | \"prefetch\"`: #98249\n-",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.44",
+      "published_at": "2026-09-25 01:05",
+      "tag": "v16.4.0-canary.44",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.43",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Tune Node server chunking for require overhead: #99120\n- Turbopack: fix another \"ModuleId not found for ident\" regression: #99102\n- test: enable deploy coverage for TypeScript config errors: #98849\n- test: enable deploy coverage for routing build errors: #98848\n- test: enable deploy coverage for cache build errors: #98847\n\n### Credits \n\nHuge thanks to @sokra, @mischnic, and @jamiboym for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.42",
       "published_at": "2026-09-24 08:30",
       "tag": "v16.4.0-canary.42",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.41",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Add experimental custom webpack support: #98862\n- Default agentic upgrades to a separate worktree: #99111\n- Improve agent upgrade failure message for missing app: #99117\n- Preserve error boundaries in on-demand partial prerenders: #99051\n- Preserve error boundaries during on-demand prerendering: #99037\n- docs: clarify Turbopack ModulePart export examples: #99104\n- Add some more verification and safety rules around custom `distDir`: #98997\n- Preserve closed-route admission acr",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.41",
-      "published_at": "2026-09-24 07:46",
-      "tag": "v16.4.0-canary.41",
       "source": "release"
     }
   ]
