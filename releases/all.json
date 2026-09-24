@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-24 04:54",
+  "updated": "2026-09-24 10:26",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.34.4-rc0",
+      "name": "ollama/ollama v0.34.4-rc1",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* server: fix intermittent \"model not found\" errors. by @rick-github in https://github.com/ollama/ollama/pull/18438\r\n* server: apply structured outputs in a single pass on thinking models by @jessegross in https://github.com/ollama/ollama/pull/18479\r\n* app: avoid System Events for ChatGPT/Codex detection by @hoyyeva in https://github.com/ollama/ollama/pull/18601\r\n* llama.cpp: version update by @dhiltgen in https://github.com/ollama/ollama/pull/18577\r\n* MLX: version bump by @dh",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.4-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.4-rc1",
       "published_at": "2026-09-23 10:24",
-      "tag": "v0.34.4-rc0",
+      "tag": "v0.34.4-rc1",
       "source": "release"
     },
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.42",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [ci] Skip preview tarball upload when the artifact is missing: #98713\n- [cd] Retry preview tarball uploads with backoff and richer diagnostics: #99060\n- Promote next analyze command: #99074\n- [ai-upgrade] Remind the agent to report the nudge: #99127\n\n### Credits \n\nHuge thanks to @eps1lon, @wbinnssmith, and @devjiwonchoi for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.42",
+      "published_at": "2026-09-24 08:30",
+      "tag": "v16.4.0-canary.42",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.4.0-canary.41",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Add experimental custom webpack support: #98862\n- Default agentic upgrades to a separate worktree: #99111\n- Improve agent upgrade failure message for missing app: #99117\n- Preserve error boundaries in on-demand partial prerenders: #99051\n- Preserve error boundaries during on-demand prerendering: #99037\n- docs: clarify Turbopack ModulePart export examples: #99104\n- Add some more verification and safety rules around custom `distDir`: #98997\n- Preserve closed-route admission acr",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.41",
+      "published_at": "2026-09-24 07:46",
+      "tag": "v16.4.0-canary.41",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.40",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Keep cached root parameters out of generic fallback shells: #98950\n- Fix missing content in Cached Navigations: #98767\n- [turbopack] Track members across namespace re-exports: #96396\n- [PPF] Implement `unstable_ensureStatic = \"shell\" | \"prefetch\"`: #98191\n- [PPF] Validate `unstable_ensureStatic` nesting: #98357\n- Replace lerna task-runner usage with pnpm: #99040\n- [cd] Fix release branch gate and drop dead lerna publish config: #99039\n- Turbopack: fix \"ModuleId not found for ",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.40",
       "published_at": "2026-09-23 23:25",
       "tag": "v16.4.0-canary.40",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.39",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [PPF] Scaffold `unstable_ensureStatic` segment config: #98190\n- [agent-feedback] Respect CI and telemetry opt-out: #99062\n- Fix prefetch loop when a predicted route redirects: #98998\n- Fix dev overlay header layout on small screens: #99049\n- [PPF] Separate tracking of runtime data accesses for shells and prefetches: #98129\n- Harden `next/og` SVG serialization: #99061\n- test: clarify dev-only intent of duplicate Sass warning test: #98917\n- test: enable upward distDir deploymen",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.39",
-      "published_at": "2026-09-23 07:51",
-      "tag": "v16.4.0-canary.39",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.38",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- feat(turbopack): support `false` values for `resolveAlias` config: #93331\n\n### Misc Changes\n\n- Enable AI upgrade for canary: #99001\n- fix(turbo-persistence): preserve write errors on writer drop: #98840\n- Skip slow valued tombstone test under Miri: #98992\n- Improve the agent feedback review flow: #98937\n- Run AI upgrades with the latest official canary: #98870\n- test: move whole development-only suites out of e2e: #98842\n- Fix `instant-false` codemod to run on route segment f",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.38",
-      "published_at": "2026-09-22 16:53",
-      "tag": "v16.4.0-canary.38",
       "source": "release"
     }
   ]
