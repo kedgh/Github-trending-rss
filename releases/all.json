@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-24 10:26",
+  "updated": "2026-09-24 18:49",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.34.4-rc1",
+      "name": "ollama/ollama v0.34.4",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* server: fix intermittent \"model not found\" errors. by @rick-github in https://github.com/ollama/ollama/pull/18438\r\n* server: apply structured outputs in a single pass on thinking models by @jessegross in https://github.com/ollama/ollama/pull/18479\r\n* app: avoid System Events for ChatGPT/Codex detection by @hoyyeva in https://github.com/ollama/ollama/pull/18601\r\n* llama.cpp: version update by @dhiltgen in https://github.com/ollama/ollama/pull/18577\r\n* MLX: version bump by @dh",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.4-rc1",
+      "description": "## What's Changed\r\n\r\n- Structured outputs on thinking models now apply in a single pass, making them faster and more reliable.\r\n- Fixed intermittent \"model not found\" errors with a large local library\r\n- Fixed the macOS app becoming unresponsive when checking if ChatGPT or Codex is running.\r\n- Qwen 3.8 prompt processing is faster on Apple Silicon.\r\n- Gemma 4 on Apple Silicon now picks the best image resolution per image, keeping more detail in high-resolution images.\r\n- Updated llama.cpp, MLX, a",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.4",
       "published_at": "2026-09-23 10:24",
-      "tag": "v0.34.4-rc1",
+      "tag": "v0.34.4",
       "source": "release"
     },
     {
@@ -85,30 +85,39 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.41.1",
+      "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.41.1](https://github.com/n8n-io/n8n/compare/n8n@2.41.0...n8n@2.41.1) (2026-09-23)\n\n\n### Bug Fixes\n\n* **core:** Restore pubsub subscriptions after Redis reconnect and detect half-open subscriber connections ([#39241](https://github.com/n8n-io/n8n/issues/39241)) ([b3196fb](https://github.com/n8n-io/n8n/commit/b3196fb520d4011ed66fdfcceb8da5da2b2e819d))\n\n\n### Features\n\n* **core:** Enable Agents by default ([#39328](https://github.com/n8n-io/n8n/issues/39328)) ([d8c49e2](https://github.com/n8n-",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.41.1",
-      "published_at": "2026-09-23 17:58",
-      "tag": "n8n@2.41.1",
+      "description": "## [2.40.6](https://github.com/n8n-io/n8n/compare/n8n@2.40.5...n8n@2.40.6) (2026-09-24)\n\n\n### Bug Fixes\n\n* **core:** Keep OpenTelemetry export working after a restart when Sentry is enabled ([#39368](https://github.com/n8n-io/n8n/issues/39368)) ([7720a02](https://github.com/n8n-io/n8n/commit/7720a02599ef7c7fb8b44407cf7646c0915ecd4d))\n* **core:** Retry instance reports that cross the UTC midnight boundary ([#39434](https://github.com/n8n-io/n8n/issues/39434)) ([5e09a78](https://github.com/n8n-io/",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-09-24 15:31",
+      "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n beta",
+      "name": "n8n-io/n8n n8n@2.40.6",
       "repo": "n8n-io/n8n",
-      "description": "## [2.41.1](https://github.com/n8n-io/n8n/compare/n8n@2.41.0...n8n@2.41.1) (2026-09-23)\n\n\n### Bug Fixes\n\n* **core:** Restore pubsub subscriptions after Redis reconnect and detect half-open subscriber connections ([#39241](https://github.com/n8n-io/n8n/issues/39241)) ([b3196fb](https://github.com/n8n-io/n8n/commit/b3196fb520d4011ed66fdfcceb8da5da2b2e819d))\n\n\n### Features\n\n* **core:** Enable Agents by default ([#39328](https://github.com/n8n-io/n8n/issues/39328)) ([d8c49e2](https://github.com/n8n-",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-09-23 17:58",
-      "tag": "beta",
+      "description": "## [2.40.6](https://github.com/n8n-io/n8n/compare/n8n@2.40.5...n8n@2.40.6) (2026-09-24)\n\n\n### Bug Fixes\n\n* **core:** Keep OpenTelemetry export working after a restart when Sentry is enabled ([#39368](https://github.com/n8n-io/n8n/issues/39368)) ([7720a02](https://github.com/n8n-io/n8n/commit/7720a02599ef7c7fb8b44407cf7646c0915ecd4d))\n* **core:** Retry instance reports that cross the UTC midnight boundary ([#39434](https://github.com/n8n-io/n8n/issues/39434)) ([5e09a78](https://github.com/n8n-io/",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.40.6",
+      "published_at": "2026-09-24 15:31",
+      "tag": "n8n@2.40.6",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.41.0",
+      "name": "n8n-io/n8n n8n@2.41.2",
       "repo": "n8n-io/n8n",
-      "description": "# [2.41.0](https://github.com/n8n-io/n8n/compare/n8n@2.40.0...n8n@2.41.0) (2026-09-22)\n\n\n### Bug Fixes\n\n* **ai-builder:**  Pass parent ask-user answers into Agent Builder ([#38693](https://github.com/n8n-io/n8n/issues/38693)) ([e149dfa](https://github.com/n8n-io/n8n/commit/e149dfa1aeb5b5fde8b2662ceddc19f960d0c319))\n* **ai-builder:** Reactive subject name on chip ([#39097](https://github.com/n8n-io/n8n/issues/39097)) ([233afff](https://github.com/n8n-io/n8n/commit/233afff41c75ff0b3d8fcbf2eac100c8",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.41.0",
-      "published_at": "2026-09-22 15:32",
-      "tag": "n8n@2.41.0",
+      "description": "## [2.41.2](https://github.com/n8n-io/n8n/compare/n8n@2.41.1...n8n@2.41.2) (2026-09-24)\n\n\n### Bug Fixes\n\n* **core:** Keep OpenTelemetry export working after a restart when Sentry is enabled ([#39367](https://github.com/n8n-io/n8n/issues/39367)) ([2de7d47](https://github.com/n8n-io/n8n/commit/2de7d47c2e079bd4474984b11e038877ac5fd7cf))\n* **core:** Record live n8n Assistant test runs as verification evidence ([#39383](https://github.com/n8n-io/n8n/issues/39383)) ([07f2d36](https://github.com/n8n-io",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.41.2",
+      "published_at": "2026-09-24 15:28",
+      "tag": "n8n@2.41.2",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.4.0-canary.43",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Tune Node server chunking for require overhead: #99120\n- Turbopack: fix another \"ModuleId not found for ident\" regression: #99102\n- test: enable deploy coverage for TypeScript config errors: #98849\n- test: enable deploy coverage for routing build errors: #98848\n- test: enable deploy coverage for cache build errors: #98847\n\n### Credits \n\nHuge thanks to @sokra, @mischnic, and @jamiboym for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.43",
+      "published_at": "2026-09-24 18:48",
+      "tag": "v16.4.0-canary.43",
       "source": "release"
     },
     {
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.41",
       "published_at": "2026-09-24 07:46",
       "tag": "v16.4.0-canary.41",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.40",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Keep cached root parameters out of generic fallback shells: #98950\n- Fix missing content in Cached Navigations: #98767\n- [turbopack] Track members across namespace re-exports: #96396\n- [PPF] Implement `unstable_ensureStatic = \"shell\" | \"prefetch\"`: #98191\n- [PPF] Validate `unstable_ensureStatic` nesting: #98357\n- Replace lerna task-runner usage with pnpm: #99040\n- [cd] Fix release branch gate and drop dead lerna publish config: #99039\n- Turbopack: fix \"ModuleId not found for ",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.40",
-      "published_at": "2026-09-23 23:25",
-      "tag": "v16.4.0-canary.40",
       "source": "release"
     }
   ]
