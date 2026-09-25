@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-25 04:58",
+  "updated": "2026-09-25 10:43",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.45",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [test] Fix new deploy suites: #99162\n- Provide only the relevant context for agent upgrade: #99189\n- Turbopack: Add support for additionalRoots to deployment adapters: #99015\n- Use Sonnet 5 with 1M context for AI upgrade handoff: #99183\n- docs: font per-call preload scope and the declarations font-family override: #99167\n\n### Credits \n\nHuge thanks to @eps1lon, @devjiwonchoi, @bgw, and @icyJoseph for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.45",
+      "published_at": "2026-09-25 07:48",
+      "tag": "v16.4.0-canary.45",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.44",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Turbopack: chunk each layout segment once in production: #99100\n- bundle-analyzer: exclude traces from output types: #98536\n- turbo-tasks-gc: Defer most aggregation graph management until after GC has settled: #98591\n- Skip ESLint migration when scripts do not use next lint: #99103\n- Turbopack: pass RcStr to AnalyzeIssue: #99166\n- Use graph-backed codegen for client proxies and WASM loaders: #99115\n- [PPF] Instant validation for `ensureStatic = \"shell\" | \"prefetch\"`: #98249\n-",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.43",
       "published_at": "2026-09-24 18:48",
       "tag": "v16.4.0-canary.43",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.42",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [ci] Skip preview tarball upload when the artifact is missing: #98713\n- [cd] Retry preview tarball uploads with backoff and richer diagnostics: #99060\n- Promote next analyze command: #99074\n- [ai-upgrade] Remind the agent to report the nudge: #99127\n\n### Credits \n\nHuge thanks to @eps1lon, @wbinnssmith, and @devjiwonchoi for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.42",
-      "published_at": "2026-09-24 08:30",
-      "tag": "v16.4.0-canary.42",
       "source": "release"
     }
   ]
