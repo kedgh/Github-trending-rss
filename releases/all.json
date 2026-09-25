@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-26 00:13",
+  "updated": "2026-09-26 04:55",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.47",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Prepare `'use cache'` for static root-param tracking: #99239\n- [test] Adjust the prerender-encoding open fallback gate for non-adapter deploys: #99240\n- Turbopack: avoid project-wide traces from package directories: #99238\n\n### Credits \n\nHuge thanks to @unstubbable, @eps1lon, and @sokra for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.47",
+      "published_at": "2026-09-26 00:16",
+      "tag": "v16.4.0-canary.47",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.46",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Revert \"Add experimental custom webpack support\": #99227\n- test: stabilize lazy dynamic import error overlay: #98730\n- turbo-tasks-gc: tear down reverse edges when collecting a task: #99145\n- Sequence CI for branch-based PR stacks: #99086\n- Prefetch scheduler mirrors the navigation's tree walk: #98975\n- Separate route structure comparison from param comparison: #98974\n- Store the head as its own CacheNode: #98973\n- Record which params a CacheNode's data depends on: #98972\n- U",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.45",
       "published_at": "2026-09-25 07:48",
       "tag": "v16.4.0-canary.45",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.44",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Turbopack: chunk each layout segment once in production: #99100\n- bundle-analyzer: exclude traces from output types: #98536\n- turbo-tasks-gc: Defer most aggregation graph management until after GC has settled: #98591\n- Skip ESLint migration when scripts do not use next lint: #99103\n- Turbopack: pass RcStr to AnalyzeIssue: #99166\n- Use graph-backed codegen for client proxies and WASM loaders: #99115\n- [PPF] Instant validation for `ensureStatic = \"shell\" | \"prefetch\"`: #98249\n-",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.44",
-      "published_at": "2026-09-25 01:05",
-      "tag": "v16.4.0-canary.44",
       "source": "release"
     }
   ]
