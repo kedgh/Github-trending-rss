@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-25 10:43",
+  "updated": "2026-09-25 18:53",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.40.0-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n\r\n**Models run on MLX on Apple Silicon by default**\r\n\r\nIn this release, model architectures supported by the MLX runner will run by default on Apple Silicon devices.\r\n\r\n```\r\nollama pull qwen3.8\r\nollama run qwen3.8\r\n```\r\n\r\nDuring the RC we will be testing and enabling additional models.\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.4...v0.40.0-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0",
+      "published_at": "2026-09-25 11:31",
+      "tag": "v0.40.0-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.34.4",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n\r\n- Structured outputs on thinking models now apply in a single pass, making them faster and more reliable.\r\n- Fixed intermittent \"model not found\" errors with a large local library\r\n- Fixed the macOS app becoming unresponsive when checking if ChatGPT or Codex is running.\r\n- Qwen 3.8 prompt processing is faster on Apple Silicon.\r\n- Gemma 4 on Apple Silicon now picks the best image resolution per image, keeping more detail in high-resolution images.\r\n- Updated llama.cpp, MLX, a",
@@ -76,39 +85,30 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.34.2",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n\r\n- Added first-run setup when running `ollama`, with options to sign in or continue locally. Setup completion is shared with the desktop app on macOS and Windows.\r\n- Added `ollama://apps` to open the desktop app’s Apps page directly on macOS and Windows.\r\n- Fixed excessive memory growth during long generations with MLX speculative decoding.\r\n- Updated llama.cpp.\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.1...v0.34.2",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.2",
-      "published_at": "2026-09-16 05:21",
-      "tag": "v0.34.2",
-      "source": "release"
-    },
-    {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.40.6](https://github.com/n8n-io/n8n/compare/n8n@2.40.5...n8n@2.40.6) (2026-09-24)\n\n\n### Bug Fixes\n\n* **core:** Keep OpenTelemetry export working after a restart when Sentry is enabled ([#39368](https://github.com/n8n-io/n8n/issues/39368)) ([7720a02](https://github.com/n8n-io/n8n/commit/7720a02599ef7c7fb8b44407cf7646c0915ecd4d))\n* **core:** Retry instance reports that cross the UTC midnight boundary ([#39434](https://github.com/n8n-io/n8n/issues/39434)) ([5e09a78](https://github.com/n8n-io/",
+      "description": "## [2.40.7](https://github.com/n8n-io/n8n/compare/n8n@2.40.6...n8n@2.40.7) (2026-09-25)\n\n\n### Bug Fixes\n\n* **core:** Propagate project span attributes to node spans ([#39457](https://github.com/n8n-io/n8n/issues/39457)) ([59fccb6](https://github.com/n8n-io/n8n/commit/59fccb645b0ff5f9933251f24ccb3046a53ed9fb))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/39572?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dial",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-09-24 15:31",
+      "published_at": "2026-09-25 15:51",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.40.6",
+      "name": "n8n-io/n8n n8n@2.40.7",
       "repo": "n8n-io/n8n",
-      "description": "## [2.40.6](https://github.com/n8n-io/n8n/compare/n8n@2.40.5...n8n@2.40.6) (2026-09-24)\n\n\n### Bug Fixes\n\n* **core:** Keep OpenTelemetry export working after a restart when Sentry is enabled ([#39368](https://github.com/n8n-io/n8n/issues/39368)) ([7720a02](https://github.com/n8n-io/n8n/commit/7720a02599ef7c7fb8b44407cf7646c0915ecd4d))\n* **core:** Retry instance reports that cross the UTC midnight boundary ([#39434](https://github.com/n8n-io/n8n/issues/39434)) ([5e09a78](https://github.com/n8n-io/",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.40.6",
-      "published_at": "2026-09-24 15:31",
-      "tag": "n8n@2.40.6",
+      "description": "## [2.40.7](https://github.com/n8n-io/n8n/compare/n8n@2.40.6...n8n@2.40.7) (2026-09-25)\n\n\n### Bug Fixes\n\n* **core:** Propagate project span attributes to node spans ([#39457](https://github.com/n8n-io/n8n/issues/39457)) ([59fccb6](https://github.com/n8n-io/n8n/commit/59fccb645b0ff5f9933251f24ccb3046a53ed9fb))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/39572?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dial",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.40.7",
+      "published_at": "2026-09-25 15:51",
+      "tag": "n8n@2.40.7",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.41.2",
+      "name": "n8n-io/n8n n8n@1.123.82",
       "repo": "n8n-io/n8n",
-      "description": "## [2.41.2](https://github.com/n8n-io/n8n/compare/n8n@2.41.1...n8n@2.41.2) (2026-09-24)\n\n\n### Bug Fixes\n\n* **core:** Keep OpenTelemetry export working after a restart when Sentry is enabled ([#39367](https://github.com/n8n-io/n8n/issues/39367)) ([2de7d47](https://github.com/n8n-io/n8n/commit/2de7d47c2e079bd4474984b11e038877ac5fd7cf))\n* **core:** Record live n8n Assistant test runs as verification evidence ([#39383](https://github.com/n8n-io/n8n/issues/39383)) ([07f2d36](https://github.com/n8n-io",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.41.2",
-      "published_at": "2026-09-24 15:28",
-      "tag": "n8n@2.41.2",
+      "description": "## [1.123.82](https://github.com/n8n-io/n8n/compare/n8n@1.123.81...n8n@1.123.82) (2026-09-25)\n\n\n### Bug Fixes\n\n* bump adm-zip to 0.6.1 ([de771f0](https://github.com/n8n-io/n8n/commit/de771f0aa433ea66820d4cc02e8a426d7e7573df))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/39573?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.c",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.82",
+      "published_at": "2026-09-25 15:49",
+      "tag": "n8n@1.123.82",
       "source": "release"
     },
     {

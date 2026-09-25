@@ -1,15 +1,25 @@
 {
   "title": "GitHub All Weekly Trending",
-  "updated": "2026-09-25 10:43",
-  "count": 20,
+  "updated": "2026-09-25 18:53",
+  "count": 21,
   "items": [
+    {
+      "name": "cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars_text": "11,262 stars this week",
+      "stars_num": 11262,
+      "total_stars": "21454",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "source": "trending:weekly"
+    },
     {
       "name": "alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "stars_text": "6,920 stars this week",
       "stars_num": 6920,
-      "total_stars": "40845",
+      "total_stars": "41072",
       "url": "https://github.com/alibaba/open-code-review",
       "source": "trending:weekly"
     },
@@ -19,7 +29,7 @@
       "language": "TypeScript",
       "stars_text": "6,547 stars this week",
       "stars_num": 6547,
-      "total_stars": "77592",
+      "total_stars": "77867",
       "url": "https://github.com/stablyai/orca",
       "source": "trending:weekly"
     },
@@ -29,7 +39,7 @@
       "language": "JavaScript",
       "stars_text": "6,193 stars this week",
       "stars_num": 6193,
-      "total_stars": "266960",
+      "total_stars": "267173",
       "url": "https://github.com/affaan-m/ECC",
       "source": "trending:weekly"
     },
@@ -39,7 +49,7 @@
       "language": "Go",
       "stars_text": "3,749 stars this week",
       "stars_num": 3749,
-      "total_stars": "29742",
+      "total_stars": "29885",
       "url": "https://github.com/Tencent/WeKnora",
       "source": "trending:weekly"
     },
@@ -49,7 +59,7 @@
       "language": "Python",
       "stars_text": "3,363 stars this week",
       "stars_num": 3363,
-      "total_stars": "27862",
+      "total_stars": "28477",
       "url": "https://github.com/vectorize-io/hindsight",
       "source": "trending:weekly"
     },
@@ -59,8 +69,18 @@
       "language": "JavaScript",
       "stars_text": "3,345 stars this week",
       "stars_num": 3345,
-      "total_stars": "98905",
+      "total_stars": "98961",
       "url": "https://github.com/addyosmani/agent-skills",
+      "source": "trending:weekly"
+    },
+    {
+      "name": "bojieli/ai-agent-book",
+      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "language": "Python",
+      "stars_text": "2,481 stars this week",
+      "stars_num": 2481,
+      "total_stars": "50893",
+      "url": "https://github.com/bojieli/ai-agent-book",
       "source": "trending:weekly"
     },
     {
@@ -69,7 +89,7 @@
       "language": "TypeScript",
       "stars_text": "2,384 stars this week",
       "stars_num": 2384,
-      "total_stars": "147981",
+      "total_stars": "148018",
       "url": "https://github.com/anthropics/claude-code",
       "source": "trending:weekly"
     },
@@ -79,18 +99,18 @@
       "language": "Python",
       "stars_text": "2,382 stars this week",
       "stars_num": 2382,
-      "total_stars": "37372",
+      "total_stars": "37475",
       "url": "https://github.com/anthropics/financial-services",
       "source": "trending:weekly"
     },
     {
-      "name": "JustVugg/colibri",
-      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
-      "language": "C",
-      "stars_text": "2,055 stars this week",
-      "stars_num": 2055,
-      "total_stars": "37551",
-      "url": "https://github.com/JustVugg/colibri",
+      "name": "paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "stars_text": "2,321 stars this week",
+      "stars_num": 2321,
+      "total_stars": "83224",
+      "url": "https://github.com/paperclipai/paperclip",
       "source": "trending:weekly"
     },
     {
@@ -99,7 +119,7 @@
       "language": "Python",
       "stars_text": "1,608 stars this week",
       "stars_num": 1608,
-      "total_stars": "4874",
+      "total_stars": "4909",
       "url": "https://github.com/TencentCloud/Octop",
       "source": "trending:weekly"
     },
@@ -109,7 +129,7 @@
       "language": "TypeScript",
       "stars_text": "1,415 stars this week",
       "stars_num": 1415,
-      "total_stars": "70241",
+      "total_stars": "70287",
       "url": "https://github.com/Fission-AI/OpenSpec",
       "source": "trending:weekly"
     },
@@ -119,18 +139,8 @@
       "language": "Python",
       "stars_text": "1,406 stars this week",
       "stars_num": 1406,
-      "total_stars": "3178",
+      "total_stars": "3293",
       "url": "https://github.com/superdesigndev/treg",
-      "source": "trending:weekly"
-    },
-    {
-      "name": "akitaonrails/ai-memory",
-      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-      "language": "Rust",
-      "stars_text": "1,243 stars this week",
-      "stars_num": 1243,
-      "total_stars": "8351",
-      "url": "https://github.com/akitaonrails/ai-memory",
       "source": "trending:weekly"
     },
     {
@@ -139,7 +149,7 @@
       "language": "Python",
       "stars_text": "1,118 stars this week",
       "stars_num": 1118,
-      "total_stars": "25562",
+      "total_stars": "25575",
       "url": "https://github.com/anthropics/knowledge-work-plugins",
       "source": "trending:weekly"
     },
@@ -149,8 +159,18 @@
       "language": "Python",
       "stars_text": "965 stars this week",
       "stars_num": 965,
-      "total_stars": "31733",
+      "total_stars": "31762",
       "url": "https://github.com/davila7/claude-code-templates",
+      "source": "trending:weekly"
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+      "language": "Python",
+      "stars_text": "964 stars this week",
+      "stars_num": 964,
+      "total_stars": "50473",
+      "url": "https://github.com/HKUDS/CLI-Anything",
       "source": "trending:weekly"
     },
     {
@@ -159,18 +179,8 @@
       "language": "TypeScript",
       "stars_text": "855 stars this week",
       "stars_num": 855,
-      "total_stars": "69254",
+      "total_stars": "69274",
       "url": "https://github.com/cline/cline",
-      "source": "trending:weekly"
-    },
-    {
-      "name": "LibreChat-AI/LibreChat",
-      "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
-      "language": "TypeScript",
-      "stars_text": "743 stars this week",
-      "stars_num": 743,
-      "total_stars": "44903",
-      "url": "https://github.com/LibreChat-AI/LibreChat",
       "source": "trending:weekly"
     },
     {
@@ -179,18 +189,8 @@
       "language": "Rust",
       "stars_text": "741 stars this week",
       "stars_num": 741,
-      "total_stars": "12579",
+      "total_stars": "12592",
       "url": "https://github.com/cloudflare/quiche",
-      "source": "trending:weekly"
-    },
-    {
-      "name": "cilium/cilium",
-      "description": "eBPF-based Networking, Security, and Observability",
-      "language": "Go",
-      "stars_text": "362 stars this week",
-      "stars_num": 362,
-      "total_stars": "25537",
-      "url": "https://github.com/cilium/cilium",
       "source": "trending:weekly"
     },
     {
@@ -199,8 +199,18 @@
       "language": "Python",
       "stars_text": "228 stars this week",
       "stars_num": 228,
-      "total_stars": "103265",
+      "total_stars": "103286",
       "url": "https://github.com/pytorch/pytorch",
+      "source": "trending:weekly"
+    },
+    {
+      "name": "odoo/odoo",
+      "description": "Odoo. Open Source Apps To Grow Your Business.",
+      "language": "Python",
+      "stars_text": "165 stars this week",
+      "stars_num": 165,
+      "total_stars": "54580",
+      "url": "https://github.com/odoo/odoo",
       "source": "trending:weekly"
     }
   ]
