@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-26 04:55",
+  "updated": "2026-09-26 10:45",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.48",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Hoist resolved pathname into app page route match: #99259\n- docs: papercuts in image API reference: #99256\n- test: run the TypeScript version warning suites in deploy: #99195\n- test: drop skipDeployment where another gate already excludes deploy: #99194\n- bundle-analyzer: suspend while loading analyzer data: #98535\n- Fix Server Actions hanging after navigation to PPR pages: #99252\n- Fix blurry bundle analyzer treemap on low-DPI displays: #99197\n- Rename bundle analyzer snapsh",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.48",
+      "published_at": "2026-09-26 07:43",
+      "tag": "v16.4.0-canary.48",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.47",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Prepare `'use cache'` for static root-param tracking: #99239\n- [test] Adjust the prerender-encoding open fallback gate for non-adapter deploys: #99240\n- Turbopack: avoid project-wide traces from package directories: #99238\n\n### Credits \n\nHuge thanks to @unstubbable, @eps1lon, and @sokra for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.46",
       "published_at": "2026-09-25 19:38",
       "tag": "v16.4.0-canary.46",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.45",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [test] Fix new deploy suites: #99162\n- Provide only the relevant context for agent upgrade: #99189\n- Turbopack: Add support for additionalRoots to deployment adapters: #99015\n- Use Sonnet 5 with 1M context for AI upgrade handoff: #99183\n- docs: font per-call preload scope and the declarations font-family override: #99167\n\n### Credits \n\nHuge thanks to @eps1lon, @devjiwonchoi, @bgw, and @icyJoseph for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.45",
-      "published_at": "2026-09-25 07:48",
-      "tag": "v16.4.0-canary.45",
       "source": "release"
     }
   ]
