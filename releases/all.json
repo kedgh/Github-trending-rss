@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-27 04:25",
+  "updated": "2026-09-27 10:46",
   "count": 15,
   "items": [
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.50",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Explain prerelease security upgrade limits: #99230\n- Support latest agentic upgrades on prerelease channels: #99223\n- Allow agentic upgrades without Git: #99217\n\n### Credits \n\nHuge thanks to @devjiwonchoi for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.50",
+      "published_at": "2026-09-27 07:44",
+      "tag": "v16.4.0-canary.50",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.4.0-canary.49",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Avoid facade splits solely for export mangling: #99285\n- test: forward __NEXT_PARTIAL_PREFETCHING to test-deploy: #99275\n- Turbopack: Allow webpack loaders to cross filesystem roots when reading dependencies: #99202\n\n### Credits \n\nHuge thanks to @lukesandberg, @lubieowoce, and @bgw for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.49",
+      "published_at": "2026-09-27 05:04",
+      "tag": "v16.4.0-canary.49",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.48",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Hoist resolved pathname into app page route match: #99259\n- docs: papercuts in image API reference: #99256\n- test: run the TypeScript version warning suites in deploy: #99195\n- test: drop skipDeployment where another gate already excludes deploy: #99194\n- bundle-analyzer: suspend while loading analyzer data: #98535\n- Fix Server Actions hanging after navigation to PPR pages: #99252\n- Fix blurry bundle analyzer treemap on low-DPI displays: #99197\n- Rename bundle analyzer snapsh",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.48",
       "published_at": "2026-09-26 07:43",
       "tag": "v16.4.0-canary.48",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.47",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Prepare `'use cache'` for static root-param tracking: #99239\n- [test] Adjust the prerender-encoding open fallback gate for non-adapter deploys: #99240\n- Turbopack: avoid project-wide traces from package directories: #99238\n\n### Credits \n\nHuge thanks to @unstubbable, @eps1lon, and @sokra for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.47",
-      "published_at": "2026-09-26 00:16",
-      "tag": "v16.4.0-canary.47",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.46",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Revert \"Add experimental custom webpack support\": #99227\n- test: stabilize lazy dynamic import error overlay: #98730\n- turbo-tasks-gc: tear down reverse edges when collecting a task: #99145\n- Sequence CI for branch-based PR stacks: #99086\n- Prefetch scheduler mirrors the navigation's tree walk: #98975\n- Separate route structure comparison from param comparison: #98974\n- Store the head as its own CacheNode: #98973\n- Record which params a CacheNode's data depends on: #98972\n- U",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.46",
-      "published_at": "2026-09-25 19:38",
-      "tag": "v16.4.0-canary.46",
       "source": "release"
     }
   ]
