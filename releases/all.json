@@ -1,8 +1,26 @@
 {
   "title": "Releases",
-  "updated": "2026-09-28 20:28",
+  "updated": "2026-09-29 06:48",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain==1.4.3",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain==1.4.2\n\nrelease(langchain): 1.4.3 (#40888)\nfix(langchain): sanitize cache settings for fallback models (#40886)\nfeat(langchain): support Bedrock Mantle chat models in `init_chat_model` (#40837)\nfix(langchain): recognize GPT-6 structured output without profiles (#40844)\ndocs(infra): fix AGENTS.md root setup guidance and package doc accuracy (#40794)\nfix(langchain): repair invalid tool calls in `create_agent` (#40530)\nchore(langchain): remove commented-out cohere extra (#40",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.3",
+      "published_at": "2026-09-29 04:17",
+      "tag": "langchain==1.4.3",
+      "source": "release"
+    },
+    {
+      "name": "langchain-ai/langchain langchain-fireworks==1.7.0",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-fireworks==1.6.3\n\nhotfix(fireworks): replace unavailable integration test model (#40890)\nrelease(fireworks): 1.7.0 (#40889)\nfeat(fireworks): add prompt caching middleware (#38823)\nfix(fireworks): classify mid-stream read timeouts (#40874)\nchore(model-profiles): refresh model profile data (#40833)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.0",
+      "published_at": "2026-09-29 04:46",
+      "tag": "langchain-fireworks==1.7.0",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-fireworks==1.6.3",
       "repo": "langchain-ai/langchain",
@@ -10,24 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.3",
       "published_at": "2026-09-25 20:57",
       "tag": "langchain-fireworks==1.6.3",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.6.5",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.6.4\n\nrelease(core): 1.6.5 (#40816)\nfix(core): abbreviate long tool IDs in XML buffer strings (#40792)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.5",
-      "published_at": "2026-09-25 02:11",
-      "tag": "langchain-core==1.6.5",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-openai==1.6.6",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.6.5\n\nrelease(openai): 1.6.6 (#40800)\nfix(openai): raise on error events in stream path (#40791)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.6",
-      "published_at": "2026-09-24 19:31",
-      "tag": "langchain-openai==1.6.6",
       "source": "release"
     },
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.35.0-rc1",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* app: sync macOS update menu and icon at startup by @hoyyeva in https://github.com/ollama/ollama/pull/18622\r\n* app: defer Settings model discovery by @ParthSareen in https://github.com/ollama/ollama/pull/18598\r\n* app: isolate cloud-setting tests from Windows user config by @drifkin in https://github.com/ollama/ollama/pull/18626\r\n* api: deprecate typical_p by @dhiltgen in https://github.com/ollama/ollama/pull/18627\r\n* bench: use HumanEval patch prompts by @dhiltgen in https://",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0-rc1",
+      "published_at": "2026-09-29 05:23",
+      "tag": "v0.35.0-rc1",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.40.0-rc0",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n\r\n**Models run on MLX on Apple Silicon by default**\r\n\r\nIn this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX.\r\n\r\n```\r\nollama pull qwen3.8\r\nollama run qwen3.8\r\n```\r\n\r\nDuring the pre-release we will be testing and enabling additional models.\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.4...v0.40.0-rc0",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.34.4",
       "published_at": "2026-09-23 10:24",
       "tag": "v0.34.4",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.34.3",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n\r\n`GET /api/show` now advertises each model's thinking controls and default:\r\n\r\nAvailable in the CLI with:\r\n```\r\nollama show gemma4\r\n```\r\n\r\n```\r\n    thinking\r\n        levels     false, true\r\n        default    true\r\n```\r\n\r\nAvailable in the API with:\r\n```sh \r\ncurl http://localhost:11434/api/show -d '{\"model\": \"glm-5.3-flash:cloud\"}'\r\n```\r\n\r\n```json\r\n{\r\n  \"thinking\": {\r\n    \"values\": [\"low\", \"high\", \"max\"],\r\n    \"default\": \"max\"\r\n  }\r\n}\r\n```\r\n\r\nAlso available on ollama.com direc",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.3",
-      "published_at": "2026-09-19 08:02",
-      "tag": "v0.34.3",
       "source": "release"
     },
     {
