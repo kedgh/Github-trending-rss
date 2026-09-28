@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-28 04:38",
+  "updated": "2026-09-28 10:48",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.51",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Show security upgrade insights in DevTools: #99002\n- Use focused npm advisories and nudge only for ready upgrades: #99222\n\n### Credits \n\nHuge thanks to @devjiwonchoi for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.51",
+      "published_at": "2026-09-28 07:49",
+      "tag": "v16.4.0-canary.51",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.50",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Explain prerelease security upgrade limits: #99230\n- Support latest agentic upgrades on prerelease channels: #99223\n- Allow agentic upgrades without Git: #99217\n\n### Credits \n\nHuge thanks to @devjiwonchoi for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.49",
       "published_at": "2026-09-27 05:04",
       "tag": "v16.4.0-canary.49",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.48",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Hoist resolved pathname into app page route match: #99259\n- docs: papercuts in image API reference: #99256\n- test: run the TypeScript version warning suites in deploy: #99195\n- test: drop skipDeployment where another gate already excludes deploy: #99194\n- bundle-analyzer: suspend while loading analyzer data: #98535\n- Fix Server Actions hanging after navigation to PPR pages: #99252\n- Fix blurry bundle analyzer treemap on low-DPI displays: #99197\n- Rename bundle analyzer snapsh",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.48",
-      "published_at": "2026-09-26 07:43",
-      "tag": "v16.4.0-canary.48",
       "source": "release"
     }
   ]
