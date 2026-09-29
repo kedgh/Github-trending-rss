@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-29 06:48",
+  "updated": "2026-09-29 11:29",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.35.0-rc1",
+      "name": "ollama/ollama v0.35.0",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* app: sync macOS update menu and icon at startup by @hoyyeva in https://github.com/ollama/ollama/pull/18622\r\n* app: defer Settings model discovery by @ParthSareen in https://github.com/ollama/ollama/pull/18598\r\n* app: isolate cloud-setting tests from Windows user config by @drifkin in https://github.com/ollama/ollama/pull/18626\r\n* api: deprecate typical_p by @dhiltgen in https://github.com/ollama/ollama/pull/18627\r\n* bench: use HumanEval patch prompts by @dhiltgen in https://",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0-rc1",
+      "description": "## Decision models\r\n\r\nOllama now supports decision models through `/v1/systemone`, based on [TypeSafe’s Jev API](https://typesafe.ai).\r\n\r\nDecision models return choices, probabilities, and scores instead of text. Use them for tasks such as ticket triage, model routing, and content classification.\r\n\r\nAvailable models:\r\n- [**Nimble**](https://ollama.com/library/nimble) from Bespoke Labs\r\n- [**Tev1**](https://ollama.com/library/tev1) from Together AI\r\n\r\n```sh\r\nollama pull nimble\r\n```\r\n\r\nSend contex",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0",
       "published_at": "2026-09-29 05:23",
-      "tag": "v0.35.0-rc1",
+      "tag": "v0.35.0",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.52",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [test] Stabilize middleware revalidation test: #99378\n- test: scope loader build dependency update to Turbopack: #99380\n- Remove CLAUDE.md symlinks in favor of AGENTS.md: #98910\n- Align ExecuteContext task accessor names: #99258\n- [test] Stabilize responsive dev overlay header layout test: #99376\n- Turbopack: skip trimmed side-effect imports in SideEffectsModule: #95781\n- Turbopack: preserve import `with` clauses when direct-binding: #95529\n- Turbopack: fix split_module corre",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.52",
+      "published_at": "2026-09-29 07:47",
+      "tag": "v16.4.0-canary.52",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.51",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Show security upgrade insights in DevTools: #99002\n- Use focused npm advisories and nudge only for ready upgrades: #99222\n\n### Credits \n\nHuge thanks to @devjiwonchoi for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.50",
       "published_at": "2026-09-27 07:44",
       "tag": "v16.4.0-canary.50",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.49",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Avoid facade splits solely for export mangling: #99285\n- test: forward __NEXT_PARTIAL_PREFETCHING to test-deploy: #99275\n- Turbopack: Allow webpack loaders to cross filesystem roots when reading dependencies: #99202\n\n### Credits \n\nHuge thanks to @lukesandberg, @lubieowoce, and @bgw for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.49",
-      "published_at": "2026-09-27 05:04",
-      "tag": "v16.4.0-canary.49",
       "source": "release"
     }
   ]
