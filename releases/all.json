@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-30 01:21",
+  "updated": "2026-09-30 05:42",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.35.1-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* feat: allow ten web searches per response by @ParthSareen in https://github.com/ollama/ollama/pull/18602\r\n* MLX: version bump by @dhiltgen in https://github.com/ollama/ollama/pull/18651\r\n* llama.cpp: version bump b11232 by @dhiltgen in https://github.com/ollama/ollama/pull/18652\r\n* create: support explicit model capabilities by @dhiltgen in https://github.com/ollama/ollama/pull/18708\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.35.0...v0.35.1-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0",
+      "published_at": "2026-09-30 04:14",
+      "tag": "v0.35.1-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.35.0",
       "repo": "ollama/ollama",
       "description": "## Decision models\r\n\r\nOllama now supports decision models through `/v1/systemone`, based on [TypeSafe’s Jev API](https://typesafe.ai).\r\n\r\nDecision models return choices, probabilities, and scores instead of text. Use them for tasks such as ticket triage, model routing, and content classification.\r\n\r\nAvailable models:\r\n- [**Nimble**](https://ollama.com/library/nimble) from Bespoke Labs\r\n- [**Tev1**](https://ollama.com/library/tev1) from Together AI\r\n\r\n```sh\r\nollama pull nimble\r\n```\r\n\r\nSend contex",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0",
       "published_at": "2026-09-25 11:31",
       "tag": "v0.40.0-rc0",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.34.4",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n\r\n- Structured outputs on thinking models now apply in a single pass, making them faster and more reliable.\r\n- Fixed intermittent \"model not found\" errors with a large local library\r\n- Fixed the macOS app becoming unresponsive when checking if ChatGPT or Codex is running.\r\n- Qwen 3.8 prompt processing is faster on Apple Silicon.\r\n- Gemma 4 on Apple Silicon now picks the best image resolution per image, keeping more detail in high-resolution images.\r\n- Updated llama.cpp, MLX, a",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.4",
-      "published_at": "2026-09-23 10:24",
-      "tag": "v0.34.4",
       "source": "release"
     },
     {
