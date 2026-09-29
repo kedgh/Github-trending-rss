@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-29 11:29",
+  "updated": "2026-09-29 19:52",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,39 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n n8n@2.42.0",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.42.0](https://github.com/n8n-io/n8n/compare/n8n@2.41.0...n8n@2.42.0) (2026-09-29)\n\n\n### Bug Fixes\n\n* **AI Agent Node:** Let an AI Agent Tool use its own tools under a pre-v3 parent agent ([#39160](https://github.com/n8n-io/n8n/issues/39160)) ([60d0598](https://github.com/n8n-io/n8n/commit/60d0598a69ca75ebddb203163fbaa0e2fcb78ae0))\n* Align MCP workflow headings and remove outdated notice ([#39463](https://github.com/n8n-io/n8n/issues/39463)) ([b096147](https://github.com/n8n-io/n8n/commit/b0",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.42.0",
+      "published_at": "2026-09-29 15:22",
+      "tag": "n8n@2.42.0",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n beta",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.42.0](https://github.com/n8n-io/n8n/compare/n8n@2.41.0...n8n@2.42.0) (2026-09-29)\n\n\n### Bug Fixes\n\n* **AI Agent Node:** Let an AI Agent Tool use its own tools under a pre-v3 parent agent ([#39160](https://github.com/n8n-io/n8n/issues/39160)) ([60d0598](https://github.com/n8n-io/n8n/commit/60d0598a69ca75ebddb203163fbaa0e2fcb78ae0))\n* Align MCP workflow headings and remove outdated notice ([#39463](https://github.com/n8n-io/n8n/issues/39463)) ([b096147](https://github.com/n8n-io/n8n/commit/b0",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-09-29 15:22",
+      "tag": "beta",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.40.7](https://github.com/n8n-io/n8n/compare/n8n@2.40.6...n8n@2.40.7) (2026-09-25)\n\n\n### Bug Fixes\n\n* **core:** Propagate project span attributes to node spans ([#39457](https://github.com/n8n-io/n8n/issues/39457)) ([59fccb6](https://github.com/n8n-io/n8n/commit/59fccb645b0ff5f9933251f24ccb3046a53ed9fb))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/39572?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dial",
+      "description": "## [2.41.3](https://github.com/n8n-io/n8n/compare/n8n@2.41.2...n8n@2.41.3) (2026-09-25)\n\n\n### Bug Fixes\n\n* **core:** Propagate project span attributes to node spans ([#39456](https://github.com/n8n-io/n8n/issues/39456)) ([29afe51](https://github.com/n8n-io/n8n/commit/29afe517b3a6954a6070c13e26dde9e9d648bfe3))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/39574?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dial",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-09-25 15:51",
+      "published_at": "2026-09-29 15:31",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.40.7",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.40.7](https://github.com/n8n-io/n8n/compare/n8n@2.40.6...n8n@2.40.7) (2026-09-25)\n\n\n### Bug Fixes\n\n* **core:** Propagate project span attributes to node spans ([#39457](https://github.com/n8n-io/n8n/issues/39457)) ([59fccb6](https://github.com/n8n-io/n8n/commit/59fccb645b0ff5f9933251f24ccb3046a53ed9fb))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/39572?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dial",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.40.7",
-      "published_at": "2026-09-25 15:51",
-      "tag": "n8n@2.40.7",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@1.123.82",
-      "repo": "n8n-io/n8n",
-      "description": "## [1.123.82](https://github.com/n8n-io/n8n/compare/n8n@1.123.81...n8n@1.123.82) (2026-09-25)\n\n\n### Bug Fixes\n\n* bump adm-zip to 0.6.1 ([de771f0](https://github.com/n8n-io/n8n/commit/de771f0aa433ea66820d4cc02e8a426d7e7573df))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/39573?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.c",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.82",
-      "published_at": "2026-09-25 15:49",
-      "tag": "n8n@1.123.82",
+      "name": "vercel/next.js v16.3.7",
+      "repo": "vercel/next.js",
+      "description": "> [!NOTE]\r\n> This release is backporting bug fixes. It does **not** include all pending features/changes on canary.\r\n\r\n### Core Changes\r\n\r\n- turbo-tasks-backend: fix strongly consistent read hanging on a canceled task (#98931)\r\n\r\n### Credits\r\n\r\nHuge thanks to @lukesandberg for helping!\r\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.7",
+      "published_at": "2026-09-29 16:54",
+      "tag": "v16.3.7",
       "source": "release"
     },
     {
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.51",
       "published_at": "2026-09-28 07:49",
       "tag": "v16.4.0-canary.51",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.50",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Explain prerelease security upgrade limits: #99230\n- Support latest agentic upgrades on prerelease channels: #99223\n- Allow agentic upgrades without Git: #99217\n\n### Credits \n\nHuge thanks to @devjiwonchoi for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.50",
-      "published_at": "2026-09-27 07:44",
-      "tag": "v16.4.0-canary.50",
       "source": "release"
     }
   ]
