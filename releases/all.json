@@ -1,8 +1,26 @@
 {
   "title": "Releases",
-  "updated": "2026-09-29 19:52",
+  "updated": "2026-09-30 01:21",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-core==1.6.6",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-core==1.6.5\n\nrelease(core): 1.6.6 (#40906)\nfix(anthropic): support Claude Sonnet 5.5 compatibility (#40882)\ndocs(core): fix docstring examples that don't run as copied (#40815)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.6",
+      "published_at": "2026-09-29 22:53",
+      "tag": "langchain-core==1.6.6",
+      "source": "release"
+    },
+    {
+      "name": "langchain-ai/langchain langchain-anthropic==1.7.5",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-anthropic==1.7.4\n\nrelease(anthropic): 1.7.5 (#40912)\nfix(anthropic): support Claude Sonnet 5.5 compatibility (#40882)\nfix(anthropic): serialize invalid tool calls as tool use on replay (#40864)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.5",
+      "published_at": "2026-09-29 23:22",
+      "tag": "langchain-anthropic==1.7.5",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain==1.4.3",
       "repo": "langchain-ai/langchain",
@@ -10,24 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.3",
       "published_at": "2026-09-29 04:17",
       "tag": "langchain==1.4.3",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-fireworks==1.7.0",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-fireworks==1.6.3\n\nhotfix(fireworks): replace unavailable integration test model (#40890)\nrelease(fireworks): 1.7.0 (#40889)\nfeat(fireworks): add prompt caching middleware (#38823)\nfix(fireworks): classify mid-stream read timeouts (#40874)\nchore(model-profiles): refresh model profile data (#40833)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.0",
-      "published_at": "2026-09-29 04:46",
-      "tag": "langchain-fireworks==1.7.0",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-fireworks==1.6.3",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-fireworks==1.6.2\n\nrelease(fireworks): 1.6.3 (#40834)\nfix(fireworks): declare native PDF inputs unsupported (#40814)\nfix(fireworks): preserve malformed tool arguments as diagnostic JSON (#40818)\nchore(model-profiles): refresh model profile data (#40804)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.3",
-      "published_at": "2026-09-25 20:57",
-      "tag": "langchain-fireworks==1.6.3",
       "source": "release"
     },
     {
