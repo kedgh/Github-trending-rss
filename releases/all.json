@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-09-30 19:39",
+  "updated": "2026-10-01 01:19",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-openai==1.6.7",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-openai==1.6.6\n\nrelease(openai): 1.6.7 (#40933)\nchore(model-profiles): refresh model profile data (#40924)\ntest(openai): drop retired completions live tests (#40910)\nchore(model-profiles): refresh model profile data (#40869)\nfeat(openai): discover Azure workload identity (#40532)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.7",
+      "published_at": "2026-09-30 23:12",
+      "tag": "langchain-openai==1.6.7",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-core==1.6.6",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.5",
       "published_at": "2026-09-29 23:22",
       "tag": "langchain-anthropic==1.7.5",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain==1.4.3",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==1.4.2\n\nrelease(langchain): 1.4.3 (#40888)\nfix(langchain): sanitize cache settings for fallback models (#40886)\nfeat(langchain): support Bedrock Mantle chat models in `init_chat_model` (#40837)\nfix(langchain): recognize GPT-6 structured output without profiles (#40844)\ndocs(infra): fix AGENTS.md root setup guidance and package doc accuracy (#40794)\nfix(langchain): repair invalid tool calls in `create_agent` (#40530)\nchore(langchain): remove commented-out cohere extra (#40",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.3",
-      "published_at": "2026-09-29 04:17",
-      "tag": "langchain==1.4.3",
       "source": "release"
     },
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.3.8",
+      "repo": "vercel/next.js",
+      "description": "This release contains security fixes for the following advisories:\r\n\r\nHigh:\r\n- [Server-Side Request Forgery in Image Optimization](https://github.com/vercel/next.js/security/advisories/GHSA-cjq9-62q9-8jv4)\r\n\r\nMedium:\r\n- [Information disclosure in Next.js App Router metadata image routes via dynamicParams bypass](https://github.com/vercel/next.js/security/advisories/GHSA-f87g-xv8r-7p7x)\r\n- [Cache poisoning of SSG and ISR pages in self-hosted Next.js applications](https://github.com/vercel/next.js",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.8",
+      "published_at": "2026-10-01 00:13",
+      "tag": "v16.3.8",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v15.5.27",
+      "repo": "vercel/next.js",
+      "description": "This release contains security fixes for the following advisories:\r\n\r\nMedium:\r\n- [Information disclosure in Next.js App Router metadata image routes via dynamicParams bypass](https://github.com/vercel/next.js/security/advisories/GHSA-f87g-xv8r-7p7x)\r\n- [Cache poisoning of SSG and ISR pages in self-hosted Next.js applications](https://github.com/vercel/next.js/security/advisories/GHSA-4jqv-mc3x-m676)\r\n- [Cache poisoning in Next.js SSG/ISR rendering leads to cross-user content substitution and per",
+      "url": "https://github.com/vercel/next.js/releases/tag/v15.5.27",
+      "published_at": "2026-10-01 00:13",
+      "tag": "v15.5.27",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.53",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- [create-next-app] Enable Cache Components by default in create-next-app: #99436\n- Include async module evaluation in client loading metrics: #99427\n- turbo-tasks-backend: fix leaf distance tracing compilation: #99443\n- Enable proxy export tests in deploy mode: #99400\n- docs: record API stabilization across Next.js 16 releases: #99420\n- test: migrate and explain custom server deploy exclusions: #98994\n- test: migrate and explain root-inference deploy exclusions: #99012\n- Enabl",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.53",
       "published_at": "2026-09-30 07:51",
       "tag": "v16.4.0-canary.53",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.7",
-      "repo": "vercel/next.js",
-      "description": "> [!NOTE]\r\n> This release is backporting bug fixes. It does **not** include all pending features/changes on canary.\r\n\r\n### Core Changes\r\n\r\n- turbo-tasks-backend: fix strongly consistent read hanging on a canceled task (#98931)\r\n\r\n### Credits\r\n\r\nHuge thanks to @lukesandberg for helping!\r\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.7",
-      "published_at": "2026-09-29 16:54",
-      "tag": "v16.3.7",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.52",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [test] Stabilize middleware revalidation test: #99378\n- test: scope loader build dependency update to Turbopack: #99380\n- Remove CLAUDE.md symlinks in favor of AGENTS.md: #98910\n- Align ExecuteContext task accessor names: #99258\n- [test] Stabilize responsive dev overlay header layout test: #99376\n- Turbopack: skip trimmed side-effect imports in SideEffectsModule: #95781\n- Turbopack: preserve import `with` clauses when direct-binding: #95529\n- Turbopack: fix split_module corre",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.52",
-      "published_at": "2026-09-29 07:47",
-      "tag": "v16.4.0-canary.52",
       "source": "release"
     }
   ]
