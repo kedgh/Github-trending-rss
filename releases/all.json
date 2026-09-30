@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-09-30 05:42",
+  "updated": "2026-09-30 11:13",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.53",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [create-next-app] Enable Cache Components by default in create-next-app: #99436\n- Include async module evaluation in client loading metrics: #99427\n- turbo-tasks-backend: fix leaf distance tracing compilation: #99443\n- Enable proxy export tests in deploy mode: #99400\n- docs: record API stabilization across Next.js 16 releases: #99420\n- test: migrate and explain custom server deploy exclusions: #98994\n- test: migrate and explain root-inference deploy exclusions: #99012\n- Enabl",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.53",
+      "published_at": "2026-09-30 07:51",
+      "tag": "v16.4.0-canary.53",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.7",
       "repo": "vercel/next.js",
       "description": "> [!NOTE]\r\n> This release is backporting bug fixes. It does **not** include all pending features/changes on canary.\r\n\r\n### Core Changes\r\n\r\n- turbo-tasks-backend: fix strongly consistent read hanging on a canceled task (#98931)\r\n\r\n### Credits\r\n\r\nHuge thanks to @lukesandberg for helping!\r\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.52",
       "published_at": "2026-09-29 07:47",
       "tag": "v16.4.0-canary.52",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.51",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Show security upgrade insights in DevTools: #99002\n- Use focused npm advisories and nudge only for ready upgrades: #99222\n\n### Credits \n\nHuge thanks to @devjiwonchoi for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.51",
-      "published_at": "2026-09-28 07:49",
-      "tag": "v16.4.0-canary.51",
       "source": "release"
     }
   ]
