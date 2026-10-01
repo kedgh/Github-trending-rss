@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-01 05:42",
+  "updated": "2026-10-01 11:20",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.54",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Scope response cache keys to their source route: #99482\n- Match Next data paths case-sensitively: #99481\n- Fix MCP middleware DNS rebinding: #99480\n- Fix draft mode leaks through cross-request `'use cache'` deduplication: #99479\n- [webpack] Ensure `dynamicParams` is respected in `opengraph-image.ts`: #99478\n- fix(next/image): Pin DNS resolution when fetching external images : #99477\n- turbo-persistence: intermediate merges take the newest files of similar size: #99433\n- turbo",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.54",
+      "published_at": "2026-10-01 07:46",
+      "tag": "v16.4.0-canary.54",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.3.8",
       "repo": "vercel/next.js",
       "description": "This release contains security fixes for the following advisories:\r\n\r\nHigh:\r\n- [Server-Side Request Forgery in Image Optimization](https://github.com/vercel/next.js/security/advisories/GHSA-cjq9-62q9-8jv4)\r\n\r\nMedium:\r\n- [Information disclosure in Next.js App Router metadata image routes via dynamicParams bypass](https://github.com/vercel/next.js/security/advisories/GHSA-f87g-xv8r-7p7x)\r\n- [Cache poisoning of SSG and ISR pages in self-hosted Next.js applications](https://github.com/vercel/next.js",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v15.5.27",
       "published_at": "2026-10-01 00:13",
       "tag": "v15.5.27",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.53",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [create-next-app] Enable Cache Components by default in create-next-app: #99436\n- Include async module evaluation in client loading metrics: #99427\n- turbo-tasks-backend: fix leaf distance tracing compilation: #99443\n- Enable proxy export tests in deploy mode: #99400\n- docs: record API stabilization across Next.js 16 releases: #99420\n- test: migrate and explain custom server deploy exclusions: #98994\n- test: migrate and explain root-inference deploy exclusions: #99012\n- Enabl",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.53",
-      "published_at": "2026-09-30 07:51",
-      "tag": "v16.4.0-canary.53",
       "source": "release"
     }
   ]
