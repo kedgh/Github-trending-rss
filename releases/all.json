@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-01 11:20",
+  "updated": "2026-10-01 20:08",
   "count": 15,
   "items": [
     {
@@ -87,28 +87,28 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.41.4](https://github.com/n8n-io/n8n/compare/n8n@2.41.3...n8n@2.41.4) (2026-09-30)\n\n\n### Bug Fixes\n\n* **API:** Return an execution when its stored trace context is incomplete ([#39827](https://github.com/n8n-io/n8n/issues/39827)) ([940f65e](https://github.com/n8n-io/n8n/commit/940f65e55e234b91773e4628f8ac15506f7e644f))\n* **core:** Count a database ping as successful when its reply arrives during event-loop lag ([#39757](https://github.com/n8n-io/n8n/issues/39757)) ([fe3c5bc](https://github.",
+      "description": "## [2.41.5](https://github.com/n8n-io/n8n/compare/n8n@2.41.4...n8n@2.41.5) (2026-10-01)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/40038?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/review-in-c",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-09-30 14:04",
+      "published_at": "2026-10-01 16:05",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.41.4",
+      "name": "n8n-io/n8n n8n@2.41.5",
       "repo": "n8n-io/n8n",
-      "description": "## [2.41.4](https://github.com/n8n-io/n8n/compare/n8n@2.41.3...n8n@2.41.4) (2026-09-30)\n\n\n### Bug Fixes\n\n* **API:** Return an execution when its stored trace context is incomplete ([#39827](https://github.com/n8n-io/n8n/issues/39827)) ([940f65e](https://github.com/n8n-io/n8n/commit/940f65e55e234b91773e4628f8ac15506f7e644f))\n* **core:** Count a database ping as successful when its reply arrives during event-loop lag ([#39757](https://github.com/n8n-io/n8n/issues/39757)) ([fe3c5bc](https://github.",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.41.4",
-      "published_at": "2026-09-30 14:04",
-      "tag": "n8n@2.41.4",
+      "description": "## [2.41.5](https://github.com/n8n-io/n8n/compare/n8n@2.41.4...n8n@2.41.5) (2026-10-01)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/40038?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/review-in-c",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.41.5",
+      "published_at": "2026-10-01 16:05",
+      "tag": "n8n@2.41.5",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.83",
+      "name": "n8n-io/n8n n8n@2.42.2",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.83](https://github.com/n8n-io/n8n/compare/n8n@1.123.82...n8n@1.123.83) (2026-09-30)\n\n\n### Bug Fixes\n\n* Pin cjs-module-lexer 2.2.0 to address review finding ([76e467d](https://github.com/n8n-io/n8n/commit/76e467dc14c2522432aa692f824d80a5d5f70c59))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/39941?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-schem",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.83",
-      "published_at": "2026-09-30 14:13",
-      "tag": "n8n@1.123.83",
+      "description": "## [2.42.2](https://github.com/n8n-io/n8n/compare/n8n@2.42.1...n8n@2.42.2) (2026-10-01)\n\n\n### Bug Fixes\n\n* **core:** Stop waiting on Bull job.finished() for queued executions ([#39945](https://github.com/n8n-io/n8n/issues/39945)) ([c7841e5](https://github.com/n8n-io/n8n/commit/c7841e551ffb264ef602cbf57e7852b6829ec651))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/40039?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.42.2",
+      "published_at": "2026-10-01 16:08",
+      "tag": "n8n@2.42.2",
       "source": "release"
     },
     {
