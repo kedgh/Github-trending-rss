@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-03 01:07",
+  "updated": "2026-10-03 05:40",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.35.1-rc2",
+      "name": "ollama/ollama v0.35.1",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* feat: allow ten web searches per response by @ParthSareen in https://github.com/ollama/ollama/pull/18602\r\n* MLX: version bump by @dhiltgen in https://github.com/ollama/ollama/pull/18651\r\n* llama.cpp: version bump b11232 by @dhiltgen in https://github.com/ollama/ollama/pull/18652\r\n* create: support explicit model capabilities by @dhiltgen in https://github.com/ollama/ollama/pull/18708\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.35.0...v0.35.1-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc2",
+      "description": "## Clef decision models\r\n\r\nOllama now supports [Clef](https://ollama.com/library/clef) and [Clef Flash](https://ollama.com/library/clef), Cloudflare's new open-source decision models, through `/v1/systemone`.\r\n\r\nClef (27B) and Clef Flash (9B) are multimodal: requests can now include images alongside the text state, shared by all questions and scored jointly with it.\r\n\r\n```sh\r\ncurl http://localhost:11434/v1/systemone -d '{\r\n  \"model\": \"clef-flash\",\r\n  \"state\": \"The user took this screenshot.\",\r\n ",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1",
       "published_at": "2026-09-30 04:14",
-      "tag": "v0.35.1-rc2",
+      "tag": "v0.35.1",
       "source": "release"
     },
     {
