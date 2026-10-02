@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-02 11:20",
+  "updated": "2026-10-02 19:38",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.35.1-rc0",
+      "name": "ollama/ollama v0.35.1-rc2",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* feat: allow ten web searches per response by @ParthSareen in https://github.com/ollama/ollama/pull/18602\r\n* MLX: version bump by @dhiltgen in https://github.com/ollama/ollama/pull/18651\r\n* llama.cpp: version bump b11232 by @dhiltgen in https://github.com/ollama/ollama/pull/18652\r\n* create: support explicit model capabilities by @dhiltgen in https://github.com/ollama/ollama/pull/18708\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.35.0...v0.35.1-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc2",
       "published_at": "2026-09-30 04:14",
-      "tag": "v0.35.1-rc0",
+      "tag": "v0.35.1-rc2",
       "source": "release"
     },
     {
@@ -87,10 +87,19 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.41.5](https://github.com/n8n-io/n8n/compare/n8n@2.41.4...n8n@2.41.5) (2026-10-01)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/40038?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/review-in-c",
+      "description": "## [2.41.6](https://github.com/n8n-io/n8n/compare/n8n@2.41.5...n8n@2.41.6) (2026-10-02)\n\n\n### Bug Fixes\n\n* **core:** Keep the task runner running on an unhandled promise rejection ([#40092](https://github.com/n8n-io/n8n/issues/40092)) ([d719c87](https://github.com/n8n-io/n8n/commit/d719c878a0965101650665200176a835224ed3bf))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/40134?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" dat",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-10-01 16:05",
+      "published_at": "2026-10-02 15:27",
       "tag": "stable",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n n8n@2.41.6",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.41.6](https://github.com/n8n-io/n8n/compare/n8n@2.41.5...n8n@2.41.6) (2026-10-02)\n\n\n### Bug Fixes\n\n* **core:** Keep the task runner running on an unhandled promise rejection ([#40092](https://github.com/n8n-io/n8n/issues/40092)) ([d719c87](https://github.com/n8n-io/n8n/commit/d719c878a0965101650665200176a835224ed3bf))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/40134?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" dat",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.41.6",
+      "published_at": "2026-10-02 15:27",
+      "tag": "n8n@2.41.6",
       "source": "release"
     },
     {
@@ -103,12 +112,12 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.42.2",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.42.2](https://github.com/n8n-io/n8n/compare/n8n@2.42.1...n8n@2.42.2) (2026-10-01)\n\n\n### Bug Fixes\n\n* **core:** Stop waiting on Bull job.finished() for queued executions ([#39945](https://github.com/n8n-io/n8n/issues/39945)) ([c7841e5](https://github.com/n8n-io/n8n/commit/c7841e551ffb264ef602cbf57e7852b6829ec651))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/40039?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.42.2",
-      "published_at": "2026-10-01 16:08",
-      "tag": "n8n@2.42.2",
+      "name": "vercel/next.js v16.4.0-canary.57",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Resolve React dependency warnings from the target app: #99536\n- Move upgrade workflows out of public docs: #99546\n- Use Agent terminology throughout upgrades: #99545\n- Turbopack: Commit updated generated-native file: #99561\n- test: enable Relay multi-project deployment coverage: #99403\n- test: migrate independent App Router deploy exclusions to force gates: #99431\n- test: migrate mode-specific deploy exclusions to force gates: #98160\n\n### Credits \n\nHuge thanks to @devjiwoncho",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.57",
+      "published_at": "2026-10-02 11:44",
+      "tag": "v16.4.0-canary.57",
       "source": "release"
     },
     {
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.55",
       "published_at": "2026-10-01 22:30",
       "tag": "v16.4.0-canary.55",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.54",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Scope response cache keys to their source route: #99482\n- Match Next data paths case-sensitively: #99481\n- Fix MCP middleware DNS rebinding: #99480\n- Fix draft mode leaks through cross-request `'use cache'` deduplication: #99479\n- [webpack] Ensure `dynamicParams` is respected in `opengraph-image.ts`: #99478\n- fix(next/image): Pin DNS resolution when fetching external images : #99477\n- turbo-persistence: intermediate merges take the newest files of similar size: #99433\n- turbo",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.54",
-      "published_at": "2026-10-01 07:46",
-      "tag": "v16.4.0-canary.54",
       "source": "release"
     }
   ]
