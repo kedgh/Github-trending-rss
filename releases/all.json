@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-10-02 19:38",
+  "updated": "2026-10-03 01:07",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-text-splitters==1.1.3",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-text-splitters==1.1.2\n\nrelease(text-splitters): 1.1.3 (#41001)\nchore(deps): bump the minor-and-patch group across 3 directories with 4 updates (#40969)\nchore(deps): bump tornado from 6.5.9 to 6.5.10 in /libs/text-splitters (#40971)\nchore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/text-splitters (#40938)\nchore(deps): bump tornado from 6.5.8 to 6.5.9 in /libs/text-splitters (#40940)\nchore(deps): bump anyio from 4.14.2 to 4.15.1 in /libs/text-splitters (#40645)\nchore(d",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-text-splitters%3D%3D1.1.3",
+      "published_at": "2026-10-02 23:46",
+      "tag": "langchain-text-splitters==1.1.3",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-openai==1.6.7",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.6",
       "published_at": "2026-09-29 22:53",
       "tag": "langchain-core==1.6.6",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-anthropic==1.7.5",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-anthropic==1.7.4\n\nrelease(anthropic): 1.7.5 (#40912)\nfix(anthropic): support Claude Sonnet 5.5 compatibility (#40882)\nfix(anthropic): serialize invalid tool calls as tool use on replay (#40864)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.5",
-      "published_at": "2026-09-29 23:22",
-      "tag": "langchain-anthropic==1.7.5",
       "source": "release"
     },
     {
