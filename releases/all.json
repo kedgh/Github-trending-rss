@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-02 06:10",
+  "updated": "2026-10-02 11:20",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.56",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Measure AI upgrade nudges, handoffs, and completion: #99465\n- turbo-persistence: 32 bit fingerprints for the used keys AMQFs: #99333\n- Remove suspend during operations: #99383\n- test: migrate runtime deploy exclusions to force gates: #98159\n- test: migrate asset deploy exclusions to force gates: #98158\n- test: migrate Pages Router deploy exclusions to force gates: #98157\n- fix: stale usages of unstable_ensureStatic: #99540\n- Add unstable parameter matching APIs: #97393\n- docs",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.56",
+      "published_at": "2026-10-02 08:07",
+      "tag": "v16.4.0-canary.56",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.55",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Always use generateBuildId if set explicitly: #99147\n- Set tracer library version: #98262\n- fix: propagate repeated tag revalidation from after(): #99499\n- Stabilize `ensureStatic`: #99513\n- Turbopack: Enable experimental.turbopackSharedRuntime by default: #99504\n\n### Credits \n\nHuge thanks to @mischnic, @lukahartwig, @uaoa, @lubieowoce, and @bgw for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.54",
       "published_at": "2026-10-01 07:46",
       "tag": "v16.4.0-canary.54",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.3.8",
-      "repo": "vercel/next.js",
-      "description": "This release contains security fixes for the following advisories:\r\n\r\nHigh:\r\n- [Server-Side Request Forgery in Image Optimization](https://github.com/vercel/next.js/security/advisories/GHSA-cjq9-62q9-8jv4)\r\n\r\nMedium:\r\n- [Information disclosure in Next.js App Router metadata image routes via dynamicParams bypass](https://github.com/vercel/next.js/security/advisories/GHSA-f87g-xv8r-7p7x)\r\n- [Cache poisoning of SSG and ISR pages in self-hosted Next.js applications](https://github.com/vercel/next.js",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.8",
-      "published_at": "2026-10-01 00:13",
-      "tag": "v16.3.8",
       "source": "release"
     }
   ]
