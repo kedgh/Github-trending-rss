@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-03 05:40",
+  "updated": "2026-10-03 11:06",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.58",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Optimize esm exports by shifting the protocol burden to getters: #98932\n- fix: fix pnpm builds in Docker examples: #97352\n- Assert transient task references are not serialized: #99300\n- Reorganize bundle analyzer toolbar: #98920\n- Show async module scope in bundle analyzer: #98918\n- Show bundle changes in compare treemap: #98837\n- improve disk read semantics around MustExist and AllowMissing: #99249\n- Allow opt-in facade-backed export mangling: #99309\n- Add bundle analyzer ro",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.58",
+      "published_at": "2026-10-03 07:49",
+      "tag": "v16.4.0-canary.58",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.57",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Resolve React dependency warnings from the target app: #99536\n- Move upgrade workflows out of public docs: #99546\n- Use Agent terminology throughout upgrades: #99545\n- Turbopack: Commit updated generated-native file: #99561\n- test: enable Relay multi-project deployment coverage: #99403\n- test: migrate independent App Router deploy exclusions to force gates: #99431\n- test: migrate mode-specific deploy exclusions to force gates: #98160\n\n### Credits \n\nHuge thanks to @devjiwoncho",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.56",
       "published_at": "2026-10-02 08:07",
       "tag": "v16.4.0-canary.56",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.55",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Always use generateBuildId if set explicitly: #99147\n- Set tracer library version: #98262\n- fix: propagate repeated tag revalidation from after(): #99499\n- Stabilize `ensureStatic`: #99513\n- Turbopack: Enable experimental.turbopackSharedRuntime by default: #99504\n\n### Credits \n\nHuge thanks to @mischnic, @lukahartwig, @uaoa, @lubieowoce, and @bgw for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.55",
-      "published_at": "2026-10-01 22:30",
-      "tag": "v16.4.0-canary.55",
       "source": "release"
     }
   ]
