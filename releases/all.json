@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-04 04:24",
+  "updated": "2026-10-04 11:34",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.59",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Followup from #99249  remove some redundant tests and enable missing assertions all the time: #99605\n- Simplify turbo-tasks-backend guards and execution contexts: #99599\n- Add allocation and memory data to the trace-server MCP protocol: #98546\n- turbo-tasks-backend: check access in track_modification and only track Data on serialization invalidation: #99581\n- Fix CI break caused by #98932: #99621\n- Fix: Unnecessary Suspense fallback triggered by URL update: #99612\n- Don't sus",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.59",
+      "published_at": "2026-10-04 08:23",
+      "tag": "v16.4.0-canary.59",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.58",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Optimize esm exports by shifting the protocol burden to getters: #98932\n- fix: fix pnpm builds in Docker examples: #97352\n- Assert transient task references are not serialized: #99300\n- Reorganize bundle analyzer toolbar: #98920\n- Show async module scope in bundle analyzer: #98918\n- Show bundle changes in compare treemap: #98837\n- improve disk read semantics around MustExist and AllowMissing: #99249\n- Allow opt-in facade-backed export mangling: #99309\n- Add bundle analyzer ro",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.57",
       "published_at": "2026-10-02 11:44",
       "tag": "v16.4.0-canary.57",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.56",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Measure AI upgrade nudges, handoffs, and completion: #99465\n- turbo-persistence: 32 bit fingerprints for the used keys AMQFs: #99333\n- Remove suspend during operations: #99383\n- test: migrate runtime deploy exclusions to force gates: #98159\n- test: migrate asset deploy exclusions to force gates: #98158\n- test: migrate Pages Router deploy exclusions to force gates: #98157\n- fix: stale usages of unstable_ensureStatic: #99540\n- Add unstable parameter matching APIs: #97393\n- docs",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.56",
-      "published_at": "2026-10-02 08:07",
-      "tag": "v16.4.0-canary.56",
       "source": "release"
     }
   ]
