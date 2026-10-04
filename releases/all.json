@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-05 00:14",
+  "updated": "2026-10-05 04:42",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.40.0-rc2",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n\r\n**Models run on MLX on Apple Silicon by default**\r\n\r\nIn this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX.\r\n\r\n```\r\nollama pull qwen3.8\r\nollama run qwen3.8\r\n```\r\n\r\nDuring the pre-release we will be testing and enabling additional models.\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.4...v0.40.0-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc2",
+      "published_at": "2026-09-25 11:31",
+      "tag": "v0.40.0-rc2",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.35.1",
       "repo": "ollama/ollama",
       "description": "## Clef decision models\r\n\r\nOllama now supports [Clef](https://ollama.com/library/clef) and [Clef Flash](https://ollama.com/library/clef), Cloudflare's new open-source decision models, through `/v1/systemone`.\r\n\r\nClef (27B) and Clef Flash (9B) are multimodal: requests can now include images alongside the text state, shared by all questions and scored jointly with it.\r\n\r\n```sh\r\ncurl http://localhost:11434/v1/systemone -d '{\r\n  \"model\": \"clef-flash\",\r\n  \"state\": \"The user took this screenshot.\",\r\n ",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0",
       "published_at": "2026-09-29 05:23",
       "tag": "v0.35.0",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.40.0-rc0",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n\r\n**Models run on MLX on Apple Silicon by default**\r\n\r\nIn this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX.\r\n\r\n```\r\nollama pull qwen3.8\r\nollama run qwen3.8\r\n```\r\n\r\nDuring the pre-release we will be testing and enabling additional models.\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.4...v0.40.0-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0",
-      "published_at": "2026-09-25 11:31",
-      "tag": "v0.40.0-rc0",
       "source": "release"
     },
     {
