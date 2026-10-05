@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-05 04:42",
+  "updated": "2026-10-05 11:16",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.40.0-rc2",
+      "name": "ollama/ollama v0.40.0-rc3",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n\r\n**Models run on MLX on Apple Silicon by default**\r\n\r\nIn this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX.\r\n\r\n```\r\nollama pull qwen3.8\r\nollama run qwen3.8\r\n```\r\n\r\nDuring the pre-release we will be testing and enabling additional models.\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.4...v0.40.0-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc2",
+      "description": "## What's Changed\r\n\r\n**Models run on MLX on Apple Silicon by default**\r\n\r\nIn this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX.\r\n\r\n```\r\nollama pull qwen3.8\r\nollama run qwen3.8\r\n```\r\n\r\nAdditional models include [gemma4](https://ollama.com/library/gemma4), [qwen3.6](https://ollama.com/library/qwen3.6) and [qwen3.5](https://ollama.com/library/qwen3.5)\r\n\r\nDecision models are now available on MLX as well: [Nimble](https://ollama.com",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc3",
       "published_at": "2026-09-25 11:31",
-      "tag": "v0.40.0-rc2",
+      "tag": "v0.40.0-rc3",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.0-canary.60",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Unify bundle analyzer delta colors: #99607\n\n### Credits \n\nHuge thanks to @wbinnssmith for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.60",
+      "published_at": "2026-10-05 07:45",
+      "tag": "v16.4.0-canary.60",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.4.0-canary.59",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Followup from #99249  remove some redundant tests and enable missing assertions all the time: #99605\n- Simplify turbo-tasks-backend guards and execution contexts: #99599\n- Add allocation and memory data to the trace-server MCP protocol: #98546\n- turbo-tasks-backend: check access in track_modification and only track Data on serialization invalidation: #99581\n- Fix CI break caused by #98932: #99621\n- Fix: Unnecessary Suspense fallback triggered by URL update: #99612\n- Don't sus",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.58",
       "published_at": "2026-10-03 07:49",
       "tag": "v16.4.0-canary.58",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.57",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Resolve React dependency warnings from the target app: #99536\n- Move upgrade workflows out of public docs: #99546\n- Use Agent terminology throughout upgrades: #99545\n- Turbopack: Commit updated generated-native file: #99561\n- test: enable Relay multi-project deployment coverage: #99403\n- test: migrate independent App Router deploy exclusions to force gates: #99431\n- test: migrate mode-specific deploy exclusions to force gates: #98160\n\n### Credits \n\nHuge thanks to @devjiwoncho",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.57",
-      "published_at": "2026-10-02 11:44",
-      "tag": "v16.4.0-canary.57",
       "source": "release"
     }
   ]
