@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-05 11:16",
+  "updated": "2026-10-05 21:08",
   "count": 15,
   "items": [
     {
@@ -87,28 +87,28 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.41.6](https://github.com/n8n-io/n8n/compare/n8n@2.41.5...n8n@2.41.6) (2026-10-02)\n\n\n### Bug Fixes\n\n* **core:** Keep the task runner running on an unhandled promise rejection ([#40092](https://github.com/n8n-io/n8n/issues/40092)) ([d719c87](https://github.com/n8n-io/n8n/commit/d719c878a0965101650665200176a835224ed3bf))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/40134?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" dat",
+      "description": "## [2.41.7](https://github.com/n8n-io/n8n/compare/n8n@2.41.6...n8n@2.41.7) (2026-10-05)\n\n\n### Bug Fixes\n\n* **API:** Let global members grant variable scopes to API keys ([#40151](https://github.com/n8n-io/n8n/issues/40151)) ([cc25c71](https://github.com/n8n-io/n8n/commit/cc25c71c691a98a4c3a2d9596a085cca8438c19c))\n\n\n### Features\n\n* **editor:** Show Gateway credits promotions on community nodes ([#40109](https://github.com/n8n-io/n8n/issues/40109)) ([a509d92](https://github.com/n8n-io/n8n/commit/a",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-10-02 15:27",
+      "published_at": "2026-10-05 15:26",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.41.6",
+      "name": "n8n-io/n8n n8n@2.41.7",
       "repo": "n8n-io/n8n",
-      "description": "## [2.41.6](https://github.com/n8n-io/n8n/compare/n8n@2.41.5...n8n@2.41.6) (2026-10-02)\n\n\n### Bug Fixes\n\n* **core:** Keep the task runner running on an unhandled promise rejection ([#40092](https://github.com/n8n-io/n8n/issues/40092)) ([d719c87](https://github.com/n8n-io/n8n/commit/d719c878a0965101650665200176a835224ed3bf))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/40134?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" dat",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.41.6",
-      "published_at": "2026-10-02 15:27",
-      "tag": "n8n@2.41.6",
+      "description": "## [2.41.7](https://github.com/n8n-io/n8n/compare/n8n@2.41.6...n8n@2.41.7) (2026-10-05)\n\n\n### Bug Fixes\n\n* **API:** Let global members grant variable scopes to API keys ([#40151](https://github.com/n8n-io/n8n/issues/40151)) ([cc25c71](https://github.com/n8n-io/n8n/commit/cc25c71c691a98a4c3a2d9596a085cca8438c19c))\n\n\n### Features\n\n* **editor:** Show Gateway credits promotions on community nodes ([#40109](https://github.com/n8n-io/n8n/issues/40109)) ([a509d92](https://github.com/n8n-io/n8n/commit/a",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.41.7",
+      "published_at": "2026-10-05 15:26",
+      "tag": "n8n@2.41.7",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.41.5",
+      "name": "n8n-io/n8n n8n@2.42.3",
       "repo": "n8n-io/n8n",
-      "description": "## [2.41.5](https://github.com/n8n-io/n8n/compare/n8n@2.41.4...n8n@2.41.5) (2026-10-01)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/40038?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/review-in-c",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.41.5",
-      "published_at": "2026-10-01 16:05",
-      "tag": "n8n@2.41.5",
+      "description": "## [2.42.3](https://github.com/n8n-io/n8n/compare/n8n@2.42.2...n8n@2.42.3) (2026-10-05)\n\n\n### Bug Fixes\n\n* **API:** Let global members grant variable scopes to API keys ([#40150](https://github.com/n8n-io/n8n/issues/40150)) ([d09b8a1](https://github.com/n8n-io/n8n/commit/d09b8a11fb097e47b04dbe04ed1d330f736fb507))\n* **core:** Keep the task runner running on an unhandled promise rejection ([#40091](https://github.com/n8n-io/n8n/issues/40091)) ([50f2e96](https://github.com/n8n-io/n8n/commit/50f2e96",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.42.3",
+      "published_at": "2026-10-05 15:23",
+      "tag": "n8n@2.42.3",
       "source": "release"
     },
     {
