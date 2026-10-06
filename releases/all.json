@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-10-06 20:29",
+  "updated": "2026-10-07 06:03",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-core==1.6.7",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-core==1.6.6\n\nrelease(core): 1.6.7 (#41087)\nfix(core): include openai redacted_content in v1 output for bedrock converse (#41086)\nfix(core): python 3.14 hardening around `inspect.signature` (#41059)\nchore(deps): bump notebook from 7.5.7 to 7.6.3 in /libs/core (#41057)\nchore(deps): bump notebook from 7.5.6 to 7.5.7 in /libs/core (#40992)\nchore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/core (#40972)\nchore(deps): bump tornado from 6.5.8 to 6.5.9 in /libs/core (#40970)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.7",
+      "published_at": "2026-10-06 23:47",
+      "tag": "langchain-core==1.6.7",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-text-splitters==1.1.3",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.7",
       "published_at": "2026-09-30 23:12",
       "tag": "langchain-openai==1.6.7",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.6.6",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.6.5\n\nrelease(core): 1.6.6 (#40906)\nfix(anthropic): support Claude Sonnet 5.5 compatibility (#40882)\ndocs(core): fix docstring examples that don't run as copied (#40815)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.6",
-      "published_at": "2026-09-29 22:53",
-      "tag": "langchain-core==1.6.6",
       "source": "release"
     },
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.40.0-rc5",
+      "name": "ollama/ollama v0.40.0",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n\r\n**Models run on MLX on Apple Silicon by default**\r\n\r\nIn this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX.\r\n\r\n```\r\nollama pull qwen3.8\r\nollama run qwen3.8\r\n```\r\n\r\nAdditional models include [gemma4](https://ollama.com/library/gemma4), [qwen3.6](https://ollama.com/library/qwen3.6) and [qwen3.5](https://ollama.com/library/qwen3.5)\r\n\r\nDecision models are now available on MLX as well: [Nimble](https://ollama.com",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc5",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0",
       "published_at": "2026-09-25 11:31",
-      "tag": "v0.40.0-rc5",
+      "tag": "v0.40.0",
       "source": "release"
     },
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.4.0-canary.61",
+      "name": "vercel/next.js v16.5.0-canary.0",
       "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Turbopack: Cache canonicalized paths without turbo-tasks, try to find the longest cached prefix first: #99270\n- Record parameter matching usage in build metadata: #99594\n- Bundle Analyzer Agent Skill: Stream versioned analyzer graph as JSON Lines: #99387\n-  Revert \"Optimize esm exports by shifting the protocol burden to getters (#98932)\": #99704\n- [PPF] Log Sync IO errors in runtime prerenders: #99688\n- docs: clarify use client directive as a file level directive: #99703\n- St",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.61",
-      "published_at": "2026-10-06 07:47",
-      "tag": "v16.4.0-canary.61",
+      "description": "Initial release",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.0",
+      "published_at": "2026-10-07 02:52",
+      "tag": "v16.5.0-canary.0",
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.4.0-canary.60",
+      "name": "vercel/next.js v16.4.0-canary.63",
       "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Unify bundle analyzer delta colors: #99607\n\n### Credits \n\nHuge thanks to @wbinnssmith for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.60",
-      "published_at": "2026-10-05 07:45",
-      "tag": "v16.4.0-canary.60",
+      "description": "### Misc Changes\n\n- Document next analyze export in the package bundling guide: #99735\n- Revert stabilization of `forbidden()` and `unauthorized()`: #99734\n- Preserve configured output directories during static export: #99507\n- Rename skill to next-bundle-optimizer and document its usage: #99731\n- [turbo-tasks-backend] Clean up task state before publishing execution completion: #99729\n\n### Credits \n\nHuge thanks to @wbinnssmith, @acdlite, @gnoff, and @sokra for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.63",
+      "published_at": "2026-10-07 01:29",
+      "tag": "v16.4.0-canary.63",
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.4.0-canary.59",
+      "name": "vercel/next.js v16.4.0-canary.62",
       "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Followup from #99249  remove some redundant tests and enable missing assertions all the time: #99605\n- Simplify turbo-tasks-backend guards and execution contexts: #99599\n- Add allocation and memory data to the trace-server MCP protocol: #98546\n- turbo-tasks-backend: check access in track_modification and only track Data on serialization invalidation: #99581\n- Fix CI break caused by #98932: #99621\n- Fix: Unnecessary Suspense fallback triggered by URL update: #99612\n- Don't sus",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.59",
-      "published_at": "2026-10-04 08:23",
-      "tag": "v16.4.0-canary.59",
+      "description": "### Misc Changes\n\n- Improve static route error guidance: #99724\n- docs: add Turbopack experimental config references: #99723\n- Show choices for agent upgrade prompt: #99727\n- docs: add Keeping pages static guide and align the navigation stage docs: #99493\n- Turbopack: Check the invalidator map before adding a path to a batch: #99711\n- docs: add guide for optimizing the static shell: #97737\n- Keep dev and build running during upgrade prompts: #99702\n- docs: use auth interruption APIs in examples:",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.62",
+      "published_at": "2026-10-06 23:22",
+      "tag": "v16.4.0-canary.62",
       "source": "release"
     }
   ]
