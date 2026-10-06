@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-06 12:03",
+  "updated": "2026-10-06 20:29",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n n8n@2.43.0",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.43.0](https://github.com/n8n-io/n8n/compare/n8n@2.42.0...n8n@2.43.0) (2026-10-06)\n\n\n### Bug Fixes\n\n* **Agent Node:** Remove outdated tutorial tip callout ([#35505](https://github.com/n8n-io/n8n/issues/35505)) ([53b84d2](https://github.com/n8n-io/n8n/commit/53b84d2baac4f6975627f85ff3d550d84008e749))\n* **ai-builder:** Treat a blank folder path as no folder in the build tool ([#40116](https://github.com/n8n-io/n8n/issues/40116)) ([b7071c9](https://github.com/n8n-io/n8n/commit/b7071c91c7ef959e1",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.43.0",
+      "published_at": "2026-10-06 15:23",
+      "tag": "n8n@2.43.0",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n beta",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.43.0](https://github.com/n8n-io/n8n/compare/n8n@2.42.0...n8n@2.43.0) (2026-10-06)\n\n\n### Bug Fixes\n\n* **Agent Node:** Remove outdated tutorial tip callout ([#35505](https://github.com/n8n-io/n8n/issues/35505)) ([53b84d2](https://github.com/n8n-io/n8n/commit/53b84d2baac4f6975627f85ff3d550d84008e749))\n* **ai-builder:** Treat a blank folder path as no folder in the build tool ([#40116](https://github.com/n8n-io/n8n/issues/40116)) ([b7071c9](https://github.com/n8n-io/n8n/commit/b7071c91c7ef959e1",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-10-06 15:23",
+      "tag": "beta",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.41.7](https://github.com/n8n-io/n8n/compare/n8n@2.41.6...n8n@2.41.7) (2026-10-05)\n\n\n### Bug Fixes\n\n* **API:** Let global members grant variable scopes to API keys ([#40151](https://github.com/n8n-io/n8n/issues/40151)) ([cc25c71](https://github.com/n8n-io/n8n/commit/cc25c71c691a98a4c3a2d9596a085cca8438c19c))\n\n\n### Features\n\n* **editor:** Show Gateway credits promotions on community nodes ([#40109](https://github.com/n8n-io/n8n/issues/40109)) ([a509d92](https://github.com/n8n-io/n8n/commit/a",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-10-05 15:26",
-      "tag": "stable",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.41.7",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.41.7](https://github.com/n8n-io/n8n/compare/n8n@2.41.6...n8n@2.41.7) (2026-10-05)\n\n\n### Bug Fixes\n\n* **API:** Let global members grant variable scopes to API keys ([#40151](https://github.com/n8n-io/n8n/issues/40151)) ([cc25c71](https://github.com/n8n-io/n8n/commit/cc25c71c691a98a4c3a2d9596a085cca8438c19c))\n\n\n### Features\n\n* **editor:** Show Gateway credits promotions on community nodes ([#40109](https://github.com/n8n-io/n8n/issues/40109)) ([a509d92](https://github.com/n8n-io/n8n/commit/a",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.41.7",
-      "published_at": "2026-10-05 15:26",
-      "tag": "n8n@2.41.7",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.42.3",
-      "repo": "n8n-io/n8n",
       "description": "## [2.42.3](https://github.com/n8n-io/n8n/compare/n8n@2.42.2...n8n@2.42.3) (2026-10-05)\n\n\n### Bug Fixes\n\n* **API:** Let global members grant variable scopes to API keys ([#40150](https://github.com/n8n-io/n8n/issues/40150)) ([d09b8a1](https://github.com/n8n-io/n8n/commit/d09b8a11fb097e47b04dbe04ed1d330f736fb507))\n* **core:** Keep the task runner running on an unhandled promise rejection ([#40091](https://github.com/n8n-io/n8n/issues/40091)) ([50f2e96](https://github.com/n8n-io/n8n/commit/50f2e96",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.42.3",
-      "published_at": "2026-10-05 15:23",
-      "tag": "n8n@2.42.3",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-10-06 15:32",
+      "tag": "stable",
       "source": "release"
     },
     {
