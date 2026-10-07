@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-07 06:03",
+  "updated": "2026-10-07 11:31",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.1",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- [turbo-tasks] Experiment: capture snapshot pending bits under exclusion: #99747\n- Keep custom-route metadata outside configuration: #99508\n- turbo-tasks: copy tasks on their first modification during a snapshot: #99649\n- turbo-tasks: disable persisting after a failed snapshot: #99732\n- turbo-tasks: bincode-encode copy-on-write snapshots instead of cloning: #99644\n\n### Credits \n\nHuge thanks to @lukesandberg, @gnoff, and @sokra for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.1",
+      "published_at": "2026-10-07 07:52",
+      "tag": "v16.5.0-canary.1",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.0",
       "repo": "vercel/next.js",
       "description": "Initial release",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.63",
       "published_at": "2026-10-07 01:29",
       "tag": "v16.4.0-canary.63",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.0-canary.62",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Improve static route error guidance: #99724\n- docs: add Turbopack experimental config references: #99723\n- Show choices for agent upgrade prompt: #99727\n- docs: add Keeping pages static guide and align the navigation stage docs: #99493\n- Turbopack: Check the invalidator map before adding a path to a batch: #99711\n- docs: add guide for optimizing the static shell: #97737\n- Keep dev and build running during upgrade prompts: #99702\n- docs: use auth interruption APIs in examples:",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.62",
-      "published_at": "2026-10-06 23:22",
-      "tag": "v16.4.0-canary.62",
       "source": "release"
     }
   ]
