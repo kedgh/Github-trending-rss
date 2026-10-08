@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-08 06:28",
+  "updated": "2026-10-08 11:46",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.40.1",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* server: proxy cloud usage and balance APIs by @drifkin in https://github.com/ollama/ollama/pull/18829\r\n* llama: fix clef head reads past 2GiB on windows by @Gigrise in https://github.com/ollama/ollama/pull/18777\r\n* cmd: remove account step from CLI onboarding by @hoyyeva in https://github.com/ollama/ollama/pull/18826\r\n* manifest: avoid symlinks on Windows by @dhiltgen in https://github.com/ollama/ollama/pull/18852\r\n* docs: fix 6 dead links in README community integrations li",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.1",
+      "published_at": "2026-10-08 07:22",
+      "tag": "v0.40.1",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.40.0",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n\r\n**Models run on MLX on Apple Silicon by default**\r\n\r\nIn this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX.\r\n\r\n```\r\nollama pull qwen3.8\r\nollama run qwen3.8\r\n```\r\n\r\nAdditional models include [gemma4](https://ollama.com/library/gemma4), [qwen3.6](https://ollama.com/library/qwen3.6) and [qwen3.5](https://ollama.com/library/qwen3.5)\r\n\r\nDecision models are now available on MLX as well: [Nimble](https://ollama.com",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1",
       "published_at": "2026-09-30 04:14",
       "tag": "v0.35.1",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.35.0",
-      "repo": "ollama/ollama",
-      "description": "## Decision models\r\n\r\nOllama now supports decision models through `/v1/systemone`, based on [TypeSafe’s Jev API](https://typesafe.ai).\r\n\r\nDecision models return choices, probabilities, and scores instead of text. Use them for tasks such as ticket triage, model routing, and content classification.\r\n\r\nAvailable models:\r\n- [**Nimble**](https://ollama.com/library/nimble) from Bespoke Labs\r\n- [**Tev1**](https://ollama.com/library/tev1) from Together AI\r\n\r\n```sh\r\nollama pull nimble\r\n```\r\n\r\nSend contex",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0",
-      "published_at": "2026-09-29 05:23",
-      "tag": "v0.35.0",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.3",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Document `next analyze export` and skill are added in 16.4: #99738\n- create-next-app: write agent feedback block to AGENTS.md when enabled: #99813\n- [turbopack] fix some unused dependencies: #99825\n- Fix next-bundle-optimizer skill handoffs: #99818\n- [ci] Increase deploy test concurrency to 8: #99770\n- Upgrade React from `278794d7-20261002` to `d75b0697-20261006`: #99819\n- Turbopack: fix turbo-trace-size test after MemorySample gained active_worker_threads: #99824\n- Turbopack",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.3",
+      "published_at": "2026-10-08 07:50",
+      "tag": "v16.5.0-canary.3",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.2",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- [cd] Use pnpm to manage the version: #99041\n- fix: Bump vendored @mswjs/interceptors from 0.42.5 to 0.42.6: #99485\n- Turbopack: Minor cleanup from review of #99711: #99748\n- Exclude blocking spans from trace work accounting: #99685\n- Sample global trace concurrency across span ranges: #99254\n- Trace active Tokio worker threads with memory samples: #99233\n- Turbopack: report next/font/google font file fetch failures instead of Module not found: #99574\n- Update font data and fi",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.1",
       "published_at": "2026-10-07 07:52",
       "tag": "v16.5.0-canary.1",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.0",
-      "repo": "vercel/next.js",
-      "description": "Initial release",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.0",
-      "published_at": "2026-10-07 02:52",
-      "tag": "v16.5.0-canary.0",
       "source": "release"
     }
   ]
