@@ -1,33 +1,33 @@
 {
   "title": "Releases",
-  "updated": "2026-10-08 20:32",
+  "updated": "2026-10-09 06:41",
   "count": 15,
   "items": [
     {
-      "name": "langchain-ai/langchain langchain-huggingface==1.2.3",
+      "name": "langchain-ai/langchain langchain==1.4.4",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-huggingface==1.2.2\n\nfix(huggingface): use a supported Scaleway model in streaming test (#41095)\nchore(deps): bump langgraph-sdk from 0.4.4 to 0.4.6 in /libs/partners/huggingface (#41098)\nchore(deps): bump langgraph-sdk from 0.4.2 to 0.4.4 in /libs/partners/huggingface (#41076)\nchore(deps): bump fsspec from 2026.6.0 to 2026.9.0 in /libs/partners/huggingface (#41092)\nchore(deps): bump fsspec from 2025.9.0 to 2026.6.0 in /libs/partners/huggingface (#41077)\nchore(huggingface)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-huggingface%3D%3D1.2.3",
-      "published_at": "2026-10-08 04:10",
-      "tag": "langchain-huggingface==1.2.3",
+      "description": "Changes since langchain==1.4.3\n\nrelease(langchain): 1.4.4 (#41163)\nfix(langchain): (SummarizationMiddleware) retry summary step on context overflow (#41159)\nchore(deps): bump fsspec from 2026.6.0 to 2026.9.0 in /libs/langchain_v1 (#41097)\nchore(deps): bump multidict from 6.7.0 to 6.9.1 in /libs/langchain_v1 (#41075)\nchore(deps): bump langgraph-sdk from 0.4.2 to 0.4.4 in /libs/langchain_v1 (#41074)\nchore(deps): bump fsspec from 2025.10.0 to 2026.6.0 in /libs/langchain_v1 (#41071)\nchore(langchain)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.4",
+      "published_at": "2026-10-09 06:14",
+      "tag": "langchain==1.4.4",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-fireworks==1.7.1",
+      "name": "langchain-ai/langchain langchain-openai==1.7.0",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-fireworks==1.7.0\n\nrelease(fireworks): 1.7.1 (#41137)\nfix(fireworks): preserve reasoning in streaming and tool loops (#41093)\nchore(deps): bump langgraph-sdk from 0.4.4 to 0.4.6 in /libs/partners/fireworks (#41100)\nchore(deps): bump langgraph-sdk from 0.4.2 to 0.4.4 in /libs/partners/fireworks (#41078)\nchore(model-profiles): refresh model profile data (#40974)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.1",
-      "published_at": "2026-10-08 04:24",
-      "tag": "langchain-fireworks==1.7.1",
+      "description": "Changes since langchain-openai==1.6.7\n\nrelease(openai): 1.7.0 (#41154)\nfeat(openai): support decisions api (#41125)\nchore(deps): bump langgraph-sdk from 0.4.4 to 0.4.6 in /libs/partners/openai (#41096)\nchore(deps): bump langgraph-sdk from 0.4.2 to 0.4.4 in /libs/partners/openai (#41072)\nchore(deps): bump pyjwt from 2.15.0 to 2.15.1 in /libs/partners/openai (#40951)\nchore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/partners/openai (#40952)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.0",
+      "published_at": "2026-10-09 00:07",
+      "tag": "langchain-openai==1.7.0",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-core==1.6.7",
+      "name": "langchain-ai/langchain langchain-core==1.6.9",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.6.6\n\nrelease(core): 1.6.7 (#41087)\nfix(core): include openai redacted_content in v1 output for bedrock converse (#41086)\nfix(core): python 3.14 hardening around `inspect.signature` (#41059)\nchore(deps): bump notebook from 7.5.7 to 7.6.3 in /libs/core (#41057)\nchore(deps): bump notebook from 7.5.6 to 7.5.7 in /libs/core (#40992)\nchore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/core (#40972)\nchore(deps): bump tornado from 6.5.8 to 6.5.9 in /libs/core (#40970)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.7",
-      "published_at": "2026-10-06 23:47",
-      "tag": "langchain-core==1.6.7",
+      "description": "Changes since langchain-core==1.6.8\n\nrelease(core): 1.6.9 (#41160)\nfeat(core): accept a callable in with_retry (#41158)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.9",
+      "published_at": "2026-10-09 04:11",
+      "tag": "langchain-core==1.6.9",
       "source": "release"
     },
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.40.2",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* README: add oxi to community integrations by @maziluiosif in https://github.com/ollama/ollama/pull/18739\r\n* server: hide duplicate and downgrade guards from list by @dhiltgen in https://github.com/ollama/ollama/pull/18874\r\n\r\n## New Contributors\r\n* @maziluiosif made their first contribution in https://github.com/ollama/ollama/pull/18739\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.1...v0.40.2-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2",
+      "published_at": "2026-10-09 00:53",
+      "tag": "v0.40.2",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.40.1",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* server: proxy cloud usage and balance APIs by @drifkin in https://github.com/ollama/ollama/pull/18829\r\n* llama: fix clef head reads past 2GiB on windows by @Gigrise in https://github.com/ollama/ollama/pull/18777\r\n* cmd: remove account step from CLI onboarding by @hoyyeva in https://github.com/ollama/ollama/pull/18826\r\n* manifest: avoid symlinks on Windows by @dhiltgen in https://github.com/ollama/ollama/pull/18852\r\n* docs: fix 6 dead links in README community integrations li",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0",
       "published_at": "2026-09-25 11:31",
       "tag": "v0.40.0",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.35.1",
-      "repo": "ollama/ollama",
-      "description": "## Clef decision models\r\n\r\nOllama now supports [Clef](https://ollama.com/library/clef) and [Clef Flash](https://ollama.com/library/clef), Cloudflare's new open-source decision models, through `/v1/systemone`.\r\n\r\nClef (27B) and Clef Flash (9B) are multimodal: requests can now include images alongside the text state, shared by all questions and scored jointly with it.\r\n\r\n```sh\r\ncurl http://localhost:11434/v1/systemone -d '{\r\n  \"model\": \"clef-flash\",\r\n  \"state\": \"The user took this screenshot.\",\r\n ",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1",
-      "published_at": "2026-09-30 04:14",
-      "tag": "v0.35.1",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.4",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- docs: align function sidebar titles: #99858\n- Fix telemetry delivery on Node.js 24: #99842\n- [test] Authenticate deploy tests via VERCEL_TOKEN instead of shared auth.json: #99846\n- Replace deprecated React.FormEvent with SubmitEvent: #99821\n- turbo-tasks-fs: Don't print NotFound watcher errors: #99794\n- Revert \"[ci] Increase deploy test concurrency to 8\": #99840\n- Bump next in upgrade eval fixtures for CVE-2026-94483: #99838\n- turbopack: don't report unactionable 'stopping fa",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.4",
+      "published_at": "2026-10-09 00:11",
+      "tag": "v16.5.0-canary.4",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.3",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Document `next analyze export` and skill are added in 16.4: #99738\n- create-next-app: write agent feedback block to AGENTS.md when enabled: #99813\n- [turbopack] fix some unused dependencies: #99825\n- Fix next-bundle-optimizer skill handoffs: #99818\n- [ci] Increase deploy test concurrency to 8: #99770\n- Upgrade React from `278794d7-20261002` to `d75b0697-20261006`: #99819\n- Turbopack: fix turbo-trace-size test after MemorySample gained active_worker_threads: #99824\n- Turbopack",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.2",
       "published_at": "2026-10-07 15:40",
       "tag": "v16.5.0-canary.2",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.1",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [turbo-tasks] Experiment: capture snapshot pending bits under exclusion: #99747\n- Keep custom-route metadata outside configuration: #99508\n- turbo-tasks: copy tasks on their first modification during a snapshot: #99649\n- turbo-tasks: disable persisting after a failed snapshot: #99732\n- turbo-tasks: bincode-encode copy-on-write snapshots instead of cloning: #99644\n\n### Credits \n\nHuge thanks to @lukesandberg, @gnoff, and @sokra for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.1",
-      "published_at": "2026-10-07 07:52",
-      "tag": "v16.5.0-canary.1",
       "source": "release"
     }
   ]
