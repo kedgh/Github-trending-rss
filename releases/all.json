@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-09 20:20",
+  "updated": "2026-10-10 06:03",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.6",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Add more metadata to agent upgrade telemetry: #99925\n- perf: reduce build tree view allocations: #99930\n- fix: classify collapsed generated paths from child routes: #99864\n- Upgrade React from `d75b0697-20261006` to `b618bbb4-20261007`: #99879\n\n### Misc Changes\n\n- docs(skills): use agent-agnostic branch prefix in create-pr: #99934\n- [test] Regression test for XSS-safe `GoogleTagManager#dataLayer`: #99464\n- [image-optimization] Expose `next/image-optimizer-transform` as a publ",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.6",
+      "published_at": "2026-10-10 00:11",
+      "tag": "v16.5.0-canary.6",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.5",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Update error strings for a few deployment tests: #99886\n- Increase timeout on module-scope deployment test: #99891\n- Fix google tag manager e2e test, assume GTM 200s instead of 404ing: #99896\n\n### Credits \n\nHuge thanks to @bgw for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.4",
       "published_at": "2026-10-09 00:11",
       "tag": "v16.5.0-canary.4",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.3",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Document `next analyze export` and skill are added in 16.4: #99738\n- create-next-app: write agent feedback block to AGENTS.md when enabled: #99813\n- [turbopack] fix some unused dependencies: #99825\n- Fix next-bundle-optimizer skill handoffs: #99818\n- [ci] Increase deploy test concurrency to 8: #99770\n- Upgrade React from `278794d7-20261002` to `d75b0697-20261006`: #99819\n- Turbopack: fix turbo-trace-size test after MemorySample gained active_worker_threads: #99824\n- Turbopack",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.3",
-      "published_at": "2026-10-08 07:50",
-      "tag": "v16.5.0-canary.3",
       "source": "release"
     }
   ]
