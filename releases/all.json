@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-09 06:41",
+  "updated": "2026-10-09 11:51",
   "count": 15,
   "items": [
     {
@@ -60,7 +60,7 @@
     {
       "name": "ollama/ollama v0.40.2",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* README: add oxi to community integrations by @maziluiosif in https://github.com/ollama/ollama/pull/18739\r\n* server: hide duplicate and downgrade guards from list by @dhiltgen in https://github.com/ollama/ollama/pull/18874\r\n\r\n## New Contributors\r\n* @maziluiosif made their first contribution in https://github.com/ollama/ollama/pull/18739\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.1...v0.40.2-rc0",
+      "description": "## Model upgrades\r\n\r\nModels downloaded with earlier versions of Ollama are upgraded in the background the first time you run them, for better performance and compatibility when running on llama.cpp.\r\n\r\nTo make downgrading safe, Ollama keeps the original copy as a backup, so upgraded models are temporarily kept on disk. A future release will remove these backups automatically.\r\n\r\nTo remove backed up models now (requires `jq`):\r\n\r\n```shell\r\ncurl -s localhost:11434/api/tags | jq -r '.models[].name'",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2",
       "published_at": "2026-10-09 00:53",
       "tag": "v0.40.2",
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.5",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Update error strings for a few deployment tests: #99886\n- Increase timeout on module-scope deployment test: #99891\n- Fix google tag manager e2e test, assume GTM 200s instead of 404ing: #99896\n\n### Credits \n\nHuge thanks to @bgw for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.5",
+      "published_at": "2026-10-09 07:55",
+      "tag": "v16.5.0-canary.5",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.4",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- docs: align function sidebar titles: #99858\n- Fix telemetry delivery on Node.js 24: #99842\n- [test] Authenticate deploy tests via VERCEL_TOKEN instead of shared auth.json: #99846\n- Replace deprecated React.FormEvent with SubmitEvent: #99821\n- turbo-tasks-fs: Don't print NotFound watcher errors: #99794\n- Revert \"[ci] Increase deploy test concurrency to 8\": #99840\n- Bump next in upgrade eval fixtures for CVE-2026-94483: #99838\n- turbopack: don't report unactionable 'stopping fa",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.3",
       "published_at": "2026-10-08 07:50",
       "tag": "v16.5.0-canary.3",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.2",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- [cd] Use pnpm to manage the version: #99041\n- fix: Bump vendored @mswjs/interceptors from 0.42.5 to 0.42.6: #99485\n- Turbopack: Minor cleanup from review of #99711: #99748\n- Exclude blocking spans from trace work accounting: #99685\n- Sample global trace concurrency across span ranges: #99254\n- Trace active Tokio worker threads with memory samples: #99233\n- Turbopack: report next/font/google font file fetch failures instead of Module not found: #99574\n- Update font data and fi",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.2",
-      "published_at": "2026-10-07 15:40",
-      "tag": "v16.5.0-canary.2",
       "source": "release"
     }
   ]
