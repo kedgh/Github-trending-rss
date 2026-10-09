@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-09 11:51",
+  "updated": "2026-10-09 20:20",
   "count": 15,
   "items": [
     {
@@ -87,28 +87,28 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.42.5](https://github.com/n8n-io/n8n/compare/n8n@2.42.4...n8n@2.42.5) (2026-10-08)\n\n\n### Bug Fixes\n\n* **editor:** Show the Agent artifact while the builder creates it ([#40551](https://github.com/n8n-io/n8n/issues/40551)) ([e825e75](https://github.com/n8n-io/n8n/commit/e825e75840cb65f6f9814b8e3848230bdfaa1130))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/40629?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-ima",
+      "description": "## [2.42.6](https://github.com/n8n-io/n8n/compare/n8n@2.42.5...n8n@2.42.6) (2026-10-09)\n\n\n### Features\n\n* **core:** Block create/update of workflows with deprecated nodes ([#40707](https://github.com/n8n-io/n8n/issues/40707)) ([ff1a24c](https://github.com/n8n-io/n8n/commit/ff1a24c72f360ce9d047f17eef08e0732c829f4b))\n* **Google Gemini Node:** Show Nano Banana 2.1 and 2 Lite in the image model list ([#40656](https://github.com/n8n-io/n8n/issues/40656)) ([8dfc695](https://github.com/n8n-io/n8n/commi",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-10-08 15:21",
+      "published_at": "2026-10-09 15:25",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.42.5",
+      "name": "n8n-io/n8n n8n@2.42.6",
       "repo": "n8n-io/n8n",
-      "description": "## [2.42.5](https://github.com/n8n-io/n8n/compare/n8n@2.42.4...n8n@2.42.5) (2026-10-08)\n\n\n### Bug Fixes\n\n* **editor:** Show the Agent artifact while the builder creates it ([#40551](https://github.com/n8n-io/n8n/issues/40551)) ([e825e75](https://github.com/n8n-io/n8n/commit/e825e75840cb65f6f9814b8e3848230bdfaa1130))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/40629?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-ima",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.42.5",
-      "published_at": "2026-10-08 15:21",
-      "tag": "n8n@2.42.5",
+      "description": "## [2.42.6](https://github.com/n8n-io/n8n/compare/n8n@2.42.5...n8n@2.42.6) (2026-10-09)\n\n\n### Features\n\n* **core:** Block create/update of workflows with deprecated nodes ([#40707](https://github.com/n8n-io/n8n/issues/40707)) ([ff1a24c](https://github.com/n8n-io/n8n/commit/ff1a24c72f360ce9d047f17eef08e0732c829f4b))\n* **Google Gemini Node:** Show Nano Banana 2.1 and 2 Lite in the image model list ([#40656](https://github.com/n8n-io/n8n/issues/40656)) ([8dfc695](https://github.com/n8n-io/n8n/commi",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.42.6",
+      "published_at": "2026-10-09 15:25",
+      "tag": "n8n@2.42.6",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.84",
+      "name": "n8n-io/n8n n8n@2.43.3",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.84](https://github.com/n8n-io/n8n/compare/n8n@1.123.83...n8n@1.123.84) (2026-10-08)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/40630?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/revie",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.84",
-      "published_at": "2026-10-08 15:58",
-      "tag": "n8n@1.123.84",
+      "description": "## [2.43.3](https://github.com/n8n-io/n8n/compare/n8n@2.43.2...n8n@2.43.3) (2026-10-09)\n\n\n### Features\n\n* **core:** Block create/update of workflows with deprecated nodes ([#40706](https://github.com/n8n-io/n8n/issues/40706)) ([3c4f6e3](https://github.com/n8n-io/n8n/commit/3c4f6e33934adf29d2c76e7723256fa5b69b9ab9))\n* **Google Gemini Node:** Show Nano Banana 2.1 and 2 Lite in the image model list ([#40655](https://github.com/n8n-io/n8n/issues/40655)) ([1830ccf](https://github.com/n8n-io/n8n/commi",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.43.3",
+      "published_at": "2026-10-09 15:26",
+      "tag": "n8n@2.43.3",
       "source": "release"
     },
     {
