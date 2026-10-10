@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-10 06:03",
+  "updated": "2026-10-10 11:35",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.7",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Reland experimental custom webpack support: #99234\n\n### Misc Changes\n\n- Add CI for upgrade evals with shared preparation: #99908\n- Rebuild upgrade evals around delivered apps: #99880\n- Upgrade Corepack to 0.34.7: #99959\n- Upgrade Turborepo to 2.11.7: #99958\n- Normalize pnpm store cache keys: #99957\n- test: cover Pages Router _app availability in Turbopack dev (#99789): #99910\n- Turbopack: chain the Pages Router development client module graph: #98823\n- turbopack: report an ac",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.7",
+      "published_at": "2026-10-10 07:48",
+      "tag": "v16.5.0-canary.7",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.6",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Add more metadata to agent upgrade telemetry: #99925\n- perf: reduce build tree view allocations: #99930\n- fix: classify collapsed generated paths from child routes: #99864\n- Upgrade React from `d75b0697-20261006` to `b618bbb4-20261007`: #99879\n\n### Misc Changes\n\n- docs(skills): use agent-agnostic branch prefix in create-pr: #99934\n- [test] Regression test for XSS-safe `GoogleTagManager#dataLayer`: #99464\n- [image-optimization] Expose `next/image-optimizer-transform` as a publ",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.5",
       "published_at": "2026-10-09 07:55",
       "tag": "v16.5.0-canary.5",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.4",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- docs: align function sidebar titles: #99858\n- Fix telemetry delivery on Node.js 24: #99842\n- [test] Authenticate deploy tests via VERCEL_TOKEN instead of shared auth.json: #99846\n- Replace deprecated React.FormEvent with SubmitEvent: #99821\n- turbo-tasks-fs: Don't print NotFound watcher errors: #99794\n- Revert \"[ci] Increase deploy test concurrency to 8\": #99840\n- Bump next in upgrade eval fixtures for CVE-2026-94483: #99838\n- turbopack: don't report unactionable 'stopping fa",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.4",
-      "published_at": "2026-10-09 00:11",
-      "tag": "v16.5.0-canary.4",
       "source": "release"
     }
   ]
