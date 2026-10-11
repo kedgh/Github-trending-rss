@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-11 04:56",
+  "updated": "2026-10-11 11:07",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.40.3-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* `ollama launch claude` no longer shows a warning about Claude connectors by @hoyyeva in https://github.com/ollama/ollama/pull/18878\r\n* `ollama launch codex` no longer warns about service tiers by @hoyyeva in https://github.com/ollama/ollama/pull/18879\r\n* Paused background model upgrades, which added overhead to every request in high-volume use such as embeddings, by @jmorganca in https://github.com/ollama/ollama/pull/18908\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/o",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.3-rc0",
+      "published_at": "2026-10-11 09:39",
+      "tag": "v0.40.3-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.40.2",
       "repo": "ollama/ollama",
       "description": "## Model upgrades\r\n\r\nModels downloaded with earlier versions of Ollama are upgraded in the background the first time you run them, for better performance and compatibility when running on llama.cpp.\r\n\r\nTo make downgrading safe, Ollama keeps the original copy as a backup, so upgraded models are temporarily kept on disk. A future release will remove these backups automatically.\r\n\r\nTo remove backed up models now (requires `jq`):\r\n\r\n```shell\r\ncurl -s localhost:11434/api/tags | jq -r '.models[].name'",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.1",
       "published_at": "2026-10-08 07:22",
       "tag": "v0.40.1",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.40.0",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n\r\n**Models run on MLX on Apple Silicon by default**\r\n\r\nIn this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX.\r\n\r\n```\r\nollama pull qwen3.8\r\nollama run qwen3.8\r\n```\r\n\r\nAdditional models include [gemma4](https://ollama.com/library/gemma4), [qwen3.6](https://ollama.com/library/qwen3.6) and [qwen3.5](https://ollama.com/library/qwen3.5)\r\n\r\nDecision models are now available on MLX as well: [Nimble](https://ollama.com",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0",
-      "published_at": "2026-09-25 11:31",
-      "tag": "v0.40.0",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.8",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Don't parse error message lines as stack frames in the server error inspector: #99888\n- Turbopack: Remove webp feature flag, always build with webp enabled: #99964\n\n### Misc Changes\n\n- [turbopack] Remove per-shard modified counts from snapshots: #99955\n- Enable GC by default on canary: #99596\n- [turbopack] Fix two GC paths that leave half-torn-down dependency edges: #99902\n\n### Credits \n\nHuge thanks to @lukesandberg and @bgw for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.8",
+      "published_at": "2026-10-11 07:47",
+      "tag": "v16.5.0-canary.8",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.7",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Reland experimental custom webpack support: #99234\n\n### Misc Changes\n\n- Add CI for upgrade evals with shared preparation: #99908\n- Rebuild upgrade evals around delivered apps: #99880\n- Upgrade Corepack to 0.34.7: #99959\n- Upgrade Turborepo to 2.11.7: #99958\n- Normalize pnpm store cache keys: #99957\n- test: cover Pages Router _app availability in Turbopack dev (#99789): #99910\n- Turbopack: chain the Pages Router development client module graph: #98823\n- turbopack: report an ac",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.6",
       "published_at": "2026-10-10 00:11",
       "tag": "v16.5.0-canary.6",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.5",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Update error strings for a few deployment tests: #99886\n- Increase timeout on module-scope deployment test: #99891\n- Fix google tag manager e2e test, assume GTM 200s instead of 404ing: #99896\n\n### Credits \n\nHuge thanks to @bgw for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.5",
-      "published_at": "2026-10-09 07:55",
-      "tag": "v16.5.0-canary.5",
       "source": "release"
     }
   ]
