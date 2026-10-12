@@ -1,33 +1,33 @@
 {
   "title": "Releases",
-  "updated": "2026-10-12 22:00",
+  "updated": "2026-10-13 07:59",
   "count": 15,
   "items": [
     {
-      "name": "langchain-ai/langchain langchain==1.4.4",
+      "name": "langchain-ai/langchain langchain==1.4.5",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==1.4.3\n\nrelease(langchain): 1.4.4 (#41163)\nfix(langchain): (SummarizationMiddleware) retry summary step on context overflow (#41159)\nchore(deps): bump fsspec from 2026.6.0 to 2026.9.0 in /libs/langchain_v1 (#41097)\nchore(deps): bump multidict from 6.7.0 to 6.9.1 in /libs/langchain_v1 (#41075)\nchore(deps): bump langgraph-sdk from 0.4.2 to 0.4.4 in /libs/langchain_v1 (#41074)\nchore(deps): bump fsspec from 2025.10.0 to 2026.6.0 in /libs/langchain_v1 (#41071)\nchore(langchain)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.4",
-      "published_at": "2026-10-09 06:14",
-      "tag": "langchain==1.4.4",
+      "description": "Changes since langchain==1.4.4\n\nrelease(langchain): 1.4.5 (#41226)\nfeat(langchain): accept `summarizer` in `SummarizationMiddleware` (#41225)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.5",
+      "published_at": "2026-10-13 03:28",
+      "tag": "langchain==1.4.5",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-openai==1.7.0",
+      "name": "langchain-ai/langchain langchain-openai==1.7.1",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.6.7\n\nrelease(openai): 1.7.0 (#41154)\nfeat(openai): support decisions api (#41125)\nchore(deps): bump langgraph-sdk from 0.4.4 to 0.4.6 in /libs/partners/openai (#41096)\nchore(deps): bump langgraph-sdk from 0.4.2 to 0.4.4 in /libs/partners/openai (#41072)\nchore(deps): bump pyjwt from 2.15.0 to 2.15.1 in /libs/partners/openai (#40951)\nchore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/partners/openai (#40952)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.0",
-      "published_at": "2026-10-09 00:07",
-      "tag": "langchain-openai==1.7.0",
+      "description": "Changes since langchain-openai==1.7.0\n\nrelease(openai): 1.7.1 (#41222)\nfeat(core,anthropic,openai): declare mid-conversation support in model profiles (#41180)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.1",
+      "published_at": "2026-10-12 22:33",
+      "tag": "langchain-openai==1.7.1",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-core==1.6.9",
+      "name": "langchain-ai/langchain langchain-core==1.6.10",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.6.8\n\nrelease(core): 1.6.9 (#41160)\nfeat(core): accept a callable in with_retry (#41158)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.9",
-      "published_at": "2026-10-09 04:11",
-      "tag": "langchain-core==1.6.9",
+      "description": "Changes since langchain-core==1.6.9\n\nrelease(core): 1.6.10 (#41220)\nfeat(core,anthropic,openai): declare mid-conversation support in model profiles (#41180)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.10",
+      "published_at": "2026-10-12 22:14",
+      "tag": "langchain-core==1.6.10",
       "source": "release"
     },
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.40.4-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* llama: update llama.cpp to b11521 for decision models and EmbeddingGemma 2 by @jmorganca in https://github.com/ollama/ollama/pull/18917\r\n* server: reuse verified manifests and loaded models in inference routes by @dhiltgen in https://github.com/ollama/ollama/pull/18947\r\n* mlx: compact restored recurrent state after speculative rollback by @dhiltgen in https://github.com/ollama/ollama/pull/18955\r\n* launch: include installed models in Codex /model picker by @ParthSareen in htt",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc0",
+      "published_at": "2026-10-13 03:00",
+      "tag": "v0.40.4-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.40.3",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* `ollama launch claude` no longer shows a warning about Claude connectors by @hoyyeva in https://github.com/ollama/ollama/pull/18878\r\n* `ollama launch codex` no longer warns about service tiers by @hoyyeva in https://github.com/ollama/ollama/pull/18879\r\n* Paused background model upgrade for embedding and other request performance, by @jmorganca in https://github.com/ollama/ollama/pull/18908\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.2...v0.40.3",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2",
       "published_at": "2026-10-09 00:53",
       "tag": "v0.40.2",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.40.1",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* server: proxy cloud usage and balance APIs by @drifkin in https://github.com/ollama/ollama/pull/18829\r\n* llama: fix clef head reads past 2GiB on windows by @Gigrise in https://github.com/ollama/ollama/pull/18777\r\n* cmd: remove account step from CLI onboarding by @hoyyeva in https://github.com/ollama/ollama/pull/18826\r\n* manifest: avoid symlinks on Windows by @dhiltgen in https://github.com/ollama/ollama/pull/18852\r\n* docs: fix 6 dead links in README community integrations li",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.1",
-      "published_at": "2026-10-08 07:22",
-      "tag": "v0.40.1",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.9",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Gate upgrade reminder rules with agentUpgrade: #99990\n- Enable network access for Codex upgrades: #100074\n- Make it possible to disable `turbopackGc`: #100067\n- fix: use EntryKeySide in EntryKey side field: #100053\n- fix: use removePathPrefix instead of regex: #100063\n- Fix root params detection on Windows: #100065\n- Durable use cache: exclude context for path and code hashes: #99898\n- Ensure `workStore.page` is unnormalized for generateStaticParams: #99881\n- fix(codemod): fi",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.9",
+      "published_at": "2026-10-13 07:53",
+      "tag": "v16.5.0-canary.9",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.8",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Don't parse error message lines as stack frames in the server error inspector: #99888\n- Turbopack: Remove webp feature flag, always build with webp enabled: #99964\n\n### Misc Changes\n\n- [turbopack] Remove per-shard modified counts from snapshots: #99955\n- Enable GC by default on canary: #99596\n- [turbopack] Fix two GC paths that leave half-torn-down dependency edges: #99902\n\n### Credits \n\nHuge thanks to @lukesandberg and @bgw for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.7",
       "published_at": "2026-10-10 07:48",
       "tag": "v16.5.0-canary.7",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.6",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Add more metadata to agent upgrade telemetry: #99925\n- perf: reduce build tree view allocations: #99930\n- fix: classify collapsed generated paths from child routes: #99864\n- Upgrade React from `d75b0697-20261006` to `b618bbb4-20261007`: #99879\n\n### Misc Changes\n\n- docs(skills): use agent-agnostic branch prefix in create-pr: #99934\n- [test] Regression test for XSS-safe `GoogleTagManager#dataLayer`: #99464\n- [image-optimization] Expose `next/image-optimizer-transform` as a publ",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.6",
-      "published_at": "2026-10-10 00:11",
-      "tag": "v16.5.0-canary.6",
       "source": "release"
     }
   ]
