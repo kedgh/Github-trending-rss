@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-14 06:07",
+  "updated": "2026-10-14 10:53",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.40.4-rc2",
+      "name": "ollama/ollama v0.40.4",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* llama: update llama.cpp to b11521 for decision models and EmbeddingGemma 2 by @jmorganca in https://github.com/ollama/ollama/pull/18917\r\n* server: reuse verified manifests and loaded models in inference routes by @dhiltgen in https://github.com/ollama/ollama/pull/18947\r\n* mlx: compact restored recurrent state after speculative rollback by @dhiltgen in https://github.com/ollama/ollama/pull/18955\r\n* launch: include installed models in Codex /model picker by @ParthSareen in htt",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc2",
+      "description": "## Decision models in the CLI\r\nDecision models can now be used directly from the terminal with `ollama run` — ask yes/no questions, classify text into labels, or score against a rubric:\r\n`ollama run nimble --ask \"Is a refund being requested?\" < ticket.txt`\r\n\r\n ## What's Changed\r\n  * Kev decision models are now supported by the MLX runner on Apple silicon\r\n  * `ollama launch` can now be used with usage credits without upgrading to a paid plan\r\n  * `ollama launch codex` now includes locally instal",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4",
       "published_at": "2026-10-13 03:00",
-      "tag": "v0.40.4-rc2",
+      "tag": "v0.40.4",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.10",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- docs: make agent feedback command work in npm workspaces: #100135\n- test: install local Next.js sibling packages in CNA tests: #100062\n- Don't blame the Pages Router for next/headers imported through a Client Component: #100087\n- Resolve relative imports in `next.config.ts` from the config directory: #99743\n\n### Misc Changes\n\n- Update evals for stabilized navigation APIs: #100145\n- Turbopack: improve segment config parsing: #98641\n- docs(cache-handlers): explain updateTags du",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.10",
+      "published_at": "2026-10-14 07:50",
+      "tag": "v16.5.0-canary.10",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.9",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Gate upgrade reminder rules with agentUpgrade: #99990\n- Enable network access for Codex upgrades: #100074\n- Make it possible to disable `turbopackGc`: #100067\n- fix: use EntryKeySide in EntryKey side field: #100053\n- fix: use removePathPrefix instead of regex: #100063\n- Fix root params detection on Windows: #100065\n- Durable use cache: exclude context for path and code hashes: #99898\n- Ensure `workStore.page` is unnormalized for generateStaticParams: #99881\n- fix(codemod): fi",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.8",
       "published_at": "2026-10-11 07:47",
       "tag": "v16.5.0-canary.8",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.7",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Reland experimental custom webpack support: #99234\n\n### Misc Changes\n\n- Add CI for upgrade evals with shared preparation: #99908\n- Rebuild upgrade evals around delivered apps: #99880\n- Upgrade Corepack to 0.34.7: #99959\n- Upgrade Turborepo to 2.11.7: #99958\n- Normalize pnpm store cache keys: #99957\n- test: cover Pages Router _app availability in Turbopack dev (#99789): #99910\n- Turbopack: chain the Pages Router development client module graph: #98823\n- turbopack: report an ac",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.7",
-      "published_at": "2026-10-10 07:48",
-      "tag": "v16.5.0-canary.7",
       "source": "release"
     }
   ]
