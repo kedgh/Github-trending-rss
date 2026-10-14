@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-14 10:53",
+  "updated": "2026-10-14 18:55",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.44.0",
-      "repo": "n8n-io/n8n",
-      "description": "# [2.44.0](https://github.com/n8n-io/n8n/compare/n8n@2.43.0...n8n@2.44.0) (2026-10-13)\n\n\n### Bug Fixes\n\n* Align execution retry menu and clarify actions ([#40710](https://github.com/n8n-io/n8n/issues/40710)) ([84d2fd6](https://github.com/n8n-io/n8n/commit/84d2fd6f3ae68e973aa49f7e2b1dd5dbf06ad18c))\n* Allow per-process crash journal paths ([#37670](https://github.com/n8n-io/n8n/issues/37670)) ([447e939](https://github.com/n8n-io/n8n/commit/447e939b732b778662572098d81f014527e3ffe2))\n* **core:** All",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.44.0",
-      "published_at": "2026-10-13 15:43",
-      "tag": "n8n@2.44.0",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n beta",
-      "repo": "n8n-io/n8n",
-      "description": "# [2.44.0](https://github.com/n8n-io/n8n/compare/n8n@2.43.0...n8n@2.44.0) (2026-10-13)\n\n\n### Bug Fixes\n\n* Align execution retry menu and clarify actions ([#40710](https://github.com/n8n-io/n8n/issues/40710)) ([84d2fd6](https://github.com/n8n-io/n8n/commit/84d2fd6f3ae68e973aa49f7e2b1dd5dbf06ad18c))\n* Allow per-process crash journal paths ([#37670](https://github.com/n8n-io/n8n/issues/37670)) ([447e939](https://github.com/n8n-io/n8n/commit/447e939b732b778662572098d81f014527e3ffe2))\n* **core:** All",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-10-13 15:43",
-      "tag": "beta",
-      "source": "release"
-    },
-    {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.43.4](https://github.com/n8n-io/n8n/compare/n8n@2.43.3...n8n@2.43.4) (2026-10-12)\n\n\n### Bug Fixes\n\n* **core:** Handle each Chat Hub segment once in queue mode ([#40816](https://github.com/n8n-io/n8n/issues/40816)) ([dc77062](https://github.com/n8n-io/n8n/commit/dc770620e5e3830e7e41b5b840028f937dedad8d))\n* **core:** Resume tool calls for deferred tools that a skill loaded ([#40746](https://github.com/n8n-io/n8n/issues/40746)) ([ea448c6](https://github.com/n8n-io/n8n/commit/ea448c6f61fb7cae0",
+      "description": "## [2.43.5](https://github.com/n8n-io/n8n/compare/n8n@2.43.4...n8n@2.43.5) (2026-10-14)\n\n\n### Bug Fixes\n\n* **core:** Validate the size argument of the chunk() expression extension ([#40911](https://github.com/n8n-io/n8n/issues/40911)) ([4bf0ece](https://github.com/n8n-io/n8n/commit/4bf0ece7ae665034b3bd6409d0ec0beef4384a57))\n\n\n### Features\n\n* Show Gemini models by name and list prioritized models first in model pickers ([#41016](https://github.com/n8n-io/n8n/issues/41016)) ([66cece2](https://gith",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-10-13 15:53",
+      "published_at": "2026-10-14 16:15",
       "tag": "stable",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n n8n@2.43.5",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.43.5](https://github.com/n8n-io/n8n/compare/n8n@2.43.4...n8n@2.43.5) (2026-10-14)\n\n\n### Bug Fixes\n\n* **core:** Validate the size argument of the chunk() expression extension ([#40911](https://github.com/n8n-io/n8n/issues/40911)) ([4bf0ece](https://github.com/n8n-io/n8n/commit/4bf0ece7ae665034b3bd6409d0ec0beef4384a57))\n\n\n### Features\n\n* Show Gemini models by name and list prioritized models first in model pickers ([#41016](https://github.com/n8n-io/n8n/issues/41016)) ([66cece2](https://gith",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.43.5",
+      "published_at": "2026-10-14 16:15",
+      "tag": "n8n@2.43.5",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n n8n@1.123.85",
+      "repo": "n8n-io/n8n",
+      "description": "## [1.123.85](https://github.com/n8n-io/n8n/compare/n8n@1.123.84...n8n@1.123.85) (2026-10-14)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41045?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/revie",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.85",
+      "published_at": "2026-10-14 16:38",
+      "tag": "n8n@1.123.85",
       "source": "release"
     },
     {
