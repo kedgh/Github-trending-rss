@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-10-15 00:14",
+  "updated": "2026-10-15 05:08",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain==1.4.6",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain==1.4.5\n\nrelease(langchain): 1.4.6 (#41247)\nfeat(langchain): add opt-in per-call interrupts to HITL middleware (#41062)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.6",
+      "published_at": "2026-10-15 01:28",
+      "tag": "langchain==1.4.6",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-openai==1.7.2",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.5",
       "published_at": "2026-10-13 03:28",
       "tag": "langchain==1.4.5",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-openai==1.7.1",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.7.0\n\nrelease(openai): 1.7.1 (#41222)\nfeat(core,anthropic,openai): declare mid-conversation support in model profiles (#41180)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.1",
-      "published_at": "2026-10-12 22:33",
-      "tag": "langchain-openai==1.7.1",
       "source": "release"
     },
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.40.5-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* mlx: port the Metal custom kernels to CUDA by @dhiltgen in https://github.com/ollama/ollama/pull/18657\r\n* docs: model recs and language standardization by @anra8571 in https://github.com/ollama/ollama/pull/18981\r\n* openai: accept custom tool calls in Responses history by @hoyyeva in https://github.com/ollama/ollama/pull/18911\r\n* app: clarify cloud payment errors by @willietran in https://github.com/ollama/ollama/pull/18986\r\n* MLX: version bump by @dhiltgen in https://github.",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc0",
+      "published_at": "2026-10-15 03:45",
+      "tag": "v0.40.5-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.40.4",
       "repo": "ollama/ollama",
       "description": "## Decision models in the CLI\r\nDecision models can now be used directly from the terminal with `ollama run` — ask yes/no questions, classify text into labels, or score against a rubric:\r\n`ollama run nimble --ask \"Is a refund being requested?\" < ticket.txt`\r\n\r\n ## What's Changed\r\n  * Kev decision models are now supported by the MLX runner on Apple silicon\r\n  * `ollama launch` can now be used with usage credits without upgrading to a paid plan\r\n  * `ollama launch codex` now includes locally instal",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.3",
       "published_at": "2026-10-11 09:39",
       "tag": "v0.40.3",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.40.2",
-      "repo": "ollama/ollama",
-      "description": "## Model upgrades\r\n\r\nModels downloaded with earlier versions of Ollama are upgraded in the background the first time you run them, for better performance and compatibility when running on llama.cpp.\r\n\r\nTo make downgrading safe, Ollama keeps the original copy as a backup, so upgraded models are temporarily kept on disk. A future release will remove these backups automatically.\r\n\r\nTo remove backed up models now (requires `jq`):\r\n\r\n```shell\r\ncurl -s localhost:11434/api/tags | jq -r '.models[].name'",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2",
-      "published_at": "2026-10-09 00:53",
-      "tag": "v0.40.2",
       "source": "release"
     },
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.5.0-canary.10",
+      "name": "vercel/next.js v16.5.0-canary.11",
       "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- docs: make agent feedback command work in npm workspaces: #100135\n- test: install local Next.js sibling packages in CNA tests: #100062\n- Don't blame the Pages Router for next/headers imported through a Client Component: #100087\n- Resolve relative imports in `next.config.ts` from the config directory: #99743\n\n### Misc Changes\n\n- Update evals for stabilized navigation APIs: #100145\n- Turbopack: improve segment config parsing: #98641\n- docs(cache-handlers): explain updateTags du",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.10",
-      "published_at": "2026-10-14 07:50",
-      "tag": "v16.5.0-canary.10",
+      "description": "### Core Changes\n\n- Upgrade React from `b618bbb4-20261007` to `07dde64d-20261013`: #100194\n- Remove staticInfo.rsc: #100172\n- fix(analyze): use route summaries as the analyzer route index: #100081\n- Reload on missed Turbopack startup CSS updates: #99963\n- Remove unused getParams matcher cache: #100078\n- fix: mark HTTP fetch failures as span errors: #99877\n- docs: explain router.prefetch stages: #99786\n\n### Misc Changes\n\n- docs: fix \"a HTTP\"/\"a SSR\" grammar and Node.js casing: #99542\n- docs: narr",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.11",
+      "published_at": "2026-10-15 02:52",
+      "tag": "v16.5.0-canary.11",
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.5.0-canary.9",
+      "name": "vercel/next.js v16.4.1",
       "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Gate upgrade reminder rules with agentUpgrade: #99990\n- Enable network access for Codex upgrades: #100074\n- Make it possible to disable `turbopackGc`: #100067\n- fix: use EntryKeySide in EntryKey side field: #100053\n- fix: use removePathPrefix instead of regex: #100063\n- Fix root params detection on Windows: #100065\n- Durable use cache: exclude context for path and code hashes: #99898\n- Ensure `workStore.page` is unnormalized for generateStaticParams: #99881\n- fix(codemod): fi",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.9",
-      "published_at": "2026-10-13 07:53",
-      "tag": "v16.5.0-canary.9",
+      "description": "This release contains security fixes for the following advisories:\r\n\r\nCritical:\r\n- [Unauthenticated Remote Code Execution in `use cache` functions returning typed arrays](https://github.com/vercel/next.js/security/advisories/GHSA-673q-mjm6-r5xr)\r\n- [Unauthenticated Remote Code Execution in Image Optimization API when SVG files are used](https://github.com/vercel/next.js/security/advisories/GHSA-2464-fhr4-w9xw)\r\n\r\nHigh:\r\n- [Denial of Service in App Router using Server Actions](https://github.com/",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.1",
+      "published_at": "2026-10-15 01:47",
+      "tag": "v16.4.1",
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.5.0-canary.8",
+      "name": "vercel/next.js v15.5.28",
       "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Don't parse error message lines as stack frames in the server error inspector: #99888\n- Turbopack: Remove webp feature flag, always build with webp enabled: #99964\n\n### Misc Changes\n\n- [turbopack] Remove per-shard modified counts from snapshots: #99955\n- Enable GC by default on canary: #99596\n- [turbopack] Fix two GC paths that leave half-torn-down dependency edges: #99902\n\n### Credits \n\nHuge thanks to @lukesandberg and @bgw for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.8",
-      "published_at": "2026-10-11 07:47",
-      "tag": "v16.5.0-canary.8",
+      "description": "This release contains security fixes for the following advisories:\r\n\r\nCritical:\r\n- [Unauthenticated Remote Code Execution in Image Optimization API when SVG files are used](https://github.com/vercel/next.js/security/advisories/GHSA-2464-fhr4-w9xw)\r\n\r\nHigh:\r\n- [Denial of Service in App Router using Server Actions](https://github.com/vercel/next.js/security/advisories/GHSA-p3m5-59mp-jv5r)\r\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v15.5.28",
+      "published_at": "2026-10-15 01:47",
+      "tag": "v15.5.28",
       "source": "release"
     }
   ]
