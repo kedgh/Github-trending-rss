@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-15 10:32",
+  "updated": "2026-10-15 18:36",
   "count": 15,
   "items": [
     {
@@ -87,28 +87,37 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.43.5](https://github.com/n8n-io/n8n/compare/n8n@2.43.4...n8n@2.43.5) (2026-10-14)\n\n\n### Bug Fixes\n\n* **core:** Validate the size argument of the chunk() expression extension ([#40911](https://github.com/n8n-io/n8n/issues/40911)) ([4bf0ece](https://github.com/n8n-io/n8n/commit/4bf0ece7ae665034b3bd6409d0ec0beef4384a57))\n\n\n### Features\n\n* Show Gemini models by name and list prioritized models first in model pickers ([#41016](https://github.com/n8n-io/n8n/issues/41016)) ([66cece2](https://gith",
+      "description": "## [2.43.6](https://github.com/n8n-io/n8n/compare/n8n@2.43.5...n8n@2.43.6) (2026-10-15)\n\n\n### Bug Fixes\n\n* **core:** Create an XML parser for each webhook request body ([#41113](https://github.com/n8n-io/n8n/issues/41113)) ([ea3ee53](https://github.com/n8n-io/n8n/commit/ea3ee53361503ac55478ac146d8474765ea08574))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41153?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-d",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-10-14 16:15",
+      "published_at": "2026-10-15 15:26",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.43.5",
+      "name": "n8n-io/n8n n8n@2.43.6",
       "repo": "n8n-io/n8n",
-      "description": "## [2.43.5](https://github.com/n8n-io/n8n/compare/n8n@2.43.4...n8n@2.43.5) (2026-10-14)\n\n\n### Bug Fixes\n\n* **core:** Validate the size argument of the chunk() expression extension ([#40911](https://github.com/n8n-io/n8n/issues/40911)) ([4bf0ece](https://github.com/n8n-io/n8n/commit/4bf0ece7ae665034b3bd6409d0ec0beef4384a57))\n\n\n### Features\n\n* Show Gemini models by name and list prioritized models first in model pickers ([#41016](https://github.com/n8n-io/n8n/issues/41016)) ([66cece2](https://gith",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.43.5",
-      "published_at": "2026-10-14 16:15",
-      "tag": "n8n@2.43.5",
+      "description": "## [2.43.6](https://github.com/n8n-io/n8n/compare/n8n@2.43.5...n8n@2.43.6) (2026-10-15)\n\n\n### Bug Fixes\n\n* **core:** Create an XML parser for each webhook request body ([#41113](https://github.com/n8n-io/n8n/issues/41113)) ([ea3ee53](https://github.com/n8n-io/n8n/commit/ea3ee53361503ac55478ac146d8474765ea08574))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41153?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-d",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.43.6",
+      "published_at": "2026-10-15 15:26",
+      "tag": "n8n@2.43.6",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.85",
+      "name": "n8n-io/n8n n8n@2.44.2",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.85](https://github.com/n8n-io/n8n/compare/n8n@1.123.84...n8n@1.123.85) (2026-10-14)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41045?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/revie",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.85",
-      "published_at": "2026-10-14 16:38",
-      "tag": "n8n@1.123.85",
+      "description": "## [2.44.2](https://github.com/n8n-io/n8n/compare/n8n@2.44.1...n8n@2.44.2) (2026-10-15)\n\n\n### Bug Fixes\n\n* **core:** Create an XML parser for each webhook request body ([#41112](https://github.com/n8n-io/n8n/issues/41112)) ([c52f181](https://github.com/n8n-io/n8n/commit/c52f1817b38cb03758fee45b1109caae12411ffa))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41154?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-d",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.44.2",
+      "published_at": "2026-10-15 15:23",
+      "tag": "n8n@2.44.2",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.5.0-canary.13",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Fix extensionless Google font URLs in both bundlers: #100158\n- Emit the Turbopack shared-runtime bootstrap in the PPR resume so it gets the CSP nonce: #100102\n- Keep requests through middleware in a single OpenTelemetry trace: #100136\n- Write webpack dev manifests atomically: #100112\n\n### Misc Changes\n\n- next-api: isolate dropped entrypoint collectibles in an inner operation: #100187\n- turbo-tasks-backend: optimize aggregated updates outside of the lock: #100165\n- docs: Add t",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.13",
+      "published_at": "2026-10-15 18:00",
+      "tag": "v16.5.0-canary.13",
       "source": "release"
     },
     {
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.11",
       "published_at": "2026-10-15 02:52",
       "tag": "v16.5.0-canary.11",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.1",
-      "repo": "vercel/next.js",
-      "description": "This release contains security fixes for the following advisories:\r\n\r\nCritical:\r\n- [Unauthenticated Remote Code Execution in `use cache` functions returning typed arrays](https://github.com/vercel/next.js/security/advisories/GHSA-673q-mjm6-r5xr)\r\n- [Unauthenticated Remote Code Execution in Image Optimization API when SVG files are used](https://github.com/vercel/next.js/security/advisories/GHSA-2464-fhr4-w9xw)\r\n\r\nHigh:\r\n- [Denial of Service in App Router using Server Actions](https://github.com/",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.1",
-      "published_at": "2026-10-15 01:47",
-      "tag": "v16.4.1",
       "source": "release"
     }
   ]
