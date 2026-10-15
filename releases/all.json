@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-15 05:08",
+  "updated": "2026-10-15 10:32",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.12",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Upgrade from pnpm v10 to v12: #99827\n\n### Example Changes\n\n- docs(examples): fix typo and update HTTP links to HTTPS in example READMEs: #99924\n\n### Misc Changes\n\n- Turbopack: Avoid `serde_json::RawValue` conversions in a few places: #97713\n- docs: replace unbounded cacheHandler snippets and fix tag handling in examples: #100186\n- Turbopack: don't treat events as relevant because their parent dir is in the watcher batch: #99782\n- Fix CI for react 18.3: #100202\n- docs: clarify",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.12",
+      "published_at": "2026-10-15 07:49",
+      "tag": "v16.5.0-canary.12",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.11",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Upgrade React from `b618bbb4-20261007` to `07dde64d-20261013`: #100194\n- Remove staticInfo.rsc: #100172\n- fix(analyze): use route summaries as the analyzer route index: #100081\n- Reload on missed Turbopack startup CSS updates: #99963\n- Remove unused getParams matcher cache: #100078\n- fix: mark HTTP fetch failures as span errors: #99877\n- docs: explain router.prefetch stages: #99786\n\n### Misc Changes\n\n- docs: fix \"a HTTP\"/\"a SSR\" grammar and Node.js casing: #99542\n- docs: narr",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.1",
       "published_at": "2026-10-15 01:47",
       "tag": "v16.4.1",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v15.5.28",
-      "repo": "vercel/next.js",
-      "description": "This release contains security fixes for the following advisories:\r\n\r\nCritical:\r\n- [Unauthenticated Remote Code Execution in Image Optimization API when SVG files are used](https://github.com/vercel/next.js/security/advisories/GHSA-2464-fhr4-w9xw)\r\n\r\nHigh:\r\n- [Denial of Service in App Router using Server Actions](https://github.com/vercel/next.js/security/advisories/GHSA-p3m5-59mp-jv5r)\r\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v15.5.28",
-      "published_at": "2026-10-15 01:47",
-      "tag": "v15.5.28",
       "source": "release"
     }
   ]
