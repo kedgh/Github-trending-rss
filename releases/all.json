@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-15 18:36",
+  "updated": "2026-10-16 00:01",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.40.5-rc0",
+      "name": "ollama/ollama v0.40.5-rc1",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* mlx: port the Metal custom kernels to CUDA by @dhiltgen in https://github.com/ollama/ollama/pull/18657\r\n* docs: model recs and language standardization by @anra8571 in https://github.com/ollama/ollama/pull/18981\r\n* openai: accept custom tool calls in Responses history by @hoyyeva in https://github.com/ollama/ollama/pull/18911\r\n* app: clarify cloud payment errors by @willietran in https://github.com/ollama/ollama/pull/18986\r\n* MLX: version bump by @dhiltgen in https://github.",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc1",
       "published_at": "2026-10-15 03:45",
-      "tag": "v0.40.5-rc0",
+      "tag": "v0.40.5-rc1",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.14",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Upgrade React from `07dde64d-20261013` to `99c106c4-20261014`: #100215\n\n### Example Changes\n\n- docs: type error.js error prop as unknown: #100232\n\n### Misc Changes\n\n- chore: fix turborepo cache for miri unit test job: #100241\n- Fix binary trace self-time on same-span re-entry: #100205\n- docs: add instant navigation testing to Playwright guide: #100003\n\n### Credits \n\nHuge thanks to @mischnic, @yousefdawood7, and @icyJoseph for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.14",
+      "published_at": "2026-10-15 21:52",
+      "tag": "v16.5.0-canary.14",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.13",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Fix extensionless Google font URLs in both bundlers: #100158\n- Emit the Turbopack shared-runtime bootstrap in the PPR resume so it gets the CSP nonce: #100102\n- Keep requests through middleware in a single OpenTelemetry trace: #100136\n- Write webpack dev manifests atomically: #100112\n\n### Misc Changes\n\n- next-api: isolate dropped entrypoint collectibles in an inner operation: #100187\n- turbo-tasks-backend: optimize aggregated updates outside of the lock: #100165\n- docs: Add t",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.12",
       "published_at": "2026-10-15 07:49",
       "tag": "v16.5.0-canary.12",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.11",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Upgrade React from `b618bbb4-20261007` to `07dde64d-20261013`: #100194\n- Remove staticInfo.rsc: #100172\n- fix(analyze): use route summaries as the analyzer route index: #100081\n- Reload on missed Turbopack startup CSS updates: #99963\n- Remove unused getParams matcher cache: #100078\n- fix: mark HTTP fetch failures as span errors: #99877\n- docs: explain router.prefetch stages: #99786\n\n### Misc Changes\n\n- docs: fix \"a HTTP\"/\"a SSR\" grammar and Node.js casing: #99542\n- docs: narr",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.11",
-      "published_at": "2026-10-15 02:52",
-      "tag": "v16.5.0-canary.11",
       "source": "release"
     }
   ]
