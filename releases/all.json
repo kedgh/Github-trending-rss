@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-16 10:27",
+  "updated": "2026-10-16 18:23",
   "count": 15,
   "items": [
     {
@@ -87,28 +87,28 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.43.6](https://github.com/n8n-io/n8n/compare/n8n@2.43.5...n8n@2.43.6) (2026-10-15)\n\n\n### Bug Fixes\n\n* **core:** Create an XML parser for each webhook request body ([#41113](https://github.com/n8n-io/n8n/issues/41113)) ([ea3ee53](https://github.com/n8n-io/n8n/commit/ea3ee53361503ac55478ac146d8474765ea08574))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41153?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-d",
+      "description": "## [2.43.7](https://github.com/n8n-io/n8n/compare/n8n@2.43.6...n8n@2.43.7) (2026-10-16)\n\n\n### Features\n\n* **core:** Suspend in-flight production executions at worker shutdown ([#40944](https://github.com/n8n-io/n8n/issues/40944)) ([5863179](https://github.com/n8n-io/n8n/commit/5863179f7f44ba6602e2130a133d26b891c6f6b4))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41237?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-10-15 15:26",
+      "published_at": "2026-10-16 15:23",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.43.6",
+      "name": "n8n-io/n8n n8n@2.43.7",
       "repo": "n8n-io/n8n",
-      "description": "## [2.43.6](https://github.com/n8n-io/n8n/compare/n8n@2.43.5...n8n@2.43.6) (2026-10-15)\n\n\n### Bug Fixes\n\n* **core:** Create an XML parser for each webhook request body ([#41113](https://github.com/n8n-io/n8n/issues/41113)) ([ea3ee53](https://github.com/n8n-io/n8n/commit/ea3ee53361503ac55478ac146d8474765ea08574))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41153?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-d",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.43.6",
-      "published_at": "2026-10-15 15:26",
-      "tag": "n8n@2.43.6",
+      "description": "## [2.43.7](https://github.com/n8n-io/n8n/compare/n8n@2.43.6...n8n@2.43.7) (2026-10-16)\n\n\n### Features\n\n* **core:** Suspend in-flight production executions at worker shutdown ([#40944](https://github.com/n8n-io/n8n/issues/40944)) ([5863179](https://github.com/n8n-io/n8n/commit/5863179f7f44ba6602e2130a133d26b891c6f6b4))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41237?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.43.7",
+      "published_at": "2026-10-16 15:23",
+      "tag": "n8n@2.43.7",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.44.2",
+      "name": "n8n-io/n8n n8n@2.44.3",
       "repo": "n8n-io/n8n",
-      "description": "## [2.44.2](https://github.com/n8n-io/n8n/compare/n8n@2.44.1...n8n@2.44.2) (2026-10-15)\n\n\n### Bug Fixes\n\n* **core:** Create an XML parser for each webhook request body ([#41112](https://github.com/n8n-io/n8n/issues/41112)) ([c52f181](https://github.com/n8n-io/n8n/commit/c52f1817b38cb03758fee45b1109caae12411ffa))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41154?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-d",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.44.2",
-      "published_at": "2026-10-15 15:23",
-      "tag": "n8n@2.44.2",
+      "description": "## [2.44.3](https://github.com/n8n-io/n8n/compare/n8n@2.44.2...n8n@2.44.3) (2026-10-16)\n\n\n### Bug Fixes\n\n* **core:** Keep Observer detail lines instead of discarding the response ([#41157](https://github.com/n8n-io/n8n/issues/41157)) ([c09e0a9](https://github.com/n8n-io/n8n/commit/c09e0a94f57d7b046232b78f6cf2c9066784f87e))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41238?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.44.3",
+      "published_at": "2026-10-16 15:22",
+      "tag": "n8n@2.44.3",
       "source": "release"
     },
     {
