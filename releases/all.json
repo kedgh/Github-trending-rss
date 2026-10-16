@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-16 04:46",
+  "updated": "2026-10-16 10:27",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.15",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Hoist app page request URL into render context: #99269\n- Hide overlay editor button labels on smaller screens: #100266\n- Prefer non-partial entries regardless of FetchStrategy: #99705\n- [Partial Prefetching] Don't report vary params in responses that include dynamic data: #99700\n- [Partial Prefetching] Small optimizations and fixes: #99695\n- [Cached Navs] Extract the shell from a fully cached response: #99619\n- Refactor the navigation fetch and decode layering: #99618\n- [Cach",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.15",
+      "published_at": "2026-10-16 07:44",
+      "tag": "v16.5.0-canary.15",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.14",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Upgrade React from `07dde64d-20261013` to `99c106c4-20261014`: #100215\n\n### Example Changes\n\n- docs: type error.js error prop as unknown: #100232\n\n### Misc Changes\n\n- chore: fix turborepo cache for miri unit test job: #100241\n- Fix binary trace self-time on same-span re-entry: #100205\n- docs: add instant navigation testing to Playwright guide: #100003\n\n### Credits \n\nHuge thanks to @mischnic, @yousefdawood7, and @icyJoseph for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.13",
       "published_at": "2026-10-15 18:00",
       "tag": "v16.5.0-canary.13",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.2",
-      "repo": "vercel/next.js",
-      "description": "## What's Changed\r\n* [lts-active] turbo-tasks snapshot consistency fixes (#99644, #99732, #99649) by @lukesandberg in https://github.com/vercel/next.js/pull/100002\r\n* [lts-active] Turbopack: backport Pages Router dev module graph chaining (#98823, #99910, #100091) by @sokra in https://github.com/vercel/next.js/pull/100008\r\n* [lts-active] fix(next-code-frame): snap visible window to char boundaries by @lukesandberg in https://github.com/vercel/next.js/pull/100212\r\n* [lts-active] [turbopack] Fix t",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.2",
-      "published_at": "2026-10-16 04:44",
-      "tag": "v16.4.2",
       "source": "release"
     }
   ]
