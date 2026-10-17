@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-17 04:19",
+  "updated": "2026-10-17 10:20",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.40.6",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* win: prevent orphaned runners by @dhiltgen in https://github.com/ollama/ollama/pull/18500\r\n* gguf: add the q2_0 tensor and file types by @jmorganca in https://github.com/ollama/ollama/pull/18967\r\n* Launch clef in Ollama's cloud by @jberg5 in https://github.com/ollama/ollama/pull/19036\r\n* use identifiers for --ask mode question keys by @jberg5 in https://github.com/ollama/ollama/pull/19041\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.5...v0.40.6-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6",
+      "published_at": "2026-10-17 06:00",
+      "tag": "v0.40.6",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.40.5",
       "repo": "ollama/ollama",
       "description": "## NVIDIA Nemotron 3.5 Super\r\n\r\n[NVIDIA Nemotron 3.5 Super](https://ollama.com/library/nemotron-3.5-super) is a vision-language model for coding, reasoning, tool use, and document understanding. It pairs a 120B-parameter hybrid Mamba-2/Transformer mixture-of-experts backbone (12B active per token) with a C-RADIO vision encoder, and supports tool calling, an on/off thinking mode, and context up to 1M tokens.\r\n\r\n```\r\nollama run nemotron-3.5-super\r\n```\r\n\r\nA compact sibling, [Nemotron 3.5 Bolt](http",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4",
       "published_at": "2026-10-13 03:00",
       "tag": "v0.40.4",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.40.3",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* `ollama launch claude` no longer shows a warning about Claude connectors by @hoyyeva in https://github.com/ollama/ollama/pull/18878\r\n* `ollama launch codex` no longer warns about service tiers by @hoyyeva in https://github.com/ollama/ollama/pull/18879\r\n* Paused background model upgrade for embedding and other request performance, by @jmorganca in https://github.com/ollama/ollama/pull/18908\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.2...v0.40.3",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.3",
-      "published_at": "2026-10-11 09:39",
-      "tag": "v0.40.3",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.16",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Refactor fetchStrategy -> stage and completeness: #99706\n- Remove dead NextNodeServer.renderHTML: #100284\n- Pass Server Action request metadata into App rendering: #100274\n- Revert \"Keep requests through middleware in a single OpenTelemetry trace\": #100302\n- Respect release age when pinning the upgrade CLI: #100256\n\n### Misc Changes\n\n- test: remove stale deploy gate on cold RSC navigation param caching test: #100285\n- Fix upgrade eval worktree dependency links: #100257\n\n### C",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.16",
+      "published_at": "2026-10-17 07:47",
+      "tag": "v16.5.0-canary.16",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.15",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Hoist app page request URL into render context: #99269\n- Hide overlay editor button labels on smaller screens: #100266\n- Prefer non-partial entries regardless of FetchStrategy: #99705\n- [Partial Prefetching] Don't report vary params in responses that include dynamic data: #99700\n- [Partial Prefetching] Small optimizations and fixes: #99695\n- [Cached Navs] Extract the shell from a fully cached response: #99619\n- Refactor the navigation fetch and decode layering: #99618\n- [Cach",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.14",
       "published_at": "2026-10-15 21:52",
       "tag": "v16.5.0-canary.14",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.13",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Fix extensionless Google font URLs in both bundlers: #100158\n- Emit the Turbopack shared-runtime bootstrap in the PPR resume so it gets the CSP nonce: #100102\n- Keep requests through middleware in a single OpenTelemetry trace: #100136\n- Write webpack dev manifests atomically: #100112\n\n### Misc Changes\n\n- next-api: isolate dropped entrypoint collectibles in an inner operation: #100187\n- turbo-tasks-backend: optimize aggregated updates outside of the lock: #100165\n- docs: Add t",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.13",
-      "published_at": "2026-10-15 18:00",
-      "tag": "v16.5.0-canary.13",
       "source": "release"
     }
   ]
