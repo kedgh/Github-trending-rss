@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-18 03:54",
+  "updated": "2026-10-18 10:20",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.40.7-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* openai: allow Responses effort on non-thinking models by @hoyyeva in https://github.com/ollama/ollama/pull/19010\r\n* llama-server: let llama-server infer the draft speculative type by @dhiltgen in https://github.com/ollama/ollama/pull/19064\r\n* mlx: add PPLX Decider v1.2 support by @dhiltgen in https://github.com/ollama/ollama/pull/19072\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.6...v0.40.7-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc0",
+      "published_at": "2026-10-18 08:28",
+      "tag": "v0.40.7-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.40.6",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* win: prevent orphaned runners by @dhiltgen in https://github.com/ollama/ollama/pull/18500\r\n* gguf: add the q2_0 tensor and file types by @jmorganca in https://github.com/ollama/ollama/pull/18967\r\n* Launch clef in Ollama's cloud by @jberg5 in https://github.com/ollama/ollama/pull/19036\r\n* use identifiers for --ask mode question keys by @jberg5 in https://github.com/ollama/ollama/pull/19041\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.5...v0.40.6-rc0",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5",
       "published_at": "2026-10-15 03:45",
       "tag": "v0.40.5",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.40.4",
-      "repo": "ollama/ollama",
-      "description": "## Decision models in the CLI\r\nDecision models can now be used directly from the terminal with `ollama run` — ask yes/no questions, classify text into labels, or score against a rubric:\r\n`ollama run nimble --ask \"Is a refund being requested?\" < ticket.txt`\r\n\r\n ## What's Changed\r\n  * Kev decision models are now supported by the MLX runner on Apple silicon\r\n  * `ollama launch` can now be used with usage credits without upgrading to a paid plan\r\n  * `ollama launch codex` now includes locally instal",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4",
-      "published_at": "2026-10-13 03:00",
-      "tag": "v0.40.4",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.17",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- turbo-persistence: prefetch multi-page SST blocks with MADV_WILLNEED: #100283\n\n### Credits \n\nHuge thanks to @lukesandberg for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.17",
+      "published_at": "2026-10-18 07:46",
+      "tag": "v16.5.0-canary.17",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.16",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Refactor fetchStrategy -> stage and completeness: #99706\n- Remove dead NextNodeServer.renderHTML: #100284\n- Pass Server Action request metadata into App rendering: #100274\n- Revert \"Keep requests through middleware in a single OpenTelemetry trace\": #100302\n- Respect release age when pinning the upgrade CLI: #100256\n\n### Misc Changes\n\n- test: remove stale deploy gate on cold RSC navigation param caching test: #100285\n- Fix upgrade eval worktree dependency links: #100257\n\n### C",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.15",
       "published_at": "2026-10-16 07:44",
       "tag": "v16.5.0-canary.15",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.14",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Upgrade React from `07dde64d-20261013` to `99c106c4-20261014`: #100215\n\n### Example Changes\n\n- docs: type error.js error prop as unknown: #100232\n\n### Misc Changes\n\n- chore: fix turborepo cache for miri unit test job: #100241\n- Fix binary trace self-time on same-span re-entry: #100205\n- docs: add instant navigation testing to Playwright guide: #100003\n\n### Credits \n\nHuge thanks to @mischnic, @yousefdawood7, and @icyJoseph for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.14",
-      "published_at": "2026-10-15 21:52",
-      "tag": "v16.5.0-canary.14",
       "source": "release"
     }
   ]
