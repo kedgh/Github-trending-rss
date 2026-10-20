@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-21 00:05",
+  "updated": "2026-10-21 05:03",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.20",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Upgrade React from `ba39b32a-20261019` to `a6792708-20261019`: #100459\n- Pass request headers explicitly into App request stores: #100333\n- Remove request from App page prerender entry point: #100331\n- Use render lifecycle callback for fetch metrics cleanup: #100323\n- Upgrade React from `99c106c4-20261014` to `ba39b32a-20261019`: #100403\n- Pass interception capability into App rendering: #100409\n\n### Misc Changes\n\n- [cd] Gate release bot credentials behind GitHub environments",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.20",
+      "published_at": "2026-10-21 02:05",
+      "tag": "v16.5.0-canary.20",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.19",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Show compiling status alongside DevTools issues: #100178\n- Pass staged fallback params into App rendering: #100408\n- Capture initial HMR version in dev render context: #100407\n\n### Credits \n\nHuge thanks to @aurorascharff and @kassens for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.18",
       "published_at": "2026-10-20 04:04",
       "tag": "v16.5.0-canary.18",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.17",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- turbo-persistence: prefetch multi-page SST blocks with MADV_WILLNEED: #100283\n\n### Credits \n\nHuge thanks to @lukesandberg for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.17",
-      "published_at": "2026-10-18 07:46",
-      "tag": "v16.5.0-canary.17",
       "source": "release"
     }
   ]
