@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-20 02:01",
+  "updated": "2026-10-20 10:47",
   "count": 15,
   "items": [
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.19",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Show compiling status alongside DevTools issues: #100178\n- Pass staged fallback params into App rendering: #100408\n- Capture initial HMR version in dev render context: #100407\n\n### Credits \n\nHuge thanks to @aurorascharff and @kassens for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.19",
+      "published_at": "2026-10-20 07:54",
+      "tag": "v16.5.0-canary.19",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.5.0-canary.18",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Revert \"Turbopack: loader change invalidation (#95732)\": #100414\n- Add <Link prefetch=\"navigation\">: #99871\n- remove Static render stage: #100388\n- Don't load the app-page runtime in proxy.ts: #100384\n- Format all READMEs with Prettier: #100310\n- Fix Pages Router HMR crash when the ISR manifest arrives before the router: #100095\n- Use os.availableParallelism() instead of os.cpus().length: #100258\n\n### Misc Changes\n\n- test: fix flakiness in segment-cache-stale-time: #100404\n- ",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.18",
+      "published_at": "2026-10-20 04:04",
+      "tag": "v16.5.0-canary.18",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.17",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- turbo-persistence: prefetch multi-page SST blocks with MADV_WILLNEED: #100283\n\n### Credits \n\nHuge thanks to @lukesandberg for helping!",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.17",
       "published_at": "2026-10-18 07:46",
       "tag": "v16.5.0-canary.17",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.16",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Refactor fetchStrategy -> stage and completeness: #99706\n- Remove dead NextNodeServer.renderHTML: #100284\n- Pass Server Action request metadata into App rendering: #100274\n- Revert \"Keep requests through middleware in a single OpenTelemetry trace\": #100302\n- Respect release age when pinning the upgrade CLI: #100256\n\n### Misc Changes\n\n- test: remove stale deploy gate on cold RSC navigation param caching test: #100285\n- Fix upgrade eval worktree dependency links: #100257\n\n### C",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.16",
-      "published_at": "2026-10-17 07:47",
-      "tag": "v16.5.0-canary.16",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.15",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Hoist app page request URL into render context: #99269\n- Hide overlay editor button labels on smaller screens: #100266\n- Prefer non-partial entries regardless of FetchStrategy: #99705\n- [Partial Prefetching] Don't report vary params in responses that include dynamic data: #99700\n- [Partial Prefetching] Small optimizations and fixes: #99695\n- [Cached Navs] Extract the shell from a fully cached response: #99619\n- Refactor the navigation fetch and decode layering: #99618\n- [Cach",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.15",
-      "published_at": "2026-10-16 07:44",
-      "tag": "v16.5.0-canary.15",
       "source": "release"
     }
   ]
