@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-20 10:47",
+  "updated": "2026-10-20 18:43",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n n8n@2.45.0",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.45.0](https://github.com/n8n-io/n8n/compare/n8n@2.44.0...n8n@2.45.0) (2026-10-20)\n\n\n### Bug Fixes\n\n* **AI Agent Node:** Replay Anthropic thinking turns with their  tool arguments ([#41241](https://github.com/n8n-io/n8n/issues/41241)) ([ea98bd0](https://github.com/n8n-io/n8n/commit/ea98bd06003b5687882c94245df837331cfbb544))\n* Align data table and variable editing on protected instances ([#41258](https://github.com/n8n-io/n8n/issues/41258)) ([d4bde14](https://github.com/n8n-io/n8n/commit/d4bd",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.45.0",
+      "published_at": "2026-10-20 17:10",
+      "tag": "n8n@2.45.0",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n beta",
+      "repo": "n8n-io/n8n",
+      "description": "# [2.45.0](https://github.com/n8n-io/n8n/compare/n8n@2.44.0...n8n@2.45.0) (2026-10-20)\n\n\n### Bug Fixes\n\n* **AI Agent Node:** Replay Anthropic thinking turns with their  tool arguments ([#41241](https://github.com/n8n-io/n8n/issues/41241)) ([ea98bd0](https://github.com/n8n-io/n8n/commit/ea98bd06003b5687882c94245df837331cfbb544))\n* Align data table and variable editing on protected instances ([#41258](https://github.com/n8n-io/n8n/issues/41258)) ([d4bde14](https://github.com/n8n-io/n8n/commit/d4bd",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-10-20 17:10",
+      "tag": "beta",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.43.8](https://github.com/n8n-io/n8n/compare/n8n@2.43.7...n8n@2.43.8) (2026-10-19)\n\n\n### Bug Fixes\n\n* **core:** Turn off expression spans by default ([#41310](https://github.com/n8n-io/n8n/issues/41310)) ([e88162a](https://github.com/n8n-io/n8n/commit/e88162ae6a6486fe53091bec213a4f71a81b71f7))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41363?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-10-19 15:23",
-      "tag": "stable",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.43.8",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.43.8](https://github.com/n8n-io/n8n/compare/n8n@2.43.7...n8n@2.43.8) (2026-10-19)\n\n\n### Bug Fixes\n\n* **core:** Turn off expression spans by default ([#41310](https://github.com/n8n-io/n8n/issues/41310)) ([e88162a](https://github.com/n8n-io/n8n/commit/e88162ae6a6486fe53091bec213a4f71a81b71f7))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41363?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.43.8",
-      "published_at": "2026-10-19 15:23",
-      "tag": "n8n@2.43.8",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n n8n@2.44.4",
-      "repo": "n8n-io/n8n",
       "description": "## [2.44.4](https://github.com/n8n-io/n8n/compare/n8n@2.44.3...n8n@2.44.4) (2026-10-19)\n\n\n### Bug Fixes\n\n* **core:** Reuse connections in the log streaming webhook destination ([#41281](https://github.com/n8n-io/n8n/issues/41281)) ([b79afe2](https://github.com/n8n-io/n8n/commit/b79afe23905e6b7212f4da6ccb65935c1bb29377))\n* **core:** Turn off expression spans by default ([#41309](https://github.com/n8n-io/n8n/issues/41309)) ([6965193](https://github.com/n8n-io/n8n/commit/69651932d6311454f62f8d7f4e",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.44.4",
-      "published_at": "2026-10-19 15:23",
-      "tag": "n8n@2.44.4",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-10-20 17:19",
+      "tag": "stable",
       "source": "release"
     },
     {
