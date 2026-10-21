@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-21 10:41",
+  "updated": "2026-10-21 18:54",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.40.7-rc1",
+      "name": "ollama/ollama v0.40.7",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* openai: allow Responses effort on non-thinking models by @hoyyeva in https://github.com/ollama/ollama/pull/19010\r\n* llama-server: let llama-server infer the draft speculative type by @dhiltgen in https://github.com/ollama/ollama/pull/19064\r\n* mlx: add PPLX Decider v1.2 support by @dhiltgen in https://github.com/ollama/ollama/pull/19072\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.6...v0.40.7-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc1",
+      "description": "## What's Changed\r\n* [pplx-decider](https://ollama.com/library/pplx-decider) is a 27B decision model from Perplexity, fine-tuned from\r\nQwen3.8-27B\r\n* Continuing an OpenAI-compatible Responses conversation no longer fails when switching between models with and without\r\nthinking, or when the history contains another provider's compaction items\r\n* Fixed streaming Responses requests where client tool calls (e.g. Codex with web search) could emit before open\r\nreasoning items, producing misordered/dup",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7",
       "published_at": "2026-10-18 08:28",
-      "tag": "v0.40.7-rc1",
+      "tag": "v0.40.7",
       "source": "release"
     },
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
+      "name": "n8n-io/n8n stable",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.44.5](https://github.com/n8n-io/n8n/compare/n8n@2.44.4...n8n@2.44.5) (2026-10-21)\n\n\n### Bug Fixes\n\n* **core:** Key queue job outcomes by job on shutdown resume ([#41404](https://github.com/n8n-io/n8n/issues/41404)) ([1f074d4](https://github.com/n8n-io/n8n/commit/1f074d4ea734cbe07b4e49e8b7db4d1cccc74a89))\n* **editor:** Load credential types on startup ([#41405](https://github.com/n8n-io/n8n/issues/41405)) ([6ff3198](https://github.com/n8n-io/n8n/commit/6ff319863b85557eab4db82c20da693763dade",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-10-21 15:26",
+      "tag": "stable",
+      "source": "release"
+    },
+    {
+      "name": "n8n-io/n8n n8n@2.44.5",
+      "repo": "n8n-io/n8n",
+      "description": "## [2.44.5](https://github.com/n8n-io/n8n/compare/n8n@2.44.4...n8n@2.44.5) (2026-10-21)\n\n\n### Bug Fixes\n\n* **core:** Key queue job outcomes by job on shutdown resume ([#41404](https://github.com/n8n-io/n8n/issues/41404)) ([1f074d4](https://github.com/n8n-io/n8n/commit/1f074d4ea734cbe07b4e49e8b7db4d1cccc74a89))\n* **editor:** Load credential types on startup ([#41405](https://github.com/n8n-io/n8n/issues/41405)) ([6ff3198](https://github.com/n8n-io/n8n/commit/6ff319863b85557eab4db82c20da693763dade",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.44.5",
+      "published_at": "2026-10-21 15:26",
+      "tag": "n8n@2.44.5",
+      "source": "release"
+    },
+    {
       "name": "n8n-io/n8n n8n@2.45.0",
       "repo": "n8n-io/n8n",
       "description": "# [2.45.0](https://github.com/n8n-io/n8n/compare/n8n@2.44.0...n8n@2.45.0) (2026-10-20)\n\n\n### Bug Fixes\n\n* **AI Agent Node:** Replay Anthropic thinking turns with their  tool arguments ([#41241](https://github.com/n8n-io/n8n/issues/41241)) ([ea98bd0](https://github.com/n8n-io/n8n/commit/ea98bd06003b5687882c94245df837331cfbb544))\n* Align data table and variable editing on protected instances ([#41258](https://github.com/n8n-io/n8n/issues/41258)) ([d4bde14](https://github.com/n8n-io/n8n/commit/d4bd",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.45.0",
       "published_at": "2026-10-20 17:10",
       "tag": "n8n@2.45.0",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n beta",
-      "repo": "n8n-io/n8n",
-      "description": "# [2.45.0](https://github.com/n8n-io/n8n/compare/n8n@2.44.0...n8n@2.45.0) (2026-10-20)\n\n\n### Bug Fixes\n\n* **AI Agent Node:** Replay Anthropic thinking turns with their  tool arguments ([#41241](https://github.com/n8n-io/n8n/issues/41241)) ([ea98bd0](https://github.com/n8n-io/n8n/commit/ea98bd06003b5687882c94245df837331cfbb544))\n* Align data table and variable editing on protected instances ([#41258](https://github.com/n8n-io/n8n/issues/41258)) ([d4bde14](https://github.com/n8n-io/n8n/commit/d4bd",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-10-20 17:10",
-      "tag": "beta",
-      "source": "release"
-    },
-    {
-      "name": "n8n-io/n8n stable",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.44.4](https://github.com/n8n-io/n8n/compare/n8n@2.44.3...n8n@2.44.4) (2026-10-19)\n\n\n### Bug Fixes\n\n* **core:** Reuse connections in the log streaming webhook destination ([#41281](https://github.com/n8n-io/n8n/issues/41281)) ([b79afe2](https://github.com/n8n-io/n8n/commit/b79afe23905e6b7212f4da6ccb65935c1bb29377))\n* **core:** Turn off expression spans by default ([#41309](https://github.com/n8n-io/n8n/issues/41309)) ([6965193](https://github.com/n8n-io/n8n/commit/69651932d6311454f62f8d7f4e",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-10-20 17:19",
-      "tag": "stable",
       "source": "release"
     },
     {
