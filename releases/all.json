@@ -1,8 +1,26 @@
 {
   "title": "Releases",
-  "updated": "2026-10-22 00:22",
+  "updated": "2026-10-22 05:04",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-perplexity==1.4.2",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-perplexity==1.4.1\n\nrelease(perplexity): 1.4.2 (#41392)\nchore(model-profiles): refresh model profile data (#41354)\nchore(deps): bump certifi from 2025.8.3 to 2026.10.19 in /libs/partners/perplexity (#41377)\nfix(perplexity): preserve Agent API search results (#41349)\nfix: fix dependencies in some partner packages (#41266)\nchore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/partners/perplexity (#40947)\nchore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/partners/perple",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.4.2",
+      "published_at": "2026-10-22 01:31",
+      "tag": "langchain-perplexity==1.4.2",
+      "source": "release"
+    },
+    {
+      "name": "langchain-ai/langchain langchain-core==1.6.13",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-core==1.6.12\n\nrelease(core): 1.6.13 (#41397)\nchore(deps): bump certifi from 2025.11.12 to 2026.10.19 in /libs/core (#41373)\nfeat(core,langchain,standard-tests): read `tool-call-delta` in stream consumers (#41246)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.13",
+      "published_at": "2026-10-22 04:43",
+      "tag": "langchain-core==1.6.13",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-core==1.6.12",
       "repo": "langchain-ai/langchain",
@@ -10,24 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.12",
       "published_at": "2026-10-17 03:28",
       "tag": "langchain-core==1.6.12",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.6.11",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.6.10\n\nrelease(core): 1.6.11 (#41260)\nfeat(core): accept address inside LangChainTracer (#41006)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.11",
-      "published_at": "2026-10-16 02:32",
-      "tag": "langchain-core==1.6.11",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain==1.4.6",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==1.4.5\n\nrelease(langchain): 1.4.6 (#41247)\nfeat(langchain): add opt-in per-call interrupts to HITL middleware (#41062)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.6",
-      "published_at": "2026-10-15 01:28",
-      "tag": "langchain==1.4.6",
       "source": "release"
     },
     {
