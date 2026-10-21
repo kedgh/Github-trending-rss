@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-21 05:03",
+  "updated": "2026-10-21 10:41",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.40.7-rc0",
+      "name": "ollama/ollama v0.40.7-rc1",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* openai: allow Responses effort on non-thinking models by @hoyyeva in https://github.com/ollama/ollama/pull/19010\r\n* llama-server: let llama-server infer the draft speculative type by @dhiltgen in https://github.com/ollama/ollama/pull/19064\r\n* mlx: add PPLX Decider v1.2 support by @dhiltgen in https://github.com/ollama/ollama/pull/19072\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.6...v0.40.7-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc1",
       "published_at": "2026-10-18 08:28",
-      "tag": "v0.40.7-rc0",
+      "tag": "v0.40.7-rc1",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.21",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Defer app router HMR refresh until the router is initialized: #100113\n\n### Misc Changes\n\n- test: extend webpack timeout for dynamic-params-retained-cache: #100382\n\n### Credits \n\nHuge thanks to @sokra for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.21",
+      "published_at": "2026-10-21 07:51",
+      "tag": "v16.5.0-canary.21",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.20",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Upgrade React from `ba39b32a-20261019` to `a6792708-20261019`: #100459\n- Pass request headers explicitly into App request stores: #100333\n- Remove request from App page prerender entry point: #100331\n- Use render lifecycle callback for fetch metrics cleanup: #100323\n- Upgrade React from `99c106c4-20261014` to `ba39b32a-20261019`: #100403\n- Pass interception capability into App rendering: #100409\n\n### Misc Changes\n\n- [cd] Gate release bot credentials behind GitHub environments",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.19",
       "published_at": "2026-10-20 07:54",
       "tag": "v16.5.0-canary.19",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.18",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Revert \"Turbopack: loader change invalidation (#95732)\": #100414\n- Add <Link prefetch=\"navigation\">: #99871\n- remove Static render stage: #100388\n- Don't load the app-page runtime in proxy.ts: #100384\n- Format all READMEs with Prettier: #100310\n- Fix Pages Router HMR crash when the ISR manifest arrives before the router: #100095\n- Use os.availableParallelism() instead of os.cpus().length: #100258\n\n### Misc Changes\n\n- test: fix flakiness in segment-cache-stale-time: #100404\n- ",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.18",
-      "published_at": "2026-10-20 04:04",
-      "tag": "v16.5.0-canary.18",
       "source": "release"
     }
   ]
