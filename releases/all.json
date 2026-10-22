@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-10-22 05:04",
+  "updated": "2026-10-22 10:39",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain==1.4.7",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain==1.4.6\n\nchore(langchain): update lockfile (#41402)\nrelease(langchain): 1.4.7 (#41401)\nchore(deps): bump certifi from 2025.11.12 to 2026.10.19 in /libs/langchain_v1 (#41370)\nfeat(core,langchain,standard-tests): read `tool-call-delta` in stream consumers (#41246)\nchore(deps): bump aiohttp from 3.14.4 to 3.14.5 in /libs/langchain_v1 (#41360)\nchore(deps): bump aiohttp from 3.14.3 to 3.14.4 in /libs/langchain_v1 (#41330)\nchore(deps): bump mcp from 2.1.1 to 2.2.0 in /libs/langc",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.7",
+      "published_at": "2026-10-22 05:39",
+      "tag": "langchain==1.4.7",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-perplexity==1.4.2",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.13",
       "published_at": "2026-10-22 04:43",
       "tag": "langchain-core==1.6.13",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.6.12",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.6.11\n\nrelease(core): 1.6.12 (#41277)\nfix(core): propagate extras on content-block-start events (#41272)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.12",
-      "published_at": "2026-10-17 03:28",
-      "tag": "langchain-core==1.6.12",
       "source": "release"
     },
     {
@@ -58,12 +58,21 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.40.8-rc0",
+      "name": "ollama/ollama v0.40.9-rc1",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n- llama.cpp update\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.8...v0.40.9-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc1",
+      "published_at": "2026-10-22 09:33",
+      "tag": "v0.40.9-rc1",
+      "source": "release"
+    },
+    {
+      "name": "ollama/ollama v0.40.8",
       "repo": "ollama/ollama",
       "description": "<p align=\"center\"><img width=\"160\" alt=\"flint-logo\" src=\"https://github.com/user-attachments/assets/3c1741a5-710c-4bde-8ac7-096e40b495bb\" /></p>\r\n\r\n## Recursive Flint\r\n\r\n[Flint](https://ollama.com/library/flint) brings Recursive's coding model to Ollama. It is designed for the work coding agents do across a repository: understanding unfamiliar code, tracing bugs, implementing features, and adding tests. Reasoning, multi-turn tool use, and a 262K-token context window support longer tasks across f",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8",
       "published_at": "2026-10-22 00:20",
-      "tag": "v0.40.8-rc0",
+      "tag": "v0.40.8",
       "source": "release"
     },
     {
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7",
       "published_at": "2026-10-18 08:28",
       "tag": "v0.40.7",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.40.6",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* win: prevent orphaned runners by @dhiltgen in https://github.com/ollama/ollama/pull/18500\r\n* gguf: add the q2_0 tensor and file types by @jmorganca in https://github.com/ollama/ollama/pull/18967\r\n* Launch clef in Ollama's cloud by @jberg5 in https://github.com/ollama/ollama/pull/19036\r\n* use identifiers for --ask mode question keys by @jberg5 in https://github.com/ollama/ollama/pull/19041\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.5...v0.40.6-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6",
-      "published_at": "2026-10-17 06:00",
-      "tag": "v0.40.6",
       "source": "release"
     },
     {
