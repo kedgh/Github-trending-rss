@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-22 10:39",
+  "updated": "2026-10-22 18:54",
   "count": 15,
   "items": [
     {
@@ -87,28 +87,28 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.44.5](https://github.com/n8n-io/n8n/compare/n8n@2.44.4...n8n@2.44.5) (2026-10-21)\n\n\n### Bug Fixes\n\n* **core:** Key queue job outcomes by job on shutdown resume ([#41404](https://github.com/n8n-io/n8n/issues/41404)) ([1f074d4](https://github.com/n8n-io/n8n/commit/1f074d4ea734cbe07b4e49e8b7db4d1cccc74a89))\n* **editor:** Load credential types on startup ([#41405](https://github.com/n8n-io/n8n/issues/41405)) ([6ff3198](https://github.com/n8n-io/n8n/commit/6ff319863b85557eab4db82c20da693763dade",
+      "description": "## [2.44.6](https://github.com/n8n-io/n8n/compare/n8n@2.44.5...n8n@2.44.6) (2026-10-22)\n\n\n### Bug Fixes\n\n* **Postgres Node:** Prevent global pgtypes overwrite ([#41667](https://github.com/n8n-io/n8n/issues/41667)) ([654315e](https://github.com/n8n-io/n8n/commit/654315ee2b751212f09026d112d86b262687b181))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41788?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"tr",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-10-21 15:26",
+      "published_at": "2026-10-22 17:21",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.44.5",
+      "name": "n8n-io/n8n n8n@2.44.6",
       "repo": "n8n-io/n8n",
-      "description": "## [2.44.5](https://github.com/n8n-io/n8n/compare/n8n@2.44.4...n8n@2.44.5) (2026-10-21)\n\n\n### Bug Fixes\n\n* **core:** Key queue job outcomes by job on shutdown resume ([#41404](https://github.com/n8n-io/n8n/issues/41404)) ([1f074d4](https://github.com/n8n-io/n8n/commit/1f074d4ea734cbe07b4e49e8b7db4d1cccc74a89))\n* **editor:** Load credential types on startup ([#41405](https://github.com/n8n-io/n8n/issues/41405)) ([6ff3198](https://github.com/n8n-io/n8n/commit/6ff319863b85557eab4db82c20da693763dade",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.44.5",
-      "published_at": "2026-10-21 15:26",
-      "tag": "n8n@2.44.5",
+      "description": "## [2.44.6](https://github.com/n8n-io/n8n/compare/n8n@2.44.5...n8n@2.44.6) (2026-10-22)\n\n\n### Bug Fixes\n\n* **Postgres Node:** Prevent global pgtypes overwrite ([#41667](https://github.com/n8n-io/n8n/issues/41667)) ([654315e](https://github.com/n8n-io/n8n/commit/654315ee2b751212f09026d112d86b262687b181))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41788?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"tr",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.44.6",
+      "published_at": "2026-10-22 17:21",
+      "tag": "n8n@2.44.6",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.45.1",
+      "name": "n8n-io/n8n n8n@1.123.86",
       "repo": "n8n-io/n8n",
-      "description": "## [2.45.1](https://github.com/n8n-io/n8n/compare/n8n@2.45.0...n8n@2.45.1) (2026-10-21)\n\n\n### Bug Fixes\n\n* **core:** Claim an idle worker's next queue job and its lock in one step ([#41558](https://github.com/n8n-io/n8n/issues/41558)) ([5f0b562](https://github.com/n8n-io/n8n/commit/5f0b5629215249c8dd312fb831c48d4bc1db9622))\n* **editor:** Center badge text when icons are absent ([#41581](https://github.com/n8n-io/n8n/issues/41581)) ([648fa2a](https://github.com/n8n-io/n8n/commit/648fa2a4a34ec8c90",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.45.1",
-      "published_at": "2026-10-21 20:56",
-      "tag": "n8n@2.45.1",
+      "description": "## [1.123.86](https://github.com/n8n-io/n8n/compare/n8n@1.123.85...n8n@1.123.86) (2026-10-22)\n\n\n### Bug Fixes\n\n* **deps:** bump sharp to 0.35.5 on 1.x (DEVP-1241) ([9fa95f0](https://github.com/n8n-io/n8n/commit/9fa95f0cff15ddde5ea56277207d54602b33fa78))",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.86",
+      "published_at": "2026-10-22 18:11",
+      "tag": "n8n@1.123.86",
       "source": "release"
     },
     {
