@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-23 18:46",
+  "updated": "2026-10-24 00:10",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.40.10-rc0",
+      "repo": "ollama/ollama",
+      "description": "## NVIDIA Nemotron 3.5 Bolt E4B\r\n\r\n[Nemotron 3.5 Bolt E4B](https://ollama.com/library/nemotron-3.5-bolt) is NVIDIA’s smaller, Gemma 4-based vision-language model for fast local conversations, image understanding, and tool use. It supports a 128K-token context window.\r\n\r\nThe model includes a DFlash draft for speculative decoding.\r\n\r\n    ollama run nemotron-3.5-bolt:e4b\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.9...v0.40.10",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10-rc0",
+      "published_at": "2026-10-23 23:03",
+      "tag": "v0.40.10-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.40.9",
       "repo": "ollama/ollama",
       "description": "## Speech\r\n\r\nOllama can now generate [speech](https://docs.ollama.com/capabilities/speech) with Phonon on Apple Silicon. `ollama run` plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible `/v1/audio/speech` endpoint.\r\n\r\n```sh\r\nollama run phonon \"Hello from Ollama.\"\r\n```\r\n\r\n## d3 decision models\r\n\r\n[d3](https://ollama.com/library/d3) brings vLLM Semantic Router's decision models to Ollama. Give a model text, structured state, o",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8",
       "published_at": "2026-10-22 00:20",
       "tag": "v0.40.8",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.40.7",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* [pplx-decider](https://ollama.com/library/pplx-decider) is a 27B decision model from Perplexity, fine-tuned from\r\nQwen3.8-27B\r\n* Continuing an OpenAI-compatible Responses conversation no longer fails when switching between models with and without\r\nthinking, or when the history contains another provider's compaction items\r\n* Fixed streaming Responses requests where client tool calls (e.g. Codex with web search) could emit before open\r\nreasoning items, producing misordered/dup",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7",
-      "published_at": "2026-10-18 08:28",
-      "tag": "v0.40.7",
       "source": "release"
     },
     {
@@ -121,21 +121,21 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.4.3",
+      "repo": "vercel/next.js",
+      "description": "> [!NOTE]\r\n> This release is backporting bug fixes. It does **not** include all pending features/changes on canary.\r\n\r\n### Core Changes\r\n\r\n- v16.4.2\r\n- [lts-active] Fix extensionless Google font URLs in both bundlers (#100277)\r\n- [lts-active] Don't load the app-page runtime in proxy.ts (#100423)\r\n- [lts-active] Revert \"Turbopack: loader change invalidation (#95732)\" (#100438)\r\n- [lts-active][cd] Gate release bot credentials behind GitHub environments (#100123)\r\n- [lts-active] test: Pin react-vir",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.3",
+      "published_at": "2026-10-23 21:32",
+      "tag": "v16.4.3",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.24",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Cap bot user-agent matching at 1KB: #100604\n- Pass lazy response lifecycle capabilities into App rendering: #100395\n- Upgrade testmode interceptors to 0.45.9: #100585\n- Defer React loading until fetch dedupe construction: #100401\n- Avoid loading standalone React by separating render validation: #100467\n\n### Misc Changes\n\n- fix(turbopack): evaluate pure constructor callees: #100588\n- Add webpack utils: #99826\n- Stop requiring build-all when bootstrapping a fresh clone or workt",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.24",
       "published_at": "2026-10-23 07:53",
       "tag": "v16.5.0-canary.24",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.23",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\r\n\r\n- Upgrade React from `a6792708-20261019` to `ab0d927f-20261020`: #100527\r\n- Preserve deferred middleware instrumentation spans when the adapter throws: #100552\r\n- Fix cache revalidation queued during streaming: #100448\r\n- Remove unnecessary `as any` casts: #100418\r\n- Update font data: #100490\r\n- Turbopack: preserve chunk load promise identity: #100421\r\n- Emit instrumentation lifecycle spans in the request that registered it: #100350\r\n- docs: note that instrumentation-time spa",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.23",
-      "published_at": "2026-10-22 19:48",
-      "tag": "v16.5.0-canary.23",
       "source": "release"
     }
   ]
