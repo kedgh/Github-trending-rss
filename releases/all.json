@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-23 05:01",
+  "updated": "2026-10-23 10:43",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.40.9-rc2",
+      "name": "ollama/ollama v0.40.9",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n- llama.cpp update\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.8...v0.40.9-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc2",
+      "description": "## Speech\r\n\r\nOllama can now generate [speech](https://docs.ollama.com/capabilities/speech) with Phonon on Apple Silicon. `ollama run` plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible `/v1/audio/speech` endpoint.\r\n\r\n```sh\r\nollama run phonon \"Hello from Ollama.\"\r\n```\r\n\r\n## d3 decision models\r\n\r\n[d3](https://ollama.com/library/d3) brings vLLM Semantic Router's decision models to Ollama. Give a model text, structured state, o",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9",
       "published_at": "2026-10-22 09:33",
-      "tag": "v0.40.9-rc2",
+      "tag": "v0.40.9",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.24",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Cap bot user-agent matching at 1KB: #100604\n- Pass lazy response lifecycle capabilities into App rendering: #100395\n- Upgrade testmode interceptors to 0.45.9: #100585\n- Defer React loading until fetch dedupe construction: #100401\n- Avoid loading standalone React by separating render validation: #100467\n\n### Misc Changes\n\n- fix(turbopack): evaluate pure constructor callees: #100588\n- Add webpack utils: #99826\n- Stop requiring build-all when bootstrapping a fresh clone or workt",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.24",
+      "published_at": "2026-10-23 07:53",
+      "tag": "v16.5.0-canary.24",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.23",
       "repo": "vercel/next.js",
       "description": "### Core Changes\r\n\r\n- Upgrade React from `a6792708-20261019` to `ab0d927f-20261020`: #100527\r\n- Preserve deferred middleware instrumentation spans when the adapter throws: #100552\r\n- Fix cache revalidation queued during streaming: #100448\r\n- Remove unnecessary `as any` casts: #100418\r\n- Update font data: #100490\r\n- Turbopack: preserve chunk load promise identity: #100421\r\n- Emit instrumentation lifecycle spans in the request that registered it: #100350\r\n- docs: note that instrumentation-time spa",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.21",
       "published_at": "2026-10-21 07:51",
       "tag": "v16.5.0-canary.21",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.20",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Upgrade React from `ba39b32a-20261019` to `a6792708-20261019`: #100459\n- Pass request headers explicitly into App request stores: #100333\n- Remove request from App page prerender entry point: #100331\n- Use render lifecycle callback for fetch metrics cleanup: #100323\n- Upgrade React from `99c106c4-20261014` to `ba39b32a-20261019`: #100403\n- Pass interception capability into App rendering: #100409\n\n### Misc Changes\n\n- [cd] Gate release bot credentials behind GitHub environments",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.20",
-      "published_at": "2026-10-21 02:05",
-      "tag": "v16.5.0-canary.20",
       "source": "release"
     }
   ]
