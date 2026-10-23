@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-23 10:43",
+  "updated": "2026-10-23 18:46",
   "count": 15,
   "items": [
     {
@@ -31,6 +31,15 @@
       "source": "release"
     },
     {
+      "name": "langgenius/dify 1.18.0",
+      "repo": "langgenius/dify",
+      "description": "Dify 1.18.0 brings **Agents that route workflows**, **portable app packages**, **deeper visibility into nested workflow runs**, and the opt-in **Agent Knowledge Base** experience. OpenAPI and the new difyctl expand how you build and manage apps from the command line.\r\n\r\n> [!IMPORTANT]\r\n> **Read the upgrade guide below before deploying.** Upgrade the API, workers, Agent Backend, and Agent runtime images together. Local Agent sandboxes require a non-empty authentication token, and Agent Backend us",
+      "url": "https://github.com/langgenius/dify/releases/tag/1.18.0",
+      "published_at": "2026-10-23 14:33",
+      "tag": "1.18.0",
+      "source": "release"
+    },
+    {
       "name": "langgenius/dify 1.17.1",
       "repo": "langgenius/dify",
       "description": "> [!WARNING]\r\n> **Self-hosted deployments using the bundled Weaviate must complete a manual, staged upgrade before starting 1.17.1.** The bundled Weaviate server moves from `1.27.0` to `1.39.2` — 12 minor versions — and skipping minors **is unsupported**. Pulling and restarting can silently and permanently break vector search. See Upgrade Guide below. Fresh deployments, external Weaviate, and other vector stores are unaffected.\r\n\r\n### New Features\r\n\r\n**Dataset-Scoped Knowledge Base API Keys**\r\n-",
@@ -46,15 +55,6 @@
       "url": "https://github.com/langgenius/dify/releases/tag/1.17.0",
       "published_at": "2026-08-25 19:28",
       "tag": "1.17.0",
-      "source": "release"
-    },
-    {
-      "name": "langgenius/dify 1.16.1",
-      "repo": "langgenius/dify",
-      "description": "## What's Changed\r\n\r\n### New Features\r\n**Tool Multi-Select Input**\r\n- Workflow tool nodes now support multi-select dropdown inputs, allowing users to choose multiple values from a predefined list when configuring tool parameters. (#39346)\r\n\r\n**Workflow Node Locator**\r\n- You can now click a node_id in workflow run logs or error messages to locate and highlight the corresponding node in the workflow editor canvas. (#38187)\r\n\r\n**Workflow Block Selector Improvements**\r\n- The block selector panel now",
-      "url": "https://github.com/langgenius/dify/releases/tag/1.16.1",
-      "published_at": "2026-07-28 11:43",
-      "tag": "1.16.1",
       "source": "release"
     },
     {
@@ -85,30 +85,39 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n stable",
+      "name": "n8n-io/n8n n8n@1.123.87",
       "repo": "n8n-io/n8n",
-      "description": "## [2.44.6](https://github.com/n8n-io/n8n/compare/n8n@2.44.5...n8n@2.44.6) (2026-10-22)\n\n\n### Bug Fixes\n\n* **Postgres Node:** Prevent global pgtypes overwrite ([#41667](https://github.com/n8n-io/n8n/issues/41667)) ([654315e](https://github.com/n8n-io/n8n/commit/654315ee2b751212f09026d112d86b262687b181))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41788?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"tr",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-10-22 17:21",
-      "tag": "stable",
+      "description": "## [1.123.87](https://github.com/n8n-io/n8n/compare/n8n@1.123.86...n8n@1.123.87) (2026-10-23)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41902?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/revie",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.87",
+      "published_at": "2026-10-23 15:51",
+      "tag": "n8n@1.123.87",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.44.6",
+      "name": "n8n-io/n8n n8n@2.45.3",
       "repo": "n8n-io/n8n",
-      "description": "## [2.44.6](https://github.com/n8n-io/n8n/compare/n8n@2.44.5...n8n@2.44.6) (2026-10-22)\n\n\n### Bug Fixes\n\n* **Postgres Node:** Prevent global pgtypes overwrite ([#41667](https://github.com/n8n-io/n8n/issues/41667)) ([654315e](https://github.com/n8n-io/n8n/commit/654315ee2b751212f09026d112d86b262687b181))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41788?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"tr",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.44.6",
-      "published_at": "2026-10-22 17:21",
-      "tag": "n8n@2.44.6",
+      "description": "## [2.45.3](https://github.com/n8n-io/n8n/compare/n8n@2.45.2...n8n@2.45.3) (2026-10-23)\n\n\n### Bug Fixes\n\n* **editor:** Increase light-mode text contrast ([#41807](https://github.com/n8n-io/n8n/issues/41807)) ([9f41c0f](https://github.com/n8n-io/n8n/commit/9f41c0f5d4acd5cf96a58974aec35a3151dea38d))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41903?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><p",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.45.3",
+      "published_at": "2026-10-23 15:25",
+      "tag": "n8n@2.45.3",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.86",
+      "name": "n8n-io/n8n beta",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.86](https://github.com/n8n-io/n8n/compare/n8n@1.123.85...n8n@1.123.86) (2026-10-22)\n\n\n### Bug Fixes\n\n* **deps:** bump sharp to 0.35.5 on 1.x (DEVP-1241) ([9fa95f0](https://github.com/n8n-io/n8n/commit/9fa95f0cff15ddde5ea56277207d54602b33fa78))",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.86",
-      "published_at": "2026-10-22 18:11",
-      "tag": "n8n@1.123.86",
+      "description": "## [2.45.3](https://github.com/n8n-io/n8n/compare/n8n@2.45.2...n8n@2.45.3) (2026-10-23)\n\n\n### Bug Fixes\n\n* **editor:** Increase light-mode text contrast ([#41807](https://github.com/n8n-io/n8n/issues/41807)) ([9f41c0f](https://github.com/n8n-io/n8n/commit/9f41c0f5d4acd5cf96a58974aec35a3151dea38d))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41903?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><p",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-10-23 15:25",
+      "tag": "beta",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.5.0-canary.25",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Revert \"More parity for webpack loader build dependencies (#99549)\": #100634\n- Cache bundle analysis per output file: #100475\n\n### Credits \n\nHuge thanks to @mischnic and @wbinnssmith for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.25",
+      "published_at": "2026-10-23 16:47",
+      "tag": "v16.5.0-canary.25",
       "source": "release"
     },
     {
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.23",
       "published_at": "2026-10-22 19:48",
       "tag": "v16.5.0-canary.23",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.21",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Defer app router HMR refresh until the router is initialized: #100113\n\n### Misc Changes\n\n- test: extend webpack timeout for dynamic-params-retained-cache: #100382\n\n### Credits \n\nHuge thanks to @sokra for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.21",
-      "published_at": "2026-10-21 07:51",
-      "tag": "v16.5.0-canary.21",
       "source": "release"
     }
   ]
