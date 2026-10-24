@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-24 04:49",
+  "updated": "2026-10-24 10:40",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.40.11-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* qwen3coder: preserve literal function closing tags in parameters by @hoyyeva in https://github.com/ollama/ollama/pull/19228\r\n* launch: use allocated context for OpenCode by @hoyyeva in https://github.com/ollama/ollama/pull/19193\r\n* decision: allow empty state for vllm-d3 by @SynapShift in https://github.com/ollama/ollama/pull/19173\r\n* llama.cpp: version bump b11845 by @dhiltgen in https://github.com/ollama/ollama/pull/19250\r\n* mlxrunner: spell out symbols, numbers and links ",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0",
+      "published_at": "2026-10-24 08:30",
+      "tag": "v0.40.11-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.40.10",
       "repo": "ollama/ollama",
       "description": "## NVIDIA Nemotron 3.5 Bolt E4B\r\n\r\n[Nemotron 3.5 Bolt E4B](https://ollama.com/library/nemotron-3.5-bolt) is NVIDIA’s smaller, Gemma 4-based vision-language model for fast local conversations, image understanding, and tool use. It supports a 128K-token context window.\r\n\r\nThe model includes a DFlash draft for speculative decoding.\r\n\r\n    ollama run nemotron-3.5-bolt:e4b\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.9...v0.40.10",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9",
       "published_at": "2026-10-22 09:33",
       "tag": "v0.40.9",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.40.8",
-      "repo": "ollama/ollama",
-      "description": "<p align=\"center\"><img width=\"160\" alt=\"flint-logo\" src=\"https://github.com/user-attachments/assets/3c1741a5-710c-4bde-8ac7-096e40b495bb\" /></p>\r\n\r\n## Recursive Flint\r\n\r\n[Flint](https://ollama.com/library/flint) brings Recursive's coding model to Ollama. It is designed for the work coding agents do across a repository: understanding unfamiliar code, tracing bugs, implementing features, and adding tests. Reasoning, multi-turn tool use, and a 262K-token context window support longer tasks across f",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8",
-      "published_at": "2026-10-22 00:20",
-      "tag": "v0.40.8",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.26",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Turbopack: bump trace format header to TRACEv1: #99781\n- Pass staged fallback params directly to adapter renders: #100456\n- Fix navigation from global-not-found to app routes: #100592\n- End the cache-signal read when `encryptActionBoundArgs` hits the RDC: #100622\n- Ignore flaky turbo-tasks-fs watcher tests in CI: #100627\n\n### Misc Changes\n\n- test: enable build-error suites in deploy mode: #100482\n- test: enable deploy-excluded suites verified against deployments: #100484\n- Tu",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.26",
+      "published_at": "2026-10-24 07:46",
+      "tag": "v16.5.0-canary.26",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.25",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- Revert \"More parity for webpack loader build dependencies (#99549)\": #100634\n- Cache bundle analysis per output file: #100475\n\n### Credits \n\nHuge thanks to @mischnic and @wbinnssmith for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.3",
       "published_at": "2026-10-23 21:32",
       "tag": "v16.4.3",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.24",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Cap bot user-agent matching at 1KB: #100604\n- Pass lazy response lifecycle capabilities into App rendering: #100395\n- Upgrade testmode interceptors to 0.45.9: #100585\n- Defer React loading until fetch dedupe construction: #100401\n- Avoid loading standalone React by separating render validation: #100467\n\n### Misc Changes\n\n- fix(turbopack): evaluate pure constructor callees: #100588\n- Add webpack utils: #99826\n- Stop requiring build-all when bootstrapping a fresh clone or workt",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.24",
-      "published_at": "2026-10-23 07:53",
-      "tag": "v16.5.0-canary.24",
       "source": "release"
     }
   ]
