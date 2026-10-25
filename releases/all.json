@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-25 04:01",
+  "updated": "2026-10-25 10:30",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.27",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Build the inline Flight script from React's strings instead of re-encoding them: #100142\n- Fix dist dir lockfile on filesystems with no or limited lockfile implementations (e.g. NFS): #100684\n\n### Misc Changes\n\n- perf(turbopack): look up chunk group indices through a keyed cell: #99050\n- Turbopack: track availability by chunk group: #98685\n- refactor(turbopack): chunk chunk groups by key: #99750\n- Turbopack: consume graph-derived chunk groups: #98734\n- turbo-tasks-backend: st",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.27",
+      "published_at": "2026-10-25 07:47",
+      "tag": "v16.5.0-canary.27",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.26",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Turbopack: bump trace format header to TRACEv1: #99781\n- Pass staged fallback params directly to adapter renders: #100456\n- Fix navigation from global-not-found to app routes: #100592\n- End the cache-signal read when `encryptActionBoundArgs` hits the RDC: #100622\n- Ignore flaky turbo-tasks-fs watcher tests in CI: #100627\n\n### Misc Changes\n\n- test: enable build-error suites in deploy mode: #100482\n- test: enable deploy-excluded suites verified against deployments: #100484\n- Tu",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.25",
       "published_at": "2026-10-23 16:47",
       "tag": "v16.5.0-canary.25",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.3",
-      "repo": "vercel/next.js",
-      "description": "> [!NOTE]\r\n> This release is backporting bug fixes. It does **not** include all pending features/changes on canary.\r\n\r\n### Core Changes\r\n\r\n- v16.4.2\r\n- [lts-active] Fix extensionless Google font URLs in both bundlers (#100277)\r\n- [lts-active] Don't load the app-page runtime in proxy.ts (#100423)\r\n- [lts-active] Revert \"Turbopack: loader change invalidation (#95732)\" (#100438)\r\n- [lts-active][cd] Gate release bot credentials behind GitHub environments (#100123)\r\n- [lts-active] test: Pin react-vir",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.3",
-      "published_at": "2026-10-23 21:32",
-      "tag": "v16.4.3",
       "source": "release"
     }
   ]
