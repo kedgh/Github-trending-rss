@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-26 10:30",
+  "updated": "2026-10-26 19:57",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.87",
+      "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.87](https://github.com/n8n-io/n8n/compare/n8n@1.123.86...n8n@1.123.87) (2026-10-23)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41902?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/revie",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.87",
-      "published_at": "2026-10-23 15:51",
-      "tag": "n8n@1.123.87",
+      "description": "## [2.44.7](https://github.com/n8n-io/n8n/compare/n8n@2.44.6...n8n@2.44.7) (2026-10-26)\n\n\n### Bug Fixes\n\n* **core:** Start sub-workflow error workflow when a pre-run check fails ([#41978](https://github.com/n8n-io/n8n/issues/41978)) ([67d0e65](https://github.com/n8n-io/n8n/commit/67d0e65f5d5d01d49b1d14ea2c26a6b803bf058b))\n* **Email Trigger (IMAP) Node:** Back off reconnects when the server drops each new connection ([#41927](https://github.com/n8n-io/n8n/issues/41927)) ([10a9518](https://github.",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-10-26 14:22",
+      "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.45.3",
+      "name": "n8n-io/n8n n8n@2.44.7",
       "repo": "n8n-io/n8n",
-      "description": "## [2.45.3](https://github.com/n8n-io/n8n/compare/n8n@2.45.2...n8n@2.45.3) (2026-10-23)\n\n\n### Bug Fixes\n\n* **editor:** Increase light-mode text contrast ([#41807](https://github.com/n8n-io/n8n/issues/41807)) ([9f41c0f](https://github.com/n8n-io/n8n/commit/9f41c0f5d4acd5cf96a58974aec35a3151dea38d))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41903?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><p",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.45.3",
-      "published_at": "2026-10-23 15:25",
-      "tag": "n8n@2.45.3",
+      "description": "## [2.44.7](https://github.com/n8n-io/n8n/compare/n8n@2.44.6...n8n@2.44.7) (2026-10-26)\n\n\n### Bug Fixes\n\n* **core:** Start sub-workflow error workflow when a pre-run check fails ([#41978](https://github.com/n8n-io/n8n/issues/41978)) ([67d0e65](https://github.com/n8n-io/n8n/commit/67d0e65f5d5d01d49b1d14ea2c26a6b803bf058b))\n* **Email Trigger (IMAP) Node:** Back off reconnects when the server drops each new connection ([#41927](https://github.com/n8n-io/n8n/issues/41927)) ([10a9518](https://github.",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.44.7",
+      "published_at": "2026-10-26 14:22",
+      "tag": "n8n@2.44.7",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n beta",
+      "name": "n8n-io/n8n n8n@1.123.88",
       "repo": "n8n-io/n8n",
-      "description": "## [2.45.3](https://github.com/n8n-io/n8n/compare/n8n@2.45.2...n8n@2.45.3) (2026-10-23)\n\n\n### Bug Fixes\n\n* **editor:** Increase light-mode text contrast ([#41807](https://github.com/n8n-io/n8n/issues/41807)) ([9f41c0f](https://github.com/n8n-io/n8n/commit/9f41c0f5d4acd5cf96a58974aec35a3151dea38d))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41903?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><p",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-10-23 15:25",
-      "tag": "beta",
+      "description": "## [1.123.88](https://github.com/n8n-io/n8n/compare/n8n@1.123.87...n8n@1.123.88) (2026-10-26)\n\n\n### Bug Fixes\n\n* **core:** Release the SQLite write lock when the write connection fails to open ([#41918](https://github.com/n8n-io/n8n/issues/41918)) ([01b5e80](https://github.com/n8n-io/n8n/commit/01b5e80adc8fc772b6622808a087234c11caa062))\n* Update certifi to 2026.10.23 in task runner ([#41995](https://github.com/n8n-io/n8n/issues/41995)) ([3012503](https://github.com/n8n-io/n8n/commit/3012503701d9",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.88",
+      "published_at": "2026-10-26 14:49",
+      "tag": "n8n@1.123.88",
       "source": "release"
     },
     {
