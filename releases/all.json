@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-10-27 02:14",
+  "updated": "2026-10-27 11:04",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-openai==1.7.3",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-openai==1.7.2\n\ntest(openai): use current lightweight model in integration tests (#41509)\nrelease(openai): 1.7.3 (#41506)\nchore(model-profiles): refresh openai model profile data (#41505)\nbuild(infra): patch test-only Pillow without dropping Python 3.10 (#41484)\nrevert: patch vulnerable integration dependencies (#41481)\nbuild(deps): patch vulnerable integration dependencies (#41473)\nchore(infra): relax third-party dependency upper bounds (#41407)\nchore(deps): bump aiohttp ",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.3",
+      "published_at": "2026-10-27 07:08",
+      "tag": "langchain-openai==1.7.3",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-core==1.7.0",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.7",
       "published_at": "2026-10-22 05:39",
       "tag": "langchain==1.4.7",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-perplexity==1.4.2",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-perplexity==1.4.1\n\nrelease(perplexity): 1.4.2 (#41392)\nchore(model-profiles): refresh model profile data (#41354)\nchore(deps): bump certifi from 2025.8.3 to 2026.10.19 in /libs/partners/perplexity (#41377)\nfix(perplexity): preserve Agent API search results (#41349)\nfix: fix dependencies in some partner packages (#41266)\nchore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/partners/perplexity (#40947)\nchore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/partners/perple",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.4.2",
-      "published_at": "2026-10-22 01:31",
-      "tag": "langchain-perplexity==1.4.2",
       "source": "release"
     },
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.40.12-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* mlx: preserve small-image detail for compact Gemma 4 vision towers by @dhiltgen in https://github.com/ollama/ollama/pull/19247\r\n* MLX, MLX-C: version bump - prompt speed up for gemma/flint/laguna by @dhiltgen in https://github.com/ollama/ollama/pull/19291\r\n* mlx: add DFlash2 support by @dhiltgen in https://github.com/ollama/ollama/pull/19149\r\n* llama.cpp: version bump b11901 by @dhiltgen in https://github.com/ollama/ollama/pull/19311\r\n\r\n\r\n**Full Changelog**: https://github.c",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0",
+      "published_at": "2026-10-27 08:07",
+      "tag": "v0.40.12-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.40.11",
       "repo": "ollama/ollama",
       "description": "## Speech\r\n\r\nOllama can now generate [speech](https://docs.ollama.com/capabilities/speech) on macOS. `ollama run` plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible `/v1/audio/speech` endpoint.\r\n\r\n```sh\r\nollama run phonon \"Hello from Ollama.\"\r\n```\r\n\r\n## d3 decision models\r\n\r\n[d3](https://ollama.com/library/d3) brings vLLM Semantic Router's decision models to Ollama. Give a model text, structured state, or an image, and ask ",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10",
       "published_at": "2026-10-23 23:03",
       "tag": "v0.40.10",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.40.9",
-      "repo": "ollama/ollama",
-      "description": "## Flint on Linux and Windows\r\n\r\n[Flint](https://ollama.com/library/flint) now runs on Linux and Windows as well as macOS.\r\n\r\n## Other improvements\r\n\r\n- Streaming OpenAI Responses and Anthropic Messages requests now report generation failures instead of ending silently after partial output.\r\n- `ollama launch` now passes cloud models' context lengths and capabilities to coding tools, fixing incorrect context and compaction settings.\r\n- Anthropic-compatible web search now uses the model's supporte",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9",
-      "published_at": "2026-10-22 09:33",
-      "tag": "v0.40.9",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.28",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Fix draft mode rendering with Cache Components: #100728\n- Render complete HTML documents after MPA Server Actions: #100740\n- Turbopack: add minServerChunkSize and maxMergeServerChunkSize options: #100712\n- test: read isNextDev/isNextDeploy/isNextStart from e2e-utils: #100419\n- perf(build): avoid O(pages²) original app path scan in static check: #100615\n- [PPF] Fix hanging HTML response after a `'use cache'` error: #100673\n- export: only send each static generation batch its o",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.28",
+      "published_at": "2026-10-27 07:51",
+      "tag": "v16.5.0-canary.28",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.27",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Build the inline Flight script from React's strings instead of re-encoding them: #100142\n- Fix dist dir lockfile on filesystems with no or limited lockfile implementations (e.g. NFS): #100684\n\n### Misc Changes\n\n- perf(turbopack): look up chunk group indices through a keyed cell: #99050\n- Turbopack: track availability by chunk group: #98685\n- refactor(turbopack): chunk chunk groups by key: #99750\n- Turbopack: consume graph-derived chunk groups: #98734\n- turbo-tasks-backend: st",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.26",
       "published_at": "2026-10-24 07:46",
       "tag": "v16.5.0-canary.26",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.25",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- Revert \"More parity for webpack loader build dependencies (#99549)\": #100634\n- Cache bundle analysis per output file: #100475\n\n### Credits \n\nHuge thanks to @mischnic and @wbinnssmith for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.25",
-      "published_at": "2026-10-23 16:47",
-      "tag": "v16.5.0-canary.25",
       "source": "release"
     }
   ]
