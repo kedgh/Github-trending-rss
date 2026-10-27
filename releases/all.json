@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-27 11:04",
+  "updated": "2026-10-27 19:19",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n stable",
+      "name": "n8n-io/n8n n8n@3.0.0",
       "repo": "n8n-io/n8n",
-      "description": "## [2.44.7](https://github.com/n8n-io/n8n/compare/n8n@2.44.6...n8n@2.44.7) (2026-10-26)\n\n\n### Bug Fixes\n\n* **core:** Start sub-workflow error workflow when a pre-run check fails ([#41978](https://github.com/n8n-io/n8n/issues/41978)) ([67d0e65](https://github.com/n8n-io/n8n/commit/67d0e65f5d5d01d49b1d14ea2c26a6b803bf058b))\n* **Email Trigger (IMAP) Node:** Back off reconnects when the server drops each new connection ([#41927](https://github.com/n8n-io/n8n/issues/41927)) ([10a9518](https://github.",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-10-26 14:22",
-      "tag": "stable",
+      "description": "<!-- release-prerelease -->\n# [3.0.0](https://github.com/n8n-io/n8n/compare/n8n@2.45.0...n8n@3.0.0) (2026-10-27)\n\n\n### Bug Fixes\n\n* Add file-type tooltip to artifact download button ([#41490](https://github.com/n8n-io/n8n/issues/41490)) ([4a74f02](https://github.com/n8n-io/n8n/commit/4a74f027e612f31098b354dd3a77b2c2ab98281c))\n* **ai-builder:** Check execution:read in Assistant execution reads ([#41863](https://github.com/n8n-io/n8n/issues/41863)) ([a967486](https://github.com/n8n-io/n8n/commit/a",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%403.0.0",
+      "published_at": "2026-10-27 16:47",
+      "tag": "n8n@3.0.0",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.44.7",
+      "name": "n8n-io/n8n n8n@2.46.0",
       "repo": "n8n-io/n8n",
-      "description": "## [2.44.7](https://github.com/n8n-io/n8n/compare/n8n@2.44.6...n8n@2.44.7) (2026-10-26)\n\n\n### Bug Fixes\n\n* **core:** Start sub-workflow error workflow when a pre-run check fails ([#41978](https://github.com/n8n-io/n8n/issues/41978)) ([67d0e65](https://github.com/n8n-io/n8n/commit/67d0e65f5d5d01d49b1d14ea2c26a6b803bf058b))\n* **Email Trigger (IMAP) Node:** Back off reconnects when the server drops each new connection ([#41927](https://github.com/n8n-io/n8n/issues/41927)) ([10a9518](https://github.",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.44.7",
-      "published_at": "2026-10-26 14:22",
-      "tag": "n8n@2.44.7",
+      "description": "# [2.46.0](https://github.com/n8n-io/n8n/compare/n8n@2.45.0...n8n@2.46.0) (2026-10-27)\n\n\n### Bug Fixes\n\n* Add file-type tooltip to artifact download button ([#41490](https://github.com/n8n-io/n8n/issues/41490)) ([4a74f02](https://github.com/n8n-io/n8n/commit/4a74f027e612f31098b354dd3a77b2c2ab98281c))\n* **ai-builder:** Check execution:read in Assistant execution reads ([#41863](https://github.com/n8n-io/n8n/issues/41863)) ([a967486](https://github.com/n8n-io/n8n/commit/a9674866d075e989a5ce8964322",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.46.0",
+      "published_at": "2026-10-27 16:39",
+      "tag": "n8n@2.46.0",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.88",
+      "name": "n8n-io/n8n beta",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.88](https://github.com/n8n-io/n8n/compare/n8n@1.123.87...n8n@1.123.88) (2026-10-26)\n\n\n### Bug Fixes\n\n* **core:** Release the SQLite write lock when the write connection fails to open ([#41918](https://github.com/n8n-io/n8n/issues/41918)) ([01b5e80](https://github.com/n8n-io/n8n/commit/01b5e80adc8fc772b6622808a087234c11caa062))\n* Update certifi to 2026.10.23 in task runner ([#41995](https://github.com/n8n-io/n8n/issues/41995)) ([3012503](https://github.com/n8n-io/n8n/commit/3012503701d9",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.88",
-      "published_at": "2026-10-26 14:49",
-      "tag": "n8n@1.123.88",
+      "description": "# [2.46.0](https://github.com/n8n-io/n8n/compare/n8n@2.45.0...n8n@2.46.0) (2026-10-27)\n\n\n### Bug Fixes\n\n* Add file-type tooltip to artifact download button ([#41490](https://github.com/n8n-io/n8n/issues/41490)) ([4a74f02](https://github.com/n8n-io/n8n/commit/4a74f027e612f31098b354dd3a77b2c2ab98281c))\n* **ai-builder:** Check execution:read in Assistant execution reads ([#41863](https://github.com/n8n-io/n8n/issues/41863)) ([a967486](https://github.com/n8n-io/n8n/commit/a9674866d075e989a5ce8964322",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-10-27 16:40",
+      "tag": "beta",
       "source": "release"
     },
     {
