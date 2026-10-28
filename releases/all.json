@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-10-28 05:38",
+  "updated": "2026-10-28 11:17",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-anthropic==1.7.7",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-anthropic==1.7.6\n\nrelease(anthropic): 1.7.7 (#41538)\nfix(anthropic): trace resolved reasoning effort (#41536)\nchore(infra): relax third-party dependency upper bounds (#41407)\nchore(deps): bump certifi from 2025.11.12 to 2026.10.19 in /libs/partners/anthropic (#41391)\nfix: fix dependencies in some partner packages (#41266)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.7",
+      "published_at": "2026-10-28 07:48",
+      "tag": "langchain-anthropic==1.7.7",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-openai==1.7.3",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.0",
       "published_at": "2026-10-23 01:47",
       "tag": "langchain-core==1.7.0",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain==1.4.7",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==1.4.6\n\nchore(langchain): update lockfile (#41402)\nrelease(langchain): 1.4.7 (#41401)\nchore(deps): bump certifi from 2025.11.12 to 2026.10.19 in /libs/langchain_v1 (#41370)\nfeat(core,langchain,standard-tests): read `tool-call-delta` in stream consumers (#41246)\nchore(deps): bump aiohttp from 3.14.4 to 3.14.5 in /libs/langchain_v1 (#41360)\nchore(deps): bump aiohttp from 3.14.3 to 3.14.4 in /libs/langchain_v1 (#41330)\nchore(deps): bump mcp from 2.1.1 to 2.2.0 in /libs/langc",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.7",
-      "published_at": "2026-10-22 05:39",
-      "tag": "langchain==1.4.7",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.29",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Create cache directory before persisting Chrome DevTools workspace UUID: #100802\n- Upgrade React from `ab0d927f-20261020` to `dc9aed36-20261027`: #100791\n- [testmode] Fix compressed HTTP responses with test proxy: #100805\n- chore(deps): bump sharp@0.35.5: #99714\n- Turbopack: Auto-detect pnpm GVS and configure an additional root for it: #99758\n- Persist storage cache in Docker environments: #100790\n- Persist fully static PPR payloads in filesystem cache: #100759\n- Stamp FileSy",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.29",
+      "published_at": "2026-10-28 07:46",
+      "tag": "v16.5.0-canary.29",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.28",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Fix draft mode rendering with Cache Components: #100728\n- Render complete HTML documents after MPA Server Actions: #100740\n- Turbopack: add minServerChunkSize and maxMergeServerChunkSize options: #100712\n- test: read isNextDev/isNextDeploy/isNextStart from e2e-utils: #100419\n- perf(build): avoid O(pages²) original app path scan in static check: #100615\n- [PPF] Fix hanging HTML response after a `'use cache'` error: #100673\n- export: only send each static generation batch its o",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.27",
       "published_at": "2026-10-25 07:47",
       "tag": "v16.5.0-canary.27",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.26",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Turbopack: bump trace format header to TRACEv1: #99781\n- Pass staged fallback params directly to adapter renders: #100456\n- Fix navigation from global-not-found to app routes: #100592\n- End the cache-signal read when `encryptActionBoundArgs` hits the RDC: #100622\n- Ignore flaky turbo-tasks-fs watcher tests in CI: #100627\n\n### Misc Changes\n\n- test: enable build-error suites in deploy mode: #100482\n- test: enable deploy-excluded suites verified against deployments: #100484\n- Tu",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.26",
-      "published_at": "2026-10-24 07:46",
-      "tag": "v16.5.0-canary.26",
       "source": "release"
     }
   ]
