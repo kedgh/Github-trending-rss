@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-28 11:17",
+  "updated": "2026-10-28 19:53",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@3.0.0",
+      "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "<!-- release-prerelease -->\n# [3.0.0](https://github.com/n8n-io/n8n/compare/n8n@2.45.0...n8n@3.0.0) (2026-10-27)\n\n\n### Bug Fixes\n\n* Add file-type tooltip to artifact download button ([#41490](https://github.com/n8n-io/n8n/issues/41490)) ([4a74f02](https://github.com/n8n-io/n8n/commit/4a74f027e612f31098b354dd3a77b2c2ab98281c))\n* **ai-builder:** Check execution:read in Assistant execution reads ([#41863](https://github.com/n8n-io/n8n/issues/41863)) ([a967486](https://github.com/n8n-io/n8n/commit/a",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%403.0.0",
-      "published_at": "2026-10-27 16:47",
-      "tag": "n8n@3.0.0",
+      "description": "## [2.45.5](https://github.com/n8n-io/n8n/compare/n8n@2.45.4...n8n@2.45.5) (2026-10-28)\n\n\n### Bug Fixes\n\n* **core:** Keep the ExpressionError name in minified builds ([#42309](https://github.com/n8n-io/n8n/issues/42309)) ([b3192c6](https://github.com/n8n-io/n8n/commit/b3192c6d151125c76c88fe8a421e027b4242a3f9))\n* **core:** Keep undefined values in QuickJS expression results ([#42264](https://github.com/n8n-io/n8n/issues/42264)) ([532f645](https://github.com/n8n-io/n8n/commit/532f645f21c99e178a094",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-10-28 15:16",
+      "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.46.0",
+      "name": "n8n-io/n8n n8n@2.45.5",
       "repo": "n8n-io/n8n",
-      "description": "# [2.46.0](https://github.com/n8n-io/n8n/compare/n8n@2.45.0...n8n@2.46.0) (2026-10-27)\n\n\n### Bug Fixes\n\n* Add file-type tooltip to artifact download button ([#41490](https://github.com/n8n-io/n8n/issues/41490)) ([4a74f02](https://github.com/n8n-io/n8n/commit/4a74f027e612f31098b354dd3a77b2c2ab98281c))\n* **ai-builder:** Check execution:read in Assistant execution reads ([#41863](https://github.com/n8n-io/n8n/issues/41863)) ([a967486](https://github.com/n8n-io/n8n/commit/a9674866d075e989a5ce8964322",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.46.0",
-      "published_at": "2026-10-27 16:39",
-      "tag": "n8n@2.46.0",
+      "description": "## [2.45.5](https://github.com/n8n-io/n8n/compare/n8n@2.45.4...n8n@2.45.5) (2026-10-28)\n\n\n### Bug Fixes\n\n* **core:** Keep the ExpressionError name in minified builds ([#42309](https://github.com/n8n-io/n8n/issues/42309)) ([b3192c6](https://github.com/n8n-io/n8n/commit/b3192c6d151125c76c88fe8a421e027b4242a3f9))\n* **core:** Keep undefined values in QuickJS expression results ([#42264](https://github.com/n8n-io/n8n/issues/42264)) ([532f645](https://github.com/n8n-io/n8n/commit/532f645f21c99e178a094",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.45.5",
+      "published_at": "2026-10-28 15:16",
+      "tag": "n8n@2.45.5",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n beta",
+      "name": "n8n-io/n8n n8n@1.123.89",
       "repo": "n8n-io/n8n",
-      "description": "# [2.46.0](https://github.com/n8n-io/n8n/compare/n8n@2.45.0...n8n@2.46.0) (2026-10-27)\n\n\n### Bug Fixes\n\n* Add file-type tooltip to artifact download button ([#41490](https://github.com/n8n-io/n8n/issues/41490)) ([4a74f02](https://github.com/n8n-io/n8n/commit/4a74f027e612f31098b354dd3a77b2c2ab98281c))\n* **ai-builder:** Check execution:read in Assistant execution reads ([#41863](https://github.com/n8n-io/n8n/issues/41863)) ([a967486](https://github.com/n8n-io/n8n/commit/a9674866d075e989a5ce8964322",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-10-27 16:40",
-      "tag": "beta",
+      "description": "## [1.123.89](https://github.com/n8n-io/n8n/compare/n8n@1.123.88...n8n@1.123.89) (2026-10-28)\n\n\n### Bug Fixes\n\n* **Google Drive Node:** Fix infinite pagination loop in v1 API request ([#42124](https://github.com/n8n-io/n8n/issues/42124)) ([3faa762](https://github.com/n8n-io/n8n/commit/3faa762983773a0967ef25f841ee6f0f3784c70b))\n* **MCP Server Trigger Node:** Evict idle sessions to prevent memory leak ([#42120](https://github.com/n8n-io/n8n/issues/42120)) ([54eaf65](https://github.com/n8n-io/n8n/c",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.89",
+      "published_at": "2026-10-28 15:28",
+      "tag": "n8n@1.123.89",
       "source": "release"
     },
     {
