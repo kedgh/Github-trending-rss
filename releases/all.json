@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-29 01:42",
+  "updated": "2026-10-29 06:02",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.40.13-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* llm: LFM3 GGUF fixes and llama-server speech by @dhiltgen in https://github.com/ollama/ollama/pull/19344\r\n* llama.cpp: version bump b11963 by @dhiltgen in https://github.com/ollama/ollama/pull/19360\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.12...v0.40.13-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc0",
+      "published_at": "2026-10-29 03:55",
+      "tag": "v0.40.13-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.40.12",
       "repo": "ollama/ollama",
       "description": "## Liquid AI LFM3\r\n\r\n[LFM3](https://ollama.com/library/lfm3) is Liquid AI's new family of small models built for local agents, tool calling, and structured output, on Liquid's new tri-hybrid architecture. The family includes:\r\n\r\n- [lfm3](https://ollama.com/library/lfm3): a 1.7B text model with a 256K-token context window\r\n- [lfm3-vl](https://ollama.com/library/lfm3-vl): adds image understanding\r\n- [lfm3-audio](https://ollama.com/library/lfm3-audio): speech recognition, translation, and text-to-s",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11",
       "published_at": "2026-10-24 08:30",
       "tag": "v0.40.11",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.40.10",
-      "repo": "ollama/ollama",
-      "description": "## NVIDIA Nemotron 3.5 Bolt E4B\r\n\r\n[Nemotron 3.5 Bolt E4B](https://ollama.com/library/nemotron-3.5-bolt) is NVIDIA’s smaller, Gemma 4-based vision-language model for fast local conversations, image understanding, and tool use. It supports a 128K-token context window.\r\n\r\nThe model includes a DFlash draft for speculative decoding.\r\n\r\n    ollama run nemotron-3.5-bolt:e4b\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.9...v0.40.10",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10",
-      "published_at": "2026-10-23 23:03",
-      "tag": "v0.40.10",
       "source": "release"
     },
     {
