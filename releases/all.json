@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-10-28 19:53",
+  "updated": "2026-10-29 01:42",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-core==1.7.1",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-core==1.7.0\n\nrelease(core): version 1.7.1 (#41548)\nfix(core): preserve gateway tracing metadata in v3 streams (#41504)\nfix(core): escape node metadata in Mermaid labels (#41512)\nchore(deps): bump the minor-and-patch group across 3 directories with 32 updates (#41465)\nchore(deps-dev): bump setuptools from 83.0.0 to 84.1.0 in /libs/core (#41442)\nchore(deps): bump nbconvert from 7.17.1 to 7.17.2 in /libs/core (#41425)\nchore(infra): relax third-party dependency upper bounds (",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.1",
+      "published_at": "2026-10-28 23:00",
+      "tag": "langchain-core==1.7.1",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-anthropic==1.7.7",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.3",
       "published_at": "2026-10-27 07:08",
       "tag": "langchain-openai==1.7.3",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-core==1.7.0",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.6.13\n\nrelease(core): 1.7.0 (#41418)\nfeat(core): emit `tool-call-delta` for streamed tool-call args (#41257)\n\n## Notes\n\n- Tool-call args now stream as `tool-call-delta` slices instead of `block-delta` snapshots of the args so far. If you read raw stream events and their `block-delta` args mid-stream, read `tool-call-delta` instead. `.tool_calls.get()` and `.output` are unchanged. To keep snapshots, pin `langchain-core<1.7`.\n- Since 1.6.13, iterating `ChatModelStrea",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.0",
-      "published_at": "2026-10-23 01:47",
-      "tag": "langchain-core==1.7.0",
       "source": "release"
     },
     {
