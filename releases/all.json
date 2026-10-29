@@ -1,8 +1,26 @@
 {
   "title": "Releases",
-  "updated": "2026-10-29 20:00",
+  "updated": "2026-10-30 06:13",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-core==1.7.3",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-core==1.7.2\n\nrelease(core): 1.7.3 (#41564)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.3",
+      "published_at": "2026-10-30 04:56",
+      "tag": "langchain-core==1.7.3",
+      "source": "release"
+    },
+    {
+      "name": "langchain-ai/langchain langchain-core==1.7.2",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-core==1.7.1\n\nrelease(core): 1.7.2 (#41562)\nfeat(core): add `add_notification_metadata` and `get_notification_metadata` (#41540)\nfix(core): stop `merge_content` from changing the first message's content (#41502)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.2",
+      "published_at": "2026-10-30 03:04",
+      "tag": "langchain-core==1.7.2",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-core==1.7.1",
       "repo": "langchain-ai/langchain",
@@ -10,24 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.1",
       "published_at": "2026-10-28 23:00",
       "tag": "langchain-core==1.7.1",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-anthropic==1.7.7",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-anthropic==1.7.6\n\nrelease(anthropic): 1.7.7 (#41538)\nfix(anthropic): trace resolved reasoning effort (#41536)\nchore(infra): relax third-party dependency upper bounds (#41407)\nchore(deps): bump certifi from 2025.11.12 to 2026.10.19 in /libs/partners/anthropic (#41391)\nfix: fix dependencies in some partner packages (#41266)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.7",
-      "published_at": "2026-10-28 07:48",
-      "tag": "langchain-anthropic==1.7.7",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-openai==1.7.3",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.7.2\n\ntest(openai): use current lightweight model in integration tests (#41509)\nrelease(openai): 1.7.3 (#41506)\nchore(model-profiles): refresh openai model profile data (#41505)\nbuild(infra): patch test-only Pillow without dropping Python 3.10 (#41484)\nrevert: patch vulnerable integration dependencies (#41481)\nbuild(deps): patch vulnerable integration dependencies (#41473)\nchore(infra): relax third-party dependency upper bounds (#41407)\nchore(deps): bump aiohttp ",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.3",
-      "published_at": "2026-10-27 07:08",
-      "tag": "langchain-openai==1.7.3",
       "source": "release"
     },
     {
