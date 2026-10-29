@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-29 11:41",
+  "updated": "2026-10-29 20:00",
   "count": 15,
   "items": [
     {
@@ -87,28 +87,37 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.45.5](https://github.com/n8n-io/n8n/compare/n8n@2.45.4...n8n@2.45.5) (2026-10-28)\n\n\n### Bug Fixes\n\n* **core:** Keep the ExpressionError name in minified builds ([#42309](https://github.com/n8n-io/n8n/issues/42309)) ([b3192c6](https://github.com/n8n-io/n8n/commit/b3192c6d151125c76c88fe8a421e027b4242a3f9))\n* **core:** Keep undefined values in QuickJS expression results ([#42264](https://github.com/n8n-io/n8n/issues/42264)) ([532f645](https://github.com/n8n-io/n8n/commit/532f645f21c99e178a094",
+      "description": "## [2.45.6](https://github.com/n8n-io/n8n/compare/n8n@2.45.5...n8n@2.45.6) (2026-10-29)\n\n\n### Bug Fixes\n\n* **core:** Record dynamic time saved for executions in queue mode ([#42482](https://github.com/n8n-io/n8n/issues/42482)) ([f2f0c2f](https://github.com/n8n-io/n8n/commit/f2f0c2f63da718e8b258f9fc694f4d3d3502dc0b))\n* **editor:** Match compact sidebar icon sizes ([#42378](https://github.com/n8n-io/n8n/issues/42378)) ([56eec49](https://github.com/n8n-io/n8n/commit/56eec49704b4cc21c544ea69b8fecd46",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-10-28 15:16",
+      "published_at": "2026-10-29 16:30",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.45.5",
+      "name": "n8n-io/n8n n8n@2.45.6",
       "repo": "n8n-io/n8n",
-      "description": "## [2.45.5](https://github.com/n8n-io/n8n/compare/n8n@2.45.4...n8n@2.45.5) (2026-10-28)\n\n\n### Bug Fixes\n\n* **core:** Keep the ExpressionError name in minified builds ([#42309](https://github.com/n8n-io/n8n/issues/42309)) ([b3192c6](https://github.com/n8n-io/n8n/commit/b3192c6d151125c76c88fe8a421e027b4242a3f9))\n* **core:** Keep undefined values in QuickJS expression results ([#42264](https://github.com/n8n-io/n8n/issues/42264)) ([532f645](https://github.com/n8n-io/n8n/commit/532f645f21c99e178a094",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.45.5",
-      "published_at": "2026-10-28 15:16",
-      "tag": "n8n@2.45.5",
+      "description": "## [2.45.6](https://github.com/n8n-io/n8n/compare/n8n@2.45.5...n8n@2.45.6) (2026-10-29)\n\n\n### Bug Fixes\n\n* **core:** Record dynamic time saved for executions in queue mode ([#42482](https://github.com/n8n-io/n8n/issues/42482)) ([f2f0c2f](https://github.com/n8n-io/n8n/commit/f2f0c2f63da718e8b258f9fc694f4d3d3502dc0b))\n* **editor:** Match compact sidebar icon sizes ([#42378](https://github.com/n8n-io/n8n/issues/42378)) ([56eec49](https://github.com/n8n-io/n8n/commit/56eec49704b4cc21c544ea69b8fecd46",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.45.6",
+      "published_at": "2026-10-29 16:30",
+      "tag": "n8n@2.45.6",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.89",
+      "name": "n8n-io/n8n n8n@1.123.90",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.89](https://github.com/n8n-io/n8n/compare/n8n@1.123.88...n8n@1.123.89) (2026-10-28)\n\n\n### Bug Fixes\n\n* **Google Drive Node:** Fix infinite pagination loop in v1 API request ([#42124](https://github.com/n8n-io/n8n/issues/42124)) ([3faa762](https://github.com/n8n-io/n8n/commit/3faa762983773a0967ef25f841ee6f0f3784c70b))\n* **MCP Server Trigger Node:** Evict idle sessions to prevent memory leak ([#42120](https://github.com/n8n-io/n8n/issues/42120)) ([54eaf65](https://github.com/n8n-io/n8n/c",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.89",
-      "published_at": "2026-10-28 15:28",
-      "tag": "n8n@1.123.89",
+      "description": "## [1.123.90](https://github.com/n8n-io/n8n/compare/n8n@1.123.89...n8n@1.123.90) (2026-10-29)\n\n\n### Bug Fixes\n\n* **core:** Require a signed token to accept an invitation ([#42292](https://github.com/n8n-io/n8n/issues/42292)) ([4580f22](https://github.com/n8n-io/n8n/commit/4580f22dc87c9c18aeca70a8a8556c0148ff0621))\n\n\n### Performance Improvements\n\n* **Google Drive Trigger Node:** Read watched item instead of listing changes ([#42454](https://github.com/n8n-io/n8n/issues/42454)) ([caa8c82](https://",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.90",
+      "published_at": "2026-10-29 17:00",
+      "tag": "n8n@1.123.90",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.5.0-canary.31",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- perf(build): lazily require page-data helpers in build/utils: #100822\n\n### Misc Changes\n\n- perf(turbopack): canonicalize async loader availability: #100705\n\n### Credits \n\nHuge thanks to @sokra for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.31",
+      "published_at": "2026-10-29 17:12",
+      "tag": "v16.5.0-canary.31",
       "source": "release"
     },
     {
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.29",
       "published_at": "2026-10-28 07:46",
       "tag": "v16.5.0-canary.29",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.28",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Fix draft mode rendering with Cache Components: #100728\n- Render complete HTML documents after MPA Server Actions: #100740\n- Turbopack: add minServerChunkSize and maxMergeServerChunkSize options: #100712\n- test: read isNextDev/isNextDeploy/isNextStart from e2e-utils: #100419\n- perf(build): avoid O(pages²) original app path scan in static check: #100615\n- [PPF] Fix hanging HTML response after a `'use cache'` error: #100673\n- export: only send each static generation batch its o",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.28",
-      "published_at": "2026-10-27 07:51",
-      "tag": "v16.5.0-canary.28",
       "source": "release"
     }
   ]
