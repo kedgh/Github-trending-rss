@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-29 06:02",
+  "updated": "2026-10-29 11:41",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.40.13-rc0",
+      "name": "ollama/ollama v0.40.13",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* llm: LFM3 GGUF fixes and llama-server speech by @dhiltgen in https://github.com/ollama/ollama/pull/19344\r\n* llama.cpp: version bump b11963 by @dhiltgen in https://github.com/ollama/ollama/pull/19360\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.12...v0.40.13-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc0",
+      "description": "## LFM3 on Linux and Windows\r\n\r\nLiquid AI's [LFM3](https://ollama.com/library/lfm3) models, including text-to-speech in [lfm3-audio](https://ollama.com/library/lfm3-audio) and [lfm3-omni](https://ollama.com/library/lfm3-omni), now run on Linux and Windows as well as Apple silicon.\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.12...v0.40.13",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13",
       "published_at": "2026-10-29 03:55",
-      "tag": "v0.40.13-rc0",
+      "tag": "v0.40.13",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.30",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Ignore expected upgrade nudges in Agent Feedback: #100840\n- Add model metadata to Agent Feedback: #100806\n- Use fast-jwt instead of jsonwebtoken: #100818\n- Update font data: #100813\n- Turbopack: wait for trace file changes after format errors: #99847\n- Add a CLI for reviewing agent feedback: #100739\n\n### Misc Changes\n\n- Add criteria for Vercel Agent code review: #100846\n- Add experimental.hydrationChangeEvent flag: #99610\n- Turbopack: Move reference to bincode's virtue depend",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.30",
+      "published_at": "2026-10-29 07:43",
+      "tag": "v16.5.0-canary.30",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.29",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Create cache directory before persisting Chrome DevTools workspace UUID: #100802\n- Upgrade React from `ab0d927f-20261020` to `dc9aed36-20261027`: #100791\n- [testmode] Fix compressed HTTP responses with test proxy: #100805\n- chore(deps): bump sharp@0.35.5: #99714\n- Turbopack: Auto-detect pnpm GVS and configure an additional root for it: #99758\n- Persist storage cache in Docker environments: #100790\n- Persist fully static PPR payloads in filesystem cache: #100759\n- Stamp FileSy",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.28",
       "published_at": "2026-10-27 07:51",
       "tag": "v16.5.0-canary.28",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.27",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Build the inline Flight script from React's strings instead of re-encoding them: #100142\n- Fix dist dir lockfile on filesystems with no or limited lockfile implementations (e.g. NFS): #100684\n\n### Misc Changes\n\n- perf(turbopack): look up chunk group indices through a keyed cell: #99050\n- Turbopack: track availability by chunk group: #98685\n- refactor(turbopack): chunk chunk groups by key: #99750\n- Turbopack: consume graph-derived chunk groups: #98734\n- turbo-tasks-backend: st",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.27",
-      "published_at": "2026-10-25 07:47",
-      "tag": "v16.5.0-canary.27",
       "source": "release"
     }
   ]
