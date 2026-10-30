@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-30 06:13",
+  "updated": "2026-10-30 11:44",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.32",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Fix hangs and crashes for 204 responses from route handlers and deduped fetches: #100159\n- fix(adapter): preserve revalidation for metadata prerenders: #100861\n- next-custom-transforms: Optimize server-reference transform output: #100637\n- Show dev overlay errors before the indicator state is known: #100629\n- Update font data: #100863\n\n### Misc Changes\n\n- Improve common errors in turbo-trace-server: #100862\n- docs: clarify use cache is unsupported in Proxy: #100842\n- Revert \"",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.32",
+      "published_at": "2026-10-30 07:44",
+      "tag": "v16.5.0-canary.32",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.31",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- perf(build): lazily require page-data helpers in build/utils: #100822\n\n### Misc Changes\n\n- perf(turbopack): canonicalize async loader availability: #100705\n\n### Credits \n\nHuge thanks to @sokra for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.30",
       "published_at": "2026-10-29 07:43",
       "tag": "v16.5.0-canary.30",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.29",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Create cache directory before persisting Chrome DevTools workspace UUID: #100802\n- Upgrade React from `ab0d927f-20261020` to `dc9aed36-20261027`: #100791\n- [testmode] Fix compressed HTTP responses with test proxy: #100805\n- chore(deps): bump sharp@0.35.5: #99714\n- Turbopack: Auto-detect pnpm GVS and configure an additional root for it: #99758\n- Persist storage cache in Docker environments: #100790\n- Persist fully static PPR payloads in filesystem cache: #100759\n- Stamp FileSy",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.29",
-      "published_at": "2026-10-28 07:46",
-      "tag": "v16.5.0-canary.29",
       "source": "release"
     }
   ]
