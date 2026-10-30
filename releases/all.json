@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-30 11:44",
+  "updated": "2026-10-30 19:54",
   "count": 15,
   "items": [
     {
@@ -87,28 +87,46 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.45.6](https://github.com/n8n-io/n8n/compare/n8n@2.45.5...n8n@2.45.6) (2026-10-29)\n\n\n### Bug Fixes\n\n* **core:** Record dynamic time saved for executions in queue mode ([#42482](https://github.com/n8n-io/n8n/issues/42482)) ([f2f0c2f](https://github.com/n8n-io/n8n/commit/f2f0c2f63da718e8b258f9fc694f4d3d3502dc0b))\n* **editor:** Match compact sidebar icon sizes ([#42378](https://github.com/n8n-io/n8n/issues/42378)) ([56eec49](https://github.com/n8n-io/n8n/commit/56eec49704b4cc21c544ea69b8fecd46",
+      "description": "## [2.45.7](https://github.com/n8n-io/n8n/compare/n8n@2.45.6...n8n@2.45.7) (2026-10-30)\n\n\n### Bug Fixes\n\n* **core:** Require execution:read when workflow-scoped routes read execution data ([#42446](https://github.com/n8n-io/n8n/issues/42446)) ([93638f4](https://github.com/n8n-io/n8n/commit/93638f48718d8b03ab0b8ae6e81f110f90e0e3a5))\n* **core:** Resolve IMAP trigger expressions after activation ([#42611](https://github.com/n8n-io/n8n/issues/42611)) ([50ef902](https://github.com/n8n-io/n8n/commit/5",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-10-29 16:30",
+      "published_at": "2026-10-30 16:24",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.45.6",
+      "name": "n8n-io/n8n n8n@2.45.7",
       "repo": "n8n-io/n8n",
-      "description": "## [2.45.6](https://github.com/n8n-io/n8n/compare/n8n@2.45.5...n8n@2.45.6) (2026-10-29)\n\n\n### Bug Fixes\n\n* **core:** Record dynamic time saved for executions in queue mode ([#42482](https://github.com/n8n-io/n8n/issues/42482)) ([f2f0c2f](https://github.com/n8n-io/n8n/commit/f2f0c2f63da718e8b258f9fc694f4d3d3502dc0b))\n* **editor:** Match compact sidebar icon sizes ([#42378](https://github.com/n8n-io/n8n/issues/42378)) ([56eec49](https://github.com/n8n-io/n8n/commit/56eec49704b4cc21c544ea69b8fecd46",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.45.6",
-      "published_at": "2026-10-29 16:30",
-      "tag": "n8n@2.45.6",
+      "description": "## [2.45.7](https://github.com/n8n-io/n8n/compare/n8n@2.45.6...n8n@2.45.7) (2026-10-30)\n\n\n### Bug Fixes\n\n* **core:** Require execution:read when workflow-scoped routes read execution data ([#42446](https://github.com/n8n-io/n8n/issues/42446)) ([93638f4](https://github.com/n8n-io/n8n/commit/93638f48718d8b03ab0b8ae6e81f110f90e0e3a5))\n* **core:** Resolve IMAP trigger expressions after activation ([#42611](https://github.com/n8n-io/n8n/issues/42611)) ([50ef902](https://github.com/n8n-io/n8n/commit/5",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.45.7",
+      "published_at": "2026-10-30 16:24",
+      "tag": "n8n@2.45.7",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.90",
+      "name": "n8n-io/n8n n8n@1.123.91",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.90](https://github.com/n8n-io/n8n/compare/n8n@1.123.89...n8n@1.123.90) (2026-10-29)\n\n\n### Bug Fixes\n\n* **core:** Require a signed token to accept an invitation ([#42292](https://github.com/n8n-io/n8n/issues/42292)) ([4580f22](https://github.com/n8n-io/n8n/commit/4580f22dc87c9c18aeca70a8a8556c0148ff0621))\n\n\n### Performance Improvements\n\n* **Google Drive Trigger Node:** Read watched item instead of listing changes ([#42454](https://github.com/n8n-io/n8n/issues/42454)) ([caa8c82](https://",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.90",
-      "published_at": "2026-10-29 17:00",
-      "tag": "n8n@1.123.90",
+      "description": "## [1.123.91](https://github.com/n8n-io/n8n/compare/n8n@1.123.90...n8n@1.123.91) (2026-10-30)\n\n\n### Bug Fixes\n\n* **core:** Fix $('Node') expressions returning null for legacy Code node output ([#42249](https://github.com/n8n-io/n8n/issues/42249)) ([18c89cd](https://github.com/n8n-io/n8n/commit/18c89cdf2eda635fbb892730189a2de1a48b46da))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/42665?utm_source=github\" target=\"_blank\" rel=\"noopener nor",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.91",
+      "published_at": "2026-10-30 16:44",
+      "tag": "n8n@1.123.91",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.5.0-canary.34",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- fix(turbopack): fix canary build after chunk_groups became a Vec: #100949\n- Reland \"perf(turbopack): canonicalize async loader availability\": #100947\n- fix(turbopack): avoid panics from transient chunk group indices: #100928\n\n### Credits \n\nHuge thanks to @sokra and @mischnic for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.34",
+      "published_at": "2026-10-30 19:04",
+      "tag": "v16.5.0-canary.34",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.5.0-canary.33",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Stop patching error inspection if source maps are disabled: #93364\n\n### Misc Changes\n\n- Turbopack: store ChunkGroupInfo::chunk_groups as a Vec: #100935\n- [test] Fix flaky file-system-cache-clock tests: #100946\n- [ci] Fix test axis fixtures never running their off state in CI: #100912\n- Define the review agent's team as the owners in review/OWNERS: #100927\n\n### Credits \n\nHuge thanks to @lukesandberg, @unstubbable, @eps1lon, and @acdlite for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.33",
+      "published_at": "2026-10-30 18:08",
+      "tag": "v16.5.0-canary.33",
       "source": "release"
     },
     {
@@ -118,24 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.32",
       "published_at": "2026-10-30 07:44",
       "tag": "v16.5.0-canary.32",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.31",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- perf(build): lazily require page-data helpers in build/utils: #100822\n\n### Misc Changes\n\n- perf(turbopack): canonicalize async loader availability: #100705\n\n### Credits \n\nHuge thanks to @sokra for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.31",
-      "published_at": "2026-10-29 17:12",
-      "tag": "v16.5.0-canary.31",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.30",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Ignore expected upgrade nudges in Agent Feedback: #100840\n- Add model metadata to Agent Feedback: #100806\n- Use fast-jwt instead of jsonwebtoken: #100818\n- Update font data: #100813\n- Turbopack: wait for trace file changes after format errors: #99847\n- Add a CLI for reviewing agent feedback: #100739\n\n### Misc Changes\n\n- Add criteria for Vercel Agent code review: #100846\n- Add experimental.hydrationChangeEvent flag: #99610\n- Turbopack: Move reference to bincode's virtue depend",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.30",
-      "published_at": "2026-10-29 07:43",
-      "tag": "v16.5.0-canary.30",
       "source": "release"
     }
   ]
