@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-10-31 11:28",
+  "updated": "2026-10-31 19:28",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.35",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Handle cancellation errors during response clone cleanup: #100961\n- Revert \"Revert \"Fix App Router locale path matching with Pages i18n\"\": #98726\n- Fix prerendering of caught `'use cache'` errors: #100956\n\n### Misc Changes\n\n- docs: clarify blocking route response status: #100191\n- docs: note per-route cost of boundary files, cached Route Handler checks, and per-instance rate limits: #100985\n- docs: clarify unstable_cache cross-deployment persistence: #100983\n- eval: allow sta",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.35",
+      "published_at": "2026-10-31 16:01",
+      "tag": "v16.5.0-canary.35",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.34",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- fix(turbopack): fix canary build after chunk_groups became a Vec: #100949\n- Reland \"perf(turbopack): canonicalize async loader availability\": #100947\n- fix(turbopack): avoid panics from transient chunk group indices: #100928\n\n### Credits \n\nHuge thanks to @sokra and @mischnic for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.33",
       "published_at": "2026-10-30 18:08",
       "tag": "v16.5.0-canary.33",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.32",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Fix hangs and crashes for 204 responses from route handlers and deduped fetches: #100159\n- fix(adapter): preserve revalidation for metadata prerenders: #100861\n- next-custom-transforms: Optimize server-reference transform output: #100637\n- Show dev overlay errors before the indicator state is known: #100629\n- Update font data: #100863\n\n### Misc Changes\n\n- Improve common errors in turbo-trace-server: #100862\n- docs: clarify use cache is unsupported in Proxy: #100842\n- Revert \"",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.32",
-      "published_at": "2026-10-30 07:44",
-      "tag": "v16.5.0-canary.32",
       "source": "release"
     }
   ]
