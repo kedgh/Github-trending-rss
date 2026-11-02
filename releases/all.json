@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-02 11:39",
+  "updated": "2026-11-02 22:20",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n stable",
+      "name": "n8n-io/n8n n8n@1.123.92",
       "repo": "n8n-io/n8n",
-      "description": "## [2.45.7](https://github.com/n8n-io/n8n/compare/n8n@2.45.6...n8n@2.45.7) (2026-10-30)\n\n\n### Bug Fixes\n\n* **core:** Require execution:read when workflow-scoped routes read execution data ([#42446](https://github.com/n8n-io/n8n/issues/42446)) ([93638f4](https://github.com/n8n-io/n8n/commit/93638f48718d8b03ab0b8ae6e81f110f90e0e3a5))\n* **core:** Resolve IMAP trigger expressions after activation ([#42611](https://github.com/n8n-io/n8n/issues/42611)) ([50ef902](https://github.com/n8n-io/n8n/commit/5",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-10-30 16:24",
-      "tag": "stable",
+      "description": "## [1.123.92](https://github.com/n8n-io/n8n/compare/n8n@1.123.91...n8n@1.123.92) (2026-11-02)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/42872?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/revie",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.92",
+      "published_at": "2026-11-02 16:36",
+      "tag": "n8n@1.123.92",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.45.7",
+      "name": "n8n-io/n8n n8n@2.46.4",
       "repo": "n8n-io/n8n",
-      "description": "## [2.45.7](https://github.com/n8n-io/n8n/compare/n8n@2.45.6...n8n@2.45.7) (2026-10-30)\n\n\n### Bug Fixes\n\n* **core:** Require execution:read when workflow-scoped routes read execution data ([#42446](https://github.com/n8n-io/n8n/issues/42446)) ([93638f4](https://github.com/n8n-io/n8n/commit/93638f48718d8b03ab0b8ae6e81f110f90e0e3a5))\n* **core:** Resolve IMAP trigger expressions after activation ([#42611](https://github.com/n8n-io/n8n/issues/42611)) ([50ef902](https://github.com/n8n-io/n8n/commit/5",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.45.7",
-      "published_at": "2026-10-30 16:24",
-      "tag": "n8n@2.45.7",
+      "description": "## [2.46.4](https://github.com/n8n-io/n8n/compare/n8n@2.46.3...n8n@2.46.4) (2026-11-02)\n\n\n### Bug Fixes\n\n* **core:** Keep own __proto__ keys in values that cross the expression runtime ([#42806](https://github.com/n8n-io/n8n/issues/42806)) ([3075ef1](https://github.com/n8n-io/n8n/commit/3075ef12927c4bf79442b9be0f1e866e734d793e))\n* **core:** Keep the name and fields of an Error that an expression returns ([#42805](https://github.com/n8n-io/n8n/issues/42805)) ([7640bcb](https://github.com/n8n-io/n",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.46.4",
+      "published_at": "2026-11-02 16:27",
+      "tag": "n8n@2.46.4",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.91",
+      "name": "n8n-io/n8n n8n@2.45.7-exp.g86c6a0b7",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.91](https://github.com/n8n-io/n8n/compare/n8n@1.123.90...n8n@1.123.91) (2026-10-30)\n\n\n### Bug Fixes\n\n* **core:** Fix $('Node') expressions returning null for legacy Code node output ([#42249](https://github.com/n8n-io/n8n/issues/42249)) ([18c89cd](https://github.com/n8n-io/n8n/commit/18c89cdf2eda635fbb892730189a2de1a48b46da))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/42665?utm_source=github\" target=\"_blank\" rel=\"noopener nor",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.91",
-      "published_at": "2026-10-30 16:44",
-      "tag": "n8n@1.123.91",
+      "description": "## [2.45.7-exp.g86c6a0b7](https://github.com/n8n-io/n8n/compare/n8n@2.45.7...n8n@2.45.7-exp.g86c6a0b7) (2026-11-02)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/42918?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.c",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.45.7-exp.g86c6a0b7",
+      "published_at": "2026-11-02 21:16",
+      "tag": "n8n@2.45.7-exp.g86c6a0b7",
       "source": "release"
     },
     {
