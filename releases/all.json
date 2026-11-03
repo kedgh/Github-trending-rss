@@ -1,33 +1,33 @@
 {
   "title": "Releases",
-  "updated": "2026-11-02 22:20",
+  "updated": "2026-11-03 08:13",
   "count": 15,
   "items": [
     {
-      "name": "langchain-ai/langchain langchain-core==1.7.3",
+      "name": "langchain-ai/langchain langchain==1.4.8",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.7.2\n\nrelease(core): 1.7.3 (#41564)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.3",
-      "published_at": "2026-10-30 04:56",
-      "tag": "langchain-core==1.7.3",
+      "description": "> [!WARNING]\n> **Python 3.10 support will be dropped in `langchain-core` 1.8.0 and `langchain` 1.5.0.** The current minor versions are the last to support Python 3.10. Please upgrade to Python 3.11 or later.\n\nChanges since langchain==1.4.7\n\nchore(langchain): bump langchain-core (#41640)\nrelease(langchain): 1.4.8 (#41636)\nchore(deps): bump pyasn1 from 0.6.4 to 0.6.5 in /libs/langchain_v1 (#41591)\nchore(deps): bump joserfc from 1.7.4 to 1.7.6 in /libs/langchain_v1 (#41587)\nchore(deps): bump authli",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.8",
+      "published_at": "2026-11-02 23:45",
+      "tag": "langchain==1.4.8",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-core==1.7.2",
+      "name": "langchain-ai/langchain langchain-core==1.7.4",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.7.1\n\nrelease(core): 1.7.2 (#41562)\nfeat(core): add `add_notification_metadata` and `get_notification_metadata` (#41540)\nfix(core): stop `merge_content` from changing the first message's content (#41502)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.2",
-      "published_at": "2026-10-30 03:04",
-      "tag": "langchain-core==1.7.2",
+      "description": "> [!WARNING]\n> **Python 3.10 support will be dropped in `langchain-core` 1.8.0 and `langchain` 1.5.0.** The current minor versions are the last to support Python 3.10. Please upgrade to Python 3.11 or later.\n\nChanges since langchain-core==1.7.3\n\nrelease(core): 1.7.4 (#41635)\nfix(core): avoid mutating message content in Anthropic translator (#40213)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.4",
+      "published_at": "2026-11-02 23:31",
+      "tag": "langchain-core==1.7.4",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-core==1.7.1",
+      "name": "langchain-ai/langchain langchain-anthropic==1.7.9",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.7.0\n\nrelease(core): version 1.7.1 (#41548)\nfix(core): preserve gateway tracing metadata in v3 streams (#41504)\nfix(core): escape node metadata in Mermaid labels (#41512)\nchore(deps): bump the minor-and-patch group across 3 directories with 32 updates (#41465)\nchore(deps-dev): bump setuptools from 83.0.0 to 84.1.0 in /libs/core (#41442)\nchore(deps): bump nbconvert from 7.17.1 to 7.17.2 in /libs/core (#41425)\nchore(infra): relax third-party dependency upper bounds (",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.1",
-      "published_at": "2026-10-28 23:00",
-      "tag": "langchain-core==1.7.1",
+      "description": "Changes since langchain-anthropic==1.7.8\n\nrelease(anthropic): 1.7.9 (#41644)\nfix(anthropic): report streamed content-block tokens to callbacks (#41643)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.9",
+      "published_at": "2026-11-03 04:14",
+      "tag": "langchain-anthropic==1.7.9",
       "source": "release"
     },
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.37",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Add router.experimental_prepare(): #101050\n- Handle registries not serving JSON when checking the version: #95062\n- Fix navigations rerendering fully static ISR pages in `next start`: #100854\n- [refactor] Remove obsolete RDC and PPR feature guards: #100827\n- [no-unsafe-inline] Carry the Flight payload as data instead of inline scripts: #97573\n- [no-unsafe-inline] Add an experimental flag for React's external browser runtime: #97570\n- Fix revalidation for caches with short sta",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.37",
+      "published_at": "2026-11-03 07:49",
+      "tag": "v16.5.0-canary.37",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.4.4",
+      "repo": "vercel/next.js",
+      "description": "> [!NOTE]\r\n> This release is backporting bug fixes. It does **not** include all pending features/changes on canary. The [announced security released for November](https://nextjs.org/blog/upcoming-nextjs-security-release-november-2026) will be published tomorrow. \r\n\r\n### Core Changes\r\n\r\n- [lts-active] test: disable the `reads fallback params after a client navigation` deployment test (#100668)\r\n- [lts-active] Reload on missed Turbopack startup CSS updates (#100619)\r\n- [lts-active] Revert \"Optimiz",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.4",
+      "published_at": "2026-11-03 00:41",
+      "tag": "v16.4.4",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.36",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Upgrade React from `a703ca64-20261030` to `e84e1492-20261031`: #100999\n- Upgrade React from `dc9aed36-20261027` to `a703ca64-20261030`: #100965\n\n### Misc Changes\n\n- Turbopack: resolve per-module data once during module graph construction: #94842\n\n### Credits \n\nHuge thanks to @lukesandberg for helping!",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.36",
       "published_at": "2026-11-01 07:42",
       "tag": "v16.5.0-canary.36",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.35",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Handle cancellation errors during response clone cleanup: #100961\n- Revert \"Revert \"Fix App Router locale path matching with Pages i18n\"\": #98726\n- Fix prerendering of caught `'use cache'` errors: #100956\n\n### Misc Changes\n\n- docs: clarify blocking route response status: #100191\n- docs: note per-route cost of boundary files, cached Route Handler checks, and per-instance rate limits: #100985\n- docs: clarify unstable_cache cross-deployment persistence: #100983\n- eval: allow sta",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.35",
-      "published_at": "2026-10-31 16:01",
-      "tag": "v16.5.0-canary.35",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.34",
-      "repo": "vercel/next.js",
-      "description": "### Misc Changes\n\n- fix(turbopack): fix canary build after chunk_groups became a Vec: #100949\n- Reland \"perf(turbopack): canonicalize async loader availability\": #100947\n- fix(turbopack): avoid panics from transient chunk group indices: #100928\n\n### Credits \n\nHuge thanks to @sokra and @mischnic for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.34",
-      "published_at": "2026-10-30 19:04",
-      "tag": "v16.5.0-canary.34",
       "source": "release"
     }
   ]
