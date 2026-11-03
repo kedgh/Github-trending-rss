@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-03 08:13",
+  "updated": "2026-11-03 21:20",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.40.14",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* `ollama launch claude` now applies the model's output token limit for Claude Code, so cloud models no longer run into the 128k default cap\r\n* Cloud web search responses on `/api/chat` are now decoded correctly, including compressed responses\r\n* OpenAI-compatible endpoints no longer override a model's packaged sampler defaults — clients that send no `temperature`/`top_p` get the model's own values instead of 1.0, matching `/api/chat`\r\n* `/v1/responses` now preserves readable ",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.14",
+      "published_at": "2026-11-03 09:40",
+      "tag": "v0.40.14",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.40.13",
       "repo": "ollama/ollama",
       "description": "## LFM3 on Linux and Windows\r\n\r\nLiquid AI's [LFM3](https://ollama.com/library/lfm3) models, including text-to-speech in [lfm3-audio](https://ollama.com/library/lfm3-audio) and [lfm3-omni](https://ollama.com/library/lfm3-omni), now run on Linux and Windows as well as Apple silicon.\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.12...v0.40.13",
@@ -76,39 +85,39 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.40.11",
-      "repo": "ollama/ollama",
-      "description": "## Speech\r\n\r\nOllama can now generate [speech](https://docs.ollama.com/capabilities/speech) on macOS. `ollama run` plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible `/v1/audio/speech` endpoint.\r\n\r\n```sh\r\nollama run phonon \"Hello from Ollama.\"\r\n```\r\n\r\n## d3 decision models\r\n\r\n[d3](https://ollama.com/library/d3) brings vLLM Semantic Router's decision models to Ollama. Give a model text, structured state, or an image, and ask ",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11",
-      "published_at": "2026-10-24 08:30",
-      "tag": "v0.40.11",
+      "name": "n8n-io/n8n n8n@3.1.0",
+      "repo": "n8n-io/n8n",
+      "description": "<!-- release-prerelease -->\n# [3.1.0](https://github.com/n8n-io/n8n/compare/n8n@2.46.0...n8n@3.1.0) (2026-11-03)\n\n\n### Bug Fixes\n\n* Add missing period to data table storage limit banner copy ([#37943](https://github.com/n8n-io/n8n/issues/37943)) ([d1dc4d6](https://github.com/n8n-io/n8n/commit/d1dc4d6cd3496618d3afdf75962fc2f4e51cec81))\n* **AI Agent Node:** Point the deprecated agent type callout to an action that works ([#42898](https://github.com/n8n-io/n8n/issues/42898)) ([7a44fcb](https://gith",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%403.1.0",
+      "published_at": "2026-11-03 16:33",
+      "tag": "n8n@3.1.0",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.92",
+      "name": "n8n-io/n8n n8n@2.47.0",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.92](https://github.com/n8n-io/n8n/compare/n8n@1.123.91...n8n@1.123.92) (2026-11-02)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/42872?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/revie",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.92",
-      "published_at": "2026-11-02 16:36",
-      "tag": "n8n@1.123.92",
+      "description": "# [2.47.0](https://github.com/n8n-io/n8n/compare/n8n@2.46.0...n8n@2.47.0) (2026-11-03)\n\n\n### Bug Fixes\n\n* Add missing period to data table storage limit banner copy ([#37943](https://github.com/n8n-io/n8n/issues/37943)) ([d1dc4d6](https://github.com/n8n-io/n8n/commit/d1dc4d6cd3496618d3afdf75962fc2f4e51cec81))\n* **AI Agent Node:** Point the deprecated agent type callout to an action that works ([#42898](https://github.com/n8n-io/n8n/issues/42898)) ([7a44fcb](https://github.com/n8n-io/n8n/commit/7",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.47.0",
+      "published_at": "2026-11-03 16:36",
+      "tag": "n8n@2.47.0",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.46.4",
+      "name": "n8n-io/n8n beta",
       "repo": "n8n-io/n8n",
-      "description": "## [2.46.4](https://github.com/n8n-io/n8n/compare/n8n@2.46.3...n8n@2.46.4) (2026-11-02)\n\n\n### Bug Fixes\n\n* **core:** Keep own __proto__ keys in values that cross the expression runtime ([#42806](https://github.com/n8n-io/n8n/issues/42806)) ([3075ef1](https://github.com/n8n-io/n8n/commit/3075ef12927c4bf79442b9be0f1e866e734d793e))\n* **core:** Keep the name and fields of an Error that an expression returns ([#42805](https://github.com/n8n-io/n8n/issues/42805)) ([7640bcb](https://github.com/n8n-io/n",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.46.4",
-      "published_at": "2026-11-02 16:27",
-      "tag": "n8n@2.46.4",
+      "description": "# [2.47.0](https://github.com/n8n-io/n8n/compare/n8n@2.46.0...n8n@2.47.0) (2026-11-03)\n\n\n### Bug Fixes\n\n* Add missing period to data table storage limit banner copy ([#37943](https://github.com/n8n-io/n8n/issues/37943)) ([d1dc4d6](https://github.com/n8n-io/n8n/commit/d1dc4d6cd3496618d3afdf75962fc2f4e51cec81))\n* **AI Agent Node:** Point the deprecated agent type callout to an action that works ([#42898](https://github.com/n8n-io/n8n/issues/42898)) ([7a44fcb](https://github.com/n8n-io/n8n/commit/7",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "published_at": "2026-11-03 16:36",
+      "tag": "beta",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.45.7-exp.g86c6a0b7",
-      "repo": "n8n-io/n8n",
-      "description": "## [2.45.7-exp.g86c6a0b7](https://github.com/n8n-io/n8n/compare/n8n@2.45.7...n8n@2.45.7-exp.g86c6a0b7) (2026-11-02)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/42918?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.c",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.45.7-exp.g86c6a0b7",
-      "published_at": "2026-11-02 21:16",
-      "tag": "n8n@2.45.7-exp.g86c6a0b7",
+      "name": "vercel/next.js v16.5.0-canary.38",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Fix blocking revalidation for `fetch` and `unstable_cache`: #101077\n\n### Misc Changes\n\n- Turbopack: avoid invalidating per-module analysis when the encryption key changes: #100950\n- turbo-tasks: add cancelable cell reads via Vc::lazy_reader(): #101008\n- Turbopack: use simd-utf16-len for source position column counting: #100973\n- Fix layout client chunk leakage across async server imports: #101040\n- Pin Tailwind to 4.3.3 in create-next-app: #101061\n\n### Credits \n\nHuge thanks t",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.38",
+      "published_at": "2026-11-03 17:09",
+      "tag": "v16.5.0-canary.38",
       "source": "release"
     },
     {
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.4",
       "published_at": "2026-11-03 00:41",
       "tag": "v16.4.4",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.36",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Upgrade React from `a703ca64-20261030` to `e84e1492-20261031`: #100999\n- Upgrade React from `dc9aed36-20261027` to `a703ca64-20261030`: #100965\n\n### Misc Changes\n\n- Turbopack: resolve per-module data once during module graph construction: #94842\n\n### Credits \n\nHuge thanks to @lukesandberg for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.36",
-      "published_at": "2026-11-01 07:42",
-      "tag": "v16.5.0-canary.36",
       "source": "release"
     }
   ]
