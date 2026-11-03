@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-03 21:20",
+  "updated": "2026-11-04 06:43",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.39",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Strip internal middleware cookie headers from edge responses: #101109\n- Fix stale compressed framing for forwarded fetch responses: #101108\n- [use cache] Fix cache key when binary args are used: #101107\n- Fix shared shell poisoning from request-supplied placeholder params: #101106\n- [next/image] Fix false-positive AVIF/HEIC detection: #101105\n- Fix `unstable_cache` leaking cold `'use cache'` fills across root params: #101104\n- Fix outer 'use cache' entries reused across root ",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.39",
+      "published_at": "2026-11-04 03:43",
+      "tag": "v16.5.0-canary.39",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.38",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Fix blocking revalidation for `fetch` and `unstable_cache`: #101077\n\n### Misc Changes\n\n- Turbopack: avoid invalidating per-module analysis when the encryption key changes: #100950\n- turbo-tasks: add cancelable cell reads via Vc::lazy_reader(): #101008\n- Turbopack: use simd-utf16-len for source position column counting: #100973\n- Fix layout client chunk leakage across async server imports: #101040\n- Pin Tailwind to 4.3.3 in create-next-app: #101061\n\n### Credits \n\nHuge thanks t",
@@ -121,21 +130,12 @@
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.5.0-canary.37",
+      "name": "vercel/next.js v16.4.5",
       "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Add router.experimental_prepare(): #101050\n- Handle registries not serving JSON when checking the version: #95062\n- Fix navigations rerendering fully static ISR pages in `next start`: #100854\n- [refactor] Remove obsolete RDC and PPR feature guards: #100827\n- [no-unsafe-inline] Carry the Flight payload as data instead of inline scripts: #97573\n- [no-unsafe-inline] Add an experimental flag for React's external browser runtime: #97570\n- Fix revalidation for caches with short sta",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.37",
-      "published_at": "2026-11-03 07:49",
-      "tag": "v16.5.0-canary.37",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.4",
-      "repo": "vercel/next.js",
-      "description": "> [!NOTE]\r\n> This release is backporting bug fixes. It does **not** include all pending features/changes on canary. The [announced security released for November](https://nextjs.org/blog/upcoming-nextjs-security-release-november-2026) will be published tomorrow. \r\n\r\n### Core Changes\r\n\r\n- [lts-active] test: disable the `reads fallback params after a client navigation` deployment test (#100668)\r\n- [lts-active] Reload on missed Turbopack startup CSS updates (#100619)\r\n- [lts-active] Revert \"Optimiz",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.4",
-      "published_at": "2026-11-03 00:41",
-      "tag": "v16.4.4",
+      "description": "This release contains security fixes for the following advisories:\r\n\r\n## Moderate\r\n\r\n- [Cross-tenant sensitive information disclosure in Next.js 'use cache' when called through unstable_cache](https://github.com/vercel/next.js/security/advisories/GHSA-mfr8-8qww-v76h)\r\n- [Cache leak across root param values in nested 'use cache' functions (follow-up)](https://github.com/vercel/next.js/security/advisories/GHSA-vc7v-qv4w-wrv8)\r\n- [Cache poisoning of shared fallback shells in Cache Components via re",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.5",
+      "published_at": "2026-11-04 02:38",
+      "tag": "v16.4.5",
       "source": "release"
     }
   ]
