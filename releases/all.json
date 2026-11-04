@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-04 12:07",
+  "updated": "2026-11-04 21:31",
   "count": 15,
   "items": [
     {
@@ -31,6 +31,15 @@
       "source": "release"
     },
     {
+      "name": "langgenius/dify 1.19.0",
+      "repo": "langgenius/dify",
+      "description": "**Dify 1.19.0 brings nested workflow tracing to your observability tools.** Follow a workflow into the Workflow Tools it calls, inspect the steps inside each invocation, and keep the LLM context alongside the execution tree.\r\n\r\nThis release also makes Workflow Tools portable with App packages, adds Skill Hub automation, and makes Agent files easier to upload and preview. The bundled plugin daemon is upgraded to **0.6.14-local**.\r\n\r\n[Release highlights](#user-content-release-highlights) · [Upgrad",
+      "url": "https://github.com/langgenius/dify/releases/tag/1.19.0",
+      "published_at": "2026-11-04 15:36",
+      "tag": "1.19.0",
+      "source": "release"
+    },
+    {
       "name": "langgenius/dify 1.18.0",
       "repo": "langgenius/dify",
       "description": "Dify 1.18.0 brings **Agents that route workflows**, **portable app packages**, **deeper visibility into nested workflow runs**, and the opt-in **Agent Knowledge Base** experience. OpenAPI and the new difyctl expand how you build and manage apps from the command line.\r\n\r\n> [!IMPORTANT]\r\n> **Read the upgrade guide below before deploying.** Upgrade the API, workers, Agent Backend, and Agent runtime images together. Local Agent sandboxes require a non-empty authentication token, and Agent Backend us",
@@ -46,15 +55,6 @@
       "url": "https://github.com/langgenius/dify/releases/tag/1.17.1",
       "published_at": "2026-09-10 18:04",
       "tag": "1.17.1",
-      "source": "release"
-    },
-    {
-      "name": "langgenius/dify 1.17.0",
-      "repo": "langgenius/dify",
-      "description": "## New Features\r\n\r\n**Agent: E2B Sandbox, Home Snapshots, and Skill Management**\r\n- **E2B sandbox backend**: agent shell/code execution can now run on [E2B](https://e2b.dev) cloud sandboxes in addition to the local sandbox. Select the backend with `DIFY_AGENT_RUNTIME_BACKEND`; a new `docker-compose.e2b.yaml` ships the E2B stack, E2B traffic is authenticated, and the E2B template is synced on release (#39480, #39705, #39873, #39996, #40858, #40871, #40891, #40892).\r\n- **Build-time Home Snapshots**",
-      "url": "https://github.com/langgenius/dify/releases/tag/1.17.0",
-      "published_at": "2026-08-25 19:28",
-      "tag": "1.17.0",
       "source": "release"
     },
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@3.1.0",
+      "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "<!-- release-prerelease -->\n# [3.1.0](https://github.com/n8n-io/n8n/compare/n8n@2.46.0...n8n@3.1.0) (2026-11-03)\n\n\n### Bug Fixes\n\n* Add missing period to data table storage limit banner copy ([#37943](https://github.com/n8n-io/n8n/issues/37943)) ([d1dc4d6](https://github.com/n8n-io/n8n/commit/d1dc4d6cd3496618d3afdf75962fc2f4e51cec81))\n* **AI Agent Node:** Point the deprecated agent type callout to an action that works ([#42898](https://github.com/n8n-io/n8n/issues/42898)) ([7a44fcb](https://gith",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%403.1.0",
-      "published_at": "2026-11-03 16:33",
-      "tag": "n8n@3.1.0",
+      "description": "## [2.46.6](https://github.com/n8n-io/n8n/compare/n8n@2.46.5...n8n@2.46.6) (2026-11-04)\n\n\n### Bug Fixes\n\n* Make npm install of n8n work on all platforms again ([#43035](https://github.com/n8n-io/n8n/issues/43035)) ([6abcfc7](https://github.com/n8n-io/n8n/commit/6abcfc7547b037bafd6c4fe422580ff1679bf7ad))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/43038?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"tr",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-11-04 21:10",
+      "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.47.0",
+      "name": "n8n-io/n8n n8n@2.46.6",
       "repo": "n8n-io/n8n",
-      "description": "# [2.47.0](https://github.com/n8n-io/n8n/compare/n8n@2.46.0...n8n@2.47.0) (2026-11-03)\n\n\n### Bug Fixes\n\n* Add missing period to data table storage limit banner copy ([#37943](https://github.com/n8n-io/n8n/issues/37943)) ([d1dc4d6](https://github.com/n8n-io/n8n/commit/d1dc4d6cd3496618d3afdf75962fc2f4e51cec81))\n* **AI Agent Node:** Point the deprecated agent type callout to an action that works ([#42898](https://github.com/n8n-io/n8n/issues/42898)) ([7a44fcb](https://github.com/n8n-io/n8n/commit/7",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.47.0",
-      "published_at": "2026-11-03 16:36",
-      "tag": "n8n@2.47.0",
+      "description": "## [2.46.6](https://github.com/n8n-io/n8n/compare/n8n@2.46.5...n8n@2.46.6) (2026-11-04)\n\n\n### Bug Fixes\n\n* Make npm install of n8n work on all platforms again ([#43035](https://github.com/n8n-io/n8n/issues/43035)) ([6abcfc7](https://github.com/n8n-io/n8n/commit/6abcfc7547b037bafd6c4fe422580ff1679bf7ad))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/43038?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"tr",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.46.6",
+      "published_at": "2026-11-04 21:10",
+      "tag": "n8n@2.46.6",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n beta",
+      "name": "n8n-io/n8n n8n@2.46.5",
       "repo": "n8n-io/n8n",
-      "description": "# [2.47.0](https://github.com/n8n-io/n8n/compare/n8n@2.46.0...n8n@2.47.0) (2026-11-03)\n\n\n### Bug Fixes\n\n* Add missing period to data table storage limit banner copy ([#37943](https://github.com/n8n-io/n8n/issues/37943)) ([d1dc4d6](https://github.com/n8n-io/n8n/commit/d1dc4d6cd3496618d3afdf75962fc2f4e51cec81))\n* **AI Agent Node:** Point the deprecated agent type callout to an action that works ([#42898](https://github.com/n8n-io/n8n/issues/42898)) ([7a44fcb](https://github.com/n8n-io/n8n/commit/7",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-11-03 16:36",
-      "tag": "beta",
+      "description": "## [2.46.5](https://github.com/n8n-io/n8n/compare/n8n@2.46.4...n8n@2.46.5) (2026-11-04)\n\n\n### Bug Fixes\n\n* **AI Agent Node:** Point the deprecated agent type callout to an action that works ([#42908](https://github.com/n8n-io/n8n/issues/42908)) ([6fa6e60](https://github.com/n8n-io/n8n/commit/6fa6e60713791c885c0b97af307762120a454db2))\n* **core:** Improve credential resolution for node parameter loading ([#42755](https://github.com/n8n-io/n8n/issues/42755)) ([e4e033e](https://github.com/n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.46.5",
+      "published_at": "2026-11-04 17:37",
+      "tag": "n8n@2.46.5",
       "source": "release"
     },
     {
