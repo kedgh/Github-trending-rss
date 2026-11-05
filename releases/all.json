@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-11-05 07:01",
+  "updated": "2026-11-05 12:28",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-core==1.7.6",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-core==1.7.5\n\nrelease(core): 1.7.6 (#41698)\nperf(core): merge streamed `AIMessageChunk`s once when accumulating runnable streams (#41697)\nperf(core): stop `parse_partial_json` from retrying one character at a time (#41467)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.6",
+      "published_at": "2026-11-05 08:22",
+      "tag": "langchain-core==1.7.6",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain==1.4.9",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1",
       "published_at": "2026-11-04 08:11",
       "tag": "langchain-typesafe==0.0.1",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-openai==1.7.4",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.7.3\n\nrelease(openai): 1.7.4 (#41683)\nchore(deps): require `langchain-core>=1.7.5` for refusal handling (#41682)\nfeat(core): standardize model refusal content blocks (#41582)\nchore(model-profiles): refresh model profile data (#41556)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.4",
-      "published_at": "2026-11-05 00:55",
-      "tag": "langchain-openai==1.7.4",
       "source": "release"
     },
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.40.15-rc0",
+      "name": "ollama/ollama v0.40.15-rc1",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* mlx: load bundled CUDA libraries in-process on Linux by @dhiltgen in https://github.com/ollama/ollama/pull/19433\r\n* model: add MiMo V2.6 model support by @dhiltgen in https://github.com/ollama/ollama/pull/19400\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.14...v0.40.15-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc1",
       "published_at": "2026-11-04 06:52",
-      "tag": "v0.40.15-rc0",
+      "tag": "v0.40.15-rc1",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.41",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- feat(next/image): add internal image redirects (to match existing external image redirects): #98271\n- Turbopack: show the source-mapped file in issue headers: #101161\n- Add Request Insights filters and pause controls: #96924\n- Avoid instrumenting Next.js telemetry requests: #97182\n- Classify framework request activity: #96914\n- Move optional lockfile parameters into options object: #101132\n- Record Instant Insights validation worker spans: #98677\n- Share local tracing across ",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.41",
+      "published_at": "2026-11-05 07:42",
+      "tag": "v16.5.0-canary.41",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.40",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Add instrumentationInject for adapter-supplied instrumentation: #100658\n- test(codemod): fix flaky agents-md e2e cascade on slow GitHub clones: #101122\n- perf(build): use nft's cached readlink when collecting build traces: #99678\n- [experiment] support App Router route.go handlers: #100130\n\n### Misc Changes\n\n- server actions: read cache kinds lazily: #101071\n- turbo-tasks-backend: fix lost idle wakeup in the snapshot loop: #100290\n- eval: clarify React transitions and prefetc",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.39",
       "published_at": "2026-11-04 03:43",
       "tag": "v16.5.0-canary.39",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.38",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Fix blocking revalidation for `fetch` and `unstable_cache`: #101077\n\n### Misc Changes\n\n- Turbopack: avoid invalidating per-module analysis when the encryption key changes: #100950\n- turbo-tasks: add cancelable cell reads via Vc::lazy_reader(): #101008\n- Turbopack: use simd-utf16-len for source position column counting: #100973\n- Fix layout client chunk leakage across async server imports: #101040\n- Pin Tailwind to 4.3.3 in create-next-app: #101061\n\n### Credits \n\nHuge thanks t",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.38",
-      "published_at": "2026-11-03 17:09",
-      "tag": "v16.5.0-canary.38",
       "source": "release"
     }
   ]
