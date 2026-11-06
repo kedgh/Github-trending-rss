@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-06 07:04",
+  "updated": "2026-11-06 12:26",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.40.15-rc2",
+      "name": "ollama/ollama v0.40.15",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* mlx: load bundled CUDA libraries in-process on Linux by @dhiltgen in https://github.com/ollama/ollama/pull/19433\r\n* model: add MiMo V2.6 model support by @dhiltgen in https://github.com/ollama/ollama/pull/19400\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.14...v0.40.15-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc2",
+      "description": "## MiMo V2.6\r\n\r\nXiaomi MiMo's [mimo-v2.6](https://ollama.com/library/mimo-v2.6), a 9B model built for code and agent workflows, is now supported in Ollama.\r\n\r\n```sh\r\nollama run mimo-v2.6\r\n```\r\n\r\n## AutoTrust decision models\r\n\r\n[AutoTrust](https://ollama.com/library/autotrust-jev) decision models read text and return choices, yes or no probabilities, and ratings for the questions you supply. The family includes 9b, 35b, and 27b-vl sizes — the 35b and 27b-vl sizes can also read images.\r\n\r\n```sh\r\no",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15",
       "published_at": "2026-11-04 06:52",
-      "tag": "v0.40.15-rc2",
+      "tag": "v0.40.15",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.42",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Persist Request Insights session history: #97795\n- Show route module loading and preparation in Request Insights: #97362\n- Improve Request Insights request and fetch details: #96925\n- Automatically compress route handler responses if not already compressed: #101220\n- experimental_prepare: Don't refetch on commit due to stale inlining hints: #101234\n- Bump to swc v83: #101079\n- [image-optimizer] Remove optimizeImage from the public next/image-optimizer-transform API: #101133\n\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.42",
+      "published_at": "2026-11-06 07:45",
+      "tag": "v16.5.0-canary.42",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.41",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- feat(next/image): add internal image redirects (to match existing external image redirects): #98271\n- Turbopack: show the source-mapped file in issue headers: #101161\n- Add Request Insights filters and pause controls: #96924\n- Avoid instrumenting Next.js telemetry requests: #97182\n- Classify framework request activity: #96914\n- Move optional lockfile parameters into options object: #101132\n- Record Instant Insights validation worker spans: #98677\n- Share local tracing across ",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.40",
       "published_at": "2026-11-04 07:44",
       "tag": "v16.5.0-canary.40",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.39",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Strip internal middleware cookie headers from edge responses: #101109\n- Fix stale compressed framing for forwarded fetch responses: #101108\n- [use cache] Fix cache key when binary args are used: #101107\n- Fix shared shell poisoning from request-supplied placeholder params: #101106\n- [next/image] Fix false-positive AVIF/HEIC detection: #101105\n- Fix `unstable_cache` leaking cold `'use cache'` fills across root params: #101104\n- Fix outer 'use cache' entries reused across root ",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.39",
-      "published_at": "2026-11-04 03:43",
-      "tag": "v16.5.0-canary.39",
       "source": "release"
     }
   ]
