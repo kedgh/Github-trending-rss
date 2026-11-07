@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-07 06:34",
+  "updated": "2026-11-07 11:54",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.43",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- fix(app-render): stop prerendered Link headers from accumulating on revalidation: #100960\n- Align eslint-config-next TypeScript peer with typescript-eslint: #101247\n- Reduce header allocations in NodeNextResponse: #101225\n- [image-optimizer] Move next/image-optimizer-transform under the next/experimental namespace: #101252\n- [image-optimizer] Don't use NextConfigComplete for the imageOptimizerTransform public API: #101184\n- Improve Request Insights context menus and trace int",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.43",
+      "published_at": "2026-11-07 07:41",
+      "tag": "v16.5.0-canary.43",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.42",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Persist Request Insights session history: #97795\n- Show route module loading and preparation in Request Insights: #97362\n- Improve Request Insights request and fetch details: #96925\n- Automatically compress route handler responses if not already compressed: #101220\n- experimental_prepare: Don't refetch on commit due to stale inlining hints: #101234\n- Bump to swc v83: #101079\n- [image-optimizer] Remove optimizeImage from the public next/image-optimizer-transform API: #101133\n\n",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.41",
       "published_at": "2026-11-05 07:42",
       "tag": "v16.5.0-canary.41",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.40",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Add instrumentationInject for adapter-supplied instrumentation: #100658\n- test(codemod): fix flaky agents-md e2e cascade on slow GitHub clones: #101122\n- perf(build): use nft's cached readlink when collecting build traces: #99678\n- [experiment] support App Router route.go handlers: #100130\n\n### Misc Changes\n\n- server actions: read cache kinds lazily: #101071\n- turbo-tasks-backend: fix lost idle wakeup in the snapshot loop: #100290\n- eval: clarify React transitions and prefetc",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.40",
-      "published_at": "2026-11-04 07:44",
-      "tag": "v16.5.0-canary.40",
       "source": "release"
     }
   ]
