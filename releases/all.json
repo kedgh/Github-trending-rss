@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-08 05:15",
+  "updated": "2026-11-08 11:38",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.44",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- docs: clarify refresh client cache behavior: #101160\n- Link Cache Components config errors to the migration guide: #101348\n- Bump `is-animated@3.0.19`: #101173\n\n### Example Changes\n\n- docs: use visible route locators with Cache Components: #101346\n\n### Misc Changes\n\n- docs: fix missing Roboto_Mono import in Pages Router font example: #88849\n- docs: fix crossOrigin wording: #97462\n- fix: update MDN link in route.mdx: #100753\n- docs: fix link reference for child Layout in docum",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.44",
+      "published_at": "2026-11-08 07:41",
+      "tag": "v16.5.0-canary.44",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.43",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- fix(app-render): stop prerendered Link headers from accumulating on revalidation: #100960\n- Align eslint-config-next TypeScript peer with typescript-eslint: #101247\n- Reduce header allocations in NodeNextResponse: #101225\n- [image-optimizer] Move next/image-optimizer-transform under the next/experimental namespace: #101252\n- [image-optimizer] Don't use NextConfigComplete for the imageOptimizerTransform public API: #101184\n- Improve Request Insights context menus and trace int",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.42",
       "published_at": "2026-11-06 07:45",
       "tag": "v16.5.0-canary.42",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.41",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- feat(next/image): add internal image redirects (to match existing external image redirects): #98271\n- Turbopack: show the source-mapped file in issue headers: #101161\n- Add Request Insights filters and pause controls: #96924\n- Avoid instrumenting Next.js telemetry requests: #97182\n- Classify framework request activity: #96914\n- Move optional lockfile parameters into options object: #101132\n- Record Instant Insights validation worker spans: #98677\n- Share local tracing across ",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.41",
-      "published_at": "2026-11-05 07:42",
-      "tag": "v16.5.0-canary.41",
       "source": "release"
     }
   ]
