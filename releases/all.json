@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-09 05:30",
+  "updated": "2026-11-09 11:51",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.45",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- docs: clarify agent feedback workspace context: #101358\n\n### Misc Changes\n\n- Turbopack: support turbopackIgnore on new URL(): #99965\n- turbo-tasks-backend: release unused capacity in task storage: #101344\n- turbopack-ecmascript: store AstPathTrie nodes as parent and kind indices: #101370\n\n### Credits \n\nHuge thanks to @lukesandberg and @aurorascharff for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.45",
+      "published_at": "2026-11-09 07:47",
+      "tag": "v16.5.0-canary.45",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.44",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- docs: clarify refresh client cache behavior: #101160\n- Link Cache Components config errors to the migration guide: #101348\n- Bump `is-animated@3.0.19`: #101173\n\n### Example Changes\n\n- docs: use visible route locators with Cache Components: #101346\n\n### Misc Changes\n\n- docs: fix missing Roboto_Mono import in Pages Router font example: #88849\n- docs: fix crossOrigin wording: #97462\n- fix: update MDN link in route.mdx: #100753\n- docs: fix link reference for child Layout in docum",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.43",
       "published_at": "2026-11-07 07:41",
       "tag": "v16.5.0-canary.43",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.42",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Persist Request Insights session history: #97795\n- Show route module loading and preparation in Request Insights: #97362\n- Improve Request Insights request and fetch details: #96925\n- Automatically compress route handler responses if not already compressed: #101220\n- experimental_prepare: Don't refetch on commit due to stale inlining hints: #101234\n- Bump to swc v83: #101079\n- [image-optimizer] Remove optimizeImage from the public next/image-optimizer-transform API: #101133\n\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.42",
-      "published_at": "2026-11-06 07:45",
-      "tag": "v16.5.0-canary.42",
       "source": "release"
     }
   ]
