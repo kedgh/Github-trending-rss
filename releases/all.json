@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-09 11:51",
+  "updated": "2026-11-09 22:47",
   "count": 15,
   "items": [
     {
@@ -87,28 +87,28 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.46.6](https://github.com/n8n-io/n8n/compare/n8n@2.46.5...n8n@2.46.6) (2026-11-04)\n\n\n### Bug Fixes\n\n* Make npm install of n8n work on all platforms again ([#43035](https://github.com/n8n-io/n8n/issues/43035)) ([6abcfc7](https://github.com/n8n-io/n8n/commit/6abcfc7547b037bafd6c4fe422580ff1679bf7ad))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/43038?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"tr",
+      "description": "## [2.46.7](https://github.com/n8n-io/n8n/compare/n8n@2.46.6...n8n@2.46.7) (2026-11-09)\n\n\n### Bug Fixes\n\n* **core:** Limit resume attempts for waiting and queued executions ([#42862](https://github.com/n8n-io/n8n/issues/42862)) ([c7aa6aa](https://github.com/n8n-io/n8n/commit/c7aa6aa6e1aa8d891d454a7516c2232b98821da4))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/43155?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-im",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-11-04 21:10",
+      "published_at": "2026-11-09 16:25",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.46.6",
+      "name": "n8n-io/n8n n8n@2.46.7",
       "repo": "n8n-io/n8n",
-      "description": "## [2.46.6](https://github.com/n8n-io/n8n/compare/n8n@2.46.5...n8n@2.46.6) (2026-11-04)\n\n\n### Bug Fixes\n\n* Make npm install of n8n work on all platforms again ([#43035](https://github.com/n8n-io/n8n/issues/43035)) ([6abcfc7](https://github.com/n8n-io/n8n/commit/6abcfc7547b037bafd6c4fe422580ff1679bf7ad))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/43038?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"tr",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.46.6",
-      "published_at": "2026-11-04 21:10",
-      "tag": "n8n@2.46.6",
+      "description": "## [2.46.7](https://github.com/n8n-io/n8n/compare/n8n@2.46.6...n8n@2.46.7) (2026-11-09)\n\n\n### Bug Fixes\n\n* **core:** Limit resume attempts for waiting and queued executions ([#42862](https://github.com/n8n-io/n8n/issues/42862)) ([c7aa6aa](https://github.com/n8n-io/n8n/commit/c7aa6aa6e1aa8d891d454a7516c2232b98821da4))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/43155?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-im",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.46.7",
+      "published_at": "2026-11-09 16:25",
+      "tag": "n8n@2.46.7",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.46.5",
+      "name": "n8n-io/n8n n8n@2.47.3",
       "repo": "n8n-io/n8n",
-      "description": "## [2.46.5](https://github.com/n8n-io/n8n/compare/n8n@2.46.4...n8n@2.46.5) (2026-11-04)\n\n\n### Bug Fixes\n\n* **AI Agent Node:** Point the deprecated agent type callout to an action that works ([#42908](https://github.com/n8n-io/n8n/issues/42908)) ([6fa6e60](https://github.com/n8n-io/n8n/commit/6fa6e60713791c885c0b97af307762120a454db2))\n* **core:** Improve credential resolution for node parameter loading ([#42755](https://github.com/n8n-io/n8n/issues/42755)) ([e4e033e](https://github.com/n8n-io/n8n",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.46.5",
-      "published_at": "2026-11-04 17:37",
-      "tag": "n8n@2.46.5",
+      "description": "## [2.47.3](https://github.com/n8n-io/n8n/compare/n8n@2.47.2...n8n@2.47.3) (2026-11-09)\n\n\n### Bug Fixes\n\n* **core:** Only allow users who can edit a workflow to own its migration findings ([#43101](https://github.com/n8n-io/n8n/issues/43101)) ([cff4342](https://github.com/n8n-io/n8n/commit/cff43429ed34fadf95d0c688d7325db8e9df5c72))\n* **core:** Retire stale scheduled tasks in repeated batches in each reaper pass ([#43096](https://github.com/n8n-io/n8n/issues/43096)) ([4ba6e50](https://github.com/",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.47.3",
+      "published_at": "2026-11-09 16:21",
+      "tag": "n8n@2.47.3",
       "source": "release"
     },
     {
