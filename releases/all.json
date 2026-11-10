@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-11-10 22:00",
+  "updated": "2026-11-11 06:40",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain==1.4.10",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain==1.4.9\n\nrelease(langchain): 1.4.10 (#41778)\nfix(langchain): keep middleware-internal model calls off the `messages` stream (#41579)\nchore(deps): patch newer-python security lock resolutions (#41585)\nfix(langchain): omit trace inputs from `ModelRefusalMiddleware` (#41689)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.10",
+      "published_at": "2026-11-11 02:37",
+      "tag": "langchain==1.4.10",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-core==1.7.7",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.3",
       "published_at": "2026-11-10 04:54",
       "tag": "langchain-fireworks==1.7.3",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-typesafe==0.0.2",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-typesafe==0.0.1\n\nrelease(typesafe): 0.0.2 (#41720)\nfeat(typesafe): accept a `classifier` in experimental middleware (#41657)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.2",
-      "published_at": "2026-11-06 06:56",
-      "tag": "langchain-typesafe==0.0.2",
       "source": "release"
     },
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.40.17-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* Improve ChatGPT CLI restore and graceful restart by @hoyyeva in https://github.com/ollama/ollama/pull/19583\r\n* cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in https://github.com/ollama/ollama/pull/19409\r\n* llm: use mmap for Vulkan integrated GPUs by @dhiltgen in https://github.com/ollama/ollama/pull/19640\r\n* rpreslar4765/Ollama by @rpreslar4765 in https://github.com/ollama/ollama/pull/17163\r\n* mlx: support concurrent generation by @dhiltgen in https://",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0",
+      "published_at": "2026-11-11 06:25",
+      "tag": "v0.40.17-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.40.16",
       "repo": "ollama/ollama",
       "description": "## Ripple Preview\r\n\r\n[Ripple Preview](https://ollama.com/library/ripple-preview) from Ricursive Intelligence is a 65B dense model built for agentic coding.\r\n\r\n```sh\r\nollama run ripple-preview\r\n```\r\n\r\n## What's Changed\r\n\r\n- Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon\r\n- `ollama launch claude` always routes Claude Code to the selected model\r\n- `ollama launch` explains when a cloud model has been retired\r\n- `/v1/responses` respects `truncation` and no longer silently truncates",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15",
       "published_at": "2026-11-04 06:52",
       "tag": "v0.40.15",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.40.14",
-      "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* `ollama launch claude` now applies the model's output token limit for Claude Code, so cloud models no longer run into the 128k default cap\r\n* Cloud web search responses on `/api/chat` are now decoded correctly, including compressed responses\r\n* OpenAI-compatible endpoints no longer override a model's packaged sampler defaults — clients that send no `temperature`/`top_p` get the model's own values instead of 1.0, matching `/api/chat`\r\n* `/v1/responses` now preserves readable ",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.14",
-      "published_at": "2026-11-03 09:40",
-      "tag": "v0.40.14",
       "source": "release"
     },
     {
