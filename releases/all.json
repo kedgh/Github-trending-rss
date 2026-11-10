@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-11-09 22:47",
+  "updated": "2026-11-10 09:00",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-fireworks==1.7.3",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-fireworks==1.7.2\n\nrelease(fireworks): 1.7.3 (#41773)\nfix(fireworks): default `max_tokens` from model profiles (#41772)\nchore(model-profiles): refresh model profile data (#41762)\nchore(model-profiles): refresh model profile data (#41745)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.3",
+      "published_at": "2026-11-10 04:54",
+      "tag": "langchain-fireworks==1.7.3",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-typesafe==0.0.2",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.6",
       "published_at": "2026-11-05 08:22",
       "tag": "langchain-core==1.7.6",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain==1.4.9",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==1.4.8\n\nrelease(langchain): 1.4.9 (#41684)\nchore(deps): require `langchain-core>=1.7.5` for refusal handling (#41682)\nfeat(core): standardize model refusal content blocks (#41582)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.9",
-      "published_at": "2026-11-05 01:07",
-      "tag": "langchain==1.4.9",
       "source": "release"
     },
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.40.16",
+      "repo": "ollama/ollama",
+      "description": "## Ripple Preview\r\n\r\n[Ripple Preview](https://ollama.com/library/ripple-preview) from Ricursive Intelligence is a 65B dense model built for agentic coding.\r\n\r\n```sh\r\nollama run ripple-preview\r\n```\r\n\r\n## What's Changed\r\n\r\n- Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon\r\n- `ollama launch claude` always routes Claude Code to the selected model\r\n- `ollama launch` explains when a cloud model has been retired\r\n- `/v1/responses` respects `truncation` and no longer silently truncates",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
+      "published_at": "2026-11-10 02:21",
+      "tag": "v0.40.16",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.40.15",
       "repo": "ollama/ollama",
       "description": "## MiMo V2.6\r\n\r\nXiaomi MiMo's [mimo-v2.6](https://ollama.com/library/mimo-v2.6), a 9B model built for code and agent workflows, is now supported in Ollama.\r\n\r\n```sh\r\nollama run mimo-v2.6\r\n```\r\n\r\n## AutoTrust decision models\r\n\r\n[AutoTrust](https://ollama.com/library/autotrust-jev) decision models read text and return choices, yes or no probabilities, and ratings for the questions you supply. The family includes 9b, 35b, and 27b-vl sizes — the 35b and 27b-vl sizes can also read images.\r\n\r\n```sh\r\no",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.14",
       "published_at": "2026-11-03 09:40",
       "tag": "v0.40.14",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.40.13",
-      "repo": "ollama/ollama",
-      "description": "## LFM3 on Linux and Windows\r\n\r\nLiquid AI's [LFM3](https://ollama.com/library/lfm3) models, including text-to-speech in [lfm3-audio](https://ollama.com/library/lfm3-audio) and [lfm3-omni](https://ollama.com/library/lfm3-omni), now run on Linux and Windows as well as Apple silicon.\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.12...v0.40.13",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13",
-      "published_at": "2026-10-29 03:55",
-      "tag": "v0.40.13",
       "source": "release"
     },
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.46",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Resolve parallel route params from the URL when predicting routes: #101477\n- Prevent prerenders from changing foreground response status: #101295\n- Release fetch cache locks when origin fetch throws synchronously: #101461\n- Don't block the dev overlay on the npm registry version check: #100628\n- Fix deployed RSC responses after static-to-partial revalidation: #101454\n- docs: enable the testing API at build and server startup: #101443\n\n### Misc Changes\n\n- turbo-tasks: pack Cel",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.46",
+      "published_at": "2026-11-10 07:50",
+      "tag": "v16.5.0-canary.46",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.4.6",
+      "repo": "vercel/next.js",
+      "description": "> [!NOTE]\r\n> This release is backporting bug fixes. It does **not** include all pending features/changes on canary.\r\n\r\n### Core Changes\r\n\r\n- [lts-active] Pin Tailwind to 4.3.3 in create-next-app and tests (#101061, #101176) (#101307)\r\n- [lts-active] Automatically compress route handler responses if not already compressed (#101280)\r\n- [lts-active] Turbopack GC fixes for dev (#100279, #100370) (#101308)\r\n\r\n### Credits\r\n\r\nHuge thanks to @lukesandberg and @eps1lon for helping!\r\n",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.6",
+      "published_at": "2026-11-10 04:27",
+      "tag": "v16.4.6",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.45",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- docs: clarify agent feedback workspace context: #101358\n\n### Misc Changes\n\n- Turbopack: support turbopackIgnore on new URL(): #99965\n- turbo-tasks-backend: release unused capacity in task storage: #101344\n- turbopack-ecmascript: store AstPathTrie nodes as parent and kind indices: #101370\n\n### Credits \n\nHuge thanks to @lukesandberg and @aurorascharff for helping!",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.45",
       "published_at": "2026-11-09 07:47",
       "tag": "v16.5.0-canary.45",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.44",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- docs: clarify refresh client cache behavior: #101160\n- Link Cache Components config errors to the migration guide: #101348\n- Bump `is-animated@3.0.19`: #101173\n\n### Example Changes\n\n- docs: use visible route locators with Cache Components: #101346\n\n### Misc Changes\n\n- docs: fix missing Roboto_Mono import in Pages Router font example: #88849\n- docs: fix crossOrigin wording: #97462\n- fix: update MDN link in route.mdx: #100753\n- docs: fix link reference for child Layout in docum",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.44",
-      "published_at": "2026-11-08 07:41",
-      "tag": "v16.5.0-canary.44",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.43",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- fix(app-render): stop prerendered Link headers from accumulating on revalidation: #100960\n- Align eslint-config-next TypeScript peer with typescript-eslint: #101247\n- Reduce header allocations in NodeNextResponse: #101225\n- [image-optimizer] Move next/image-optimizer-transform under the next/experimental namespace: #101252\n- [image-optimizer] Don't use NextConfigComplete for the imageOptimizerTransform public API: #101184\n- Improve Request Insights context menus and trace int",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.43",
-      "published_at": "2026-11-07 07:41",
-      "tag": "v16.5.0-canary.43",
       "source": "release"
     }
   ]
