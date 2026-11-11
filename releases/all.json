@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-11 06:40",
+  "updated": "2026-11-11 11:56",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.47",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- fix(next/image): detect distortion using intrinsic proportions: #101349\n- Write CPU profiles for next build static workers: #100614\n\n### Misc Changes\n\n- turbo-tasks-backend: process aggregation edge removals after additions and balancing: #100892\n- turbo-tasks-backend: track early aggregation edge removals as follower debt instead of retrying: #100873\n- Skip unused URL effects in web worker constructors: #101297\n- Turbopack: discover snapshot fixtures with custom entries: #10",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.47",
+      "published_at": "2026-11-11 07:42",
+      "tag": "v16.5.0-canary.47",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.46",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Resolve parallel route params from the URL when predicting routes: #101477\n- Prevent prerenders from changing foreground response status: #101295\n- Release fetch cache locks when origin fetch throws synchronously: #101461\n- Don't block the dev overlay on the npm registry version check: #100628\n- Fix deployed RSC responses after static-to-partial revalidation: #101454\n- docs: enable the testing API at build and server startup: #101443\n\n### Misc Changes\n\n- turbo-tasks: pack Cel",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.4.6",
       "published_at": "2026-11-10 04:27",
       "tag": "v16.4.6",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.45",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- docs: clarify agent feedback workspace context: #101358\n\n### Misc Changes\n\n- Turbopack: support turbopackIgnore on new URL(): #99965\n- turbo-tasks-backend: release unused capacity in task storage: #101344\n- turbopack-ecmascript: store AstPathTrie nodes as parent and kind indices: #101370\n\n### Credits \n\nHuge thanks to @lukesandberg and @aurorascharff for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.45",
-      "published_at": "2026-11-09 07:47",
-      "tag": "v16.5.0-canary.45",
       "source": "release"
     }
   ]
