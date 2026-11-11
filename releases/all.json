@@ -1,33 +1,33 @@
 {
   "title": "Releases",
-  "updated": "2026-11-11 21:17",
+  "updated": "2026-11-12 07:53",
   "count": 15,
   "items": [
     {
-      "name": "langchain-ai/langchain langchain==1.4.10",
+      "name": "langchain-ai/langchain langchain==1.5.0",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==1.4.9\n\nrelease(langchain): 1.4.10 (#41778)\nfix(langchain): keep middleware-internal model calls off the `messages` stream (#41579)\nchore(deps): patch newer-python security lock resolutions (#41585)\nfix(langchain): omit trace inputs from `ModelRefusalMiddleware` (#41689)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.10",
-      "published_at": "2026-11-11 02:37",
-      "tag": "langchain==1.4.10",
+      "description": "**`langchain` 1.5.0 drops support for Python 3.10**, which has reached end-of-life. The minimum supported version is now Python 3.11, and the minimum `langchain-core` version is now 1.8.0. Users on Python 3.10 will continue to resolve `langchain` 1.4.x.\n\nChanges since langchain==1.4.10\n\nrelease(langchain): 1.5.0 (#41798)\nfix(langchain): mark `ModelRouterMiddleware` as beta (#41797)\nfeat(langchain): Remove EOL'd Python 3.10 from langchain_v1 (#41301)\nfeat(langchain): add model router and auto mod",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.0",
+      "published_at": "2026-11-11 23:47",
+      "tag": "langchain==1.5.0",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-core==1.7.7",
+      "name": "langchain-ai/langchain langchain-typesafe==0.1.0",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-core==1.7.6\n\nrelease(core): 1.7.7 (#41776)\nfix(core): cap nesting depth in `load()` (#41742)\nchore(deps): patch newer-python security lock resolutions (#41585)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.7",
-      "published_at": "2026-11-10 12:08",
-      "tag": "langchain-core==1.7.7",
+      "description": "**`langchain-typesafe` 0.1.0 drops support for Python 3.10**, which has reached end-of-life. The minimum supported version is now Python 3.11, and the minimum `langchain-core` version is now 1.8.0 (`langchain` 1.5.0 for the `experimental` extra). Users on Python 3.10 will continue to resolve `langchain-typesafe` 0.0.x.\n\nChanges since langchain-typesafe==0.0.2\n\nrelease(typesafe): 0.1.0 (#41800)\nrefactor(typesafe): deprecate experimental middleware (#41768)\nfeat(typesafe): implement TypeSafeClassi",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.1.0",
+      "published_at": "2026-11-12 00:14",
+      "tag": "langchain-typesafe==0.1.0",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-fireworks==1.7.3",
+      "name": "langchain-ai/langchain langchain-core==1.8.0",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-fireworks==1.7.2\n\nrelease(fireworks): 1.7.3 (#41773)\nfix(fireworks): default `max_tokens` from model profiles (#41772)\nchore(model-profiles): refresh model profile data (#41762)\nchore(model-profiles): refresh model profile data (#41745)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.3",
-      "published_at": "2026-11-10 04:54",
-      "tag": "langchain-fireworks==1.7.3",
+      "description": "**`langchain-core` 1.8.0 drops support for Python 3.10**, which has reached end-of-life. The minimum supported version is now Python 3.11. Users on Python 3.10 will continue to resolve `langchain-core` 1.7.x.\n\nChanges since langchain-core==1.7.7\n\nrelease(core): 1.8.0 (#41796)\nfeat(core): Remove EOL Python 3.10 support (#41267)\nfeat(core): add decision models (#41765)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.0",
+      "published_at": "2026-11-11 23:22",
+      "tag": "langchain-core==1.8.0",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.48",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Prerender route handlers that await immediates: #101593\n- Fix orphaned detached telemetry flush processes: #101588\n- Upgrade React from `e84e1492-20261031` to `1620f7b9-20261111`: #101587\n- docs: clarify tag invalidation client effects: #101504\n- Keep dev overlay errors across no-op webpack hot updates: #101532\n\n### Misc Changes\n\n- Turbopack: don't grow effect vectors inside the analyzer arena: #101480\n- Fix metadata route selection with `--debug-build-paths`: #101585\n- eval:",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.48",
+      "published_at": "2026-11-12 07:45",
+      "tag": "v16.5.0-canary.48",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.47",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- fix(next/image): detect distortion using intrinsic proportions: #101349\n- Write CPU profiles for next build static workers: #100614\n\n### Misc Changes\n\n- turbo-tasks-backend: process aggregation edge removals after additions and balancing: #100892\n- turbo-tasks-backend: track early aggregation edge removals as follower debt instead of retrying: #100873\n- Skip unused URL effects in web worker constructors: #101297\n- Turbopack: discover snapshot fixtures with custom entries: #10",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.46",
       "published_at": "2026-11-10 07:50",
       "tag": "v16.5.0-canary.46",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.4.6",
-      "repo": "vercel/next.js",
-      "description": "> [!NOTE]\r\n> This release is backporting bug fixes. It does **not** include all pending features/changes on canary.\r\n\r\n### Core Changes\r\n\r\n- [lts-active] Pin Tailwind to 4.3.3 in create-next-app and tests (#101061, #101176) (#101307)\r\n- [lts-active] Automatically compress route handler responses if not already compressed (#101280)\r\n- [lts-active] Turbopack GC fixes for dev (#100279, #100370) (#101308)\r\n\r\n### Credits\r\n\r\nHuge thanks to @lukesandberg and @eps1lon for helping!\r\n",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.6",
-      "published_at": "2026-11-10 04:27",
-      "tag": "v16.4.6",
       "source": "release"
     }
   ]
