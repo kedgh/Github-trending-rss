@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-12 13:04",
+  "updated": "2026-11-12 22:21",
   "count": 15,
   "items": [
     {
@@ -87,28 +87,28 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.47.4](https://github.com/n8n-io/n8n/compare/n8n@2.47.3...n8n@2.47.4) (2026-11-11)\n\n\n### Bug Fixes\n\n* **core:** Keep expression transfers working after built-in replacements ([#43360](https://github.com/n8n-io/n8n/issues/43360)) ([b110abb](https://github.com/n8n-io/n8n/commit/b110abb47e9286c57c0452746de8ccb2b35e0f29))\n* **core:** Keep observational memory running after a user stops a HITL card ([#43225](https://github.com/n8n-io/n8n/issues/43225)) ([353a342](https://github.com/n8n-io/n8n/co",
+      "description": "## [2.47.5](https://github.com/n8n-io/n8n/compare/n8n@2.47.4...n8n@2.47.5) (2026-11-12)\n\n\n### Bug Fixes\n\n* **API:** Reject edits to read-only credential nodes in the Public API ([#43555](https://github.com/n8n-io/n8n/issues/43555)) ([404b3df](https://github.com/n8n-io/n8n/commit/404b3dfd1e427f918e1de50eb41cfbfa39f624af))\n* **editor:** Align animated node border corners ([#43549](https://github.com/n8n-io/n8n/issues/43549)) ([1fd6894](https://github.com/n8n-io/n8n/commit/1fd68944f11881dc460278418",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-11-11 16:40",
+      "published_at": "2026-11-12 16:34",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.47.4",
+      "name": "n8n-io/n8n n8n@2.47.5",
       "repo": "n8n-io/n8n",
-      "description": "## [2.47.4](https://github.com/n8n-io/n8n/compare/n8n@2.47.3...n8n@2.47.4) (2026-11-11)\n\n\n### Bug Fixes\n\n* **core:** Keep expression transfers working after built-in replacements ([#43360](https://github.com/n8n-io/n8n/issues/43360)) ([b110abb](https://github.com/n8n-io/n8n/commit/b110abb47e9286c57c0452746de8ccb2b35e0f29))\n* **core:** Keep observational memory running after a user stops a HITL card ([#43225](https://github.com/n8n-io/n8n/issues/43225)) ([353a342](https://github.com/n8n-io/n8n/co",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.47.4",
-      "published_at": "2026-11-11 16:40",
-      "tag": "n8n@2.47.4",
+      "description": "## [2.47.5](https://github.com/n8n-io/n8n/compare/n8n@2.47.4...n8n@2.47.5) (2026-11-12)\n\n\n### Bug Fixes\n\n* **API:** Reject edits to read-only credential nodes in the Public API ([#43555](https://github.com/n8n-io/n8n/issues/43555)) ([404b3df](https://github.com/n8n-io/n8n/commit/404b3dfd1e427f918e1de50eb41cfbfa39f624af))\n* **editor:** Align animated node border corners ([#43549](https://github.com/n8n-io/n8n/issues/43549)) ([1fd6894](https://github.com/n8n-io/n8n/commit/1fd68944f11881dc460278418",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.47.5",
+      "published_at": "2026-11-12 16:34",
+      "tag": "n8n@2.47.5",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.94",
+      "name": "n8n-io/n8n n8n@1.123.95",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.94](https://github.com/n8n-io/n8n/compare/n8n@1.123.93...n8n@1.123.94) (2026-11-11)\n\n\n### Bug Fixes\n\n* **core:** Keep retry backoff when a trigger fails right after reactivation ([#43178](https://github.com/n8n-io/n8n/issues/43178)) ([4be543b](https://github.com/n8n-io/n8n/commit/4be543b5c5d897da28cc8b12450ab2904bd0c38b))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/43457?utm_source=github\" target=\"_blank\" rel=\"noopener norefer",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.94",
-      "published_at": "2026-11-11 17:11",
-      "tag": "n8n@1.123.94",
+      "description": "## [1.123.95](https://github.com/n8n-io/n8n/compare/n8n@1.123.94...n8n@1.123.95) (2026-11-12)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/43600?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/revie",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.95",
+      "published_at": "2026-11-12 16:44",
+      "tag": "n8n@1.123.95",
       "source": "release"
     },
     {
