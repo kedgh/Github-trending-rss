@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-13 12:20",
+  "updated": "2026-11-13 21:41",
   "count": 15,
   "items": [
     {
@@ -87,28 +87,28 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.47.5](https://github.com/n8n-io/n8n/compare/n8n@2.47.4...n8n@2.47.5) (2026-11-12)\n\n\n### Bug Fixes\n\n* **API:** Reject edits to read-only credential nodes in the Public API ([#43555](https://github.com/n8n-io/n8n/issues/43555)) ([404b3df](https://github.com/n8n-io/n8n/commit/404b3dfd1e427f918e1de50eb41cfbfa39f624af))\n* **editor:** Align animated node border corners ([#43549](https://github.com/n8n-io/n8n/issues/43549)) ([1fd6894](https://github.com/n8n-io/n8n/commit/1fd68944f11881dc460278418",
+      "description": "## [2.47.7](https://github.com/n8n-io/n8n/compare/n8n@2.47.6...n8n@2.47.7) (2026-11-13)\n\n\n### Bug Fixes\n\n* **core:** Stop redacting executions that use global credentials ([#43776](https://github.com/n8n-io/n8n/issues/43776)) ([c067170](https://github.com/n8n-io/n8n/commit/c0671702ca19e108652e5ac0e289e32e0a33e5e4))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/43784?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-imag",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-11-12 16:34",
+      "published_at": "2026-11-13 17:44",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.47.5",
+      "name": "n8n-io/n8n n8n@2.47.7",
       "repo": "n8n-io/n8n",
-      "description": "## [2.47.5](https://github.com/n8n-io/n8n/compare/n8n@2.47.4...n8n@2.47.5) (2026-11-12)\n\n\n### Bug Fixes\n\n* **API:** Reject edits to read-only credential nodes in the Public API ([#43555](https://github.com/n8n-io/n8n/issues/43555)) ([404b3df](https://github.com/n8n-io/n8n/commit/404b3dfd1e427f918e1de50eb41cfbfa39f624af))\n* **editor:** Align animated node border corners ([#43549](https://github.com/n8n-io/n8n/issues/43549)) ([1fd6894](https://github.com/n8n-io/n8n/commit/1fd68944f11881dc460278418",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.47.5",
-      "published_at": "2026-11-12 16:34",
-      "tag": "n8n@2.47.5",
+      "description": "## [2.47.7](https://github.com/n8n-io/n8n/compare/n8n@2.47.6...n8n@2.47.7) (2026-11-13)\n\n\n### Bug Fixes\n\n* **core:** Stop redacting executions that use global credentials ([#43776](https://github.com/n8n-io/n8n/issues/43776)) ([c067170](https://github.com/n8n-io/n8n/commit/c0671702ca19e108652e5ac0e289e32e0a33e5e4))\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/43784?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-imag",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.47.7",
+      "published_at": "2026-11-13 17:44",
+      "tag": "n8n@2.47.7",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.95",
+      "name": "n8n-io/n8n n8n@2.47.6",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.95](https://github.com/n8n-io/n8n/compare/n8n@1.123.94...n8n@1.123.95) (2026-11-12)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/43600?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/revie",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.95",
-      "published_at": "2026-11-12 16:44",
-      "tag": "n8n@1.123.95",
+      "description": "## [2.47.6](https://github.com/n8n-io/n8n/compare/n8n@2.47.5...n8n@2.47.6) (2026-11-13)\n\n\n### Bug Fixes\n\n* **core:** Keep trusted-source cache keys in one Redis cluster slot ([#43627](https://github.com/n8n-io/n8n/issues/43627)) ([2d95724](https://github.com/n8n-io/n8n/commit/2d95724b7d8f2befcb9891af795f7d9b25941577))\n* **core:** Let agents turn off prompt caching for endpoints that reject the cache fields ([#43673](https://github.com/n8n-io/n8n/issues/43673)) ([400fb98](https://github.com/n8n-i",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.47.6",
+      "published_at": "2026-11-13 16:24",
+      "tag": "n8n@2.47.6",
       "source": "release"
     },
     {
