@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-13 07:00",
+  "updated": "2026-11-13 12:20",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.49",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Optimize NFT base path mapping: #101151\n- Fix `ImageResponse` prerendering with `--debug-prerender`: #101678\n- Upgrade React from `1620f7b9-20261111` to `df6aa4ec-20261112`: #101673\n- Fix ESLint link rule for constant and mapped hrefs: #101641\n- Complete metadata references and fix descriptor resolution: #101547\n- docs: clarify dynamicParams with Cache Components: #100249\n- Test Proxy Link headers across cache revalidation: #101620\n- Remove obsolete prerender abort workaround",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.49",
+      "published_at": "2026-11-13 07:46",
+      "tag": "v16.5.0-canary.49",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.48",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Prerender route handlers that await immediates: #101593\n- Fix orphaned detached telemetry flush processes: #101588\n- Upgrade React from `e84e1492-20261031` to `1620f7b9-20261111`: #101587\n- docs: clarify tag invalidation client effects: #101504\n- Keep dev overlay errors across no-op webpack hot updates: #101532\n\n### Misc Changes\n\n- Turbopack: don't grow effect vectors inside the analyzer arena: #101480\n- Fix metadata route selection with `--debug-build-paths`: #101585\n- eval:",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.47",
       "published_at": "2026-11-11 07:42",
       "tag": "v16.5.0-canary.47",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.46",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Resolve parallel route params from the URL when predicting routes: #101477\n- Prevent prerenders from changing foreground response status: #101295\n- Release fetch cache locks when origin fetch throws synchronously: #101461\n- Don't block the dev overlay on the npm registry version check: #100628\n- Fix deployed RSC responses after static-to-partial revalidation: #101454\n- docs: enable the testing API at build and server startup: #101443\n\n### Misc Changes\n\n- turbo-tasks: pack Cel",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.46",
-      "published_at": "2026-11-10 07:50",
-      "tag": "v16.5.0-canary.46",
       "source": "release"
     }
   ]
