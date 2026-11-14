@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-14 12:16",
+  "updated": "2026-11-14 20:45",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.50",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Enable turbopackMinifyBeforeChunking by default on canary releases: #101113\n- Turbopack: write smaller/faster client reference manifests: #101312\n- Generate managed agent instructions on next dev and respect opt-outs: #101746\n- fix(next/image): check the LCP element loading state: #101737\n- Run render error reporting outside the work-unit scope: #101597\n- Fix RSC navigation and runtime prefetches in `next start`: #101357\n- Expose full-route RSC prerender classification to ada",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.50",
+      "published_at": "2026-11-14 16:36",
+      "tag": "v16.5.0-canary.50",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.49",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Optimize NFT base path mapping: #101151\n- Fix `ImageResponse` prerendering with `--debug-prerender`: #101678\n- Upgrade React from `1620f7b9-20261111` to `df6aa4ec-20261112`: #101673\n- Fix ESLint link rule for constant and mapped hrefs: #101641\n- Complete metadata references and fix descriptor resolution: #101547\n- docs: clarify dynamicParams with Cache Components: #100249\n- Test Proxy Link headers across cache revalidation: #101620\n- Remove obsolete prerender abort workaround",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.48",
       "published_at": "2026-11-12 07:45",
       "tag": "v16.5.0-canary.48",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.47",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- fix(next/image): detect distortion using intrinsic proportions: #101349\n- Write CPU profiles for next build static workers: #100614\n\n### Misc Changes\n\n- turbo-tasks-backend: process aggregation edge removals after additions and balancing: #100892\n- turbo-tasks-backend: track early aggregation edge removals as follower debt instead of retrying: #100873\n- Skip unused URL effects in web worker constructors: #101297\n- Turbopack: discover snapshot fixtures with custom entries: #10",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.47",
-      "published_at": "2026-11-11 07:42",
-      "tag": "v16.5.0-canary.47",
       "source": "release"
     }
   ]
