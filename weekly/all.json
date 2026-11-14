@@ -1,26 +1,26 @@
 {
   "title": "GitHub All Weekly Trending",
-  "updated": "2026-11-14 20:45",
-  "count": 15,
+  "updated": "2026-11-15 05:50",
+  "count": 11,
   "items": [
+    {
+      "name": "meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "stars_text": "13,375 stars this week",
+      "stars_num": 13375,
+      "total_stars": "28082",
+      "url": "https://github.com/meta/astryx",
+      "source": "trending:weekly"
+    },
     {
       "name": "sherlock-project/sherlock",
       "description": "Hunt down social media accounts by username across social networks",
       "language": "Python",
       "stars_text": "13,364 stars this week",
       "stars_num": 13364,
-      "total_stars": "111498",
+      "total_stars": "111730",
       "url": "https://github.com/sherlock-project/sherlock",
-      "source": "trending:weekly"
-    },
-    {
-      "name": "cloudflare/security-audit-skill",
-      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "language": "JavaScript",
-      "stars_text": "8,829 stars this week",
-      "stars_num": 8829,
-      "total_stars": "72246",
-      "url": "https://github.com/cloudflare/security-audit-skill",
       "source": "trending:weekly"
     },
     {
@@ -29,18 +29,8 @@
       "language": "TypeScript",
       "stars_text": "7,763 stars this week",
       "stars_num": 7763,
-      "total_stars": "22512",
+      "total_stars": "22730",
       "url": "https://github.com/milind-soni/OpenMausBot",
-      "source": "trending:weekly"
-    },
-    {
-      "name": "mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "language": "Shell",
-      "stars_text": "7,599 stars this week",
-      "stars_num": 7599,
-      "total_stars": "324153",
-      "url": "https://github.com/mattpocock/skills",
       "source": "trending:weekly"
     },
     {
@@ -49,7 +39,7 @@
       "language": "Python",
       "stars_text": "6,169 stars this week",
       "stars_num": 6169,
-      "total_stars": "194363",
+      "total_stars": "194578",
       "url": "https://github.com/anthropics/skills",
       "source": "trending:weekly"
     },
@@ -59,18 +49,8 @@
       "language": "Python",
       "stars_text": "5,560 stars this week",
       "stars_num": 5560,
-      "total_stars": "18844",
+      "total_stars": "19121",
       "url": "https://github.com/google/elephant-goldfish-model",
-      "source": "trending:weekly"
-    },
-    {
-      "name": "vercel-labs/agent-desktop",
-      "description": "Computer use CLI for AI agents",
-      "language": "Rust",
-      "stars_text": "5,408 stars this week",
-      "stars_num": 5408,
-      "total_stars": "23576",
-      "url": "https://github.com/vercel-labs/agent-desktop",
       "source": "trending:weekly"
     },
     {
@@ -79,18 +59,8 @@
       "language": "Rust",
       "stars_text": "4,360 stars this week",
       "stars_num": 4360,
-      "total_stars": "50952",
+      "total_stars": "51159",
       "url": "https://github.com/vercel-labs/agent-browser",
-      "source": "trending:weekly"
-    },
-    {
-      "name": "NVIDIA/auto-ontology",
-      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
-      "language": "Python",
-      "stars_text": "4,108 stars this week",
-      "stars_num": 4108,
-      "total_stars": "12717",
-      "url": "https://github.com/NVIDIA/auto-ontology",
       "source": "trending:weekly"
     },
     {
@@ -99,7 +69,7 @@
       "language": "Python",
       "stars_text": "3,778 stars this week",
       "stars_num": 3778,
-      "total_stars": "72093",
+      "total_stars": "72238",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "source": "trending:weekly"
     },
@@ -109,18 +79,8 @@
       "language": "JavaScript",
       "stars_text": "3,502 stars this week",
       "stars_num": 3502,
-      "total_stars": "117363",
+      "total_stars": "117546",
       "url": "https://github.com/addyosmani/agent-skills",
-      "source": "trending:weekly"
-    },
-    {
-      "name": "zed-industries/zed",
-      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
-      "language": "Rust",
-      "stars_text": "2,117 stars this week",
-      "stars_num": 2117,
-      "total_stars": "95017",
-      "url": "https://github.com/zed-industries/zed",
       "source": "trending:weekly"
     },
     {
@@ -129,7 +89,7 @@
       "language": "C++",
       "stars_text": "1,764 stars this week",
       "stars_num": 1764,
-      "total_stars": "17929",
+      "total_stars": "17971",
       "url": "https://github.com/google-deepmind/mujoco",
       "source": "trending:weekly"
     },
@@ -139,18 +99,18 @@
       "language": "Python",
       "stars_text": "1,731 stars this week",
       "stars_num": 1731,
-      "total_stars": "20918",
+      "total_stars": "20967",
       "url": "https://github.com/anthropics/claude-quickstarts",
       "source": "trending:weekly"
     },
     {
-      "name": "lobehub/lobehub",
-      "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
+      "name": "backnotprop/plannotator",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
-      "stars_text": "1,126 stars this week",
-      "stars_num": 1126,
-      "total_stars": "85516",
-      "url": "https://github.com/lobehub/lobehub",
+      "stars_text": "511 stars this week",
+      "stars_num": 511,
+      "total_stars": "11047",
+      "url": "https://github.com/backnotprop/plannotator",
       "source": "trending:weekly"
     }
   ]
