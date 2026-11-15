@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-15 05:50",
+  "updated": "2026-11-15 12:00",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.51",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- turbo-tasks-backend: release the owner task before the reader side of keyed refinement: #101732\n\n### Credits \n\nHuge thanks to @sokra for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.51",
+      "published_at": "2026-11-15 07:43",
+      "tag": "v16.5.0-canary.51",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.50",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Enable turbopackMinifyBeforeChunking by default on canary releases: #101113\n- Turbopack: write smaller/faster client reference manifests: #101312\n- Generate managed agent instructions on next dev and respect opt-outs: #101746\n- fix(next/image): check the LCP element loading state: #101737\n- Run render error reporting outside the work-unit scope: #101597\n- Fix RSC navigation and runtime prefetches in `next start`: #101357\n- Expose full-route RSC prerender classification to ada",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.49",
       "published_at": "2026-11-13 07:46",
       "tag": "v16.5.0-canary.49",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.48",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Prerender route handlers that await immediates: #101593\n- Fix orphaned detached telemetry flush processes: #101588\n- Upgrade React from `e84e1492-20261031` to `1620f7b9-20261111`: #101587\n- docs: clarify tag invalidation client effects: #101504\n- Keep dev overlay errors across no-op webpack hot updates: #101532\n\n### Misc Changes\n\n- Turbopack: don't grow effect vectors inside the analyzer arena: #101480\n- Fix metadata route selection with `--debug-build-paths`: #101585\n- eval:",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.48",
-      "published_at": "2026-11-12 07:45",
-      "tag": "v16.5.0-canary.48",
       "source": "release"
     }
   ]
