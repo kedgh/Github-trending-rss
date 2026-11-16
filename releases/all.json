@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-16 06:19",
+  "updated": "2026-11-16 12:00",
   "count": 15,
   "items": [
     {
@@ -13,21 +13,21 @@
       "source": "release"
     },
     {
+      "name": "langchain-ai/langchain langchain-mistralai==1.2.0",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-mistralai==1.1.6\n\nfix(mistralai): fix streaming behavior for reasoning models (#41887)\nfix(groq,mistralai,xai): bump deps (#41884)\nchore(model-profiles): refresh model profile data (#41861)\nrelease(mistralai): 1.2.0 (#41859)\nfeat(mistralai): route `ChatMistralAI` through LangSmith gateway (#41840)\nchore(model-profiles): refresh model profile data (#41828)\nfeat(partners): Remove EOL'd Python 3.10 from partner packages (#41268)\nchore(deps): patch newer-python security lock ",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.2.0",
+      "published_at": "2026-11-16 06:38",
+      "tag": "langchain-mistralai==1.2.0",
+      "source": "release"
+    },
+    {
       "name": "langchain-ai/langchain langchain-groq==1.2.0",
       "repo": "langchain-ai/langchain",
       "description": "Changes since langchain-groq==1.1.3\n\nfix(groq): specify reasoning_effort in integration tests (#41886)\nfix(groq,mistralai,xai): bump deps (#41884)\nrelease(groq): 1.2.0 (#41856)\nfeat(groq): route `ChatGroq` through LangSmith gateway (#41837)\nfeat(partners): Remove EOL'd Python 3.10 from partner packages (#41268)\nchore(model-profiles): refresh model profile data (#41432)\nchore(infra): relax third-party dependency upper bounds (#41407)\nchore(model-profiles): refresh model profile data (#41354)\nchor",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.0",
       "published_at": "2026-11-16 05:49",
       "tag": "langchain-groq==1.2.0",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-deepseek==1.2.0",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-deepseek==1.1.1\n\nrelease(deepseek): 1.2.0 (#41858)\nfeat(deepseek): route `ChatDeepSeek` through LangSmith gateway (#41839)\nfeat(partners): Remove EOL'd Python 3.10 from partner packages (#41268)\nchore(infra): relax third-party dependency upper bounds (#41407)\nchore(deps): bump certifi from 2025.8.3 to 2026.10.19 in /libs/partners/deepseek (#41389)\nchore(model-profiles): refresh model profile data (#41325)\nchore(model-profiles): refresh model profile data (#41283)\nfix: fix",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.2.0",
-      "published_at": "2026-11-16 05:34",
-      "tag": "langchain-deepseek==1.2.0",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.52",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Remove stale .next/dev/types in next typegen and next build: #100612\n- Simplify the code gen that adds deployment ids conditionally: #101785\n\n### Misc Changes\n\n- turbo-tasks-backend: store collectibles dependents in an EdgeSet: #101766\n- turbo-persistence: cover block lengths in CRCs: #100322\n- turbo-persistence: keep used keys across intermediate merges: #101796\n\n### Credits \n\nHuge thanks to @lukesandberg and @sokra for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.52",
+      "published_at": "2026-11-16 07:49",
+      "tag": "v16.5.0-canary.52",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.51",
       "repo": "vercel/next.js",
       "description": "### Misc Changes\n\n- turbo-tasks-backend: release the owner task before the reader side of keyed refinement: #101732\n\n### Credits \n\nHuge thanks to @sokra for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.50",
       "published_at": "2026-11-14 16:36",
       "tag": "v16.5.0-canary.50",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.49",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Optimize NFT base path mapping: #101151\n- Fix `ImageResponse` prerendering with `--debug-prerender`: #101678\n- Upgrade React from `1620f7b9-20261111` to `df6aa4ec-20261112`: #101673\n- Fix ESLint link rule for constant and mapped hrefs: #101641\n- Complete metadata references and fix descriptor resolution: #101547\n- docs: clarify dynamicParams with Cache Components: #100249\n- Test Proxy Link headers across cache revalidation: #101620\n- Remove obsolete prerender abort workaround",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.49",
-      "published_at": "2026-11-13 07:46",
-      "tag": "v16.5.0-canary.49",
       "source": "release"
     }
   ]
