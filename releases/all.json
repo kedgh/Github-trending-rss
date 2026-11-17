@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-16 22:22",
+  "updated": "2026-11-17 09:20",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.40.17-rc0",
+      "name": "ollama/ollama v0.40.17-rc1",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* Improve ChatGPT CLI restore and graceful restart by @hoyyeva in https://github.com/ollama/ollama/pull/19583\r\n* cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in https://github.com/ollama/ollama/pull/19409\r\n* llm: use mmap for Vulkan integrated GPUs by @dhiltgen in https://github.com/ollama/ollama/pull/19640\r\n* rpreslar4765/Ollama by @rpreslar4765 in https://github.com/ollama/ollama/pull/17163\r\n* mlx: support concurrent generation by @dhiltgen in https://",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc1",
       "published_at": "2026-11-11 06:25",
-      "tag": "v0.40.17-rc0",
+      "tag": "v0.40.17-rc1",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.53",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Lint against new `as any` casts and require a reason to disable it: #101255\n- [no-unsafe-inline] Stop inlining the Turbopack chunk group bootstrap: #97574\n- Omit required-server-files from the Node.js proxy adapter output: #101865\n- Fix duplicate useServerInsertedHTML output in prerendered HTML with cacheComponents: #101147\n- Add experimental native Go proxy support: #101464\n- Point to environment variables in conflicting bundler error: #101826\n- Tolerate dangling symlinks wh",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.53",
+      "published_at": "2026-11-17 07:44",
+      "tag": "v16.5.0-canary.53",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.52",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Remove stale .next/dev/types in next typegen and next build: #100612\n- Simplify the code gen that adds deployment ids conditionally: #101785\n\n### Misc Changes\n\n- turbo-tasks-backend: store collectibles dependents in an EdgeSet: #101766\n- turbo-persistence: cover block lengths in CRCs: #100322\n- turbo-persistence: keep used keys across intermediate merges: #101796\n\n### Credits \n\nHuge thanks to @lukesandberg and @sokra for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.51",
       "published_at": "2026-11-15 07:43",
       "tag": "v16.5.0-canary.51",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.50",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Enable turbopackMinifyBeforeChunking by default on canary releases: #101113\n- Turbopack: write smaller/faster client reference manifests: #101312\n- Generate managed agent instructions on next dev and respect opt-outs: #101746\n- fix(next/image): check the LCP element loading state: #101737\n- Run render error reporting outside the work-unit scope: #101597\n- Fix RSC navigation and runtime prefetches in `next start`: #101357\n- Expose full-route RSC prerender classification to ada",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.50",
-      "published_at": "2026-11-14 16:36",
-      "tag": "v16.5.0-canary.50",
       "source": "release"
     }
   ]
