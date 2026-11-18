@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-18 08:16",
+  "updated": "2026-11-18 22:51",
   "count": 15,
   "items": [
     {
@@ -31,6 +31,15 @@
       "source": "release"
     },
     {
+      "name": "langgenius/dify 1.20.0",
+      "repo": "langgenius/dify",
+      "description": "**Dify 1.20.0 keeps your traces flowing and your knowledge bases safer.** Export traces to any OpenTelemetry collector, keep Langfuse working after its legacy ingestion endpoint retirement, and scan uploaded knowledge files for malware before they are indexed. Chatflows can show Agent tool activity as it happens, and personal access tokens let scripts and agents call the Dify OpenAPI on your behalf. The bundled plugin daemon is upgraded to **0.6.15-local**.\r\n\r\n[New Features](#user-content-new-fe",
+      "url": "https://github.com/langgenius/dify/releases/tag/1.20.0",
+      "published_at": "2026-11-18 17:55",
+      "tag": "1.20.0",
+      "source": "release"
+    },
+    {
       "name": "langgenius/dify 1.19.0",
       "repo": "langgenius/dify",
       "description": "**Dify 1.19.0 brings nested workflow tracing to your observability tools.** Follow a workflow into the Workflow Tools it calls, inspect the steps inside each invocation, and keep the LLM context alongside the execution tree.\r\n\r\nThis release also makes Workflow Tools portable with App packages, adds Skill Hub automation, and makes Agent files easier to upload and preview. The bundled plugin daemon is upgraded to **0.6.14-local**.\r\n\r\n[Release highlights](#user-content-release-highlights) · [Upgrad",
@@ -46,15 +55,6 @@
       "url": "https://github.com/langgenius/dify/releases/tag/1.18.0",
       "published_at": "2026-10-23 14:33",
       "tag": "1.18.0",
-      "source": "release"
-    },
-    {
-      "name": "langgenius/dify 1.17.1",
-      "repo": "langgenius/dify",
-      "description": "> [!WARNING]\r\n> **Self-hosted deployments using the bundled Weaviate must complete a manual, staged upgrade before starting 1.17.1.** The bundled Weaviate server moves from `1.27.0` to `1.39.2` — 12 minor versions — and skipping minors **is unsupported**. Pulling and restarting can silently and permanently break vector search. See Upgrade Guide below. Fresh deployments, external Weaviate, and other vector stores are unaffected.\r\n\r\n### New Features\r\n\r\n**Dataset-Scoped Knowledge Base API Keys**\r\n-",
-      "url": "https://github.com/langgenius/dify/releases/tag/1.17.1",
-      "published_at": "2026-09-10 18:04",
-      "tag": "1.17.1",
       "source": "release"
     },
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@3.3.0",
+      "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "<!-- release-prerelease -->\n# [3.3.0](https://github.com/n8n-io/n8n/compare/n8n@2.48.0...n8n@3.3.0) (2026-11-17)\n\n\n### Bug Fixes\n\n* Accept custom OpenAI-compatible model IDs in v2 ([#43550](https://github.com/n8n-io/n8n/issues/43550)) ([5c7815a](https://github.com/n8n-io/n8n/commit/5c7815ab9a63d65895bb4f301472d1272a8b3cd7))\n* Add context to tool-call errors ([#42474](https://github.com/n8n-io/n8n/issues/42474)) ([71941da](https://github.com/n8n-io/n8n/commit/71941da5b0ab89ae6135e20636e9a3fd0cc15",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%403.3.0",
-      "published_at": "2026-11-17 17:46",
-      "tag": "n8n@3.3.0",
+      "description": "## [2.48.5](https://github.com/n8n-io/n8n/compare/n8n@2.48.4...n8n@2.48.5) (2026-11-18)\n\n\n### Bug Fixes\n\n* **AI Agent Node:** Keep tool-call history separate for each input item ([#44044](https://github.com/n8n-io/n8n/issues/44044)) ([4f16701](https://github.com/n8n-io/n8n/commit/4f167012aff903e1b85da086f1ad13891456c67c))\n* **AI Agent Node:** Stop adding newlines between streamed text chunks ([#43822](https://github.com/n8n-io/n8n/issues/43822)) ([19d9fa4](https://github.com/n8n-io/n8n/commit/19",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-11-18 16:50",
+      "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.49.0",
+      "name": "n8n-io/n8n n8n@2.48.5",
       "repo": "n8n-io/n8n",
-      "description": "# [2.49.0](https://github.com/n8n-io/n8n/compare/n8n@2.48.0...n8n@2.49.0) (2026-11-17)\n\n\n### Bug Fixes\n\n* Accept custom OpenAI-compatible model IDs in v2 ([#43550](https://github.com/n8n-io/n8n/issues/43550)) ([5c7815a](https://github.com/n8n-io/n8n/commit/5c7815ab9a63d65895bb4f301472d1272a8b3cd7))\n* Add context to tool-call errors ([#42474](https://github.com/n8n-io/n8n/issues/42474)) ([71941da](https://github.com/n8n-io/n8n/commit/71941da5b0ab89ae6135e20636e9a3fd0cc15456))\n* **AI Agent Node:**",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.49.0",
-      "published_at": "2026-11-17 17:40",
-      "tag": "n8n@2.49.0",
+      "description": "## [2.48.5](https://github.com/n8n-io/n8n/compare/n8n@2.48.4...n8n@2.48.5) (2026-11-18)\n\n\n### Bug Fixes\n\n* **AI Agent Node:** Keep tool-call history separate for each input item ([#44044](https://github.com/n8n-io/n8n/issues/44044)) ([4f16701](https://github.com/n8n-io/n8n/commit/4f167012aff903e1b85da086f1ad13891456c67c))\n* **AI Agent Node:** Stop adding newlines between streamed text chunks ([#43822](https://github.com/n8n-io/n8n/issues/43822)) ([19d9fa4](https://github.com/n8n-io/n8n/commit/19",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.48.5",
+      "published_at": "2026-11-18 16:50",
+      "tag": "n8n@2.48.5",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n beta",
+      "name": "n8n-io/n8n n8n@1.123.98",
       "repo": "n8n-io/n8n",
-      "description": "# [2.49.0](https://github.com/n8n-io/n8n/compare/n8n@2.48.0...n8n@2.49.0) (2026-11-17)\n\n\n### Bug Fixes\n\n* Accept custom OpenAI-compatible model IDs in v2 ([#43550](https://github.com/n8n-io/n8n/issues/43550)) ([5c7815a](https://github.com/n8n-io/n8n/commit/5c7815ab9a63d65895bb4f301472d1272a8b3cd7))\n* Add context to tool-call errors ([#42474](https://github.com/n8n-io/n8n/issues/42474)) ([71941da](https://github.com/n8n-io/n8n/commit/71941da5b0ab89ae6135e20636e9a3fd0cc15456))\n* **AI Agent Node:**",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-11-17 17:40",
-      "tag": "beta",
+      "description": "## [1.123.98](https://github.com/n8n-io/n8n/compare/n8n@1.123.97...n8n@1.123.98) (2026-11-18)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/44336?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/revie",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.98",
+      "published_at": "2026-11-18 17:38",
+      "tag": "n8n@1.123.98",
       "source": "release"
     },
     {
