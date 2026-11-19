@@ -1,8 +1,17 @@
 {
   "title": "Releases",
-  "updated": "2026-11-19 07:44",
+  "updated": "2026-11-19 13:15",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-openai==1.8.3",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-openai==1.8.2\n\nrelease(openai): 1.8.3 (#41950)\nfix(openai): enable Codex prompt caching on GPT-6.2 (#41949)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.3",
+      "published_at": "2026-11-19 08:38",
+      "tag": "langchain-openai==1.8.3",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain==1.5.2",
       "repo": "langchain-ai/langchain",
@@ -19,15 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.1",
       "published_at": "2026-11-18 23:45",
       "tag": "langchain==1.5.1",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-xai==1.4.1",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-xai==1.4.0\n\nrelease(xai): 1.4.1 (#41931)\nfeat(xai): send `langsmith_gateway` headers from the client (#41904)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.4.1",
-      "published_at": "2026-11-19 01:29",
-      "tag": "langchain-xai==1.4.1",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.55",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- fix(ts-plugin): accept quoted prefetch segment config values: #101895\n- Fix Navigation Inspector dark mode contrast: #102008\n- Turbopack: add max_chunk_size to production chunking: #100478\n- refactor: Move minimalMode checks earlier in conditionals: #102004\n- Upgrade React from `df6aa4ec-20261112` to `a8342585-20261117`: #101942\n- Refactor durableUseCacheEntries configuration: #101930\n- Remove unused `didStripLocale` request meta: #101999\n- Widen Turbopack maxDuration to u64:",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.55",
+      "published_at": "2026-11-19 07:45",
+      "tag": "v16.5.0-canary.55",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.54",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Reject the experimental testing API opt-in without Cache Components: #101952\n- Preserve CSP nonces on static fallback bootstrap scripts: #101953\n- Turbopack: separate file tracing from NFT manifest emission, add dev flag: #101941\n- Clarify the agent handoff for worktree upgrades: #101939\n- refactor: Derive whether PPR is enabled from cacheComponents config in base-server: #101936\n- refactor: Derive whether PPR is enabled from cacheComponents config: #101929\n- perf(build): res",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.53",
       "published_at": "2026-11-17 07:44",
       "tag": "v16.5.0-canary.53",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.52",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Remove stale .next/dev/types in next typegen and next build: #100612\n- Simplify the code gen that adds deployment ids conditionally: #101785\n\n### Misc Changes\n\n- turbo-tasks-backend: store collectibles dependents in an EdgeSet: #101766\n- turbo-persistence: cover block lengths in CRCs: #100322\n- turbo-persistence: keep used keys across intermediate merges: #101796\n\n### Credits \n\nHuge thanks to @lukesandberg and @sokra for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.52",
-      "published_at": "2026-11-16 07:49",
-      "tag": "v16.5.0-canary.52",
       "source": "release"
     }
   ]
