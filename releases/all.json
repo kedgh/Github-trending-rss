@@ -1,33 +1,33 @@
 {
   "title": "Releases",
-  "updated": "2026-11-19 22:58",
+  "updated": "2026-11-20 08:03",
   "count": 15,
   "items": [
     {
-      "name": "langchain-ai/langchain langchain-openai==1.8.3",
+      "name": "langchain-ai/langchain langchain-openrouter==0.3.0",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-openai==1.8.2\n\nrelease(openai): 1.8.3 (#41950)\nfix(openai): enable Codex prompt caching on GPT-6.2 (#41949)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.3",
-      "published_at": "2026-11-19 08:38",
-      "tag": "langchain-openai==1.8.3",
+      "description": "**`langchain-openrouter` 0.3.0 drops support for Python 3.10**, which has reached end-of-life. The minimum supported version is now Python 3.11, and the minimum `langchain-core` version is now 1.8.3. Users on Python 3.10 will continue to resolve `langchain-openrouter` 0.2.x.\n\nChanges since langchain-openrouter==0.2.9\n\nrelease(openrouter): 0.3.0 (#41957)\nchore(model-profiles): refresh model profile data (#41934)\nchore(model-profiles): refresh model profile data (#41917)\nchore(model-profiles): ref",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.3.0",
+      "published_at": "2026-11-19 23:03",
+      "tag": "langchain-openrouter==0.3.0",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain==1.5.2",
+      "name": "langchain-ai/langchain langchain-openai==1.8.5",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==1.5.1\n\nrelease(langchain): 1.5.2 (#41948)\nfeat(langchain): tag synthetic HITL tool messages with source metadata (#41928)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.2",
-      "published_at": "2026-11-19 06:30",
-      "tag": "langchain==1.5.2",
+      "description": "Changes since langchain-openai==1.8.4\n\nrelease(openai): 1.8.5 (#41969)\nfix(openai): preserve streamed Responses tool call arguments (#41963)\nfeat(core): standardize finish reason on message-finish events (#41926)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.5",
+      "published_at": "2026-11-20 07:16",
+      "tag": "langchain-openai==1.8.5",
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain==1.5.1",
+      "name": "langchain-ai/langchain langchain-openai==1.8.4",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain==1.5.0\n\nrelease(langchain): 1.5.1 (#41943)\nfix(core): keep warning suppression context-local (#41881)\nfix(langchain): avoid warning-filter races in provider inference (#41880)\nfix(langchain): avoid warning-filter races in `ModelRequest` (#41879)\nchore(deps): bump opentelemetry-api from 1.45.1 to 1.45.2 in /libs/langchain_v1 (#41845)\nchore(deps): bump dnspython from 2.9.1 to 2.9.2 in /libs/langchain_v1 (#41849)",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.1",
-      "published_at": "2026-11-18 23:45",
-      "tag": "langchain==1.5.1",
+      "description": "Changes since langchain-openai==1.8.3\n\nrelease(openai): 1.8.4 (#41962)\nchore(langchain): require `langgraph` 1.2.16 or newer (#41959)\nfix(openai): classify in-stream server errors as retryable (#41952)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.4",
+      "published_at": "2026-11-20 05:36",
+      "tag": "langchain-openai==1.8.4",
       "source": "release"
     },
     {
@@ -112,30 +112,30 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.57",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Share trace-style truncation and gzip the Request Insights journal: #102018\n- Preserve agent feedback instructions during temporary telemetry opt-out: #102062\n- Rename the experimental next start front server to Switchyard: #102035\n\n### Example Changes\n\n- examples: inclusion criteria: #93300\n\n### Misc Changes\n\n- docs: clarify Turbopack task inputs and module identity: #102090\n- fix pr-auto-label config members: #102067\n- test: skip service-worker-multiple in deploy mode: #102",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.57",
+      "published_at": "2026-11-20 07:46",
+      "tag": "v16.5.0-canary.57",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.5.0-canary.56",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Support bot and method-based prerender bypass capabilities: #101911\n- Compute Turbopack route bundle stats in Rust: #101540\n- Avoid full-segment writes without Cache Components: #101832\n- Add an experimental Go front server for next start: #101695\n\n### Misc Changes\n\n- Wait for hydration in external-browser-runtime hydration tests: #102060\n- test: skip instant-testing-api-exposure build-rejection test in deploy mode: #102056\n- turbo-tasks-backend benches: skip keyed_deps setup",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.56",
+      "published_at": "2026-11-20 00:14",
+      "tag": "v16.5.0-canary.56",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.55",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- fix(ts-plugin): accept quoted prefetch segment config values: #101895\n- Fix Navigation Inspector dark mode contrast: #102008\n- Turbopack: add max_chunk_size to production chunking: #100478\n- refactor: Move minimalMode checks earlier in conditionals: #102004\n- Upgrade React from `df6aa4ec-20261112` to `a8342585-20261117`: #101942\n- Refactor durableUseCacheEntries configuration: #101930\n- Remove unused `didStripLocale` request meta: #101999\n- Widen Turbopack maxDuration to u64:",
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.55",
       "published_at": "2026-11-19 07:45",
       "tag": "v16.5.0-canary.55",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.54",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Reject the experimental testing API opt-in without Cache Components: #101952\n- Preserve CSP nonces on static fallback bootstrap scripts: #101953\n- Turbopack: separate file tracing from NFT manifest emission, add dev flag: #101941\n- Clarify the agent handoff for worktree upgrades: #101939\n- refactor: Derive whether PPR is enabled from cacheComponents config in base-server: #101936\n- refactor: Derive whether PPR is enabled from cacheComponents config: #101929\n- perf(build): res",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.54",
-      "published_at": "2026-11-18 07:46",
-      "tag": "v16.5.0-canary.54",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.53",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Lint against new `as any` casts and require a reason to disable it: #101255\n- [no-unsafe-inline] Stop inlining the Turbopack chunk group bootstrap: #97574\n- Omit required-server-files from the Node.js proxy adapter output: #101865\n- Fix duplicate useServerInsertedHTML output in prerendered HTML with cacheComponents: #101147\n- Add experimental native Go proxy support: #101464\n- Point to environment variables in conflicting bundler error: #101826\n- Tolerate dangling symlinks wh",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.53",
-      "published_at": "2026-11-17 07:44",
-      "tag": "v16.5.0-canary.53",
       "source": "release"
     }
   ]
