@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-20 22:40",
+  "updated": "2026-11-21 07:31",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.40.17-rc2",
+      "name": "ollama/ollama v0.40.17-rc3",
       "repo": "ollama/ollama",
-      "description": "## What's Changed\r\n* Improve ChatGPT CLI restore and graceful restart by @hoyyeva in https://github.com/ollama/ollama/pull/19583\r\n* cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in https://github.com/ollama/ollama/pull/19409\r\n* llm: use mmap for Vulkan integrated GPUs by @dhiltgen in https://github.com/ollama/ollama/pull/19640\r\n* rpreslar4765/Ollama by @rpreslar4765 in https://github.com/ollama/ollama/pull/17163\r\n* mlx: support concurrent generation by @dhiltgen in https://",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc2",
+      "description": "## Inkling 2 Mini\r\n[Inkling 2 Mini](https://ollama.com/library/inkling-2-mini) from Thinking Machines is a 26B parameter model with 5.4B active.\r\n\r\nIts looped layers give it more computation per token than its size suggests, and it still fits on a Mac at about 20GB. It handles text and images, tool calls, and thinking, and scores 79.2% on SWE-Bench Verified).\r\n\r\n```\r\n  ollama run inkling-2-mini\r\n```\r\n\r\n ## What's Changed\r\n- `ollama launch claude` supports Claude Code's deferred tool loading, so ",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc3",
       "published_at": "2026-11-11 06:25",
-      "tag": "v0.40.17-rc2",
+      "tag": "v0.40.17-rc3",
       "source": "release"
     },
     {
