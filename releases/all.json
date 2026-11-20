@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-20 08:03",
+  "updated": "2026-11-20 22:40",
   "count": 15,
   "items": [
     {
@@ -58,12 +58,12 @@
       "source": "release"
     },
     {
-      "name": "ollama/ollama v0.40.17-rc1",
+      "name": "ollama/ollama v0.40.17-rc2",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* Improve ChatGPT CLI restore and graceful restart by @hoyyeva in https://github.com/ollama/ollama/pull/19583\r\n* cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in https://github.com/ollama/ollama/pull/19409\r\n* llm: use mmap for Vulkan integrated GPUs by @dhiltgen in https://github.com/ollama/ollama/pull/19640\r\n* rpreslar4765/Ollama by @rpreslar4765 in https://github.com/ollama/ollama/pull/17163\r\n* mlx: support concurrent generation by @dhiltgen in https://",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc2",
       "published_at": "2026-11-11 06:25",
-      "tag": "v0.40.17-rc1",
+      "tag": "v0.40.17-rc2",
       "source": "release"
     },
     {
@@ -87,28 +87,37 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.48.6](https://github.com/n8n-io/n8n/compare/n8n@2.48.5...n8n@2.48.6) (2026-11-19)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/44436?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/review-in-c",
+      "description": "## [2.48.7](https://github.com/n8n-io/n8n/compare/n8n@2.48.6...n8n@2.48.7) (2026-11-20)\n\n\n### Bug Fixes\n\n* **core:** End memory guard hold when hold-limit stop frees no memory ([#44463](https://github.com/n8n-io/n8n/issues/44463)) ([22643e1](https://github.com/n8n-io/n8n/commit/22643e170e5ae7ddc86bb61b7d1d5d9e1aab1486))\n* **core:** Store plain input data in the error output of scripting nodes ([#44530](https://github.com/n8n-io/n8n/issues/44530)) ([c26c923](https://github.com/n8n-io/n8n/commit/c",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-11-19 16:30",
+      "published_at": "2026-11-20 16:36",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.48.6",
+      "name": "n8n-io/n8n n8n@2.48.7",
       "repo": "n8n-io/n8n",
-      "description": "## [2.48.6](https://github.com/n8n-io/n8n/compare/n8n@2.48.5...n8n@2.48.6) (2026-11-19)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/44436?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/review-in-c",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.48.6",
-      "published_at": "2026-11-19 16:29",
-      "tag": "n8n@2.48.6",
+      "description": "## [2.48.7](https://github.com/n8n-io/n8n/compare/n8n@2.48.6...n8n@2.48.7) (2026-11-20)\n\n\n### Bug Fixes\n\n* **core:** End memory guard hold when hold-limit stop frees no memory ([#44463](https://github.com/n8n-io/n8n/issues/44463)) ([22643e1](https://github.com/n8n-io/n8n/commit/22643e170e5ae7ddc86bb61b7d1d5d9e1aab1486))\n* **core:** Store plain input data in the error output of scripting nodes ([#44530](https://github.com/n8n-io/n8n/issues/44530)) ([c26c923](https://github.com/n8n-io/n8n/commit/c",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.48.7",
+      "published_at": "2026-11-20 16:36",
+      "tag": "n8n@2.48.7",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.99",
+      "name": "n8n-io/n8n n8n@1.123.100",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.99](https://github.com/n8n-io/n8n/compare/n8n@1.123.98...n8n@1.123.99) (2026-11-19)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/44433?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/revie",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.99",
-      "published_at": "2026-11-19 16:38",
-      "tag": "n8n@1.123.99",
+      "description": "## [1.123.100](https://github.com/n8n-io/n8n/compare/n8n@1.123.99...n8n@1.123.100) (2026-11-20)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/44590?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/rev",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.100",
+      "published_at": "2026-11-20 16:44",
+      "tag": "n8n@1.123.100",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.5.0-canary.58",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Replace jest-worker with custom worker pool: #100297\n- Skip \"use cache\" timeout errors where they cannot be thrown, format owner stacks lazily: #102032\n\n### Misc Changes\n\n- review: treat long-standing React behavior as contract, not internals: #102096\n\n### Credits \n\nHuge thanks to @sokra, @lukesandberg, and @acdlite for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.58",
+      "published_at": "2026-11-20 16:35",
+      "tag": "v16.5.0-canary.58",
       "source": "release"
     },
     {
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.56",
       "published_at": "2026-11-20 00:14",
       "tag": "v16.5.0-canary.56",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.55",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- fix(ts-plugin): accept quoted prefetch segment config values: #101895\n- Fix Navigation Inspector dark mode contrast: #102008\n- Turbopack: add max_chunk_size to production chunking: #100478\n- refactor: Move minimalMode checks earlier in conditionals: #102004\n- Upgrade React from `df6aa4ec-20261112` to `a8342585-20261117`: #101942\n- Refactor durableUseCacheEntries configuration: #101930\n- Remove unused `didStripLocale` request meta: #101999\n- Widen Turbopack maxDuration to u64:",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.55",
-      "published_at": "2026-11-19 07:45",
-      "tag": "v16.5.0-canary.55",
       "source": "release"
     }
   ]
