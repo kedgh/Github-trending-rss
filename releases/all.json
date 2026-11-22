@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-22 06:38",
+  "updated": "2026-11-22 12:17",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.60",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- switchyard: tell Switchyard the app's route.go paths and workers: #102101\n\n### Misc Changes\n\n- Turbopack: resolve app directory entries in a filesystem-independent order: #102186\n- docs: update Route Handler AI SDK streaming examples: #102192\n\n### Credits \n\nHuge thanks to @sokra, @aurorascharff, and @jamiboym for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.60",
+      "published_at": "2026-11-22 07:43",
+      "tag": "v16.5.0-canary.60",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.59",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- switchyard: restore 'in front of' in three test comments: #102082\n- Write Turbopack dist dir metadata from Rust: #101638\n\n### Example Changes\n\n- examples: remove examples built on abandoned libraries: #102092\n- examples: Update storage integrations and remove Grafbase and Xata examples: #100454\n\n### Misc Changes\n\n- Turbopack: take next/dynamic loader availability from chunking for the loadable manifest: #101172\n- Turbopack: keep ?server-data on Pages data endpoint _app/_docum",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.58",
       "published_at": "2026-11-20 16:35",
       "tag": "v16.5.0-canary.58",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.57",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Share trace-style truncation and gzip the Request Insights journal: #102018\n- Preserve agent feedback instructions during temporary telemetry opt-out: #102062\n- Rename the experimental next start front server to Switchyard: #102035\n\n### Example Changes\n\n- examples: inclusion criteria: #93300\n\n### Misc Changes\n\n- docs: clarify Turbopack task inputs and module identity: #102090\n- fix pr-auto-label config members: #102067\n- test: skip service-worker-multiple in deploy mode: #102",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.57",
-      "published_at": "2026-11-20 07:46",
-      "tag": "v16.5.0-canary.57",
       "source": "release"
     }
   ]
