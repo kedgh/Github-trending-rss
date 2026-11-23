@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-23 07:01",
+  "updated": "2026-11-23 12:56",
   "count": 15,
   "items": [
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.61",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- [image-optimizer] Add experimental support for @next/safe-image-optimization: #101254\n\n### Misc Changes\n\n- turbo-tasks-backend: report the caller location for missing-task panics: #102169\n- Turbopack: recover from an unreadable persistent cache at startup: #101954\n- Stop publishing Go endpoint output after its handler is removed: #102166\n\n### Credits \n\nHuge thanks to @lukesandberg and @bgw for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.61",
+      "published_at": "2026-11-23 07:42",
+      "tag": "v16.5.0-canary.61",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.60",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- switchyard: tell Switchyard the app's route.go paths and workers: #102101\n\n### Misc Changes\n\n- Turbopack: resolve app directory entries in a filesystem-independent order: #102186\n- docs: update Route Handler AI SDK streaming examples: #102192\n\n### Credits \n\nHuge thanks to @sokra, @aurorascharff, and @jamiboym for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.59",
       "published_at": "2026-11-21 07:42",
       "tag": "v16.5.0-canary.59",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.58",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- Replace jest-worker with custom worker pool: #100297\n- Skip \"use cache\" timeout errors where they cannot be thrown, format owner stacks lazily: #102032\n\n### Misc Changes\n\n- review: treat long-standing React behavior as contract, not internals: #102096\n\n### Credits \n\nHuge thanks to @sokra, @lukesandberg, and @acdlite for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.58",
-      "published_at": "2026-11-20 16:35",
-      "tag": "v16.5.0-canary.58",
       "source": "release"
     }
   ]
