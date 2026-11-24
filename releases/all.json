@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-24 00:56",
+  "updated": "2026-11-24 11:39",
   "count": 15,
   "items": [
     {
@@ -22,12 +22,12 @@
       "source": "release"
     },
     {
-      "name": "langchain-ai/langchain langchain-perplexity==1.5.0",
+      "name": "langchain-ai/langchain langchain-qdrant==1.2.0",
       "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-perplexity==1.4.2\n\nrelease(perplexity): 1.5.0 (#42001)\nrelease(standard-tests): 1.2.0 (#41996)\nfeat(partners): Remove EOL'd Python 3.10 from partner packages (#41268)\nbuild(infra): patch test-only Pillow without dropping Python 3.10 (#41484)\nrevert: patch vulnerable integration dependencies (#41481)\nbuild(deps): patch vulnerable integration dependencies (#41473)\nchore(deps): bump certifi from 2026.10.19 to 2026.10.23 in /libs/partners/perplexity (#41438)\nchore(infra): rel",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.5.0",
-      "published_at": "2026-11-24 00:51",
-      "tag": "langchain-perplexity==1.5.0",
+      "description": "Changes since langchain-qdrant==1.1.0\n\nrelease(qdrant): 1.2.0 (#41992)\nrelease(standard-tests): 1.2.0 (#41996)\nchore(deps): bump filelock from 4.2.5 to 4.2.10 in /libs/partners/qdrant (#41835)\nfeat(partners): Remove EOL'd Python 3.10 from partner packages (#41268)\nchore(deps): patch newer-python security lock resolutions (#41585)\nrevert: patch vulnerable integration dependencies (#41481)\nbuild(deps): patch vulnerable integration dependencies (#41473)\nchore(infra): relax third-party dependency up",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-qdrant%3D%3D1.2.0",
+      "published_at": "2026-11-24 01:04",
+      "tag": "langchain-qdrant==1.2.0",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.62",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- switchyard: name gone workers by token, and test the worker events and route table: #102168\n- switchyard: no guessed Content-Type after 103 Early Hints: #102034\n- switchyard: run Go code on at most 4 threads: #101901\n- Link Node crypto prerender errors to the crypto error page: #102252\n- Fix fast setImmediate running before microtasks queued by nextTick: #102237\n- Turbopack: diff server HMR pulls against a Rust-owned loaded-module set: #102016\n- Fix webpack runtime CSS orderi",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.62",
+      "published_at": "2026-11-24 07:47",
+      "tag": "v16.5.0-canary.62",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.61",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- [image-optimizer] Add experimental support for @next/safe-image-optimization: #101254\n\n### Misc Changes\n\n- turbo-tasks-backend: report the caller location for missing-task panics: #102169\n- Turbopack: recover from an unreadable persistent cache at startup: #101954\n- Stop publishing Go endpoint output after its handler is removed: #102166\n\n### Credits \n\nHuge thanks to @lukesandberg and @bgw for helping!",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.60",
       "published_at": "2026-11-22 07:43",
       "tag": "v16.5.0-canary.60",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.59",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- switchyard: restore 'in front of' in three test comments: #102082\n- Write Turbopack dist dir metadata from Rust: #101638\n\n### Example Changes\n\n- examples: remove examples built on abandoned libraries: #102092\n- examples: Update storage integrations and remove Grafbase and Xata examples: #100454\n\n### Misc Changes\n\n- Turbopack: take next/dynamic loader availability from chunking for the loadable manifest: #101172\n- Turbopack: keep ?server-data on Pages data endpoint _app/_docum",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.59",
-      "published_at": "2026-11-21 07:42",
-      "tag": "v16.5.0-canary.59",
       "source": "release"
     }
   ]
