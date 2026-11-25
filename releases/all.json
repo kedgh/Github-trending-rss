@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-25 09:46",
+  "updated": "2026-11-26 00:32",
   "count": 15,
   "items": [
     {
@@ -85,30 +85,30 @@
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@3.4.0",
+      "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "<!-- release-prerelease -->\n# [3.4.0](https://github.com/n8n-io/n8n/compare/n8n@2.49.0...n8n@3.4.0) (2026-11-24)\n\n\n### Bug Fixes\n\n* **AI Agent Node:** Drop chat memory turns with empty content ([#43935](https://github.com/n8n-io/n8n/issues/43935)) ([9061640](https://github.com/n8n-io/n8n/commit/90616400e834fed17424f4317f8967b06d738917))\n* **ai-builder:** Accept unlisted fields of open output schemas in field reference check  ([#44375](https://github.com/n8n-io/n8n/issues/44375)) ([2161005](https",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%403.4.0",
-      "published_at": "2026-11-24 18:04",
-      "tag": "n8n@3.4.0",
+      "description": "## [2.49.6](https://github.com/n8n-io/n8n/compare/n8n@2.49.5...n8n@2.49.6) (2026-11-25)\n\n\n### Bug Fixes\n\n* **core:** Align base64, urlEncode and format results of isolate expression engines with legacy ([#44969](https://github.com/n8n-io/n8n/issues/44969)) ([7fb24bd](https://github.com/n8n-io/n8n/commit/7fb24bd79ceae45444ee9c859973bde522306a72))\n\n\n### Features\n\n* **core:** Evaluate urlEncode, base64Decode and format natively ([#44995](https://github.com/n8n-io/n8n/issues/44995)) ([e79571f](https",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "published_at": "2026-11-25 16:27",
+      "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.50.0",
+      "name": "n8n-io/n8n n8n@2.49.6",
       "repo": "n8n-io/n8n",
-      "description": "# [2.50.0](https://github.com/n8n-io/n8n/compare/n8n@2.49.0...n8n@2.50.0) (2026-11-24)\n\n\n### Bug Fixes\n\n* **AI Agent Node:** Drop chat memory turns with empty content ([#43935](https://github.com/n8n-io/n8n/issues/43935)) ([9061640](https://github.com/n8n-io/n8n/commit/90616400e834fed17424f4317f8967b06d738917))\n* **ai-builder:** Accept unlisted fields of open output schemas in field reference check  ([#44375](https://github.com/n8n-io/n8n/issues/44375)) ([2161005](https://github.com/n8n-io/n8n/c",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.50.0",
-      "published_at": "2026-11-24 17:19",
-      "tag": "n8n@2.50.0",
+      "description": "## [2.49.6](https://github.com/n8n-io/n8n/compare/n8n@2.49.5...n8n@2.49.6) (2026-11-25)\n\n\n### Bug Fixes\n\n* **core:** Align base64, urlEncode and format results of isolate expression engines with legacy ([#44969](https://github.com/n8n-io/n8n/issues/44969)) ([7fb24bd](https://github.com/n8n-io/n8n/commit/7fb24bd79ceae45444ee9c859973bde522306a72))\n\n\n### Features\n\n* **core:** Evaluate urlEncode, base64Decode and format natively ([#44995](https://github.com/n8n-io/n8n/issues/44995)) ([e79571f](https",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.49.6",
+      "published_at": "2026-11-25 16:27",
+      "tag": "n8n@2.49.6",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n beta",
+      "name": "n8n-io/n8n n8n@2.50.1",
       "repo": "n8n-io/n8n",
-      "description": "# [2.50.0](https://github.com/n8n-io/n8n/compare/n8n@2.49.0...n8n@2.50.0) (2026-11-24)\n\n\n### Bug Fixes\n\n* **AI Agent Node:** Drop chat memory turns with empty content ([#43935](https://github.com/n8n-io/n8n/issues/43935)) ([9061640](https://github.com/n8n-io/n8n/commit/90616400e834fed17424f4317f8967b06d738917))\n* **ai-builder:** Accept unlisted fields of open output schemas in field reference check  ([#44375](https://github.com/n8n-io/n8n/issues/44375)) ([2161005](https://github.com/n8n-io/n8n/c",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "published_at": "2026-11-24 17:19",
-      "tag": "beta",
+      "description": "## [2.50.1](https://github.com/n8n-io/n8n/compare/n8n@2.50.0...n8n@2.50.1) (2026-11-25)\n\n\n### Bug Fixes\n\n* **core, editor:** Load the Assistant session timeline through the system agent routes ([#45074](https://github.com/n8n-io/n8n/issues/45074)) ([e80660e](https://github.com/n8n-io/n8n/commit/e80660e9b37d8f5365d1d6c302c4da473646d090))\n* **core:** Align base64, urlEncode and format results of isolate expression engines with legacy ([#44968](https://github.com/n8n-io/n8n/issues/44968)) ([32c599d",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.50.1",
+      "published_at": "2026-11-25 16:27",
+      "tag": "n8n@2.50.1",
       "source": "release"
     },
     {
