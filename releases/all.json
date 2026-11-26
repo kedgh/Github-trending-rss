@@ -1,8 +1,26 @@
 {
   "title": "Releases",
-  "updated": "2026-11-26 00:32",
+  "updated": "2026-11-26 09:22",
   "count": 15,
   "items": [
+    {
+      "name": "langchain-ai/langchain langchain-core==1.8.5",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-core==1.8.4\n\nrelease(core): 1.8.5 (#42103)\nfix(core): reuse provider message id on later stream chunks (#42050)\ndocs(core): clarify v3 runtime warning behavior (#42040)\ndocs(core): clarify supported streaming event APIs (#42038)\nrelease(standard-tests): 1.2.0 (#41996)\nrelease(text-splitters): 1.2.0 (#41998)\nchore(deps): bump mistune from 3.3.3 to 3.3.4 in /libs/core (#41968)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.5",
+      "published_at": "2026-11-26 05:52",
+      "tag": "langchain-core==1.8.5",
+      "source": "release"
+    },
+    {
+      "name": "langchain-ai/langchain langchain-anthropic==1.7.13",
+      "repo": "langchain-ai/langchain",
+      "description": "Changes since langchain-anthropic==1.7.12\n\nrelease(anthropic): 1.7.13 (#42102)\nfeat(anthropic): accept custom HTTP and SDK clients (#42101)\nchore(model-profiles): refresh model profile data (#42085)\nchore(model-profiles): refresh model profile data (#42062)\nrelease(standard-tests): 1.2.0 (#41996)",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.13",
+      "published_at": "2026-11-26 05:41",
+      "tag": "langchain-anthropic==1.7.13",
+      "source": "release"
+    },
     {
       "name": "langchain-ai/langchain langchain-text-splitters==1.2.0",
       "repo": "langchain-ai/langchain",
@@ -10,24 +28,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-text-splitters%3D%3D1.2.0",
       "published_at": "2026-11-24 00:11",
       "tag": "langchain-text-splitters==1.2.0",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-tests==1.2.0",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-tests==1.1.9\n\nrelease(standard-tests): 1.2.0 (#41996)\nfeat: Remove EOL'd Python 3.10 from text_splitters, model_profiles and standard-tests (#41343)\nchore(deps): bump the minor-and-patch group across 2 directories with 4 updates (#41615)\nchore(deps): bump vcrpy from 8.3.0 to 8.5.0 in /libs/standard-tests in the major group across 1 directory (#41617)\nchore(deps): bump the minor-and-patch group across 2 directories with 4 updates (#41464)\nchore(infra): relax third-party de",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-tests%3D%3D1.2.0",
-      "published_at": "2026-11-24 00:14",
-      "tag": "langchain-tests==1.2.0",
-      "source": "release"
-    },
-    {
-      "name": "langchain-ai/langchain langchain-qdrant==1.2.0",
-      "repo": "langchain-ai/langchain",
-      "description": "Changes since langchain-qdrant==1.1.0\n\nrelease(qdrant): 1.2.0 (#41992)\nrelease(standard-tests): 1.2.0 (#41996)\nchore(deps): bump filelock from 4.2.5 to 4.2.10 in /libs/partners/qdrant (#41835)\nfeat(partners): Remove EOL'd Python 3.10 from partner packages (#41268)\nchore(deps): patch newer-python security lock resolutions (#41585)\nrevert: patch vulnerable integration dependencies (#41481)\nbuild(deps): patch vulnerable integration dependencies (#41473)\nchore(infra): relax third-party dependency up",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-qdrant%3D%3D1.2.0",
-      "published_at": "2026-11-24 01:04",
-      "tag": "langchain-qdrant==1.2.0",
       "source": "release"
     },
     {
