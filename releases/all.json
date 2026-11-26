@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-26 09:22",
+  "updated": "2026-11-27 00:05",
   "count": 15,
   "items": [
     {
@@ -87,55 +87,55 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.49.6](https://github.com/n8n-io/n8n/compare/n8n@2.49.5...n8n@2.49.6) (2026-11-25)\n\n\n### Bug Fixes\n\n* **core:** Align base64, urlEncode and format results of isolate expression engines with legacy ([#44969](https://github.com/n8n-io/n8n/issues/44969)) ([7fb24bd](https://github.com/n8n-io/n8n/commit/7fb24bd79ceae45444ee9c859973bde522306a72))\n\n\n### Features\n\n* **core:** Evaluate urlEncode, base64Decode and format natively ([#44995](https://github.com/n8n-io/n8n/issues/44995)) ([e79571f](https",
+      "description": "## [2.49.7](https://github.com/n8n-io/n8n/compare/n8n@2.49.6...n8n@2.49.7) (2026-11-26)\n\n\n### Bug Fixes\n\n* Apply execution data size limit in MCP get_workflow_execution ([#45142](https://github.com/n8n-io/n8n/issues/45142)) ([1e42a0a](https://github.com/n8n-io/n8n/commit/1e42a0a5b5cf8a4d9406911885708e2334feaf72))\n* **core:** Align extractUrlPath results of isolate expression engines with legacy ([#45150](https://github.com/n8n-io/n8n/issues/45150)) ([c1e144e](https://github.com/n8n-io/n8n/commit",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-11-25 16:27",
+      "published_at": "2026-11-26 15:23",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.49.6",
+      "name": "n8n-io/n8n n8n@2.49.7",
       "repo": "n8n-io/n8n",
-      "description": "## [2.49.6](https://github.com/n8n-io/n8n/compare/n8n@2.49.5...n8n@2.49.6) (2026-11-25)\n\n\n### Bug Fixes\n\n* **core:** Align base64, urlEncode and format results of isolate expression engines with legacy ([#44969](https://github.com/n8n-io/n8n/issues/44969)) ([7fb24bd](https://github.com/n8n-io/n8n/commit/7fb24bd79ceae45444ee9c859973bde522306a72))\n\n\n### Features\n\n* **core:** Evaluate urlEncode, base64Decode and format natively ([#44995](https://github.com/n8n-io/n8n/issues/44995)) ([e79571f](https",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.49.6",
-      "published_at": "2026-11-25 16:27",
-      "tag": "n8n@2.49.6",
+      "description": "## [2.49.7](https://github.com/n8n-io/n8n/compare/n8n@2.49.6...n8n@2.49.7) (2026-11-26)\n\n\n### Bug Fixes\n\n* Apply execution data size limit in MCP get_workflow_execution ([#45142](https://github.com/n8n-io/n8n/issues/45142)) ([1e42a0a](https://github.com/n8n-io/n8n/commit/1e42a0a5b5cf8a4d9406911885708e2334feaf72))\n* **core:** Align extractUrlPath results of isolate expression engines with legacy ([#45150](https://github.com/n8n-io/n8n/issues/45150)) ([c1e144e](https://github.com/n8n-io/n8n/commit",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.49.7",
+      "published_at": "2026-11-26 15:23",
+      "tag": "n8n@2.49.7",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.50.1",
+      "name": "n8n-io/n8n n8n@1.123.102",
       "repo": "n8n-io/n8n",
-      "description": "## [2.50.1](https://github.com/n8n-io/n8n/compare/n8n@2.50.0...n8n@2.50.1) (2026-11-25)\n\n\n### Bug Fixes\n\n* **core, editor:** Load the Assistant session timeline through the system agent routes ([#45074](https://github.com/n8n-io/n8n/issues/45074)) ([e80660e](https://github.com/n8n-io/n8n/commit/e80660e9b37d8f5365d1d6c302c4da473646d090))\n* **core:** Align base64, urlEncode and format results of isolate expression engines with legacy ([#44968](https://github.com/n8n-io/n8n/issues/44968)) ([32c599d",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.50.1",
-      "published_at": "2026-11-25 16:27",
-      "tag": "n8n@2.50.1",
+      "description": "## [1.123.102](https://github.com/n8n-io/n8n/compare/n8n@1.123.101...n8n@1.123.102) (2026-11-26)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/45260?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/re",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.102",
+      "published_at": "2026-11-26 15:31",
+      "tag": "n8n@1.123.102",
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.5.0-canary.62",
+      "name": "vercel/next.js v16.5.0-canary.68",
       "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- switchyard: name gone workers by token, and test the worker events and route table: #102168\n- switchyard: no guessed Content-Type after 103 Early Hints: #102034\n- switchyard: run Go code on at most 4 threads: #101901\n- Link Node crypto prerender errors to the crypto error page: #102252\n- Fix fast setImmediate running before microtasks queued by nextTick: #102237\n- Turbopack: diff server HMR pulls against a Rust-owned loaded-module set: #102016\n- Fix webpack runtime CSS orderi",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.62",
-      "published_at": "2026-11-24 07:47",
-      "tag": "v16.5.0-canary.62",
+      "description": "### Core Changes\n\n- Mark @next/mcp as private: #102446\n- Clarify the Cache Components error for static exports: #101250\n- Add the next/go SDK and move Go Proxy helpers into it: #101874\n\n### Misc Changes\n\n- Fix Go package declaration in native proxy security fixture: #102447\n- Fix Go proxy RSC dot-segment authorization bypass: #102444\n- Go routes: compile route.go/proxy.go directories as importable packages, not package main: #101898\n- ci(trigger_release): print workflow inputs before the approva",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.68",
+      "published_at": "2026-11-26 22:54",
+      "tag": "v16.5.0-canary.68",
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.5.0-canary.61",
+      "name": "vercel/next.js v16.5.0-canary.67",
       "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- [image-optimizer] Add experimental support for @next/safe-image-optimization: #101254\n\n### Misc Changes\n\n- turbo-tasks-backend: report the caller location for missing-task panics: #102169\n- Turbopack: recover from an unreadable persistent cache at startup: #101954\n- Stop publishing Go endpoint output after its handler is removed: #102166\n\n### Credits \n\nHuge thanks to @lukesandberg and @bgw for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.61",
-      "published_at": "2026-11-23 07:42",
-      "tag": "v16.5.0-canary.61",
+      "description": "### Core Changes\r\n\r\n- Enable durableUseCacheEntries by default: #101922\r\n- Drop experimental_prepare() from the client bundle when the flag is off: #102423\r\n- [image-optimizer] Remove mentions of possible support for ImageResponse from the safe mode option: #102402\r\n\r\n### Misc Changes\r\n\r\n- [cd] Require bot-approved for releases dispatched from release branches: #102437\r\n- docs: use \"random values and timestamps\" in Route Handlers: #102395\r\n- docs: prerender sitemap.js with Cache Components: #102",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.67",
+      "published_at": "2026-11-26 18:27",
+      "tag": "v16.5.0-canary.67",
       "source": "release"
     },
     {
-      "name": "vercel/next.js v16.5.0-canary.60",
+      "name": "vercel/next.js v16.5.0-canary.66",
       "repo": "vercel/next.js",
-      "description": "### Core Changes\n\n- switchyard: tell Switchyard the app's route.go paths and workers: #102101\n\n### Misc Changes\n\n- Turbopack: resolve app directory entries in a filesystem-independent order: #102186\n- docs: update Route Handler AI SDK streaming examples: #102192\n\n### Credits \n\nHuge thanks to @sokra, @aurorascharff, and @jamiboym for helping!",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.60",
-      "published_at": "2026-11-22 07:43",
-      "tag": "v16.5.0-canary.60",
+      "description": "### Core Changes\r\n\r\n- Add migration guidance for removed --no-lint option: #102190\r\n- Revert \"Enable lazy dynamic imports by default in development (#101873)\": #102379\r\n- Support output: 'standalone' with experimental.goRoutes: #102362\r\n- Fix the CLI environment leaking into agent upgrades: #102070\r\n\r\n### Misc Changes\r\n\r\n- docs: explain importing @next/env from native ES modules: #102360\r\n- docs: note that Client Component props add to the page's HTML: #102324\r\n\r\n### Credits \r\n\r\nHuge thanks to @",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.66",
+      "published_at": "2026-11-26 18:26",
+      "tag": "v16.5.0-canary.66",
       "source": "release"
     }
   ]
