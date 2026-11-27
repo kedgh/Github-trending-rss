@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-27 09:20",
+  "updated": "2026-11-27 23:53",
   "count": 15,
   "items": [
     {
@@ -87,28 +87,37 @@
     {
       "name": "n8n-io/n8n stable",
       "repo": "n8n-io/n8n",
-      "description": "## [2.49.7](https://github.com/n8n-io/n8n/compare/n8n@2.49.6...n8n@2.49.7) (2026-11-26)\n\n\n### Bug Fixes\n\n* Apply execution data size limit in MCP get_workflow_execution ([#45142](https://github.com/n8n-io/n8n/issues/45142)) ([1e42a0a](https://github.com/n8n-io/n8n/commit/1e42a0a5b5cf8a4d9406911885708e2334feaf72))\n* **core:** Align extractUrlPath results of isolate expression engines with legacy ([#45150](https://github.com/n8n-io/n8n/issues/45150)) ([c1e144e](https://github.com/n8n-io/n8n/commit",
+      "description": "## [2.49.8](https://github.com/n8n-io/n8n/compare/n8n@2.49.7...n8n@2.49.8) (2026-11-27)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/45445?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/review-in-c",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "published_at": "2026-11-26 15:23",
+      "published_at": "2026-11-27 16:18",
       "tag": "stable",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@2.49.7",
+      "name": "n8n-io/n8n n8n@2.49.8",
       "repo": "n8n-io/n8n",
-      "description": "## [2.49.7](https://github.com/n8n-io/n8n/compare/n8n@2.49.6...n8n@2.49.7) (2026-11-26)\n\n\n### Bug Fixes\n\n* Apply execution data size limit in MCP get_workflow_execution ([#45142](https://github.com/n8n-io/n8n/issues/45142)) ([1e42a0a](https://github.com/n8n-io/n8n/commit/1e42a0a5b5cf8a4d9406911885708e2334feaf72))\n* **core:** Align extractUrlPath results of isolate expression engines with legacy ([#45150](https://github.com/n8n-io/n8n/issues/45150)) ([c1e144e](https://github.com/n8n-io/n8n/commit",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.49.7",
-      "published_at": "2026-11-26 15:23",
-      "tag": "n8n@2.49.7",
+      "description": "## [2.49.8](https://github.com/n8n-io/n8n/compare/n8n@2.49.7...n8n@2.49.8) (2026-11-27)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/45445?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/review-in-c",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.49.8",
+      "published_at": "2026-11-27 16:18",
+      "tag": "n8n@2.49.8",
       "source": "release"
     },
     {
-      "name": "n8n-io/n8n n8n@1.123.102",
+      "name": "n8n-io/n8n n8n@2.50.3",
       "repo": "n8n-io/n8n",
-      "description": "## [1.123.102](https://github.com/n8n-io/n8n/compare/n8n@1.123.101...n8n@1.123.102) (2026-11-26)\n\n<!-- This is an auto-generated description by cubic. -->\n<a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/45260?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.cubic.dev/buttons/review-in-cubic-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://www.cubic.dev/buttons/re",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.102",
-      "published_at": "2026-11-26 15:31",
-      "tag": "n8n@1.123.102",
+      "description": "## [2.50.3](https://github.com/n8n-io/n8n/compare/n8n@2.50.2...n8n@2.50.3) (2026-11-27)\n\n\n### Bug Fixes\n\n* **editor:** Show a stopped agent chat run as a status line ([#45273](https://github.com/n8n-io/n8n/issues/45273)) ([a5310b6](https://github.com/n8n-io/n8n/commit/a5310b6e2540a01c181879a0b79ea2bbde7e35c9))\n\n\n### Features\n\n* **editor:** Show thinking and tool calls in one shared activity trace ([#45370](https://github.com/n8n-io/n8n/issues/45370)) ([3aff99e](https://github.com/n8n-io/n8n/comm",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.50.3",
+      "published_at": "2026-11-27 16:18",
+      "tag": "n8n@2.50.3",
+      "source": "release"
+    },
+    {
+      "name": "vercel/next.js v16.5.0-canary.70",
+      "repo": "vercel/next.js",
+      "description": "### Misc Changes\n\n- Use instant() to inspect a link on the dev server: #102453\n- test: rename externals-transitive fixture deps: #102464\n- Turbopack: return StaticImageData for images imported from node_modules: #102389\n\n### Credits \n\nHuge thanks to @aurorascharff and @mischnic for helping!",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.70",
+      "published_at": "2026-11-27 15:47",
+      "tag": "v16.5.0-canary.70",
       "source": "release"
     },
     {
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.68",
       "published_at": "2026-11-26 22:54",
       "tag": "v16.5.0-canary.68",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.67",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\r\n\r\n- Enable durableUseCacheEntries by default: #101922\r\n- Drop experimental_prepare() from the client bundle when the flag is off: #102423\r\n- [image-optimizer] Remove mentions of possible support for ImageResponse from the safe mode option: #102402\r\n\r\n### Misc Changes\r\n\r\n- [cd] Require bot-approved for releases dispatched from release branches: #102437\r\n- docs: use \"random values and timestamps\" in Route Handlers: #102395\r\n- docs: prerender sitemap.js with Cache Components: #102",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.67",
-      "published_at": "2026-11-26 18:27",
-      "tag": "v16.5.0-canary.67",
       "source": "release"
     }
   ]
