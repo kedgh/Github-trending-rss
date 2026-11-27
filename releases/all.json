@@ -1,6 +1,6 @@
 {
   "title": "Releases",
-  "updated": "2026-11-27 00:05",
+  "updated": "2026-11-27 09:20",
   "count": 15,
   "items": [
     {
@@ -58,6 +58,15 @@
       "source": "release"
     },
     {
+      "name": "ollama/ollama v0.40.19-rc0",
+      "repo": "ollama/ollama",
+      "description": "## What's Changed\r\n* inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in https://github.com/ollama/ollama/pull/19881\r\n* mlxrunner: compact Engram history buffers by @pdevine in https://github.com/ollama/ollama/pull/19913\r\n* bump llama-server by @pdevine in https://github.com/ollama/ollama/pull/19917\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.18...v0.40.19-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0",
+      "published_at": "2026-11-27 01:52",
+      "tag": "v0.40.19-rc0",
+      "source": "release"
+    },
+    {
       "name": "ollama/ollama v0.40.18",
       "repo": "ollama/ollama",
       "description": "## What's Changed\r\n* mlx: fuse Inkling residual mixing on Metal by @dhiltgen in https://github.com/ollama/ollama/pull/19808\r\n* mlxrunner: share tensor helpers and model setup across architectures by @jaingaurav in https://github.com/ollama/ollama/pull/19805\r\n* llama.cpp: version bump b12651 + remove jetpack5 support by @pdevine in https://github.com/ollama/ollama/pull/19865\r\n* inkling2: faster Metal decode, prefill and draft rounds by @dhiltgen in https://github.com/ollama/ollama/pull/19843\r\n\r\n\r",
@@ -73,15 +82,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17",
       "published_at": "2026-11-11 06:25",
       "tag": "v0.40.17",
-      "source": "release"
-    },
-    {
-      "name": "ollama/ollama v0.40.16",
-      "repo": "ollama/ollama",
-      "description": "## Ripple Preview\r\n\r\n[Ripple Preview](https://ollama.com/library/ripple-preview) from Ricursive Intelligence is a 65B dense model built for agentic coding.\r\n\r\n```sh\r\nollama run ripple-preview\r\n```\r\n\r\n## What's Changed\r\n\r\n- Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon\r\n- `ollama launch claude` always routes Claude Code to the selected model\r\n- `ollama launch` explains when a cloud model has been retired\r\n- `/v1/responses` respects `truncation` and no longer silently truncates",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
-      "published_at": "2026-11-10 02:21",
-      "tag": "v0.40.16",
       "source": "release"
     },
     {
@@ -112,6 +112,15 @@
       "source": "release"
     },
     {
+      "name": "vercel/next.js v16.5.0-canary.69",
+      "repo": "vercel/next.js",
+      "description": "### Core Changes\n\n- Upgrade React from `89d7b2b4-20261123` to `edae846a-20261125`: #102463\n- Reword the error for a blocking route loaded while navigations are paused: #102398\n- Say that dev validation is skipped when server caches are bypassed: #102386\n\n### Misc Changes\n\n- test: skip @next/mcp e2e in deploy mode: #102454\n- docs: clarify route groups in route type helpers: #102460\n- docs: lead with use(browser()) for browser-only rendering: #102401\n\n### Credits \n\nHuge thanks to @sokra, @aurorasc",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.69",
+      "published_at": "2026-11-27 03:20",
+      "tag": "v16.5.0-canary.69",
+      "source": "release"
+    },
+    {
       "name": "vercel/next.js v16.5.0-canary.68",
       "repo": "vercel/next.js",
       "description": "### Core Changes\n\n- Mark @next/mcp as private: #102446\n- Clarify the Cache Components error for static exports: #101250\n- Add the next/go SDK and move Go Proxy helpers into it: #101874\n\n### Misc Changes\n\n- Fix Go package declaration in native proxy security fixture: #102447\n- Fix Go proxy RSC dot-segment authorization bypass: #102444\n- Go routes: compile route.go/proxy.go directories as importable packages, not package main: #101898\n- ci(trigger_release): print workflow inputs before the approva",
@@ -127,15 +136,6 @@
       "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.67",
       "published_at": "2026-11-26 18:27",
       "tag": "v16.5.0-canary.67",
-      "source": "release"
-    },
-    {
-      "name": "vercel/next.js v16.5.0-canary.66",
-      "repo": "vercel/next.js",
-      "description": "### Core Changes\r\n\r\n- Add migration guidance for removed --no-lint option: #102190\r\n- Revert \"Enable lazy dynamic imports by default in development (#101873)\": #102379\r\n- Support output: 'standalone' with experimental.goRoutes: #102362\r\n- Fix the CLI environment leaking into agent upgrades: #102070\r\n\r\n### Misc Changes\r\n\r\n- docs: explain importing @next/env from native ES modules: #102360\r\n- docs: note that Client Component props add to the page's HTML: #102324\r\n\r\n### Credits \r\n\r\nHuge thanks to @",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.66",
-      "published_at": "2026-11-26 18:26",
-      "tag": "v16.5.0-canary.66",
       "source": "release"
     }
   ]
